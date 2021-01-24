@@ -16,6 +16,12 @@ The items/features are not perfect. None of them contain the appropriate Changes
 
 If you intend to make changes (you probably will), I strongly recommend creating a personal copy of the databases so any changes you make don't get overwritten.
 
+# Installation
+
+If you want to install manually, use the main release download .zip and place the pf-content into your modules folder.
+
+To install through Foundry, use the following link: https://github.com/baileymh/pf1e-content/releases/download/main/module.json
+
 ----------------
 # Credit
 These items were converted to foundry with the help of Data Toolbox for FoundryVTT by Sven Werlen, and the following excel sheets by Mike Chopswil
