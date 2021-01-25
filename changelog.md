@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.36
+
+### Changelog
+
+- Added Section 15 copyright info to the OGL.txt
+- Added CREDITS.md
+- Included Credits and more author info in manifest file 
+
 ## 0.1.35
 
 ### Bug Fixes

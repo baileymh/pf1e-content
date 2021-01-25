@@ -1,63 +1,70 @@
 {
-    "name": "pf-content",
-    "title": "Pathfinder 1e Content",
-    "description": "Contains the complete PFRPG Feats, Traits, Magical items, and a growing set of user buffs.",
-    "version": "0.1.35",
-    "minimumCoreVersion": "0.7.5",
-    "compatibleCoreVersion": "0.7.9",
-	"systems": ["pf1"],
-    "author": "Michael B.",
-	"url":"https://github.com/baileymh/pf1e-content",
-	"manifest": "https://github.com/baileymh/pf1e-content/releases/download/main/module.json",
-	"download":"https://github.com/baileymh/pf1e-content/releases/download/main/pf-content.zip",
-	"readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
-    "packs": [
+  "name": "pf-content",
+  "title": "Pathfinder 1e Content",
+  "description": "Contains the complete PFRPG Feats, Traits, Magical items, and a growing set of user buffs.",
+  "version": "0.1.36",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+"systems": ["pf1"],
+  "authors": [
+  {
+    "Name":"Michael Bailey",
+    "Discord":"fadedshadow589#8270",
+    "Contributors":"raabb, Kronos, llneo12"
+  }
+],
+"url":"https://github.com/baileymh/pf1e-content",
+"manifest": "https://github.com/baileymh/pf1e-content/releases/download/main/module.json",
+"download":"https://github.com/baileymh/pf1e-content/releases/download/main/pf-content.zip",
+"readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
+"changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
+  "packs": [
+  {
+    "name": "feats",
+    "label": "PF-Feats",
+    "system": "pf1",
+    "path": "packs/pffeats.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
     {
-      "name": "feats",
-      "label": "PF-Feats",
-	  "system": "pf1",
-      "path": "packs/pffeats.db",
-      "entity": "Item",
-      "module": "pf-content"
-    },
-	    {
-      "name": "traits",
-      "label": "PF-Traits",
-	  "system": "pf1",
-      "path": "packs/pftraits.db",
-      "entity": "Item",
-      "module": "pf-content"
-    },
-		    {
-      "name": "artifacts",
-      "label": "PF-Artifacts",
-	  "system": "pf1",
-      "path": "packs/pfartifacts.db",
-      "entity": "Item",
-      "module": "pf-content"
-    },
-		    {
-      "name": "magicitems",
-      "label": "PF-Magic Items",
-	  "system": "pf1",
-      "path": "packs/pfmagic.db",
-      "entity": "Item",
-      "module": "pf-content"
-    },
-		    {
-      "name": "wondrous",
-      "label": "PF-Wondrous",
-	  "system": "pf1",
-      "path": "packs/pfwondrous.db",
-      "entity": "Item",
-      "module": "pf-content"
-    },
-    {
-      "name": "pf-buffs",
-      "label": "PF-Buffs",
-	  "system": "pf1",
-      "path": "packs/pfbuffs.db",
-      "entity": "Item",
-      "module": "PF-Content"
-    }]
+    "name": "traits",
+    "label": "PF-Traits",
+    "system": "pf1",
+    "path": "packs/pftraits.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+      {
+    "name": "artifacts",
+    "label": "PF-Artifacts",
+    "system": "pf1",
+    "path": "packs/pfartifacts.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+      {
+    "name": "magicitems",
+    "label": "PF-Magic Items",
+    "system": "pf1",
+    "path": "packs/pfmagic.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+      {
+    "name": "wondrous",
+    "label": "PF-Wondrous",
+    "system": "pf1",
+    "path": "packs/pfwondrous.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+  {
+    "name": "pf-buffs",
+    "label": "PF-Buffs",
+    "system": "pf1",
+    "path": "packs/pfbuffs.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  }]
 }
