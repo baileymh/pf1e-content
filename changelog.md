@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.37
+- add buffs (~144) from core
+
+
+## 0.1.36
+- added credits, and appropriate section 15 copyright info.
+- updated module.json
+
 ## 0.1.35
 
 ### Bug Fixes
