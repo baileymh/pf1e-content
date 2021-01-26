@@ -1,12 +1,12 @@
 # Changelog
 
+## 0.1.37
+- add buffs (~144) from core
+
+
 ## 0.1.36
-
-### Changelog
-
-- Added Section 15 copyright info to the OGL.txt
-- Added CREDITS.md
-- Included Credits and more author info in manifest file 
+- added credits, and appropriate section 15 copyright info.
+- updated module.json
 
 ## 0.1.35
 
