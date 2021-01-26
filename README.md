@@ -1,26 +1,29 @@
 # pf1e-content
-converted/imported content for Foundry VTT PF1e
 
-This module comprises a host of content for pathfinder 1st ed. for foundry. .
+Converted/imported content for Foundry VTT PF1e
+
+This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 ## Included Content:
-~4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items)
 
-~2930 Feats
+- 4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items)
 
-~620 traits
+- 2930 Feats
 
-And a handful of buff effects
+- 620 traits
 
-The items/features are not perfect. None of them contain the appropriate Changes, attacks, armor bonuses, etc.. However, the entire item description as well as most of the relevant info needed to make them are typically included. Several of the magic items have default art pointing towards the pf1 system, but most are missing art. 
+- 144 buffs and variants
 
-If you intend to make changes (you probably will), I strongly recommend creating a personal copy of the databases so any changes you make don't get overwritten.
+These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
+
+Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
 # Installation
 
-If you want to install manually, use the main release download .zip and place the pf-content into your modules folder.
+If you want to install this module manually, use the main release download .zip.
+Unzip the file and transfer the pf-content folder to FoundryVTT\Data\modules.
 
-To install through Foundry, use the following link: https://github.com/baileymh/pf1e-content/releases/download/main/module.json
+To install through Foundry, copy the following manifest URL: https://github.com/baileymh/pf1e-content/releases/download/main/module.json
 
 ----------------
 # Credit
