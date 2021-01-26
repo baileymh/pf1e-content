@@ -1,7 +1,7 @@
 # Changelog
 
 ## 0.1.37
-- add buffs (~144) from core
+- Added 115 new buffs and variants to pfbuffs.db
 
 
 ## 0.1.36
