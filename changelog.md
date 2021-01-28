@@ -1,12 +1,17 @@
 # Changelog
 
 ## 0.1.37
+
+### Changelog
+
 - Added 115 new buffs and variants to pfbuffs.db
 
-
 ## 0.1.36
-- added credits, and appropriate section 15 copyright info.
-- updated module.json
+
+### Changelog
+
+- Added credits, and appropriate section 15 copyright info.
+- Updated module.json
 
 ## 0.1.35
 
