@@ -23,7 +23,7 @@ Before altering any of the compendium databases, it is strongly recommended you 
 If you want to install this module manually, use the main release download .zip.
 Unzip the file and transfer the pf-content folder to FoundryVTT\Data\modules.
 
-To install through Foundry, copy the following manifest URL: https://github.com/baileymh/pf1e-content/releases/download/main/module.json
+To install through Foundry, by searching for Pathfinder 1e Content
 
 ----------------
 ## Credit
