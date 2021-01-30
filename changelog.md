@@ -1,8 +1,11 @@
 # Changelog
 ## 0.1.38
-- replaced feats from scratch
-- Now includes a total of 3,500 feasts, sourced directly from AON
-- Majority includes icons
+
+### Changelog
+
+- Replaced feats from scratch
+- Now includes a total of 3,500 feats, sourced directly from AON
+- Majority of feats include icons
 
 ## 0.1.37
 
