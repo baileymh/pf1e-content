@@ -8,7 +8,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items)
 
-- 2930 Feats
+- ~3,500 feats sourced directly from Archives of Nethys
 
 - 620 traits
 
