@@ -17,7 +17,7 @@ People and credit are listed in no particular order.
 * added images to feats, found missing entries
 
 # Kronos
-* Helped with Feats, Traits, and Buffs, found missing entries
+* Helped with Feats. Found and created all missing entries for traits. Created buffs database.
 
 # llneo12 
 * added images to feats
