@@ -1,5 +1,12 @@
 # Changelog
+
+## 0.1.40
+
+### Changelog
+- Added 88 faith traits
+
 ## 0.1.39
+
 ### Bug Fixes
 - Fixed some grammar and formatting issues within a number of feats
 
