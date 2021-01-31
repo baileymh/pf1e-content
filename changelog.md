@@ -1,10 +1,11 @@
 # Changelog
 ## 0.1.39
 ### Bug Fixes
-- fixed some grammar and formatting issues within a number of feats
+- Fixed some grammar and formatting issues within a number of feats
 
 ### Changelog
-- added the a large number of traits, all with icons and tags
+- Added 384 more traits including campaign, combat, cosmic, equipment, exemplar, faction, family, magic, and mount traits
+- All traits now have icons and category tags
 
 ## 0.1.38
 
