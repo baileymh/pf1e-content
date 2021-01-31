@@ -1,4 +1,9 @@
 # Changelog
+## 0.1.39
+###
+- fixed some grammar and formatting issues within a number of feats
+- added the a large number of traits, all with icons and tags
+
 ## 0.1.38
 
 ### Changelog
