@@ -10,11 +10,11 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 3,503 feats sourced directly from Archives of Nethys
 
-- 620 traits
+- 1,007 traits
 
 - 144 buffs and variants
 
-These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
+While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue or pm one of us on Discord (fadedshadow589#8270). These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
@@ -34,10 +34,6 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
-
-Feats:
-https://docs.google.com/spreadsheets/d/1XqQO21AyE2WtLwW0wSjA9ov74A9tmJmVJjrhPK54JHQ/edit#gid=99619603
-
 
 ------------------------------
 ## Templates for Data Toolbox for Foundry VTT:
