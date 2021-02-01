@@ -3,6 +3,7 @@
 ## 0.1.40
 
 ### Changelog
+- fix numerous errors within feats 
 - Added 88 faith traits
 
 ## 0.1.39
