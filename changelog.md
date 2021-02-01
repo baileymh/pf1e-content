@@ -5,6 +5,7 @@
 ### Changelog
 - fix numerous errors within feats 
 - Added 88 faith traits
+- Add Traps (from AoN)
 
 ## 0.1.39
 
