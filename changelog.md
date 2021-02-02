@@ -6,10 +6,10 @@
 
 ## 0.1.41
 ### Bug Fixes
-- fix numerous errors within feats 
+- Fixed numerous errors within feats 
 
 ### Changelog
-- Add Traps (from AoN)
+- Added Traps (from AoN)
 
 ## 0.1.40
 Changelog
