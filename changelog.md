@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.42
+### Bug Fixes
+- Finished feats - all have icons and were reviewed for errors
+
 ## 0.1.41
 ### Bug Fixes
 - fix numerous errors within feats 
