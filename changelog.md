@@ -1,9 +1,13 @@
 # Changelog
 
-## 0.1.43
+## 0.1.44
 ### Changelog
-- Temporarily removed traps as we improve them
-- updated misc files (description, changelog, credits)
+- Update description, changelog, and credits files
+- Added additional templates
+
+## 0.1.43
+## Changelog
+- Temporarily remove traps while they are improved
 
 ## 0.1.42
 ### Bug Fixes
