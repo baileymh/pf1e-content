@@ -4,6 +4,7 @@
 ### Changelog
 - Update description, changelog, and credits files
 - Added additional templates
+- Add 306 traits including missing social, religion, and drawbacks.
 
 ## 0.1.43
 ## Changelog
