@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.43
+### Changelog
+- Temporarily removed traps as we improve them
+- updated misc files (description, changelog, credits)
+
 ## 0.1.42
 ### Bug Fixes
 - Finished feats - all have icons and were reviewed for errors
