@@ -4,6 +4,10 @@
 ### Bug Fixes
 - Finished feats - all have icons and were reviewed for errors
 
+### Changelog
+
+- Added 306 traits including missing social, religion, and drawbacks.
+
 ## 0.1.41
 ### Bug Fixes
 - Fixed numerous errors within feats 
