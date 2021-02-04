@@ -10,7 +10,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 3,501 feats sourced directly from Archives of Nethys
 
-- 1,400 traits
+- 1,400 traits (race and regional traits are still incomplete. 3.5 material traits are being added to a separate 3.5 compendium)
 
 - 144 buffs and variants
 
