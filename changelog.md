@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.45
+### Changelog
+- Added 513 traits missing from race and regional categories
+
 ## 0.1.44
 ### Changelog
 - Updated description, changelog, and credits files
