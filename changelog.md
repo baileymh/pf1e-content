@@ -2,18 +2,18 @@
 
 ## 0.1.44
 ### Changelog
-- Update description, changelog, and credits files
+- Updated description, changelog, and credits files
 - Added additional templates
-- Fix various errors with feat tags
+- Fixed various errors with feat tags
 
 ## 0.1.43
 ## Changelog
-- Temporarily remove traps while they are improved
+- Temporarily removed traps for improvement
 
 ## 0.1.42
 ### Changelog
 - Finished feats, added icons to them and reviewed for errors
-- Added 306 traits including missing social, religion, and drawbacks.
+- Added 306 traits including missing social, religion, and drawbacks
 
 ## 0.1.41
 ### Bug Fixes
