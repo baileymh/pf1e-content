@@ -4,7 +4,6 @@
 ### Changelog
 - Update description, changelog, and credits files
 - Added additional templates
-- Add 306 traits including missing social, religion, and drawbacks.
 - Fix various errors with feat tags
 
 ## 0.1.43
