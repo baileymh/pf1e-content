@@ -12,11 +12,8 @@
 - Temporarily remove traps while they are improved
 
 ## 0.1.42
-### Bug Fixes
-- Finished feats - all have icons and were reviewed for errors
-
 ### Changelog
-
+- Finished feats, added icons to them and reviewed for errors
 - Added 306 traits including missing social, religion, and drawbacks.
 
 ## 0.1.41
