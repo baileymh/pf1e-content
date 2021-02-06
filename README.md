@@ -25,6 +25,22 @@ Unzip the file and transfer the pf-content folder to FoundryVTT\Data\modules.
 
 To install through Foundry, click on the Add-on Modules tab, then the Install Module button, and search for Pathfinder 1e Content.
 
+## Optional Content
+
+This module also includes some optional content that is not enabled by default. Included is 3.5 Content that is PFS legal, 84 traits and 20 feats. to enable these add the following to your module.json file, within the "packs": [...]
+
+
+```
+  {
+    "name": "35-content",
+    "label": "3.5 Content",
+    "system": "pf1",
+    "path": "packs/pf-35-content.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+```
+
 ----------------
 ## Credit
 These items were converted to foundry with the help of Data Toolbox for FoundryVTT by Sven Werlen, and the following excel sheets by Mike Chopswil.
