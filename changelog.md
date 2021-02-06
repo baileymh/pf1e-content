@@ -7,7 +7,7 @@
 - Added 20 3.5 Pathfinder compatible traits to a 3.5 content compendium
 - Tagged Pathfinder Society legal traits with a PFS tag, and added Pathfinder Society notes to those with PFS specific mechanics
 - Traits should now be considered complete
-- Added Pathfinder Society notes to feats with specific mechanics
+- Added Pathfinder Society notes to feats with PFS specific mechanics
 
 ### Bugfix
 - Fixed spacing and missing tags on Draconic Heritage and Hellknight Obediance
