@@ -1,6 +1,7 @@
 # Changelog
 
 ## 0.1.45
+
 ### Bugfixes
 - Fixed spacing and missing tags on Draconic Heritage and Hellknight Obediance
 
@@ -13,21 +14,25 @@
 - Added Pathfinder Society notes to feats with PFS specific mechanics
 
 ## 0.1.44
+
 ### Changelog
 - Updated description, changelog, and credits files
 - Added additional templates
 - Fixed various errors with feat tags
 
 ## 0.1.43
-## Changelog
+
+### Changelog
 - Temporarily removed traps for improvement
 
 ## 0.1.42
+
 ### Changelog
 - Finished feats, added icons to them and reviewed for errors
 - Added 306 traits including missing social, religion, and drawbacks
 
 ## 0.1.41
+
 ### Bug Fixes
 - Fixed numerous errors within feats 
 
@@ -35,6 +40,7 @@
 - Added Traps (from AoN)
 
 ## 0.1.40
+
 Changelog
 - Added 88 faith traits
 
