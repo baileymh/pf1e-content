@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.46
+
+### Bugfixes
+- Fixed incorrect change in Haste buff
+
+### Changelog
+- Added 'Squeezing' buff and variants
+
 ## 0.1.45
 
 ### Bugfixes
