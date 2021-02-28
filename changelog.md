@@ -11,6 +11,7 @@
 - Enable 3.5e content by default
 - Add debuffs for Misfortune and Evil Eye
 
+
 ## 0.1.45
 
 ### Bugfixes
