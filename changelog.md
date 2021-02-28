@@ -4,9 +4,11 @@
 
 ### Bugfixes
 - Fixed incorrect change in Haste buff
+- Fixed broken images in Magic Items due to case sensitive extensions
 
 ### Changelog
 - Added 'Squeezing' buff and variants
+- Enable 3.5e content by default
 
 ## 0.1.45
 
