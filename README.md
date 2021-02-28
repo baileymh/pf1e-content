@@ -18,6 +18,8 @@ While the feats and traits should contain nearly all entries, there might be a f
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
+3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.
+
 ## Installation
 
 If you want to install this module manually, use the main release download .zip.
