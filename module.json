@@ -2,21 +2,21 @@
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
   "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 146 buffs and variants. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.",
-  "version": "0.1.46",
+  "version": "0.1.47",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
-  "systems": ["pf1"],
-  "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos(Kronos#5516), llneo12",
-  "url":"https://github.com/baileymh/pf1e-content",
-  "manifest": "https://github.com/baileymh/pf1e-content/releases/download/main/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/main/pf-content.zip",
-  "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
-  "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
+  "systems": ["ffd20"],
+  "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos(Kronos#5516), llneo12 adapted for ffd20 by Ritsu Voices",
+  "url":"https://github.com/ritsuna/pf1e-content-for-ffd20",
+  "manifest": "https://github.com/ritsuna/pf1e-content-for-ffd20/releases/download/main/module.json",
+  "download":"https://github.com/ritsuna/pf1e-content-for-ffd20/releases/download/main/pf-content.zip",
+  "readme":"https://github.com/ritsuna/pf1e-content-for-ffd20/blob/main/README.md",
+  "changelog":"https://github.com/ritsuna/pf1e-content-for-ffd20/blob/main/changelog.md",
   "packs": [
   {
     "name": "feats",
     "label": "PF-Feats",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pffeats.db",
     "entity": "Item",
     "module": "pf-content"
@@ -24,7 +24,7 @@
     {
     "name": "traits",
     "label": "PF-Traits",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pftraits.db",
     "entity": "Item",
     "module": "pf-content"
@@ -32,7 +32,7 @@
       {
     "name": "artifacts",
     "label": "PF-Artifacts",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pfartifacts.db",
     "entity": "Item",
     "module": "pf-content"
@@ -40,14 +40,14 @@
       {
     "name": "magicitems",
     "label": "PF-Magic Items",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pfmagic.db",
     "entity": "Item",
     "module": "pf-content"
   },      {
     "name": "wondrous",
     "label": "PF-Wondrous",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pfwondrous.db",
     "entity": "Item",
     "module": "pf-content"
@@ -55,7 +55,7 @@
   {
     "name": "pf-buffs",
     "label": "PF-Buffs",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pfbuffs.db",
     "entity": "Item",
     "module": "PF-Content"
@@ -63,7 +63,7 @@
   {
     "name": "pf-35-content",
     "label": "PF-3.5e Content",
-    "system": "pf1",
+    "system": "ffd20",
     "path": "packs/pf-35-content.db",
     "entity": "Item",
     "module": "PF-Content"
