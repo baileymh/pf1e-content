@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.50
+
+### Bugfixes
+
+## Changelog
+
+- Added 1,855 non-magical items
+- Added 147 Universal Monster Rules
+- Added NPC merchants for main categories of items
+- Added rolltables for main categories of items
+- Created pf-items.db
+- Created pf-goods and services.db
+- Created pf-merchants.db
+- Created pf-tables.db
+
 ## 0.1.46
 
 ### Bugfixes
