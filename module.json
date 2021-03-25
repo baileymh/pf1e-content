@@ -1,8 +1,8 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 146 buffs and variants. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.",
-  "version": "0.1.46",
+  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 144 buffs and variants. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are included.",
+  "version": "0.1.5",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["pf1"],
@@ -66,6 +66,46 @@
     "system": "pf1",
     "path": "packs/pf-35-content.db",
     "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-goods-services",
+    "label": "PF-Goods and Services",
+    "system": "pf1",
+    "path": "packs/pf-goods-services.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-items",
+    "label": "PF-Items",
+    "system": "pf1",
+    "path": "packs/pf-items.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-merchants",
+    "label": "PF-Merchants",
+    "system": "pf1",
+    "path": "packs/pf-merchants.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-universal-monster-rules",
+    "label": "PF-Universal Monster Rules",
+    "system": "pf1",
+    "path": "packs/pf-universal-monster-rules.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-tables",
+    "label": "PF-Tables",
+    "system": "pf1",
+    "path": "packs/pf-tables.db",
+    "entity": "RollTable",
     "module": "PF-Content"
   }]
 }
