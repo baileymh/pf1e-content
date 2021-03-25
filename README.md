@@ -8,13 +8,15 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items)
 
+- 1,855 non-magic items (Including adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles), along with npc merchants and roll tables containing most of the items for practical use in game.
+
 - 3,501 feats sourced directly from Archives of Nethys
 
 - 2,034 traits sourced directly from Archives of Nethys
 
 - 146 buffs and variants
 
-While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue or pm one of us on Discord (fadedshadow589#8270 or Kronos#5516). These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
+While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue or pm me on Discord (fadedshadow589#8270). These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art.
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
