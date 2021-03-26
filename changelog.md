@@ -10,10 +10,10 @@
 - Added 147 Universal Monster Rules
 - Added NPC merchants for main categories of items
 - Added rolltables for main categories of items
-- Created pf-items.db
-- Created pf-goods and services.db
-- Created pf-merchants.db
-- Created pf-tables.db
+- Created PF-Items
+- Created -PF-Goods and Services
+- Created PF-Merchants
+- Created PF-Tables
 
 ## 0.1.46
 
