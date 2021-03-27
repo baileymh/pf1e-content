@@ -1,8 +1,11 @@
 # Changelog
 
-## 0.1.50
+## 0.1.51
 
 ### Bugfixes
+- Adjusted formatting of text and headers for better readibility
+
+## 0.1.50
 
 ## Changelog
 
