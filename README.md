@@ -4,7 +4,7 @@ Converted/imported content for Foundry VTT PF1e
 
 This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
-#### If you are exeriencing errors with the manifest, please uninstall and reinstall the module. Sorry for the inconvenience!
+### If you are exeriencing errors with the manifest, please uninstall and reinstall the module. Sorry for the inconvenience!
 
 ## Included Content:
 
