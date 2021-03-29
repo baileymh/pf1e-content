@@ -53,8 +53,11 @@ The following represent some of the planned features I intend to impliment:
 - Potential Journal packs for Mythic Adventures, Occult Adventures, etc..
 
 ## Contributing
+If you would like to help, you can do so through the Let's Contribute module feature for both PF-Content and PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. I will be regularly checking and merging changes people submit.
 
-If you would like to help, I am currently in the process of gaining access to the Let's Contribute module feature for this module, along with PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. Once I have access I should be able to start checking those and merging them.
+![image](https://user-images.githubusercontent.com/48079051/112698892-10d07180-8e61-11eb-88c4-273783ea6dad.png)
+
+![image](https://user-images.githubusercontent.com/48079051/112698919-234aab00-8e61-11eb-8930-a697082808fd.png)
 
 Alternatively, you can open an issue if you find a missing item, or an error. If you have changed/fixed multiple items, you are welcome to either send me the updated .db file or do a pull request so that I can try to merge your changes.
 
