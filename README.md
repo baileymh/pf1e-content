@@ -29,7 +29,6 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 - Rules for Kingdom Building, including a very basic journal table that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
 
 
-
 ## Information
 
 If you notice missing items or errors, please open an issue or pm me on Discord (fadedshadow589#8270).
@@ -39,6 +38,21 @@ These compendiums are not perfect. Except for buffs, none of them contain all th
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.
+
+
+## Kingdom Building 
+
+Includes a sample District, Building tokens created using game-icons, along with a few terrain tokens created in photoshop. If you would like to have better art included, or have any feedback, feel free to message me on discord or submit changes through Let's Contribute! 
+
+![image](https://user-images.githubusercontent.com/48079051/113073322-e0f1d880-9196-11eb-9989-aae14fce5e64.png)
+
+![image](https://user-images.githubusercontent.com/48079051/113073353-ecdd9a80-9196-11eb-9477-71fe2ee60350.png)
+
+![image](https://user-images.githubusercontent.com/48079051/113073445-1c8ca280-9197-11eb-8d99-2d700af55ff8.png)
+
+![image](https://user-images.githubusercontent.com/48079051/113073486-26aea100-9197-11eb-842d-47928ae9c32b.png)
+
+
 
 ## Planned Features/Additions
 
