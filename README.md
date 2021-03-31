@@ -4,11 +4,9 @@ Converted/imported content for Foundry VTT PF1e
 
 This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
-### If you are exeriencing errors with the manifest, please uninstall and reinstall the module. Sorry for the inconvenience!
-
 ## Included Content:
 
-- 4,200 magic items 
+- 4,200 magic items
     Including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items
 
 - 1,855 non-magic items
@@ -28,6 +26,10 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 146 buffs and variants
 
+- Rules for Kingdom Building, including a very basic journal table that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
+
+
+
 ## Information
 
 If you notice missing items or errors, please open an issue or pm me on Discord (fadedshadow589#8270).
@@ -41,6 +43,7 @@ Before altering any of the compendium databases, it is strongly recommended you 
 ## Planned Features/Additions
 
 The following represent some of the planned features I intend to impliment:
+- Kingdom Building Rules
 - Traps
 - Diseases
 - Haunts
