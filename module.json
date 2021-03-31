@@ -1,15 +1,15 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 144 buffs and variants. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are included.",
-  "version": "0.1.52",
+  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 144 buffs and variants. Also includes Kingdom Building Rules. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are included.",
+  "version": "0.1.53",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["pf1"],
   "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos, llneo12",
   "url":"https://github.com/baileymh/pf1e-content",
   "manifest": "https://raw.githubusercontent.com/baileymh/pf1e-content/main/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.52/pf-content.v0.1.52.zip",
+  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.53/pf-content.v0.1.53.zip",
   "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
   "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
@@ -105,6 +105,46 @@
     "label": "PF-Tables",
     "system": "pf1",
     "path": "packs/pf-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-gm",
+    "label": "Kingdom Building Rules - GM",
+    "system": "pf1",
+    "path": "packs/kingdom-building-gm.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-player",
+    "label": "Kingdom Building Rules - Player",
+    "system": "pf1",
+    "path": "packs/kingdom-building-player.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-scenes",
+    "label": "Kingdom Building - Scenes",
+    "system": "pf1",
+    "path": "packs/kingdom-building-scenes.db",
+    "entity": "Scene",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-buildings",
+    "label": "Kingdom Building - Buildings",
+    "system": "pf1",
+    "path": "packs/kingdom-building-buildings.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-tables",
+    "label": "Kingdom Building - Tables",
+    "system": "pf1",
+    "path": "packs/kingdom-building-tables.db",
     "entity": "RollTable",
     "module": "PF-Content"
   }]

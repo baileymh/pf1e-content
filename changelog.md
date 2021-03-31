@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.53
+
+### Changelog
+- Added Kingdom Building Rules (GM and Player version)
+- Added Buildings and some terrain as NPCs
+- Added Icons for buildings and terrain
+- Added two scenes for the District Grid
+
+### Bugfix
+- Adjusted formatting for item description text
+
+
+## 0.1.52
+- Bug fix with manifest error
+
 ## 0.1.51
 
 ### Bugfixes
@@ -7,7 +22,7 @@
 
 ## 0.1.50
 
-## Changelog
+### Changelog
 
 - Added 1,855 non-magical items
 - Added 147 Universal Monster Rules
