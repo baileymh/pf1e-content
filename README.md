@@ -42,6 +42,7 @@ Before altering any of the compendium databases, it is strongly recommended you 
 
 ## Kingdom Building 
 
+The Kingdom Building Journal Entries are splint into two, GM and Player. GM contains all the information, including optional rules, while the player version contains the rules most relevant to players without the bonuses/penalties they will get for particular buildings.
 Includes a sample District, Building tokens created using game-icons, along with a few terrain tokens created in photoshop. If you would like to have better art included, or have any feedback, feel free to message me on discord or submit changes through Let's Contribute! 
 
 ![image](https://user-images.githubusercontent.com/48079051/113073993-31b60100-9198-11eb-86d1-290b23d77297.png) ![image](https://user-images.githubusercontent.com/48079051/113073998-337fc480-9198-11eb-9229-6ae23ff12c7b.png)
@@ -89,6 +90,9 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
+
+Kingdfom Building Rules:
+The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT. 
 
 ## Legal
 "This system uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This [website, character sheet, or whatever it is] is not published, endorsed, or specifically approved by Paizo Inc. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Inc. and Paizo products, please visit paizo.com."
