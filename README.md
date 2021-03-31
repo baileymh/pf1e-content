@@ -91,7 +91,7 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
 
-Kingdfom Building Rules:
+Kingdom Building Rules:
 The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT. 
 
 ## Legal
