@@ -44,14 +44,14 @@ Before altering any of the compendium databases, it is strongly recommended you 
 
 Includes a sample District, Building tokens created using game-icons, along with a few terrain tokens created in photoshop. If you would like to have better art included, or have any feedback, feel free to message me on discord or submit changes through Let's Contribute! 
 
-![image](https://user-images.githubusercontent.com/48079051/113073322-e0f1d880-9196-11eb-9989-aae14fce5e64.png)
+![image](https://user-images.githubusercontent.com/48079051/113073993-31b60100-9198-11eb-86d1-290b23d77297.png)
 
-![image](https://user-images.githubusercontent.com/48079051/113073353-ecdd9a80-9196-11eb-9477-71fe2ee60350.png)
+![image](https://user-images.githubusercontent.com/48079051/113073998-337fc480-9198-11eb-9229-6ae23ff12c7b.png)
 
-![image](https://user-images.githubusercontent.com/48079051/113073445-1c8ca280-9197-11eb-8d99-2d700af55ff8.png)
 
-![image](https://user-images.githubusercontent.com/48079051/113073486-26aea100-9197-11eb-842d-47928ae9c32b.png)
+![image](https://user-images.githubusercontent.com/48079051/113073954-1f3bc780-9198-11eb-9787-cb4ca6e27075.png)
 
+![image](https://user-images.githubusercontent.com/48079051/113073964-2236b800-9198-11eb-9b6b-4173b3ed0626.png)
 
 
 ## Planned Features/Additions
