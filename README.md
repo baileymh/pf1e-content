@@ -48,10 +48,7 @@ Includes a sample District, Building tokens created using game-icons, along with
 
 ![image](https://user-images.githubusercontent.com/48079051/113073998-337fc480-9198-11eb-9229-6ae23ff12c7b.png)
 
-
-![image](https://user-images.githubusercontent.com/48079051/113073954-1f3bc780-9198-11eb-9787-cb4ca6e27075.png)
-
-![image](https://user-images.githubusercontent.com/48079051/113073964-2236b800-9198-11eb-9b6b-4173b3ed0626.png)
+![image](https://user-images.githubusercontent.com/48079051/113074059-55794700-9198-11eb-9764-dbd0e99df74e.png)
 
 
 ## Planned Features/Additions
