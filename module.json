@@ -2,7 +2,7 @@
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
   "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 144 buffs and variants. Also includes Kingdom Building Rules. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are included.",
-  "version": "0.1.53",
+  "version": "0.1.54",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["pf1"],
@@ -14,41 +14,41 @@
   "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
   {
-    "name": "feats",
+    "name": "pf-feats",
     "label": "PF-Feats",
     "system": "pf1",
-    "path": "packs/pffeats.db",
+    "path": "packs/pf-feats.db",
     "entity": "Item",
     "module": "pf-content"
   },
     {
-    "name": "traits",
+    "name": "pf-traits",
     "label": "PF-Traits",
     "system": "pf1",
-    "path": "packs/pftraits.db",
+    "path": "packs/pf-traits.db",
     "entity": "Item",
     "module": "pf-content"
   },
       {
-    "name": "artifacts",
+    "name": "pf-artifacts",
     "label": "PF-Artifacts",
     "system": "pf1",
-    "path": "packs/pfartifacts.db",
+    "path": "packs/pf-artifacts.db",
     "entity": "Item",
     "module": "pf-content"
   },
       {
-    "name": "magicitems",
+    "name": "pf-magicitems",
     "label": "PF-Magic Items",
     "system": "pf1",
-    "path": "packs/pfmagic.db",
+    "path": "packs/pf-magic.db",
     "entity": "Item",
     "module": "pf-content"
   },      {
-    "name": "wondrous",
+    "name": "pf-wondrous",
     "label": "PF-Wondrous",
     "system": "pf1",
-    "path": "packs/pfwondrous.db",
+    "path": "packs/pf-wondrous.db",
     "entity": "Item",
     "module": "pf-content"
   },
@@ -56,7 +56,7 @@
     "name": "pf-buffs",
     "label": "PF-Buffs",
     "system": "pf1",
-    "path": "packs/pfbuffs.db",
+    "path": "packs/pf-buffs.db",
     "entity": "Item",
     "module": "PF-Content"
   },
@@ -109,10 +109,50 @@
     "module": "PF-Content"
   },
   {
+    "name": "mythicadventures",
+    "label": "Mythic Adventures Rulebook",
+    "system": "pf1",
+    "path": "packs/mythic-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
     "name": "kingdom-building-gm",
     "label": "Kingdom Building Rules - GM",
     "system": "pf1",
     "path": "packs/kingdom-building-gm.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-traps",
+    "label": "PF-Traps",
+    "system": "pf1",
+    "path": "packs/pf-traps.db",
+    "entity": "Actor",
+    "module": "pf1e-journals"
+  },
+  {
+    "name": "pf-diseases",
+    "label": "PF-Diseases",
+    "system": "pf1",
+    "path": "packs/pf-diseases.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-rules",
+    "label": "PF-Rules",
+    "system": "pf1",
+    "path": "packs/pf-rules.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "gm-quick-reference",
+    "label": "GM Quick Reference",
+    "system": "pf1",
+    "path": "packs/gm-quick-reference.db",
     "entity": "JournalEntry",
     "module": "PF-Content"
   },

@@ -10,24 +10,25 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     Including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items
 
 - 1,855 non-magic items
-    Includes adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles.
-    These items are split between two compendia: PF-Items and PF-Goods and Services. The PF-Goods and Services compendium contains animals/mounts/pets, along with animal gear, food/drink, herbs, lodging/services, clothing, books, spellbooks, transportion, and vehicles. While the PF-Items compendium contains the adventuring gear, alchemical items, and tool.
+    - Includes adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles.
+
+    - These items are split between two compendia: PF-Items and PF-Goods and Services. The PF-Goods and Services compendium contains animals/mounts/pets, along with animal gear, food/drink, herbs, lodging/services, clothing, books, spellbooks, transportion, and vehicles. While the PF-Items compendium contains the adventuring gear, alchemical items, and tool.
 
 - Several Merchant NPCs and roll tables have been added.
-    They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
-    By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
+    - They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
+    - By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
 
 - 3,501 feats sourced directly from Archives of Nethys
 
 - 2,034 traits sourced directly from Archives of Nethys
 
 - 147 Universal Monster Rules
-    Containing embeded links to the pf1 system journal entries for conditions.
 
 - 146 buffs and variants
 
-- Rules for Kingdom Building, including a very basic journal table that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
-
+- Rules for:
+    - Mythic Adventures
+    - Kingdom Building. Including a very basic journal that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
 
 
 ## Information
@@ -43,21 +44,23 @@ Before altering any of the compendium databases, it is strongly recommended you 
 ## Planned Features/Additions
 
 The following represent some of the planned features I intend to impliment:
-- Kingdom Building Rules
-- Traps
-- Diseases
+x Kingdom Building Rules
+x Traps
+x Diseases
 - Haunts
 - Madnesses
 - Curses
-- Poisons (those currently missing or not included)
+- Poisons (those currently missing or not included as items)
 - Deities
 - Occult Rituals
 - Additional buffs/debuffs
 - Racial traits
 - Arcane Familiars
-- Potential Journal packs for Mythic Adventures, Occult Adventures, etc..
+- Summoned Monsters
+- GM'ing Tools and Resources
+- Potential Journal packs for Occult Adventures, Planar Adventures, Ultimate ___, etc..
 
-## Contributing
+## Want to Help?
 If you would like to help, you can do so through the Let's Contribute module feature for both PF-Content and PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. I will be regularly checking and merging changes people submit.
 
 ![image](https://user-images.githubusercontent.com/48079051/112698892-10d07180-8e61-11eb-88c4-273783ea6dad.png)
@@ -81,6 +84,8 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
+
+
 
 ## Legal
 "This system uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This [website, character sheet, or whatever it is] is not published, endorsed, or specifically approved by Paizo Inc. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Inc. and Paizo products, please visit paizo.com."

@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.54
+### Bugfixes
+- Renamed files to be consistent
+
+### Changelog
+- Added 70 Traps
+- Added 72 Diseases
+- Added the start of PF-Rules, which will be added to in the future
+- Added a GM Quick Reference compendium with several journal entries to aid GMs
+- Added Mythic Adventures Rulebook (Contains, in essense, the entire book, organized by number and folder)
+
+
 ## 0.1.53
 
 ### Changelog
