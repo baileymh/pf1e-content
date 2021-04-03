@@ -53,9 +53,9 @@ Includes a sample District, Building tokens created using game-icons, along with
 ## Planned Features/Additions
 
 The following represent some of the planned features I intend to impliment:
-x Kingdom Building Rules
-x Traps
-x Diseases
+- DONE Kingdom Building Rules
+- DONE Traps
+- DONE Diseases
 - Haunts
 - Madnesses
 - Curses
