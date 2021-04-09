@@ -26,9 +26,15 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 146 buffs and variants
 
-- Rules for:
-    - Mythic Adventures
-    - Kingdom Building. Including a very basic journal that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
+- GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. 
+
+### Rule Compendium
+- PF-Rules
+    - Contains most of the rules for Basic Play, Combat, Environment, Exploration, Items, Magic, and Skills
+    - Plans to include Optional Rules and Gamemastery content
+- Mythic Adventures
+- Kingdom Building
+    - Including a very basic journal that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
 
 ## Information
 
@@ -41,7 +47,7 @@ Before altering any of the compendium databases, it is strongly recommended you 
 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.
 
 
-## Kingdom Building 
+## Kingdom Building
 
 The Kingdom Building Journal Entries are splint into two, GM and Player. GM contains all the information, including optional rules, while the player version contains the rules most relevant to players without the bonuses/penalties they will get for particular buildings.
 Includes a sample District, Building tokens created using game-icons, along with a few terrain tokens created in photoshop. If you would like to have better art included, or have any feedback, feel free to message me on discord or submit changes through Let's Contribute! 
@@ -56,16 +62,18 @@ The following represent some of the planned features I intend to impliment:
 x Kingdom Building Rules
 x Traps
 x Diseases
+x Mythic Adventure Rulebook
+
 - Haunts
 - Madnesses
 - Curses
-- Poisons (those currently missing or not included as items)
+- Poisons (those missing or not included as items)
 - Deities
-- Occult Rituals
 - Additional buffs/debuffs
 - Racial traits
 - Arcane Familiars
 - Summoned Monsters
+- Occult Rituals
 - GM'ing Tools and Resources
 - Potential Journal packs for Occult Adventures, Planar Adventures, Ultimate ___, etc..
 

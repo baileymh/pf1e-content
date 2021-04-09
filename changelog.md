@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.55
+### Changelog
+- Added a Grapple flow chart to GM Cheat sheet
+- Added a couple Traps that were missing
+- Added PF-Rules - contains huge amount of linked and organized rules for:
+    - Basic Rules
+    - Combat
+    - Environment
+    - Exploration
+    - Gamemastering (Placeholder)
+    - Items
+    - Magic
+    - Optional Rules (Hero Points, and Words of Power - the rest are incomplete)
+    - Skills
+    
+### Bugfixes
+
 ## 0.1.54
 ### Bugfixes
 - Renamed files to be consistent
