@@ -32,7 +32,7 @@ The icons used from their site can be accredited to the following artists:
 * added images to feats, found missing entries
 
 # Kronos
-* Helped with Feats. Found and created all missing entries for traits. Created buffs database.
+* Helped with Feats. Found and created all missing entries for traits. Created buffs database. Contributed time and energy for deities, and generally helped with various aspects.
 
 # llneo12 
 * added images to feats, and helped with linking prestige classes
