@@ -1,3 +1,6 @@
+## Important
+If you are experiencing an error with the manifest while trying to update, please uninstall and reinstall the module. There was an error in the manifest for 0.1.46, that broke the ability to update from it. 
+
 # pf1e-content
 
 Converted/imported content for Foundry VTT PF1e
