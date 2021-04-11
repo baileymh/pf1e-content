@@ -21,9 +21,11 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     - They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
     - By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
 
-- 3,501 feats sourced directly from Archives of Nethys
+- 3,501 feats
 
-- 2,034 traits sourced directly from Archives of Nethys
+- 2,034 traits
+
+- 747 racial traits
 
 - 147 Universal Monster Rules
 

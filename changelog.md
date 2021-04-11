@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.57
+### Changelog
+- Added 747 Racial Traits
+
 ## 0.1.56
 ### Changelog
 - Added Tips and Tricks, and Change Formula to GM Quick Reference
