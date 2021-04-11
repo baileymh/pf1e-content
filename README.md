@@ -37,7 +37,8 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     - Plans to include Optional Rules and Gamemastery content
 - Mythic Adventures
 - Kingdom Building
-    - Including a very basic journal that should allow for the tracking and use of kingdom building in Foundry, along with a map and tokens for use as District Grid and Buildings.
+    - Including an organized journal sheet for the tracking and use of kingdom buildings in Foundry
+    - Also includes a map and tokens for use as District Grid and Buildings.
 
 ## Information
 
