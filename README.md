@@ -102,6 +102,8 @@ To install through Foundry, click on the Add-on Modules tab, then the Install Mo
 ## Credit
 These items were converted to foundry with the help of Data Toolbox for FoundryVTT by Sven Werlen, and the following excel sheets by Mike Chopswil.
 
+Huge thank you to @TMun#1625 for providing raw data from AON. 
+
 Monster Stat blocks
 https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1CQc/edit#gid=534557795
 
