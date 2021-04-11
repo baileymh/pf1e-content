@@ -29,7 +29,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 146 buffs and variants
 
-- GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. 
+- GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. As well as some tips for working in Foundry, and for contributing towards this and other rules/modules using Changes.
 
 ### Rule Compendium
 - PF-Rules

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.56
+### Changelog
+- Added Tips and Tricks, and Change Formula to GM Quick Reference
+- Redid some of the Index organization for PF-Rules
+- Added Weapon and Armor Materials to PF-Rules under Items
+- Added Subrace descriptions in PF-Rules under Basic Rules
+
+
 ## 0.1.55
 ### Changelog
 - Added a Grapple flow chart to GM Cheat sheet
