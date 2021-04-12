@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.58
+### Changelog
+- Added Subrace info to PF-Rules under Basic Rules
+- Added Weapon and Armor Special Qualities in PF-Special Qualities
+
 ## 0.1.57
 ### Changelog
 - Added 747 Racial Traits
