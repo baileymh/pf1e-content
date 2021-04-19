@@ -29,7 +29,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 147 Universal Monster Rules
 
-- 146 buffs and variants
+- 160+ buffs/debuffs and variants
 
 - GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. As well as some tips for working in Foundry, and for contributing towards this and other rules/modules using Changes.
 
@@ -38,6 +38,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     - Contains most of the rules for Basic Play, Combat, Environment, Exploration, Items, Magic, and Skills
     - Plans to include Optional Rules and Gamemastery content
 - Mythic Adventures
+- Horror Adventures
 - Kingdom Building
     - Including an organized journal sheet for the tracking and use of kingdom buildings in Foundry
     - Also includes a map and tokens for use as District Grid and Buildings.
@@ -69,6 +70,7 @@ x Kingdom Building Rules
 x Traps
 x Diseases
 x Mythic Adventure Rulebook
+x Horror Adventure Rulebook
 
 - Haunts
 - Madnesses
