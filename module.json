@@ -1,15 +1,15 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits, 747 racial traits, 333 special weapon/armor qualities, and 144 buffs and variants. Also includes a huge amount of Rule journals for PF. Along with a host of other items and resources. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make work them are included.",
-  "version": "0.1.58",
+  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits, 747 racial traits, 333 special weapon/armor qualities, and 160 buffs and variants. Also includes a huge amount of Rule journals for PF, as well as rulebooks for Mythic Adventures and Horror Adventures. Along with a host of other items and resources. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make work them are included.",
+  "version": "0.1.59",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["pf1"],
   "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos, llneo12",
   "url":"https://github.com/baileymh/pf1e-content",
   "manifest": "https://raw.githubusercontent.com/baileymh/pf1e-content/main/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.58/pf-content.v0.1.58.zip",
+  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.59/pf-content.v0.1.59.zip",
   "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
   "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
@@ -21,7 +21,7 @@
     "entity": "Item",
     "module": "pf-content"
   },
-    {
+  {
     "name": "pf-traits",
     "label": "PF-Traits",
     "system": "pf1",
@@ -45,14 +45,15 @@
     "entity": "Item",
     "module": "pf-content"
   },
-      {
+  {
     "name": "pf-magicitems",
     "label": "PF-Magic Items",
     "system": "pf1",
     "path": "packs/pf-magic.db",
     "entity": "Item",
     "module": "pf-content"
-  },      {
+  },      
+  {
     "name": "pf-wondrous",
     "label": "PF-Wondrous",
     "system": "pf1",
@@ -117,22 +118,6 @@
     "module": "PF-Content"
   },
   {
-    "name": "mythic-adventures",
-    "label": "Mythic Adventures Rulebook",
-    "system": "pf1",
-    "path": "packs/mythic-adventures.db",
-    "entity": "JournalEntry",
-    "module": "PF-Content"
-  },
-  {
-    "name": "kingdom-building-gm",
-    "label": "Kingdom Building Rules - GM",
-    "system": "pf1",
-    "path": "packs/kingdom-building-gm.db",
-    "entity": "JournalEntry",
-    "module": "PF-Content"
-  },
-  {
     "name": "pf-traps",
     "label": "PF-Traps",
     "system": "pf1",
@@ -169,6 +154,30 @@
     "label": "GM Quick Reference",
     "system": "pf1",
     "path": "packs/gm-quick-reference.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "mythic-adventures",
+    "label": "Mythic Adventures Rulebook",
+    "system": "pf1",
+    "path": "packs/mythic-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "horror-adventures",
+    "label": "Horror Adventures Rulebook",
+    "system": "pf1",
+    "path": "packs/horror-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-gm",
+    "label": "Kingdom Building Rules - GM",
+    "system": "pf1",
+    "path": "packs/kingdom-building-gm.db",
     "entity": "JournalEntry",
     "module": "PF-Content"
   },

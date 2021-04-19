@@ -1,5 +1,51 @@
 # Changelog
 
+## 0.1.59
+### Changelog
+- Added merges from Let's Contribute for various feats, and traits
+- Added Horror Adventures Rulebook
+- Added Horror Adventure tables to PF-Tables
+- Added a bunch of buffs/debuffs
+    Banner (Cav)
+    Bless weapon
+    Bungle
+    Chastise
+    Climbing
+    Crafter's Fortune
+    Common Conditional Modifiers (As an attack to allow for copying to others)
+        Flanking
+        Outflank
+        Study Target
+        Sneak Attack
+        Precise Strike
+        Bonus to DC 
+        Charging
+        Increased Charge cost
+        Crit Confirm Bonus
+    Debilitating Injury
+    Faerie Faerie
+    Fumblestep
+    Ghostbane Dirge
+    Gravity Bow
+    Greater Banner (Cav)
+    Heroes' Feast
+    Hobble
+    Ill Omen
+    Lead Blades
+    Longshot
+    Longstrider, Greater
+    Lunge
+    Magic Fang
+    Magic Fang, Greater
+    Mutagens (Str/Con/Dex)
+    Monkey Fish
+    Pass Without Trace
+    Rage (Spell)
+    Rage (Barbarian - Scales up to level 20)
+    Rage UC (Scales up to level 20)
+    Virtue
+    Vigor
+
 ## 0.1.58
 ### Changelog
 - Added Subrace info to PF-Rules under Basic Rules
