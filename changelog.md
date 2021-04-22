@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.60
+### Changelog
+- Add 149 Poisons
+- Add Harrow Deck rules
+
 ## 0.1.59
 ### Changelog
 - Added merges from Let's Contribute for various feats, and traits
