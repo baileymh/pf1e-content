@@ -3,7 +3,8 @@
 ## 0.1.60
 ### Changelog
 - Add 149 Poisons
-- Add Harrow Deck rules
+- Add Harrow Deck rules (Cards still WIP)
+- Add Random Encounter Tables
 
 ## 0.1.59
 ### Changelog
