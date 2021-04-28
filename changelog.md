@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.61
+### Changelog
+- Add 177 Familiars and Pets (PF-Familiars)
+- Add Rules for Familiars (and limited for Companions) to PF-Rules
+- Add Tips and tricks to GM Quick Reference compendium
+- Add Change formula reference sheet to GM Quick Reference (For use in creating/adding changes to items/features)
+- Merge Let's Contribute contributions
+
+
 ## 0.1.60
 ### Changelog
 - Add 149 Poisons

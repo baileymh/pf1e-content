@@ -23,11 +23,11 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 3,501 feats
 
-- 2,034 traits
-
-- 747 racial traits
+- 2,034 traits and 747 racial traits
 
 - 147 Universal Monster Rules
+
+- 177 Familiars and Pets
 
 - 160+ buffs/debuffs and variants
 
