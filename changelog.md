@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.62
+### Changelog
+- Add Animal Companion Class and features (created by Fair Strides)
+- Add 209 Animal Companions and pets
+- Add more rules and links to PF-Rules for Companions
+
+
 ## 0.1.61
 ### Changelog
 - Add 177 Familiars and Pets (PF-Familiars)
