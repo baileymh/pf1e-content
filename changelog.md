@@ -1,5 +1,152 @@
 # Changelog
 
+## 0.1.62
+### Changelog
+- Add Animal Companion Class and features (created by Fair Strides)
+- Add 209 Animal Companions and pets
+- Add more rules and links to PF-Rules for Companions
+
+
+## 0.1.61
+### Changelog
+- Add 177 Familiars and Pets (PF-Familiars)
+- Add Rules for Familiars (and limited for Companions) to PF-Rules
+- Add Tips and tricks to GM Quick Reference compendium
+- Add Change formula reference sheet to GM Quick Reference (For use in creating/adding changes to items/features)
+- Merge Let's Contribute contributions
+
+
+## 0.1.60
+### Changelog
+- Add 149 Poisons
+- Add Harrow Deck rules (Cards still WIP)
+- Add Random Encounter Tables
+
+## 0.1.59
+### Changelog
+- Added merges from Let's Contribute for various feats, and traits
+- Added Horror Adventures Rulebook
+- Added Horror Adventure tables to PF-Tables
+- Added a bunch of buffs/debuffs
+    Banner (Cav)
+    Bless weapon
+    Bungle
+    Chastise
+    Climbing
+    Crafter's Fortune
+    Common Conditional Modifiers (As an attack to allow for copying to others)
+        Flanking
+        Outflank
+        Study Target
+        Sneak Attack
+        Precise Strike
+        Bonus to DC 
+        Charging
+        Increased Charge cost
+        Crit Confirm Bonus
+    Debilitating Injury
+    Faerie Faerie
+    Fumblestep
+    Ghostbane Dirge
+    Gravity Bow
+    Greater Banner (Cav)
+    Heroes' Feast
+    Hobble
+    Ill Omen
+    Lead Blades
+    Longshot
+    Longstrider, Greater
+    Lunge
+    Magic Fang
+    Magic Fang, Greater
+    Mutagens (Str/Con/Dex)
+    Monkey Fish
+    Pass Without Trace
+    Rage (Spell)
+    Rage (Barbarian - Scales up to level 20)
+    Rage UC (Scales up to level 20)
+    Virtue
+    Vigor
+
+## 0.1.58
+### Changelog
+- Added Subrace info to PF-Rules under Basic Rules
+- Added Weapon and Armor Special Qualities in PF-Special Qualities
+
+## 0.1.57
+### Changelog
+- Added 747 Racial Traits
+
+## 0.1.56
+### Changelog
+- Added Tips and Tricks, and Change Formula to GM Quick Reference
+- Redid some of the Index organization for PF-Rules
+- Added Weapon and Armor Materials to PF-Rules under Items
+- Added Subrace descriptions in PF-Rules under Basic Rules
+
+
+## 0.1.55
+### Changelog
+- Added a Grapple flow chart to GM Cheat sheet
+- Added a couple Traps that were missing
+- Added PF-Rules - contains huge amount of linked and organized rules for:
+    - Basic Rules
+    - Combat
+    - Environment
+    - Exploration
+    - Gamemastering (Placeholder)
+    - Items
+    - Magic
+    - Optional Rules (Hero Points, and Words of Power - the rest are incomplete)
+    - Skills
+    
+### Bugfixes
+
+## 0.1.54
+### Bugfixes
+- Renamed files to be consistent
+
+### Changelog
+- Added 70 Traps
+- Added 72 Diseases
+- Added the start of PF-Rules, which will be added to in the future
+- Added a GM Quick Reference compendium with several journal entries to aid GMs
+- Added Mythic Adventures Rulebook (Contains, in essence, the entire book, organized by number and folder)
+
+
+## 0.1.53
+
+### Changelog
+- Added Kingdom Building Rules (GM and Player version)
+- Added Buildings and some terrain as NPCs
+- Added Icons for buildings and terrain
+- Added two scenes for the District Grid
+
+### Bugfix
+- Adjusted formatting for item description text
+
+
+## 0.1.52
+- Bug fix with manifest error
+
+## 0.1.51
+
+### Bugfixes
+- Adjusted formatting of text and headers for better readibility
+
+## 0.1.50
+
+### Changelog
+
+- Added 1,855 non-magical items
+- Added 147 Universal Monster Rules
+- Added NPC merchants for main categories of items
+- Added rolltables for main categories of items
+- Created PF-Items
+- Created -PF-Goods and Services
+- Created PF-Merchants
+- Created PF-Tables
+
 ## 0.1.46
 
 ### Bugfixes

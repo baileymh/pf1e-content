@@ -1,55 +1,63 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 3,501 feats and 2,034 traits sourced directly from Archives of Nethys, and 146 buffs and variants. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.",
-  "version": "0.1.47",
+  "description": "4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items), 1,855 non-magical items, 3,501 feats and 2,034 traits, 747 racial traits, 333 special weapon/armor qualities, and 160 buffs/debuffs, and encounter tables. Also includes a huge amount of Rule journals for PF, as well as rulebooks for Mythic Adventures and Horror Adventures. Along with a host of other items and resources. These compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make work them are included.",
+  "version": "0.1.63",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["ffd20"],
-  "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos(Kronos#5516), llneo12 adapted for ffd20 by Ritsu Voices",
+  "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos, Fair Strides(Fair Strides#2148), llneo12",
   "url":"https://github.com/ritsuna/pf1e-content-for-ffd20",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/pf1e-content-for-ffd20/main/module.json",
-  "download":"https://github.com/Ritsuna/pf1e-content-for-ffd20/archive/refs/tags/0.1.47.zip",
+  "download":"https://github.com/Ritsuna/pf1e-content-for-ffd20/archive/refs/tags/0.1.63.zip",
   "readme":"https://github.com/ritsuna/pf1e-content-for-ffd20/main/README.md",
   "changelog":"https://github.com/ritsuna/pf1e-content-for-ffd20/main/changelog.md",
-
   "packs": [
   {
-    "name": "feats",
+    "name": "pf-feats",
     "label": "PF-Feats",
     "system": "ffd20",
-    "path": "packs/pffeats.db",
+    "path": "packs/pf-feats.db",
     "entity": "Item",
     "module": "pf-content"
   },
-    {
-    "name": "traits",
+  {
+    "name": "pf-traits",
     "label": "PF-Traits",
     "system": "ffd20",
-    "path": "packs/pftraits.db",
+    "path": "packs/pf-traits.db",
     "entity": "Item",
     "module": "pf-content"
   },
-      {
-    "name": "artifacts",
+  {
+    "name": "pf-racial-traits",
+    "label": "PF-Racial Traits",
+    "system": "ffd20",
+    "path": "packs/pf-racial-traits.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+  {
+    "name": "pf-artifacts",
     "label": "PF-Artifacts",
     "system": "ffd20",
-    "path": "packs/pfartifacts.db",
+    "path": "packs/pf-artifacts.db",
     "entity": "Item",
     "module": "pf-content"
   },
-      {
-    "name": "magicitems",
+  {
+    "name": "pf-magicitems",
     "label": "PF-Magic Items",
     "system": "ffd20",
-    "path": "packs/pfmagic.db",
+    "path": "packs/pf-magic.db",
     "entity": "Item",
     "module": "pf-content"
-  },      {
-    "name": "wondrous",
+  },
+  {
+    "name": "pf-wondrous",
     "label": "PF-Wondrous",
     "system": "ffd20",
-    "path": "packs/pfwondrous.db",
+    "path": "packs/pf-wondrous.db",
     "entity": "Item",
     "module": "pf-content"
   },
@@ -57,7 +65,7 @@
     "name": "pf-buffs",
     "label": "PF-Buffs",
     "system": "ffd20",
-    "path": "packs/pfbuffs.db",
+    "path": "packs/pf-buffs.db",
     "entity": "Item",
     "module": "PF-Content"
   },
@@ -67,6 +75,182 @@
     "system": "ffd20",
     "path": "packs/pf-35-content.db",
     "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-goods-services",
+    "label": "PF-Goods and Services",
+    "system": "ffd20",
+    "path": "packs/pf-goods-services.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-items",
+    "label": "PF-Items",
+    "system": "ffd20",
+    "path": "packs/pf-items.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "harrow-deck",
+    "label": "Harrow Deck",
+    "system": "ffd20",
+    "path": "packs/harrow-deck.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-merchants",
+    "label": "PF-Merchants",
+    "system": "ffd20",
+    "path": "packs/pf-merchants.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-universal-monster-rules",
+    "label": "PF-Universal Monster Rules",
+    "system": "ffd20",
+    "path": "packs/pf-universal-monster-rules.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-tables",
+    "label": "PF-Tables",
+    "system": "ffd20",
+    "path": "packs/pf-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-encounter-tables",
+    "label": "PF-Encounter Tables",
+    "system": "ffd20",
+    "path": "packs/pf-encounter-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-traps",
+    "label": "PF-Traps",
+    "system": "ffd20",
+    "path": "packs/pf-traps.db",
+    "entity": "Actor",
+    "module": "pf1e-journals"
+  },
+  {
+    "name": "pf-diseases",
+    "label": "PF-Diseases",
+    "system": "ffd20",
+    "path": "packs/pf-diseases.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-familiars",
+    "label": "PF-Familiars",
+    "system": "ffd20",
+    "path": "packs/pf-familiars.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-companions",
+    "label": "PF-Animal Companions",
+    "system": "ffd20",
+    "path": "packs/pf-companions.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-companion-features",
+    "label": "PF-Animal Companion Features",
+    "system": "ffd20",
+    "path": "packs/pf-companion-features.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-special-qualities",
+    "label": "PF-Special Qualities",
+    "system": "ffd20",
+    "path": "packs/pf-special-qualities.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-rules",
+    "label": "PF-Rules",
+    "system": "ffd20",
+    "path": "packs/pf-rules.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "gm-quick-reference",
+    "label": "GM Quick Reference",
+    "system": "ffd20",
+    "path": "packs/gm-quick-reference.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "mythic-adventures",
+    "label": "Mythic Adventures Rulebook",
+    "system": "ffd20",
+    "path": "packs/mythic-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "horror-adventures",
+    "label": "Horror Adventures Rulebook",
+    "system": "ffd20",
+    "path": "packs/horror-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-gm",
+    "label": "Kingdom Building Rules - GM",
+    "system": "ffd20",
+    "path": "packs/kingdom-building-gm.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-player",
+    "label": "Kingdom Building Rules - Player",
+    "system": "ffd20",
+    "path": "packs/kingdom-building-player.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-scenes",
+    "label": "Kingdom Building - Scenes",
+    "system": "ffd20",
+    "path": "packs/kingdom-building-scenes.db",
+    "entity": "Scene",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-buildings",
+    "label": "Kingdom Building - Buildings",
+    "system": "ffd20",
+    "path": "packs/kingdom-building-buildings.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "kingdom-building-tables",
+    "label": "Kingdom Building - Tables",
+    "system": "ffd20",
+    "path": "packs/kingdom-building-tables.db",
+    "entity": "RollTable",
     "module": "PF-Content"
   }]
 }
