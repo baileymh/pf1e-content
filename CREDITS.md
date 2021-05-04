@@ -7,17 +7,35 @@ People and credit are listed in no particular order.
 * [Classes/Archetypes](https://www.fantasygrounds.com/forums/showthread.php?50404-Class-and-Archetype-Module) (none currently added)
 * [Spells](https://www.fantasygrounds.com/forums/showthread.php?58962-PFRPG-Spellbook) (none currently added
 
+
+## https://game-icons.net/
+For providing an excellent resource for making free customized icons.
+The icons used from their site can be accredited to the following artists:
+
+* DarkZaitzev (https://www.deviantart.com/darkzaitzev) under CC BY 3.0
+
+* Delapouite (https://delapouite.com/) under CC BY 3.0
+
+* GeneralAce135 under CC BY 3.0
+
+* Lorc (https://lorcblog.blogspot.com/) under CC BY 3.0
+
+* Skoll under CC BY 3.0
+
 # Esalarc
 * [Traits](https://www.fantasygrounds.com/forums/showthread.php?17935-Pathfinder-Feats-Traits-and-Equipment)
 
 # dllewell
-* [Kingdom Building](https://www.fantasygrounds.com/forums/showthread.php?62363-Module-for-Kingdom-Building) (not currently added)
+* [Kingdom Building](https://www.fantasygrounds.com/forums/showthread.php?62363-Module-for-Kingdom-Building)
+
+# Kronos
+* Helped with Feats. Found and created all missing entries for traits. Created buffs database. Contributed time and energy for deities, and generally helped with various aspects.
 
 # Raabb
 * added images to feats, found missing entries
 
-# Kronos
-* Helped with Feats. Found and created all missing entries for traits. Created buffs database.
+# Fair Strides (Fair Strides#2148)
+* Shared Animal Companion class and features
 
 # llneo12 
-* added images to feats
+* added images to feats, and helped with linking prestige classes

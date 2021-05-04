@@ -1,3 +1,6 @@
+## Important
+If you are experiencing an error with the manifest while trying to update, please uninstall and reinstall the module. There was an error in the manifest for 0.1.46, that broke the ability to update from it. 
+
 # pf1e-content
 
 Converted/imported content for Foundry VTT PF1e
@@ -6,24 +9,97 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 ## Included Content:
 
-- 4,200 magic items (including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items)
+- 4,200 magic items
+    Including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items
 
-- 3,501 feats sourced directly from Archives of Nethys
+- 1,855 non-magic items
+    - Includes adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles.
 
-- 2,034 traits sourced directly from Archives of Nethys
+    - These items are split between two compendia: PF-Items and PF-Goods and Services. The PF-Goods and Services compendium contains animals/mounts/pets, along with animal gear, food/drink, herbs, lodging/services, clothing, books, spellbooks, transportion, and vehicles. While the PF-Items compendium contains the adventuring gear, alchemical items, and tool.
 
-- 146 buffs and variants
+- Several Merchant NPCs and roll tables have been added.
+    - They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
+    - By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
 
-While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue or pm one of us on Discord (fadedshadow589#8270 or Kronos#5516). These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
+- 3,501 feats
+
+- 2,034 traits and 747 racial traits
+
+- 147 Universal Monster Rules
+
+- 177 Familiars and Pets
+
+- 160+ buffs/debuffs and variants
+
+- GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. As well as some tips for working in Foundry, and for contributing towards this and other rules/modules using Changes.
+
+### Rule Compendium
+- PF-Rules
+    - Contains most of the rules for Basic Play, Combat, Environment, Exploration, Items, Magic, and Skills
+    - Plans to include Optional Rules and Gamemastery content
+- Mythic Adventures
+- Horror Adventures
+- Kingdom Building
+    - Including an organized journal sheet for the tracking and use of kingdom buildings in Foundry
+    - Also includes a map and tokens for use as District Grid and Buildings.
+
+## Information
+
+If you notice missing items or errors, please open an issue or pm me on Discord (fadedshadow589#8270).
+
+These compendiums are not perfect. Except for buffs, none of them contain all the appropriate changes to attacks, armor bonuses, etc. However, the item description and all relevant info needed to make them are should be included.
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
 3.5 feats and traits are in a separate compendium. They are enabled by default and can be manually disabled.
 
-## Installation
 
-If you want to install this module manually, use the main release download .zip.
-Unzip the file and transfer the pf-content folder to FoundryVTT\Data\modules.
+## Kingdom Building
+
+The Kingdom Building Journal Entries are splint into two, GM and Player. GM contains all the information, including optional rules, while the player version contains the rules most relevant to players without the bonuses/penalties they will get for particular buildings.
+Includes a sample District, Building tokens created using game-icons, along with a few terrain tokens created in photoshop. If you would like to have better art included, or have any feedback, feel free to message me on discord or submit changes through Let's Contribute! 
+
+![image](https://user-images.githubusercontent.com/48079051/113073993-31b60100-9198-11eb-86d1-290b23d77297.png) ![image](https://user-images.githubusercontent.com/48079051/113073998-337fc480-9198-11eb-9229-6ae23ff12c7b.png)
+<img src="https://user-images.githubusercontent.com/48079051/113074059-55794700-9198-11eb-9764-dbd0e99df74e.png" width="478" height="506">
+
+
+## Planned Features/Additions
+
+The following represent some of the planned features I intend to impliment:
+x Kingdom Building Rules
+x Traps
+x Diseases
+x Mythic Adventure Rulebook
+x Horror Adventure Rulebook
+
+- Haunts
+- Madnesses
+- Curses
+- Poisons (those missing or not included as items)
+- Deities
+- Additional buffs/debuffs
+- Racial traits
+- Arcane Familiars
+- Summoned Monsters
+- Occult Rituals
+- GM'ing Tools and Resources
+- Potential Journal packs for Occult Adventures, Planar Adventures, Ultimate ___, etc..
+
+## Want to Help?
+If you would like to help, you can do so through the Let's Contribute module feature for both PF-Content and PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. I will be regularly checking and merging changes people submit.
+
+![image](https://user-images.githubusercontent.com/48079051/112698892-10d07180-8e61-11eb-88c4-273783ea6dad.png)
+
+![image](https://user-images.githubusercontent.com/48079051/112698919-234aab00-8e61-11eb-8930-a697082808fd.png)
+
+Alternatively, you can open an issue if you find a missing item, or an error. If you have changed/fixed multiple items, you are welcome to either send me the updated .db file or do a pull request so that I can try to merge your changes.
+
+Finally, individual progress of items/features is being tracked using a [Google Sheet](https://docs.google.com/spreadsheets/d/1yV1MrjyoHGgFLFIwcNdfaQ_VOF2oeza6DBvWgIzOgys/edit#gid=0).
+
+
+If you have any questions, concerns, or ideas, you are welcome to message me on discord (fadedshadow589#8270).
+
+## Installation
 
 To install through Foundry, click on the Add-on Modules tab, then the Install Module button, and search for Pathfinder 1e Content.
 
@@ -31,19 +107,17 @@ To install through Foundry, click on the Add-on Modules tab, then the Install Mo
 ## Credit
 These items were converted to foundry with the help of Data Toolbox for FoundryVTT by Sven Werlen, and the following excel sheets by Mike Chopswil.
 
+Huge thank you to @TMun#1625 for providing raw data from AON. 
+
 Monster Stat blocks
 https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1CQc/edit#gid=534557795
 
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
 
-------------------------------
-## Templates for Data Toolbox for Foundry VTT:
-Within the templates folder is the .json files I used, however they required a significant amount of cleaning of the excel files to work without issue. You can contact me if you would like access to the cleaned file.
 
-Not all the information is present in the items, however, all the important bits are included in the description of each, so making the appropriate bonuses/attack, etc. shouldn't be too diffiult.
-
--------
+Kingdom Building Rules:
+The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT. 
 
 ## Legal
 "This system uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This [website, character sheet, or whatever it is] is not published, endorsed, or specifically approved by Paizo Inc. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Inc. and Paizo products, please visit paizo.com."
