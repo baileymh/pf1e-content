@@ -94,6 +94,9 @@ If you would like to help, you can do so through the Let's Contribute module fea
 
 Alternatively, you can open an issue if you find a missing item, or an error. If you have changed/fixed multiple items, you are welcome to either send me the updated .db file or do a pull request so that I can try to merge your changes.
 
+Finally, individual progress of items/features is being tracked using a [Google Sheet](https://docs.google.com/spreadsheets/d/1yV1MrjyoHGgFLFIwcNdfaQ_VOF2oeza6DBvWgIzOgys/edit#gid=0).
+
+
 If you have any questions, concerns, or ideas, you are welcome to message me on discord (fadedshadow589#8270).
 
 ## Installation
