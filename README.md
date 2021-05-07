@@ -88,7 +88,9 @@ x Horror Adventure Rulebook
 ## Want to Help?
 If you would like to help, you can do so through the Let's Contribute module feature for both PF-Content and PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. I will be regularly checking and merging changes people submit.
 
-![image](https://user-images.githubusercontent.com/48079051/112698892-10d07180-8e61-11eb-88c4-273783ea6dad.png)
+(Note: you don't need the Let's Contribute access key to contribute. That's for reviewers (myself).)
+
+![image](https://user-images.githubusercontent.com/48079051/117498157-6b241e00-af47-11eb-8be1-a2b8f60f4eea.png)
 
 ![image](https://user-images.githubusercontent.com/48079051/112698919-234aab00-8e61-11eb-8930-a697082808fd.png)
 
