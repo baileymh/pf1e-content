@@ -94,6 +94,8 @@ If you would like to help, you can do so through the Let's Contribute module fea
 
 ![image](https://user-images.githubusercontent.com/48079051/112698919-234aab00-8e61-11eb-8930-a697082808fd.png)
 
+**If you are only submitting Changes or Context notes, use that Initiative. If you are editing more (description, qualities, attacks, etc.) leave it with no initiative.** 
+
 Alternatively, you can open an issue if you find a missing item, or an error. If you have changed/fixed multiple items, you are welcome to either send me the updated .db file or do a pull request so that I can try to merge your changes.
 
 Finally, individual progress of items/features is being tracked using a [Google Sheet](https://docs.google.com/spreadsheets/d/1yV1MrjyoHGgFLFIwcNdfaQ_VOF2oeza6DBvWgIzOgys/edit#gid=0).
