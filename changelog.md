@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.63
+### Changelog 
+- Add Drugs (Thanks Vormav)
+- Added ~412 Default Racial Traits (excluding the stat bonus ones and a few redundancies)
+- Merged ~50+ Changes contributed by the community (Thank you all!)
+
 ## 0.1.62
 ### Changelog
 - Add Animal Companion Class and features (created by Fair Strides)

@@ -9,10 +9,10 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 ## Included Content:
 
-- 4,200 magic items
+- ~4,200 magic items
     Including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items
 
-- 1,855 non-magic items
+- ~2,000 non-magic items
     - Includes adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles.
 
     - These items are split between two compendia: PF-Items and PF-Goods and Services. The PF-Goods and Services compendium contains animals/mounts/pets, along with animal gear, food/drink, herbs, lodging/services, clothing, books, spellbooks, transportion, and vehicles. While the PF-Items compendium contains the adventuring gear, alchemical items, and tool.
@@ -21,9 +21,9 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     - They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
     - By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
 
-- 3,501 feats
+- ~3,500 feats
 
-- 2,034 traits and 747 racial traits
+- 2,034 traits and 1,214 racial traits
 
 - 147 Universal Monster Rules
 
@@ -47,7 +47,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 If you notice missing items or errors, please open an issue or pm me on Discord (fadedshadow589#8270).
 
-These compendiums are not perfect. Except for buffs, none of them contain all the appropriate changes to attacks, armor bonuses, etc. However, the item description and all relevant info needed to make them are should be included.
+These compendiums are not perfect. Except for buffs, most of them do not contain all the appropriate changes to attacks, armor bonuses, etc. However, the item description and all relevant info needed to make them are should be included, and Change formulas are slowly being added with help from the community.
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
@@ -71,6 +71,8 @@ x Traps
 x Diseases
 x Mythic Adventure Rulebook
 x Horror Adventure Rulebook
+x Racial traits
+x Familiars and Companions
 
 - Haunts
 - Madnesses
@@ -78,8 +80,6 @@ x Horror Adventure Rulebook
 - Poisons (those missing or not included as items)
 - Deities
 - Additional buffs/debuffs
-- Racial traits
-- Arcane Familiars
 - Summoned Monsters
 - Occult Rituals
 - GM'ing Tools and Resources
@@ -115,6 +115,8 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
 
+## Big Thanks for Helping Contribute
+Websterguy, Noon, apetina, david (aka claudekennilol), moorepants, ACorania
 
 Kingdom Building Rules:
 The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT. 

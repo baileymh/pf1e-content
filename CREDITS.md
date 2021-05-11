@@ -37,5 +37,11 @@ The icons used from their site can be accredited to the following artists:
 # Fair Strides (Fair Strides#2148)
 * Shared Animal Companion class and features
 
+# Websterguy, apetina, david (aka claudekennilol), moorepants, ACorania
+Various Contributions to the Compendiums
+
+# Vormav (Vormav#0464)
+* added Drug items
+
 # llneo12 
 * added images to feats, and helped with linking prestige classes
