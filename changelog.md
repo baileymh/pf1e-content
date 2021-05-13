@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.64
+### Changelog
+- Added Haunts, Curses, and Madness 
+- Renamed PF-Traps to PF-Traps and Haunts
+- Renamed PF-Diseases to PF-Maladies (includes Curses, Madness, and Diseases)
+- Reworked Animal Companions and Animal Companion Features (thanks websterguy)
+
 ## 0.1.63
 ### Changelog 
 - Add Drugs (Thanks Vormav)
