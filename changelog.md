@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.65
+### Changelog
+- Added Eidolon Base Forms (PF-Eidolon Forms)
+- Added Eidolon Class, and Eidolon evolutions (PF-Eidolon Evolutions)
+- Merged Changes from Let's Contribute
+- Removed (Su/Ex/Sp) from Universal Monster Rule names
+
 ## 0.1.64
 ### Changelog
 - Added Haunts, Curses, and Madness 
