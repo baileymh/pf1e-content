@@ -1,5 +1,4 @@
-## Important
-If you are experiencing an error with the manifest while trying to update, please uninstall and reinstall the module. There was an error in the manifest for 0.1.46, that broke the ability to update from it. 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](baileymh.90@gmail.com)
 
 # pf1e-content
 
