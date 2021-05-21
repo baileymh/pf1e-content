@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.67
+### Changelog
+- Added Magic item roll tables, linked to pf-content
+- Also includes Magic Shop Random Item generator, based on town size.
+
+## 0.1.66
+### Changelog
+- Added/Updated Elephant in the Room rules (contributions from ChaosCowboy)
+- Added a d20pfsrd web journal in GM Quick Reference
+
+### Bugfixes
+- Fixed several bugs related to Eidolon formulas (Thanks websterguy and Erickira)
+- Fixed Eidolon Forms being empty
+- Fix broken links for Random Diseases roll table
+
 ## 0.1.65
 ### Changelog
 - Added Eidolon Base Forms (PF-Eidolon Forms)

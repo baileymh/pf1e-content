@@ -1,41 +1,25 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "Contains magic items, non-magical items, feats, traits, racial traits, diseases, drugs, special weapon/armor qualities, buffs/debuffs, familiars, eidolons, companions, and encounter tables. Additoinally, Includes a huge amount of Rule journals for PF, as well as rulebooks for Kingdom Building rules, Mythic Adventures, and Horror Adventures. Along with a host of other resources. These compendiums are not perfect. Except for buffs, most of them do not contain the appropriate changes to attacks, bonuses, etc. However, the item description and most of the relevant info needed to make work them are included, and Change formulas are slowly being added.",
-  "version": "0.1.65",
+  "description": "Contains magic items, non-magical items, feats, traits, racial traits, diseases, drugs, special weapon/armor qualities, buffs/debuffs, familiars, eidolons, companions, magic item, and encounter tables. Additoinally, Includes a huge amount of Rule journals for PF, as well as rulebooks for Kingdom Building rules, Mythic Adventures, and Horror Adventures. Along with a host of other resources. These compendiums are not perfect. Except for buffs, most of them do not contain the appropriate changes to attacks, bonuses, etc. However, the item description and most of the relevant info needed to make work them are included, and Change formulas are slowly being added.",
+  "version": "0.1.67",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["pf1"],
-  "author": "Michael Bailey(fadedshadow589#8270), raabb(Raabb#9467), Kronos, Fair Strides(Fair Strides#2148), llneo12",
+  "author": "Michael Bailey(fadedshadow589#8270), with major contributions (see Credits)",
   "url":"https://github.com/baileymh/pf1e-content",
   "manifest": "https://raw.githubusercontent.com/baileymh/pf1e-content/main/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.65/pf-content.v0.1.65.zip",
+  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.67/pf-content.v0.1.67.zip",
   "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
   "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
   {
-    "name": "pf-feats",
-    "label": "PF-Feats",
+    "name": "pf-35-content",
+    "label": "PF-3.5e Content",
     "system": "pf1",
-    "path": "packs/pf-feats.db",
+    "path": "packs/pf-35-content.db",
     "entity": "Item",
-    "module": "pf-content"
-  },
-  {
-    "name": "pf-traits",
-    "label": "PF-Traits",
-    "system": "pf1",
-    "path": "packs/pf-traits.db",
-    "entity": "Item",
-    "module": "pf-content"
-  },
-  {
-    "name": "pf-racial-traits",
-    "label": "PF-Racial Traits",
-    "system": "pf1",
-    "path": "packs/pf-racial-traits.db",
-    "entity": "Item",
-    "module": "pf-content"
+    "module": "PF-Content"
   },
   {
     "name": "pf-artifacts",
@@ -46,115 +30,11 @@
     "module": "pf-content"
   },
   {
-    "name": "pf-magicitems",
-    "label": "PF-Magic Items",
-    "system": "pf1",
-    "path": "packs/pf-magic.db",
-    "entity": "Item",
-    "module": "pf-content"
-  },      
-  {
-    "name": "pf-wondrous",
-    "label": "PF-Wondrous",
-    "system": "pf1",
-    "path": "packs/pf-wondrous.db",
-    "entity": "Item",
-    "module": "pf-content"
-  },
-  {
     "name": "pf-buffs",
     "label": "PF-Buffs",
     "system": "pf1",
     "path": "packs/pf-buffs.db",
     "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-35-content",
-    "label": "PF-3.5e Content",
-    "system": "pf1",
-    "path": "packs/pf-35-content.db",
-    "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-goods-services",
-    "label": "PF-Goods and Services",
-    "system": "pf1",
-    "path": "packs/pf-goods-services.db",
-    "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-items",
-    "label": "PF-Items",
-    "system": "pf1",
-    "path": "packs/pf-items.db",
-    "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "harrow-deck",
-    "label": "Harrow Deck",
-    "system": "pf1",
-    "path": "packs/harrow-deck.db",
-    "entity": "JournalEntry",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-merchants",
-    "label": "PF-Merchants",
-    "system": "pf1",
-    "path": "packs/pf-merchants.db",
-    "entity": "Actor",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-universal-monster-rules",
-    "label": "PF-Universal Monster Rules",
-    "system": "pf1",
-    "path": "packs/pf-universal-monster-rules.db",
-    "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-tables",
-    "label": "PF-Tables",
-    "system": "pf1",
-    "path": "packs/pf-tables.db",
-    "entity": "RollTable",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-encounter-tables",
-    "label": "PF-Encounter Tables",
-    "system": "pf1",
-    "path": "packs/pf-encounter-tables.db",
-    "entity": "RollTable",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-traps-and-haunts",
-    "label": "PF-Traps and Haunts",
-    "system": "pf1",
-    "path": "packs/pf-traps-and-haunts.db",
-    "entity": "Actor",
-    "module": "pf1e-journals"
-  },
-  {
-    "name": "pf-maladies",
-    "label": "PF-Maladies",
-    "system": "pf1",
-    "path": "packs/pf-maladies.db",
-    "entity": "Item",
-    "module": "PF-Content"
-  },
-  {
-    "name": "pf-familiars",
-    "label": "PF-Familiars",
-    "system": "pf1",
-    "path": "packs/pf-familiars.db",
-    "entity": "Actor",
     "module": "PF-Content"
   },
   {
@@ -190,20 +70,36 @@
     "module": "PF-Content"
   },
   {
-    "name": "pf-special-qualities",
-    "label": "PF-Special Qualities",
+    "name": "pf-encounter-tables",
+    "label": "PF-Encounter Tables",
     "system": "pf1",
-    "path": "packs/pf-special-qualities.db",
+    "path": "packs/pf-encounter-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-elephant",
+    "label": "Elephant in the Room",
+    "system": "pf1",
+    "path": "packs/elephant-in-the-room.db",
     "entity": "Item",
     "module": "PF-Content"
   },
   {
-    "name": "pf-rules",
-    "label": "PF-Rules",
+    "name": "pf-familiars",
+    "label": "PF-Familiars",
     "system": "pf1",
-    "path": "packs/pf-rules.db",
-    "entity": "JournalEntry",
+    "path": "packs/pf-familiars.db",
+    "entity": "Actor",
     "module": "PF-Content"
+  },
+  {
+    "name": "pf-feats",
+    "label": "PF-Feats",
+    "system": "pf1",
+    "path": "packs/pf-feats.db",
+    "entity": "Item",
+    "module": "pf-content"
   },
   {
     "name": "gm-quick-reference",
@@ -214,11 +110,11 @@
     "module": "PF-Content"
   },
   {
-    "name": "mythic-adventures",
-    "label": "Mythic Adventures Rulebook",
+    "name": "pf-goods-services",
+    "label": "PF-Goods and Services",
     "system": "pf1",
-    "path": "packs/mythic-adventures.db",
-    "entity": "JournalEntry",
+    "path": "packs/pf-goods-services.db",
+    "entity": "Item",
     "module": "PF-Content"
   },
   {
@@ -226,6 +122,126 @@
     "label": "Horror Adventures Rulebook",
     "system": "pf1",
     "path": "packs/horror-adventures.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "harrow-deck",
+    "label": "Harrow Deck",
+    "system": "pf1",
+    "path": "packs/harrow-deck.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-items",
+    "label": "PF-Items",
+    "system": "pf1",
+    "path": "packs/pf-items.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-magicitems",
+    "label": "PF-Magic Items",
+    "system": "pf1",
+    "path": "packs/pf-magic.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+  {
+    "name": "pf-magic-tables",
+    "label": "PF-Magic Item Tables",
+    "system": "pf1",
+    "path": "packs/pf-magic-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-maladies",
+    "label": "PF-Maladies",
+    "system": "pf1",
+    "path": "packs/pf-maladies.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-merchants",
+    "label": "PF-Merchants",
+    "system": "pf1",
+    "path": "packs/pf-merchants.db",
+    "entity": "Actor",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-racial-traits",
+    "label": "PF-Racial Traits",
+    "system": "pf1",
+    "path": "packs/pf-racial-traits.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+  {
+    "name": "pf-rules",
+    "label": "PF-Rules",
+    "system": "pf1",
+    "path": "packs/pf-rules.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-special-qualities",
+    "label": "PF-Special Qualities",
+    "system": "pf1",
+    "path": "packs/pf-special-qualities.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-tables",
+    "label": "PF-Tables",
+    "system": "pf1",
+    "path": "packs/pf-tables.db",
+    "entity": "RollTable",
+    "module": "PF-Content"
+  },
+  {
+    "name": "pf-traits",
+    "label": "PF-Traits",
+    "system": "pf1",
+    "path": "packs/pf-traits.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },
+  {
+    "name": "pf-traps-and-haunts",
+    "label": "PF-Traps and Haunts",
+    "system": "pf1",
+    "path": "packs/pf-traps-and-haunts.db",
+    "entity": "Actor",
+    "module": "pf1e-journals"
+  },
+  {
+    "name": "pf-universal-monster-rules",
+    "label": "PF-Universal Monster Rules",
+    "system": "pf1",
+    "path": "packs/pf-universal-monster-rules.db",
+    "entity": "Item",
+    "module": "PF-Content"
+  },      
+  {
+    "name": "pf-wondrous",
+    "label": "PF-Wondrous",
+    "system": "pf1",
+    "path": "packs/pf-wondrous.db",
+    "entity": "Item",
+    "module": "pf-content"
+  },  
+  {
+    "name": "mythic-adventures",
+    "label": "Mythic Adventures Rulebook",
+    "system": "pf1",
+    "path": "packs/mythic-adventures.db",
     "entity": "JournalEntry",
     "module": "PF-Content"
   },
