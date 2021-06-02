@@ -2,6 +2,7 @@
 
 ## 0.1.68
 ### Changelog
+- Update compatibility for 0.7.10
 - Merged a large number of context/changes for Feats (Thanks apetina)
 - All Core Feats should now have context notes or changes
 - Moved PF-Class Abilities from the Archetypes module to pf-content
