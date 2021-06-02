@@ -75,11 +75,11 @@ x Mythic Adventure Rulebook
 x Horror Adventure Rulebook
 x Racial traits
 x Familiars and Companions
+x Haunts
+x Madnesses
+x Curses
+x Poisons
 
-- Haunts
-- Madnesses
-- Curses
-- Poisons (those missing or not included as items)
 - Deities
 - Additional buffs/debuffs
 - Summoned Monsters
