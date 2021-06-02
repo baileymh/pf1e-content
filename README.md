@@ -1,5 +1,5 @@
-[![Digital-Patreon-Wordmark_FieryCoral2](https://user-images.githubusercontent.com/48079051/119408916-7b145f80-bcb4-11eb-9040-5879379cfa0b.png)](https://www.patreon.com/fadedshadow589) 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=E5Z634F26LEJC)
+## Important
+If you are experiencing an error with the manifest while trying to update, please uninstall and reinstall the module. There was an error in the manifest for 0.1.46, that broke the ability to update from it. 
 
 # pf1e-content
 
@@ -25,13 +25,13 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 2,034 traits and 1,214 racial traits
 
+- 4,727 Class Abilities (Arcane Discovery, Domains, Talents, etc.)
+
 - 147 Universal Monster Rules
 
 - 177 Familiars and Pets
 
 - 160+ buffs/debuffs and variants
-
-- Roll tables for generating random magic items, along with random magic items for purchase based on settlement size.
 
 - GM Quick Reference compendium, with commonly used/confused rules for easier time GM'ing. As well as some tips for working in Foundry, and for contributing towards this and other rules/modules using Changes.
 

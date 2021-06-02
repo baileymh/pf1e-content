@@ -1,9 +1,22 @@
 # Changelog
 
+## 0.1.68
+### Changelog
+- Merged a large number of context/changes for Feats (Thanks apetina)
+- All Core Feats should now have context notes or changes
+- Moved PF-Class Abilities from the Archetypes module to pf-content
+- Added Technology gear (Artifacts, Cybertech, Pharmaceuticals, and Misc items)
+
+### Bugfix
+- Remove extra -5 penalty to secondary eidolon attacks
+- fix image links for Elephant in the Room rules
+- Fixed formulas related to Eidolons
+
 ## 0.1.67
 ### Changelog
 - Added Magic item roll tables, linked to pf-content
 - Also includes Magic Shop Random Item generator, based on town size.
+
 
 ## 0.1.66
 ### Changelog
@@ -14,6 +27,7 @@
 - Fixed several bugs related to Eidolon formulas (Thanks websterguy and Erickira)
 - Fixed Eidolon Forms being empty
 - Fix broken links for Random Diseases roll table
+
 
 ## 0.1.65
 ### Changelog
