@@ -24,6 +24,8 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - 4,727 Class Abilities (Arcane Discovery, Domains, Talents, etc.)
 
+- Technology Weapons, Armor, and Items
+
 - 147 Universal Monster Rules
 
 - 177 Familiars and Pets
