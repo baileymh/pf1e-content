@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.68
+## 0.1.69
 ### Changelog
 - Added Technology Weapons and Armor
 
