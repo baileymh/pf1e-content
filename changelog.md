@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.70
+### Changelog
+- Added Occult Rituals
+
 ## 0.1.69
 ### Changelog
 - Added Technology Weapons and Armor

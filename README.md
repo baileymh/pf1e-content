@@ -26,6 +26,8 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 - Technology Weapons, Armor, and Items
 
+- Occult Rituals (those on AON)
+
 - 147 Universal Monster Rules
 
 - 177 Familiars and Pets
