@@ -37,5 +37,14 @@ The icons used from their site can be accredited to the following artists:
 # Fair Strides (Fair Strides#2148)
 * Shared Animal Companion class and features
 
+# ChaosCowboy
+* contibuted with elephant in the room
+
+# Websterguy, apetina, david (aka claudekennilol), moorepants, ACorania, mana+2
+Various Contributions to the Compendiums and general help with questions and problems.
+
+# Vormav (Vormav#0464)
+* added Drug items, and other Contributions.
+
 # llneo12 
 * added images to feats, and helped with linking prestige classes

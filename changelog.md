@@ -1,5 +1,63 @@
 # Changelog
 
+## 0.1.70
+### Changelog
+- Added Occult Rituals
+
+## 0.1.69
+### Changelog
+- Added Technology Weapons and Armor
+
+## 0.1.68
+### Changelog
+- Update compatibility for 0.7.10
+- Merged a large number of context/changes for Feats (Thanks apetina)
+- All Core Feats should now have context notes or changes
+- Moved PF-Class Abilities from the Archetypes module to pf-content
+- Added Technology gear (Artifacts, Cybertech, Pharmaceuticals, and Misc items)
+
+### Bugfix
+- Remove extra -5 penalty to secondary eidolon attacks
+- fix image links for Elephant in the Room rules
+- Fixed formulas related to Eidolons
+
+## 0.1.67
+### Changelog
+- Added Magic item roll tables, linked to pf-content
+- Also includes Magic Shop Random Item generator, based on town size.
+
+
+## 0.1.66
+### Changelog
+- Added/Updated Elephant in the Room rules (contributions from ChaosCowboy)
+- Added a d20pfsrd web journal in GM Quick Reference
+
+### Bugfixes
+- Fixed several bugs related to Eidolon formulas (Thanks websterguy and Erickira)
+- Fixed Eidolon Forms being empty
+- Fix broken links for Random Diseases roll table
+
+
+## 0.1.65
+### Changelog
+- Added Eidolon Base Forms (PF-Eidolon Forms)
+- Added Eidolon Class, and Eidolon evolutions (PF-Eidolon Evolutions)
+- Merged Changes from Let's Contribute
+- Removed (Su/Ex/Sp) from Universal Monster Rule names
+
+## 0.1.64
+### Changelog
+- Added Haunts, Curses, and Madness 
+- Renamed PF-Traps to PF-Traps and Haunts
+- Renamed PF-Diseases to PF-Maladies (includes Curses, Madness, and Diseases)
+- Reworked Animal Companions and Animal Companion Features (thanks websterguy)
+
+## 0.1.63
+### Changelog 
+- Add Drugs (Thanks Vormav)
+- Added ~412 Default Racial Traits (excluding the stat bonus ones and a few redundancies)
+- Merged ~50+ Changes contributed by the community (Thank you all!)
+
 ## 0.1.62
 ### Changelog
 - Add Animal Companion Class and features (created by Fair Strides)

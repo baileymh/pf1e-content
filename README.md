@@ -1,6 +1,3 @@
-## Important
-If you are experiencing an error with the manifest while trying to update, please uninstall and reinstall the module. There was an error in the manifest for 0.1.46, that broke the ability to update from it. 
-
 # pf1e-content
 
 Converted/imported content for Foundry VTT PF1e
@@ -9,10 +6,10 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 ## Included Content:
 
-- 4,200 magic items
+- ~4,200 magic items
     Including ammo, rods, weapons, armor, artifacts, cursed items, staffs, and wondrous items
 
-- 1,855 non-magic items
+- ~2,000 non-magic items
     - Includes adventuring gear, alchemical items, animal gear, black market, clothing, books, food/drink, herbs, kits, lodging/services, mounts/pets, spellbooks, tools, transportion, and vehicles.
 
     - These items are split between two compendia: PF-Items and PF-Goods and Services. The PF-Goods and Services compendium contains animals/mounts/pets, along with animal gear, food/drink, herbs, lodging/services, clothing, books, spellbooks, transportion, and vehicles. While the PF-Items compendium contains the adventuring gear, alchemical items, and tool.
@@ -21,9 +18,15 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
     - They have the bulk of the non-magicical items listed above (I'm still adding to some of them).
     - By default, they are set as pf1 system loot sheets. If you have the Loot Sheet module, you can easily convert the sheet type and turn them into proper Merchants that players can use.
 
-- 3,501 feats
+- ~3,500 feats
 
-- 2,034 traits and 747 racial traits
+- 2,034 traits and 1,214 racial traits
+
+- 4,727 Class Abilities (Arcane Discovery, Domains, Talents, etc.)
+
+- Technology Weapons, Armor, and Items
+
+- Occult Rituals (those on AON)
 
 - 147 Universal Monster Rules
 
@@ -47,7 +50,7 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 
 If you notice missing items or errors, please open an issue or pm me on Discord (fadedshadow589#8270).
 
-These compendiums are not perfect. Except for buffs, none of them contain all the appropriate changes to attacks, armor bonuses, etc. However, the item description and all relevant info needed to make them are should be included.
+These compendiums are not perfect. Except for buffs, most of them do not contain all the appropriate changes to attacks, armor bonuses, etc. However, the item description and all relevant info needed to make them are should be included, and Change formulas are slowly being added with help from the community.
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
@@ -71,15 +74,15 @@ x Traps
 x Diseases
 x Mythic Adventure Rulebook
 x Horror Adventure Rulebook
+x Racial traits
+x Familiars and Companions
+x Haunts
+x Madnesses
+x Curses
+x Poisons
 
-- Haunts
-- Madnesses
-- Curses
-- Poisons (those missing or not included as items)
 - Deities
 - Additional buffs/debuffs
-- Racial traits
-- Arcane Familiars
 - Summoned Monsters
 - Occult Rituals
 - GM'ing Tools and Resources
@@ -88,9 +91,13 @@ x Horror Adventure Rulebook
 ## Want to Help?
 If you would like to help, you can do so through the Let's Contribute module feature for both PF-Content and PF1e Archetypes. If you have made Changes to any of the items added by this module (Changes, better icons, fixed typos, tags, grammar), you can upload those changes by clicking the icon in the top left corner. I will be regularly checking and merging changes people submit.
 
-![image](https://user-images.githubusercontent.com/48079051/112698892-10d07180-8e61-11eb-88c4-273783ea6dad.png)
+(Note: you don't need the Let's Contribute access key to contribute. That's for reviewers (myself).)
+
+![image](https://user-images.githubusercontent.com/48079051/117498157-6b241e00-af47-11eb-8be1-a2b8f60f4eea.png)
 
 ![image](https://user-images.githubusercontent.com/48079051/112698919-234aab00-8e61-11eb-8930-a697082808fd.png)
+
+**If you are only submitting Changes or Context notes, use that Initiative. If you are editing more (description, qualities, attacks, etc.) leave it with no initiative.** 
 
 Alternatively, you can open an issue if you find a missing item, or an error. If you have changed/fixed multiple items, you are welcome to either send me the updated .db file or do a pull request so that I can try to merge your changes.
 
@@ -115,6 +122,8 @@ https://docs.google.com/spreadsheets/d/1PkEkEcf4UbzCb-kISnvAvOGWcuDzwvAMaVG25sD1
 Magic Items:
 https://docs.google.com/spreadsheets/d/1NQhHjDXhvFZkMiu09epBXsVwCI6YENg-AUQhF-v5ntU/edit#gid=44940957
 
+## Big Thanks for Helping Contribute
+Websterguy, Noon, apetina, david (aka claudekennilol), moorepants, ACorania
 
 Kingdom Building Rules:
 The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT. 
