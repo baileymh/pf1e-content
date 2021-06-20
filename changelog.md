@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.71
+## Bugfix
+- Fix formulas for Eidolons (thanks webster)
+- Merge changes through Let's Contribute
+
 ## 0.1.70
 ### Changelog
 - Added Occult Rituals
