@@ -40,7 +40,10 @@ The icons used from their site can be accredited to the following artists:
 # ChaosCowboy
 * contibuted with elephant in the room
 
-# Websterguy, apetina, david (aka claudekennilol), moorepants, ACorania, mana+2
+# Websterguy
+Various contributions to compendiums, formulas and class for companions and eidolons
+
+# apetina, david (aka claudekennilol), moorepants, ACorania, mana+2
 Various Contributions to the Compendiums and general help with questions and problems.
 
 # Vormav (Vormav#0464)

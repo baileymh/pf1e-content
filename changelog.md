@@ -1,7 +1,16 @@
 # Changelog
 
+## 0.1.72
+### Changelog
+- Migrate Mythic Adventures and Horror adventures to PF1e Rulebooks
+- Update compatibility
+
+### Bugfix
+- Fixes for Companions 
+- Additional formula fixes for eidolons (thanks websterguy for both)
+
 ## 0.1.71
-## Bugfix
+### Bugfix
 - Fix formulas for Eidolons (thanks webster)
 - Merge changes through Let's Contribute
 
