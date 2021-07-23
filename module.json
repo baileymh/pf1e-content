@@ -1,15 +1,24 @@
 {
   "name": "pf-content",
   "title": "Pathfinder 1e Content",
-  "description": "Contains magic items, non-magical items, feats, traits, class abilities, racial traits, diseases, drugs, special weapon/armor qualities, buffs/debuffs, familiars, eidolons, companions, technology items, magic item, and encounter tables. Additoinally, Includes a huge amount of Rule journals for PF, as well as rulebooks for Kingdom Building rules, Mythic Adventures, and Horror Adventures. Along with a host of other resources. These compendiums are not perfect. Except for buffs, most of them do not contain the appropriate changes to attacks, bonuses, etc. However, the item description and most of the relevant info needed to make work them are included, and Change formulas are slowly being added.",
-  "version": "0.1.72",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.7",
+  "description": "Contains magic items, non-magical items, feats, traits, class abilities, racial traits, diseases, drugs, special weapon/armor qualities, buffs/debuffs, familiars, eidolons, companions, technology items, magic item, and encounter tables. Additoinally, Includes a huge amount of Rule journals for PF, bios and info for deities, as well as rule for Kingdom Building. Along with a host of other resources. These compendiums are not perfect. Except for buffs, most of them do not contain the appropriate changes to attacks, bonuses, etc. However, the item description and most of the relevant info needed to make work them are included, and Change formulas are slowly being added.",
+  "version": "0.2.0",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "flags": {},
   "systems": ["pf1"],
+  "dependencies": [],
+  "socket": false,
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "protected": false,
+  "coreTranslation": false,
   "author": "Michael Bailey(fadedshadow589#8270), with major contributions (see Credits)",
   "url":"https://github.com/baileymh/pf1e-content",
   "manifest": "https://raw.githubusercontent.com/baileymh/pf1e-content/main/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.1.72/pf-content.v0.1.72.zip",
+  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.2.0/pf-content.v0.2.0.zip",
   "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
   "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
@@ -19,7 +28,8 @@
     "system": "pf1",
     "path": "packs/pf-35-content.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-artifacts",
@@ -27,7 +37,8 @@
     "system": "pf1",
     "path": "packs/pf-artifacts.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },
   {
     "name": "pf-buffs",
@@ -35,7 +46,8 @@
     "system": "pf1",
     "path": "packs/pf-buffs.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-class-abilities",
@@ -43,7 +55,8 @@
     "system": "pf1",
     "path": "packs/pf-class-abilities.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-companions",
@@ -51,7 +64,8 @@
     "system": "pf1",
     "path": "packs/pf-companions.db",
     "entity": "Actor",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-companion-features",
@@ -59,7 +73,17 @@
     "system": "pf1",
     "path": "packs/pf-companion-features.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
+  },
+  {
+    "name": "pf-deities",
+    "label": "PF-Deities",
+    "system": "pf1",
+    "path": "packs/pf-deities.db",
+    "entity": "JournalEntry",
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-eidolon-forms",
@@ -67,7 +91,8 @@
     "system": "pf1",
     "path": "packs/pf-eidolon-forms.db",
     "entity": "Actor",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-eidolon-evolutions",
@@ -75,7 +100,8 @@
     "system": "pf1",
     "path": "packs/pf-eidolon-evolutions.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-encounter-tables",
@@ -83,7 +109,8 @@
     "system": "pf1",
     "path": "packs/pf-encounter-tables.db",
     "entity": "RollTable",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-elephant",
@@ -91,7 +118,8 @@
     "system": "pf1",
     "path": "packs/elephant-in-the-room.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-familiars",
@@ -99,7 +127,8 @@
     "system": "pf1",
     "path": "packs/pf-familiars.db",
     "entity": "Actor",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-feats",
@@ -107,7 +136,8 @@
     "system": "pf1",
     "path": "packs/pf-feats.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },
   {
     "name": "gm-quick-reference",
@@ -115,7 +145,8 @@
     "system": "pf1",
     "path": "packs/gm-quick-reference.db",
     "entity": "JournalEntry",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-goods-services",
@@ -123,7 +154,8 @@
     "system": "pf1",
     "path": "packs/pf-goods-services.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "harrow-deck",
@@ -131,7 +163,8 @@
     "system": "pf1",
     "path": "packs/harrow-deck.db",
     "entity": "JournalEntry",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-items",
@@ -139,7 +172,8 @@
     "system": "pf1",
     "path": "packs/pf-items.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-magicitems",
@@ -147,7 +181,8 @@
     "system": "pf1",
     "path": "packs/pf-magic.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },
   {
     "name": "pf-maladies",
@@ -155,7 +190,8 @@
     "system": "pf1",
     "path": "packs/pf-maladies.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-merchants",
@@ -163,7 +199,8 @@
     "system": "pf1",
     "path": "packs/pf-merchants.db",
     "entity": "Actor",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-magic-tables",
@@ -171,7 +208,8 @@
     "system": "pf1",
     "path": "packs/pf-magic-tables.db",
     "entity": "RollTable",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-occult-rituals",
@@ -179,7 +217,8 @@
     "system": "pf1",
     "path": "packs/pf-occult-rituals.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-racial-traits",
@@ -187,7 +226,8 @@
     "system": "pf1",
     "path": "packs/pf-racial-traits.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },
   {
     "name": "pf-rules",
@@ -195,7 +235,8 @@
     "system": "pf1",
     "path": "packs/pf-rules.db",
     "entity": "JournalEntry",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-special-qualities",
@@ -203,7 +244,8 @@
     "system": "pf1",
     "path": "packs/pf-special-qualities.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-tables",
@@ -211,7 +253,8 @@
     "system": "pf1",
     "path": "packs/pf-tables.db",
     "entity": "RollTable",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-tech",
@@ -219,7 +262,8 @@
     "system": "pf1",
     "path": "packs/pf-technology.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "pf-traits",
@@ -227,7 +271,8 @@
     "system": "pf1",
     "path": "packs/pf-traits.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },
   {
     "name": "pf-traps-and-haunts",
@@ -235,7 +280,8 @@
     "system": "pf1",
     "path": "packs/pf-traps-and-haunts.db",
     "entity": "Actor",
-    "module": "pf1e-journals"
+    "module": "pf1e-journals",
+    "private": false
   },
   {
     "name": "pf-universal-monster-rules",
@@ -243,7 +289,8 @@
     "system": "pf1",
     "path": "packs/pf-universal-monster-rules.db",
     "entity": "Item",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },      
   {
     "name": "pf-wondrous",
@@ -251,7 +298,8 @@
     "system": "pf1",
     "path": "packs/pf-wondrous.db",
     "entity": "Item",
-    "module": "pf-content"
+    "module": "pf-content",
+    "private": false
   },  
   {
     "name": "kingdom-building-gm",
@@ -259,7 +307,8 @@
     "system": "pf1",
     "path": "packs/kingdom-building-gm.db",
     "entity": "JournalEntry",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "kingdom-building-player",
@@ -267,7 +316,8 @@
     "system": "pf1",
     "path": "packs/kingdom-building-player.db",
     "entity": "JournalEntry",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "kingdom-building-scenes",
@@ -275,7 +325,8 @@
     "system": "pf1",
     "path": "packs/kingdom-building-scenes.db",
     "entity": "Scene",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "kingdom-building-buildings",
@@ -283,7 +334,8 @@
     "system": "pf1",
     "path": "packs/kingdom-building-buildings.db",
     "entity": "Actor",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   },
   {
     "name": "kingdom-building-tables",
@@ -291,6 +343,7 @@
     "system": "pf1",
     "path": "packs/kingdom-building-tables.db",
     "entity": "RollTable",
-    "module": "PF-Content"
+    "module": "PF-Content",
+    "private": false
   }]
 }

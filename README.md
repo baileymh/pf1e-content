@@ -44,8 +44,6 @@ This module comprises a host of content for Pathfinder 1st ed. for Foundry.
 - PF-Rules
     - Contains most of the rules for Basic Play, Combat, Environment, Exploration, Items, Magic, and Skills
     - Plans to include Optional Rules and Gamemastery content
-- Mythic Adventures
-- Horror Adventures
 - Kingdom Building
     - Including an organized journal sheet for the tracking and use of kingdom buildings in Foundry
     - Also includes a map and tokens for use as District Grid and Buildings.

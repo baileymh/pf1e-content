@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.0
+### Changelog
+- Update to 0.8.8 and pf1 0.78.15
+- Merge Contribution changes
+- Add PF-Deities
+
+### Bugfixes
+- Fixed missing weight values on Kits
+- Fixed several broken icons
+- Fixed mismatched description for Draconic Bloodline (Sorcerer)
+
 ## 0.1.72
 ### Changelog
 - Migrate Mythic Adventures and Horror adventures to PF1e Rulebooks
