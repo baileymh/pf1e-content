@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1
+### Bugfixes
+- Evil eye AC and Skill Debuffs had incorrect Changes
+
+### Changelog
+- Finished Harrow Deck (Has custom artwork for cards and fixed broken links)
+- Merge various Let's Contribute changes.
+
+
 ## 0.2.0
 ### Changelog
 - Update to 0.8.8 and pf1 0.78.15
