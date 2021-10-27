@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.2
+### Changelog
+- Migrate to latest foundry 0.8.9
+- Add Common Weapon Enchant Conditional Modifiers to PF-Special Qualities compendium
+
+### Bugfixes
+- Fixed alchemist's fire not being a single-use consumable, and adding dex to attack
+
+
 ## 0.2.1
 ### Bugfixes
 - Evil eye AC and Skill Debuffs had incorrect Changes
