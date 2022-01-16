@@ -1,13 +1,16 @@
 # Changelog
 
+## 0.2.3
+### Changelog
+- Migrate to latest foundry v0.9.242
+
 ## 0.2.2
 ### Changelog
-- Migrate to latest foundry 0.8.9
+- Migrate to latest foundry v0.8.9
 - Add Common Weapon Enchant Conditional Modifiers to PF-Special Qualities compendium
 
 ### Bugfixes
 - Fixed alchemist's fire not being a single-use consumable, and adding dex to attack
-
 
 ## 0.2.1
 ### Bugfixes
@@ -16,7 +19,6 @@
 ### Changelog
 - Finished Harrow Deck (Has custom artwork for cards and fixed broken links)
 - Merge various Let's Contribute changes.
-
 
 ## 0.2.0
 ### Changelog
