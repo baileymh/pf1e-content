@@ -70,24 +70,23 @@ Includes a sample District, Building tokens created using game-icons, along with
 ## Planned Features/Additions
 
 The following represent some of the planned features I intend to impliment:
-x Kingdom Building Rules
-x Traps
-x Diseases
-x Mythic Adventure Rulebook
-x Horror Adventure Rulebook
-x Racial traits
-x Familiars and Companions
-x Haunts
-x Madnesses
-x Curses
-x Poisons
-
-- Deities
-- Additional buffs/debuffs
-- Summoned Monsters
-- Occult Rituals
-- GM'ing Tools and Resources
-- Potential Journal packs for Occult Adventures, Planar Adventures, Ultimate ___, etc..
+- [x] Kingdom Building Rules
+- [x] Traps
+- [x] Diseases
+- [x] Mythic Adventure Rulebook
+- [x] Horror Adventure Rulebook
+- [x] Racial traits
+- [x] Familiars and Companions
+- [x] Haunts
+- [x] Madnesses
+- [x] Curses
+- [x] Poisons
+- [x] Deities
+- [ ] Additional buffs/debuffs
+- [ ] Summoned Monsters
+- [ ] Occult Rituals
+- [ ] GM'ing Tools and Resources
+- [ ] Potential Journal packs for Occult Adventures, Planar Adventures, Ultimate ___, etc..
 
 ## Want to Help?
 
