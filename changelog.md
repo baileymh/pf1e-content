@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.4
+### Changelog
+- Add script that allows for merging of new items to compendiums (see github for instructions)
+- Modified update process
+
 ## 0.2.3
 ### Changelog
 - Migrate to latest foundry v0.9.242
