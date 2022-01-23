@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "NEDB merge script",
   "main": "merge.js",
+  "type": "module",
   "dependencies": {
-    "nedb": "latest"
+    "@seald-io/nedb": "2.2.1",
+    "yargs": "latest",
+    "adm-zip": "latest",
+    "fs-extra": "latest"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "merge": "node ./scripts/merge.js",
+    "release": "node ./scripts/release.js"
   },
   "author": "Chris Sanders <sanders.chris@gmail.com>",
   "license": "GNU General Public License v3"
