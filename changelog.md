@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.5
+### Changelog
+* Add a few Ioun Stones to pf-wondrous
+
 ## 0.2.4
 ### Changelog
 - Add script that allows for merging of new items to compendiums (see github for instructions)
