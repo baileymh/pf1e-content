@@ -1,4 +1,5 @@
 import Datastore from "@seald-io/nedb";
+import {diffString, diff} from "json-diff";
 
 import fs from "fs";
 import path from "path";
@@ -26,7 +27,7 @@ function loadDatabases() {
   return databases;
 };
 
-async function mergePacks(databases) {
+function mergePacks(databases) {
   // Determine the source folders to process
   const folders = fs.readdirSync(PACK_SRC).filter((file) => {
     return fs.statSync(path.join(PACK_SRC, file)).isDirectory();
@@ -47,9 +48,14 @@ async function mergePacks(databases) {
     files.map((file) => {
       console.log(`Processing file: ${file}`);
       let filePath = path.join(PACK_SRC, folder, file);
-      let json = cleanItem(JSON.parse(fs.readFileSync(filePath, 'utf8')));
-      db.update({name: json.name}, json, {upsert: true}, function (err, num, docs, upsert) {
-        console.log(`Item Result: ${json.name}\nModified num: ${num}\nupsert: ${upsert || false}`);
+      let newDoc = cleanItem(JSON.parse(fs.readFileSync(filePath, 'utf8')));
+      db.findOne({name: newDoc.name}, function (_, docs) {
+        let originalDoc = docs;
+        db.update({name: newDoc.name}, newDoc, {returnUpdatedDocs: true, upsert: true}, function (_, __, docs) {
+          let diff = diffString(originalDoc, docs)
+          let diffMessage = `Diff for ${newDoc.name}:\n${diff}`;
+          console.log(diffMessage);
+        });
       });
     });
     // Compact the database
