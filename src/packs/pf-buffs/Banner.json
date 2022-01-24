@@ -1,0 +1,69 @@
+{
+  "_id": "oPaJag3fOdmLYBTZ",
+  "name": "Banner",
+  "type": "buff",
+  "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.class-abilities.pqu1Mvo46iRpVH3I]{Banner}</p>\n<p><span style=\"color: #191813; font-size: 13px;\">At 5th level, a cavalier&rsquo;s banner becomes a symbol of inspiration to his allies and companions. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">As long as the cavalier&rsquo;s banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">At 10th level, and every five levels thereafter, these bonuses increase by +1. The banner must be at least Small or larger and must be carried or displayed by the cavalier or his mount to function.</span></p>\n<hr />\n<p><strong>Usage:</strong> Set buff level to Cavalier's level</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Banner:</b> [[2 + (max(0,(@item.level / 5) - 1))]] morale bonus on saving throws against fear @item.level @item.level @item.level",
+        "target": "savingThrows",
+        "subTarget": "will"
+      },
+      {
+        "text": "<b>Banner:</b> [[1 + (max(0,(@item.level / 5) - 1)) morale bonus on attack rolls as part of a charge.",
+        "target": "attacks",
+        "subTarget": "attack"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "conditionals": [],
+    "identifiedName": "Banner",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

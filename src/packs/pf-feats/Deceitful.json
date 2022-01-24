@@ -1,0 +1,172 @@
+{
+  "_id": "YabMy62b89NoIuXT",
+  "name": "Deceitful",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/deceitful.jpg",
+  "data": {
+    "description": {
+      "value": "<em>You are skilled at deceiving others, both with the spoken word and with physical disguises.</em><br/><br/><b>Benefits</b><br/>You get a +2 bonus on all Bluff and Disguise skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "PFS"
+      ],
+      [
+        "General"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "d6rirc2a",
+        "formula": "@skills.blf.rank >= 10 ? 4 : 2",
+        "operator": "add",
+        "subTarget": "skill.blf",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 2
+      },
+      {
+        "_id": "u9gcikyo",
+        "formula": "@skills.dis.rank >= 10 ? 4 : 2",
+        "operator": "add",
+        "subTarget": "skill.dis",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 2
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "deceitful",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "auraStrength": 0,
+    "conditionals": [],
+    "identifiedName": "Deceitful",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4700000,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "ExpWHnhptAuWwAqZ",
+  "name": "Inspire Competence",
+  "type": "buff",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "data": {
+    "description": {
+      "value": "<p>Gain a +2 competence bonus on skill checks with a particular skill as long as you continue to hear the bard&rsquo;s performance. This bonus increases by +1 for every four levels the bard has attained beyond 3rd (+3 at 7th, +4 at 11th, +5 at 15th, and +6 at 19th).</p>\n<p><strong>Usage:</strong> Set this buff's level equal to the level of the performance's bard. You must set the chosen skill in the changes tab.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "0y1p8pzy",
+        "formula": "(min(6, (max(2, floor((@item.level+5) / 4)))))",
+        "operator": "add",
+        "subTarget": "skill.acr",
+        "modifier": "competence",
+        "priority": 0,
+        "value": 6,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "inspireCompetence",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Inspire Competence",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

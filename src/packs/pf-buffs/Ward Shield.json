@@ -1,0 +1,80 @@
+{
+  "_id": "noc9ztLhKoYPahwK",
+  "name": "Ward Shield",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/protect-red-1.jpg",
+  "data": {
+    "description": {
+      "value": "<p>This shield grants spell resistance 10 + your caster level against spells so long as the shield can be interposed between the wielder and the spell effect. A spell shield does not provide spell resistance against area effect spells such as fireball, but does provide a +5 bonus on Reflex saving throws against such spells.</p>\n<p><strong>Usage:</strong> Set this buff's level equal to the caster level of Ward Shield.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[5]] bonus vs spells and effects.",
+        "target": "savingThrows",
+        "subTarget": "ref"
+      },
+      {
+        "text": "+[[(10 + @item.level)]] Spell Resistance (see text)",
+        "target": "misc",
+        "subTarget": "sr"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "wardShield",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Ward Shield",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

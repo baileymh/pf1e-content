@@ -1,0 +1,80 @@
+{
+  "_id": "AgqXOB4RbAi5QHnR",
+  "name": "Jump",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/run.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain an enhancement bonus on Acrobatics checks made to Jump.</p>\n<p><strong>Usage:</strong> Set this buff's level equal to the caster level of Jump.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[(min(30, max(10, floor((@item.level + 3) / 4) * 10))]] to Jump.",
+        "target": "skill",
+        "subTarget": "skill.acr"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "jump",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "identifiedName": "Jump",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "heroes-for-hire",
+      "system": "pf1",
+      "coreVersion": "0.7.9",
+      "systemVersion": "0.76.13"
+    }
+  }
+}

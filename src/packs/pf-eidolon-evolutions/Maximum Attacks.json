@@ -1,0 +1,180 @@
+{
+  "_id": "zcYdxGqaH4E7W7cj",
+  "name": "Maximum Attacks",
+  "type": "feat",
+  "img": "systems/pf1/icons/skills/yellow_23.jpg",
+  "data": {
+    "description": {
+      "value": "<p>This indicates the maximum number of natural attacks that the eidolon is allowed to possess at the given level.</p>\n<p>If the eidolon is at its maximum, it cannot take evolutions that grant additional natural attacks.</p>\n<p>This does not include attacks made with weapons.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Eidolon"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": "passive"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 1,
+      "per": "charges",
+      "autoDeductCharges": false,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3 + floor((@classes.eidolon.level + 1) / 5)",
+      "max": 3
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "maximumAttacks",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Eidolon"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "ex",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "auraStrength": 0,
+    "conditionals": [],
+    "identifiedName": "Maximum Attacks",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800000,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "pf1": {},
+    "scene-packer": {
+      "sourceId": "Item.NK6uUChnbFGLuMnq"
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "KNUcFk2zkPBTh2PQ",
+  "name": "Bestow Insight",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/beam-orange-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +2 insight bonus on skill checks with this skill and are considered trained in that skill. The insight bonus increases by 1 for every four levels of the caster (maximum +6). Furthermore, once before the spell&rsquo;s duration, you can choose to roll two checks and take the greater result. Doing so ends the spell&rsquo;s other effects.</p>\n<p><strong>Usage:</strong> Set the chosen skill in the changes tab.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "h8jacd6k",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "skill.acr",
+        "modifier": "insight",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Bestow Insight:</b> +[[3]] bonus if the skill is a class skill and untrained. You can roll two checks and take the greater result. Doing so ends the spell.",
+        "target": "skills",
+        "subTarget": "skills"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "bestowInsight",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Bestow Insight",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

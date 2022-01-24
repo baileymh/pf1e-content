@@ -1,0 +1,176 @@
+{
+  "_id": "dALk8tzHMqQOQCkM",
+  "name": "Monowhip",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Source</strong> <em>Technology Guide pg. 20</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 70,000 gp</p><p><strong>Type</strong> light melee; <strong>Proficiency</strong> exotic; <strong>Weight</strong> 1 lb.</p><p><strong>Damage</strong> 1d10 (small), 2d6 (medium); <strong>Damage Type</strong> S; <strong>Critical</strong> 18-20/x3</p><p><strong>Range</strong> -; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge/round; <strong>Special</strong> Performance, reach, touch</p><h2 class=\"framing\">Description</h2><p>A monowhip is a deadly melee weapon capable of inflicting horrible wounds, even in the hands of the weak. An inactive monowhip looks like a short metal baton, but when it's activated, a small weight detaches, revealing a 15-foot-long monofilament length. Wielded like a whip, a monowhip slices deeply into targets and can inflict grievous critical hits with shocking ease. Attacks made with a monowhip resolve as touch attacks, and they ignore hardness as if the monofilament were made of adamantine. A monowhip's damage cannot be enhanced by strength, as the monofilament slices with equal ease regardless of the force applied. Activating a monowhip is a move action; once activated, the whip consumes power incredibly quickly, at the rate of 1 charge per round.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 32; <strong>Cost</strong> 35,000 gp</p><p>Craft Technological Arms and Armor, graviton lab</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 1,
+    "price": 70000,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "",
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": 5,
+      "units": "melee",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(2, 6, @size)",
+          "S"
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": "18",
+      "critMult": "3"
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "monowhip",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "exotic",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.tech-weapons.SnleZHb1QlIDnLbX"
+    }
+  }
+}

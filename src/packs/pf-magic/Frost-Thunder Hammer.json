@@ -1,0 +1,177 @@
+{
+  "_id": "ckrvGIWIHbZjyULf",
+  "name": "Frost-Thunder Hammer",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/estoc.PNG",
+  "data": {
+    "description": {
+      "value": "<h2></b>Description</b></h2></p><p>This oversized +2 warhammer is forged from blue steel and engraved with Abyssal runes that read, There are no screams for those who die the frozen death. A frost-thunder hammer is sized for giants; it is a two-handed weapon for Medium-sized creatures, who take a -2 penalty on attack rolls for wielding an oversized weapon.  Once per day as a ranged touch attack, the wielder of a frost-thunder hammer can slam the weapon against the ground to release a crackling bolt of ice that shoots across the ground toward a single target up to 100 feet away. On a successful hit, the ice immediately freezes around the target, trapping it within a 9-inch-thick solid block of pale blue ice. The ice blocks line of effect to the entrapped victim, who is helpless (but can still breathe) and takes 9 points of cold damage per round until freed. The ice has hardness 0 and 27 hit points; if the ice is broken, the creature is freed. A creature can break the ice as a full-round action with a successful DC 24 Strength check.<br><p><b>Base Item:</b> +2 warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, icy prisonUM</p><h3><b>Source: </b></h3>AP 69",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 10,
+    "price": 24524,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "Frost-Thunder Hammer",
+    "cl": 9,
+    "aura": {
+      "custom": true,
+      "school": "evocation"
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "attack"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "melee",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 4, @size)",
+          ""
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "frostthunderHammer",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "simple",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

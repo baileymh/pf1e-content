@@ -1,0 +1,150 @@
+{
+  "_id": "OHKKjoLsufX3PjZO",
+  "name": "Slow",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/yellow_18.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You are&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/conditions#TOC-Staggered\">staggered</a>, and you have a -1 penalty to attack rolls, AC and Reflex saves.</p>\n<p>In addition, you move at half speed (round down to the next 5-foot increment).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "sfd9hlci",
+        "formula": "-1",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": -1,
+        "target": "ac"
+      },
+      {
+        "_id": "oes4icne",
+        "formula": "-1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": -1,
+        "target": "attack"
+      },
+      {
+        "_id": "fkdqxldq",
+        "formula": "-1",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": -1,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "43vumsb9",
+        "formula": "@attributes.speed.land.total > 0 ? max(1, floor(@attributes.speed.land.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "landSpeed",
+        "modifier": "untyped",
+        "priority": -5,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "8n7okgkh",
+        "formula": "@attributes.speed.climb.total > 0 ? max(1, floor(@attributes.speed.climb.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "climbSpeed",
+        "modifier": "untyped",
+        "priority": -5,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "0n4xfnao",
+        "formula": "@attributes.speed.swim.total > 0 ? max(1, floor(@attributes.speed.swim.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "swimSpeed",
+        "modifier": "untyped",
+        "priority": -5,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "5qvs6y2o",
+        "formula": "@attributes.speed.burrow.total > 0 ? max(1, floor(@attributes.speed.burrow.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "burrowSpeed",
+        "modifier": "untyped",
+        "priority": -5,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "s12qta0n",
+        "formula": "@attributes.speed.fly.total > 0 ? max(1, floor(@attributes.speed.fly.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "flySpeed",
+        "modifier": "untyped",
+        "priority": -5,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": true,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "slow",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Slow",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

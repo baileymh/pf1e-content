@@ -1,0 +1,69 @@
+{
+  "_id": "gZcJUqfShwSyM5er",
+  "name": "Climbing",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/fire_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand.</p>\n<p>While climbing, you can&rsquo;t move to avoid a blow, so you lose your Dexterity bonus to AC (if any). You also can&rsquo;t use a shield while climbing.</p>\n<p>Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "61unx11m",
+        "formula": "0",
+        "operator": "set",
+        "subTarget": "sac",
+        "modifier": "base",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": true,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "conditionals": [],
+    "identifiedName": "Climbing",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

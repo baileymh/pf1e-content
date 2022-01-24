@@ -1,0 +1,85 @@
+{
+  "_id": "Pn1f73t2QpX2ZcOC",
+  "name": "Bless Weapon",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/yellow_22.jpg",
+  "data": {
+    "description": {
+      "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">@Compendium[pf1.spells.hl9l92qfalq6c55z]{Bless Weapon}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.)</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Individual arrows or bolts can be transmuted, but affected projectile weapons (such as bows) don't confer the benefit to the projectiles they shoot.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">In addition, all critical hit rolls against evil foes are automatically successful, so every threat is a critical hit. This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">keen</em>&nbsp;weapon or a&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">vorpal sword</em>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "n3pa0iw8",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "Bless Weapon: The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Bless Weapon: All critical hit rolls against evil foes are automatically successful, so every threat is a critical hit. This last effect does not apply to any weapon that already has a magical effect related to critical hits, such as a keen weapon or a vorpal sword.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Bless Weapon: The weapon is treated as having a [[+1]] enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus).",
+        "target": "attacks",
+        "subTarget": "attack"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "conditionals": [],
+    "identifiedName": "Bless Weapon",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

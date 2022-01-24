@@ -1,0 +1,150 @@
+{
+  "_id": "l2l4ifLldeUzpxVl",
+  "name": "Haste",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/armor_01.jpg",
+  "data": {
+    "description": {
+      "value": "<p>When making a full attack action, you may make one extra attack with one natural or manufactured weapon at your highest base attack bonus. This effect is not cumulative with similar effects, such as that provided by a&nbsp;<a href=\"https://www.d20pfsrd.com/magic-items/magic-weapons#TOC-Speed\" rel=\"nofollow\">speed</a> weapon.</p>\n<p>You also gain a +1 bonus on attack rolls, dodge AC and Reflex saves.</p>\n<p>All your modes of movement (including land, fly, burrow, climb and swim) increase by 30ft, to a maximum of twice your normal speed using that form of movement.&nbsp;This increase counts as an enhancement bonus, and it affects the creature’s jumping distance as normal for increased speed</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "kvfxvcqw",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "i5jeb69f",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "dodge",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "uv25ffcw",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "t7kdmcvh",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "8chno7s8",
+        "formula": "min(@attributes.speed.climb.base, 30)",
+        "operator": "add",
+        "subTarget": "climbSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "o3i44my7",
+        "formula": "min(@attributes.speed.swim.base, 30)",
+        "operator": "add",
+        "subTarget": "swimSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "4iimhrzg",
+        "formula": "min(@attributes.speed.burrow.base, 30)",
+        "operator": "add",
+        "subTarget": "burrowSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "uog1v33r",
+        "formula": "min(@attributes.speed.fly.base, 30)",
+        "operator": "add",
+        "subTarget": "flySpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "haste",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Haste",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

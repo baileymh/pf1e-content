@@ -1,0 +1,110 @@
+{
+  "_id": "zF0XYYzW6suRbFKC",
+  "name": "Rage (Barbarian)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/yellow_17.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.class-abilities.WSqWT9ZIshtC5vlV]{Rage}</p>\n<p>While in rage, a barbarian gains a +4 morale bonus to her Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, she takes a &ndash;2 penalty to Armor Class.</p>\n<p>The increase to Constitution grants the barbarian 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like temporary hit points.</p>\n<p>While in rage, a barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</p>\n<hr />\n<p>At 11th level, when a barbarian enters rage, the morale bonus to her Strength and Constitution increases to +6 and the morale bonus on her Will saves increases to +3.</p>\n<hr />\n<p>At 20th level, when a barbarian enters rage, the morale bonus to her Strength and Constitution increases to +8 and the morale bonus on her Will saves increases to +4.</p>\n<hr />\n<p><strong>Usage: </strong>Replace class in Changes if NOT on a Barbarian.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "wbtc4pzx",
+        "formula": "@classes.barbarian.level>19 ? 8 : @classes.barbarian.level >= 11 ? 6 : 4",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 4,
+        "target": "ability"
+      },
+      {
+        "_id": "8tewkqv2",
+        "formula": "@classes.barbarian.level>19 ? 8 : @classes.barbarian.level >= 11 ? 6 : 4",
+        "operator": "add",
+        "subTarget": "con",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 4,
+        "target": "ability"
+      },
+      {
+        "_id": "zabtklep",
+        "formula": "@classes.barbarian.level>19 ? 4 : @classes.barbarian.level >= 11 ? 3 : 2",
+        "operator": "add",
+        "subTarget": "will",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 2,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "6bay1ht2",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": -2,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "subTarget": "allChecks",
+        "target": "abilityChecks",
+        "text": "<b>Rage:</b> A barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration."
+      },
+      {
+        "subTarget": "skills",
+        "target": "skills",
+        "text": "<b>Rage:</b> A barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration."
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "rageBarbarian",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": true,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "conditionals": [],
+    "identifiedName": "Rage (Barbarian)",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

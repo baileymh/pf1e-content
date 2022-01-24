@@ -1,0 +1,106 @@
+{
+  "_id": "mKiX7dYMdLT4NTjX",
+  "name": "Holy Aura",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/light-sky-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>A brilliant divine radiance surrounds you, protecting you from attacks, granting you resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike you. This abjuration has four effects.</p>\n<ul>\n<li>First, you gain a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike <em>protection from evil</em>, this benefit applies against all attacks, not just against attacks by evil creatures.</li>\n<li>Second, you gain spell resistance 25 against evil spells and spells cast by evil creatures.</li>\n<li>Third, the abjuration protects you from possession and mental influence, just as <em>protection from evil</em> does.</li>\n<li>Finally, if an evil creature succeeds on a melee attack against you, the offending attacker is blinded (Fortitude save negates, as <em>blindness/deafness</em>, but against <em>holy aura&rsquo;s</em> save DC).</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "d73b0it5",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "resist",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "3sg9jhth",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "deflection",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "[[25]] SR vs Evil spells and spells cast by Evil creatures.",
+        "target": "misc",
+        "subTarget": "sr"
+      },
+      {
+        "text": "+[[2]] Morale vs existing Enchantment [charm] and [compulsion] effects.",
+        "target": "savingThrows",
+        "subTarget": "will"
+      },
+      {
+        "text": "Evil creatures who succeed a melee attack vs you are Blinded (Fort save negates).",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "holyAura",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Holy Aura",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

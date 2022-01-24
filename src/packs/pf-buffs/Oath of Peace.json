@@ -1,0 +1,111 @@
+{
+  "_id": "hCDUhGemXFNsYLJV",
+  "name": "Oath of Peace",
+  "type": "buff",
+  "img": "icons/commodities/flowers/daisy-white.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +5 sacred bonus to AC and on saving throws, as well as DR 10/evil. If you make a direct or indirect attack or any show any hostility toward any creature, the spell immediately ends.&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "hir1e8qs",
+        "formula": "5",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "rk3h4etp",
+        "formula": "5",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Oath of Peace:</b> DR 10/Evil",
+        "target": "misc",
+        "subTarget": "ac"
+      },
+      {
+        "text": "<b>Oath of Peace:</b> Spell ends If you make a direct or indirect attack or show any hostility toward any creature.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "<b>Oath of Peace:</b> Spell ends If you make a direct or indirect attack or show any hostility toward any creature.",
+        "target": "skill",
+        "subTarget": "skill.int"
+      },
+      {
+        "text": "<b>Oath of Peace:</b> Spell ends If you make a direct or indirect attack or show any hostility toward any creature.",
+        "target": "misc",
+        "subTarget": "cmb"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "oathOfPeace",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Oath of Peace",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "z87AmuqQYUWKsgBH",
+  "name": "Cover",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/greater-shield-focus.jpg",
+  "data": {
+    "description": {
+      "value": "<p>Cover grants you a +2 bonus on Reflex saves against attacks that originate or burst out from a point on the other side of the cover from you. Note that spread effects can extend around corners and thus negate this cover bonus.</p>\n<p>&nbsp;</p>\n<p><strong>Cover and Attacks of Opportunity</strong></p>\n<p>You can&rsquo;t execute an attack of opportunity against an opponent with cover relative to you.</p>\n<div>\n<p>&nbsp;</p>\n<p><strong>Cover and Stealth Checks</strong></p>\n<p>You can use cover to make a&nbsp;Stealth&nbsp;check. Without cover, you usually need&nbsp;concealment&nbsp;(see below) to make a&nbsp;Stealth&nbsp;check.</p>\n<p>&nbsp;</p>\n<p><strong>Big Creatures and Cover</strong></p>\n<p>Any creature with a space larger than 5 feet (1 square) determines cover against melee attacks slightly differently than smaller creatures do. Such a creature can choose any square that it occupies to determine if an opponent has cover against its melee attacks. Similarly, when making a melee attack against such a creature, you can pick any of the squares it occupies to determine if it has cover against you.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "3b9czjnt",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "imc615os",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Can make checks due to Cover.",
+        "target": "skill",
+        "subTarget": "skill.ste"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "cover",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Cover",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

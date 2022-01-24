@@ -1,0 +1,180 @@
+{
+  "_id": "B2McodEGU4IGjGqi",
+  "name": "Evolution Pool (Unchained)",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/intimidating-prowess.jpg",
+  "data": {
+    "description": {
+      "value": "<p><strong>Current Pool:&nbsp;</strong>[[(round(@classes.eidolon.level * .75))]]</p>\n<p>The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon.</p>\n<p>Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set.</p>\n<p>The summoner can change them whenever he gains a level (and through the transmogrify spell).</p>\n<p><strong>Usage</strong></p>\n<p>Subtract from the total when adding evolutions.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Eidolon"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": "passive"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": "charges",
+      "autoDeductCharges": false,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "floor((@classes.eidolon.level - 1) * .75) + 1 + (((((@classes.eidolon.level - 1) * .75) * 100) % 100) >= 50 ? 1 : 0)",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "evolutionPoolUnchained",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Eidolon"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "ex",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "Evolution Pool (Unchained)",
+    "auraStrength": 0,
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "pf1": {},
+    "scene-packer": {
+      "sourceId": "Item.4WlcyEkZPlKfU28P"
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.gQahVj8GpA8Yvguq"
+    }
+  }
+}

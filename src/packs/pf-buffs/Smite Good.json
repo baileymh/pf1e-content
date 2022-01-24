@@ -1,0 +1,85 @@
+{
+  "_id": "vRegi6WLdGYSQNHF",
+  "name": "Smite Good",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/beam-magenta-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You add your Charisma bonus (if any) to your attack rolls and adds your paladin level to all damage rolls made against a good target of your smite. If the target of smite good is an outsider with the good subtype, an good-aligned dragon, or an cleric or paladin, the bonus to damage on the first successful attack increases to 2 points of damage per paladin level you possess. Regardless of the target, smite good attacks automatically bypass any DR the creature might possess.</p>\n<p>In addition, while smite good is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>\n<p><strong>Usage:</strong>&nbsp;Set the level of this buff to the paladin level of Smite Good.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[@abilities.cha.mod]] Deflection vs target of Smite Good.",
+        "target": "misc",
+        "subTarget": "ac"
+      },
+      {
+        "text": "+[[@abilities.cha.mod]] Attack and +[[@item.level]] Damage vs Good target of Smite Good.\nIf a Good dragon, outsider, cleric or paladin, the first successful attack instead deals +[[2 * @item.level]] Damage.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Bypass all DR of target of Smite Good.",
+        "target": "attacks",
+        "subTarget": "effect"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "smiteGood",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Smite Good",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

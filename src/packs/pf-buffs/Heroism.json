@@ -1,0 +1,91 @@
+{
+  "_id": "lTD7C2RRgZRxAe4w",
+  "name": "Heroism",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/yellow_17.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +2 <a href=\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Morale-Bonus\">morale bonus</a> on attack rolls, saves, and skill checks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "nueem2us",
+        "formula": "2",
+        "operator": "+",
+        "subTarget": "attack",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "qmgiyv88",
+        "formula": "2",
+        "operator": "+",
+        "subTarget": "allSavingThrows",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "zstphu4j",
+        "formula": "2",
+        "operator": "+",
+        "subTarget": "skills",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": []
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

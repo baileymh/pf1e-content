@@ -1,0 +1,117 @@
+{
+  "_id": "eWKAflRpEuEyXJwW",
+  "name": "Touch of Good",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/light_08.jpg",
+  "data": {
+    "description": {
+      "value": "<p>Gains a Sacred bonus on attack rolls, skill checks, ability checks, and saving throws equal to half the caster's level (minimum 1) for 1 round.</p>\n<p><strong>Usage:</strong>&nbsp;Set this buff's level equal to the caster level of Touch of Good.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "1r623dkc",
+        "formula": "(max(1, floor(@item.level / 2)))",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "s8ptzg14",
+        "formula": "(max(1, floor(@item.level / 2)))",
+        "operator": "add",
+        "subTarget": "skills",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      },
+      {
+        "_id": "y7590o6f",
+        "formula": "(max(1, floor(@item.level / 2)))",
+        "operator": "add",
+        "subTarget": "allChecks",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "abilityChecks"
+      },
+      {
+        "_id": "g8qak5rw",
+        "formula": "(max(1, floor(@item.level / 2)))",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "touchOfGood",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "identifiedName": "Touch of Good",
+    "attackParts": [],
+    "conditionals": [],
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "heroes-for-hire",
+      "system": "pf1",
+      "coreVersion": "0.7.9",
+      "systemVersion": "0.76.13"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "_id": "teNA2sddQket0o9p",
+  "name": "Bungle",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/staggering-critical.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.spells.l0hv73qsjg7cvsh5]{Bungle}</p>\n<p><span style=\"color: #191813; font-size: 13px;\">The target takes a -20 penalty on its next attack roll or check that requires a d20 roll. The action must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are unaffected by this spell.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "n7zis5fl",
+        "formula": "-20",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "37det1oj",
+        "formula": "-20",
+        "operator": "add",
+        "subTarget": "allChecks",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "abilityChecks"
+      },
+      {
+        "_id": "vh5qftg4",
+        "formula": "-20",
+        "operator": "add",
+        "subTarget": "skills",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "Bungle: The target takes a [[-20]] penalty on its next attack roll or check that requires a d20 roll. The action must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are unaffected by this spell.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Bungle: The target takes a [[-20]] penalty on its next attack roll or check that requires a d20 roll. The action must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are unaffected by this spell.",
+        "target": "abilityChecks",
+        "subTarget": "allChecks"
+      },
+      {
+        "text": "Bungle: The target takes a [[-20]] penalty on its next attack roll or check that requires a d20 roll. The action must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are unaffected by this spell.",
+        "target": "skills",
+        "subTarget": "skills"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "conditionals": [],
+    "identifiedName": "Bungle",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

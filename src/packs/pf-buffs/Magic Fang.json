@@ -1,0 +1,77 @@
+{
+  "_id": "hLyR3HQklOuoI86H",
+  "name": "Magic Fang",
+  "type": "buff",
+  "img": "icons/commodities/bones/bone-jaw-teeth-white.webp",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.spells.cfzk3vkv1c7ncaug]{Magic Fang}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Magic fang</em>&nbsp;gives one natural weapon or unarmed strike of the subject a +1 enhancement bonus on attack and damage rolls. The spell can affect a slam attack, fist, bite, or other natural weapon.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">The spell does not change an unarmed strike's damage from nonlethal damage to lethal damage.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">Magic fang</em>&nbsp;can be made permanent with a&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">permanency</em>&nbsp;spell.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ux2jrz59",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "mattack",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "ychnms26",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

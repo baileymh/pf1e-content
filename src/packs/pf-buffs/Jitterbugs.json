@@ -1,0 +1,101 @@
+{
+  "_id": "Y7vd3pUSG8oqT5ne",
+  "name": "Jitterbugs",
+  "type": "buff",
+  "img": "icons/environment/creatures/bug-flea-beige.webp",
+  "data": {
+    "description": {
+      "value": "<p>You take &ndash;4 penalty on all Dexterity checks and Dexterity-based skill checks, and cannot take the delay, ready, or total defense actions.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "quylygk3",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "dexSkills",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      },
+      {
+        "_id": "y3z53ful",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "dexChecks",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "abilityChecks"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Can't take the Delay or Readied actions.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Can't take the Total Defense action.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "jitterbugs",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Jitterbugs",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

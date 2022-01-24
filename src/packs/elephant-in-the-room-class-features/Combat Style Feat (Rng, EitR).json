@@ -1,0 +1,158 @@
+{
+  "name": "Combat Style Feat (Rng, EitR)",
+  "permission": {
+    "default": 0,
+    "ZTVmMGJjOWNlOGMz": 3
+  },
+  "type": "feat",
+  "data": {
+    "description": {
+      "value": "<p>At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. The ranger&rsquo;s expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</p>\n<p>If the ranger selects archery, he can choose from the following list whenever he gains a combat style feat: @Compendium[pf1.feats.HMCAM3Zyo77kG8Yg]{Far Shot}, @Compendium[world.elephant-in-the-room-feat-taxes.dJLezPVKdernFGg5]{Point-Blank Shot (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.ORVdmYMl5KV5Ixjy]{Precise Shot (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.aBTKJ5CC7MOsK7Wp]{Rapid Reload (EitR)}, and @Compendium[pf1.feats.NABgOSBRECIREaha]{Rapid Shot}. At 6th level, he adds @Compendium[pf1.feats.h1vqUG9Kh3f7oKWK]{Improved Precise Shot}, @Compendium[pf1.feats.w23dO02t0poRrno0]{Manyshot}, @Compendium[pf-content.pf-feats.3jOyHy00LpOvKz3O]{Parting Shot}, and @Compendium[pf-content.pf-feats.3oyuOhVcwraqOu9p]{Point-Blank Master} to the list. At 10th level, he adds @Compendium[pf1.feats.ztV5oURW9cFsLdXT]{Pinpoint Targeting} and @Compendium[pf1.feats.ymtj17MI4MdwB0v2]{Shot on the Run} to the list.</p>\n<p>If the ranger selects two-weapon combat, he can choose from the following list whenever he gains a combat style feat: @Compendium[pf1.feats.VK8TgwfjeomMwGjd]{Double Slice}, @Compendium[pf1.feats.qYv70Ch9RQfi1LQQ]{Improved Shield Bash}, @Compendium[pf1.feats.WKIVfdosc5SqYzmP]{Quick Draw}, @Compendium[world.elephant-in-the-room-feat-taxes.fgDYyLCLOfin167x]{Shield Focus (EitR)}, and @Compendium[world.elephant-in-the-room-feat-taxes.xWCZgYiKrCxlPqkf]{Two-Weapon Fighting (EitR)}. At 6th level, he adds @Compendium[world.elephant-in-the-room-feat-taxes.VfA6M8HxQMTOjzR0]{Greater Two-Weapon Fighting (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.fgDYyLCLOfin167x]{Shield Focus (EitR)}, and @Compendium[pf1.feats.YDqp3yrAsuXh103W]{Two-Weapon Defense} to the list. At 10th level, he adds @Compendium[pf1.feats.GEo7nDHxddLxi66j]{Shield Slam} and @Compendium[pf1.feats.tGDNVHHZnNFPPgiY]{Two-Weapon Rend} to the list.</p>\n<p>The benefits of the ranger&rsquo;s chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": "passive"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": "",
+      "long": null
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "0",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": "",
+    "attackNotes": "",
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "mac5t9bg",
+        "formula": "floor((@classes.ranger.level + 2) / 4)",
+        "operator": "add",
+        "subTarget": "bonusFeats",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "misc"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "combatStyleFeat",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Ranger"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "ex",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    }
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "systems/pf1/icons/feats/double-slice.jpg",
+  "effects": [],
+  "_id": "cS8WybaXTGDvM3ZP"
+}

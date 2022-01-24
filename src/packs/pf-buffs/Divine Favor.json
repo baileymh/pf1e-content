@@ -1,0 +1,82 @@
+{
+  "_id": "vM69RRW2O46WaiMu",
+  "name": "Divine Favor",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/weapon_42.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You have a luck bonus to attack rolls and weapon damage rolls.</p>\n<p><strong>Usage</strong>: Set the buff's level equal to the caster level Divine Favor.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ha13jllu",
+        "formula": "min(3, max(1, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "4n037d0l",
+        "formula": "min(3, max(1, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": []
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

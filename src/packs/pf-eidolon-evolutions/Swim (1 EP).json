@@ -1,0 +1,161 @@
+{
+  "_id": "rK1EmOZN2tiJM9Ie",
+  "name": "Swim (1 EP)",
+  "type": "feat",
+  "img": "icons/environment/creatures/fish-smooth-orange-red.webp",
+  "data": {
+    "description": {
+      "value": "<p>An eidolon gains webbed hands, feet, or powerful flippers, giving it a swim speed equal to its base speed.</p>\n<p>This evolution does not give the eidolon the ability to breathe underwater.</p>\n<p>This evolution can be selected more than once. Each additional time it is selected, increase the eidolon's swim speed by 20 feet.</p>\n<p><strong>Usage</strong></p>\n<p>If base speed isn't Land, repalce in Changes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Eidolon Evolution"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "ubu2ioce",
+        "formula": "@attributes.speed.land.base",
+        "operator": "add",
+        "subTarget": "swimSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "swim1Ep",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "misc",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "ex",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "Swim (1 EP)",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.eidolon-features.81EDTTlVG0L0Mb19"
+    },
+    "scene-packer": {
+      "sourceId": "Item.TsP4ZQsHgPOxnodP"
+    }
+  }
+}

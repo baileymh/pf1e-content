@@ -1,0 +1,110 @@
+{
+  "_id": "uDTtYwRPY51abNiu",
+  "name": "Bestow Curse (Atk, Save, Skill)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/affliction_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You place a curse on the subject. Choose one of the following.</p>\n<ul>\n<li>-6 decrease to an ability score (minimum 1).</li>\n<li>-4 penalty on attack rolls, saves, ability checks, and skill checks.</li>\n<li>Each turn, the target has a 50% chance to act normally; otherwise, it takes no action.</li>\n</ul>\n<p>You may also invent your own curse, but it should be no more powerful than those described above.</p>\n<p>The curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.</p>\n<p><em>Bestow curse</em> counters <em>remove curse</em>.</p>\n<p><strong>Usage:</strong> Set the cursed ability score in the changes tab.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "btltag3v",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "hqgslday",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "vxhixj9k",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "allChecks",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "abilityChecks"
+      },
+      {
+        "_id": "o2z1icsl",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "skills",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "bestowCurseAtkSaveSkill",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Bestow Curse (Atk, Save, Skill)",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

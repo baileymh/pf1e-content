@@ -1,0 +1,86 @@
+{
+  "_id": "K8fLIVFxynjNjWVv",
+  "name": "Sanctify Armor",
+  "type": "buff",
+  "img": "systems/pf1/icons/items/armor/kusari-gusoku.png",
+  "data": {
+    "description": {
+      "value": "<p>Your armor gains +1 enhancement bonus per four caster levels (maximum +5 at 20th level). When using your judgment or smite ability, you gain DR 5/evil.</p>\n<p><strong>Usage:</strong> Set the level of this buff to the caster level of Sanctify Armor. Disable this buff if the affected armor is removed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "opieav8t",
+        "formula": "(min(5,(floor(item.level / 4))))",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "DR 5/evil while using Judgment or Smite.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "sanctifyArmor",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Sanctify Armor",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

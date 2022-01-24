@@ -1,0 +1,194 @@
+{
+  "_id": "ELNWm6JNpR3elrJX",
+  "name": "Flare gun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-purple.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 300 gp</p><p><strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 1 lb.</p><p><strong>Damage</strong> 1d6 (small), 1d8 (medium); <strong>Damage Type</strong> F; <strong>Critical</strong> x3</p><p><strong>Range</strong> 240 ft.; <strong>Capacity</strong> 1; <strong>Usage</strong> Disposable; <strong>Special</strong> Slow-firing, touch</p><h2 class=\"framing\">Description</h2><p>A flare gun looks like a wide-barreled pistol, and although it can be used in combat, the item's primary use is to send signals. A flare gun and its ammunition (a small, rocket-propelled magnesium charge) are completely self-contained and disposable-once fired, a flare gun is useless. While a flare gun has excellent range, the flare tends to wobble and spiral in flight, incurring a 20% miss chance if it's being used to target a specific point. The flare detonates once it hits a target or reaches its maximum range of 2,400 feet, bursting into a sphere of fire that illuminates a 120-foot-radius area for 1 minute as it drifts slowly back to the ground. Any creatures within 20 feet of the flare must succeed at a DC 12 Fortitude saving throw each round or be dazzled by the intense light for as long as they remain in the area. Creatures adjacent to a lit flare are also blinded for 1d4 rounds on a failed save. A creature struck by a flare takes 1d8 points of fire damage (1d6 points of fire damage from Small flare guns), and continues to take the same amount of fire damage each round until the flare is removed. Removing a flare is a full-round action.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 18; <strong>Cost</strong> 150 gp</p><p>Craft Technological Arms and Armor, production lab</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 1,
+    "price": 300,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "Flare gun",
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": 240,
+      "units": "ft",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 8, @size)",
+          "F"
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "dex",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": "20",
+      "critMult": "3"
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "flareGun",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "exotic",
+    "weaponSubtype": "ranged",
+    "properties": {
+      "blc": false,
+      "brc": false,
+      "dea": false,
+      "dis": false,
+      "dst": false,
+      "dbl": false,
+      "fin": false,
+      "frg": false,
+      "grp": false,
+      "imp": false,
+      "mnk": false,
+      "nnl": false,
+      "prf": false,
+      "rch": false,
+      "snd": false,
+      "thr": false,
+      "trp": false
+    },
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.tech-weapons.51xeYp8KSnRDCEgw"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "Un3yEd7l1wt9VEF7",
+  "name": "Squeezing (½ space)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/violet_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>In some cases, you may have to squeeze into or through an area that isn&rsquo;t as wide as the space you take up. You can squeeze through or into a space that is at least half as wide as your normal space. Each move into or through a narrow space counts as if it were 2 squares, and while squeezed in a narrow space, you take a &ndash;4 penalty on attack rolls and a &ndash;4 penalty to AC.</p>\n<p>A creature can squeeze past a creature while moving but it can&rsquo;t end its movement in an occupied square.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "wqkyxjru",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "pld9770z",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "1TemplateBuff",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

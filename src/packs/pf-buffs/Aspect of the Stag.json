@@ -1,0 +1,86 @@
+{
+  "_id": "4g9uPo6DRlfBTjcj",
+  "name": "Aspect of the Stag",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +2 dodge bonus to AC against attacks of opportunity, your base speed increases by 20 ft., you can move through any undergrowth (including magically manipulated undergrowth) at your normal speed, and can even make a 5-foot step within such terrain.</p>\n<p>Furthermore, when you are hit with an attack of opportunity, you can make a single attack with your antlers against the opponent that hit you as an immediate action. This attack uses your highest base attack bonus plus your Strength or Dexterity bonus (your choice) and deals 1d8 points of piercing damage (if you are Medium; 1d6 points of damage if Small) plus your Strength modifier on a successful hit. The antlers have a critical multiplier of 19-20/x2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "kf9w62z6",
+        "formula": "20",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[2]] Dodge vs AoO.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "aspectOfTheStag",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Aspect of the Stag",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

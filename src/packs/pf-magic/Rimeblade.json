@@ -1,0 +1,177 @@
+{
+  "_id": "5fm3Hf7HFBtn5ar5",
+  "name": "Rimeblade",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/estoc.PNG",
+  "data": {
+    "description": {
+      "value": "<h2></b>Description</b></h2></p><p>This +1 frost scimitar has been forged from a single piece of razor-sharp, super-hardened ice. A rimeblade automatically resizes itself to match the size of its wielder, and if a rimeblade is damaged, the wielder can cause the blade to melt away and reform with full hit points as a full-round action. This ability cannot be used if the weapon is destroyed.  Once per day on command, the wielder can transform a rimeblade into a beam of ice-cold flame called rimefire. The weapon is still wielded as scimitar, and attacks with the blade-like beam are melee touch attacks that deal 1d8+3 points of cold damage (regardless of the wielder's size). Because the beam is immaterial, the wielder's Strength modifier doesn't apply to damage. In addition, a creature that takes cold damage from the rimefire beam is covered in clinging frost and is entangled for 1 round. The rimefire beam lasts for 1 minute, after which the weapon returns to its normal form.  In addition, once per day as a swift action before an attack, a rimeblade's wielder can cause the blade to glow with a pale blue radiance. On a successful attack, the rimeblade deals an additional 4d6 points of cold damage and causes the target to be staggered for 1 round. If the attack is a critical hit, the target is staggered for 1 minute instead. This effect ends after a single attack, regardless of whether the attack is successful or not.<br><p><b>Base Item:</b> +1 frost scimitar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Elemental SpellAPG, Rime SpellUM, chill metal or ice storm, flame blade, frigid touchUM</p><h3><b>Source: </b></h3>AP 70",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 4,
+    "price": 16955,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "Rimeblade",
+    "cl": 8,
+    "aura": {
+      "custom": true,
+      "school": "evocation [cold]"
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "attack"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "melee",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 4, @size)",
+          ""
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "rimeblade",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "simple",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

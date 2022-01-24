@@ -1,0 +1,86 @@
+{
+  "_id": "2v2ifXv9SL5aOLv1",
+  "name": "Expeditious Retreat",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/dodge.jpg",
+  "data": {
+    "description": {
+      "value": "<p>This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "lklaaddo",
+        "formula": "30",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Your Jump distance may be affected by increased speed.",
+        "target": "skill",
+        "subTarget": "skill.acr"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "expeditiousRetreat",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Expeditious Retreat",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

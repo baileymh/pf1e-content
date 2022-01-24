@@ -1,0 +1,182 @@
+{
+  "_id": "RzvnYO16n3QtIO7T",
+  "name": "Greater Shield Focus (EitR)",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/greater-shield-focus.jpg",
+  "data": {
+    "description": {
+      "value": "<p><em>You are skilled at deflecting blows with your shield.</em> <br /><br /></p>\n<p><strong>Prerequisites</strong></p>\n<p>Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.</p>\n<p>&nbsp;</p>\n<p><strong>Benefits</strong></p>\n<p class=\"stat-block-1\">Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus. Additionally, the AC bonus against ranged weapons granted by Shield Focus now affects ranged touch attacks (including rays and similar magical effects).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Combat"
+      ],
+      [
+        "Shield"
+      ],
+      [
+        "Defensive"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": "",
+      "long": null
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "0",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "u7naxmoj",
+        "formula": "@shield.type > 0 ? 1 : 0",
+        "operator": "add",
+        "subTarget": "sac",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "greaterShieldFocus",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "recharge": {
+      "value": null,
+      "charged": false,
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "attack": {
+      "parts": []
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "ZTVmMGJjOWNlOGMz": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  }
+}

@@ -1,0 +1,3053 @@
+{
+  "_id": "wNjQHMzr4nZdAko7",
+  "name": "Weasel",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 3,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "carryBonus": 0,
+        "carryMultiplier": 1,
+        "total": 3,
+        "mod": -4,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "dex": {
+        "value": 15,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 15,
+        "mod": 2,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "con": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "int": {
+        "value": 2,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 2,
+        "mod": -4,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "wis": {
+        "value": 12,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 12,
+        "mod": 1,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "cha": {
+        "value": 5,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 5,
+        "mod": -3,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      }
+    },
+    "resources": {},
+    "attributes": {
+      "hpAbility": "con",
+      "cmbAbility": "str",
+      "naturalAC": "+1",
+      "ac": {
+        "normal": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "touch": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "flatFooted": {
+          "value": 0,
+          "total": 10
+        }
+      },
+      "cmd": {
+        "strAbility": "str",
+        "dexAbility": "dex",
+        "value": 0,
+        "total": 10,
+        "flatFootedTotal": 10
+      },
+      "sr": {
+        "formula": "",
+        "total": 0
+      },
+      "clCheck": false,
+      "saveNotes": "",
+      "acNotes": "",
+      "cmdNotes": "10 vs. trip",
+      "srNotes": "",
+      "attack": {
+        "meleeAbility": "str",
+        "rangedAbility": "dex",
+        "general": 0,
+        "shared": 0,
+        "melee": 0,
+        "ranged": 0
+      },
+      "energyDrain": 0,
+      "quadruped": false,
+      "savingThrows": {
+        "fort": {
+          "base": 0,
+          "ability": "con",
+          "total": 0
+        },
+        "ref": {
+          "base": 0,
+          "ability": "dex",
+          "total": 0
+        },
+        "will": {
+          "base": 0,
+          "ability": "wis",
+          "total": 0
+        }
+      },
+      "hp": {
+        "value": 4,
+        "temp": 0,
+        "nonlethal": 0,
+        "max": 0
+      },
+      "wounds": {
+        "min": 0,
+        "base": 0,
+        "value": 0,
+        "max": 10
+      },
+      "vigor": {
+        "min": 0,
+        "value": 0,
+        "temp": 0,
+        "base": 0,
+        "max": 0
+      },
+      "init": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "total": 0
+      },
+      "speed": {
+        "land": {
+          "base": 20,
+          "total": 30
+        },
+        "climb": {
+          "base": 20,
+          "total": 0
+        },
+        "swim": {
+          "base": 0,
+          "total": 0
+        },
+        "burrow": {
+          "base": 0,
+          "total": 0
+        },
+        "fly": {
+          "base": 0,
+          "maneuverability": "average",
+          "total": 0
+        }
+      },
+      "conditions": {
+        "bleed": false,
+        "blind": false,
+        "confused": false,
+        "dazed": false,
+        "dazzled": false,
+        "deaf": false,
+        "entangled": false,
+        "fatigued": false,
+        "frightened": false,
+        "exhausted": false,
+        "grappled": false,
+        "helpless": false,
+        "incorporeal": false,
+        "invisible": false,
+        "nauseated": false,
+        "panicked": false,
+        "paralyzed": false,
+        "pinned": false,
+        "prone": false,
+        "shaken": false,
+        "sickened": false,
+        "staggered": false,
+        "stunned": false
+      },
+      "spells": {
+        "usedSpellbooks": [],
+        "spellbooks": {
+          "primary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Primary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "secondary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Secondary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "tertiary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Tertiary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "spelllike": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Spell-likes",
+            "casterType": "high",
+            "class": "_hd",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "cha",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": null,
+                "max": 0,
+                "value": 0
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": "",
+                "max": 0,
+                "value": 0
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          }
+        }
+      },
+      "encumbrance": {
+        "level": 0,
+        "levels": {
+          "light": 33,
+          "medium": 66,
+          "heavy": 100,
+          "carry": 200,
+          "drag": 500
+        },
+        "carriedWeight": 0
+      },
+      "hd": {
+        "total": 0,
+        "max": {
+          "_deprecated": true,
+          "value": 0
+        }
+      },
+      "bab": {
+        "value": 0,
+        "total": 0
+      },
+      "cmb": {
+        "value": 0
+      },
+      "damage": {
+        "general": 0,
+        "weapon": 0,
+        "spell": 0,
+        "shared": 0
+      },
+      "maxDexBonus": null,
+      "mDex": {
+        "armorBonus": 0,
+        "shieldBonus": 0
+      },
+      "acp": {
+        "gear": 0,
+        "encumbrance": 0,
+        "total": 0,
+        "armorBonus": 0,
+        "shieldBonus": 0,
+        "attackPenalty": 0
+      },
+      "woundThresholds": {
+        "penalty": 0,
+        "mod": 0,
+        "level": 0,
+        "override": -1,
+        "penaltyBase": 0
+      },
+      "prof": 2,
+      "spellcasting": {
+        "_deprecated": true
+      },
+      "spelldc": {
+        "_deprecated": true
+      },
+      "spellLevel": 0,
+      "mods": {
+        "skills": {}
+      }
+    },
+    "details": {
+      "level": {
+        "value": 0,
+        "min": 0,
+        "max": 40
+      },
+      "bonusFeatFormula": "",
+      "alignment": "tn",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "notes": {
+        "value": "\n        <div class=\"statblockContainer\" style=\"margin-top: 15px\"><div style=\"width: 100%; background-color: #ffe9c7; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); columns: 2 150px\">\r\n    <hr style=\"margin-left: 0; margin-top:-2px; width: 100%; height: 4px; background-color: #e0a100; border: 1px solid #000; column-span: all;\" />\r\n    <div style=\"padding: 5px;\">\r\n        <h1 style=\"border: none; font-family: 'Nodesto', 'Signika', 'Palatino Linotype', serif; color: #7a0800;\">Weasel CR 1/2 </h1>\r\n        \r\n        <!-- BASE -->\r\n        <hr style=\"margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;\" />\r\n        <div style=\"break-inside: avoid;\">\r\n            <strong>Source: </strong>Pathfinder RPG Bestiary pg. 133<br/>\r\n            <strong>XP 200</strong><br/>\r\n            \r\n            \r\n            \r\n            \r\n            \r\n            N \r\n            Tiny \r\n            Animal <br/>\r\n            <strong>Init</strong> 2;\r\n            <strong>Senses</strong> low-light vision, scent; Perception +1; \r\n            \r\n        </div>\r\n        <div style=\"break-inside: avoid;\">\r\n            <h4 style=\"border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;\">Defense</h4>\r\n            <hr style=\"margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;\" />\r\n            <strong>AC</strong> 15, <strong>Touch</strong> 14, <strong>Flat-Footed</strong> 13 (+2 Dex, +1 natural, +2 size)<br/>\r\n            <strong>Hit Points</strong> 4 (1 HD; 1d8)<br/>\r\n            <strong>Fort</strong> 2, <strong>Ref</strong> 4, <strong>Will</strong> 1\r\n            \r\n            \r\n            \r\n            \r\n            \r\n            \r\n            \r\n        </div>\r\n        <div>\r\n            <div style=\"break-inside: avoid;\">\r\n                <h4 style=\"border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;\">Offense</h4>\r\n                <hr style=\"margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;\" />\r\n                <strong>Speed</strong> 20 ft.<br/>\r\n                <strong>Melee</strong> bite +4 (1d3-4 plus attach)<br/>\r\n                \r\n                \r\n                \r\n                \r\n            </div>\r\n        </div>\r\n        <!-- SPELLCASTING -->\r\n                \r\n        <!-- TACTICS -->\r\n                \r\n                \r\n                \r\n                \r\n        <!-- STATISTICS -->\r\n        <div style=\"break-inside: avoid;\">\r\n            <h4 style=\"border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;\">Statistics</h4>\r\n            <hr style=\"margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;\" />\r\n            <strong>Str</strong> 3, <strong>Dex</strong> 15, <strong>Con</strong> 10, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 5<br/>\r\n            <strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 6<br/>\r\n            <strong>Feats</strong> Weapon Finesse<br/>\r\n            <strong>Skills</strong> Acrobatics +10, Climb +10, Escape Artist +3, Stealth +14, Racial Modifiers +4 Stealth, +8 Acrobatics<br/>\r\n            <strong>Languages</strong> <br/>\r\n            \r\n            \r\n            \r\n            \r\n        </div>\r\n        <!-- ECOLOGY -->\r\n            <div style='break-inside: avoid;'>\r\n                <h4 style='border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;'>Ecology</h4><hr style='margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;' />\r\n                <strong>Environment:</strong>  temperate hills<br/>\r\n                <strong>Organization:</strong>  solitary<br/>\r\n                <strong>Treasure:</strong>  none<br/>\r\n            </div>\r\n        <!-- SPECIAL ABILITIES -->\r\n            <div style='break-inside: avoid;'>\r\n                <h4 style='border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;'>Special Abilities</h4><hr style='margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;' />\r\n                <div style='white-space: pre-wrap;'>Attach (ex): When a weasel hits with a bite attack, it automatically grapples its foe, inflicting automatic bite damage each round.</div>\r\n            </div>\r\n        \r\n        <!-- DESCRIPTION -->\r\n            <div style='break-inside: avoid;'>\r\n                <h4 style='border: none; text-transform: uppercase; color: #7a0800; padding-top:6px;'>Description</h4><hr style='margin-left: 0; width: 275px; height: 0; border-style: solid; border-width: 2px 0 2px 275px; border-color: transparent transparent transparent #7a0800;' />\r\n        <div style=\"white-space: pre-wrap\">Weasels are predators content with raiding chicken coops or attacking pets when they encounter civilization.\n</div>\r\n                    \r\n    </div>\r\n    <hr style=\"margin-left: 0; margin-bottom: -3px; width: 100%; height: 4px; background-color: #e0a100; border: 1px solid #000; column-span: all;\" />\r\n</div></div>\n    \n        <br>\n        <hr>\n        <div class=\"rawInputContainer\" style=\"margin-top: 15px;\">\n            <h2 style=\"text-align:middle; border: none; text-transform: uppercase; color: #000;\">RAW INPUT</h2>\n            <hr>\n            <pre style=\"white-space: pre-wrap; font-size: 10px;\">Weasel CR 1/2\nSource Pathfinder RPG Bestiary pg. 133\nXP 200\nN Tiny animal\nInit +2; Senses low-light vision, scent; Perception +1\nDefense\nAC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)\nhp 4 (1d8)\nFort +2, Ref +4, Will +1\nOffense\nSpeed 20 ft., climb 20 ft.\nMelee bite +4 (1d3-4 plus attach)\nSpace 2-1/2 ft., Reach 0 ft.\nStatistics\nStr 3, Dex 15, Con 10, Int 2, Wis 12, Cha 5\nBase Atk +0; CMB +0; CMD 6 (10 vs. trip)\nFeats Weapon Finesse\nSkills Acrobatics +10, Climb +10, Escape Artist +3, Stealth +14; Racial Modifiers +4 Stealth, +8 Acrobatics\nEcology\nEnvironment temperate hills\nOrganization solitary\nTreasure none\nSpecial Abilities\nAttach (Ex) When a weasel hits with a bite attack, it automatically grapples its foe, inflicting automatic bite damage each round.\nDescription\nWeasels are predators content with raiding chicken coops or attacking pets when they encounter civilization.</pre>\n        </div>\n    ",
+        "public": ""
+      },
+      "bonusSkillRankFormula": "",
+      "tooltip": {
+        "name": "",
+        "hideHeld": false,
+        "hideArmor": false,
+        "hideBuffs": false,
+        "hideConditions": false,
+        "hideClothing": false,
+        "hideName": false
+      },
+      "carryCapacity": {
+        "bonus": {
+          "user": 0
+        },
+        "multiplier": {
+          "base": 1,
+          "user": 0
+        }
+      },
+      "cr": {
+        "base": 0.5,
+        "total": 0.5
+      },
+      "mythicTier": 0,
+      "type": "",
+      "environment": "",
+      "xp": {
+        "value": 400
+      },
+      "gender": "",
+      "deity": "",
+      "age": "",
+      "height": "",
+      "weight": ""
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 5,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "apr": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "art": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "blf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "clm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 11,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "crf": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "dip": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "dev": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "dis": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "esc": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 1,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "fly": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "han": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "hea": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "int": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kar": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kdu": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "ken": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kge": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "khi": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "klo": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kna": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kno": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kpl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kre": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "lin": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "lor": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "per": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "prf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "pro": {
+        "ability": "wis",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "rid": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "sen": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "slt": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "spl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "ste": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 1,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "sur": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "swm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "umd": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      }
+    },
+    "customSkills": {},
+    "traits": {
+      "size": "tiny",
+      "senses": "low-light vision, scent; Perception +1",
+      "dr": "",
+      "eres": "",
+      "cres": "",
+      "regen": "",
+      "fastHealing": "",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "stature": "tall",
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "altCurrency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "combat": {
+      "round": 0
+    },
+    "classes": {},
+    "armor": {
+      "type": 0
+    },
+    "shield": {
+      "type": 0
+    },
+    "spells": {
+      "primary": {
+        "altName": "",
+        "name": "Primary",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": ""
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": false,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        },
+        "spells": {
+          "spell0": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell1": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell2": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell3": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell4": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell5": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell6": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell7": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell8": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell9": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          }
+        }
+      },
+      "secondary": {
+        "altName": "",
+        "name": "Secondary",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": ""
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": false,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        },
+        "spells": {
+          "spell0": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell1": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell2": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell3": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell4": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell5": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell6": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell7": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell8": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell9": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          }
+        }
+      },
+      "tertiary": {
+        "altName": "",
+        "name": "Tertiary",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": ""
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": false,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        },
+        "spells": {
+          "spell0": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell1": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell2": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell3": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell4": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell5": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell6": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell7": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell8": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell9": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          }
+        }
+      },
+      "spelllike": {
+        "altName": "",
+        "name": "Spell-likes",
+        "class": "_hd",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": ""
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "cha",
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": false,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        },
+        "spells": {
+          "spell0": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell1": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell2": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell3": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell4": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell5": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell6": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell7": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell8": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          },
+          "spell9": {
+            "base": null,
+            "max": 0,
+            "value": 0
+          }
+        }
+      }
+    },
+    "range": {
+      "melee": 5,
+      "reach": 10
+    }
+  },
+  "token": {
+    "flags": {
+      "pf1": {
+        "lowLightVision": false
+      }
+    },
+    "name": "Weasel",
+    "displayName": 20,
+    "img": "icons/svg/mystery-man.svg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 0.6,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "wNjQHMzr4nZdAko7",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "WJqmmfXscPVpcISH",
+      "name": "Animal",
+      "type": "class",
+      "data": {
+        "description": {
+          "value": "<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture. Animals usually have additional information on how they can serve as companions.</p>\n<h2><span id=\"Features\">Features</span></h2>\n<p>An animal has the following features (unless otherwise noted).</p>\n<ul>\n<li>d8 Hit Die.</li>\n<li>Base attack bonus equal to 3/4 total Hit Dice (medium progression).</li>\n<li>Good&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Fortitude\">Fortitude</a>&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Reflex\">Reflex</a>&nbsp;saves.</li>\n<li>Skill points equal to 2 +&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\">Int</a>&nbsp;modifier (minimum 1) per Hit Die. The following are class skills for animals: <a href=\"https://www.d20pfsrd.com/skills/acrobatics\">Acrobatics</a>, <a href=\"https://www.d20pfsrd.com/skills/climb\">Climb</a>, <a href=\"https://www.d20pfsrd.com/skills/fly\">Fly</a>, <a href=\"https://www.d20pfsrd.com/skills/perception\">Perception</a>, <a href=\"https://www.d20pfsrd.com/skills/stealth\">Stealth</a>, and <a href=\"https://www.d20pfsrd.com/skills/swim\">Swim</a>.</li>\n</ul>\n<h2><span id=\"Traits\">Traits</span></h2>\n<p>An animal possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li><a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\">Intelligence</a>&nbsp;score of 1 or 2 (no creature with an&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\">Intelligence</a>&nbsp;score of 3 or higher can be an animal).</li>\n<li><a href=\"https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Low-Light-Vision\">Low-light vision</a>.</li>\n<li>Alignment: Always neutral.</li>\n<li>Treasure: None.</li>\n<li>Proficient with its natural weapons only. A non-combative herbivore treats its natural weapons as secondary attacks. Such attacks are made with a –5 penalty on the creature’s attack rolls, and the animal receives only 1/2 its&nbsp;<a href=\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Strength-Str-\">Strength</a>&nbsp;modifier as a damage adjustment.</li>\n<li>Proficient with no armor unless trained for war. (See&nbsp;<a href=\"https://www.d20pfsrd.com/extras/pathfinder-faq#TOC-War-Trained-11-25-09-\">FAQ</a>s and&nbsp;<a href=\"https://www.d20pfsrd.com/skills/handle-animal\">Handle Animal Skill</a>.)</li>\n<li>Animals breathe, eat, and sleep.</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "links": "",
+        "tag": "animal",
+        "useCustomTag": true,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "classType": "racial",
+        "level": 1,
+        "hd": 8,
+        "hp": 4,
+        "bab": "med",
+        "skillsPerLevel": 2,
+        "savingThrows": {
+          "fort": {
+            "value": "high"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "low"
+          }
+        },
+        "fc": {
+          "hp": {
+            "value": 0
+          },
+          "skill": {
+            "value": 0
+          },
+          "alt": {
+            "value": 0,
+            "notes": ""
+          }
+        },
+        "classSkills": {
+          "acr": true,
+          "apr": false,
+          "art": false,
+          "blf": false,
+          "clm": true,
+          "crf": false,
+          "dip": false,
+          "dev": false,
+          "dis": false,
+          "esc": false,
+          "fly": true,
+          "han": false,
+          "hea": false,
+          "int": false,
+          "kar": false,
+          "kdu": false,
+          "ken": false,
+          "kge": false,
+          "khi": false,
+          "klo": false,
+          "kna": false,
+          "kno": false,
+          "kpl": false,
+          "kre": false,
+          "lin": false,
+          "lor": false,
+          "per": true,
+          "prf": false,
+          "pro": false,
+          "rid": false,
+          "sen": false,
+          "slt": false,
+          "spl": false,
+          "ste": true,
+          "sur": false,
+          "swm": true,
+          "umd": false
+        },
+        "levels": 1,
+        "damage": {
+          "parts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "elISRvookAj0WtIA",
+      "name": "Race: Animal",
+      "type": "race",
+      "data": {
+        "description": {
+          "value": "sbc | As the statblock did not include a race, a custom one was generated.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "creatureType": "animal",
+        "subTypes": [
+          [
+            ""
+          ]
+        ],
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "94Bo3FMBwVHszAXS",
+      "name": "Sense: Low-light Vision",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "A creature with low-light vision can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of dim light. It retains the ability to distinguish color and detail under these conditions.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "senseLowlightVision",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "racial",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/shadow_11.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "JgKQ0cUFpPhLRTEF",
+      "name": "Sense: Scent",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "This special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.<br><br>\n                The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range.<br><br>\n                When a creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The creature can take a move action to note the direction of the scent. When the creature is within 5 feet of the source, it pinpoints the source’s location.<br><br>\n                A creature with the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Survival skill. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "senseScent",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "racial",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "vWiTqHC4Y3Xn1Pme",
+      "name": "Weapon Finesse",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "\n                <i>You are trained in using your agility in melee combat, as opposed to brute strength.</i>\n                <br />\n                <br />\n                \n                <p><b>Benefits</b></p>\n                <p><p class=\"stat-block-1\"> With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.</p></p>\n                \n            <br />\n                <p><b>Special</b></p>\n                <p><p class=\"stat-block-1\"> Natural weapons are considered light weapons.</p></p>\n                \n            \n            ",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Combat"
+          ],
+          [
+            "Weapon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": "",
+          "long": null
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "0",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "weaponFinesse",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "feat",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "recharge": {
+          "value": null,
+          "charged": false,
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/feats/weapon-finesse.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "TU1q3Cif1gxWzxbO",
+      "name": "Bite",
+      "type": "attack",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": "attack"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "attack"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "melee",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Bite",
+        "actionType": "mwak",
+        "attackBonus": "6",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "1d3+0",
+              "B, P and S"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [
+          "bite +4 (1d3-4)"
+        ],
+        "soundEffect": "",
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "bite",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "attackType": "natural",
+        "nonlethal": false,
+        "proficient": true,
+        "primaryAttack": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "conditionals": [],
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/items/inventory/monster-head.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pyOpylvjn2TI4B9a",
+      "name": "Environment:  Temperate Hills",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "sbc | Here you’ll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "environmentTemperateHills",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "RblaEWMvpEVcqOlh",
+      "name": "Organization:  Solitary",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "sbc | Here you’ll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "organizationSolitary",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dOdS8X224uWRTUPC",
+      "name": "Treasure:  None",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "sbc | Here you’ll find information on how the monster fits into the world, notes on its ecology and society, and other bits of useful lore and flavor that will help you breathe life into the creature when your PCs encounter it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "treasureNone",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "4LipnfhVaLxyPlN9",
+      "name": "Attach",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "When a weasel hits with a bite attack, it automatically grapples its foe, inflicting automatic bite damage each round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "attach",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pdpJBKbsKrQpfUAG",
+      "name": "sbc | Conversion Buff",
+      "type": "buff",
+      "data": {
+        "description": {
+          "value": "<h2>sbc | Conversion Buff</h2>\n                        This Buff was created by <strong>sbc</strong> to compensate for differences between the input and the values FoundryVTT calculates automatically.\n                        <br><br>\n                        Especially when the pathfinder system gets upgraded, entries in compendiums get updated or foundry changes in some way, this buff may become outdated.\n                        <br><br>\n                        For most mooks the conversion should more or less work, but for important NPCs or creatures it is adviced to double check the conversion manually.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [
+          {
+            "_id": "9gi4w3fr",
+            "formula": "6",
+            "operator": "add",
+            "subTarget": "cmb",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": 6,
+            "target": "misc"
+          },
+          {
+            "_id": "ig058mgb",
+            "formula": "-8",
+            "operator": "add",
+            "subTarget": "skill.clm",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": -8,
+            "target": "skill"
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noDex": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "sbcConversionBuff",
+        "useCustomTag": true,
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "buffType": "perm",
+        "active": true,
+        "level": 0,
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "hideFromToken": true,
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,177 @@
+{
+  "_id": "9RhaTT8Th7B4FNca",
+  "name": "Ricochet Hammer",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/estoc.PNG",
+  "data": {
+    "description": {
+      "value": "<h2></b>Description</b></h2></p><p>This +1 returning light hammer can strike multiple foes with a single throw. If the wielder has multiple attacks from a high base attack bonus, he may throw the hammer so it rebounds off the first target to strike at a second target, and so on for each of the wielder's additional attacks. The distance to each target adds to the total range of the weapon, and range penalties apply. For example, a 6th-level dwarf fighter can throw the hammer using his +6 BAB at a target 20 feet away (within one range increment, no range penalty); if it hits, he ricochets it to attack using his +1 BAB at a second target 40 feet away from the first target (within three range increments for a -4 range penalty). The hammer can only ricochet if it successfully hits a target; if it misses, it stops ricocheting, has no further attacks that round, and returns as normal for a weapon with the returning property. Because ricocheting attacks are treated as separate attacks, modifiers that only apply to one attack roll (such as true strike) only apply to the first attack and not the others. The ricochet attacks count as the wielder's additional attacks for that round.<br><p><b>Base Item:</b> +1 returning light hammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, telekinesis</p><h3><b>Source: </b></h3>Ultimate Equipment",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 2,
+    "price": 20301,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "Ricochet Hammer",
+    "cl": 7,
+    "aura": {
+      "custom": true,
+      "school": "transmutation"
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "attack"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "melee",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 4, @size)",
+          ""
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "ricochetHammer",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "simple",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,217 @@
+{
+  "_id": "oiuvpndZTM0Et5jw",
+  "name": "Welcome the Blighted Soul (Occult Ritual)",
+  "type": "spell",
+  "img": "systems/pf1/icons/skills/affliction_05.jpg",
+  "data": {
+    "description": {
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "caster"
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": "",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "links": {
+      "children": []
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": [
+        [
+          "summary",
+          "Turns the caster into a siabrae"
+        ]
+      ]
+    },
+    "scriptCalls": [],
+    "learnedAt": {
+      "class": [],
+      "domain": [],
+      "subDomain": [],
+      "elementalSchool": [],
+      "bloodline": []
+    },
+    "level": 9,
+    "clOffset": 0,
+    "slOffset": 0,
+    "school": "nec",
+    "subschool": "",
+    "types": "",
+    "nonlethal": false,
+    "conditionals": [],
+    "components": {
+      "value": "components",
+      "verbal": true,
+      "somatic": true,
+      "material": false,
+      "focus": true,
+      "divineFocus": 0
+    },
+    "castTime": "9 hours (only during the new moon)",
+    "materials": {
+      "value": "",
+      "focus": "ring of standing stones empowered with necromancy that cost 25,000 gp to create via craft wondrous item, sacrifice 18 living intelligent beings of the same type as the caster, sacrificed every 30 minutes during the ritual’s casting time",
+      "gpValue": 0
+    },
+    "spellbook": "",
+    "preparation": {
+      "preparedAmount": 0,
+      "maxAmount": 0,
+      "autoDeductCharges": true,
+      "spontaneousPrepared": true
+    },
+    "atWill": false,
+    "sr": false,
+    "shortDescription": "<p><strong>Source</strong> <em>Bestiary 6 pg. 250</em></p><p><strong>School</strong> necromancy [evil]; <strong>Level</strong> 9</p><p><strong>Casting Time</strong> 9 hours (only during the new moon)</p><p><strong>Components</strong> V, S, F (ring of standing stones empowered with necromancy that cost 25,000 gp to create via Craft Wondrous Item), sacrifice (18 living intelligent beings of the same type as the caster, sacrificed every 30 minutes during the ritual's casting time)</p><p><strong>Skill Checks</strong> Intimidate DC 31, 2 successes; Knowledge (nature) DC 31, 3 successes; Knowledge (religion) DC 31, 4 successes</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> caster</p><p><strong>Effect</strong> NUL</p><p><strong>Duration</strong> instantaneous</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> The caster is reduced to -1 hp</p><p><strong>Failure</strong> The caster is immediately slain.</p><h3 class=\"framing\">Effect</h3><p>After sacrificing 18 lives (traditionally, these lives are those of unwilling druids who would have tried to stand against the blasphemy the caster is attempting), the caster sacrifices himself and immediately rises from death as a siabrae.</p>",
+    "spellDuration": "",
+    "spellEffect": "",
+    "spellArea": "",
+    "showInQuickbar": false,
+    "spellPoints": {
+      "cost": "1 + @sl"
+    },
+    "domain": false,
+    "slotCost": 1,
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  }
+}

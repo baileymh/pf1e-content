@@ -1,0 +1,199 @@
+{
+  "_id": "WMJq96Aa7kZgeVXI",
+  "name": "STR/DEX Bonus",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/athletic.jpg",
+  "data": {
+    "description": {
+      "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Add this modifier to the eidolon's Strength and Dexterity scores, as determined by its base form. </span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Some options available through the eidolon's evolution pool might modify these scores.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\"><strong>Str/Dex Bonus:</strong> [[ floor((@classes.eidolon.level + 3) * 2 / 5) - 1 ]]</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Eidolon"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "2167egmx",
+        "formula": "floor((@classes.eidolon.level + 1) / 2.54)",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0
+      },
+      {
+        "_id": "9eu6k92k",
+        "formula": "floor((@classes.eidolon.level + 1) / 2.54)",
+        "operator": "add",
+        "subTarget": "dex",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "strdexBonus",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Eidolon"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "STR/DEX Bonus",
+    "auraStrength": 0,
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300000,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-companion-features.nWKp65a3AOFqJOs6"
+    },
+    "pf1": {},
+    "scene-packer": {
+      "sourceId": "Item.pDA7IHXF8VIRhSsr"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "_id": "XZgC8awOaE2Jdt8z",
+  "name": "X-laser",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-worn-steel.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 40,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 10 lbs.</p><p><strong>Damage</strong> 6d4 (small), 5d6 (medium); <strong>Damage Type</strong> F; <strong>Critical</strong> x4</p><p><strong>Range</strong> 200 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 5 charges; <strong>Special</strong> Touch</p><h2 class=\"framing\">Description</h2><p>An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser's beam functions as a laser rifle's beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon's maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon's discharge rather than significantly altering an object's structural integrity beyond the damage the laser blast deals as part of the attack.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 33; <strong>Cost</strong> 20,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 10,
+    "price": 40000,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "",
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": 200,
+      "units": "ft",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(5, 6, @size)",
+          "F"
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "dex",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": "20",
+      "critMult": "2"
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "xlaser",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "exotic",
+    "weaponSubtype": "ranged",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.tech-weapons.LW0XbKQiY9lol8KP"
+    }
+  }
+}

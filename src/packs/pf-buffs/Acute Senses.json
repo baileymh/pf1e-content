@@ -1,0 +1,80 @@
+{
+  "_id": "3cimRYgdw7AiOVci",
+  "name": "Acute Senses",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/alertness.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +10 enhancement bonus on Perception checks. This bonus increases to +20 at caster level 8th, and +30 (the maximum) at caster level 16th.</p>\n<p><strong>Usage:</strong>&nbsp;Set this buff's level equal to the caster level of Acute Senses.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "e62ic0bi",
+        "formula": "(min(30,(10 + (floor(@item.level / 8) * 10))))",
+        "operator": "add",
+        "subTarget": "skill.per",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 30,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "acuteSenses",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Acute Senses",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

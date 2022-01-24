@@ -1,0 +1,118 @@
+{
+  "_id": "u0VW7rxiDN6RmrNb",
+  "name": "Rage (UC)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/affliction_24.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.class-abilities.2Az38ZPYwjYBKZd2]{Rage (UC)}</p>\n<p><span style=\"color: #191813; font-size: 13px;\">While in a rage, a barbarian gains a +2 bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saving throws. </span><span style=\"color: #191813; font-size: 13px;\">In addition, she takes a &ndash;2 penalty to Armor Class. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\"><span class=\"needSteps\" title=\"Steps Required\">She also gains 2 temporary hit points per Hit Die.</span> These temporary hit points are lost first when a character takes damage, disappear when the rage ends, and are not replenished if the barbarian enters a rage again within 1 minute of her previous rage. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">While in a rage, a barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such as spellcasting).</span></p>\n<hr />\n<p><span style=\"color: #191813; font-size: 13px;\">At 11th level, a barbarian&rsquo;s bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saves while raging increases to +3. In addition, the amount of temporary hit points gained when entering a rage increases to <span class=\"needSteps\" title=\"Steps Required\">3 per Hit Die</span>.</span></p>\n<hr />\n<p><span style=\"color: #191813; font-size: 13px;\">At 20th level, a barbarian&rsquo;s bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saves while raging increases to +4. In addition, the amount of temporary hit points gained when entering a rage increases to <span class=\"needSteps\" title=\"Steps Required\">4 per Hit Die</span>.</span></p>\n<hr />\n<p><strong>Usage:</strong> Add temp hit points manually.&nbsp;</p>\n<p>Replace class in Changes if NOT on an Unchained Barbarian.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "wbtc4pzx",
+        "formula": "2 + (floor((@classes.barbarianUnchained.level - 2 ) / 9))",
+        "operator": "add",
+        "subTarget": "mattack",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "8tewkqv2",
+        "formula": "2 + (floor((@classes.barbarianUnchained.level - 2 ) / 9))",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      },
+      {
+        "_id": "zabtklep",
+        "formula": "2 + (floor((@classes.barbarianUnchained.level - 2 ) / 9))",
+        "operator": "add",
+        "subTarget": "will",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "6bay1ht2",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Rage (UC):</b> A barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.",
+        "target": "abilityChecks",
+        "subTarget": "allChecks"
+      },
+      {
+        "text": "<b>Rage (UC):</b> A barbarian cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.",
+        "target": "skills",
+        "subTarget": "skills"
+      },
+      {
+        "text": "<b>Rage (UC):</b> [[+2 + (floor((@classes.barbarianUnchained.level - 2 ) / 9))]] to melee attacks and damage",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "<b>Rage (UC): [[+2 + (floor((@classes.barbarianUnchained.level - 2 ) / 9))]] to will saves",
+        "target": "savingThrows",
+        "subTarget": "will"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

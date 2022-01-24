@@ -1,0 +1,86 @@
+{
+  "_id": "zQnxvVSJVmpuYHHb",
+  "name": "Shock Shield",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/lightning-orange-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>This shield hovers in front of you and negates magic missile attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks. At any time, as a free action, you may dismiss your shield, at which point it deals 1d6 points of electrical damage to all creatures within a 5-foot burst, including you. A Reflex saving throw halves the damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "21almx29",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "sac",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Shock Shield:</b> Your +[[2]] Shield bonus applies to incorporeal attacks. Magic missiles are negated against you.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "shockShield",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Shock Shield",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

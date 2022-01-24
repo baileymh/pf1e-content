@@ -1,0 +1,73 @@
+{
+  "_id": "3V4SKStquBCW8grU",
+  "name": "Debilitating Injury (Disoriented)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/weapon_06.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.class-abilities.nL9Ds9nflmID84vo]{Debilitating Injury (UC)}</p>\n<p><strong><span style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disoriented:</span></strong><span style=\"color: #191813; font-size: 13px;\">&nbsp;The target takes a &ndash;2 penalty on attack rolls. In addition, the target takes an additional &ndash;2 penalty on all attack rolls it makes against the rogue. At 10th level and 16th level, the penalty on attack rolls made against the rogue increases by &ndash;2 (to a total maximum of &ndash;8).</span></p>\n<hr />\n<p><strong>Usage:</strong> Set buff level to Rogue level.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "qa3vi5t4",
+        "formula": "-2 - (floor((@item.level + 2) / 6))",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Disoriented:</b> Takes an additional [[-2]] to attack rolls against attacks made by the rogue.",
+        "target": "attacks",
+        "subTarget": "attack"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

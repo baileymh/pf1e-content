@@ -1,0 +1,71 @@
+{
+  "_id": "SlzHnoCvQd7jNATl",
+  "name": "Shield of Faith",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/protect-orange-1.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You have a deflection bonus to AC.</p>\n<p><strong>Usage</strong>: Set this buff's level equal to the caster level of Shield of Faith.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "qrnq0w11",
+        "formula": "2 + min(3, floor(@item.level / 6))",
+        "operator": "+",
+        "subTarget": "ac",
+        "modifier": "deflection",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": []
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

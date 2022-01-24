@@ -1,0 +1,77 @@
+{
+  "_id": "iIdgvEwRaBBFGH57",
+  "name": "Magic Fang, Greater",
+  "type": "buff",
+  "img": "icons/commodities/bones/bone-jaw-teeth-white.webp",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.spells.bgtmki0xl4xl4y91]{Magic Fang, Greater}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">This spell functions like <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text;\" draggable=\"true\" data-pack=\"pf1.spells\" data-id=\"cfzk3vkv1c7ncaug\">Magic Fang</a>, except that the enhancement bonus on attack and damage rolls is +1 per four caster levels (maximum +5). This bonus does not allow a natural weapon or unarmed strike to bypass damage reduction aside from magic.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Alternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Greater&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">magic fang</em>&nbsp;can be made permanent with a <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text;\" draggable=\"true\" data-pack=\"pf1.spells\" data-id=\"nsxngq65mbrzgwnm\">Permanency</a> spell.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ux2jrz59",
+        "formula": "max(1, floor(@item.level / 4))",
+        "operator": "add",
+        "subTarget": "mattack",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "ychnms26",
+        "formula": "max(1, floor(@item.level / 4))",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

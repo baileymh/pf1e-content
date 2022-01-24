@@ -1,0 +1,96 @@
+{
+  "_id": "cpJwotd8ld0JLQgg",
+  "name": "Aspect of the Falcon",
+  "type": "buff",
+  "img": "icons/commodities/claws/claw-bird-yellow.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +3 competence bonus on Perception checks, a +1 competence bonus on ranged attacks, and the critical multiplier for your bows and crossbows becomes 19-20/x3.</p>\n<p>&nbsp;</p>\n<p>This effect does not stack with any other effect that expands the threat range of a weapon, such as the Improved Critical feat or a <em>keen</em> weapon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "i3fules2",
+        "formula": "3",
+        "operator": "add",
+        "subTarget": "skill.per",
+        "modifier": "competence",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      },
+      {
+        "_id": "i8kqne3t",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "rattack",
+        "modifier": "competence",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Critical multiplier for bows and crossbows are 19-20/x3.",
+        "target": "attacks",
+        "subTarget": "ranged"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "aspectOfTheFalcon",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Aspect of the Falcon",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}
