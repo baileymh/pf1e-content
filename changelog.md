@@ -4,6 +4,7 @@
 ### Changelog
 * Made Handy Haversack a container with 100% weight reduction
 * Added skill modifiers and icon to Headband of Vast Intelligence
+* Added modifiers to Cloak of Resistance
 
 ## 0.2.4
 ### Changelog
