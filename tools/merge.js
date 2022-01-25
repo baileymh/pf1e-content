@@ -1,5 +1,5 @@
 import {diffString, diff} from "json-diff";
-import sanitize from "sanitize-filename";
+import slugify from "slugify";
 import fs from "fs-extra";
 import crypto from "crypto";
 
@@ -23,6 +23,38 @@ function uid(len) {
     .slice(0, len);
 };
 
+function addItem(folder, data, packFiles) {
+  if (data._id) {
+    var filterOn = data._id;
+  } else {
+    var filterOn = slugify(data.name);
+  }
+  const existingFiles = packFiles.filter((file) => {
+    return file.includes(filterOn);
+  });
+
+  var fileName = "";
+  switch (existingFiles.length) {
+    case 0:
+      // new file
+      let newId = uid(16);
+      fileName = `${slugify(data.name)}-${newId}`;
+      console.log(`Adding new item: ${data.name}`);
+      break;
+    case 1:
+      // Single file to update
+      fileName = existingFiles[0];
+      let existingItem = fs.readJSONSync(path.join(PACK_SRC, folder, fileName));
+      console.log(`Updating item: ${data.name}\nDiff:\n${diffString(existingItem, data)}`);
+      break;
+    default:
+      // multiple files ask user what to do 
+      console.log(`${data.name} matches multiple items not yet implemented for merge: ${existingFiles}`);
+      return;
+  };
+  fs.writeJSON(path.join(PACK_SRC, folder, fileName), data, {spaces: 2});
+};
+
 function mergePacks() {
   // Determine the source folders to process
   const folders = fs.readdirSync(ADDITIONS_DIR).filter((file) => {
@@ -32,37 +64,28 @@ function mergePacks() {
 
   // Process each folder
   folders.map((folder) => {
-    // Find all files to be added to this pack
-    const files = fs.readdirSync(path.join(ADDITIONS_DIR, folder)).filter((file) => {
+    // Find all inputFiles to be added to this pack
+    const inputFiles = fs.readdirSync(path.join(ADDITIONS_DIR, folder)).filter((file) => {
       return fs.statSync(path.join(ADDITIONS_DIR, folder, file)).isFile();
     });
+    console.log(`Found input files: ${inputFiles}`);
 
-    // Update or Insert each entry into the pack
-    files.map((file) => {
-      console.log(`Processing file: ${file}`);
-      const filePath = path.join(ADDITIONS_DIR, folder, file);
-      var addJson = cleanItem(JSON.parse(fs.readFileSync(filePath, 'utf8')));
-      const addFileName = sanitize(addJson.name);
-      const packFile = path.join(PACK_SRC, folder, `${addFileName}.json`);
+    try {
+      var packFiles = fs.readdirSync(path.join(PACK_SRC, folder)).filter((file) => {
+        return fs.statSync(path.join(PACK_SRC, folder, file)).isFile();
+      });
+    } catch (e) {
+      console.log(`No compendium found for: ${folder}`);
+      console.log(`For available compendiums check folder names at: ${PACK_SRC}`);
+      process.exit(1);
+    };
 
-      if (fs.existsSync(packFile)) {
-        var existingEntry = fs.readJsonSync(packFile)
-        let existingId = existingEntry._id;
-        console.log(`Keeping existing ID: ${existingId}`);
-        addJson._id = existingId;
-      } else {
-        // TODO: Check every ID and retry if already exists, not that that's remotely likely...
-        var existingEntry = {};
-        let newId = uid(16);
-        addJson._id = newId;
-        console.log(`Generated Id: ${newId}`);
-      };
-      if (addJson.name === "#[CF_tempEntity]") {
-        console.log(`Not processing #[CF_tempEntity] from ${filePath}`);
-      } else {
-        console.log(`Diff of ${addJson.name}\n${diffString(existingEntry, addJson)}`);
-        fs.writeJSON(packFile, addJson, {spaces: 2});
-      };
+    // Update or Insert each item into the src folder
+    inputFiles.map((inputFile) => {
+      console.log(`Processing inputFile: ${inputFile}`);
+      const inputFilePath = path.join(ADDITIONS_DIR, folder, inputFile);
+      var inputJSON = cleanItem(JSON.parse(fs.readFileSync(inputFilePath, 'utf8')));
+      addItem(folder, inputJSON, packFiles);
     });
   });
 };
