@@ -42,7 +42,7 @@ function addItem(folder, data, packFiles) {
   if (data._id) {
     var filterOn = data._id;
   } else {
-    let slug = slugify(doc.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
+    let slug = slugify(data.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
     var filterOn = slug;
   }
   const existingFiles = packFiles.filter((file) => {
@@ -54,8 +54,8 @@ function addItem(folder, data, packFiles) {
     case 0:
       // new file
       let newId = uid(16);
-      let slug = slugify(doc.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
-      const fileName = path.join(folder, `${slug}-${doc._id}.json`);
+      let slug = slugify(data.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
+      fileName = `${slug}-${data._id}.json`;
       console.log(`Adding new item: ${data.name}`);
       break;
     case 1:
