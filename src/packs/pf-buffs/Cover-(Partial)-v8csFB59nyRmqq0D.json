@@ -1,0 +1,90 @@
+{
+  "_id": "v8csFB59nyRmqq0D",
+  "name": "Cover (Partial)",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/shield-focus.jpg",
+  "data": {
+    "description": {
+      "value": "<p>If a creature has cover, but more than half the creature is visible, its cover bonus is reduced to a +2 to AC and a +1 bonus on Reflex saving throws. This partial cover is subject to the GM&lsquo;s discretion.</p>\n<p>&nbsp;</p>\n<p><strong>Partial Cover and Attacks of Opportunity</strong></p>\n<p>You can&rsquo;t execute an attack of opportunity against an opponent with partial cover relative to you.</p>\n<div>\n<p>&nbsp;</p>\n<p><strong>Partial Cover and Stealth Checks</strong></p>\n<p>You can cannot use partial cover to make a Stealth check.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "3b9czjnt",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "ubuzm5yd",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "coverPartial",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Cover (Partial)",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

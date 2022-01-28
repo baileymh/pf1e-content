@@ -1,0 +1,198 @@
+{
+  "_id": "w8QhU9qZ4VXxO4Ij",
+  "name": "Animal Companion Feats",
+  "type": "feat",
+  "img": "systems/pf1/icons/skills/blood_07.jpg",
+  "data": {
+    "description": {
+      "value": "<h2 style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span id=\"Traits\" style=\"box-sizing: border-box; user-select: text;\">Animal Feats</span></h2>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions can select from the following feats:</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\"><em style=\"box-sizing: border-box; user-select: text;\">Note that animal companions cannot select a feat with a requirement of base attack bonus +1 until they gain their second feat at 3 Hit Dice.</em></span></p>\n<table>\n<tbody>\n<tr>\n<td>Acrobatic</td>\n<td>Agile Maneuvers</td>\n<td>Armor Proficiency, Light</td>\n</tr>\n<tr>\n<td>Armor Proficiency, Medium</td>\n<td>Armor Proficiency, Heavy</td>\n<td>Athletic</td>\n</tr>\n<tr>\n<td>Blind-Fight</td>\n<td>Combat Reflexes</td>\n<td>Devotion against the Unnatural</td>\n</tr>\n<tr>\n<td>Diehard</td>\n<td>Disruptive Companion</td>\n<td>Dodge</td>\n</tr>\n<tr>\n<td>Endurance</td>\n<td>Feral Grace</td>\n<td>Ferocious Beast</td>\n</tr>\n<tr>\n<td>Ferocious Feint</td>\n<td>Friendly Face</td>\n<td>Great Fortitude</td>\n</tr>\n<tr>\n<td>Greater Tenacious Hunter</td>\n<td>Hefty Brute</td>\n<td>Improved Bull Rush</td>\n</tr>\n<tr>\n<td>Improved Initiative</td>\n<td>Improved Intercept Blow</td>\n<td>Improved Natural Armor</td>\n</tr>\n<tr>\n<td>Improved Overrun</td>\n<td>Intercept Blow</td>\n<td>Intimidating Prowess</td>\n</tr>\n<tr>\n<td>Iron Will</td>\n<td>Lightning Reflexes</td>\n<td>Linnorm Hunter Style</td>\n</tr>\n<tr>\n<td>Linnorm Hunter Retreat</td>\n<td>Mobility</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Power Attack</span></td>\n</tr>\n<tr>\n<td>Reflexive Interception</td>\n<td>Run</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Share Feature</span></td>\n</tr>\n<tr>\n<td>Skill Focus</td>\n<td>Spring Attack</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Stealthy</span></td>\n</tr>\n<tr>\n<td>Tenacious Hunter</td>\n<td>Toughness</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Weapon Focus</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Animal Companion Class Feature"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "68yy4on2",
+        "formula": "ceil((round(@classes.animalCompanion.level * .75) + 1) / 2)",
+        "operator": "add",
+        "subTarget": "bonusFeats",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 2
+      },
+      {
+        "_id": "i56qltba",
+        "formula": "- ceil(@classes.animalCompanion.level / 2)",
+        "operator": "add",
+        "subTarget": "bonusFeats",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": -1
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "animalCompanionFeats",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Animal Companion"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "Animal Companion Feats",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "UA00c6VJjhkkAMA5": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-companion-features.w8QhU9qZ4VXxO4Ij"
+    },
+    "pf1": {},
+    "scene-packer": {
+      "sourceId": "Item.Sf8nj2xULzL5EFRH"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "WmHIEsLnruuSZcx0",
+  "name": "Charging",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/dodge.jpg",
+  "data": {
+    "description": {
+      "value": "<div style=\"margin: 0px 15px 15px 15px;\">\n<div class=\"faq\" style=\"box-sizing: border-box; border: thin solid #999999; background-color: #ffffff; margin: 0px 25px 15px 0px; overflow-x: auto; float: left; clear: left; width: 160px; color: #333333;\">\n<div style=\"box-sizing: border-box; padding: 5px; font-weight: bold; background-color: #cfe2f3;\">FAQ</div>\n<div style=\"box-sizing: border-box; padding: 5px;\">\n<p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; font-weight: bold;\">Can Vital Strike be used on a charge?</p>\n<p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px;\">No. Vital Strike can only be used as part of an attack action, which is a specific kind of standard action. Charging is a special kind of full-round action that includes the ability to make one melee attack, not one attack action.</p>\n<p class=\"source\" style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; font-size: 12px;\">[<a style=\"box-sizing: border-box; background-color: transparent; text-underline-position: under; color: #003965 !important;\" href=\"http://paizo.com/paizo/faq/v5748nruor1fm#v5748eaic9pyy\" rel=\"nofollow\">Source</a>]</p>\n</div>\n</div>\n<p>Charging is a special full-round action that allows you to move up to twice your speed and attack during the action. Charging, however, carries tight restrictions on how you can move.</p>\n<p>&nbsp;</p>\n<p><strong>Movement During a Charge</strong></p>\n</div>\n<ul>\n<li>You must move before your attack, not after. You must move at least 10 feet (2 squares) and may move up to double your speed directly toward the designated opponent. If you move a distance equal to your speed or less, you can also draw a weapon during a charge attack if your&nbsp;base attack bonus&nbsp;is at least +1.</li>\n<li>You must have a clear path toward the opponent, and nothing can hinder your movement (such as difficult terrain or obstacles). You must move to the closest space from which you can attack the opponent. If this space is occupied or otherwise blocked, you can&rsquo;t charge. If any line from your starting space to the ending space passes through a square that blocks movement, slows movement, or contains a creature (even an ally), you can&rsquo;t charge. Helpless creatures don&rsquo;t stop a charge.</li>\n<li>If you don&rsquo;t have line of sight to the opponent at the start of your turn, you can&rsquo;t charge that opponent.</li>\n<li>You can&rsquo;t take a 5-foot step in the same round as a charge.</li>\n<li>If you are able to take only a&nbsp;standard action&nbsp;on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the&nbsp;Quick Draw&nbsp;feat. You can&rsquo;t use this option unless you are restricted to taking only a&nbsp;standard action&nbsp;on your turn.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Attacking on a Charge</strong></p>\n<ul>\n<li>After moving, you may make a single melee attack. You get a +2 bonus on the&nbsp;attack roll&nbsp;and take a &ndash;2 penalty to your AC until the start of your next turn.</li>\n<li>A charging character gets a +2 bonus on&nbsp;combat maneuver&nbsp;attack rolls&nbsp;made to&nbsp;bull rush&nbsp;an opponent.</li>\n<li>Even if you have extra attacks, such as from having a high enough&nbsp;base attack bonus&nbsp;or from using multiple weapons, you only get to make one attack during a&nbsp;charge.</li>\n</ul>\n<p><em>Lances and&nbsp;Charge&nbsp;Attacks:</em> A lance deals double damage if employed by a mounted character in a&nbsp;charge.</p>\n<p><em>Weapons Readied against a&nbsp;Charge:</em> Spears, tridents, and other weapons with the brace feature deal double damage when&nbsp;readied&nbsp;(set) and used against a charging character.</p>\n<p>&nbsp;</p>\n<h4><strong><span id=\"Swinging_Charge_from_Ropes_or_Vines\">Swinging Charge from Ropes or Vines</span></strong></h4>\n<p>As a full-round action, you can swing using a rope, vine, or similar aid within reach toward an opponent and make a single melee attack. You must move at least 20 feet (4 squares) and you must start on elevation that is equal or higher than that of your opponent. Your movement provokes attacks of opportunity as normal.</p>\n<p>&nbsp;</p>\n<p>This action is otherwise treated as a charge attack.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "w7uf5m99",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "mattack",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "7a1naojg",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "subTarget": "cmb",
+        "text": "+[[2]] to bull rush"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "charging",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Charging",
+    "auraStrength": 0,
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000000,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

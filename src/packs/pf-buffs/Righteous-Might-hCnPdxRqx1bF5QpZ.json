@@ -1,0 +1,116 @@
+{
+  "_id": "hCnPdxRqx1bF5QpZ",
+  "name": "Righteous Might",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/light_10.jpg",
+  "data": {
+    "description": {
+      "value": "<p>Your height immediately doubles, and your weight increases by a factor of eight. This increase changes your size category to the next larger one.</p>\n<p>You gain a +4 size bonus to Strength and Constitution and take a -2 penalty to your Dexterity. You gain a +2 enhancement bonus to your natural armor. You gain DR 5/evil if you normally channel positive energy or damage reduction 5/good if you normally channel negative energy. At 15th level, this damage reduction becomes 10/evil or 10/good (the maximum). Your size modifier for AC and attacks changes as appropriate to your new size category.</p>\n<p><strong>Usage:</strong> Set this buff's level equal to the caster level of Righteous Might. Set target's size to next increment to affect attack roll and AC penalty.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "uj6fo2m0",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "vqfunh72",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "con",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "tjkti0fp",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "dex",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "jj5yos2h",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "nac",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "DR [[(min(15,(max(5, floor(@item.level / 15) * 15))))]] / Good or Evil (see Righteous Might).",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "righteousMight",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Righteous Might",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

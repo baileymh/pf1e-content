@@ -1,0 +1,151 @@
+{
+  "_id": "Ce2iRbXAEFey6T2a",
+  "name": "Poison (2 EP)",
+  "type": "feat",
+  "img": "systems/pf1/icons/skills/beast_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned.</p>\n<p><strong>Eidolon poison: </strong><em>type</em> poison (injury); <em>save</em> Fort negates; <em>frequency</em> 1/round for 4 rounds; <em>effect</em> 1d4 Str damage; <em>cure</em> 1 save. The save DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier.</p>\n<p>For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 7th level before selecting this evolution.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Eidolon Evolution"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": "",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "(10 + ( @attributes.hd.total / 2) + @abilities.con.basemod)",
+      "type": "fort",
+      "description": "Fort negates"
+    },
+    "effectNotes": [
+      "Save Fort negates; frequency 1/round for 4 rounds; effect [[1d4]] Str damage; cure 1 save"
+    ],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "poison2Ep",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "misc",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "ex",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.eidolon-features.HJl6Ga5VNqPYIvLS"
+    },
+    "scene-packer": {
+      "sourceId": "Item.n1B2b4DgnHNzvZbn"
+    }
+  }
+}

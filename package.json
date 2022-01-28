@@ -9,11 +9,14 @@
     "yargs": "latest",
     "adm-zip": "latest",
     "fs-extra": "latest",
-    "json-diff": "latest"
+    "json-diff": "latest",
+    "slugify": "latest"
   },
   "scripts": {
-    "merge": "node ./scripts/merge.js",
-    "release": "node ./scripts/release.js"
+    "merge": "node ./tools/merge.js",
+    "release": "node ./tools/release.js",
+    "extract":"node ./tools/extract.js",
+    "build":"node ./tools/build.js"
   },
   "author": "Chris Sanders <sanders.chris@gmail.com>",
   "license": "GNU General Public License v3"

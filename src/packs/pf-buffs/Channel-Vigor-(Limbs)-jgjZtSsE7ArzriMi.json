@@ -1,0 +1,150 @@
+{
+  "_id": "jgjZtSsE7ArzriMi",
+  "name": "Channel Vigor (Limbs)",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/wind-grasp-air-2.jpg",
+  "data": {
+    "description": {
+      "value": "<p>When you cast the spell, choose one of the following portions of your self as your focus target. Thereafter, you may change the focus target as a move action. You can gain the benefit of only one <em>channel vigor</em> spell at a time.</p>\n<ul>\n<li><em>Limbs</em>: You gain the benefits of a haste spell.</li>\n<li><em>Mind</em>: You gain a +4 competence bonus on Knowledge and Perception skill checks and on ranged attack rolls.</li>\n<li><em>Spirit</em>: You gain a +6 competence bonus on Will saving throws and Bluff and Intimidate checks.</li>\n<li><em>Torso</em>: You gain a +6 competence bonus on Fortitude saving throws and concentration checks.</li>\n</ul>\n<p><strong>Haste:</strong>&nbsp;When making a full attack action, you may make one extra attack with one natural or manufactured weapon at your highest base attack bonus. This effect is not cumulative with similar effects, such as that provided by a&nbsp;speed weapon.</p>\n<p><strong>Usage:</strong> Deactivate active buff and activate the desired variant upon choice.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "h83ofnq1",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "x7m5xr1d",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "dodge",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "8rzikc8s",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "430v9k74",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "jkjd1q5a",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "climbSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "0mt494w5",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "swimSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "xp6oli71",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "burrowSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "5i2ilg72",
+        "formula": "min(@attributes.speed.land.base, 30)",
+        "operator": "add",
+        "subTarget": "flySpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "channelVigorLimbs",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Channel Vigor (Limbs)",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

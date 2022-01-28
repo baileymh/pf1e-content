@@ -1,0 +1,121 @@
+{
+  "_id": "e7HJdGe02eg9mWQR",
+  "name": "Hobble",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/green_16.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.spells.mzrx5anb5eeovv7t]{Hobble}</p>\n<p><span style=\"color: #191813; font-size: 13px;\">This spell disrupts the method a target uses for movement. Creatures under the effects of this spell move at half their base speed (rounded down to the nearest 5-foot increment) but can still take 5-foot steps as normal. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">Incorporeal creatures and creatures flying with perfect maneuverability are immune to the effects of this spell. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">Each round, a target receives another save to end the effect.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "jy6dc40n",
+        "formula": "@attributes.speed.land.total / 2",
+        "operator": "set",
+        "subTarget": "landSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "naax9jph",
+        "formula": "@attributes.speed.climb.total > 0 ? (@attributes.speed.climb.total / 2) : 0",
+        "operator": "set",
+        "subTarget": "climbSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "ouxx88ez",
+        "formula": "@attributes.speed.swim.total > 0 ? (@attributes.speed.swim.total / 2) : 0",
+        "operator": "set",
+        "subTarget": "swimSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "pvfofdzl",
+        "formula": "@attributes.speed.burrow.total > 0 ? (@attributes.speed.burrow.total / 2) : 0",
+        "operator": "set",
+        "subTarget": "burrowSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "7n1vu2nq",
+        "formula": "@attributes.speed.fly.total > 0 ? (@attributes.speed.fly.total / 2) : 0",
+        "operator": "set",
+        "subTarget": "flySpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "longstrider",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.qmHamauveVs3q6F0"
+    }
+  }
+}

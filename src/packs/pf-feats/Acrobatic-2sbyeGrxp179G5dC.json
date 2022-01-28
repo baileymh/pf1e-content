@@ -1,0 +1,179 @@
+{
+  "_id": "2sbyeGrxp179G5dC",
+  "name": "Acrobatic",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/acrobatic.jpg",
+  "data": {
+    "description": {
+      "value": "<em>You are skilled at leaping, jumping, and flying.</em><br/><br/><b>Benefits</b><br/>You get a +2 bonus on all Acrobatics and Fly skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "PFS"
+      ],
+      [
+        "General"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "90jgn1dn",
+        "formula": "@skills.acr.rank >= 10 ? 4 : 2",
+        "operator": "add",
+        "subTarget": "skill.acr",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 2
+      },
+      {
+        "_id": "7c8pfth0",
+        "formula": "@skills.fly.rank >= 10 ? 4 : 2",
+        "operator": "add",
+        "subTarget": "skill.fly",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 2
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "acrobatic",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "conditionals": [],
+    "identifiedName": "Acrobatic",
+    "attack": {
+      "parts": []
+    },
+    "auraStrength": 0,
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-feats.2sbyeGrxp179G5dC"
+    },
+    "scene-packer": {
+      "sourceId": "Item.EdbfIYQleXUv5FoZ"
+    }
+  }
+}

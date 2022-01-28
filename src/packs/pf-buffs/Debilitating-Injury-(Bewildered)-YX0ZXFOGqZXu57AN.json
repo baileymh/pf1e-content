@@ -1,0 +1,73 @@
+{
+  "_id": "YX0ZXFOGqZXu57AN",
+  "name": "Debilitating Injury (Bewildered)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/ice_12.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.class-abilities.nL9Ds9nflmID84vo]{Debilitating Injury (UC)}</p>\n<p><strong><span style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Bewildered: </span></strong><span style=\"color: #191813; font-size: 13px;\">The target becomes bewildered, taking a &ndash;2 penalty to AC. The target takes an additional &ndash;2 penalty to AC against all attacks made by the rogue. </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">At 10th level and 16th level, the penalty to AC against attacks made by the rogue increases by &ndash;2 (to a total maximum of &ndash;8).</span></p>\n<hr />\n<p><strong>Usage:</strong> Set buff level to Rogue level.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "qa3vi5t4",
+        "formula": "-2 - (floor((@item.level + 2) / 6))",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Bewildered:</b> Takes an additional [[-2]] to AC against attacks made by the rogue.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

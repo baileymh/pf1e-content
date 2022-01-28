@@ -1,0 +1,86 @@
+{
+  "_id": "d9UQiCnpsiAuVZK4",
+  "name": "Death Knell",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/affliction_08.jpg",
+  "data": {
+    "description": {
+      "value": "<p>If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 enhancement bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. This increase in effective caster level does not grant you access to more spells.</p>\n<p><strong>Usage:</strong> Add 1d8 temp hit points upon the death of a terget that fails it save.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "9qjgxg0o",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[1]] Caster Level",
+        "target": "spell",
+        "subTarget": "cl"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "deathKnell",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Death Knell",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "XDuJwn4sGLcklc9P",
+  "name": "Squeezing (< ½ space)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/violet_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>To squeeze through or into a space less than half your space&rsquo;s width, you must use the Escape Artist skill. You can&rsquo;t attack while using Escape Artist to squeeze through or into a narrow space, you take a &ndash;4 penalty to AC, and you lose any Dexterity bonus to AC.</p>\n<p>A creature can squeeze past a creature while moving but it can&rsquo;t end its movement in an occupied square.</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "27bq970b",
+        "formula": "-4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": true,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "1TemplateBuff",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

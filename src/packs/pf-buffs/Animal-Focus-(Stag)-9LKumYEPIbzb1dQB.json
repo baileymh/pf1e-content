@@ -1,0 +1,70 @@
+{
+  "_id": "9LKumYEPIbzb1dQB",
+  "name": "Animal Focus (Stag)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/green_13.jpg",
+  "data": {
+    "description": {
+      "value": "<p>The creature gains a 5-foot enhancement bonus to its base land speed. This bonus increases to 10 feet at 8th level and 20 feet at 15th level.</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Usage</strong><span style=\"color: #191813; font-size: 13px;\">: Set this buff's level equal to the total class level granting the Animal Focus feature</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "gkn6byxe",
+        "formula": "floor(((@item.level)-1)/7)*5+5",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 2
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "animalFocusStag",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "7",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "max": 0,
+      "value": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.3OHs8WOWnmxz1vsV"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "LOnY5syLjAT6YdbA",
+  "name": "- Tips and Tricks",
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "folder": "",
+  "flags": {
+    "core": {
+      "sourceId": "JournalEntry.G59oWp6Fn4gmBjk0"
+    }
+  },
+  "content": "<h1>Rolling Dice</h1>\n<p><strong>In-line Rolls</strong></p>\n<ul>\n<li>Using double bracket [[&nbsp; ]] allows you to do in-line rolls like so: [[1d20]].</li>\n<li>You can do an immediate roll using just 1d20: [[1d20]]\n<ul>\n<li>Or a deferred roll (rolls in chat when clicked) by using /r 1d20: [[/r 1d20]]</li>\n</ul>\n</li>\n</ul>\n<p><strong>Rerolling/Exploding</strong></p>\n<ul>\n<li>Using 3d6r1 or [[/r 3d6r1]] will allow you to do reroll dice (reroll on 1's).</li>\n<li>Using 3d6x6 or [[/r 3d6x6]] will allow for continuous exploding dice (on 6's).&nbsp;</li>\n<li>Using 3d6xo6 or [[/r 3d6xo6]] will explode once.</li>\n</ul>\n<p><strong>Keeping/Dropping Results</strong></p>\n<ul>\n<li>kh, or k - keep highest:\n<ul>\n<li>/r 4d6k3 [[/r 4d6k3]] will keep the highest 3 rolls</li>\n</ul>\n</li>\n<li>kl will keep the lowest:\n<ul>\n<li>/r 2d20kl [[/r 2d20kl]] will basically roll disadvantage/misfortune</li>\n</ul>\n</li>\n<li>dl, or d will drop the lowest:\n<ul>\n<li>/r 4d6d [[/r 4d6d]] would be Standard for rolling ability scores</li>\n</ul>\n</li>\n<li>dh will drop the highest</li>\n</ul>\n<p><strong>Math and Descriptions</strong></p>\n<ul>\n<li>Math functions can be included in in-line rolls.<br />\n<ul>\n<li>Max(5, 20): [[max(5, 20)]]</li>\n</ul>\n</li>\n<li>You can describe rolls using #\n<ul>\n<li>/r 1d20 #Perception Check [[/r 1d20 #Perception Check]]</li>\n</ul>\n</li>\n<li>You can also split rolls using descriptions. Click on the text in the chat card to expand.\n<ul>\n<li>/r 2d6[slashing]+1d8[fire] [[/r 2d6[slashing] + 1d8[fire]]]</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n<p>There are a lot more things you can do with dice, see&nbsp;<a href=\"https://foundryvtt.com/article/dice/\">here</a>&nbsp;for more documention.</p>\n<hr />\n<p>&nbsp;</p>\n<h1>Changes</h1>\n<ul>\n<li>Most values are listed via hovering over the appropriate value in the character sheet</li>\n<li>Ability modifier: @abilities.con.mod</li>\n<li>Ability modifier without temporary buffs (i.e. Rage): @abilities.con.baseMod</li>\n<li>Changes can be set to Add to the value (+) or replace (=)</li>\n<li>Scripts using js can also be used for changes, for more complicated things.</li>\n<li>Not everything available in Pathfinder can currently be accomplished through changes</li>\n</ul>\n<p>&nbsp;</p>",
+  "img": "icons/sundries/scrolls/scroll-writing-orange-black.webp"
+}

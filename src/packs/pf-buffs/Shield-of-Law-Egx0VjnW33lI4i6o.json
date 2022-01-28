@@ -1,0 +1,106 @@
+{
+  "_id": "Egx0VjnW33lI4i6o",
+  "name": "Shield of Law",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/light-blue-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>A dim, blue glow surrounds you, protecting from attacks, granting you resistance to spells cast by chaotic creatures, and <em>slowing</em> chaotic creatures when they strike you. This abjuration has four effects.</p>\n<ul>\n<li>First, you gain a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike <em>protection from chaos</em>, this benefit applies against all attacks, not just against attacks by chaotic creatures.</li>\n<li>Second, you gain Spell Resistance 25 against chaotic spells and spells cast by chaotic creatures.</li>\n<li>Third, the abjuration protects you from possession and mental influence, just as protection from chaos does.</li>\n<li>Finally, if a chaotic creature succeeds on a melee attack against you, the attacker is <em>slowed</em> (Will save negates, as the <em>slow</em> spell, but against <em>shield of law</em>&lsquo;s save DC).</li>\n</ul>\n<div id=\"comments\" class=\"comments\"></div>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "y5xj558o",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "deflection",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "4pa6gbh9",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "resist",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "[[25]] SR vs Chaotic spells and spells cast by Chaotic creatures.",
+        "target": "misc",
+        "subTarget": "sr"
+      },
+      {
+        "text": "+[[2]] Morale vs existing Enchantment [charm] and [compulsion] effects.",
+        "target": "savingThrows",
+        "subTarget": "will"
+      },
+      {
+        "text": "Chaotic creatures who succeed a melee attack vs you are Slowed (Will save negates).",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "shieldOfLaw",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Shield of Law",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

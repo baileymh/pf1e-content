@@ -1,0 +1,91 @@
+{
+  "_id": "jeZjgp8hOhxsuH8u",
+  "name": "Total Defense",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/shield-master.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can&rsquo;t combine total defense with fighting defensively or with the benefit of the Combat Expertise feat. You can&rsquo;t make attacks of opportunity while using total defense.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ntuwfvbl",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "dodge",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Total Defense cannot be combined with Combat Expertise.",
+        "target": "misc",
+        "subTarget": "ac"
+      },
+      {
+        "text": "Cannot make AoO due to Total Defense.",
+        "target": "attacks",
+        "subTarget": "attack"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "totalDefense",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Total Defense",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

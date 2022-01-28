@@ -1,0 +1,96 @@
+{
+  "_id": "klGH5FlCy3d7lydy",
+  "name": "Ape Walk",
+  "type": "buff",
+  "img": "systems/pf1/icons/races/vanara.png",
+  "data": {
+    "description": {
+      "value": "<p>You gain a climb speed of 30 feet and a +8 racial bonus on Climb skill checks. You must have your hands free to climb in this manner. In addition, as long as you have 10 feet of space in which to make a running start, you can make a long jump of up to 10 feet without making an Acrobatics check (an Acrobatics check is still required to jump longer distances).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ttpgvmpx",
+        "formula": "30",
+        "operator": "add",
+        "subTarget": "climbSpeed",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "r12ilxzf",
+        "formula": "8",
+        "operator": "add",
+        "subTarget": "skill.clm",
+        "modifier": "racial",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "If you have 10 ft. to make a running start, you can long jump up to 10 ft. without a check.",
+        "target": "skill",
+        "subTarget": "skill.acr"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "apeWalk",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Ape Walk",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

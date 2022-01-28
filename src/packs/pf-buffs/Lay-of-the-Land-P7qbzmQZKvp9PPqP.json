@@ -1,0 +1,91 @@
+{
+  "_id": "P7qbzmQZKvp9PPqP",
+  "name": "Lay of the Land",
+  "type": "buff",
+  "img": "icons/tools/navigation/map-marked-red.webp",
+  "data": {
+    "description": {
+      "value": "<p>This instant familiarity grants you an insight bonus equal to your caster level (maximum +5) on Knowledge (geography) checks and Survival checks to avoid getting lost so long as you remain in the affected area.</p>\n<p>Additionally, for the duration of the spell you can make Knowledge (geography) checks regarding the affected area as though you were trained in that skill.</p>\n<p><strong>Usage:</strong> Set the level of this buff to the caster level of Lay of the Land.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "c2598g7i",
+        "formula": "(min(5,(@item.level)))",
+        "operator": "add",
+        "subTarget": "skill.kge",
+        "modifier": "insight",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[(min(5,(@item.level)))]] Insight to avoid getting lost.",
+        "target": "skill",
+        "subTarget": "skill.sur"
+      },
+      {
+        "text": "<b>Lay of the Land:</b> Can make untrained checks regarding the affected area.",
+        "target": "skill",
+        "subTarget": "skill.kge"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "layOfTheLand",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Lay of the Land",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

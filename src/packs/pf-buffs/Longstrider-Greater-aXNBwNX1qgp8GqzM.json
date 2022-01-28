@@ -1,0 +1,121 @@
+{
+  "_id": "aXNBwNX1qgp8GqzM",
+  "name": "Longstrider, Greater",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/dodge.jpg",
+  "data": {
+    "description": {
+      "value": "<p><span style=\"color: #191813; font-size: 13px;\">@Compendium[pf1.spells.k78qs00yp7uybprw]{Longstrider, Greater}</span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">This functions as </span><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" draggable=\"true\" data-pack=\"pf1.spells\" data-id=\"hosf489xyoexmp57\">Longstrider</a><span style=\"color: #191813; font-size: 13px;\">, except it gives you a +20-foot enhancement bonus to your base speed and a +10-foot enhancement bonus to your other modes of movement (burrow, climb, fly, swim, and so on). </span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">It does not affect movement modes you do not actually have-for example, if you do not have a swim speed, this spell does not grant you a swim speed.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "jy6dc40n",
+        "formula": "20",
+        "operator": "add",
+        "subTarget": "landSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "naax9jph",
+        "formula": "@attributes.speed.climb.total > 0 ? 10 : 0",
+        "operator": "add",
+        "subTarget": "climbSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "ouxx88ez",
+        "formula": "@attributes.speed.swim.total > 0 ? 10 : 0",
+        "operator": "add",
+        "subTarget": "swimSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "pvfofdzl",
+        "formula": "@attributes.speed.burrow.total > 0 ? 10 : 0",
+        "operator": "add",
+        "subTarget": "burrowSpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      },
+      {
+        "_id": "7n1vu2nq",
+        "formula": "@attributes.speed.fly.total > 0 ? 10 : 0",
+        "operator": "add",
+        "subTarget": "flySpeed",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "longstrider",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.qmHamauveVs3q6F0"
+    }
+  }
+}

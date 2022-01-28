@@ -1,0 +1,183 @@
+{
+  "_id": "VQ6C541BcJJUuNwT",
+  "name": "Agile Combatant (EitR)",
+  "type": "feat",
+  "img": "systems/pf1/icons/feats/acrobatic.jpg",
+  "data": {
+    "description": {
+      "value": "<p><em>You've learned to use your quickness in place of brute force when performing combat maneuvers.</em> <br /><br /></p>\n<p><strong>Benefits</strong></p>\n<p class=\"stat-block-1\">You add your Dexterity bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus (see Combat) instead of your Strength bonus.</p>\n<p>&nbsp;</p>\n<p><strong>Normal</strong></p>\n<p class=\"stat-block-1\">You add your Strength bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus.</p>\n<p class=\"stat-block-1\">&nbsp;</p>\n<p class=\"stat-block-1\"><strong>Special</strong></p>\n<p class=\"stat-block-1\">With or without this feat, when you are using a finesse weapon, you may use your Dexterity bonus in place of your Strength bonus when attempting a disarm, sunder, or trip maneuver.</p>\n<p class=\"stat-block-1\">This feat allows you to add your Dexterity bonus in place of your Strength bonus when attempting a bull rush, grapple, hamstring, or overrun maneuver.</p>\n<p class=\"stat-block-1\">&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "Combat"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": "",
+      "long": null
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "0",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "t7xzgayi",
+        "formula": "(@abilities.dex.mod > @abilities.str.mod ? @abilities.dex.mod - @abilities.str.mod : 0)",
+        "operator": "add",
+        "subTarget": "cmb",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "misc"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "subTarget": "cmb",
+        "text": "With or without this feat, when you are using a finesse weapon, you may use your Dexterity bonus in place of your Strength bonus when attempting a disarm, sunder, or trip maneuver.\n\nThis feat allows you to add your Dexterity bonus in place of your Strength bonus when attempting a bull rush, grapple, hamstring, or overrun maneuver."
+      }
+    ],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "agileCombatantEitr",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "recharge": {
+      "value": null,
+      "charged": false,
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "Agile Combatant (EitR)",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "ZTVmMGJjOWNlOGMz": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  }
+}

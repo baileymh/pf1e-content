@@ -1,0 +1,96 @@
+{
+  "_id": "IKplHwGtIcu4tPWm",
+  "name": "Aspect of the Bear",
+  "type": "buff",
+  "img": "icons/commodities/claws/claw-bear-brown.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +2 enhancement bonus to natural armor and a +2 enhancement bonus on CMB rolls. You can also perform bull rush, grapple, and overrun combat maneuvers without provoking attacks of opportunity.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "mfyphcw8",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "nac",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "pk1eq9h5",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "cmb",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "misc"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Do not provoke AoO for bull rush, grapple, and overrun.",
+        "target": "misc",
+        "subTarget": "cmb"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "aspectOfTheBear",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Aspect of the Bear",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

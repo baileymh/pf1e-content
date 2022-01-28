@@ -1,0 +1,71 @@
+{
+  "_id": "0jk58BJbiAssVatx",
+  "name": "Magic Shop: Village",
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "better-rolltables": {
+      "table-type": "better",
+      "loot-amount-key": "1"
+    },
+    "scene-packer": {
+      "sourceId": "RollTable.U1uvIH9KoExVwJ6s"
+    },
+    "cf": {
+      "id": "temp_8obhge9hi3e",
+      "path": "Magic Shop#/CF_SEP/Magic Shop",
+      "color": "#000000"
+    }
+  },
+  "img": "icons/environment/settlement/lumbermill.webp",
+  "description": "Pop: 61-200 <br> Reroll items worth < 500 gp. <br> Add Spells as Potion, Scroll, or Wand.",
+  "results": [
+    {
+      "_id": "XYRNSAgMjb1NNcke",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "2d4"
+          }
+        }
+      },
+      "type": 2,
+      "text": "*Generate Minor Magic Item",
+      "img": "systems/pf1/icons/spells/enchant-sky-3.jpg",
+      "collection": "pf-content.pf-magic-tables",
+      "resultId": "9zpuDLaD6gHAbRul",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "gN9QDG6vmpGIMaBA",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1d4"
+          }
+        }
+      },
+      "type": 2,
+      "text": "*Generate Medium Magic Item",
+      "img": "systems/pf1/icons/spells/enchant-eerie-3.jpg",
+      "collection": "pf-content.pf-magic-tables",
+      "resultId": "61ZKmAr0lryZAHOn",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "1d1",
+  "replacement": true,
+  "displayRoll": true
+}

@@ -1,0 +1,446 @@
+{
+  "_id": "upTvrmZoeKq2LI0F",
+  "name": "* Weapon Enchant Conditional Modifiers",
+  "type": "attack",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "data": {
+    "description": {
+      "value": "<p>A small collection of some of the easier to impliment Weapon Special Qualities, set up as Conditional Modifiers.&nbsp;<br /><br />To use, import and then drag and drop the Conditional Modifier to the appropriate weapon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "critParts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "nonCritParts": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "attackParts": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": ""
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "fort",
+      "description": ""
+    },
+    "effectNotes": [
+      ""
+    ],
+    "attackNotes": [
+      ""
+    ],
+    "soundEffect": "",
+    "links": {
+      "children": [],
+      "charges": [],
+      "ammunition": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "showInQuickbar": true,
+    "broken": false,
+    "conditionals": [
+      {
+        "default": false,
+        "name": "Agile",
+        "modifiers": [
+          {
+            "formula": "(@abilities.dex.mod > @abilities.str.mod ? @abilities.dex.mod - @abilities.str.mod : 0)",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Anarchic",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Axiomatic",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Bane",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "2",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "enh",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Blood-Hunting",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "2",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "enh",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Breaking",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Corrosive",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Acid",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Corrosive Burst",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Acid",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "1d10",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Acid",
+            "critical": "crit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Flaming",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Fire",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Flaming Burst",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Fire",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "1d10",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Fire",
+            "critical": "crit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Frost",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Cold",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Holy",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Icy Burst",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Cold",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "1d10",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Cold",
+            "critical": "crit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Merciful",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Nonlethal",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Shock",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Electric",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Shocking Burst",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Electric",
+            "critical": "nonCrit"
+          },
+          {
+            "formula": "1d10",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Electric",
+            "critical": "crit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Toxic",
+        "modifiers": [
+          {
+            "formula": "+2",
+            "target": "effect",
+            "subTarget": "dc",
+            "type": "",
+            "critical": ""
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Unholy",
+        "modifiers": [
+          {
+            "formula": "2d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Untyped",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Vorpal",
+        "modifiers": [
+          {
+            "formula": "999",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "",
+            "critical": "crit"
+          }
+        ]
+      }
+    ],
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.CMEKUCv85HgCab8A"
+    },
+    "exportSource": {
+      "world": "tyrants-grasp",
+      "system": "pf1",
+      "coreVersion": "0.8.8",
+      "systemVersion": "0.79.0"
+    },
+    "core": {
+      "sourceId": "Item.CMEKUCv85HgCab8A"
+    }
+  }
+}

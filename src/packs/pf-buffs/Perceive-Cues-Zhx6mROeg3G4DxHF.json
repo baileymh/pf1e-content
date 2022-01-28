@@ -1,0 +1,90 @@
+{
+  "_id": "Zhx6mROeg3G4DxHF",
+  "name": "Perceive Cues",
+  "type": "buff",
+  "img": "icons/tools/scribal/spectacles-glasses.webp",
+  "data": {
+    "description": {
+      "value": "<p>For the duration of the spell, you receive a +5 competence bonus on Perception and Sense Motive checks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "2u2342m0",
+        "formula": "5",
+        "operator": "add",
+        "subTarget": "skill.per",
+        "modifier": "competence",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      },
+      {
+        "_id": "bkxknc3s",
+        "formula": "5",
+        "operator": "add",
+        "subTarget": "skill.sen",
+        "modifier": "competence",
+        "priority": 0,
+        "value": 0,
+        "target": "skill"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "perceiveCues",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Perceive Cues",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

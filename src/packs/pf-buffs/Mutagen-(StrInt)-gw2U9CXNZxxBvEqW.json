@@ -1,0 +1,87 @@
+{
+  "_id": "gw2U9CXNZxxBvEqW",
+  "name": "Mutagen (Str/Int)",
+  "type": "buff",
+  "img": "systems/pf1/icons/items/potions/unique-6.jpg",
+  "data": {
+    "description": {
+      "value": "<p><span style=\"color: #191813; font-size: 13px;\">Upon being imbibed, the mutagen causes the alchemist to grow bulkier and more bestial, granting him a +2 natural armor bonus and a +4 alchemical bonus to the selected ability score for 10 minutes per alchemist level. </span><span style=\"color: #191813; font-size: 13px;\">In addition, while the mutagen is in effect, the alchemist takes a &ndash;2 penalty to one of his mental ability scores.</span></p>\n<p><span style=\"color: #191813; font-size: 13px;\">If the mutagen enhances his Strength, it applies a penalty to his Intelligence. If it enhances his Dexterity, it applies a penalty to his Wisdom. If it enhances his Constitution, it applies a penalty to his Charisma.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "65zkrhxw",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "nac",
+        "modifier": "alchemical",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "ipqwkyvy",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "alchemical",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "ph9p4yf3",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "int",
+        "modifier": "alchemical",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

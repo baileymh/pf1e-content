@@ -1,0 +1,86 @@
+{
+  "_id": "ybXHin8BpQOEtCb8",
+  "name": "Haze of Dreams",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/fog-water-air-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>While in this strange dream state, you move at half your normal speed (round down to the next 5-foot increment), which affects the creature&rsquo;s jumping distance as normal for decreased speed.</p>\n<p>&nbsp;</p>\n<p>Multiple <em>haze of dreams</em> effects do not stack, nor does this spell&rsquo;s effect stack with <em>Slow</em>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "x4ctuthn",
+        "formula": "@attributes.speed.land.total > 0 ? max(1, floor(@attributes.speed.land.total / 5 / 2)) * 5 : 0",
+        "operator": "set",
+        "subTarget": "allSpeeds",
+        "modifier": "untyped",
+        "priority": 5,
+        "value": 0,
+        "target": "speed"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Your Jump distance may be affected by your new speed.",
+        "target": "skill",
+        "subTarget": "skill.acr"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "hazeOfDreams",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Haze of Dreams",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

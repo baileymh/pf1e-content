@@ -1,0 +1,94 @@
+{
+  "_id": "x62mXuzddgO4fRBX",
+  "name": "Magic Weapon",
+  "type": "buff",
+  "img": "systems/pf1/icons/items/weapons/elven-curve-blade.PNG",
+  "data": {
+    "description": {
+      "value": "<p>Your weapon gains a +1 enhancement bonus on attack and damage rolls. An enhancement bonus does not stack with a masterwork weapon&rsquo;s +1 bonus on attack rolls.</p>\n<p><strong>Usage:</strong> Disable this buff when not attacking with the affected weapon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ocfs4h6l",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "ctvxosbc",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "magicWeapon",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Magic Weapon",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.x62mXuzddgO4fRBX"
+    }
+  }
+}

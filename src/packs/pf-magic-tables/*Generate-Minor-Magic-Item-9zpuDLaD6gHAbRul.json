@@ -1,0 +1,71 @@
+{
+  "_id": "9zpuDLaD6gHAbRul",
+  "name": "*Generate Minor Magic Item",
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "better-rolltables": {
+      "table-type": "better",
+      "loot-amount-key": ""
+    },
+    "scene-packer": {
+      "sourceId": "RollTable.GWpcaZN9bdyIZkdp"
+    },
+    "cf": {
+      "id": "temp_8obhge9hi3e",
+      "path": "Magic Shop#/CF_SEP/Magic Shop",
+      "color": "#000000"
+    }
+  },
+  "img": "systems/pf1/icons/spells/enchant-sky-3.jpg",
+  "description": "Generate a random Lesser Minor or Greater Minor magic item.",
+  "results": [
+    {
+      "_id": "dSjr0RPZ0Us4f2yH",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1"
+          }
+        }
+      },
+      "type": 2,
+      "text": "*Lesser Minor Magic Item",
+      "img": "systems/pf1/icons/spells/enchant-sky-2.jpg",
+      "collection": "pf-content.pf-magic-tables",
+      "resultId": "aWX5rqLgFXSa1oUj",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "cUn2Faoh6kus0Vpo",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1"
+          }
+        }
+      },
+      "type": 2,
+      "text": "*Greater Minor Magic Item",
+      "img": "systems/pf1/icons/spells/enchant-sky-2.jpg",
+      "collection": "pf-content.pf-magic-tables",
+      "resultId": "TbLlKyCioDD2AVgH",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true
+}

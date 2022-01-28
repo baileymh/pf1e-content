@@ -1,0 +1,176 @@
+{
+  "_id": "IyAsdCtz2VZZSfYr",
+  "name": "Plasmathrower",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-worn-steel.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 30,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 15 lbs.</p><p><strong>Damage</strong> 2d10 (small), 4d6 (medium); <strong>Damage Type</strong> E and F; <strong>Critical</strong> 19-20/x2</p><p><strong>Range</strong> 60 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 2 charges; <strong>Special</strong> Automatic or slow-firing, scatter, touch</p><h2 class=\"framing\">Description</h2><p>A plasmathrower is a devastating weapon that fires blasts of superheated, electrically charged gas. This weapon has two firing modes: slow-firing and automatic. When used on the slowfiring setting, the weapon fires a scattering shot with no range increment; on the automatic setting, it fires individual bursts of plasma that can reach up to 3 range increments. Half the damage dealt by a plasmathrower is fire damage and the other half is electricity damage.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 32; <strong>Cost</strong> 15,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 15,
+    "price": 30000,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "",
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": 60,
+      "units": "ft",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "rwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(4, 6, @size)",
+          "E and F"
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "dex",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": "19",
+      "critMult": "2"
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "plasmathrower",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "exotic",
+    "weaponSubtype": "ranged",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.tech-weapons.Sk6KgRNwla7OdMf5"
+    }
+  }
+}

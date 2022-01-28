@@ -1,0 +1,184 @@
+{
+  "name": "Headband of Vast Intelligence +2",
+  "type": "equipment",
+  "img": "systems/pf1/icons/items/equipment/belt-gems.jpg",
+  "data": {
+    "description": {
+      "value": "<h2>Description</h2>\n<p>This intricate gold headband is decorated with several small blue and deep purple gemstones. The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer's total Hit Dice. These ranks do not stack with the ranks a creature already possesses. These skills are chosen when the headband is created. If no skill is listed, the headband is assumed to grant skill ranks in randomly determined Knowledge skills.</p>\n<p><strong>Base Item:</strong></p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Wondrous Item, fox's cunning</p>\n<h3><strong>Source: </strong></h3>\n<p>Ultimate Equipment</p>\n<p><strong>Usage:</strong></p>\n<p>On the Changes tab select the 1 skill you want the bonus in and ensure it doesn't give you more ranks than Hit Dice.</p>",
+      "chat": "",
+      "unidentified": "<p>This intricate gold headband is decorated with several small blue and deep purple gemstones.</p>"
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 1,
+    "price": 4000,
+    "size": "med",
+    "equipped": true,
+    "resizing": true,
+    "identified": true,
+    "hp": {
+      "max": "10",
+      "value": "10"
+    },
+    "broken": false,
+    "hardness": 0,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": "Headband"
+    },
+    "identifiedName": "Headband of Vast Intelligence +2",
+    "cl": 8,
+    "aura": {
+      "custom": false,
+      "school": "trs"
+    },
+    "activation": {
+      "cost": null,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "changes": [
+      {
+        "_id": "dzmxiaiz",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "int",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 2,
+        "target": "ability"
+      },
+      {
+        "_id": "6ets4q8z",
+        "formula": "@attributes.hd.total",
+        "operator": "add",
+        "subTarget": "skill.spl",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 11
+      },
+      {
+        "_id": "vm2i9068",
+        "formula": "@attributes.hd.total * -1",
+        "operator": "add",
+        "subTarget": "bonusSkillRanks",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": -11
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "equipmentType": "misc",
+    "equipmentSubtype": "wondrous",
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0
+    },
+    "spellFailure": 0,
+    "slot": "headband",
+    "conditionals": []
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf1.items.WWej7rMLpLLCHtJv"
+    }
+  },
+  "_id": "UZO3XgRCqs0hAlbr"
+}

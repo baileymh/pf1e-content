@@ -1,0 +1,5621 @@
+{
+  "_id": "Thxu8cGB9fglytxD",
+  "name": "Serpentine Baseform",
+  "type": "character",
+  "img": "systems/pf1/icons/skills/green_21.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 16,
+        "mod": 3,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "dex": {
+        "value": 12,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 12,
+        "mod": 1,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "con": {
+        "value": 13,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 13,
+        "mod": 1,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "int": {
+        "value": 7,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 7,
+        "mod": -2,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "cha": {
+        "value": 11,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 11,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      }
+    },
+    "resources": {
+      "evolutionPool": {
+        "value": 0,
+        "max": 3,
+        "_id": "ozLPxmAF8QbCVvQR"
+      },
+      "maximumAttacks": {
+        "value": 0,
+        "max": 0,
+        "_id": "7bxtkxUAKBpvATfl"
+      }
+    },
+    "attributes": {
+      "hpAbility": "con",
+      "cmbAbility": "str",
+      "naturalAC": 2,
+      "ac": {
+        "normal": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "touch": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "flatFooted": {
+          "value": 0,
+          "total": 10
+        }
+      },
+      "cmd": {
+        "strAbility": "str",
+        "dexAbility": "dex",
+        "value": 0,
+        "total": 10,
+        "flatFootedTotal": 10
+      },
+      "sr": {
+        "formula": "",
+        "total": 0
+      },
+      "clCheck": false,
+      "saveNotes": "",
+      "acNotes": "",
+      "cmdNotes": "",
+      "srNotes": "",
+      "attack": {
+        "meleeAbility": "str",
+        "rangedAbility": "dex",
+        "general": 0,
+        "shared": 0,
+        "melee": 0,
+        "ranged": 0
+      },
+      "energyDrain": 0,
+      "quadruped": false,
+      "savingThrows": {
+        "fort": {
+          "base": 0,
+          "ability": "con",
+          "total": 1
+        },
+        "ref": {
+          "base": 0,
+          "ability": "dex",
+          "total": 3
+        },
+        "will": {
+          "base": 0,
+          "ability": "wis",
+          "total": 2
+        }
+      },
+      "hp": {
+        "value": 6,
+        "temp": 0,
+        "nonlethal": 0,
+        "max": 0
+      },
+      "wounds": {
+        "min": 0,
+        "base": 0,
+        "value": 3,
+        "max": 13
+      },
+      "vigor": {
+        "min": 0,
+        "value": 0,
+        "temp": 0,
+        "base": 0,
+        "max": 10
+      },
+      "init": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "total": 0
+      },
+      "speed": {
+        "land": {
+          "base": 20,
+          "total": 20
+        },
+        "climb": {
+          "base": 0,
+          "total": 20
+        },
+        "swim": {
+          "base": null,
+          "total": 0
+        },
+        "burrow": {
+          "base": 0,
+          "total": 0
+        },
+        "fly": {
+          "base": 0,
+          "maneuverability": "good",
+          "total": 0
+        }
+      },
+      "conditions": {
+        "bleed": false,
+        "blind": false,
+        "confused": false,
+        "dazed": false,
+        "dazzled": false,
+        "deaf": false,
+        "entangled": false,
+        "fatigued": false,
+        "frightened": false,
+        "exhausted": false,
+        "grappled": false,
+        "helpless": false,
+        "incorporeal": false,
+        "invisible": false,
+        "nauseated": false,
+        "panicked": false,
+        "paralyzed": false,
+        "pinned": false,
+        "prone": false,
+        "shaken": false,
+        "sickened": false,
+        "staggered": false,
+        "stunned": false
+      },
+      "spells": {
+        "usedSpellbooks": [],
+        "spellbooks": {
+          "primary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Primary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0,
+              "autoSpellLevelTotal": 1
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": true,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 4,
+                "max": 4,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 3,
+                "max": 3,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "secondary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Secondary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0,
+              "autoSpellLevelTotal": 1
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": true,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 4,
+                "max": 4,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 3,
+                "max": 3,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "tertiary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Tertiary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0,
+              "autoSpellLevelTotal": 1
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": true,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 4,
+                "max": 4,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 3,
+                "max": 3,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level"
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 100,
+              "long": 400
+            }
+          },
+          "spelllike": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Spell-likes",
+            "casterType": "high",
+            "class": "_hd",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 1,
+              "autoSpellLevelTotal": 1
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "cha",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": true,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 4,
+                "max": 4,
+                "value": 0,
+                "spellMessage": "You can learn 4 more spells"
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": 3,
+                "max": 3,
+                "value": 0,
+                "spellMessage": "You can learn 2 more spells"
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "max": null,
+                "value": 0,
+                "spellMessage": "Your ability score is too low to cast spells of this level",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0,
+            "range": {
+              "close": 25,
+              "medium": 110,
+              "long": 440
+            }
+          }
+        }
+      },
+      "encumbrance": {
+        "level": 0,
+        "levels": {
+          "light": 76,
+          "medium": 153,
+          "heavy": 230,
+          "carry": 460,
+          "drag": 1150
+        },
+        "carriedWeight": 0
+      },
+      "hd": {
+        "total": 1,
+        "max": {
+          "_deprecated": true,
+          "value": 0
+        }
+      },
+      "bab": {
+        "value": 0,
+        "total": 0
+      },
+      "cmb": {
+        "value": 0
+      },
+      "damage": {
+        "general": 0,
+        "weapon": 0,
+        "spell": 0,
+        "shared": 0
+      },
+      "maxDexBonus": null,
+      "mDex": {
+        "armorBonus": 0,
+        "shieldBonus": 0
+      },
+      "acp": {
+        "gear": 0,
+        "encumbrance": 0,
+        "total": 0,
+        "armorBonus": 0,
+        "shieldBonus": 0,
+        "attackPenalty": 0
+      },
+      "woundThresholds": {
+        "penalty": 0,
+        "mod": 0,
+        "level": 0,
+        "override": -1,
+        "penaltyBase": 0
+      },
+      "prof": 2,
+      "spellcasting": {
+        "_deprecated": true
+      },
+      "spelldc": {
+        "_deprecated": true
+      },
+      "mods": {
+        "skills": {}
+      }
+    },
+    "details": {
+      "level": {
+        "value": 1,
+        "min": 0,
+        "max": 40
+      },
+      "bonusFeatFormula": "",
+      "alignment": "tn",
+      "biography": {
+        "value": null,
+        "public": ""
+      },
+      "notes": {
+        "value": "",
+        "public": ""
+      },
+      "bonusSkillRankFormula": "",
+      "tooltip": {
+        "name": "",
+        "hideHeld": false,
+        "hideArmor": false,
+        "hideBuffs": false,
+        "hideConditions": false,
+        "hideClothing": false,
+        "hideName": false
+      },
+      "carryCapacity": {
+        "bonus": {
+          "user": 0
+        },
+        "multiplier": {
+          "base": 1,
+          "user": 0
+        }
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 2000,
+        "pct": 0
+      },
+      "height": "",
+      "weight": "",
+      "gender": "",
+      "deity": "",
+      "age": "",
+      "mythicTier": 0,
+      "cr": {
+        "base": 1,
+        "total": 1
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 3,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "apr": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "art": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "blf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": true
+      },
+      "clm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 11,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "crf": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": true,
+        "subSkills": {}
+      },
+      "dip": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "dev": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 1,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "dis": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "esc": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 1,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "fly": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 5,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "han": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "hea": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "int": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kar": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kdu": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "ken": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kge": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "khi": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "klo": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kna": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kno": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "kpl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": true
+      },
+      "kre": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "lin": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "lor": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "per": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": true
+      },
+      "prf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "pro": {
+        "ability": "wis",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false,
+        "subSkills": {}
+      },
+      "rid": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 1,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "sen": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": true
+      },
+      "slt": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 1,
+        "background": true,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "spl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": -2,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "ste": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 1,
+        "background": false,
+        "changeBonus": 0,
+        "cs": true
+      },
+      "sur": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "swm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 3,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      },
+      "umd": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false,
+        "changeBonus": 0,
+        "cs": false
+      }
+    },
+    "customSkills": {},
+    "traits": {
+      "size": "med",
+      "senses": "",
+      "dr": "",
+      "eres": "",
+      "cres": "",
+      "regen": "",
+      "fastHealing": "",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "stature": "tall",
+      "weaponProf": {
+        "value": [],
+        "custom": "",
+        "total": [],
+        "customTotal": ""
+      },
+      "armorProf": {
+        "value": [],
+        "custom": "",
+        "total": [],
+        "customTotal": ""
+      },
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "altCurrency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "classes": {
+      "eidolon": {
+        "level": 1,
+        "name": "Eidolon",
+        "hd": 10,
+        "bab": "",
+        "hp": false,
+        "savingThrows": {
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        "fc": {
+          "hp": 0,
+          "skill": 0,
+          "alt": 0
+        }
+      }
+    },
+    "armor": {
+      "type": 0
+    },
+    "shield": {
+      "type": 0
+    },
+    "spells": {
+      "primary": {
+        "altName": "",
+        "castPerDayAllOffsetFormula": "",
+        "preparedAllOffsetFormula": "",
+        "name": "Primary",
+        "casterType": "high",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": "",
+          "autoSpellLevelTotal": 1
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevelCalculation": true,
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "hasCantrips": true,
+        "spellPreparationMode": "spontaneous",
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": true,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spells": {
+          "spell0": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 4,
+            "max": 4,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell1": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 3,
+            "max": 3,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell2": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell3": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell4": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell5": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell6": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell7": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell8": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell9": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          }
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        }
+      },
+      "secondary": {
+        "altName": "",
+        "castPerDayAllOffsetFormula": "",
+        "preparedAllOffsetFormula": "",
+        "name": "Secondary",
+        "casterType": "high",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": "",
+          "autoSpellLevelTotal": 1
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevelCalculation": true,
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "hasCantrips": true,
+        "spellPreparationMode": "spontaneous",
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": true,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spells": {
+          "spell0": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 4,
+            "max": 4,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell1": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 3,
+            "max": 3,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell2": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell3": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell4": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell5": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell6": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell7": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell8": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell9": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          }
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        }
+      },
+      "tertiary": {
+        "altName": "",
+        "castPerDayAllOffsetFormula": "",
+        "preparedAllOffsetFormula": "",
+        "name": "Tertiary",
+        "casterType": "high",
+        "class": "",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 0,
+          "formula": "",
+          "autoSpellLevelTotal": 1
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "int",
+        "autoSpellLevelCalculation": true,
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "hasCantrips": true,
+        "spellPreparationMode": "spontaneous",
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": true,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spells": {
+          "spell0": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 4,
+            "max": 4,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell1": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 3,
+            "max": 3,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell2": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell3": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell4": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell5": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell6": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell7": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell8": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell9": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          }
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 100,
+          "long": 400
+        }
+      },
+      "spelllike": {
+        "altName": "",
+        "castPerDayAllOffsetFormula": "",
+        "preparedAllOffsetFormula": "",
+        "name": "Spell-likes",
+        "casterType": "high",
+        "class": "_hd",
+        "cl": {
+          "base": 0,
+          "value": 0,
+          "total": 1,
+          "formula": "",
+          "autoSpellLevelTotal": 1
+        },
+        "concentration": 0,
+        "concentrationFormula": "",
+        "concentrationNotes": "",
+        "clNotes": "",
+        "ability": "cha",
+        "autoSpellLevelCalculation": true,
+        "autoSpellLevels": true,
+        "arcaneSpellFailure": true,
+        "hasCantrips": true,
+        "spellPreparationMode": "spontaneous",
+        "baseDCFormula": "10 + @sl + @ablMod",
+        "spontaneous": true,
+        "spellPoints": {
+          "useSystem": false,
+          "value": 0,
+          "max": 0,
+          "maxFormula": "",
+          "restoreFormula": ""
+        },
+        "spells": {
+          "spell0": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 4,
+            "max": 4,
+            "value": 0,
+            "spellMessage": "You can learn 4 more spells"
+          },
+          "spell1": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "base": 3,
+            "max": 3,
+            "value": 0,
+            "spellMessage": "You can learn 2 more spells"
+          },
+          "spell2": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell3": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell4": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell5": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell6": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell7": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell8": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          },
+          "spell9": {
+            "castPerDayOffsetFormula": "",
+            "preparedOffsetFormula": "",
+            "max": null,
+            "value": 0,
+            "spellMessage": "Your ability score is too low to cast spells of this level"
+          }
+        },
+        "spellSlotAbilityBonusFormula": "",
+        "domainSlotValue": 1,
+        "range": {
+          "close": 25,
+          "medium": 110,
+          "long": 440
+        }
+      }
+    },
+    "dFlags": {},
+    "range": {
+      "melee": 5,
+      "reach": 10
+    }
+  },
+  "token": {
+    "flags": {
+      "pf1": {
+        "staticSize": false,
+        "lowLightVision": false,
+        "disableLowLight": false
+      },
+      "token-replacer": {
+        "disabled": false
+      },
+      "token-hud-wildcard": {
+        "default": ""
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      },
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "attribute": "attributes.hp",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "visibility": 40,
+            "position": "bottom-inner",
+            "style": "user",
+            "ignoreMin": true,
+            "ignoreMax": true,
+            "invert": false,
+            "max": null
+          }
+        }
+      }
+    },
+    "name": "Serpentine Baseform",
+    "displayName": 0,
+    "img": "systems/pf1/icons/skills/green_21.jpg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightColor": null,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "f8ih22Yck0kccJfI",
+    "actorLink": true,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "3ghK52FUzBKpkjLu",
+      "name": "Tail Slap (Base)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>An eidolon can use its tail to bash nearby foes, granting it a tail slap attack. This attack is a secondary attack. The tail slap deals 1d6 points of damage (1d8 if Large, 2d6 if Huge).</p>\n<p><strong>Requirements</strong></p>\n<p>The eidolon must possess the tail evolution to take this evolution. This evolution can be selected more than once, but the eidolon must possess an equal number of the tail evolution.</p>\n<p><strong>Usage</strong></p>\n<p>Add the @Compendium[pf-content.pf-eidolon-evolutions.zfeKCQsoGM530tTV]{Tail (Attack)} to the eidolon sheet</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon Evolution"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "tailSlap1Ep",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 2500000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.eidolon-features.XHaMj9qIR8ADtDGT"
+        },
+        "scene-packer": {
+          "sourceId": "Item.yMc6o8TMZYxuFPpC"
+        }
+      },
+      "img": "systems/pf1/icons/items/inventory/monster-tail.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "xNPosM545BgjeVrH",
+      "name": "Tail (Base)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>An eidolon grows a long, powerful tail. This grants it a +2 racial bonus on Acrobatics checks made to balance on a surface.</p>\n<p>This evolution can be selected more than once.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon Evolution"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "u95h1lst",
+            "formula": "2",
+            "operator": "add",
+            "subTarget": "skill.acr",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 2
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "tail1Ep",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 2600000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.eidolon-features.MpA1ZcFMxQKmH9Im"
+        },
+        "scene-packer": {
+          "sourceId": "Item.r2LmQaO71JsBmb44"
+        }
+      },
+      "img": "icons/commodities/biological/stinger-insect-grey.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "HLzeU6FXYyaotw8J",
+      "name": "Bite (Base)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>An eidolon's maw is full of razor-sharp teeth, giving it a bite attack. This attack is a primary attack. The bite deals 1d6 points of damage (1d8 if Large, 2d6 if Huge).</p>\n<p>If the eidolon already has a bite attack, this evolution allows it to deal 1-1/2 times its Strength modifier on damage rolls made with its bite.</p>\n<p><strong>Usage</strong></p>\n<p>Add @Compendium[pf-content.pf-eidolon-evolutions.YB38Da80HxcuK3wE]{Bite (Attack)} to eidolon sheet</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon Evolution"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Bite",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "sizeRoll(1, 6, @size, 4)",
+              "P/B/S"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": ""
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bite1Ep",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 2700000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.eidolon-features.BJp5V8Lp6agDr5sA"
+        },
+        "scene-packer": {
+          "sourceId": "Item.enzsVT5RHbvfANLx"
+        }
+      },
+      "img": "systems/pf1/icons/skills/blood_07.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "MrCggITMnpATnhIQ",
+      "name": "Bite",
+      "type": "attack",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": "attack"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "attack"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "reach",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Bite",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "sizeRoll(1, 6, @size, 4)",
+              "B, P and S"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": 0
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": ""
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "biteAttack",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "attackType": "natural",
+        "nonlethal": false,
+        "proficient": true,
+        "primaryAttack": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "conditionals": [],
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 2800000,
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.suzO7NoGdtBu387l"
+        }
+      },
+      "img": "systems/pf1/icons/items/inventory/monster-head.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "E5YrYDv2EjLLrsQR",
+      "name": "Reach (Bite)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>One of an eidolon's attacks is capable of striking at foes at a distance. Pick one attack.</p>\n<p>The eidolon's reach with that attack increases by 5 feet.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon Evolution"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "reach1Ep",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 2900000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.eidolon-features.SwP2s1d7gVCvvPpe"
+        },
+        "scene-packer": {
+          "sourceId": "Item.gXmEGu4pqlkAkvJC"
+        }
+      },
+      "img": "systems/pf1/icons/skills/yellow_18.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "p1adOuf6HQ2srGop",
+      "name": "Tail Slap",
+      "type": "attack",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": "attack"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": "",
+          "long": null
+        },
+        "uses": {
+          "value": 0,
+          "per": "",
+          "autoDeductCharges": false,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "0",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "-5",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "sizeRoll(1, 6, @size, 4)",
+              "B"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": 0
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": ""
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "str",
+          "damageMult": 0.5,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "tailAttack",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "attackType": "natural",
+        "nonlethal": false,
+        "proficient": true,
+        "primaryAttack": false,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "conditionals": [],
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 3000000,
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.QKrti6cA7uLbk6YD"
+        }
+      },
+      "img": "systems/pf1/icons/items/inventory/monster-tail.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "AHKK6HoXMsoqmYgR",
+      "name": "Climb (Base)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>An eidolon becomes a skilled climber, gaining a climb speed equal to its base speed. This evolution can be selected more than once.</p>\n<p>Each additional time it is selected, increase the eidolon's climb speed by 20 feet.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon Evolution"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "emfuk9gj",
+            "formula": "20",
+            "operator": "add",
+            "subTarget": "climbSpeed",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 20
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "climb1Ep",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "sort": 3100000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.eidolon-features.UII7IR0FjJL2dXj8"
+        },
+        "scene-packer": {
+          "sourceId": "Item.BBu5oyIKqUV7WDgf"
+        }
+      },
+      "img": "systems/pf1/icons/skills/emerald_05.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "7MAzOl6DK75l72bD",
+      "name": "Eidolon",
+      "type": "class",
+      "img": "systems/pf1/icons/skills/violet_22.jpg",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong>: <em>Advanced Player's Guide</em></p>\n<p>An eidolon's abilities are determined by the summoner's level and by the choices made using its evolution pool. Table 2&ndash;9: Eidolon Base Statistics determines many of the base statistics of the eidolon. Each eidolon possesses a base form that modifies these base statistics. Eidolons are outsiders for the purpose of determining which spells affect them.</p>\n<table style=\"width: 96.9314%; height: 447px;\" border=\"1\">\n<thead>\n<tr style=\"height: 33px;\">\n<th style=\"width: 7.40413%; text-align: center; height: 33px;\">Class Level</th>\n<th style=\"width: 4.89565%; text-align: center; height: 33px;\">HD</th>\n<th style=\"width: 4.8771%; text-align: center; height: 33px;\">BAB</th>\n<th style=\"width: 7.21791%; text-align: center; height: 33px;\">Good Saves</th>\n<th style=\"width: 6.33147%; text-align: center; height: 33px;\">Bad Save</th>\n<th style=\"width: 6.51769%; text-align: center; height: 33px;\">Skills</th>\n<th style=\"width: 6.14525%; text-align: center; height: 33px;\">Feats</th>\n<th style=\"width: 8.37989%; text-align: center; height: 33px;\">Armor Bonus</th>\n<th style=\"width: 9.31099%; text-align: center; height: 33px;\">Str/Dex Bonus</th>\n<th style=\"width: 12.7178%; text-align: center; height: 33px;\">Evolution Pool</th>\n<th style=\"width: 8.17541%; text-align: center; height: 33px;\">Max. Attacks</th>\n<th style=\"width: 15.606%; height: 33px;\">Special</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 42px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 42px;\">1st</td>\n<td style=\"width: 4.89565%; text-align: center; height: 42px;\">1</td>\n<td style=\"width: 4.8771%; text-align: center; height: 42px;\">+1</td>\n<td style=\"width: 7.21791%; text-align: center; height: 42px;\">+2</td>\n<td style=\"width: 6.33147%; text-align: center; height: 42px;\">+0</td>\n<td style=\"width: 6.51769%; text-align: center; height: 42px;\">4</td>\n<td style=\"width: 6.14525%; text-align: center; height: 42px;\">1</td>\n<td style=\"width: 8.37989%; text-align: center; height: 42px;\">+0</td>\n<td style=\"width: 9.31099%; text-align: center; height: 42px;\">+0</td>\n<td style=\"width: 12.7178%; text-align: center; height: 42px;\">3</td>\n<td style=\"width: 8.17541%; text-align: center; height: 42px;\">3</td>\n<td style=\"width: 15.606%; height: 42px;\">Darkvision, link, share spells</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">2nd</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">2</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+0</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">8</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">1</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 15.606%; height: 16px;\">Evasion</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">3rd</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">12</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">2</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">4th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">12</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">2</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 33px;\">5th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 33px;\">4</td>\n<td style=\"width: 4.8771%; text-align: center; height: 33px;\">+4</td>\n<td style=\"width: 7.21791%; text-align: center; height: 33px;\">+4</td>\n<td style=\"width: 6.33147%; text-align: center; height: 33px;\">+1</td>\n<td style=\"width: 6.51769%; text-align: center; height: 33px;\">16</td>\n<td style=\"width: 6.14525%; text-align: center; height: 33px;\">2</td>\n<td style=\"width: 8.37989%; text-align: center; height: 33px;\">+4</td>\n<td style=\"width: 9.31099%; text-align: center; height: 33px;\">+2</td>\n<td style=\"width: 12.7178%; text-align: center; height: 33px;\">8</td>\n<td style=\"width: 8.17541%; text-align: center; height: 33px;\">4</td>\n<td style=\"width: 15.606%; height: 33px;\">Ability score increase</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">6th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+1</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">20</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">9</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 15.606%; height: 16px;\">Devotion</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">7th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">24</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">10</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">8th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">24</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">3</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">11</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">9th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+7</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+2</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">28</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">4</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">13</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 15.606%; height: 16px;\">Multiattack</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 33px;\">10th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 33px;\">8</td>\n<td style=\"width: 4.8771%; text-align: center; height: 33px;\">+8</td>\n<td style=\"width: 7.21791%; text-align: center; height: 33px;\">+6</td>\n<td style=\"width: 6.33147%; text-align: center; height: 33px;\">+2</td>\n<td style=\"width: 6.51769%; text-align: center; height: 33px;\">32</td>\n<td style=\"width: 6.14525%; text-align: center; height: 33px;\">4</td>\n<td style=\"width: 8.37989%; text-align: center; height: 33px;\">+8</td>\n<td style=\"width: 9.31099%; text-align: center; height: 33px;\">+4</td>\n<td style=\"width: 12.7178%; text-align: center; height: 33px;\">14</td>\n<td style=\"width: 8.17541%; text-align: center; height: 33px;\">5</td>\n<td style=\"width: 15.606%; height: 33px;\">Ability score increase</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">11th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">9</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+9</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">36</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+8</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">15</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">12th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">9</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+9</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">36</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+10</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">16</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">13th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">10</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+10</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+7</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+3</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">40</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+10</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">17</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">5</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 33px;\">14th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 33px;\">11</td>\n<td style=\"width: 4.8771%; text-align: center; height: 33px;\">+11</td>\n<td style=\"width: 7.21791%; text-align: center; height: 33px;\">+7</td>\n<td style=\"width: 6.33147%; text-align: center; height: 33px;\">+3</td>\n<td style=\"width: 6.51769%; text-align: center; height: 33px;\">44</td>\n<td style=\"width: 6.14525%; text-align: center; height: 33px;\">6</td>\n<td style=\"width: 8.37989%; text-align: center; height: 33px;\">+10</td>\n<td style=\"width: 9.31099%; text-align: center; height: 33px;\">+5</td>\n<td style=\"width: 12.7178%; text-align: center; height: 33px;\">19</td>\n<td style=\"width: 8.17541%; text-align: center; height: 33px;\">6</td>\n<td style=\"width: 15.606%; height: 33px;\">Improved evasion</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 33px;\">15th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 33px;\">12</td>\n<td style=\"width: 4.8771%; text-align: center; height: 33px;\">+12</td>\n<td style=\"width: 7.21791%; text-align: center; height: 33px;\">+8</td>\n<td style=\"width: 6.33147%; text-align: center; height: 33px;\">+4</td>\n<td style=\"width: 6.51769%; text-align: center; height: 33px;\">48</td>\n<td style=\"width: 6.14525%; text-align: center; height: 33px;\">6</td>\n<td style=\"width: 8.37989%; text-align: center; height: 33px;\">+12</td>\n<td style=\"width: 9.31099%; text-align: center; height: 33px;\">+6</td>\n<td style=\"width: 12.7178%; text-align: center; height: 33px;\">20</td>\n<td style=\"width: 8.17541%; text-align: center; height: 33px;\">6</td>\n<td style=\"width: 15.606%; height: 33px;\">Ability score increase</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">16th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">12</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+12</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+8</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">48</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+12</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+6</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">21</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">17th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">13</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+13</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+8</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">52</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+14</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+7</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">22</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">18th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">14</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+14</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+9</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+4</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">56</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+14</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+7</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">23</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">6</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">19th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">15</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+15</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+9</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">60</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">8</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+14</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+7</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">25</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 7.40413%; text-align: center; height: 16px;\">20th</td>\n<td style=\"width: 4.89565%; text-align: center; height: 16px;\">15</td>\n<td style=\"width: 4.8771%; text-align: center; height: 16px;\">+15</td>\n<td style=\"width: 7.21791%; text-align: center; height: 16px;\">+9</td>\n<td style=\"width: 6.33147%; text-align: center; height: 16px;\">+5</td>\n<td style=\"width: 6.51769%; text-align: center; height: 16px;\">60</td>\n<td style=\"width: 6.14525%; text-align: center; height: 16px;\">8</td>\n<td style=\"width: 8.37989%; text-align: center; height: 16px;\">+16</td>\n<td style=\"width: 9.31099%; text-align: center; height: 16px;\">+8</td>\n<td style=\"width: 12.7178%; text-align: center; height: 16px;\">26</td>\n<td style=\"width: 8.17541%; text-align: center; height: 16px;\">7</td>\n<td style=\"width: 15.606%; height: 16px;\">&mdash;</td>\n</tr>\n</tbody>\n</table>\n<p>Class Level: This is the character's summoner level.</p>\n<p>&nbsp;</p>\n<p><strong>HD:</strong> This is the total number of 10-sided (d10) Hit Dice the eidolon possesses, each of which gains a Constitution modifier, as normal.</p>\n<p>&nbsp;</p>\n<p><strong>BAB:</strong> This is the eidolon's base attack bonus. An eidolon's base attack bonus is equal to its Hit Dice. Eidolons do not gain additional attacks using their natural weapons for a high base attack bonus.</p>\n<p>&nbsp;</p>\n<p><strong>Good/Bad Saves:</strong> These are the eidolon's base saving throw bonuses. An eidolon possesses two good saving throws and one bad saving throw, determined by the creature's base form.</p>\n<p>&nbsp;</p>\n<p><strong>Skills</strong>: This lists the eidolon's total skill ranks. An eidolon can assign skill ranks to any skill, but it must possess the appropriate appendages to use some skills. Eidolons with Intelligence scores above the base value modify these totals as normal (an eidolon receives a number of skill ranks equal to 6 + its Intelligence modifier per HD).</p>\n<p>An eidolon cannot have more ranks in a skill than it has Hit Dice. Eidolon skill ranks are set once chosen, even if the creature changes when the summoner gains a new level.</p>\n<p>&nbsp;</p>\n<p><strong>Feats:</strong> This is the total number of feats possessed by an eidolon. Eidolons can select any feat that they qualify for, but they must possess the appropriate appendages to use some feats. Eidolon feats are set once chosen, even if the creature changes when the summoner gains a new level. If, due to changes, the eidolon no longer qualifies for a feat, the feat has no effect until the eidolon once again qualifies for the feat.</p>\n<p>&nbsp;</p>\n<p><strong>Armor Bonus:</strong> The number noted here is the eidolon's base total armor bonus. This bonus may be split between an armor bonus and a natural armor bonus, as decided by the summoner. This number is modified by the eidolon's base form and some options available through its evolution pool. An eidolon cannot wear armor of any kind, as the armor interferes with the summoner's connection to the eidolon.</p>\n<p>&nbsp;</p>\n<p><strong>Str/Dex Bonus</strong>: Add this modifier to the eidolon's Strength and Dexterity scores, as determined by its base form. Some options available through the eidolon's evolution pool might modify these scores.</p>\n<p>&nbsp;</p>\n<p><strong>Evolution Pool</strong>: The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon. Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set. The summoner can change them whenever he gains a level (and through the transmogrify spell).</p>\n<p>&nbsp;</p>\n<p><strong>Max. Attacks:</strong> This indicates the maximum number of natural attacks that the eidolon is allowed to possess at the given level. If the eidolon is at its maximum, it cannot take evolutions that grant additional natural attacks. This does not include attacks made with weapons.</p>\n<p>&nbsp;</p>\n<p><strong>Special:</strong> This includes a number of abilities gained by all eidolons as they increase in power. Each of these bonuses is described below.</p>\n<p>&nbsp;</p>\n<p><strong>Darkvision</strong> (Ex): The eidolon has darkvision out to a range of 60 feet.</p>\n<p>&nbsp;</p>\n<p><strong>Link (Ex)</strong>: A summoner and his eidolon share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his eidolon at any time. In addition, magic items interfere with the summoner's connection to his eidolon. As a result, the summoner and his eidolon share magic item slots. For example, if the summoner is wearing a ring, his eidolon can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the eidolon become dormant. The eidolon must possess the appropriate appendages to utilize a magic item.</p>\n<p>&nbsp;</p>\n<p><strong>Share Spells (Ex)</strong>: The summoner may cast a spell with a target of &ldquo;you&rdquo; on his eidolon (as a spell with a range of touch) instead of on himself. A summoner may cast spells on his eidolon even if the spells normally do not affect creatures of the eidolon's type (outsider). Spells cast in this way must come from the summoner spell list. This ability does not allow the eidolon to share abilities that are not spells, even if they function like spells.</p>\n<p>&nbsp;</p>\n<p><strong>Evasion (Ex)</strong>: If an eidolon is subjected to an attack that normally allows a Reflex save for half damage, it takes no damage if it makes a successful saving throw.</p>\n<p>&nbsp;</p>\n<p><strong>Ability Score Increase (Ex)</strong>: The eidolon adds +1 to one of its ability scores.</p>\n<p>&nbsp;</p>\n<p><strong>Devotion (Ex)</strong>: An eidolon gains a +4 morale bonus on Will saves against enchantment spells and effects.</p>\n<p>&nbsp;</p>\n<p><strong>Multiattack: </strong>An eidolon gains Multiattack as a bonus feat if it has 3 or more natural attacks and does not already have that feat. If it does not have the requisite 3 or more natural attacks (or it is reduced to less than 3 attacks), the eidolon instead gains a second attack with one of its natural weapons, albeit at a &ndash;5 penalty. If the eidolon later gains 3 or more natural attacks, it loses this additional attack and instead gains Multiattack.</p>\n<p>&nbsp;</p>\n<p><strong>Improved Evasion (Ex)</strong>: When subjected to an attack that allows a Reflex saving throw for half damage, an eidolon takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [
+          {
+            "_id": "vvzrvb5l",
+            "formula": "((round((@classes.eidolon.level - 1) * .75) + 1)) * 4",
+            "operator": "add",
+            "subTarget": "bonusSkillRanks",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 4
+          },
+          {
+            "_id": "uid3xlfw",
+            "formula": "- @classes.eidolon.level",
+            "operator": "add",
+            "subTarget": "bonusSkillRanks",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": -1
+          },
+          {
+            "_id": "r7thdt4q",
+            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) * 5.5)",
+            "operator": "add",
+            "subTarget": "mhp",
+            "modifier": "untyped",
+            "priority": -1,
+            "value": 5
+          },
+          {
+            "_id": "p6wp2xej",
+            "formula": "- (@classes.eidolon.level * @abilities.con.mod) + ((round((@classes.eidolon.level - 1) * .75) + 1) * @abilities.con.mod)",
+            "operator": "add",
+            "subTarget": "mhp",
+            "modifier": "untyped",
+            "priority": -1,
+            "value": 0
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "links": {
+          "children": [],
+          "classAssociations": [
+            {
+              "_index": 0,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.ImmUxMdvqPXD55Qm",
+              "img": "systems/pf1/icons/skills/green_19.jpg",
+              "level": 1,
+              "name": "Ability Score Increase"
+            },
+            {
+              "_index": 1,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.55xgxJVviwsNqE0g",
+              "img": "systems/pf1/icons/skills/blood_11.jpg",
+              "level": 1,
+              "name": "Base Attack Bonus"
+            },
+            {
+              "_index": 2,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.rSCFhnhWsomd7Yea",
+              "img": "systems/pf1/icons/skills/shadow_11.jpg",
+              "level": 1,
+              "name": "Darkvision"
+            },
+            {
+              "_index": 3,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.9twQNtuJV5l3smM9",
+              "img": "systems/pf1/icons/feats/improved-great-fortitude.jpg",
+              "level": 6,
+              "name": "Devotion"
+            },
+            {
+              "_index": 4,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.JIxOZE8MULu6xtlz",
+              "img": "systems/pf1/icons/skills/blood_07.jpg",
+              "level": 1,
+              "name": "Eidolon Feats"
+            },
+            {
+              "_index": 5,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.lV3pdfuVNr6TbAli",
+              "img": "systems/pf1/icons/skills/blue_06.jpg",
+              "level": 2,
+              "name": "Evasion"
+            },
+            {
+              "_index": 6,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.gQahVj8GpA8Yvguq",
+              "img": "systems/pf1/icons/feats/intimidating-prowess.jpg",
+              "level": 1,
+              "name": "Evolution Pool (Chained)"
+            },
+            {
+              "_index": 7,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.SASbBFJ77Oav01jN",
+              "img": "systems/pf1/icons/skills/blue_06.jpg",
+              "level": 14,
+              "name": "Improved Evasion"
+            },
+            {
+              "_index": 8,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.wtM7xs3CFcQdHL83",
+              "img": "systems/pf1/icons/feats/quick-draw.jpg",
+              "level": 1,
+              "name": "Link"
+            },
+            {
+              "_index": 9,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.zcYdxGqaH4E7W7cj",
+              "img": "systems/pf1/icons/skills/yellow_23.jpg",
+              "level": 1,
+              "name": "Maximum Attacks"
+            },
+            {
+              "_index": 10,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.KIUb7L9aIqLANp75",
+              "img": "systems/pf1/icons/skills/red_31.jpg",
+              "level": 9,
+              "name": "Multiattack"
+            },
+            {
+              "_index": 11,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.p0ne09vmFxykzhs5",
+              "img": "systems/pf1/icons/skills/blue_34.jpg",
+              "level": 1,
+              "name": "Natural Armor Bonus"
+            },
+            {
+              "_index": 12,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.WRk36VbOw70z0KKP",
+              "img": "systems/pf1/icons/misc/hazard-sign.svg",
+              "level": 1,
+              "name": "Requires Manual Setup"
+            },
+            {
+              "_index": 13,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.Z4wx2mRpp3dWPOIh",
+              "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
+              "level": 1,
+              "name": "Share Spells"
+            },
+            {
+              "_index": 14,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.WMJq96Aa7kZgeVXI",
+              "img": "systems/pf1/icons/feats/athletic.jpg",
+              "level": 1,
+              "name": "STR/DEX Bonus"
+            },
+            {
+              "_index": 15,
+              "dataType": "compendium",
+              "hiddenLinks": {},
+              "id": "pf-content.pf-eidolon-evolutions.Gl5sWXBXpYD14pXl",
+              "img": "systems/pf1/icons/feats/greater-shield-focus.jpg",
+              "level": 1,
+              "name": "Eidolon Saves"
+            }
+          ]
+        },
+        "tag": "eidolon",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "classType": "racial",
+        "level": 1,
+        "hd": 0,
+        "hp": 0,
+        "bab": "",
+        "skillsPerLevel": 0,
+        "savingThrows": {
+          "fort": {
+            "value": ""
+          },
+          "ref": {
+            "value": ""
+          },
+          "will": {
+            "value": ""
+          }
+        },
+        "fc": {
+          "hp": {
+            "value": 0
+          },
+          "skill": {
+            "value": 0
+          },
+          "alt": {
+            "value": 0,
+            "notes": ""
+          }
+        },
+        "classSkills": {
+          "acr": false,
+          "apr": false,
+          "art": false,
+          "blf": true,
+          "clm": false,
+          "crf": true,
+          "dip": false,
+          "dev": false,
+          "dis": false,
+          "esc": false,
+          "fly": false,
+          "han": false,
+          "hea": false,
+          "int": false,
+          "kar": false,
+          "kdu": false,
+          "ken": false,
+          "kge": false,
+          "khi": false,
+          "klo": false,
+          "kna": false,
+          "kno": false,
+          "kpl": true,
+          "kre": false,
+          "lin": false,
+          "lor": false,
+          "per": true,
+          "prf": false,
+          "pro": false,
+          "rid": false,
+          "sen": true,
+          "slt": false,
+          "spl": false,
+          "ste": true,
+          "sur": false,
+          "swm": false,
+          "umd": false
+        },
+        "levels": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "conditionals": [],
+        "identifiedName": "Eidolon",
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.7EgItRGvA69jzPTV"
+        },
+        "pf1": {
+          "links": {
+            "classAssociations": {
+              "3YctCb5GmVRANE7z": 1,
+              "5kCgFSaVg2nBDHcd": 1,
+              "DFZLKRlBkWm9ivAH": 1,
+              "JceQzoibpRhv1GbX": 2,
+              "MJreDTnyerzYy9zW": 1,
+              "SjUIBIMN2kVtwlC7": 1,
+              "VBHDze4BNpILMXJT": 1,
+              "W5SffxKgSxi5S6mX": 1,
+              "XBblZIgv9P1zESbh": 1,
+              "Y0fHXlXKwgdfdv8E": 1,
+              "aYiiPy7ptPLcYFds": 1,
+              "btMSwC8Fwib6jrQt": 1,
+              "fUhF03uqEVGRYn62": 1,
+              "hf2uRlr1hA4Wt8hG": 2,
+              "l0OnqTnAO2MP0ZBV": 1,
+              "le2iFYbgGwrHiUqz": 1,
+              "mxbPOdlJe2eiZbd1": 1,
+              "oF2Qn9IQjJwJgy0q": 1,
+              "pCAyRBCPCN7JPPw7": 1,
+              "qstlGBOZUQBS5vM6": 1,
+              "rESbUOpvZUwErTvL": 1,
+              "swyPy1rDPQbyREpm": 1,
+              "wZQFeD9Q1dUTQsPS": 1,
+              "wjOiykRLE5SuOWg4": 1,
+              "ws303TnzUNWTpyIL": 1,
+              "ymJ3FCNNLW8qZ2bh": 1,
+              "qUJFevvGBuhiMbxX": 1,
+              "nbrlKCrA6Ku8lz7I": 1,
+              "U6eNyaDIppKTMlpi": 1,
+              "N9HXt54uDxr5xZtk": 1,
+              "Qnhwfs7zjkbopbOw": 1,
+              "F9kCgXOf2TP6Y1ix": 1,
+              "eGNGuJMoo5RkNREy": 1,
+              "L6GKCAw6WQIArShH": 1,
+              "Dx2njUleDnTPs1Bg": 1,
+              "omSLC8RN65BEqup3": 1,
+              "MfnBm7ncH054n4P3": 1,
+              "tV8KHHMI5oeEQCY3": 1
+            }
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.cbkMD4yvgLyrkYKq"
+        }
+      }
+    },
+    {
+      "_id": "qUJFevvGBuhiMbxX",
+      "name": "Ability Score Increase",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/green_19.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The Eidolon adds +1 to one of its ability scores at levels 5, 10, and 15.</span></p>\n<p>Current Ability Points: [[@classes.eidolon.level &gt; 14 ? 3 : @classes.eidolon.level &gt; 9 ? 2 : @classes.eidolon.level &gt; 4 ? 1 : 0]]</p>\n<p><strong>Usage</strong></p>\n<p>Add ability score increase in Changes.&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "abilityScoreIncrease",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2400000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.5mTQwTOwM6bU3rYG"
+        },
+        "pf1": {}
+      }
+    },
+    {
+      "_id": "nbrlKCrA6Ku8lz7I",
+      "name": "Base Attack Bonus",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/blood_11.jpg",
+      "data": {
+        "description": {
+          "value": "<p><strong>Current BAB</strong>: [[(round((@classes.eidolon.level - 1) * .75) + 1)]]</p>\n<p>This is the eidolon's base attack bonus. An eidolon's base attack bonus is equal to its Hit Dice. Eidolons do not gain additional attacks using their natural weapons for a high base attack bonus.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "wf6kv81f",
+            "formula": "(round((@classes.eidolon.level - 1) * .75) + 1)",
+            "operator": "add",
+            "subTarget": "bab",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 1
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "baseAttackBonus",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2500000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.rSxgmcPwAAmFL4r9"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.qHWceHGzNCTDl654"
+        }
+      }
+    },
+    {
+      "_id": "U6eNyaDIppKTMlpi",
+      "name": "Darkvision",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/shadow_11.jpg",
+      "data": {
+        "description": {
+          "value": "<p>As eidolong gains darkvision with a range of 60 feet.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "darkvision",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf1e-archetypes.pf-class-abilities.28JBvIOmJhzvbI2R"
+        },
+        "scene-packer": {
+          "sourceId": "Item.Vd7bZ14QxUBPWKif"
+        },
+        "pf1": {}
+      }
+    },
+    {
+      "_id": "N9HXt54uDxr5xZtk",
+      "name": "Eidolon Feats",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/blood_07.jpg",
+      "data": {
+        "description": {
+          "value": "<p>This is the total number of feats possessed by an eidolon: [[ceil((round((@classes.eidolon.level - 1) * .75) + 1) / 2)]]. Eidolons can select any feat that they qualify for, but they must possess the appropriate appendages to use some feats. Eidolon feats are set once chosen, even if the creature changes when the summoner gains a new level.</p>\n<p>If, due to changes, the eidolon no longer qualifies for a feat, the feat has no effect until the eidolon once again qualifies for the feat.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "68yy4on2",
+            "formula": "ceil((round((@classes.eidolon.level - 1) * .75) + 1) / 2)",
+            "operator": "add",
+            "subTarget": "bonusFeats",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 1
+          },
+          {
+            "_id": "i56qltba",
+            "formula": "- ceil(@classes.eidolon.level / 2)",
+            "operator": "add",
+            "subTarget": "bonusFeats",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": -1
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "eidolonFeats",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2700000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.w8QhU9qZ4VXxO4Ij"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.Sf8nj2xULzL5EFRH"
+        }
+      }
+    },
+    {
+      "_id": "Qnhwfs7zjkbopbOw",
+      "name": "Evolution Pool (Chained)",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/intimidating-prowess.jpg",
+      "data": {
+        "description": {
+          "value": "<p><strong>Current Pool:&nbsp;</strong>[[@classes.eidolon.level + 1 + floor((@classes.eidolon.level + 6) / 5)]]</p>\n<p>The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon.</p>\n<p>Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set.</p>\n<p>The summoner can change them whenever he gains a level (and through the transmogrify spell).</p>\n<p><strong>Usage</strong></p>\n<p>Subtract from the total when adding evolutions.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": "passive"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "passive"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 3,
+          "per": "charges",
+          "autoDeductCharges": false,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "@classes.eidolon.level + 1 + floor((@classes.eidolon.level + 6) / 5)",
+          "max": 3
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "evolutionPoolChained",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3600000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.KlpGj28t8Jl0yz4S"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
+        }
+      }
+    },
+    {
+      "_id": "F9kCgXOf2TP6Y1ix",
+      "name": "Link",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "data": {
+        "description": {
+          "value": "<p>A summoner and his eidolon share a mental link allows for communication across any distance (as long as they are on the same plane). This communication is a free action, allowing the summoner to give orders to his eidolon at any time. In addition, magic items interfere with the summoner's connection to his eidolon.</p>\n<p>As a result, the summoner and his eidolon share magic item slots.</p>\n<p>For example, if the summoner is wearing a ring, his eidolon can wear no more than one ring. In case of a conflict, the items worn by the summoner remain active, and those used by the eidolon become dormant. The eidolon must possess the appropriate appendages to utilize a magic item.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "link",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.BLnLSlCUOWcLPYoT"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
+        }
+      }
+    },
+    {
+      "_id": "eGNGuJMoo5RkNREy",
+      "name": "Maximum Attacks",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/yellow_23.jpg",
+      "data": {
+        "description": {
+          "value": "<p>This indicates the maximum number of natural attacks that the eidolon is allowed to possess at the given level.</p>\n<p>If the eidolon is at its maximum, it cannot take evolutions that grant additional natural attacks.</p>\n<p>This does not include attacks made with weapons.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": "passive"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "passive"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 1,
+          "per": "charges",
+          "autoDeductCharges": false,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "3 + floor((@classes.eidolon.level + 1) / 5)",
+          "max": 3
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "maximumAttacks",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.NK6uUChnbFGLuMnq"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
+        }
+      }
+    },
+    {
+      "_id": "L6GKCAw6WQIArShH",
+      "name": "Natural Armor Bonus",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/blue_34.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The number noted here is the eidolon's base total armor bonus. This bonus may be split between an armor bonus and a natural armor bonus, as decided by the summoner. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">This number is modified by the eidolon's base form and some options available through its evolution pool. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">An eidolon cannot wear armor of any kind, as the armor interferes with the summoner's connection to the eidolon.<br /></span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "22vrjim6",
+            "formula": "floor((@classes.eidolon.level + 1) / 2.54) * 2",
+            "operator": "add",
+            "subTarget": "nac",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 0,
+            "target": "ac"
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "naturalArmorBonus",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3000000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.rSxgmcPwAAmFL4r9"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.tfYsNCDzPgfUJGdv"
+        }
+      }
+    },
+    {
+      "_id": "Dx2njUleDnTPs1Bg",
+      "name": "Requires Manual Setup",
+      "type": "feat",
+      "img": "systems/pf1/icons/misc/hazard-sign.svg",
+      "data": {
+        "description": {
+          "value": "<p><strong>Skills</strong></p>\n<p>At first level, select 4 additional class skills (if the eidolon has a fly speed, it gains Fly for free) through editting the Class.</p>\n<p><strong>Evolution Points</strong></p>\n<p>If you are using an Unchained Summoner, use @Compendium[pf-content.pf-eidolon-evolutions.B2McodEGU4IGjGqi]{Evolution Pool (Unchained)}.</p>\n<p>If you are using a Chained Summoner, use @Compendium[pf-content.pf-eidolon-evolutions.gQahVj8GpA8Yvguq]{Evolution Pool (Chained)} for tracking evolution points.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "requiresManualSetup",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "feat",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.Qy0VeVAdeG8c1tef"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.WRk36VbOw70z0KKP"
+        },
+        "pf1": {}
+      }
+    },
+    {
+      "_id": "omSLC8RN65BEqup3",
+      "name": "Share Spells",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The summoner may cast a spell with a target of &ldquo;you&rdquo; on his eidolon (as a spell with a range of touch) instead of on himself. A summoner may cast spells on his eidolon even if the spells normally do not affect creatures of the eidolon's type (outsider). </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Spells cast in this way must come from the summoner spell list. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">This ability does not allow the eidolon to share abilities that are not spells, even if they function like spells.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "shareSpells",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.yYF0azvMLNSRc2QJ"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.ZaBFpK3HT49DAUpE"
+        }
+      }
+    },
+    {
+      "_id": "MfnBm7ncH054n4P3",
+      "name": "STR/DEX Bonus",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/athletic.jpg",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Add this modifier to the eidolon's Strength and Dexterity scores, as determined by its base form. </span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Some options available through the eidolon's evolution pool might modify these scores.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\"><strong>Str/Dex Bonus:</strong> [[ floor((@classes.eidolon.level + 3) * 2 / 5) - 1 ]]</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "2167egmx",
+            "formula": "floor((@classes.eidolon.level + 1) / 2.54)",
+            "operator": "add",
+            "subTarget": "str",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 0
+          },
+          {
+            "_id": "9eu6k92k",
+            "formula": "floor((@classes.eidolon.level + 1) / 2.54)",
+            "operator": "add",
+            "subTarget": "dex",
+            "modifier": "untyped",
+            "priority": 0,
+            "value": 0
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "strdexBonus",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3300000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.nWKp65a3AOFqJOs6"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.pDA7IHXF8VIRhSsr"
+        }
+      }
+    },
+    {
+      "_id": "tV8KHHMI5oeEQCY3",
+      "name": "Eidolon Saves",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/greater-shield-focus.jpg",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"color: #191813;\">These are the eidolon's base saving throw bonuses. An eidolon possesses two good saving throws and one bad saving throw, determined by the creature's base form.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"color: #191813; font-size: 13px;\">Good Saves:&nbsp;</strong><span style=\"color: #191813;\"><span style=\"font-size: 13px;\">[[@classes.eidolon.level &gt; 17 ? 9 : @classes.eidolon.level &gt; 14 ? 8 : @classes.eidolon.level &gt; 12 ? 7 : @classes.eidolon.level &gt; 9 ? 6 : @classes.eidolon.level &gt; 6 ? 5 : @classes.eidolon.level &gt; 4 ? 4 : @classes.eidolon.level &gt; 1 ? 3 : 2]]</span></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Bad Save</strong>: [[(floor((@classes.eidolon.level + 1) / 4)]]</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 0,
+          "per": null,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [
+          {
+            "_id": "zdsarrn9",
+            "formula": "@classes.eidolon.level > 17 ? 9 : @classes.eidolon.level > 14 ? 8 : @classes.eidolon.level > 12 ? 7 : @classes.eidolon.level > 9 ? 6 : @classes.eidolon.level > 6 ? 5 : @classes.eidolon.level > 4 ? 4 : @classes.eidolon.level > 1 ? 3 : 2",
+            "operator": "add",
+            "subTarget": "fort",
+            "modifier": "base",
+            "priority": 0,
+            "value": 0,
+            "target": "ability"
+          },
+          {
+            "_id": "hchux63w",
+            "formula": "@classes.eidolon.level > 17 ? 9 : @classes.eidolon.level > 14 ? 8 : @classes.eidolon.level > 12 ? 7 : @classes.eidolon.level > 9 ? 6 : @classes.eidolon.level > 6 ? 5 : @classes.eidolon.level > 4 ? 4 : @classes.eidolon.level > 1 ? 3 : 2",
+            "operator": "add",
+            "subTarget": "ref",
+            "modifier": "base",
+            "priority": 0,
+            "value": 0,
+            "target": "ability"
+          },
+          {
+            "_id": "rphaz0en",
+            "formula": "floor((@classes.eidolon.level + 1) / 4)",
+            "operator": "add",
+            "subTarget": "will",
+            "modifier": "base",
+            "priority": 0,
+            "value": 0
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "eidolonSaves",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.Gl5sWXBXpYD14pXl"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.lV3oXnYIl6qG6o18"
+        }
+      }
+    },
+    {
+      "_id": "4YpSXOFMLWFBuvxY",
+      "name": "Evolution Pool (Unchained)",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/intimidating-prowess.jpg",
+      "data": {
+        "description": {
+          "value": "<p><strong>Current Pool:&nbsp;</strong>[[(round(@classes.eidolon.level * .75))]]</p>\n<p>The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon.</p>\n<p>Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set.</p>\n<p>The summoner can change them whenever he gains a level (and through the transmogrify spell).</p>\n<p><strong>Usage</strong></p>\n<p>Subtract from the total when adding evolutions.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Eidolon"
+          ]
+        ],
+        "activation": {
+          "cost": 1,
+          "type": "passive"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "passive"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "value": 1,
+          "per": "charges",
+          "autoDeductCharges": false,
+          "autoDeductChargesCost": "1",
+          "maxFormula": "floor((@classes.eidolon.level - 1) * .75) + 1 + (((((@classes.eidolon.level - 1) * .75) * 100) % 100) >= 50 ? 1 : 0)",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "evolutionPoolUnchained",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": [],
+          "dictionary": []
+        },
+        "scriptCalls": [],
+        "featType": "classFeat",
+        "associations": {
+          "classes": [
+            [
+              "Eidolon"
+            ]
+          ]
+        },
+        "showInQuickbar": false,
+        "nonlethal": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3700000,
+      "permission": {
+        "default": 0,
+        "IPeKQhMz2Odi77tR": 3,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.4WlcyEkZPlKfU28P"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.gQahVj8GpA8Yvguq"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "tCEwvo1Tq58EKcH1": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.MVyjW85tZxegoUJ8"
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-eidolon-forms.f8ih22Yck0kccJfI"
+    }
+  }
+}

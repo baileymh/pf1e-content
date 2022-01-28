@@ -1,0 +1,75 @@
+{
+  "_id": "wjhMD8am2Mpx2l8T",
+  "name": "Seducer's Eyes",
+  "type": "buff",
+  "img": "systems/pf1/icons/races/tiefling.png",
+  "data": {
+    "description": {
+      "value": "<p>You gain a bonus on Charisma-based skill checks equal to 1 +1 for every 4 caster levels you possess (to a maximum of +5), but only when interacting with those who might conceivably find you sexually attractive. You do not gain this bonus against those you or your allies are attacking or threatening.</p>\n<p><strong>Usage:</strong> Set the level of this buff to the caster level of Seducer's Eyes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[(min(5,(1 + (floor(@item.level / 4)))))]] vs targets who might find you sexually attractive, and you or your allies are not attacking or threatening.",
+        "target": "skills",
+        "subTarget": "chaSkills"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "seducersEyes",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Seducer's Eyes",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,113 @@
+{
+  "_id": "nRHD11ZwDWlRyT8c",
+  "name": "Rage (Spell)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/red_10.jpg",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[pf1.spells.8u1xa5javcxc6szk]{Rage}</p>\n<p><span style=\"color: #191813; font-size: 13px;\">Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical with a barbarian's rage except that the subjects aren't fatigued at the end of the rage.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "wbtc4pzx",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "8tewkqv2",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "con",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "zabtklep",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "will",
+        "modifier": "morale",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "6bay1ht2",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "penalty",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Rage:</b> Cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.",
+        "target": "abilityChecks",
+        "subTarget": "allChecks"
+      },
+      {
+        "text": "<b>Rage:</b> Cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.",
+        "target": "skills",
+        "subTarget": "skills"
+      },
+      {
+        "text": "<b>Rage:</b> Cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.",
+        "target": "spell",
+        "subTarget": "concentration"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {}
+}

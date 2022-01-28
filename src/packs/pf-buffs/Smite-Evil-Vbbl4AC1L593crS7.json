@@ -1,0 +1,85 @@
+{
+  "_id": "Vbbl4AC1L593crS7",
+  "name": "Smite Evil",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/beam-orange-3.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You add your Charisma bonus (if any) to your attack rolls and adds your paladin level to all damage rolls made against an evil target of your smite. If the target of smite evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to 2 points of damage per paladin level you possess. Regardless of the target, smite evil attacks automatically bypass any DR the creature might possess.</p>\n<p>In addition, while smite evil is in effect, you gain a deflection bonus equal to your Charisma modifier (if any) to your AC against attacks made by the target of the smite.</p>\n<p><strong>Usage:</strong> Set the level of this buff to the paladin level of Smite Evil.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[@abilities.cha.mod]] Deflection vs target of Smite Evil.",
+        "target": "misc",
+        "subTarget": "ac"
+      },
+      {
+        "text": "+[[@abilities.cha.mod]] Attack and +[[@item.level]] Damage vs Evil target of Smite Evil.\nIf an Evil dragon, outsider or undead, the first successful attack instead deals +[[2 * @item.level]] Damage.",
+        "target": "attacks",
+        "subTarget": "attack"
+      },
+      {
+        "text": "Bypass all DR of target of Smite Evil.",
+        "target": "attacks",
+        "subTarget": "effect"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "smiteEvil",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Smite Evil",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

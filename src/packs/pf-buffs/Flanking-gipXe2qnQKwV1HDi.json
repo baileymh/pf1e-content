@@ -1,0 +1,80 @@
+{
+  "_id": "gipXe2qnQKwV1HDi",
+  "name": "Flanking",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/weapon_22.jpg",
+  "data": {
+    "description": {
+      "value": "<p>When making a melee attack, you get a +2 flanking bonus if your opponent is&nbsp;threatened&nbsp;by another enemy character or creature on its opposite border or opposite corner.</p>\n<p>When in doubt about whether two characters flank an opponent in the middle, trace an imaginary line between the two attackers&rsquo; centers. If the line passes through opposite borders of the opponent&rsquo;s space (including corners of those borders), then the opponent is flanked.</p>\n<p>&nbsp;</p>\n<p><strong>Exception</strong></p>\n<p>If a flanker takes up more than 1 square, it gets the flanking bonus if any square it occupies counts for flanking.</p>\n<p>Only a creature or character that threatens the defender can help an attacker get a flanking bonus.</p>\n<p>Creatures with a reach of 0 feet can&rsquo;t flank an opponent.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "5ilzxcka",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "mattack",
+        "modifier": "circumstance",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "flanking",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Flanking",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

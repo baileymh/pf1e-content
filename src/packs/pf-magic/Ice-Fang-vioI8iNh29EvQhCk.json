@@ -1,0 +1,177 @@
+{
+  "_id": "vioI8iNh29EvQhCk",
+  "name": "Ice Fang",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/estoc.PNG",
+  "data": {
+    "description": {
+      "value": "<h2></b>Description</b></h2></p><p>This +2 frost short sword has a blade made of sparkling blue ice. Anyone wielding an ice fang is protected from cold weather as if they were affected by endure elements. As a move action, the wielder may cause the blade to either grow to the size of a longsword, melt away to the size of a dagger, or return to its original size. An ice fang left unattended  automatically reverts to its original size in 1 minute. An ice fang functions as a dagger, short sword, or longsword depending on the current size of its blade. Once per day upon confirming a critical hit, the wielder may choose to have the blade shatter and send razor-sharp shards of ice flying in a 15-foot cone. The original target of the attack must be within this cone's area of effect. Roll the damage for the critical hit normally and apply to the original target. All other creatures in the cone take damage equal to the amount of the critical hit; one half of this damage is piercing, the other half is cold damage. A successful DC 16 Reflex saving throw reduces the damage by half. After using this ability, the wielder must spend a standard action to reform the blade of the ice fang, at any size, before it can be used as a weapon again.<br><p><b>Base Item:</b> +2 frost short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, endure elements, ice storm, shrink item</p><h3><b>Source: </b></h3>Down The Blighted Path",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": 2,
+    "price": 39515,
+    "size": "med",
+    "equipped": true,
+    "resizing": false,
+    "identified": true,
+    "hp": {
+      "max": 10,
+      "value": 10
+    },
+    "broken": false,
+    "hardness": 10,
+    "carried": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "identifiedName": "Ice Fang",
+    "cl": 9,
+    "aura": {
+      "custom": true,
+      "school": "evocation"
+    },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "activation": {
+      "cost": 1,
+      "type": "attack"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "attack"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "melee",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 4, @size)",
+          ""
+        ]
+      ],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "ceil(@attributes.bab.total / 5) - 1"
+      },
+      "bonus": {
+        "formula": "@formulaicAttack * -5"
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": "str",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "iceFang",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponType": "simple",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "conditionals": [],
+    "bonus": {
+      "value": 0,
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damage2Type": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {}
+}

@@ -1,0 +1,165 @@
+{
+  "_id": "iK9L7KLJffCMz7h1",
+  "name": "Bonus Feat (MNK, EitR)",
+  "type": "feat",
+  "img": "systems/pf1/icons/skills/blue_10.jpg",
+  "data": {
+    "description": {
+      "value": "<p>At 1st level, 2nd level, and every 4 levels thereafter, a monk may select a bonus feat. These feats must be taken from the following list:</p>\n<p>@Compendium[pf-content.pf-elephant.yZLJ85c9AuUWNNSs]{Catch Off-Guard (EitR)}, @Compendium[pf1.feats.h9nHYLxXvIXBTmup]{Combat Reflexes}, @Compendium[pf1.feats.ACEQfonKVqh0fwkK]{Deflect Arrows}, @Compendium[pf-content.pf-elephant.z7YX1uI4MrNyv0PF]{Dodge (EitR)}, and @Compendium[pf-content.pf-elephant.Tm6l01PPM6xYWgmO]{Scorpion Stance (EitR)}.</p>\n<p>At 6th level, the following feats are added to the list:</p>\n<p>@Compendium[pf-content.pf-elephant.vOy4Ey89I5sipW8r]{Deft Maneuvers (EitR)}, @Compendium[pf1.feats.nhUawPP4jfED3CYV]{Gorgon's Fist}, @Compendium[pf1.feats.hc7CRKHvhmKRzNKb]{Greater Grapple}, and @Compendium[pf-content.pf-elephant.NBAxOZmGdCKAWYZL]{Powerful Maneuvers (EitR)}.</p>\n<p>At 10th level, the following feats are added to the list:</p>\n<p>@Compendium[pf1.feats.TbOPtIL8Fv8obXtP]{Improved Critical}, @Compendium[pf1.feats.sOCyCmNxe2MBbEaI]{Medusa's Wrath}, @Compendium[pf1.feats.bHcqTC4Lf3aVl3VO]{Snatch Arrows}, and @Compendium[pf1.feats.ugQyUpqPBDsqLyra]{Spring Attack}.</p>\n<p>A monk need not have any of the prerequisites normally required for these feats to select them.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": "",
+      "long": null
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "0",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [
+      {
+        "_id": "fjkapxbj",
+        "formula": "1 + floor((@classes.monk.level + 2) / 4)",
+        "operator": "add",
+        "subTarget": "bonusFeats",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "misc"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "bonusFeatMnk",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Monk"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "conditionals": [],
+    "identifiedName": "Bonus Feat (MNK, EitR)",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "ZTVmMGJjOWNlOGMz": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  }
+}

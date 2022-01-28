@@ -1,0 +1,96 @@
+{
+  "_id": "JANtDnS2x7f440hi",
+  "name": "Perfect Placement",
+  "type": "buff",
+  "img": "icons/sundries/gaming/chess-knight-white.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +1 insight bonus to AC and Reflex saves. Against attacks of opportunity, the insight bonus to AC increases to +3.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "5z2ce2yv",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ac",
+        "modifier": "insight",
+        "priority": 0,
+        "value": 0,
+        "target": "ac"
+      },
+      {
+        "_id": "hamwg9ew",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "ref",
+        "modifier": "insight",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "<b>Perfect Placement:</b> +[[2]] Insight vs AoO.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "perfectPlacement",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Perfect Placement",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

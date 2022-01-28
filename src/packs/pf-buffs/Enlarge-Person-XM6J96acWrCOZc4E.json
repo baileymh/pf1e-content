@@ -1,0 +1,111 @@
+{
+  "_id": "XM6J96acWrCOZc4E",
+  "name": "Enlarge Person",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/athletic.jpg",
+  "data": {
+    "description": {
+      "value": "<p>Gains a +2 size bonus to Strength, -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.</p>\n<p><strong>Usage:</strong> Set target's size to next increment to affect attack roll and AC penalty.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "3ibc5dpe",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "w0dpa05f",
+        "formula": "-2",
+        "operator": "add",
+        "subTarget": "dex",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "enlargePerson",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [
+      {
+        "_id": "4mp73kfhnntfc7yv",
+        "category": "toggle",
+        "hidden": true,
+        "img": "icons/svg/dice-target.svg",
+        "name": "Toggle Size",
+        "type": "script",
+        "value": "if (state) {\n  await actor.update({'data.traits.size': 'lg'});\n}\nelse {\n  await actor.update({'data.traits.size': 'med'});\n}"
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "identifiedName": "Enlarge Person",
+    "attackParts": [],
+    "conditionals": [],
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3,
+    "HNSYnjbGOjPHFrxT": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "heroes-for-hire",
+      "system": "pf1",
+      "coreVersion": "0.7.9",
+      "systemVersion": "0.76.13"
+    },
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.XM6J96acWrCOZc4E"
+    }
+  }
+}

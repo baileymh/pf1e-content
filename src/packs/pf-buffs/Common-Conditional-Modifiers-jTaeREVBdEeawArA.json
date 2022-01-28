@@ -1,0 +1,274 @@
+{
+  "_id": "jTaeREVBdEeawArA",
+  "name": "Common Conditional Modifiers",
+  "type": "attack",
+  "img": "systems/pf1/icons/skills/mech_8.jpg",
+  "data": {
+    "description": {
+      "value": "<p>List of pre-made, commonly used Conditional Modifiers.</p>\n<ul>\n<li>Flanking</li>\n<li>Outflank</li>\n<li>Study Target</li>\n<li>Sneak Attack</li>\n<li>Precise Strike</li>\n<li>Bonus to DC&nbsp;</li>\n<li>Charging</li>\n<li>Increased Charge cost</li>\n<li>Crit Confirm Bonus</li>\n</ul>\n<hr />\n<p><strong>Usage: </strong>Drag and drop to other attacks' conditional modifiers and adjust as needed.&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": "",
+      "units": "turn"
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "",
+      "units": "ft",
+      "maxIncrements": "1",
+      "minValue": null,
+      "minUnits": "melee"
+    },
+    "uses": {
+      "value": 0,
+      "per": "charges",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "",
+      "max": 0
+    },
+    "measureTemplate": {
+      "type": "cone",
+      "size": "10",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [
+        [
+          "1d1",
+          ""
+        ]
+      ],
+      "critParts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "nonCritParts": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    "attackParts": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": ""
+    },
+    "formula": "",
+    "ability": {
+      "attack": "",
+      "damage": "str",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "10",
+      "type": "fort",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "links": {
+      "children": [],
+      "charges": [],
+      "ammunition": []
+    },
+    "tag": "commonConditionalModifiers",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "attackType": "weapon",
+    "nonlethal": false,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "showInQuickbar": true,
+    "broken": false,
+    "conditionals": [
+      {
+        "default": false,
+        "name": "Flanking",
+        "modifiers": [
+          {
+            "formula": "2",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "untyped",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Outflank",
+        "modifiers": [
+          {
+            "formula": "4",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "untyped",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Study target",
+        "modifiers": [
+          {
+            "formula": "1",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "untyped",
+            "critical": "normal"
+          },
+          {
+            "formula": "1",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Sneak Attack",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "damage",
+            "subTarget": "allDamage",
+            "type": "Precision",
+            "critical": "nonCrit"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Precise Strike",
+        "modifiers": [
+          {
+            "formula": "1d6",
+            "target": "effect",
+            "subTarget": "dc",
+            "type": "",
+            "critical": ""
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Generic Bonus to DC",
+        "modifiers": [
+          {
+            "formula": "1",
+            "target": "effect",
+            "subTarget": "dc",
+            "type": "",
+            "critical": ""
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Charging",
+        "modifiers": [
+          {
+            "formula": "2",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "untyped",
+            "critical": "normal"
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Increased Charge Use",
+        "modifiers": [
+          {
+            "formula": "1",
+            "target": "misc",
+            "subTarget": "charges",
+            "type": "",
+            "critical": ""
+          }
+        ]
+      },
+      {
+        "default": false,
+        "name": "Crit Confirm Bonus",
+        "modifiers": [
+          {
+            "formula": "1",
+            "target": "attack",
+            "subTarget": "allAttack",
+            "type": "untyped",
+            "critical": "crit"
+          }
+        ]
+      }
+    ],
+    "identifiedName": "Common Conditional Modifiers",
+    "attack": {
+      "parts": []
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.jTaeREVBdEeawArA"
+    }
+  }
+}

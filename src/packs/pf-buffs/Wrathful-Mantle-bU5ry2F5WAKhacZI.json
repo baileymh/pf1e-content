@@ -1,0 +1,80 @@
+{
+  "_id": "bU5ry2F5WAKhacZI",
+  "name": "Wrathful Mantle",
+  "type": "buff",
+  "img": "icons/equipment/back/mantle-collared-leather.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +1 resistance bonus on all saving throws per four caster levels (maximum +5 at 20th level). You can end the <em>wrathful mantle</em> at any time as a swift action to deal 2d8 points of force damage to all creatures within 5 feet.</p>\n<p><strong>Usage:</strong>&nbsp;Set this buff's level to the caster level of Wrathful Mantle.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "dl2nqkev",
+        "formula": "(min(5,(floor(@item.level / 4))))",
+        "operator": "add",
+        "subTarget": "allSavingThrows",
+        "modifier": "resist",
+        "priority": 0,
+        "value": 0,
+        "target": "savingThrows"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "wrathfulMantle",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Wrathful Mantle",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

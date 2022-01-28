@@ -1,0 +1,2278 @@
+{
+  "_id": "e0tBiIT9FjMrkhes",
+  "name": "Spellbook Merchant",
+  "type": "npc",
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "carryBonus": 0,
+        "carryMultiplier": 1,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "con": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "int": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "damage": 0,
+        "drain": 0,
+        "userPenalty": 0,
+        "total": 10,
+        "mod": 0,
+        "checkMod": 0,
+        "penalty": 0,
+        "base": 10,
+        "baseMod": 0
+      }
+    },
+    "resources": {},
+    "attributes": {
+      "hpAbility": "con",
+      "cmbAbility": "str",
+      "naturalAC": 0,
+      "ac": {
+        "normal": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "touch": {
+          "ability": "dex",
+          "value": 0,
+          "total": 10
+        },
+        "flatFooted": {
+          "value": 0,
+          "total": 10
+        }
+      },
+      "cmd": {
+        "strAbility": "str",
+        "dexAbility": "dex",
+        "value": 0,
+        "total": 10,
+        "flatFootedTotal": 10
+      },
+      "sr": {
+        "formula": "",
+        "total": 0
+      },
+      "clCheck": false,
+      "saveNotes": "",
+      "acNotes": "",
+      "cmdNotes": "",
+      "srNotes": "",
+      "attack": {
+        "meleeAbility": "str",
+        "rangedAbility": "dex",
+        "general": 0,
+        "shared": 0,
+        "melee": 0,
+        "ranged": 0
+      },
+      "energyDrain": 0,
+      "quadruped": false,
+      "savingThrows": {
+        "fort": {
+          "base": 0,
+          "ability": "con",
+          "total": 0
+        },
+        "ref": {
+          "base": 0,
+          "ability": "dex",
+          "total": 0
+        },
+        "will": {
+          "base": 0,
+          "ability": "wis",
+          "total": 0
+        }
+      },
+      "hp": {
+        "value": 0,
+        "base": 0,
+        "temp": 0,
+        "nonlethal": 0,
+        "max": 0
+      },
+      "wounds": {
+        "min": 0,
+        "base": 0,
+        "value": 0,
+        "max": 0
+      },
+      "vigor": {
+        "min": 0,
+        "value": 0,
+        "temp": 0,
+        "base": 0,
+        "max": 0
+      },
+      "init": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "total": 0
+      },
+      "speed": {
+        "land": {
+          "base": 30,
+          "total": 30
+        },
+        "climb": {
+          "base": 0,
+          "total": null
+        },
+        "swim": {
+          "base": 0,
+          "total": null
+        },
+        "burrow": {
+          "base": 0,
+          "total": null
+        },
+        "fly": {
+          "base": 0,
+          "maneuverability": "average",
+          "total": null
+        }
+      },
+      "conditions": {
+        "bleed": false,
+        "blind": false,
+        "confused": false,
+        "dazed": false,
+        "dazzled": false,
+        "deaf": false,
+        "entangled": false,
+        "fatigued": false,
+        "frightened": false,
+        "exhausted": false,
+        "grappled": false,
+        "helpless": false,
+        "incorporeal": false,
+        "invisible": false,
+        "nauseated": false,
+        "panicked": false,
+        "paralyzed": false,
+        "pinned": false,
+        "prone": false,
+        "shaken": false,
+        "sickened": false,
+        "staggered": false,
+        "stunned": false
+      },
+      "spells": {
+        "usedSpellbooks": [],
+        "spellbooks": {
+          "primary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Primary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0
+          },
+          "secondary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Secondary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0
+          },
+          "tertiary": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Tertiary",
+            "casterType": "high",
+            "class": "",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "int",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0
+          },
+          "spelllike": {
+            "altName": "",
+            "castPerDayAllOffsetFormula": "",
+            "preparedAllOffsetFormula": "",
+            "name": "Spell-likes",
+            "casterType": "high",
+            "class": "_hd",
+            "cl": {
+              "formula": "",
+              "base": 0,
+              "value": 0,
+              "total": 0
+            },
+            "concentrationFormula": "",
+            "concentrationNotes": "",
+            "clNotes": "",
+            "ability": "cha",
+            "autoSpellLevelCalculation": true,
+            "autoSpellLevels": true,
+            "arcaneSpellFailure": true,
+            "hasCantrips": true,
+            "spellPreparationMode": "spontaneous",
+            "baseDCFormula": "10 + @sl + @ablMod",
+            "spontaneous": false,
+            "spellPoints": {
+              "useSystem": false,
+              "value": 0,
+              "maxFormula": "",
+              "restoreFormula": "",
+              "max": 0
+            },
+            "spells": {
+              "spell0": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell1": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": ""
+              },
+              "spell2": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell3": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell4": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell5": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell6": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell7": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell8": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              },
+              "spell9": {
+                "castPerDayOffsetFormula": "",
+                "preparedOffsetFormula": "",
+                "base": ""
+              }
+            },
+            "spellSlotAbilityBonusFormula": "",
+            "domainSlotValue": 1,
+            "concentration": 0
+          }
+        }
+      },
+      "encumbrance": {
+        "level": 0,
+        "levels": {
+          "light": 33,
+          "medium": 66,
+          "heavy": 100,
+          "carry": 200,
+          "drag": 500
+        },
+        "carriedWeight": 0
+      },
+      "hd": {
+        "total": 1,
+        "max": {
+          "_deprecated": true,
+          "value": 0
+        }
+      },
+      "bab": {
+        "value": 0,
+        "total": 0
+      },
+      "cmb": {
+        "value": 0
+      },
+      "damage": {
+        "general": 0,
+        "weapon": 0,
+        "spell": 0
+      },
+      "maxDexBonus": null,
+      "mDex": {
+        "armorBonus": 0,
+        "shieldBonus": 0
+      },
+      "acp": {
+        "gear": 0,
+        "encumbrance": 0,
+        "total": 0,
+        "armorBonus": 0,
+        "shieldBonus": 0,
+        "attackPenalty": 0
+      },
+      "woundThresholds": {
+        "penalty": 0,
+        "mod": 0,
+        "level": 0,
+        "override": -1
+      },
+      "prof": 2,
+      "spellcasting": {
+        "_deprecated": true
+      },
+      "spelldc": {
+        "_deprecated": true
+      },
+      "spellLevel": 0
+    },
+    "details": {
+      "level": {
+        "value": 0,
+        "min": 0,
+        "max": 40
+      },
+      "bonusFeatFormula": "",
+      "alignment": "tn",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "notes": {
+        "value": "",
+        "public": ""
+      },
+      "bonusSkillRankFormula": "",
+      "tooltip": {
+        "name": "",
+        "hideHeld": false,
+        "hideArmor": false,
+        "hideBuffs": false,
+        "hideConditions": false,
+        "hideClothing": false,
+        "hideName": false
+      },
+      "carryCapacity": {
+        "bonus": {
+          "user": 0
+        },
+        "multiplier": {
+          "base": 1,
+          "user": 0
+        }
+      },
+      "cr": {
+        "base": 1,
+        "total": 1
+      },
+      "mythicTier": 0,
+      "type": "",
+      "environment": "",
+      "xp": {
+        "value": 10
+      },
+      "gender": "",
+      "deity": "",
+      "age": "",
+      "height": "",
+      "weight": ""
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "apr": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "art": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "blf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "clm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "crf": {
+        "ability": "int",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "dip": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "dev": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "dis": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "esc": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "fly": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "han": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "hea": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "int": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "kar": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "kdu": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "ken": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "kge": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "khi": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "klo": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "kna": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "kno": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "kpl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "kre": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "lin": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "lor": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "per": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "prf": {
+        "ability": "cha",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "pro": {
+        "ability": "wis",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "rid": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "sen": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "slt": {
+        "ability": "dex",
+        "rt": true,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": true
+      },
+      "spl": {
+        "ability": "int",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "ste": {
+        "ability": "dex",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "sur": {
+        "ability": "wis",
+        "rt": false,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "swm": {
+        "ability": "str",
+        "rt": false,
+        "acp": true,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      },
+      "umd": {
+        "ability": "cha",
+        "rt": true,
+        "acp": false,
+        "rank": 0,
+        "value": 0,
+        "mod": 0,
+        "background": false
+      }
+    },
+    "customSkills": {},
+    "traits": {
+      "size": "med",
+      "senses": "",
+      "dr": "",
+      "eres": "",
+      "cres": "",
+      "regen": "",
+      "fastHealing": "",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "stature": "tall",
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "altCurrency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  "token": {
+    "flags": {
+      "pf1": {
+        "lowLightVision": false
+      }
+    },
+    "name": "Alchemist",
+    "displayName": 0,
+    "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "e0tBiIT9FjMrkhes",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "xqZndIWfy7fYhJJf",
+      "name": "Apprentice Chapbook of Rul Thaven (Spellbook, Level 2 Diviner)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 30</em><br/><em>This drab leather tome is stamped plainly with elven lettering, appearing at first glance as little more than a journeyman's treatise on spellcasting. Penned into almost every margin, however, are copious notes by an author who identifies herself only as 'Arrowsong.' These annotations discuss numerous spellcasting fallacies made by the tome's original authors and simple (yet effective) countermeasures that more martially inclined persons can use to disrupt spellcasting. The overall tone of Arrowsong's notes is one of bitter melancholy, and an equal amount of space is dedicated to slanderous poetry directed toward Arrowsong's parents and the book's writers, who might be the same people.</em><br/><strong>Value</strong> 1,200 gp (2,200 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>3rd-<em>contingent action</em><sup>ACG</sup>, <em>cloak of winds</em>, <em>fireball</em>, <em>lightning bolt</em><br/> 2nd-<em>acid arrow</em>, <em>arrow eruption</em><sup>APG</sup>, <em>protection from arrows</em>, <em>scorching ray</em>, <em>stone call</em><sup>APG</sup><br/> 1st-<em>blend</em><sup>ARG</sup>, <em>gravity bow</em><sup>APG</sup>, <em>identify</em>, <em>longshot</em>, <em>magic missile</em>, <em>shield</em>, <em>true strike</em><h2 class=\"framing\">Ritual</h2><strong>Disruption Master (Ex)</strong> Arrowsong's claims about the imperfections of spellcasting and the failings of magic provide additional insight into interrupting spellcasting. Unlike other boons, you do not spend this one. Until you prepare spells again, when you damage a foe or the foe fails a saving throw against a spell of yours, the foe also takes a -2 penalty on all concentration checks it attempts for 1 round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 1200,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "arrowsongsSorrowSpellbookLevel3Universalist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "MyxJyPlJdZ8cdalM",
+      "name": "Book of Harms (Spellbook, Level 5 Evoker)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 18</em><br/><em>Two gold-plated bronze covers bind this gaudy tome. Several synonyms for 'wealth' are neatly chiseled in different languages on the cover.</em><br/><strong>Value</strong> 1,565 gp ( gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>4th-<em>dimension door</em>, <em>lesser age resistance</em><sup>UM</sup>, <em>liquefy</em><br/> 3rd-<em>deft digits</em>, <em>dispel magic</em>, <em>greater magic weapon</em>, <em>haste</em>, <em>hostile levitation</em><sup>UC</sup>, <em>rags to riches</em><br/> 2nd-<em>alter self</em>, <em>darkvision</em>, <em>fool's gold</em>, <em>glide</em><sup>APG</sup>, <em>glitterdust</em>, <em>scorching ray</em>, <em>touch of idiocy</em><br/> 1st-<em>ant haul</em><sup>APG</sup>, <em>jury-rig</em><sup>UC</sup>, <em>mage armor</em>, <em>magic missile</em>, <em>polypurpose panacea</em><sup>UM</sup>, <em>shocking grasp</em>, <em>sleep</em>, <em>tears to wine</em>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 1565,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "calamaesFragmentSpellbookLevel7Transmuter",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "IXoSws7MhL0cagDV",
+      "name": "Chymist's Guidebook (Formula Book, Level 15 Alchemist)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 24</em><br/><em>Bound in thin sheets of iron, this book is designed as a series of treatises on divination, information gathering, and rhetoric. The thoughts and notes are so complete as to qualify as a spellbook for the spells listed, despite the fact the author was a bard with no need for a spellbook.</em><br/><strong>Value</strong> 2,420 gp (2,795 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>5th-<em>foe to friend</em><sup>APG</sup>, <em>greater heroism</em>, <em>song of discord</em>, <em>unwilling shield</em><sup>APG</sup><br/> 4th-<em>break enchantment</em>, <em>detect scrying</em>, <em>dominate person</em>, <em>foretell failure</em><br/> 3rd-<em>blink</em>, <em>find fault</em>, <em>glibness</em>, <em>haste</em>, <em>reviving finale</em><sup>APG</sup><br/> 2nd-<em>cure moderate wounds</em>, <em>gallant inspiration</em><sup>APG</sup>, <em>hold person</em>, <em>locate object</em>, <em>misdirection</em>, <em>perfect placement</em><br/> 1st-<em>expeditious retreat</em>, <em>memory lapse</em><sup>APG</sup>, <em>moment of greatness</em>, <em>obscure object</em>, <em>undetectable alignment</em>, <em>vanish</em><h2 class=\"framing\">Ritual</h2><strong>Brain Wash (Su)</strong> You combine magic and skill to masterfully manipulate your subjects. You can expend this boon when you cast a spell on a creature you have succeeded at a Bluff, Diplomacy, Knowledge, or Sense Motive check against. You cast that spell at +1 caster level and its save DC increases by 1.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 2795,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "coldIronySpellbookLevel15Bard",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 800000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "7HriIjjbL6SM92aJ",
+      "name": "Cyrusian Codex (Spellbook, Level 11 Transmuter)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 18</em><br/><em>This heavy tome bears a handsome leather cover over thick metal plates. The front cover displays a dozen tiny dials arranged in a semicircle around the locking mechanism.</em><br/><strong>Protection</strong> Good lock with <em>arcane lock</em> (DC 40)<br/><strong>Value</strong> 4,425 gp (9,125 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>6th-<em>age resistance</em><sup>UM</sup>, <em>disintegrate</em>, <em>greater heroism</em>, <em>wall of iron</em><br/> 5th-<em>dissolution</em>, <em>major creation</em>, <em>open arms</em>, <em>treasure stitching</em><sup>APG</sup><br/> 4th-<em>adjustable polymorph</em><sup>ACG</sup>, <em>calcific touch</em><sup>APG</sup>, <em>greater darkvision</em><sup>UM</sup>, <em>liquefy</em>, <em>rags to riches</em>, <em>shout</em><br/> 3rd-<em>anthropomorphic animal</em><sup>UM</sup>, <em>deft digits</em>, <em>disable construct</em><sup>ACG</sup>, <em>dispel magic</em>, <em>fly</em>, <em>lightning bolt</em><br/> 2nd-<em>arcane lock</em>, <em>darkness</em>, <em>detect thoughts</em>, <em>full pouch</em>, <em>masterwork transformation</em><sup>UM</sup>, <em>shatter</em>, <em>silk to steel</em><sup>UM</sup>, <em>twisted space</em><sup>UC</sup><br/> 1st-<em>ant haul</em><sup>APG</sup>, <em>burning hands</em>, <em>endure elements</em>, <em>jump</em>, <em>mage armor</em>, <em>mirror strike</em><sup>UC</sup>, <em>true strike</em>, <em>vocal alteration</em><sup>UM</sup><h2 class=\"framing\">Ritual</h2><strong>Enduring Alteration (Su)</strong> Your spells resist reality's attempts to restore the things you change. You can spend this boon to apply the benefits of the Extend Spell feat to a transmutation spell as you cast it. This also increases the DC to dispel that spell (via <em>dispel magic</em> or similar abilities) by 4. This boon does not increase the spell level or casting time of your spell.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 9125,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "cyrusianCodexSpellbookLevel11Transmuter",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 900000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "l0IOJY6WHOAoW7om",
+      "name": "Defensive Primer (Spellbook, Level 1 Abjurer)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 5</em><br/><em>This book is bound in glittering silver bark, and its title is printed in golden calligraphy in both Elven and Common.</em><br/><strong>Value</strong> 575 gp (1,100 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>3rd-<em>dispel magic</em>, <em>haste</em><br/> 2nd-<em>alter self</em>, <em>frigid touch</em><sup>UM</sup>, <em>invisibility</em>, <em>mirror image</em>, <em>pyrotechnics</em>, <em>scorching ray</em><br/> 1st-<em>chill touch</em>, <em>color spray</em>, <em>enlarge person</em>, <em>grease</em>, <em>jump</em>, <em>reduce person</em>, <em>shield</em>, <em>silent image</em><h2 class=\"framing\">Ritual</h2><strong>Avoiding Spell (Su)</strong> Whenever you cast a transmutation spell, you can spend this boon as a swift action to gain a +1 dodge bonus to your AC for a number of rounds equal to the spell's level.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 1100,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "eragesJourneymansManualSpellbookLevel7Magus",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 1100000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "HupimhPUhQpkANNJ",
+      "name": "Galtan Cookbook (Formula Book, Level 8 Alchemist)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 5</em><br/><em>This book's cover is illegibly scorched and the pages are wrinkled from water damage.</em><br/><strong>Value</strong> 670 gp (1,270 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>3rd-<em>absorbing touch</em><sup>APG</sup>, <em>arcane sight</em>, <em>draconic reservoir</em><sup>APG</sup>, <em>seek thoughts</em><sup>APG</sup><br/> 2nd-<em>cat's grace</em>, <em>invisibility</em>, <em>perceive cues</em><sup>APG</sup>, <em>resist energy</em>, <em>see invisibility</em>, <em>undetectable alignment</em><br/> 1st-<em>ant haul</em><sup>APG</sup>, <em>bomber's eye</em><sup>APG</sup>, <em>comprehend languages</em>, <em>detect secret doors</em>, <em>disguise self</em>, <em>expeditious retreat</em>, <em>true strike</em><h2 class=\"framing\">Ritual</h2><strong>Blast Finesse (Su)</strong> As an immediate action when you throw a bomb, you can spend this boon to shape the blast by adding up to three 5-foot squares to the area, as long as these spaces are adjacent to the bomb's normal area of effect.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 1270,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "galtanCookbookFormulaBookLevel8Alchemist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 1200000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Bvvu4tt1USnRFfuX",
+      "name": "Grandfather's Legacy (Spellbook, Level 14 Necromancer)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 5</em><br/><em>The first three pages of this book contain pressed flowers and botanical diagrams relating to brewing Thuvian remedies.</em><br/><strong>Value</strong> 50 gp (115 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>1st-<em>cure light wounds</em>, <em>expeditious retreat</em>, <em>keen senses</em><sup>APG</sup>, <em>polypurpose panacea</em><sup>UM</sup>, <em>youthful appearance</em><sup>UM</sup><h2 class=\"framing\">Ritual</h2><strong>Rejuvenating Infusion (Su)</strong> Whenever you imbibe an alchemist extract of a conjuration spell, you can spend this boon as a swift action. If you do, you are healed of 1 point of damage and can ignore the effects of fatigue for 1 round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 115,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "nyzamsRemediesFormulaBookLevel3Alchemist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 2600000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "9V9c0fpWHaNJCsCu",
+      "name": "Quest Eternal (Spellbook, Level 13 Diviner)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 18</em><br/><em>Golden arcane runes and sigils seem to change or move constantly across the green leather cover of this remarkably well-preserved text. Each page is edged in thin silver, and a luxurious silk ribbon trapped between the pages flutters of its own accord.</em><br/><strong>Protection</strong> Superior lock with <em>arcane lock</em> (DC 50), <em>polymorph</em> (appears as a different spellbook each evening if no spells have been prepared from it)<br/><strong>Value</strong> 26,365 gp (31,365 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>9th-<em>fiery body</em><sup>APG</sup>, <em>greater create demiplane</em><sup>UM</sup>, <em>shapechange</em>, <em>time stop</em>, <em>transmute blood to acid</em><sup>UM</sup>, <em>transmute golem</em><br/> 8th-<em>frightful aspect</em><sup>UC</sup>, <em>greater planar binding</em>, <em>greater shout</em>, <em>moment of prescience</em>, <em>polymorph any object</em>, <em>temporal stasis</em><br/> 7th-<em>artificer's curse</em>, <em>control construct</em><sup>UM</sup>, <em>emblem of greed</em>, <em>firebrand</em><sup>APG</sup>, <em>greater age resistance</em><sup>UM</sup>, <em>greater teleport</em>, <em>legendary proportions</em>, <em>reverse gravity</em><br/> 6th-<em>enemy hammer</em><sup>APG</sup>, <em>disintegrate</em>, <em>flesh to stone</em>, <em>globe of invulnerability</em>, <em>monstrous physique IV</em><sup>UM</sup>, <em>sonic form</em><sup>ACG</sup>, <em>tar pool</em><sup>UC</sup>, <em>transformation</em><br/> 5th-<em>baleful polymorph</em>, <em>beast shape III</em>, <em>contact other plane</em>, <em>monstrous physique III</em><sup>UM</sup>, <em>open arms</em>, <em>permanency</em>, <em>polymorph</em>, <em>rune of ruin</em>, <em>telekinesis</em>, <em>treasure stitching</em><sup>APG</sup><br/> 4th-<em>arcane eye</em>, <em>black tentacles</em>, <em>dimension door</em>, <em>fire shield</em>, <em>greater darkvision</em><sup>UM</sup>, <em>monstrous physique II</em><sup>UM</sup>, <em>obsidian flow</em><sup>UC</sup>, <em>stoneskin</em>, <em>telekinetic charge</em><sup>UC</sup>, <em>true form</em><sup>APG</sup><br/> 3rd-<em>deft digits</em>, <em>disable construct</em><sup>ACG</sup>, <em>enter image</em><sup>APG</sup>, <em>excruciating deformation</em><sup>UM</sup>, <em>fly</em>, <em>greater magic weapon</em>, <em>haste</em>, <em>heroism</em>, <em>lightning bolt</em>, <em>monstrous physique I</em><sup>UM</sup>, <em>protection from energy</em>, <em>strangling hair</em><sup>UM</sup><br/> 2nd-<em>arcane lock</em>, <em>continual flame</em>, <em>disfiguring touch</em><sup>UM</sup>, <em>locate object</em>, <em>make whole</em>, <em>masterwork transformation</em><sup>UM</sup>, <em>protection from arrows</em>, <em>scorching ray</em>, <em>see invisibility</em>, <em>shatter</em>, <em>summon swarm</em>, <em>telekinetic assembly</em><sup>UC</sup><br/> 1st-<em>ant haul</em><sup>APG</sup>, <em>burning hands</em>, <em>color spray</em>, <em>comprehend languages</em>, <em>identify</em>, <em>jump</em>, <em>mage armor</em>, <em>magic missile</em>, <em>mirror strike</em><sup>UC</sup>, <em>reduce person</em>, <em>thunderstomp</em><sup>ACG</sup>, <em>youthful appearance</em><sup>UM</sup><h2 class=\"framing\">Ritual</h2><strong>Change Magic (Su)</strong> Even the nature of magic is susceptible to your powerful transmutations. You can spend this boon as a swift action to declare a non-transmutation spell you are casting to be 'changed magic.' This spell becomes a transmutation effect, and benefits from any abilities or feats that influence your transmutation spells and can be applied to the spell you cast (such as Spell Focus).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 31365,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "runesOfWealthSpellbookLevel18Transmuter",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 2800000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "4oumxcfsklH2ulha",
+      "name": "Songs of the Linnorm Kings (Meditation Book, Level 5 Skald)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 5</em><br/><em>This book's cover is made of scales that are warm to the touch.</em><br/><strong>Value</strong> 180 gp (440 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>2nd-<em>marching chant</em><sup>ACG</sup>, <em>path of glory</em><sup>ACG</sup>, <em>scare</em><br/> 1st-<em>cure light wounds</em>, <em>heightened awareness</em><sup>ACG</sup>, <em>remove fear</em><br/> 0 (at will)-<em>dancing lights</em>, <em>ghost sound</em>, <em>lullaby</em>, <em>mage hand</em>, <em>mending</em>, <em>resistance</em><h2 class=\"framing\">Ritual</h2><strong>Storied Spell Lore (Su)</strong> When you use this meditation ritual, choose a spell of 2nd level or lower in this meditation book. Whenever you cast a bard or skald conjuration spell, you can spend this boon as a swift action to add the chosen spell to your list of bard or skald spells known for 1 round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 440,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "songsOfTheLinnormKingsMeditationBookLevel5Skald",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 2900000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "XT7dSNiUBtZt55VP",
+      "name": "The Formulae of Master Gebr (Formula Book, Level 20 Alchemist)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 6</em><br/><em>This book's worn leather cover is emblazoned with a simplified winged eye superimposed on a map of Avistan.</em><br/><strong>Value</strong> 690 gp (990 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"add\"/>Spells</h2>3rd-<em>Aroden's spellsword</em>, <em>heroism</em>, <em>lesser guardian monument</em>, <em>magic circle against evil</em><br/> 2nd-<em>arcane disruption</em><sup>ACG</sup>, <em>human potential</em>, <em>masterwork transformation</em><sup>UM</sup>, <em>winged sword</em><br/> 1st-<em>detect undead</em>, <em>endure elements</em>, <em>expeditious construction</em>, <em>heightened awareness</em><sup>ACG</sup>, <em>linked legacy</em>, <em>mage armor</em><h2 class=\"framing\">Ritual</h2><strong>Glorious Blade (Su)</strong> When you attack with a sword (including swordlike effects created by spells such as spiritual weapon, as long as they require attack rolls), you can expend a prepared spell or spell slot as a free action to spend this boon. If you do, you gain an insight bonus on the attack roll equal to the level of the prepared spell or spell slot expended.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 990,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "theGuidesAnalectsSpellbookLevel6Universalist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 3100000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pmL7BQLc3wNJaJvP",
+      "name": "The Last Azlanti's Analects (Spellbook, Level 15 Universalist)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Divine Anthology pg. 5</em><br/><em>The front cover of this tome is as black as night, while the back cover is ivory white. An eye-shaped symbol graces both covers.</em><br/><strong>Value</strong> 1,940 gp (2,200 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>4th-<em>arcane eye, eyes of the void<sup>ACG</sup>, medusa's bane</em><br/>3rd-<em>arcane sight, channel the gift<sup>ISG</sup>, fractions of heal and harm<sup>ISG</sup></em><br/>2nd-<em>darkvision, burning gaze<sup>APG</sup>, see invisibility, spell gauge<sup>ISG</sup></em><br/>1st-<em>countless eyesUM, detect secret doors, identify, invisibility alarm<sup>ACG</sup>, see alignment<sup></sup>, true strike</em><h2 class=\"framing\">Ritual</h2><strong>Keen Perception (Su)</strong> You can spend this boon to gain a +2 insight bonus on a single Perception or Sense Motive check.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 2200,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "thePryingEyeSpellbookLevel7Universalist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 3300000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "qCBPw5DjGg6bLPfx",
+      "name": "The Swordsman's Analects (Spellbook, Level 3 Universalist)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 6</em><br/><em>This book's worn leather cover is emblazoned with a winged sword with an eye at its hilt.</em><br/><strong>Value</strong> 250 gp (400 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>2nd-<em>force sword</em>, <em>human potential</em><br/> 1st-<em>expeditious construction</em>, <em>identify</em>, <em>magic weapon</em>, <em>mirror strike</em><sup>UC</sup>, <em>protection from evil</em>, <em>unerring weapon</em><sup>UC</sup><h2 class=\"framing\">Ritual</h2><strong>Shielding Weapon (Su)</strong> Your spells infuse a weapon with protective magic. Spend this boon as an immediate action whenever you cast an abjuration spell. When you do, a weapon you wield grants you a shield bonus to your AC equal to 1 + 1/2 the spell's level for 1 round.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 400,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "theSwordsmansAnalectsSpellbookLevel3Universalist",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 3400000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "8opB5zSuxy6IWfAF",
+      "name": "Tome of Stone Wards (Spellbook, Level 17 Abjurer)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 28</em><br/><em>This heavy book is bound between a pair of thin stone tablets, its title carved in gold lettering. Scribed completely in the Dwarven tongue, the text contains numerous tips regarding the construction and upkeep of nearly every corridor, path, and tunnel in the Five Kings Mountains.</em><br/><strong>Value</strong> 4,385 gp (8,385 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>9th-<em>imprisonment</em><br/> 8th-<em>dimensional lock</em>, <em>protection from spells</em><br/> 7th-<em>banishment</em>, <em>spell turning</em><br/> 6th-<em>greater make whole</em> (<em>Pathfinder Campaign Setting: Technology Guide</em> 10), <em>guards and wards</em>, <em>move earth</em>, <em>symbol of sealing</em><br/> 5th-<em>life bubble</em><sup>APG</sup>, <em>major creation</em>, <em>passwall</em>, <em>wall of stone</em>, <em>wreath of blades</em><sup>UC</sup><br/> 4th-<em>curse of magic negation</em><sup>UM</sup>, <em>make whole</em>, <em>stone shape</em>, <em>stoneskin</em><br/> 3rd-<em>burrow</em><sup>UM</sup>, <em>communal spider climb</em><sup>UC</sup>, <em>dispel magic</em>, <em>explosive runes</em>, <em>shrink item</em>, <em>spiked pit</em><sup>APG</sup>, <em>stunning barrier</em><sup>ACG</sup> 2nd-<em>arcane lock</em>, <em>certain grip</em><sup>UC</sup>, <em>communal ant haul</em><sup>UC</sup>, <em>create pit</em><sup>APG</sup>, <em>knock</em>, <em>resist energy</em>, <em>spider climb</em>, <em>stone call</em><sup>APG</sup>, <em>warding weapon</em><sup>UC</sup> 1st-<em>alarm</em>, <em>ant haul</em><sup>APG</sup>, <em>expeditious excavation</em><sup>APG</sup>, <em>invisibility alarm</em><sup>ACG</sup><h2 class=\"framing\">Ritual</h2><strong>Keeper of Stone (Ex/Su)</strong> The <em>Tome of Stone Wards</em> covers the geography of caves and mountains (especially the Five Kings Mountains) thoroughly, and gives eldritch insights into how such terrain is formed. This boon is not spent, but grants you a +1 insight bonus on Knowledge (dungeoneering), Knowledge (geography), and Knowledge (nature) checks, as well as on Survival checks attempted in hills, mountains, and underground terrain. In addition, whenever you cast <em>mending</em>, <em>make whole</em>, or <em>greater make whole</em> on an object made entirely from stone, add 1d6 to the number of hit points restored to the object. These benefits last until you next regain spell slots or prepare spells.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 8385,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "tomeOfStoneWardsSpellbookLevel17Abjurer",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 3500000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "lvBrp3QjEN3wm9t3",
+      "name": "Tome of the Transmuter (Spellbook, Level 8 Transmuter)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 13</em><br/><em>The cover of this thick tome a patchwork of sections of different hides, whose colors and textures form a stylized depiction of an animal face.</em><br/><strong>Value</strong> 13,415 gp (38,415 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>9th-<em>gate</em>, <em>mage's disjunction</em>, <em>meteor swarm</em>, <em>time stop</em><br/> 8th-<em>maze</em>, <em>polymorph any object</em>, <em>power word stun</em>, <em>summon monster VIII</em><br/> 7th-<em>forcecage</em>, <em>mage's sword</em>, <em>mass invisibility</em>, <em>summon monster VII</em><br/> 6th-<em>chain lightning</em>, <em>globe of invulnerability</em>, <em>Jatembe's ire</em>, <em>legend lore</em>, <em>mislead</em>, <em>summon monster VI</em>, <em>true seeing</em><br/> 5th-<em>baleful polymorph</em>, <em>cloudkill</em>, <em>communal stoneskin</em><sup>UC</sup>, <em>cone of cold</em>, <em>mage's faithful hound</em>, <em>overland flight</em><br/> 4th-<em>communal protection from energy</em><sup>UC</sup>, <em>dimension door</em>, <em>enervation</em>, <em>greater celestial healing</em>, <em>mass enlarge person</em>, <em>wall of fire</em><br/> 3rd-<em>communal resist energy</em><sup>UC</sup>, <em>fireball</em>, <em>haste</em>, <em>lightning bolt</em>, <em>planar inquiry</em><br/> 2nd-<em>blur</em>, <em>communal protection from evil</em>, <em>glitterdust</em>, <em>mirror image</em><br/> 1st-<em>celestial healing</em>, <em>expeditious retreat</em>, <em>feather fall</em>, <em>magic missile</em>, <em>obscuring mist</em>, <em>true strike</em><h2 class=\"framing\">Ritual</h2><strong>Secrets of Jatembe (Su)</strong> This edition of the Wisdom of Jatembe includes a number of unique rituals and philosophical notes supposedly written by the Old-Mage himself. These secrets allow you to prepare one of the following spells as an arcane spell 1 level higher than its druid spell level: <em>barkskin</em>, <em>call lightning</em>, <em>cyclic reincarnation</em>, <em>entangle</em>, <em>forest friend</em><sup>UC</sup>, <em>lesser restoration</em>, <em>plant growth</em>, <em>speak with animals</em>, and <em>speak with plants</em>. At the GM's discretion, additional spells of 6th level or lower from the druid spell list may be available through the preparation rituals of specific copies of this book (which increases the spellbook's price by twice the cost of adding a wizard spell of the same level to the spellbook).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 38415,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "wisdomOfJatembeNineWarriorsEditionSpellbookLevel17Diviner",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 3900000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "gy62Sogb2R1NWuld",
+      "name": "Wisdom of Jatembe (Six Warriors Edition) (Spellbook, Level 11 Diviner)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Arcane Anthology pg. 12</em><br/><em>Well-tanned leather binds this sturdy spellbook, with a copper plate of a stylized animal head bolted to the front cover. A foreword filling the first several pages of this book is addressed to 'young students of the Magaambya,' and offers warnings about the unexpected consequences of using spells without careful consideration. The rest of the book contains spells, each proceeded and followed by one or more stories discussing situations with thematic links to the spell.</em><br/><strong>Value</strong> 375 gp (875 gp with the preparation ritual)</p><h2 class=\"framing\"><img src=\"https://www.aonprd.com/images/PathfinderSocietySymbolN.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"These spellbooks do not allow access to otherwise banned spells.\"/>Spells</h2>3rd-<em>beast shape I</em>, <em>clairaudience/clairvoyance</em>, <em>planar inquiry</em>, <em>tongues</em><br/> 2nd-<em>alter self</em>, <em>detect thoughts</em>, <em>locate object</em>, <em>obscure object</em>, <em>see invisibility</em><br/> 1st-<em>celestial healing</em>, <em>comprehend languages</em>, <em>detect undead</em>, <em>endure elements</em>, <em>heightened awareness</em><sup>ACG</sup>, <em>hydraulic push</em><sup>APG</sup>, <em>identify</em>, <em>obscuring mist</em><h2 class=\"framing\">Ritual</h2><strong>Eyes of Jatembe (Su)</strong> Several of the stories within this spellbook suggest ways to take what information you have and use it to infer the answers to questions for which you don't have proven solutions. Spend this boon when you cast a divination spell to increase the spell's caster level by +2.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": 5,
+        "price": 875,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Wisdom of Jatembe (Three Warriors Edition) (Spellbook, Level 5 Diviner)",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "wisdomOfJatembeThreeWarriorsEditionSpellbookLevel5Diviner",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": [],
+          "dictionary": [
+            [
+              "Category",
+              "Spellbooks"
+            ]
+          ]
+        },
+        "scriptCalls": [],
+        "subType": "gear",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "sort": 4100000,
+      "flags": {},
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {
+    "pf1": {
+      "sellMultiplier": null
+    },
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPCLoot"
+    }
+  }
+}

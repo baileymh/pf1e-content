@@ -1,0 +1,110 @@
+{
+  "_id": "0hRYCva2hdwUNFh6",
+  "name": "Divine Power",
+  "type": "buff",
+  "img": "systems/pf1/icons/feats/alignment-channel.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +1 luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks for every three caster levels you have (maximum +6). You also gain 1 temporary hit point per caster level.</p>\n<p><strong>Usage:</strong> Set this buff's level and temp HP equal to the caster level of Divine Power.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "1mfnjlvk",
+        "formula": "(min(6, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      },
+      {
+        "_id": "z1fukusg",
+        "formula": "(min(6, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "wdamage",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "damage"
+      },
+      {
+        "_id": "jhpfl3cu",
+        "formula": "(min(6, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "strChecks",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "abilityChecks"
+      },
+      {
+        "_id": "op6rs4sh",
+        "formula": "(min(6, floor(@item.level / 3)))",
+        "operator": "add",
+        "subTarget": "strSkills",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 0,
+        "target": "skills"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "divinePower",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "1",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Divine Power",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

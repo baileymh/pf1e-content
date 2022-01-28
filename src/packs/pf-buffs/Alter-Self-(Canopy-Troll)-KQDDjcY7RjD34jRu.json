@@ -1,0 +1,88 @@
+{
+  "name": "Alter Self (Canopy Troll)",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/wind-grasp-sky-2.jpg",
+  "data": {
+    "description": {
+      "value": "<p>When you cast this spell, you can assume the form of any Small or Medium creature of the humanoid type. If the form you assume has any of the following abilities, you gain the listed ability: darkvision 60 feet, low-light vision, scent, and swim 30 feet.</p>\n<p><em>Small creature</em>: If the form you take is that of a Small humanoid, you gain a +2 size bonus to your Dexterity.</p>\n<p><strong>Usage:</strong> This buff adjusts size and applies Low Light and Dark vision</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "ql036cr6",
+        "formula": "2",
+        "operator": "add",
+        "subTarget": "dex",
+        "modifier": "size",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "alterSelfSmall",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [
+      {
+        "_id": "tpojad5ix0lc7roi",
+        "name": "Apply Small",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "const tokens = actor.getActiveTokens();\nif (state) {\n  for (const token of tokens) {\n    // Store original values\n    token.document.setFlag(\"pf1\", \"buffs.alterSelf.size\", actor.data.data.traits.size);\n    token.document.setFlag(\"pf1\", \"buffs.alterSelf.dimSight\", token.document.data.dimSight);\n    token.document.setFlag(\"pf1\", \"buffs.alterSelf.brightSight\", token.document.data.brightSight);\n    token.document.setFlag(\"pf1\", \"buffs.alterSelf.lowLightVision\", token.document.getFlag(\"pf1\", \"lowLightVision\") || false);\n    console.log(token.document);\n    // Set dark vision\n    token.document.update({\"brightSight\": 60});\n    token.document.update({\"dimSight\": 0});\n    token.document.setFlag(\"pf1\", \"lowLightVision\", true);\n  }\n  // Set size\n  await actor.update({'data.traits.size': 'sm'});\n}\nelse {\n  var size;\n  for (const token of tokens) {\n    // Restore vision\n    token.document.setFlag(\"pf1\", \"lowLightVision\", token.document.getFlag(\"pf1\", \"buffs.alterSelf.lowLightVision\"));\n    token.document.update({\"brightSight\": parseInt(token.document.getFlag(\"pf1\", \"buffs.alterSelf.brightSight\"))});\n    token.document.update({\"dimSight\": parseInt(token.document.getFlag(\"pf1\", \"buffs.alterSelf.dimSight\"))});\n    console.log(parseInt(token.document.getFlag(\"pf1\", \"buffs.alterSelf.brightSight\")));\n    size = token.document.getFlag(\"pf1\", \"buffs.alterSelf.size\");\n  };\n  // Restore size\n  await actor.update({'data.traits.size': size});  \n}",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Alter Self (Canopy Troll)",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf-content.pf-buffs.mfQQhjRctUmnNoOW"
+    }
+  },
+  "_id": "KQDDjcY7RjD34jRu"
+}

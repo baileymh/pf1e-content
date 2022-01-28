@@ -1,0 +1,86 @@
+{
+  "_id": "EmavEsO0Mv42N03v",
+  "name": "Burst of Glory",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/light_03.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +1 sacred bonus on attack rolls and saves against fear effects, plus 1 temporary hit point per caster level (maximum 20).</p>\n<p><strong>Usage:</strong> Adjust Temp HP to 1 point per caster level of Burst of Glory.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "xk078ke0",
+        "formula": "1",
+        "operator": "add",
+        "subTarget": "attack",
+        "modifier": "sacred",
+        "priority": 0,
+        "value": 0,
+        "target": "attack"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[1]] Sacred bonus vs Fear effects.",
+        "target": "savingThrows",
+        "subTarget": "will"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "burstOfGlory",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Burst of Glory",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

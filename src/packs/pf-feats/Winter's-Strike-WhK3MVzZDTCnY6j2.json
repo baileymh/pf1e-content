@@ -1,0 +1,176 @@
+{
+  "_id": "WhK3MVzZDTCnY6j2",
+  "name": "Winter's Strike",
+  "type": "feat",
+  "img": "systems/pf1/icons/spells/ice-sky-3.jpg",
+  "data": {
+    "description": {
+      "value": "<em>Your attacks afflict your foes with the relentless fatigue of a winter storm.</em><br/><br/><b>Prerequisites</b><br/>Nature Magic or the ability to cast druid or ranger spells; Vital Strike, Knowledge (nature) 5 ranks.<br/><br/><b>Benefits</b><br/>A number of times per day equal to your Wisdom modifier (minimum 1), when you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), your strike saps the strength of your opponent. The creature hit must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom modifier) or become fatigued for a number of rounds equal to your Wisdom modifier (minimum 1). You can choose to use this ability as a free action after you hit the target with the attack. This is a supernatural ability.<br/><br/><b>Combat Trick</b><br/>When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent.",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [
+      [
+        "PFS"
+      ],
+      [
+        "Combat"
+      ]
+    ],
+    "activation": {
+      "cost": 1,
+      "type": "free"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "free"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 2,
+      "per": "charges",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": "max(1, @abilities.wis.mod)",
+      "max": 2
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": "spellsave",
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": "",
+        "value": null
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": "",
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "10 +floor(@attributes.hd.total / 2) + @abilities.wis.mod",
+      "type": "fort",
+      "description": ""
+    },
+    "effectNotes": [
+      "Fatigued [[@abilities.wis.mod]] rounds."
+    ],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "wintersStrike",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "su",
+    "crOffset": "",
+    "disabled": false,
+    "attack": {
+      "parts": []
+    },
+    "auraStrength": 0,
+    "conditionals": [],
+    "identifiedName": "Winter's Strike",
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7700000,
+  "permission": {
+    "default": 0,
+    "T7ruBbHuMiFYUDxv": 3
+  },
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "ec1",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  }
+}

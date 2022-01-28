@@ -1,0 +1,101 @@
+{
+  "_id": "MPLcJJ9ChkKRQFBm",
+  "name": "Aspect of the Wolf",
+  "type": "buff",
+  "img": "systems/pf1/icons/races/creature-types/animal.png",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +4 enhancement bonus to Strength and Dexterity, the scent ability, a +2 enhancement bonus on trip attacks, and can make a trip combat maneuver as a swift action. This trip attack does not provoke attacks of opportunity.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "oj9babai",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      },
+      {
+        "_id": "9cgmr8fu",
+        "formula": "4",
+        "operator": "add",
+        "subTarget": "dex",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 0,
+        "target": "ability"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "Has the Scent ability.",
+        "target": "skill",
+        "subTarget": "skill.per"
+      },
+      {
+        "text": "+[[2]] Enhancement to Trip. Can Trip as a Swift Action, which does not provoke AoO.",
+        "target": "misc",
+        "subTarget": "cmb"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "aspectOfTheWolf",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Aspect of the Wolf",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

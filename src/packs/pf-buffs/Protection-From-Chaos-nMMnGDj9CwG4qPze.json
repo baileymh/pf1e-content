@@ -1,0 +1,90 @@
+{
+  "_id": "nMMnGDj9CwG4qPze",
+  "name": "Protection From Chaos",
+  "type": "buff",
+  "img": "systems/pf1/icons/spells/light-blue-2.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You<strong> </strong>gain a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by chaotic creatures.</p>\n<p>You immediately receive another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the you (including enchantment [charm] effects and enchantment [compulsion] effects, such as <em>charm person</em>, <em>command</em>, and <em>dominate person</em>). This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell.</p>\n<p>This spell prevents bodily contact by chaotic summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not chaotic&nbsp;are immune to this effect. The protection against contact by summoned creatures ends if you make an attack against or try to force the barrier against the blocked creature. Spell Resistance can allow a creature to overcome this protection and touch you.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [
+      {
+        "text": "+[[2]] Deflection vs Chaotic creatures.",
+        "target": "misc",
+        "subTarget": "ac"
+      },
+      {
+        "text": "+[[2]] Resistance vs Chaotic creatures.",
+        "target": "savingThrows",
+        "subTarget": "allSavingThrows"
+      },
+      {
+        "text": "+[[2]] Morale vs existing Enchantment [charm] and [compulsion] effects.",
+        "target": "savingThrows",
+        "subTarget": "will"
+      },
+      {
+        "text": "Bodily contact prevented by Chaotic summoned creatures.",
+        "target": "misc",
+        "subTarget": "ac"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "protectionFromChaos",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "attackParts": [],
+    "conditionals": [],
+    "identifiedName": "Protection From Chaos",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "zVsAG968dy8xHxpn": 3
+  },
+  "flags": {}
+}

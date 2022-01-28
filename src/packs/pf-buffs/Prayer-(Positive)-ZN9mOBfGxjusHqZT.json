@@ -1,0 +1,101 @@
+{
+  "_id": "ZN9mOBfGxjusHqZT",
+  "name": "Prayer (Positive)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/yellow_13.jpg",
+  "data": {
+    "description": {
+      "value": "<p>You have a +1 luck bonus on attack rolls, weapon damage rolls, saves and skill checks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "o2dkmdkf",
+        "formula": "1",
+        "operator": "+",
+        "subTarget": "attack",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 1,
+        "target": "attack"
+      },
+      {
+        "_id": "6kp0tugu",
+        "formula": "1",
+        "operator": "+",
+        "subTarget": "wdamage",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 1,
+        "target": "damage"
+      },
+      {
+        "_id": "3cxhoj07",
+        "formula": "1",
+        "operator": "+",
+        "subTarget": "allSavingThrows",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 1,
+        "target": "savingThrows"
+      },
+      {
+        "_id": "v4txq9o0",
+        "formula": "1",
+        "operator": "+",
+        "subTarget": "skills",
+        "modifier": "luck",
+        "priority": 0,
+        "value": 1,
+        "target": "skills"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "damage": {
+      "parts": []
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "xdJH9CzHvgUgsBmZ": 3
+  },
+  "flags": {}
+}

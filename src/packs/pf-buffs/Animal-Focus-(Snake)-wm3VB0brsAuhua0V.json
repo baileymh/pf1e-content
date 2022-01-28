@@ -1,0 +1,79 @@
+{
+  "_id": "wm3VB0brsAuhua0V",
+  "name": "Animal Focus (Snake)",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/green_21.jpg",
+  "data": {
+    "description": {
+      "value": "<p>The creature gains a +2 bonus on attack rolls when making attacks of opportunity and a +2 dodge bonus to AC against attacks of opportunity. These bonuses increase to +4 at 8th level and +6 at 15th level.</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Usage</strong><span style=\"color: #191813; font-size: 13px;\">: Set this buff's level equal to the total class level granting the Animal Focus feature</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [
+      {
+        "_id": "r00cueco",
+        "formula": "floor(((@item.level)-1)/7)*2+2",
+        "operator": "add",
+        "subTarget": "str",
+        "modifier": "enh",
+        "priority": 0,
+        "value": 2
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [
+      {
+        "subTarget": "attack",
+        "text": "Animal Focus: + [[floor(((@item.level)-1)/7)*2+2]] to attacks of opportunity"
+      },
+      {
+        "subTarget": "ac",
+        "text": "Animal Focus: + [[floor(((@item.level)-1)/7)*2+2]] against attacks of opportunity"
+      }
+    ],
+    "links": {
+      "children": []
+    },
+    "tag": "animalFocusSnake",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": "7",
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "hideFromToken": false,
+    "uses": {
+      "max": 0,
+      "value": 0
+    },
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.yqhzEe7SsGP3sC7G"
+    }
+  }
+}
