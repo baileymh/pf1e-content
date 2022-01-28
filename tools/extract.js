@@ -26,7 +26,8 @@ function extractDatabase(name, db) {
       if (!fs.existsSync(folder)) {
         fs.mkdirSync(folder);
       };
-      const fileName = path.join(folder, `${slugify(doc.name)}-${doc._id}.json`);
+      let slug = slugify(doc.name, {remove: /[*+~.()\'\"!:@/\\\|\?<>]/g});
+      const fileName = path.join(folder, `${slug}-${doc._id}.json`);
       fs.writeJSONSync(fileName, doc, {spaces: 2});
     });
   });
