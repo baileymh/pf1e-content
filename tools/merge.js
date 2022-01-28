@@ -8,11 +8,26 @@ import path from "path";
 const ADDITIONS_DIR = "additions";
 const PACK_SRC = "src/packs";
 
+function removeNestedKey(key, item) {
+  if (typeof item === 'object' && item != null) {
+    Object.getOwnPropertyNames(item).forEach(function (testKey) {
+      if (testKey === key) delete item[testKey];
+      else removeNestedKey(key, item[testKey]);
+    });
+  }
+};
+
 function cleanItem(item) {
-  // Remove export source information
+  // Remove export source flags
   if (item.flags?.exportSource) {
     delete item.flags.exportSource;
   };
+  // Remove core sourceId
+  if (item.flags?.core?.sourceId) {
+    delete item.flags.core.sourceId;
+  };
+  // Remove permission data
+  removeNestedKey("permission", item);
   return item;
 };
 
@@ -27,7 +42,8 @@ function addItem(folder, data, packFiles) {
   if (data._id) {
     var filterOn = data._id;
   } else {
-    var filterOn = slugify(data.name);
+    let slug = slugify(doc.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
+    var filterOn = slug;
   }
   const existingFiles = packFiles.filter((file) => {
     return file.includes(filterOn);
@@ -38,13 +54,15 @@ function addItem(folder, data, packFiles) {
     case 0:
       // new file
       let newId = uid(16);
-      fileName = `${slugify(data.name)}-${newId}`;
+      let slug = slugify(doc.name, {remove: /[*~,\"!;:@/\\\|\?<>]/g});
+      const fileName = path.join(folder, `${slug}-${doc._id}.json`);
       console.log(`Adding new item: ${data.name}`);
       break;
     case 1:
       // Single file to update
       fileName = existingFiles[0];
       let existingItem = fs.readJSONSync(path.join(PACK_SRC, folder, fileName));
+      if (existingItem._id) data._id = existingItem._id;
       console.log(`Updating item: ${data.name}\nDiff:\n${diffString(existingItem, data)}`);
       break;
     default:
@@ -52,7 +70,7 @@ function addItem(folder, data, packFiles) {
       console.log(`${data.name} matches multiple items not yet implemented for merge: ${existingFiles}`);
       return;
   };
-  fs.writeJSON(path.join(PACK_SRC, folder, fileName), data, {spaces: 2});
+  fs.writeJSONSync(path.join(PACK_SRC, folder, fileName), data, {spaces: 2});
 };
 
 function mergePacks() {
