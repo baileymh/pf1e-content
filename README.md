@@ -92,7 +92,7 @@ The following represent some of the planned features I intend to impliment:
 
 > :warning: **Let's Contribute is shutting down**: New content should not be submitted with it!
 
-### Contribute via PR
+### Contribute via PR (WIP)
 If you would like to contribute via Github PR you can export items and use a script in this repo to merge them into the appropriate compendium to submit a merge request. To use the script you will need [NodeJS](https://nodejs.org/en/) installed.
 
 Once installed, install the package dependencies with `npm install` in the base folder. This should create the `node_modules` folder with dependencies installed.
@@ -140,7 +140,7 @@ Magic Items:
 
 ## Big Thanks for Helping Contribute
 
-Websterguy, Noon, apetina, david (aka claudekennilol), moorepants, ACorania
+Websterguy, Noon, apetina, david (aka claudekennilol), moorepants, ACorania, Chris Sanders (Zarek#4201)
 
 Kingdom Building Rules:
 The content here was converted from a module designed by dllewell for Fantasy Grounds. Primary credit for the rules conversation goes to them. I converted and edited the base text rules to be usable and compatible with Foundry VTT.
