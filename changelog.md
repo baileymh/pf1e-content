@@ -1,17 +1,13 @@
 # Changelog
 
-## 0.2.6
-### Changelog
-* Fixed merge script
-* Fix file naming to avoid errors
-* Added Changes to some Ioun stones
-
-
 ## 0.2.5
 ### Changelog
 * Made Handy Haversack a container with 100% weight reduction
 * Added skill modifiers and icon to Headband of Vast Intelligence
 * Added modifiers to Cloak of Resistance
+* Fixed merge script
+* Fix file naming to avoid errors
+* Added Changes to some Ioun stones
 
 ## 0.2.4
 ### Changelog
