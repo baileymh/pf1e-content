@@ -4,6 +4,7 @@ import fs from "fs-extra";
 import { diffString } from "json-diff";
 import slugify from "slugify";
 import crypto from "crypto";
+import prompt from "prompt";
 
 import Document from "./document.js";
 
@@ -101,7 +102,7 @@ export default class Pack {
   };
 
   /* Update an existing document */
-  updateDoc(document) {
+  async updateDoc(document) {
     let matchingFiles = this.findDocs(document);
     let filePath;
     let originalData;
@@ -113,7 +114,15 @@ export default class Pack {
         originalData = matchingFiles[0].json;
         break;
       default:
-        throw `Found more than one file to update for ${document.filePath}, not yet implemented`;
+        console.log("Which ID do you want to update?");
+        for (const [i, value] of matchingFiles.entries()) {
+          console.log(`${i}: ${value}`);
+        };
+        prompt.start();
+        const result = await prompt.get(["Index"]);
+        const index = result.Index;
+        filePath = matchingFiles[index].filePath;
+        originalData = matchingFiles[index].json;
         break;
     };
     fs.writeJSONSync(filePath, document.json, {spaces: 2});
@@ -121,14 +130,14 @@ export default class Pack {
   };
 
   /* Update or Create the document */
-  upsertDoc(document) {
+  async upsertDoc(document) {
     let matchingFiles = this.findDocs(document);
     let delta;
     if (!matchingFiles.length) {
       delta = this.createDoc(document)
     }
     else {
-      delta = this.updateDoc(document)
+      delta = await this.updateDoc(document)
     };
     return delta;
   };
