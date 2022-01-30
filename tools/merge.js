@@ -4,7 +4,7 @@ const addPackGroup = new PackGroup('./additions');
 const srcPackGroup = new PackGroup('./src/packs');
 
 let diffs = [];
-for (const [i, addPack] of addPackGroup.packs.entries()) {
+for (const [_, addPack] of addPackGroup.packs.entries()) {
   // Find the pack to merge with
   let targetPack = srcPackGroup.packs.filter((srcPack) => {
     return srcPack.name === addPack.name;
@@ -13,7 +13,7 @@ for (const [i, addPack] of addPackGroup.packs.entries()) {
   targetPack = targetPack[0];
 
   // Add all documents to the pack
-  for (const [i, document] of addPack.documents.entries()) {
+  for (const [_, document] of addPack.documents.entries()) {
     console.log(`Upserting ${document}`);
     diffs.push(targetPack.upsertDoc(document));
     // Pause processing until an answer has been received
