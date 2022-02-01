@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.6
+### Changelog
+* Update process for Contributing
+* Add Contributing.md
+* Adjust minimum and compatible versions to be 9, rather than a more specific build
+
 ## 0.2.5
 ### Changelog
 * Made Handy Haversack a container with 100% weight reduction
