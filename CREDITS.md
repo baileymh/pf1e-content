@@ -51,3 +51,10 @@ Various Contributions to the Compendiums and general help with questions and pro
 
 # llneo12 
 * added images to feats, and helped with linking prestige classes
+
+# Zarek (Zarek#4201)
+* Added contribution and changes to items
+* Created Git Action to allow for fast and easy updating and release
+* Added the features to allow for compendium splitting, enabling PR for individual changes
+* Added script to unpack/repack files for release
+* Updated details regarding how to contribute now that Let's Contribute is retired
