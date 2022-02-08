@@ -5,6 +5,7 @@
 * Update process for Contributing
 * Add Contributing.md
 * Adjust minimum and compatible versions to be 9, rather than a more specific build
+* Migrate module for pf 80.9 and foundry 9.249
 
 ## 0.2.5
 ### Changelog
