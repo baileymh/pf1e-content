@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.7
+### Changelog
+* Fix Portable Hole
+* Updates to latest version of Foundry and PF1
+
 ## 0.2.6
 ### Changelog
 * Update process for Contributing
