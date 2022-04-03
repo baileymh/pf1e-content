@@ -1,4 +1,5 @@
 import fs from "fs-extra";
+import path from "path";
 
 /* A single document for adding to packs */
 export default class Document {
@@ -56,5 +57,3 @@ export default class Document {
     fs.writeJSONSync(filePath, data, {spaces: 2});
   };
 };
-
-
