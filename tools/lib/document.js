@@ -1,6 +1,8 @@
 import fs from "fs-extra";
 import path from "path";
 
+import pruneDocument from './pruneDocument.js';
+
 /* A single document for adding to packs */
 export default class Document {
   constructor(filePath) {
@@ -39,6 +41,9 @@ export default class Document {
     };
     // Remove permission data
     this.#removeNestedKey("permission", item);
+
+    pruneDocument(item);
+
     return item;
   }
 
