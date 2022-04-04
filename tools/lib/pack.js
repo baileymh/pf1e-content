@@ -125,8 +125,9 @@ export default class Pack {
         originalData = matchingFiles[index].json;
         break;
     };
-    fs.writeJSONSync(filePath, document.json, {spaces: 2});
-    return {document: document, diffString: diffString(originalData, document.json)};
+    const diff = diffString(originalData, document.json);
+    if (diff) fs.writeJSONSync(filePath, document.json, {spaces: 2});
+    return {document: document, diffString: diff};
   };
 
   /* Update or Create the document */
