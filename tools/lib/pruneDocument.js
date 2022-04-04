@@ -6,10 +6,24 @@
 function pruneCoreFoundry(json) {
   // Sorting position
   delete json.sort;
+
   // Active effects
   if (json.effects?.length === 0) delete json.effects;
+
   // Flags
-  if (json.flags && Object.keys(json.flags).length === 0) delete json.flags;
+  if (json.flags) {
+	  Object.entries(json.flags).forEach(([flag, value]) => {
+		  try {
+			  if (value == undefined || Object.keys(value).length === 0)
+				  delete json.flags[flag];
+		  }
+		  catch (err) {
+			  console.error(err, { value });
+		  }
+    });
+    if (Object.keys(json.flags).length === 0) delete json.flags;
+  }
+
   // Folder
   if (json.folder?.length === 0 || json.folder == null) delete json.folder;
   // User permissions
@@ -23,10 +37,14 @@ function pruneCorePF1(json) {
   // Boolean & Dictionary flags
   if (data.flags) {
     // Deal with both arrays and objects. Arrays are no longer supported, however.
-    if ((Array.isArray(data.flags.boolean) && data.flags.boolean.length == 0) || Object.keys(data.flags.boolean).length == 0)
-      delete data.flags.boolean;
-    if ((Array.isArray(data.flags.dictionary) && data.flags.dictionary.length == 0) || Object.keys(data.flags.dictionary).length == 0)
-      delete data.flags.dictionary;
+    if (data.flags.boolean) {
+      if ((Array.isArray(data.flags.boolean) && data.flags.boolean.length == 0) || Object.keys(data.flags.boolean).length == 0)
+        delete data.flags.boolean;
+    }
+    if (data.flags.dictionary) {
+      if ((Array.isArray(data.flags.dictionary) && data.flags.dictionary.length == 0) || Object.keys(data.flags.dictionary).length == 0)
+        delete data.flags.dictionary;
+    }
   }
 
   // Script calls
@@ -62,6 +80,21 @@ function pruneCorePF1(json) {
   // Changes
   if (data.changes?.length === 0)
     delete data.changes;
+
+  if (data.contextNotes?.length === 0)
+    delete data.contextNotes;
+
+  if (data.conditionals?.length === 0)
+    delete data.conditionals;
+
+  if (data.useCustomTag === false)
+    delete data.useCustomTag;
+
+  if (data.tag?.length === 0)
+    delete data.tag;
+
+  if (data.showInQuickbar === false)
+    delete data.showInQuickbar;
 
   // Change flags
   if (data.changeFlags) {
@@ -102,6 +135,9 @@ function pruneCorePF1(json) {
   // Sound effect
   if (data.soundEffect?.length === 0)
     delete data.soundEffect;
+
+  if (data.disabled === false)
+    delete data.disabled;
 }
 
 function pruneAction(json) {
@@ -113,10 +149,26 @@ function pruneAction(json) {
   if (data.effectNotes?.length === 0)
     delete data.effectNotes;
 
+  if (data.spellFailure !== undefined) {
+    // Spell failure is supposed to be a number
+    data.spellFailure = Number(data.spellFailure);
+
+    if (data.spellFailure === 0)
+      delete data.spellFailure;
+  }
+
   if (data.uses?.per === null) {
     delete data.uses.max;
     delete data.uses.maxFormula;
     delete data.uses.value;
+    delete data.uses.per;
+  }
+
+  if (data.target) {
+    if (data.target.value?.length === 0)
+      delete data.target.value;
+    if (Object.keys(data.target).length === 0)
+      delete data.target;
   }
 
   if (data.save) {
@@ -137,18 +189,24 @@ function pruneRange(json) {
 }
 
 // Handle attack related data if present.
-function pruneAttack(json) {
+function pruneAttackLike(json) {
   const data = json.data;
 
-  if (data.ability?.attack === null)
-    delete data.ability.attack;
-  if (data.ability?.damage === null)
-    delete data.ability.damage;
+  if (data.ability) {
+    if (data.ability.attack === null)
+      delete data.ability.attack;
+    if (data.ability.damage === null)
+      delete data.ability.damage;
+    if (data.ability.critRange === 20)
+      delete data.ability.critRange;
+  }
 
   if (data.attackName?.length === 0)
     delete data.attackName;
   if (data.attackBonus?.length === 0)
     delete data.attackBonus;
+  if (data.critConfirmBonus?.length === 0)
+    delete data.critConfirmBonus;
 
   if (data.attackParts?.length === 0)
     delete data.attackParts;
@@ -159,6 +217,22 @@ function pruneAttack(json) {
   if (data.attack) {
     if (data.attack.parts?.length === 0)
       delete data.attack.parts;
+  }
+
+  if (data.enh == null)
+    delete data.enh;
+
+  const fmAtk = data.formulaicAttacks;
+  if (fmAtk) {
+    if (fmAtk.count?.formula?.length === 0)
+      delete fmAtk.count;
+    if (fmAtk.bonus?.formula?.length === 0)
+      delete fmAtk.bonus;
+    if (fmAtk.label?.length === 0 || fmAtk.label === null)
+      delete fmAtk.label;
+
+    if (Object.keys(fmAtk).length === 0)
+      delete data.formulaicAttacks;
   }
 
   if (data.damage) {
@@ -200,13 +274,60 @@ function pruneTemplate(json) {
   }
 }
 
+function pruneFeature(json) {
+  const data = json.data;
+
+  if (data.abilityType === "none" || data.abilityType == null)
+    delete data.abilityType;
+}
+
+function pruneEquipment(json) {
+  const data = json.data;
+
+  if (data.equipmentType !== 'misc')
+    delete data.slot;
+}
+
+function pruneAttack(json) {
+  const data = json.data;
+
+  if (data.primaryAttack === true || data.attackType !== 'natural')
+    delete data.primaryAttack;
+}
+
+// Delete data that hasn't been used in a long long time by the system
+function deleteOldItemDataCruft(json) {
+  const data = json.data;
+
+  if (data.recharge)
+    delete data.recharge;
+  if (data.damageType)
+    delete data.damageType;
+  if (data.formula?.length === 0)
+    delete data.formula;
+  if (data.time)
+    delete data.time;
+}
 
 function pruneItem(json) {
   pruneCorePF1(json);
-  pruneAttack(json);
+  pruneAttackLike(json);
   pruneAction(json);
   pruneRange(json);
   pruneTemplate(json);
+
+  switch (json.type) {
+    case 'feat':
+      pruneFeature(json);
+      break;
+    case 'equipment':
+      pruneEquipment(json);
+      break;
+    case 'attack':
+      pruneAttack(json);
+  }
+
+  deleteOldItemDataCruft(json);
 }
 
 function pruneActor(json) {
@@ -217,14 +338,17 @@ function pruneActor(json) {
 export default function pruneDocument(json) {
   pruneCoreFoundry(json);
 
-  // WARNING: The tooling does not distinguish document types, so the following is a bit risky.
+  // WARNING: The tooling does not distinguish pack document types, so the following is a bit risky.
+  // Following checks are to minimize errors, but they're not foolproof.
 
   if (!json.data) return; // Journal or such
   if (!json.type) return; // Untyped documents
 
-  if (['character', 'npc'].includes(json.type))
+  if (['basic'].includes(json.type))
+    return;
+  else if (['character', 'npc'].includes(json.type))
     pruneActor(json);
-  else if (['buff', 'spell', 'loot', 'attack', 'weapon', 'feat', 'equipment', 'race', 'class'].includes(json.type))
+  else if (['buff', 'spell', 'loot', 'attack', 'weapon', 'consumable', 'feat', 'equipment', 'race', 'class', 'container'].includes(json.type))
     pruneItem(json);
   else
     console.warn("Unrecognized type:", json.type);
