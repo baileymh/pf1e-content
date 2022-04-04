@@ -12,14 +12,14 @@ function pruneCoreFoundry(json) {
 
   // Flags
   if (json.flags) {
-	  Object.entries(json.flags).forEach(([flag, value]) => {
-		  try {
-			  if (value == undefined || Object.keys(value).length === 0)
-				  delete json.flags[flag];
-		  }
-		  catch (err) {
-			  console.error(err, { value });
-		  }
+    Object.entries(json.flags).forEach(([flag, value]) => {
+      try {
+        if (value == undefined || Object.keys(value).length === 0)
+          delete json.flags[flag];
+      }
+      catch (err) {
+        console.error(err, { value });
+      }
     });
     if (Object.keys(json.flags).length === 0) delete json.flags;
   }
@@ -335,21 +335,19 @@ function pruneActor(json) {
     delete json.items;
 }
 
-export default function pruneDocument(json) {
-  pruneCoreFoundry(json);
+export default function pruneDocument(json, options) {
+  pruneCoreFoundry(json, options);
+
+  const type = options.type;
 
   // WARNING: The tooling does not distinguish pack document types, so the following is a bit risky.
   // Following checks are to minimize errors, but they're not foolproof.
 
-  if (!json.data) return; // Journal or such
-  if (!json.type) return; // Untyped documents
+  // Journals, untyped documents, etc. should not be processed farther.
+  if (!type || !json.data || !json.type) return;
 
-  if (['basic'].includes(json.type))
-    return;
-  else if (['character', 'npc'].includes(json.type))
-    pruneActor(json);
-  else if (['buff', 'spell', 'loot', 'attack', 'weapon', 'consumable', 'feat', 'equipment', 'race', 'class', 'container'].includes(json.type))
-    pruneItem(json);
-  else
-    console.warn("Unrecognized type:", json.type);
+  switch (type) {
+    case 'Actor': return pruneActor(json, options);
+    case 'Item': return pruneItem(json, options);
+  }
 }
