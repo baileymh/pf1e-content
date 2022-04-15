@@ -10,8 +10,9 @@ import Document from "./document.js";
 
 /* A pack folder which can container multiple documents for addition */
 export default class Pack {
-  constructor(folderPath) {
+  constructor(folderPath, options) {
     this._folderPath = folderPath;
+    this._type = options.type;
   };
 
   get folderPath() {
@@ -32,7 +33,7 @@ export default class Pack {
       return fs.statSync(path.join(this.folderPath, file)).isFile();
     });
     inputFiles.map((file) => {
-      documents.push(new Document(path.join(this.folderPath, file)));
+      documents.push(new Document(path.join(this.folderPath, file), { type: this._type }));
     });
     return documents;
   };
@@ -125,8 +126,9 @@ export default class Pack {
         originalData = matchingFiles[index].json;
         break;
     };
-    fs.writeJSONSync(filePath, document.json, {spaces: 2});
-    return {document: document, diffString: diffString(originalData, document.json)};
+    const diff = diffString(originalData, document.json);
+    if (diff) fs.writeJSONSync(filePath, document.json, {spaces: 2});
+    return {document: document, diffString: diff};
   };
 
   /* Update or Create the document */
