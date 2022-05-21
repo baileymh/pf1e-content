@@ -1,11 +1,11 @@
 {
   "_id": "6TTh1PTbgMgv1sFC",
   "name": "Reprisal [Artifact]",
-  "type": "equipment",
-  "img": "systems/pf1/icons/skills/yellow_22.jpg",
+  "type": "weapon",
+  "img": "systems/pf1/assets/icons/items/weapons/rapier.png",
   "data": {
     "description": {
-      "value": "<h2></b>Description</b></h2></p><p>Reprisal is an unusually well-balanced and responsive +2 rapier. Reprisal's wielder can apply her Dexterity modifier to damage rolls with the weapon in place of her Strength modifier-this bonus is not increased if Reprisal is wielded two-handed, but is halved if the rapier is wielded in an off-hand. If Reprisal confirms a critical hit against an evil outsider, the rapier gains the evil-outsider-bane special ability and is treated as silver, cold iron, and good for the purposes of overcoming damage reduction for the next minute. Subsequent critical hits extend this duration by 1 minute per blow. As long as this effect persists, Reprisal's wielder gains a +2 sacred bonus on all saving throws against attacks from evil outsiders. These effects end prematurely if Reprisal is sheathed, disarmed, or is otherwise no longer wielded.<br><p><b>Base Item:</b> +2 rapier</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 99",
+      "value": "<h2></b>Description</b></h2><p>Reprisal is a beautiful and startlingly well-balanced mithral-bladed rapier. Originally, Reprisal bore greater enhancements against evil outsiders, but it&rsquo;s magic has faded. Still, when the blade strikes deep into the flesh of such a foe, it momentarily wakens once again.</p>\n<p>Reprisal is an unusually well-balanced and responsive +2 rapier. Reprisal&rsquo;s wielder can apply her Dexterity modifier to damage rolls with the weapon in place of her Strength modifier&mdash;this bonus is not increased if Reprisal is wielded two-handed, but is halved if the rapier is wielded in an off-hand.</p>\n<p>If Reprisal confirms a critical hit against an evil outsider, the rapier gains the evil-outsider bane special ability and is treated as silver, cold iron, and good for the purposes of overcoming damage reduction for the next minute. Subsequent critical hits extend this duration by 1 minute per blow. As long as this effect persists, Reprisal&rsquo;s wielder gains a +2 sacred bonus on all saving throws against attacks from evil outsiders.</p>\n<p>These effects end prematurely if Reprisal is sheathed, disarmed, or is otherwise no longer wielded.</p><br><p><b>Base Item:</b> +2 rapier</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 99",
       "chat": "",
       "unidentified": ""
     },
@@ -18,8 +18,8 @@
     "resizing": false,
     "identified": true,
     "hp": {
-      "max": 10,
-      "value": 10
+      "max": "10",
+      "value": "10"
     },
     "broken": false,
     "hardness": 0,
@@ -31,8 +31,8 @@
     "identifiedName": "Reprisal",
     "cl": 15,
     "aura": {
-      "custom": true,
-      "school": "transmutation"
+      "custom": false,
+      "school": "trs"
     },
     "activation": {
       "cost": 1,
@@ -48,115 +48,67 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
     "uses": {
-      "value": 0,
-      "per": null,
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
+      "autoDeductChargesCost": "1"
     },
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": null,
-    "attackBonus": "",
-    "critConfirmBonus": "",
+    "actionType": "mwak",
     "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
+      "parts": [
+        [
+          "1d6",
+          "P"
+        ]
+      ]
     },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
+      "attack": "str",
+      "damage": "dex",
       "damageMult": 1,
-      "critRange": 20,
+      "critRange": 18,
       "critMult": 2
     },
     "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
+      "dc": "0",
+      "type": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 1,
+      "critMultiplier": 1
     },
     "tag": "reprisalArtifact",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "useCustomTag": true,
+    "flags": {},
+    "masterwork": true,
+    "enh": 2,
     "attackType": "weapon",
-    "nonlethal": false,
     "proficient": true,
     "primaryAttack": true,
     "held": "normal",
-    "equipmentType": "weapon",
-    "equipmentSubtype": "lightArmor",
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0
+    "weaponType": "martial",
+    "weaponSubtype": "1h",
+    "properties": {
+      "fin": true,
+      "blc": false,
+      "thr": false,
+      "dis": false,
+      "dst": false,
+      "dbl": false,
+      "prf": false,
+      "frg": false,
+      "imp": false,
+      "dea": false,
+      "grp": false,
+      "mnk": false,
+      "nnl": false,
+      "rch": false,
+      "brc": false,
+      "trp": false,
+      "snd": false
     },
-    "spellFailure": 0,
-    "slot": "slotless"
-  },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
-  },
-  "flags": {}
+    "showInQuickbar": true,
+    "usesAmmo": false,
+    "ammoType": ""
+  }
 }
