@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.8
+### Changelog
+* Migrate module for pf 80.23 and foundry 9.269
+* Import new/fixed rolltables for various items (thanks @JustZisGuyYouKnow#3965 !)
+* Updates to companions and their features, eidolons and their evolutions (Thanks @websterguy#1136)
+
 ## 0.2.7
 ### Changelog
 * Fix Portable Hole
