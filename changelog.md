@@ -3,6 +3,7 @@
 ## 0.2.9
 ### Changelog
 * Migrate module for pf1 81.3 and foundry 9.269
+* Actually include updates to companions and features, eidolons, and evolutions (Thanks @websterguy#1136)
 * Create local version of PFS and 3.5e icons
 
 ## 0.2.8
