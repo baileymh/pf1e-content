@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "jqxkidpuxxhm07v3",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "negates (harmless, object)"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "negates (harmless, object)"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Prevents creatures of a specific type or subtype from interacting with a specific door."
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Prevents creatures of a specific type or subtype from interacting with a specific door."
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": false,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,50 @@
     "atWill": false,
     "sr": true,
     "shortDescription": "<p><strong>Source</strong> <em>Occult Adventures pg. 209</em></p><p><strong>School</strong> enchantment (compulsion); <strong>Level</strong> 4</p><p><strong>Casting Time</strong> 40 minutes</p><p><strong>Components</strong> V, M (a piece of rowan wood charcoal), F (a small silver mirror worth 50 gp)</p><p><strong>Skill Checks</strong> Knowledge (dungeoneering) DC 30, 3 successes; Spellcraft DC 30, 1 success</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> one dungeon door</p><p><strong>Duration</strong> 8 hours</p><p><strong>Saving Throw</strong> Will negates (harmless, object); <strong>SR</strong> yes (harmless, object)</p><p><strong>Backlash</strong> The caster takes 4d6 points of damage.</p><p><strong>Failure</strong> The target door swings open and cannot be closed by the caster by any means short of a <em>limited wish</em> for 24 hours.</p><h3 class=\"framing\">Effect</h3><p>The caster begins by placing a mirror on one side of the door and writing occult symbols on the other side of the door that conform to one type or subtype of creature on the ranger's favored enemy list. Upon completion of the ritual, creatures of the chosen type or subtype cannot open, touch, or even magically manipulate the door by any means (with no save or spell resistance applicable). A dungeon door can have only one avoidance ward at a time.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "negates (harmless, object)"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

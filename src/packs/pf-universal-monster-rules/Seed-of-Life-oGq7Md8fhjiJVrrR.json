@@ -10,6 +10,160 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [
+      {
+        "_id": "xy7mdhfq56hmu6wg",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/green_24.jpg",
+        "description": "",
+        "tag": "seedOfLifeSp",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": "self or allies with 30ft"
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "maxIncrements": "1",
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 5,
+          "maxFormula": "",
+          "max": 5
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "30",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "day",
+      "value": 5,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 5
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "seedOfLifeSp",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "featType": "misc",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "sp",
+    "crOffset": "",
+    "disabled": false,
+    "classSkills": {},
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -34,110 +188,27 @@
       "minValue": null,
       "minUnits": ""
     },
-    "uses": {
-      "value": 5,
-      "per": "day",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 5
-    },
     "measureTemplate": {
       "type": "circle",
-      "size": "30",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+      "size": "30"
     },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
       "dc": "0",
-      "type": "",
-      "description": ""
+      "type": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "seedOfLifeSp",
-    "useCustomTag": false,
-    "armorProf": {
-      "value": [],
-      "custom": ""
-    },
-    "weaponProf": {
-      "value": [],
-      "custom": ""
-    },
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "featType": "misc",
-    "associations": {
-      "classes": []
-    },
-    "showInQuickbar": false,
-    "nonlethal": false,
-    "abilityType": "sp",
-    "crOffset": "",
-    "disabled": false,
-    "attack": {
-      "parts": []
-    },
+    "attack": {},
     "size": "med"
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

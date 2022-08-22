@@ -14,95 +14,125 @@
         "Universal Monster Rules"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "et10f2ycf7fwxplr",
+        "name": "Use",
+        "img": "systems/pf1/icons/spells/explosion-sky-3.jpg",
+        "description": "",
+        "tag": "surgeSuMythic",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [
-      "+[[1d6]] Surge"
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [
+          "+[[1d6]] Surge"
+        ],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
     ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -119,9 +149,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "misc",
@@ -133,17 +167,42 @@
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": ""
     },
-    "size": "med"
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": ""
+    },
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

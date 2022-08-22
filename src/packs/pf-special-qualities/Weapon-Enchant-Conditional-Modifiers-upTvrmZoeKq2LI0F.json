@@ -10,6 +10,637 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [
+      {
+        "_id": "3uh04flt1acambht",
+        "name": "Attack",
+        "img": "icons/weapons/swords/greatsword-evil-green.webp",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "",
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "nonCritParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ]
+        },
+        "attackParts": [
+          [
+            "",
+            ""
+          ]
+        ],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "fort",
+          "description": ""
+        },
+        "effectNotes": [
+          ""
+        ],
+        "attackNotes": [
+          ""
+        ],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [
+          {
+            "default": false,
+            "name": "Agile",
+            "modifiers": [
+              {
+                "formula": "(@abilities.dex.mod > @abilities.str.mod ? @abilities.dex.mod - @abilities.str.mod : 0)",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "normal",
+                "_id": "nd1g89d20rr1f3xz",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "6g3qrj5ubzdrfsxa"
+          },
+          {
+            "default": false,
+            "name": "Anarchic",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "x51fozl64waots53",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "c6rdjli26489pvxu"
+          },
+          {
+            "default": false,
+            "name": "Axiomatic",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "zlx4do5h6dia38ib",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "b0sltwfy82hsfd8a"
+          },
+          {
+            "default": false,
+            "name": "Bane",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "w4kyq0h11gsn5vqs",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "2",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "enh",
+                "critical": "normal",
+                "_id": "cta6ox0hm66los76"
+              }
+            ],
+            "_id": "bnmukmzny3q5kkq8"
+          },
+          {
+            "default": false,
+            "name": "Blood-Hunting",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "qp6ocd38cfa21qd1",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "2",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "enh",
+                "critical": "normal",
+                "_id": "zawg437hao7e2esl"
+              }
+            ],
+            "_id": "8jhwj95xk8e9360a"
+          },
+          {
+            "default": false,
+            "name": "Breaking",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "3lwlaniqojnl9y8z",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "gb9rm4ptoods1b5q"
+          },
+          {
+            "default": false,
+            "name": "Corrosive",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "b5bud0qfet54y2vv",
+                "damageType": {
+                  "values": [
+                    "acid"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "b7x3rs19uxnn23gg"
+          },
+          {
+            "default": false,
+            "name": "Corrosive Burst",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "hqnsz9e1jncawilj",
+                "damageType": {
+                  "values": [
+                    "acid"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "1d10",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "crit",
+                "_id": "ml216ktnwwqtt0t8",
+                "damageType": {
+                  "values": [
+                    "acid"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "iji8wfp5tsuuklng"
+          },
+          {
+            "default": false,
+            "name": "Flaming",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "16n2fja5uqgden3g",
+                "damageType": {
+                  "values": [
+                    "fire"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "82a2c967wtlp9zil"
+          },
+          {
+            "default": false,
+            "name": "Flaming Burst",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "axkp8y57q4agf22i",
+                "damageType": {
+                  "values": [
+                    "fire"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "1d10",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "crit",
+                "_id": "39d1zl359k9ucro2",
+                "damageType": {
+                  "values": [
+                    "fire"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "1qrktgjolzygloob"
+          },
+          {
+            "default": false,
+            "name": "Frost",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "8ui6iaor7rq4m3v7",
+                "damageType": {
+                  "values": [
+                    "cold"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "kwythz8h663n84oq"
+          },
+          {
+            "default": false,
+            "name": "Holy",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "5agfx177yo2qsgjq",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "wcjug97p72pceln4"
+          },
+          {
+            "default": false,
+            "name": "Icy Burst",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "6evlrtmlfbbxnydn",
+                "damageType": {
+                  "values": [
+                    "cold"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "1d10",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "crit",
+                "_id": "6ghs89wesym6vlca",
+                "damageType": {
+                  "values": [
+                    "cold"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "x9feeoan1jpf9c8o"
+          },
+          {
+            "default": false,
+            "name": "Merciful",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "359udvnc35d1vlt5",
+                "damageType": {
+                  "values": [],
+                  "custom": "Nonlethal"
+                }
+              }
+            ],
+            "_id": "nncc68peislp7dsz"
+          },
+          {
+            "default": false,
+            "name": "Shock",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "70bvxrsujxm2wux2",
+                "damageType": {
+                  "values": [
+                    "electric"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "ii7sy3m5lswoqury"
+          },
+          {
+            "default": false,
+            "name": "Shocking Burst",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "262t4y23dxdooajh",
+                "damageType": {
+                  "values": [
+                    "electric"
+                  ],
+                  "custom": ""
+                }
+              },
+              {
+                "formula": "1d10",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "crit",
+                "_id": "27aqulrh92jymm2o",
+                "damageType": {
+                  "values": [
+                    "electric"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "qocvaucrjmm0v83r"
+          },
+          {
+            "default": false,
+            "name": "Toxic",
+            "modifiers": [
+              {
+                "formula": "+2",
+                "target": "effect",
+                "subTarget": "dc",
+                "type": "",
+                "critical": "",
+                "_id": "156rmeg4by5iabeu"
+              }
+            ],
+            "_id": "d07wxu3m3nk95lw6"
+          },
+          {
+            "default": false,
+            "name": "Unholy",
+            "modifiers": [
+              {
+                "formula": "2d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "jme4l4z3eu6nb7nt",
+                "damageType": {
+                  "values": [
+                    "untyped"
+                  ],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "uksr4th8f8ggx9t7"
+          },
+          {
+            "default": false,
+            "name": "Vorpal",
+            "modifiers": [
+              {
+                "formula": "999",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "crit",
+                "_id": "iztcktkaduklzfsp",
+                "damageType": {
+                  "values": [],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "j6bkmnid92a6kxal"
+          }
+        ],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "",
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": [],
+      "ammunition": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "showInQuickbar": true,
+    "broken": false,
+    "ammoType": "",
+    "attackType": "weapon",
+    "weaponGroups": {
+      "value": [],
+      "custom": ""
+    },
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -24,35 +655,7 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": "",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
     "actionType": "mwak",
-    "attackBonus": "",
-    "critConfirmBonus": "",
     "damage": {
       "parts": [
         [
@@ -79,56 +682,16 @@
         ""
       ]
     ],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": ""
-    },
-    "formula": "",
     "ability": {
       "attack": "str",
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
       "dc": "0",
-      "type": "fort",
-      "description": ""
+      "type": "fort"
     },
-    "effectNotes": [
-      ""
-    ],
-    "attackNotes": [
-      ""
-    ],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": [],
-      "ammunition": []
-    },
-    "tag": "",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "attackType": "weapon",
-    "nonlethal": false,
-    "proficient": true,
-    "primaryAttack": true,
-    "held": "normal",
-    "showInQuickbar": true,
-    "broken": false,
     "conditionals": [
       {
         "default": false,
@@ -420,26 +983,19 @@
         ]
       }
     ],
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
-      "sourceId": "Item.CMEKUCv85HgCab8A"
-    },
-    "exportSource": {
-      "world": "tyrants-grasp",
-      "system": "pf1",
-      "coreVersion": "0.8.8",
-      "systemVersion": "0.79.0"
-    },
-    "core": {
       "sourceId": "Item.CMEKUCv85HgCab8A"
     }
   }

@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "h9pfwsez8w3z04l8",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "negates"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "negates"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "The primary caster calls a wendo to possess themself and answer questions"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "The primary caster calls a wendo to possess themself and answer questions"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": false,
       "divineFocus": 0
@@ -137,23 +170,50 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Occult Realms pg. 58</em></p><p><strong>School</strong> conjuration (calling); <strong>Level</strong> 6</p><p><strong>Casting Time</strong> 60  minutes</p><p><strong>Components</strong> V, S, M (crushed animal bones and two smooth stones), SC (up to 8)</p><p><strong>Skill Checks</strong> Diplomacy DC 31, 2 successes; Knowledge (nature) DC 31, 3 successes; Knowledge (religion) DC 28, 1 success</p><p><strong>Range</strong> primary caster</p><p><strong>Duration</strong> concentration of the primary caster</p><p><strong>Saving Throw</strong> Will negates; <strong>SR</strong> no</p><p><strong>Backlash</strong> All casters are exhausted and gain 1 temporary negative level (DC = 16 + the primary caster's Charisma bonus to remove the condition after the first day).</p><p><strong>Failure</strong> The primary caster is immediately afflicted with malaria with no onset time (disease-<em>save</em> DC 18; <em>frequency</em> 1/day; <em>effect</em> 1d3 Str and 1d3 Con/day plus fatigue; <em>cure</em> 2 saves). At the GM's discretion, a particularly powerful hostile wendo may possess the primary caster (as per <em>possession</em>). This persists for the following 24 hours.</p><h3 class=\"framing\">Effect</h3><p>By using finely crushed animal bones to mark her own skin with symbols associated with a specific wendo, the primary caster readies herself for possession by that wendo. After lying prostrate and placing smooth stones over her eyes, the primary caster negotiates with the wendo to convince it to inhabit her body.</p><p></p><p> An unwilling wendo can resist the summons by succeeding at a Will saving throw. If the wendo succeeds at the saving throw, it doesn't enter the primary caster, but the ritual is still considered a success. A wendo that fails or forgoes this save is summoned into the primary caster's body, where it speaks by way of the caster's voice, which takes on elements associated with that wendo (a gravelly quality for a wendo tied to the earth, for example). The wendo has no further control of the caster's mind or body, and it must leave the primary caster when that caster ceases to concentrate. While the wendo speaks through the caster, secondary casters can ask it questions, at a maximum rate of 1 question per round (regardless of the number of secondary casters). The wendo speaks in a language the primary caster knows and can refuse to answer questions, can answer them cryptically, or can lie using Bluff with a +16 bonus on the attempt. The wendo is not otherwise beholden to the ritual casters.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "negates"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

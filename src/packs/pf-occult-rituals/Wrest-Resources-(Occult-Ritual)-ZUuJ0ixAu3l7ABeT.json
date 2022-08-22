@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "doh5aa3yxrrp1xmb",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Teleport a specific resource from the target area to adjacent to the caster"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Teleport a specific resource from the target area to adjacent to the caster"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,49 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Pathfinder #135: Runeplague pg. 79</em></p><p><strong>School</strong> conjuration (teleportation); <strong>Level</strong> 7</p><p><strong>Casting Time</strong> 60 minutes</p><p><strong>Components</strong> V, S, M (an amount of a single natural mineral, metal, or gemstone worth 500 gp), F (an adamantine spade worth 5,000 gp), SC (up to 20)</p><p><strong>Skill Checks</strong> Knowledge (geography) DC 42, 3 successes; Knowledge (nature) DC 42, 2 successes; Survival DC 42, 2 successes</p><p><strong>Range</strong> 10 miles/character level of the primary caster</p><p><strong>Area</strong> one 10-ft. cube/character level of the primary caster</p><p><strong>Duration</strong> instantaneous</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> The primary caster takes 1 permanent negative level.</p><p><strong>Failure</strong> All casters take 6d6 points of damage and are exhausted. The primary caster is the target of a <em>flesh to stone</em> spell (DC = 16 + the primary caster's Charisma bonus) but instead of stone the spell turns the caster into the resource used in the material component.</p><h3 class=\"framing\">Effect</h3><p>The ritual teleports a specific natural resource from the ritual's area and transports it adjacent to the primary caster. The natural resource is the same as the material component used in the ritual (for example, using 500 gp of gold as a material component causes the ritual to teleport all gold in the area). The area must be one the primary caster is familiar with and can clearly visualize, although he need not have line of sight or line of effect to the area at the time the ritual is performed. The sudden removal of these resources can cause the ground in the selected area to shift or collapse.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

@@ -10,6 +10,162 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [
+      {
+        "_id": "3mr2rq321h1aosh7",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/green_12.jpg",
+        "description": "",
+        "tag": "horrificAppearanceSu",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": "all living creatures"
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "maxIncrements": "1",
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "",
+          "value": 0,
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "30",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "15",
+          "type": "will",
+          "description": "Reduces or Negates (see text)"
+        },
+        "effectNotes": [
+          "DC 10 + 1/2 the qlippoth’s Hit Dice+ the qlippoth’s Charisma modifier"
+        ],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "",
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "horrificAppearanceSu",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "featType": "misc",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "su",
+    "crOffset": "",
+    "disabled": false,
+    "classSkills": {},
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -34,48 +190,14 @@
       "minValue": null,
       "minUnits": ""
     },
-    "uses": {
-      "value": 0,
-      "per": "",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
     "measureTemplate": {
       "type": "circle",
-      "size": "30",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+      "size": "30"
     },
-    "attackName": "",
     "actionType": "save",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
@@ -83,63 +205,14 @@
       "type": "will",
       "description": "Reduces or Negates (see text)"
     },
-    "effectNotes": [
-      "DC 10 + 1/2 the qlippoth’s Hit Dice+ the qlippoth’s Charisma modifier"
-    ],
-    "attackNotes": [],
-    "soundEffect": "",
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "horrificAppearanceSu",
-    "useCustomTag": false,
-    "armorProf": {
-      "value": [],
-      "custom": ""
-    },
-    "weaponProf": {
-      "value": [],
-      "custom": ""
-    },
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "featType": "misc",
-    "associations": {
-      "classes": []
-    },
-    "showInQuickbar": false,
-    "nonlethal": false,
-    "abilityType": "su",
-    "crOffset": "",
-    "disabled": false,
-    "attack": {
-      "parts": []
-    },
+    "attack": {},
     "size": "med"
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

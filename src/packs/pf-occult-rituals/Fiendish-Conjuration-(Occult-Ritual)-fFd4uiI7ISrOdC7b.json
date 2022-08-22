@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one evil outsider"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "gjyqzr5d8r7kpikd",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one evil outsider"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Call an evil outsider"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Call an evil outsider"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "creation or calling",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,52 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Book of the Damned pg. 189</em></p><p><strong>School</strong> conjuration (calling) [evil]; <strong>Level</strong> 9</p><p><strong>Casting Time</strong> 90 minutes</p><p><strong>Components</strong> V, S, M (rare incense worth 1,000 gp), F (a conjuration circle and an offering pleasing to the fiend, such as a sacrifice or trapped soul of CR equal to the fiend's CR + 1)</p><p><strong>Skill Checks</strong> Bluff, Diplomacy, or Intimidate DC 34, 4 successes; Knowledge (arcana) DC 34, 1 success; Knowledge (planes) DC 34, 1 success; Linguistics DC 34, 2 successes; Spellcraft DC 34, 1 success</p><p><strong>Range</strong> close</p><p><strong>Target</strong> one evil outsider</p><p><strong>Duration</strong> 1 hour/character level of the caster</p><p><strong>Saving Throw</strong> none (see text); <strong>SR</strong> no</p><p><strong>Backlash</strong> The caster becomes exhausted.</p><p><strong>Failure</strong> The conjured fiend escapes from its conjuration circle. Its actions can vary, but most escaped fiends eagerly attack their conjurers for at least a few rounds before teleporting or otherwise fleeing into the world to begin a reign of terror.</p><h3 class=\"framing\">Effect</h3><p>The first 20 minutes of the ritual of fiendish conjuration involve preparing the conjuration circle and inscribing the appropriate names around the circle. This step involves attempting both Linguistics checks; if the conjuration circle is permanently inscribed and has been successfully used for this ritual at any point in the past, these Linguistics checks are attempted with a +5 bonus. The next 30 minutes of the ritual invokes the fiend, involving the Knowledge and Spellcraft checks; if the fiend's true name is used, these checks are attempted with a +5 bonus. At the start of the final 40 minutes, the smoky, indistinct shape of the fiend manifests within the circle, at which point the caster must attempt the final four Bluff, Diplomacy, or Intimidate checks. Once this stage is reached, the fiend manifests in the flesh at the end of the ritual regardless of the ritual's success or failure, but only if the ritual is successful is the fiend trapped within the conjuration circle and unable to visit harm upon the caster.</p><p></p><p> If the ritual is successful, the fiend remains on the Material Plane for a number of hours equal to the caster's character level, during which the caster makes an offering to the fiend and asks for its aid. If the caster's alignment is the same as the fiend's, the fiend automatically agrees to perform a service that takes no more time to perform than the ritual's duration. A fiend will agree to perform a longer task if it is given an additional offering for its services. Each offering given must be of equal or greater value to the one given during the ritual's casting and secures the fiend's cooperation for an additional number of hours equal to the caster's character level. At the caster's discretion, the start time for these additional hours can be delayed until a certain circumstance arises, at which point the fiend immediately reappears in its original conjuration circle and can immediately depart to complete its task. If the fiend's true name was used during the ritual, all of these periods of time normally measured in hours (including the ritual's initial duration) are instead measured in days.</p><p></p><p> If at any point during the fiend's servitude the caster is slain or the original conjuration circle is damaged, the fiend can attempt a Will save to escape the ritual's binding power. If successful, the fiend is no longer bound to perform the task it has been ordered to do and can remain on the Material Plane for as long as it wishes.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one evil outsider"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

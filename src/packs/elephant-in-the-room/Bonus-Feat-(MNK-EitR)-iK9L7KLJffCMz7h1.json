@@ -10,6 +10,78 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "changes": [
+      {
+        "_id": "fjkapxbj",
+        "formula": "1 + floor((@classes.monk.level + 2) / 4)",
+        "operator": "add",
+        "subTarget": "bonusFeats",
+        "modifier": "untyped",
+        "priority": 0,
+        "value": 0,
+        "target": "misc"
+      }
+    ],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "bonusFeatMnk",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": [
+        [
+          "Monk"
+        ]
+      ]
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "classSkills": {},
     "activation": {
       "cost": 1,
       "type": ""
@@ -34,14 +106,6 @@
       "minValue": null,
       "minUnits": "",
       "long": null
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
     },
     "measureTemplate": {
       "type": "",
@@ -84,65 +148,7 @@
       "type": "",
       "description": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
     "soundEffect": "",
-    "changes": [
-      {
-        "_id": "fjkapxbj",
-        "formula": "1 + floor((@classes.monk.level + 2) / 4)",
-        "operator": "add",
-        "subTarget": "bonusFeats",
-        "modifier": "untyped",
-        "priority": 0,
-        "value": 0,
-        "target": "misc"
-      }
-    ],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "bonusFeatMnk",
-    "useCustomTag": false,
-    "armorProf": {
-      "value": [],
-      "custom": ""
-    },
-    "weaponProf": {
-      "value": [],
-      "custom": ""
-    },
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "featType": "classFeat",
-    "associations": {
-      "classes": [
-        [
-          "Monk"
-        ]
-      ]
-    },
-    "showInQuickbar": false,
-    "nonlethal": false,
-    "abilityType": "none",
-    "crOffset": "",
-    "disabled": false,
     "attack": {
       "parts": []
     },
@@ -154,8 +160,7 @@
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "ZTVmMGJjOWNlOGMz": 3
+    "default": 0
   },
   "flags": {
     "journal-links": {

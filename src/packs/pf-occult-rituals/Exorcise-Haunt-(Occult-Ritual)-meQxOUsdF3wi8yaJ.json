@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one persistent vaporous haunt"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "sqy9b27xipi40htb",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one persistent vaporous haunt"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "negatess"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "negatess"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Destroy a haunt through a psychic duel"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Destroy a haunt through a psychic duel"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,53 @@
     "atWill": false,
     "sr": true,
     "shortDescription": "<p><strong>Source</strong> <em>Haunted Heroes Handbook pg. 16</em></p><p><strong>School</strong> necromancy; <strong>Level</strong> 4</p><p><strong>Casting Time</strong> 40 minutes</p><p><strong>Components</strong> V, S, M (a glass of wine, nine candles, and rare incense worth 500 gp), F (a lexicon on the exorcism of spirits worth 750 gp).</p><p><strong>Skill Checks</strong> Diplomacy DC 31, 1 success; Knowledge (religion) DC 31, 2 successes; Sense Motive, DC 31, 1 success</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> one persistent vaporous haunt</p><p><strong>Duration</strong> 1 minute/character level of the primary caster</p><p><strong>Saving Throw</strong> Will negates; <strong>SR</strong> yess</p><p><strong>Backlash</strong> The primary caster becomes helpless for the ritual's duration and the target haunt's hit points are fully healed to its total maximum. If the target haunt has been neutralized, it immediately reactivates.</p><p><strong>Failure</strong> The primary caster takes 2d6 points of Wisdom drain. A caster whose Wisdom drain equals or exceeds her Wisdom score dies, her spirit becoming conjoined with that of the haunt to create a more powerful haunt (subject to GM discretion but typically increasing the haunt's CR by 1).</p><h3 class=\"framing\">Effect</h3><p>The caster reads aloud from her chosen lexicon while standing amid a circle of candles, reciting passages that fill her with dedication and conviction. Upon the completion of the ritual's casting time, she steps into the target haunt's area, causing her to forge a psychic connection with the haunt that pulls her mind into a binary mindscape (Occult Adventures 235) of the haunt's creation and that is strongly reminiscent of the haunt's anguish and themed along the lines of the haunt's destruction method.</p><p></p><p> This ritual allows the caster to instigate a psychic duel with the target haunt (Occult Adventures 202), functioning like <em>instigate psychic duel</em>. Unlike with instigating a duel with another creature, a haunt remains responsive in the real world during the psychic duel; it is able to act during its normal initiative. The haunt counts as a psychic spellcaster with a caster level equal to the haunt's caster level for all purposes and can generate an unlimited number of manifestation points, though it can spend only a number of manifestation points equal to 1/2 its caster level (minimum 1st) per psychic manifestation. In the mindscape, the haunt's saving throw bonuses are equal to its CR + 2, and its melee and ranged attack bonuses are equal to 1-1/2 its CR + 2. In addition, the haunt has an amount of temporary hit points equal to its normal hit point total. If these temporary hit points are reduced to 0, the haunt is destroyed as if its specific destruction action had been performed.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one persistent vaporous haunt"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "negatess"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

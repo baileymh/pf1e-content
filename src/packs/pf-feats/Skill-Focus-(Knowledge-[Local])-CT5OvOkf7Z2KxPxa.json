@@ -17,82 +17,16 @@
         "General"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    "actions": [],
     "uses": {
-      "value": 0,
       "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
+      "value": 0,
       "maxFormula": "",
-      "max": 0
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [
       {
         "_id": "rmsuxo7i",
@@ -108,12 +42,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noDex": false,
-      "noStr": false,
-      "oneCha": false,
-      "oneInt": false,
-      "oneWis": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -130,9 +59,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "feat",
@@ -144,25 +77,37 @@
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": ""
     },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "attack": {},
     "identifiedName": "Skill Focus (Knowledge [Local])",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
-  "flags": {
-    "exportSource": {
-      "coreVersion": "0.7.9",
-      "system": "pf1",
-      "systemVersion": "0.77.20",
-      "world": "masksOfTheLivingGod"
-    }
-  }
+  "flags": {}
 }

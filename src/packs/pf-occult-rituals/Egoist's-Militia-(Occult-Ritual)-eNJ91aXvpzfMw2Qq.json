@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "weapons touched"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "igmmzc7kuiq94e1x",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "weapons touched"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Permanently animate weapons with shards of your ego"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Permanently animate weapons with shards of your ego"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,52 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Chronicle of Legends pg. 15</em></p><p><strong>School</strong> conjuration; <strong>Level</strong> 8</p><p><strong>Casting Time</strong> 80 minutes</p><p><strong>Components</strong> V, S, M (1 pint of the primary caster's blood, diamond dust worth 5,000 gp), F (at least four weapons), SC (at least 2 and up to 10)</p><p><strong>Skill Checks</strong> Craft (weapons) DC 36, 1 success per martial weapon; Knowledge (arcana) DC 36, 2 successes; Knowledge (nobility) DC 36, 2 successes</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> weapons touched</p><p><strong>Duration</strong> permanent (D) or until the death of the primary caster</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> The primary caster takes 2d6 points of damage per weapon and is exhausted.</p><p><strong>Failure</strong> All casters take a –10 penalty on attack rolls for 1 month, and all of the targeted weapons gain the broken condition.</p><h3 class=\"framing\">Effect</h3><p>This ritual must be performed in a place that holds a significance related to weapons, such as an armory, an old battlefield, or a warrior's crypt. The primary caster begins this ritual by mixing her blood with the diamond dust, smearing each weapon with the mixture, and placing the weapons in a circle around herself. The primary caster then holds each weapon and demonstrates the weapon in a combat performance. After the primary caster finishes her performance with a weapon, she places the weapon into the air in front of her, now held in midair by her force of ego.</p><p></p><p> Upon successful completion of this ritual, ghostly apparitions of the primary caster appear and grasp each of the weapons before fading, representing the shards of the primary caster's own ego placed within each weapon. The egoist weapons are treated as if they are held by the primary caster, using her base attack bonus, ability scores, and any relevant feats when calculating their attack and damage rolls, but the weapons function independently from the primary caster. Egoist weapons make attacks on the primary caster's initiative. When moving, egoist weapons have a fly speed of 100 feet. An egoist weapon uses the statistics of the base weapon and retains its magical enhancements and material properties. For every 2 Hit Dice the primary caster has, an egoist weapon has a hardness of 10 and 5 hit points (magical weapons maintain their additional bonuses to AC and HP). When an egoist weapon is reduced to 0 hit points, it is destroyed.</p><p></p><p> All casters who were part of the ritual can issue simple commands to the egoist weapons, and the weapons follow these commands to the best of their abilities. If an egoist weapon completes its task and does not receive further orders, it remains in its location until it receives additional orders. The primary caster can dispel an individual egoist weapon as a standard action. This ritual can be used to create more than four egoist weapons. The DC of each skill check increases by 1 for each weapon beyond the fourth added to the ritual.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "weapons touched"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

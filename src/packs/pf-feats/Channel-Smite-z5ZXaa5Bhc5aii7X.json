@@ -20,6 +20,170 @@
         "Channeling"
       ]
     ],
+    "actions": [
+      {
+        "_id": "ysfxowp8qhh1azlb",
+        "name": "Use",
+        "img": "systems/pf1/icons/feats/channel-smite.jpg",
+        "description": "",
+        "tag": "channelSmite",
+        "activation": {
+          "cost": 1,
+          "type": "swift"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": "self; affects living OR undead"
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "maxIncrements": "1",
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 0,
+          "maxFormula": "3 + @abilities.cha.mod",
+          "max": 6
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "30",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "(ceil(@classes.cleric.level / 2))d6",
+              {
+                "values": [
+                  "positive"
+                ],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "10+floor(@classes.cleric.level / 2) + @abilities.cha.mod",
+          "type": "will",
+          "description": "Will half"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "day",
+      "value": 0,
+      "maxFormula": "3 + @abilities.cha.mod",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 6
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "channelSmite",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "classSkills": {},
     "activation": {
       "cost": 1,
       "type": "swift"
@@ -44,53 +208,22 @@
       "minValue": null,
       "minUnits": ""
     },
-    "uses": {
-      "value": 0,
-      "per": "day",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "3 + @abilities.cha.mod",
-      "max": 6
-    },
     "measureTemplate": {
       "type": "circle",
-      "size": "30",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+      "size": "30"
     },
-    "attackName": "",
     "actionType": "save",
-    "attackBonus": "",
-    "critConfirmBonus": "",
     "damage": {
       "parts": [
         [
           "(ceil(@classes.cleric.level / 2))d6",
           "Positive"
         ]
-      ],
-      "critParts": [],
-      "nonCritParts": []
+      ]
     },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
@@ -98,64 +231,16 @@
       "type": "will",
       "description": "Will half"
     },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "channelSmite",
-    "useCustomTag": false,
-    "armorProf": {
-      "value": [],
-      "custom": ""
-    },
-    "weaponProf": {
-      "value": [],
-      "custom": ""
-    },
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "featType": "feat",
-    "associations": {
-      "classes": []
-    },
-    "showInQuickbar": false,
-    "nonlethal": false,
-    "abilityType": "none",
-    "crOffset": "",
-    "disabled": false,
-    "attack": {
-      "parts": []
-    },
+    "attack": {},
     "auraStrength": 0,
-    "conditionals": [],
     "identifiedName": "Channel Smite",
     "size": "med"
   },
   "effects": [],
   "folder": null,
-  "sort": 2800000,
+  "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

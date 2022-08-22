@@ -14,84 +14,121 @@
         "Eidolon Evolution"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
+    "actions": [
+      {
+        "_id": "g0mou22bhykwcw9d",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/ice_16.jpg",
+        "description": "",
+        "tag": "basicMagic1Ep",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 1,
+          "maxFormula": "",
+          "max": 1
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [
+          "The save DC for this spell is 10 + the eidolon's Charisma modifier"
+        ],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 1,
       "per": "day",
+      "value": 1,
+      "maxFormula": "",
       "autoDeductCharges": true,
       "autoDeductChargesCost": "1",
-      "maxFormula": "",
       "max": 1
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [
-      "The save DC for this spell is 10 + the eidolon's Charisma modifier"
-    ],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -114,9 +151,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "misc",
@@ -128,22 +169,44 @@
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "standard"
     },
-    "size": "med"
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": ""
+    },
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.world.eidolon-features.592rXKDuci3COPSH"
-    },
     "scene-packer": {
       "sourceId": "Item.Z3m9OIFsPLt3jJHZ"
     }

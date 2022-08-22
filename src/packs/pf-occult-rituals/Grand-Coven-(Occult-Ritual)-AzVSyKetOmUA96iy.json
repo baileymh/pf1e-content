@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one willing creature"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "u8ujbrui4kagt9s6",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one willing creature"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "negates (harmless)"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "negates (harmless)"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Induct an additional coven member beyond the normal limit of 3 members"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Induct an additional coven member beyond the normal limit of 3 members"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": false,
       "divineFocus": 0
@@ -137,23 +170,53 @@
     "atWill": false,
     "sr": true,
     "shortDescription": "<p><strong>Source</strong> <em>Blood of the Coven pg. 24</em></p><p><strong>School</strong> enchantment; <strong>Level</strong> 5</p><p><strong>Casting Time</strong> 50 minutes</p><p><strong>Components</strong> V, S, M (elderberry wine and secret herbs worth 100 gp per caster), SC (up to 12; see text)</p><p><strong>Skill Checks</strong> Knowledge (nature) DC 28, 2 successes; Perform (sing or dance) DC 28, 2 successes; Spellcraft DC 28, 1 success</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> one willing creature</p><p><strong>Duration</strong> instantaneous</p><p><strong>Saving Throw</strong> Will negates (harmless); <strong>SR</strong> yes (harmless)</p><p><strong>Backlash</strong> The subject and all casters are fatigued for 24 hours.</p><p><strong>Failure</strong> The subject and all casters are sickened until the next full moon.</p><h3 class=\"framing\">Effect</h3><p>This ritual allows an established coven to induct a new member, allowing the coven to increase in size beyond the usual limit of three members. The newcomer must be a creature that could normally join a coven, such as a hag or a witch with the coven hex. Under the shadow of the new moon, the entire coven and the prospective member must prepare a bowl of rich red wine as they dance and chant, with each member adding handfuls of rare and expensive herbs. At midnight, the coven consumes the wine together. If the ritual is a success, the newcomer becomes a full member of the coven; see the details of forming a coven under the monster entry for a green hag. Every additional coven member above four increases the ritual skill check DCs by 2. No coven can be larger than 13 members.</p><p></p><p> Any three coven members can participate together to cast coven spells, as normal. Each additional coven member participating in a coven spell beyond the minimum requirement for a given spell increases the effective caster level of that spell by 1, to a maximum of CL 20th. Every two coven members participating in a coven spell beyond the minimum requirement also increase the saving throw DC by 1. When a coven reaches seven members, it gains the following new spells, which require all seven participants acting in concert to cast: <em>create undead</em>, <em>dominate person</em> (DC 18), <em>epidemic</em> (DC 19), <em>fairy ring retreat</em>, <em>major curse</em> (DC 18), <em>magic jar</em> (DC 18), and <em>prying eyes</em>. When a coven reaches 13 members, it gains the following new spells, which require 13 participants acting in concert to cast: <em>create greater undead</em>, <em>cursed earth</em> (DC 22), <em>dominate monster</em> (DC 22), <em>greater prying eyes</em>, and <em>wail of the banshee</em> (DC 22).</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one willing creature"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "negates (harmless)"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

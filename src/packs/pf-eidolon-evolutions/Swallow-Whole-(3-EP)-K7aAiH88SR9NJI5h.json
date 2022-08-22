@@ -14,84 +14,121 @@
         "Eidolon Evolution"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
+    "actions": [
+      {
+        "_id": "74bgit09l46hjqop",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/red_22.jpg",
+        "description": "",
+        "tag": "swallowWhole3Ep",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "",
+          "value": 0,
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Swallow Whole",
+        "actionType": "mcman",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [
+          "The amount of damage needed to cut free is equal to 1/10 the eidolon's total hit points. The eidolon's AC against these attacks is equal to 10 + 1/2 its natural armor bonus. If a swallowed creature cuts its way out, the eidolon loses this ability until it heals this damage."
+        ],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 0,
       "per": "",
+      "value": 0,
+      "maxFormula": "",
       "autoDeductCharges": true,
       "autoDeductChargesCost": "1",
-      "maxFormula": "",
       "max": 0
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "Swallow Whole",
-    "actionType": "mcman",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": ""
-    },
-    "formula": "",
-    "ability": {
-      "attack": "",
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "",
-      "description": ""
-    },
+    "attackNotes": [],
     "effectNotes": [],
-    "attackNotes": [
-      "The amount of damage needed to cut free is equal to 1/10 the eidolon's total hit points. The eidolon's AC against these attacks is equal to 10 + 1/2 its natural armor bonus. If a swallowed creature cuts its way out, the eidolon loses this ability until it heals this damage."
-    ],
-    "soundEffect": "",
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -114,9 +151,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "misc",
@@ -128,22 +169,46 @@
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "standard"
     },
-    "size": "med"
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "attackName": "Swallow Whole",
+    "actionType": "mcman",
+    "ability": {
+      "attack": "",
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": ""
+    },
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.world.eidolon-features.3ZadoDswQUja46XF"
-    },
     "scene-packer": {
       "sourceId": "Item.kAOLuh4QuKNxIDFr"
     }

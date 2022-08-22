@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one living or recently dead creature"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "51w81y3bo2bd3j0j",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one living or recently dead creature"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "negates"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "negates"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Bind a creature's soul to a gem"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Bind a creature's soul to a gem"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "glamer",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": false,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,53 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Book of the Damned pg. 192</em></p><p><strong>School</strong> necromancy [evil]; <strong>Level</strong> 9</p><p><strong>Casting Time</strong> 90 minutes</p><p><strong>Components</strong> V, S, F (a crystal lens worth at least half the value of the soul to be trapped), SC (up to 12)</p><p><strong>Skill Checks</strong> Knowledge (planes) DC 31, 3 successes; Knowledge (religion) DC 31, 3 successes; Spellcraft DC 31, 3 successes</p><p><strong>Range</strong> close</p><p><strong>Target</strong> one living or recently dead creature</p><p><strong>Duration</strong> instantaneous</p><p><strong>Saving Throw</strong> Will negates; <strong>SR</strong> no</p><p><strong>Backlash</strong> The primary and secondary casters each gain 1 temporary negative level.</p><p><strong>Failure</strong> The primary and secondary casters become staggered for 10 minutes. Unless the ritual was performed in an area that bars dimensional travel, this feedback draws the attention of a psychopomp or psychopomps of a total CR equal to the CR of the creature whose soul the casters were attempting to trap, and the magical feedback allows the psychopomps to manifest at the location of the ritual to punish the casters for meddling with souls.</p><h3 class=\"framing\">Effect</h3><p>The body of the creature whose soul is to be trapped must be within the ritual's range for the duration. If the body is removed from this area before the ritual is completed, the ritual immediately fails (triggering the failure result detailed above). If the target creature is alive, it must be killed at some point during the ritual's casting time; traditionally this occurs at the end of the ritual, so that if the victim resists having its soul trapped with a successful saving throw, the casters could potentially try to capture the soul a second time by immediately starting a second ritual. If the target creature was already dead, it must have been dead no longer than 1 minute before the soul trap ritual begins, and in this case, the creature's soul can still attempt a Will save to resist the effects as if it were still alive.</p><p></p><p> If the ritual is a success, the creature's soul is transformed into a glittering soul gem. This gem is a fragile Fine object that has hardness 2 and 1 hit point. In this state, the soul cannot be returned to life by any means; the soul gem must first be destroyed, at which point methods of restoring life to the creature function normally.</p><p></p><p> </p><h3 class=\"framing\">THE VALUE OF SOULS</h3><p> Trapped souls are one of the fundamental currencies throughout Abaddon, the Abyss, and Hell. Three key factors influence a soul's value in the soul trade: the strength of the soul's life force (which relates directly to the CR of the creature from which the soul was harvested), the soul's age (how long the soul has been cycled through reincarnation, which directly relates to the sapience of the creature from which the soul was harvested), and the soul's flavor (which is determined by factors that include the alignment, personality, and religion of the creature from which the soul was harvested). Of course, it's worth noting that while trading in souls may prove lucrative, the practice is undeniably evil and an affront to the natural order, and thus it is considered to be an evil act unless one is trading souls for an altruistic purpose (such as to smash purchased prisons and release the souls trapped within). </p><p></p><p><strong>Life Force</strong>: A soul's life force sets its base gp value. This is equal to the CR of the creature from which the soul was harvested × 1,000. Thus, the base value of a CR 1 creature's soul is 1,000 gp, while the base value of a CR 20 creature's soul is 20,000 gp. </p><p></p><p><strong>Age</strong>: A soul from a creature who in life had an Intelligence, Wisdom, or Charisma score of 2 or less (including the lack of a score at all in one of those categories, and regardless of how high the other ability scores were) is less refined and younger in age, and as such is worth half its base value. Thus, the soul of a CR 1 animal with an Intelligence of 1 is worth 500 gp, while the soul of a CR 20 vermin with no intelligence score at all would be worth 10,000 gp. </p><p></p><p><strong>Flavor</strong>: As a general rule, a soul's flavor has no direct impact on its gp value for the purposes of functioning as a material component or raw materials for magic item creation, but in certain circumstances subject to the GM's discretion, the soul's flavor can halve or double its final value. For example, a paladin's soul might have double its normal value to a daemon who finds lawful good souls to be particularly delicious, while the soul of a devout worshiper of Desna might be worth only half as much when used to create a magic item designed to be particularly deadly when used against chaotic good creatures, since such a soul would inherently resist being used in such a way.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one living or recently dead creature"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "negates"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 5,
+    "weight": {
+      "value": 5
+    },
     "price": 55866,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,31 @@
       "custom": true,
       "school": "varies, varies"
     },
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "pricePerUse": 0,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "staffOfHoarding",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "consumableType": "staff",
+    "showInQuickbar": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -57,15 +84,6 @@
       "maxIncrements": 1,
       "minValue": null,
       "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "pricePerUse": 0,
-      "max": 0
     },
     "measureTemplate": {
       "type": "",
@@ -107,28 +125,18 @@
       "type": "",
       "description": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
     "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "staffOfHoarding",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "consumableType": "staff"
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

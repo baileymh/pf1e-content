@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "cd2590g7tedr0l96",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Create a barrier that blocks the movement and abilities of a certain type of creatures"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Create a barrier that blocks the movement and abilities of a certain type of creatures"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "creation",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": false,
       "divineFocus": 0
@@ -137,23 +170,49 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Haunted Heroes Handbook pg. 16</em></p><p><strong>School</strong> abjuration; <strong>Level</strong> 5</p><p><strong>Casting Time</strong> 10 minutes per 10-ft.-cube affected by the ritual (minimum of 50 minutes)</p><p><strong>Components</strong> V, S, M (materials worth 500 gp per 10-ft.-cube of the ritual's area), SC (up to 8)</p><p><strong>Skill Checks</strong> Knowledge (planes or religion) DC 35, 2 successes; Spellcraft DC 35, 3 successes</p><p><strong>Range</strong> lose</p><p><strong>Area</strong> one 10-ft. cube/2 character levels of the primary caster (S)</p><p><strong>Duration</strong> 24 hours</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> All casters become fatigued for twice the ritual's casting time.</p><p><strong>Failure</strong> All casters take a –4 penalty on saving throws against effects used by creatures that the earthbound ward was intended to affect for 24 hours.</p><h3 class=\"framing\">Effect</h3><p>The primary caster marks an enclosed space upon the ground with a material that is anathema to a specific type of creature that the caster wishes to keep at bay; typically, this ritual is used against specific outsider subtypes and undead creatures. Typical materials (and a list of creatures affected by those materials) include cold iron powder (daemons, demons, and fey), mithral or silver powder (devils and lycanthropes), oil mixed with sulfur (agathions, angels, archons, and azatas), and salt (undead and outsiders with the incorporeal subtype). At the GM's decision, additional materials may be available for use against other creatures. The area to be affected must be enclosed, with no gaps in the material's outline.</p><p></p><p> If the ritual is successful, creatures to whom the used material is anathema cannot enter or exit the warded area, much as if the area were under the effects of an outward facing magic circle effect against those creatures. Those creatures cannot cross the area's boundaries or exit it by any means, including via extradimensional travel (<em>astral projection</em>, <em>blink</em>, <em>dimension door</em>, <em>etherealness</em>, <em>gate</em>, <em>plane shift</em>, <em>shadow walk</em>, <em>teleport</em>, <em>wind walk</em>, or similar means), and they cannot reach across the area's boundaries with melee attacks (even those with greater than 5 feet of reach). Incorporeal creatures cannot enter or pass through solid objects into or out of a warded area. An affected creature can make physical ranged attacks at targets within the earthbound ward, but the ward blocks line of effect (but not line of sight) for spells. Flight allows a creature to pass over earthbound wards, but it cannot approach closer than 10 feet off the ground within the area outlined by the ward. A flying creature that falls or otherwise attempts to land in the area is instead shunted to the closest available area just outside of the earthbound ward's area of effect and is knocked prone.</p><p></p><p> If the markings used to create an earthbound ward are disturbed or defaced, the effects of the ritual immediately cease. Physical efforts (such as scratching, erasing, or otherwise breaking or damaging the materials), spells, spell-like abilities, and supernatural abilities used by a creature for whom the material is anathema cannot target the markings. Such creatures can damage the markings as a consequence of those abilities, so long as the markings aren't directly targeted. For example, such a creature can use <em>earthquake</em> to disturb an earthbound ward set against it because the spell targets an area, not the markings itself. The ritual's magic prevents minor effects from disrupting the wards, although severe or stronger winds can do so.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

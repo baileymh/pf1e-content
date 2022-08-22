@@ -10,6 +10,325 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [
+      {
+        "_id": "sfzdsn9xp2o0p6hz",
+        "name": "Attack",
+        "img": "systems/pf1/icons/skills/mech_8.jpg",
+        "description": "",
+        "tag": "commonConditionalModifiers",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": "turn"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "charges",
+          "value": 0,
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "cone",
+          "size": "10",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "1d1",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "nonCritParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ]
+        },
+        "attackParts": [
+          [
+            "",
+            ""
+          ]
+        ],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "10",
+          "type": "fort",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [
+          {
+            "default": false,
+            "name": "Flanking",
+            "modifiers": [
+              {
+                "formula": "2",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "untyped",
+                "critical": "normal",
+                "_id": "ak4xa7phgj693uas"
+              }
+            ],
+            "_id": "jxal6n985iw36vu9"
+          },
+          {
+            "default": false,
+            "name": "Outflank",
+            "modifiers": [
+              {
+                "formula": "4",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "untyped",
+                "critical": "normal",
+                "_id": "isj7cyk3wfoe6f8x"
+              }
+            ],
+            "_id": "88eiweat07czn65c"
+          },
+          {
+            "default": false,
+            "name": "Study target",
+            "modifiers": [
+              {
+                "formula": "1",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "untyped",
+                "critical": "normal",
+                "_id": "v3uffws5luh85j12"
+              },
+              {
+                "formula": "1",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "normal",
+                "_id": "3uw2f4o4idptmqkg",
+                "damageType": {
+                  "values": [],
+                  "custom": ""
+                }
+              }
+            ],
+            "_id": "fcv3g2cj5y3kqfl5"
+          },
+          {
+            "default": false,
+            "name": "Sneak Attack",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "damage",
+                "subTarget": "allDamage",
+                "type": "",
+                "critical": "nonCrit",
+                "_id": "4i579lcqh1drwcjb",
+                "damageType": {
+                  "values": [],
+                  "custom": "Precision"
+                }
+              }
+            ],
+            "_id": "oxr965uy6xud5hmr"
+          },
+          {
+            "default": false,
+            "name": "Precise Strike",
+            "modifiers": [
+              {
+                "formula": "1d6",
+                "target": "effect",
+                "subTarget": "dc",
+                "type": "",
+                "critical": "",
+                "_id": "4p4tjpmu4r8avzsd"
+              }
+            ],
+            "_id": "52eps820u3plzlol"
+          },
+          {
+            "default": false,
+            "name": "Generic Bonus to DC",
+            "modifiers": [
+              {
+                "formula": "1",
+                "target": "effect",
+                "subTarget": "dc",
+                "type": "",
+                "critical": "",
+                "_id": "lo924s86ycqtc36g"
+              }
+            ],
+            "_id": "6zbc0z8b61hqqcpu"
+          },
+          {
+            "default": false,
+            "name": "Charging",
+            "modifiers": [
+              {
+                "formula": "2",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "untyped",
+                "critical": "normal",
+                "_id": "lzxq0b87k0iu85d8"
+              }
+            ],
+            "_id": "kt5ymbatbk0165y4"
+          },
+          {
+            "default": false,
+            "name": "Increased Charge Use",
+            "modifiers": [
+              {
+                "formula": "1",
+                "target": "misc",
+                "subTarget": "charges",
+                "type": "",
+                "critical": "",
+                "_id": "ave20w1b09g41e6f"
+              }
+            ],
+            "_id": "3ewzc1uacrtrboco"
+          },
+          {
+            "default": false,
+            "name": "Crit Confirm Bonus",
+            "modifiers": [
+              {
+                "formula": "1",
+                "target": "attack",
+                "subTarget": "allAttack",
+                "type": "untyped",
+                "critical": "crit",
+                "_id": "u3m510hd7m2jiz23"
+              }
+            ],
+            "_id": "6558y82m14qmb3kn"
+          }
+        ],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": [],
+      "ammunition": []
+    },
+    "tag": "commonConditionalModifiers",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "showInQuickbar": true,
+    "broken": false,
+    "ammoType": "",
+    "attackType": "weapon",
+    "weaponGroups": {
+      "value": [],
+      "custom": ""
+    },
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -24,36 +343,11 @@
       "value": "",
       "units": "turn"
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": "",
-      "units": "ft",
-      "maxIncrements": "1",
-      "minValue": null,
-      "minUnits": "melee"
-    },
-    "uses": {
-      "value": 0,
-      "per": "charges",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
     "measureTemplate": {
       "type": "cone",
-      "size": "10",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+      "size": "10"
     },
-    "attackName": "",
     "actionType": "mwak",
-    "attackBonus": "",
-    "critConfirmBonus": "",
     "damage": {
       "parts": [
         [
@@ -80,53 +374,16 @@
         ""
       ]
     ],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": ""
-    },
-    "formula": "",
     "ability": {
       "attack": "",
       "damage": "str",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
       "dc": "10",
-      "type": "fort",
-      "description": ""
+      "type": "fort"
     },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": [],
-      "ammunition": []
-    },
-    "tag": "commonConditionalModifiers",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "attackType": "weapon",
-    "nonlethal": false,
-    "proficient": true,
-    "primaryAttack": true,
-    "held": "normal",
-    "showInQuickbar": true,
-    "broken": false,
     "conditionals": [
       {
         "default": false,
@@ -254,21 +511,17 @@
       }
     ],
     "identifiedName": "Common Conditional Modifiers",
-    "attack": {
-      "parts": []
-    },
-    "size": "med"
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-buffs.jTaeREVBdEeawArA"
-    }
-  }
+  "flags": {}
 }

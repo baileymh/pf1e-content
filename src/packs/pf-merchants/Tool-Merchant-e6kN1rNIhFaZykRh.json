@@ -88,29 +88,23 @@
       "ac": {
         "normal": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "touch": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "flatFooted": {
-          "value": 0,
-          "total": 10
+          "value": 0
         }
       },
       "cmd": {
         "strAbility": "str",
         "dexAbility": "dex",
-        "value": 0,
-        "total": 10,
-        "flatFootedTotal": 10
+        "value": 0
       },
       "sr": {
-        "formula": "",
-        "total": 0
+        "formula": ""
       },
       "clCheck": false,
       "saveNotes": "",
@@ -149,48 +143,44 @@
         "base": 0,
         "temp": 0,
         "nonlethal": 0,
-        "max": 0
+        "offset": 0
       },
       "wounds": {
         "min": 0,
         "base": 0,
         "value": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "vigor": {
         "min": 0,
         "value": 0,
         "temp": 0,
         "base": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "init": {
         "value": 0,
         "ability": "dex",
-        "bonus": 0,
-        "total": 0
+        "bonus": 0
       },
       "speed": {
         "land": {
-          "base": 30,
-          "total": 30
+          "base": 30
         },
         "climb": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "swim": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "burrow": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "fly": {
           "base": 0,
-          "maneuverability": "average",
-          "total": null
+          "maneuverability": "average"
         }
       },
       "conditions": {
@@ -219,13 +209,11 @@
         "stunned": false
       },
       "spells": {
-        "usedSpellbooks": [],
         "spellbooks": {
           "primary": {
-            "altName": "",
+            "name": "Primary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Primary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -240,6 +228,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -263,54 +252,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "secondary": {
-            "altName": "",
+            "name": "Secondary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Secondary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -325,6 +305,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -348,54 +329,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "tertiary": {
-            "altName": "",
+            "name": "Tertiary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Tertiary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -410,6 +382,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -433,54 +406,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "spelllike": {
-            "altName": "",
+            "name": "Spell-likes",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Spell-likes",
             "casterType": "high",
             "class": "_hd",
             "cl": {
@@ -495,6 +459,7 @@
             "ability": "cha",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -518,61 +483,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           }
         }
       },
       "encumbrance": {
-        "level": 0,
-        "levels": {
-          "light": 33,
-          "medium": 66,
-          "heavy": 100,
-          "carry": 200,
-          "drag": 500
-        },
-        "carriedWeight": 0
+        "levels": {}
       },
       "hd": {
         "total": 1,
@@ -657,8 +606,7 @@
         }
       },
       "cr": {
-        "base": 1,
-        "total": 1
+        "base": 1
       },
       "mythicTier": 0,
       "type": "",
@@ -1010,7 +958,24 @@
     "customSkills": {},
     "traits": {
       "size": "med",
-      "senses": "",
+      "senses": {
+        "dv": 0,
+        "ts": 0,
+        "bs": 0,
+        "bse": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "dim": 2,
+            "bright": 2
+          }
+        },
+        "sid": false,
+        "tr": false,
+        "si": false,
+        "sc": false,
+        "custom": ""
+      },
       "dr": "",
       "eres": "",
       "cres": "",
@@ -1126,7 +1091,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -1163,16 +1130,14 @@
         "tag": "abacus",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1202,7 +1167,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -1239,16 +1206,14 @@
         "tag": "acrobatsPillar",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1278,7 +1243,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -1315,16 +1282,14 @@
         "tag": "alchemicalSlingBullet",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1354,7 +1319,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 250,
         "size": "med",
         "equipped": false,
@@ -1391,16 +1358,14 @@
         "tag": "altarPortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1430,7 +1395,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 400,
         "size": "med",
         "equipped": false,
@@ -1467,16 +1434,14 @@
         "tag": "altarPortableMasterwork",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1506,7 +1471,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 25,
+        "weight": {
+          "value": 25
+        },
         "price": 300,
         "size": "med",
         "equipped": false,
@@ -1543,16 +1510,14 @@
         "tag": "anchoringBalloon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1582,7 +1547,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -1619,16 +1586,14 @@
         "tag": "anvil",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1658,7 +1623,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 300,
         "size": "med",
         "equipped": false,
@@ -1695,16 +1662,14 @@
         "tag": "arcaneFamilyWorkbook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1734,7 +1699,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -1771,16 +1738,14 @@
         "tag": "armorTruss",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1810,7 +1775,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 15,
+        "weight": {
+          "value": 15
+        },
         "price": 450,
         "size": "med",
         "equipped": false,
@@ -1847,16 +1814,14 @@
         "tag": "authoritativeVestments",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1886,7 +1851,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 12,
+        "weight": {
+          "value": 12
+        },
         "price": 0.8,
         "size": "med",
         "equipped": false,
@@ -1923,16 +1890,14 @@
         "tag": "balancingPole",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1962,7 +1927,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -1999,16 +1966,14 @@
         "tag": "bearTrap",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2038,7 +2003,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 12,
+        "weight": {
+          "value": 12
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -2075,16 +2042,14 @@
         "tag": "belledCatsuit",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2114,7 +2079,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -2151,16 +2118,14 @@
         "tag": "bellows",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2190,7 +2155,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -2227,16 +2194,14 @@
         "tag": "billyTenbells",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2266,7 +2231,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 25,
+        "weight": {
+          "value": 25
+        },
         "price": 650,
         "size": "med",
         "equipped": false,
@@ -2303,16 +2270,14 @@
         "tag": "blackwoodFigurehead",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2342,7 +2307,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -2379,16 +2346,14 @@
         "tag": "boline",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2418,7 +2383,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 12,
         "size": "med",
         "equipped": false,
@@ -2455,16 +2422,14 @@
         "tag": "bombchucker",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2494,7 +2459,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -2531,16 +2498,14 @@
         "tag": "bronzeGong",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2570,7 +2535,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -2607,16 +2574,14 @@
         "tag": "celestialCenser",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2646,7 +2611,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 300,
         "size": "med",
         "equipped": false,
@@ -2683,16 +2650,14 @@
         "tag": "celestialLamp",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2722,7 +2687,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -2759,16 +2726,14 @@
         "tag": "chainsOfContrition",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2798,7 +2763,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -2835,16 +2802,14 @@
         "tag": "cheatSheath",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2874,7 +2839,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -2911,16 +2878,14 @@
         "tag": "compactSpellbook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2950,7 +2915,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -2987,16 +2954,14 @@
         "tag": "compressedAir",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3026,7 +2991,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -3063,16 +3030,14 @@
         "tag": "consecratedWeapon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3102,7 +3067,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -3139,16 +3106,14 @@
         "tag": "convocationBells",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3178,7 +3143,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -3215,16 +3182,14 @@
         "tag": "cosmogram",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3254,7 +3219,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1.5,
+        "weight": {
+          "value": 1.5
+        },
         "price": 130,
         "size": "med",
         "equipped": false,
@@ -3291,16 +3258,14 @@
         "tag": "darkwoodMwagniHarp",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3330,7 +3295,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -3367,16 +3334,14 @@
         "tag": "dissipatingFan",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3406,7 +3371,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -3443,16 +3410,14 @@
         "tag": "doctorsMask",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3482,7 +3447,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -3519,16 +3486,14 @@
         "tag": "doctorsOutfit",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3558,7 +3523,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -3595,16 +3562,14 @@
         "tag": "driftwoodIcon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3634,7 +3599,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 35,
         "size": "med",
         "equipped": false,
@@ -3671,16 +3638,14 @@
         "tag": "drownersHelm",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3710,7 +3675,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -3747,16 +3714,14 @@
         "tag": "eyeglasses",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3786,7 +3751,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -3823,16 +3790,14 @@
         "tag": "fetishTribal",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3862,7 +3827,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 0.1,
         "size": "med",
         "equipped": false,
@@ -3899,16 +3866,14 @@
         "tag": "fireCarrier",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3938,7 +3903,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -3975,16 +3942,14 @@
         "tag": "flotationDevice",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4014,7 +3979,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -4051,16 +4018,14 @@
         "tag": "footprintBook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4090,7 +4055,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -4127,16 +4094,14 @@
         "tag": "footprintCast",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4166,7 +4131,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -4203,16 +4170,14 @@
         "tag": "forecastStation",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4242,7 +4207,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -4279,16 +4246,14 @@
         "tag": "formulaBook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4318,7 +4283,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -4355,16 +4322,14 @@
         "tag": "gabion",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4394,7 +4359,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -4431,16 +4398,14 @@
         "tag": "grapplersGrease",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4470,7 +4435,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -4507,16 +4474,14 @@
         "tag": "hallowedChalice",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4546,7 +4511,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 24,
+        "weight": {
+          "value": 24
+        },
         "price": 8,
         "size": "med",
         "equipped": false,
@@ -4583,16 +4550,14 @@
         "tag": "halteres",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4622,7 +4587,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 20,
+        "weight": {
+          "value": 20
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -4659,16 +4626,14 @@
         "tag": "handRotaryQuern",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4698,7 +4663,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -4735,16 +4702,14 @@
         "tag": "handleHarness",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4774,7 +4739,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 7,
+        "weight": {
+          "value": 7
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -4811,16 +4778,14 @@
         "tag": "hangingBoard",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4850,7 +4815,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 0,
         "size": "med",
         "equipped": false,
@@ -4887,16 +4854,14 @@
         "tag": "hollyAndMistletoe",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4926,7 +4891,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -4963,16 +4930,14 @@
         "tag": "huntersSight",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5002,7 +4967,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -5039,16 +5006,14 @@
         "tag": "instrumentOfTheDivine",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5078,7 +5043,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -5115,16 +5082,14 @@
         "tag": "ironEye",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5154,7 +5119,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -5191,16 +5158,14 @@
         "tag": "justScale",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5230,7 +5195,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 8,
+        "weight": {
+          "value": 8
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -5267,16 +5234,14 @@
         "tag": "kitAnimalDisguise",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5306,7 +5271,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -5343,16 +5310,14 @@
         "tag": "kitAntidote",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5382,7 +5347,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 80,
         "size": "med",
         "equipped": false,
@@ -5419,16 +5386,14 @@
         "tag": "kitClimbers",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5463,7 +5428,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 8,
+        "weight": {
+          "value": 8
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -5500,16 +5467,14 @@
         "tag": "kitDisguise",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5539,7 +5504,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -5576,16 +5543,14 @@
         "tag": "kitForgers",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5615,7 +5580,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -5652,16 +5619,14 @@
         "tag": "kitHalforcDisguise",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5696,7 +5661,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -5733,16 +5700,14 @@
         "tag": "kitHealers",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5772,7 +5737,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -5809,16 +5776,14 @@
         "tag": "kitJugglers",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5848,7 +5813,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -5885,16 +5852,14 @@
         "tag": "kitLeeching",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5929,7 +5894,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -5966,16 +5933,14 @@
         "tag": "kitMidwifes",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6005,7 +5970,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 8,
+        "weight": {
+          "value": 8
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -6042,16 +6009,14 @@
         "tag": "kitStatueDisguise",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6081,7 +6046,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -6118,16 +6085,14 @@
         "tag": "kitSymptom",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6157,7 +6122,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -6194,16 +6161,14 @@
         "tag": "kitVeterinarians",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6233,7 +6198,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -6270,16 +6237,14 @@
         "tag": "labAlchemists",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6314,7 +6279,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 20,
+        "weight": {
+          "value": 20
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -6351,16 +6318,14 @@
         "tag": "labAlchemistsPortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6390,7 +6355,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 300,
         "size": "med",
         "equipped": false,
@@ -6427,16 +6394,14 @@
         "tag": "labArtificersPortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6466,7 +6431,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 1000,
         "size": "med",
         "equipped": false,
@@ -6503,16 +6470,14 @@
         "tag": "legStabilizersPair",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6542,7 +6507,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -6579,16 +6546,14 @@
         "tag": "lockOfTheSaved",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6618,7 +6583,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 0.8,
         "size": "med",
         "equipped": false,
@@ -6655,16 +6622,14 @@
         "tag": "marlinspike",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6694,7 +6659,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -6731,16 +6698,14 @@
         "tag": "masterworkFlippers",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6770,7 +6735,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -6807,16 +6774,14 @@
         "tag": "masterworkTool",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6846,7 +6811,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -6883,16 +6850,14 @@
         "tag": "meditationCrystal",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6922,7 +6887,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 30,
+        "weight": {
+          "value": 30
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -6959,16 +6926,14 @@
         "tag": "meels",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6998,7 +6963,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -7035,16 +7002,14 @@
         "tag": "merchantsScale",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7074,7 +7039,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 40,
+        "weight": {
+          "value": 40
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -7111,16 +7078,14 @@
         "tag": "monsterDummy",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7150,7 +7115,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 60,
         "size": "med",
         "equipped": false,
@@ -7187,16 +7154,14 @@
         "tag": "natureClimbingHarness",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7226,7 +7191,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -7263,16 +7230,14 @@
         "tag": "obsessionLog",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7302,7 +7267,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 80,
         "size": "med",
         "equipped": false,
@@ -7339,16 +7306,14 @@
         "tag": "occultReferenceMaterial",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7378,7 +7343,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -7415,16 +7382,14 @@
         "tag": "occultistsImplement",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7454,7 +7419,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -7491,16 +7458,14 @@
         "tag": "painWheel",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7530,7 +7495,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 80,
         "size": "med",
         "equipped": false,
@@ -7567,16 +7534,14 @@
         "tag": "palmPaws",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7606,7 +7571,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 0.1,
         "size": "med",
         "equipped": false,
@@ -7643,16 +7610,14 @@
         "tag": "pigGrease",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7682,7 +7647,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 2000,
         "size": "med",
         "equipped": false,
@@ -7719,16 +7686,14 @@
         "tag": "pnakoticRecord",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7758,7 +7723,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -7795,16 +7762,14 @@
         "tag": "poisonBelcher",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7834,7 +7799,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -7871,16 +7838,14 @@
         "tag": "poisonedLocket",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7910,7 +7875,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -7947,16 +7914,14 @@
         "tag": "poisonedQuill",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7986,7 +7951,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -8023,16 +7990,14 @@
         "tag": "poisonersGoblet",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8062,7 +8027,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -8099,16 +8066,14 @@
         "tag": "portraitBook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8138,7 +8103,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -8175,16 +8142,14 @@
         "tag": "practiceStraitjacket",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8214,7 +8179,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 150,
+        "weight": {
+          "value": 150
+        },
         "price": 250,
         "size": "med",
         "equipped": false,
@@ -8251,16 +8218,14 @@
         "tag": "printingPress1page",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8290,7 +8255,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -8327,16 +8294,14 @@
         "tag": "prognosticationManual",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8366,7 +8331,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -8403,16 +8370,14 @@
         "tag": "psychometristsGloves",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8442,7 +8407,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 30,
+        "weight": {
+          "value": 30
+        },
         "price": 40,
         "size": "med",
         "equipped": false,
@@ -8479,16 +8446,14 @@
         "tag": "quintain",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8518,7 +8483,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 20,
         "size": "med",
         "equipped": false,
@@ -8555,16 +8522,14 @@
         "tag": "ritualDisk",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8594,7 +8559,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -8631,16 +8598,14 @@
         "tag": "roarCord",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8670,7 +8635,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -8707,16 +8674,14 @@
         "tag": "roperunner",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8746,7 +8711,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -8783,16 +8750,14 @@
         "tag": "rustRepellent",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8822,7 +8787,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -8859,16 +8826,14 @@
         "tag": "samsaranLifeWheel",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8898,7 +8863,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -8935,16 +8902,14 @@
         "tag": "sanctifiedRingsPair",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -8974,7 +8939,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -9011,16 +8978,14 @@
         "tag": "sanctifiedShield",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9050,7 +9015,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 35,
+        "weight": {
+          "value": 35
+        },
         "price": 80,
         "size": "med",
         "equipped": false,
@@ -9087,16 +9054,14 @@
         "tag": "sentryMannequinMasterwork",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9126,7 +9091,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -9163,16 +9130,14 @@
         "tag": "shadowStencilSet",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9202,7 +9167,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -9239,16 +9206,14 @@
         "tag": "sleeveHolster",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9278,7 +9243,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 35,
+        "weight": {
+          "value": 35
+        },
         "price": 800,
         "size": "med",
         "equipped": false,
@@ -9315,16 +9282,14 @@
         "tag": "solariumPortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9354,7 +9319,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 6,
         "size": "med",
         "equipped": false,
@@ -9391,16 +9358,14 @@
         "tag": "speakingTrumpet",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9430,7 +9395,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -9467,16 +9434,14 @@
         "tag": "spellComponentPouch",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9506,7 +9471,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -9543,16 +9510,14 @@
         "tag": "spellbook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9582,7 +9547,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -9619,16 +9586,14 @@
         "tag": "spikedFocusWard",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9658,7 +9623,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -9695,16 +9662,14 @@
         "tag": "starCharts",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9734,7 +9699,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -9771,16 +9738,14 @@
         "tag": "stingingWhip",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9810,7 +9775,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -9847,16 +9814,14 @@
         "tag": "stretcher",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9886,7 +9851,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -9923,16 +9890,14 @@
         "tag": "sugarGlassBottle",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -9962,7 +9927,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 250,
         "size": "med",
         "equipped": false,
@@ -9999,16 +9966,14 @@
         "tag": "sunderedMask",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10038,7 +10003,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 25,
+        "weight": {
+          "value": 25
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -10075,16 +10042,14 @@
         "tag": "surefootTrainingBlocks",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10114,7 +10079,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 25,
+        "weight": {
+          "value": 25
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -10151,16 +10118,14 @@
         "tag": "sweatLodgePortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10190,7 +10155,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 0.1,
         "size": "med",
         "equipped": false,
@@ -10227,16 +10194,14 @@
         "tag": "swimFins",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10266,7 +10231,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -10303,16 +10270,14 @@
         "tag": "teachingStaff",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10342,7 +10307,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -10379,16 +10346,14 @@
         "tag": "terrariumPortable",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10418,7 +10383,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -10455,16 +10422,14 @@
         "tag": "thePropheciesOfKalistrade",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10494,7 +10459,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -10531,16 +10498,14 @@
         "tag": "thermometer",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10570,7 +10535,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -10607,16 +10574,14 @@
         "tag": "thiefTrainer",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10646,7 +10611,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 300,
         "size": "med",
         "equipped": false,
@@ -10683,16 +10650,14 @@
         "tag": "thievesRing",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10722,7 +10687,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -10759,16 +10726,14 @@
         "tag": "tinkersCap",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10798,7 +10763,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -10835,16 +10802,14 @@
         "tag": "tomeOfEpics",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10874,7 +10839,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 20,
         "size": "med",
         "equipped": false,
@@ -10911,16 +10878,14 @@
         "tag": "toolsSurgeons",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -10950,7 +10915,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 0.1,
         "size": "med",
         "equipped": false,
@@ -10987,16 +10954,14 @@
         "tag": "tossglove",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11026,7 +10991,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 1000,
         "size": "med",
         "equipped": false,
@@ -11063,16 +11030,14 @@
         "tag": "travelersPocketWatch",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11102,7 +11067,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -11139,16 +11106,14 @@
         "tag": "travelingFormulaBook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11178,7 +11143,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -11215,16 +11182,14 @@
         "tag": "travelingSpellbook",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11254,7 +11219,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 0.8,
         "size": "med",
         "equipped": false,
@@ -11291,16 +11258,14 @@
         "tag": "trespassersBoot",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11330,7 +11295,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 400,
         "size": "med",
         "equipped": false,
@@ -11367,16 +11334,14 @@
         "tag": "vigilCap",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11406,7 +11371,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -11443,16 +11410,14 @@
         "tag": "wandOfMisery",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11482,7 +11447,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -11519,16 +11486,14 @@
         "tag": "waster",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11558,7 +11523,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -11595,16 +11562,14 @@
         "tag": "wingHooks",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Tools"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Tools"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11634,7 +11599,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -11671,16 +11638,14 @@
         "tag": "wingedFetish",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Channel Foci"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Channel Foci"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -11701,10 +11666,9 @@
   ],
   "effects": [],
   "folder": null,
-  "sort": 100001,
+  "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {
     "pf1": {

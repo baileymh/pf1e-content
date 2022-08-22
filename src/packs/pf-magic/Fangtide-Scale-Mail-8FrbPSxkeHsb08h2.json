@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 30,
+    "weight": {
+      "value": 30
+    },
     "price": 4890,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,57 @@
       "custom": true,
       "school": "enchantment evocation and illusion"
     },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "fangtideScaleMail",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "equipmentType": "armor",
+    "equipmentSubtype": "mediumArmor",
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0
+    },
+    "spellFailure": 0,
+    "slot": "slotless",
+    "showInQuickbar": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -58,27 +111,6 @@
       "minValue": null,
       "minUnits": ""
     },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
-    },
-    "contextNotes": [],
     "measureTemplate": {
       "type": "",
       "size": "",
@@ -119,44 +151,20 @@
       "type": "",
       "description": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
     "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
     },
-    "tag": "fangtideScaleMail",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "masterwork": true,
-    "enh": null,
     "attackType": "weapon",
-    "nonlethal": false,
-    "proficient": true,
-    "primaryAttack": true,
-    "held": "normal",
-    "equipmentType": "armor",
-    "equipmentSubtype": "mediumArmor",
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0
-    },
-    "spellFailure": 0,
-    "slot": "slotless"
+    "nonlethal": false
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

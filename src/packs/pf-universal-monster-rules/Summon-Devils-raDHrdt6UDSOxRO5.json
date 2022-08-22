@@ -10,95 +10,127 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "swift"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": "action"
+    "actions": [
+      {
+        "_id": "xm5n48fq1tl2otth",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/yellow_20.jpg",
+        "description": "",
+        "tag": "summonDevilsSp",
+        "activation": {
+          "cost": 1,
+          "type": "swift"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 3,
+          "maxFormula": "",
+          "max": 3
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "30",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "15",
+          "type": "will",
+          "description": "Reduces or Negates (see text)"
+        },
+        "effectNotes": [
+          "DC 10 + 1/2 the qlippoth’s Hit Dice+ the qlippoth’s Charisma modifier"
+        ],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": "",
-      "units": "",
-      "maxIncrements": "1",
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 3,
       "per": "day",
+      "value": 3,
+      "maxFormula": "",
       "autoDeductCharges": true,
       "autoDeductChargesCost": "1",
-      "maxFormula": "",
       "max": 3
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "30",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "15",
-      "type": "will",
-      "description": "Reduces or Negates (see text)"
-    },
-    "effectNotes": [
-      "DC 10 + 1/2 the qlippoth’s Hit Dice+ the qlippoth’s Charisma modifier"
-    ],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -115,9 +147,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "misc",
@@ -129,17 +165,45 @@
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "swift"
     },
-    "size": "med"
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "measureTemplate": {
+      "size": "30"
+    },
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "15",
+      "type": "will",
+      "description": "Reduces or Negates (see text)"
+    },
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

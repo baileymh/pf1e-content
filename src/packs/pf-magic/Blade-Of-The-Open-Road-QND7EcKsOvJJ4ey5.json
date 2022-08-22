@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 4,
+    "weight": {
+      "value": 4
+    },
     "price": 19715,
     "size": "med",
     "equipped": true,
@@ -46,6 +48,152 @@
       "oneWis": false,
       "oneCha": false
     },
+    "actions": [
+      {
+        "_id": "48tscc8i626w7erv",
+        "name": "Attack",
+        "img": "systems/pf1/icons/items/weapons/estoc.PNG",
+        "description": "",
+        "tag": "bladeOfTheOpenRoad",
+        "activation": {
+          "cost": 1,
+          "type": "attack"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "attack"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "melee",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "sizeRoll(1, 4, @size)",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "ceil(@attributes.bab.total / 5) - 1"
+          },
+          "bonus": {
+            "formula": "@formulaicAttack * -5"
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "bladeOfTheOpenRoad",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": null,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponGroups": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponType": "simple",
+    "weaponSubtype": "light",
+    "properties": {},
+    "showInQuickbar": false,
+    "ammoType": "",
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -69,14 +217,6 @@
       "maxIncrements": 1,
       "minValue": null,
       "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
     },
     "measureTemplate": {
       "type": "",
@@ -123,32 +263,16 @@
       "type": "",
       "description": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
     "soundEffect": "",
-    "contextNotes": [],
-    "links": {
-      "children": []
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
     },
-    "tag": "bladeOfTheOpenRoad",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "masterwork": true,
-    "enh": null,
     "attackType": "weapon",
     "nonlethal": false,
-    "proficient": true,
-    "primaryAttack": true,
-    "held": "normal",
-    "weaponType": "simple",
-    "weaponSubtype": "light",
-    "properties": {},
-    "showInQuickbar": false,
     "conditionals": [],
+    "usesAmmo": false,
     "bonus": {
       "value": 0,
       "_deprecated": true
@@ -170,8 +294,7 @@
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }
