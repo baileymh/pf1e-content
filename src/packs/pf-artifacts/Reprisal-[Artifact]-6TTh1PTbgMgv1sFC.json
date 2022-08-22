@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1
+    },
     "price": 0,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,177 @@
       "custom": false,
       "school": "trs"
     },
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "actions": [
+      {
+        "_id": "o51e6dfs8emn3ohb",
+        "name": "Attack",
+        "img": "systems/pf1/assets/icons/items/weapons/rapier.png",
+        "description": "",
+        "tag": "reprisalArtifact",
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              {
+                "values": [
+                  "piercing"
+                ],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "dex",
+          "damageMult": 1,
+          "critRange": 18,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 1,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": 2
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "reprisalArtifact",
+    "useCustomTag": true,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": true,
+    "enh": 2,
+    "proficient": true,
+    "primaryAttack": true,
+    "held": "normal",
+    "weaponGroups": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponType": "martial",
+    "weaponSubtype": "1h",
+    "properties": {
+      "fin": true,
+      "blc": false,
+      "thr": false,
+      "dis": false,
+      "dst": false,
+      "dbl": false,
+      "prf": false,
+      "frg": false,
+      "imp": false,
+      "dea": false,
+      "grp": false,
+      "mnk": false,
+      "nnl": false,
+      "rch": false,
+      "brc": false,
+      "trp": false,
+      "snd": false
+    },
+    "showInQuickbar": true,
+    "ammoType": "",
     "activation": {
       "cost": 1,
       "type": ""
@@ -47,10 +220,6 @@
     "duration": {
       "value": null,
       "units": ""
-    },
-    "uses": {
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1"
     },
     "actionType": "mwak",
     "damage": {
@@ -77,38 +246,17 @@
       "damageBonus": 1,
       "critMultiplier": 1
     },
-    "tag": "reprisalArtifact",
-    "useCustomTag": true,
-    "flags": {},
-    "masterwork": true,
-    "enh": 2,
     "attackType": "weapon",
-    "proficient": true,
-    "primaryAttack": true,
-    "held": "normal",
-    "weaponType": "martial",
-    "weaponSubtype": "1h",
-    "properties": {
-      "fin": true,
-      "blc": false,
-      "thr": false,
-      "dis": false,
-      "dst": false,
-      "dbl": false,
-      "prf": false,
-      "frg": false,
-      "imp": false,
-      "dea": false,
-      "grp": false,
-      "mnk": false,
-      "nnl": false,
-      "rch": false,
-      "brc": false,
-      "trp": false,
-      "snd": false
-    },
-    "showInQuickbar": true,
     "usesAmmo": false,
-    "ammoType": ""
-  }
+    "range": {
+      "maxIncrements": 1
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {}
 }
