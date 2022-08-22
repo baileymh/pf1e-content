@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 10,
+    "weight": {
+      "value": 10
+    },
     "price": 100,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,151 @@
       "custom": false,
       "school": ""
     },
+    "actions": [
+      {
+        "_id": "dfdxdk4zbprjntcc",
+        "name": "Use",
+        "img": "icons/commodities/stone/ore-chunk-red.webp",
+        "description": "",
+        "tag": "fieryBoulder",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "40",
+          "units": "ft",
+          "maxIncrements": "1",
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "0",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "rsak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              {
+                "values": [
+                  "fire"
+                ],
+                "custom": ""
+              }
+            ],
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 1
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "pricePerUse": 0,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "fieryBoulder",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {
+        "Category": "Alchemical Weapons"
+      }
+    },
+    "scriptCalls": [],
+    "consumableType": "misc",
+    "showInQuickbar": false,
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -48,9 +195,6 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
     "range": {
       "value": "40",
       "units": "ft",
@@ -58,27 +202,10 @@
       "minValue": null,
       "minUnits": ""
     },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "pricePerUse": 0,
-      "max": 0
-    },
     "measureTemplate": {
-      "type": "",
-      "size": "0",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+      "size": "0"
     },
-    "attackName": "",
     "actionType": "rsak",
-    "attackBonus": "",
-    "critConfirmBonus": "",
     "damage": {
       "parts": [
         [
@@ -89,64 +216,25 @@
           "",
           ""
         ]
-      ],
-      "critParts": [],
-      "nonCritParts": []
+      ]
     },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": 0
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
       "attack": "",
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 1
     },
     "save": {
       "dc": "0",
-      "type": "",
-      "description": ""
+      "type": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "fieryBoulder",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "Category",
-          "Alchemical Weapons"
-        ]
-      ]
-    },
-    "scriptCalls": [],
-    "consumableType": "misc",
-    "attack": {
-      "parts": []
-    }
+    "attack": {}
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

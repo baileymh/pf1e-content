@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 0.5,
+    "weight": {
+      "value": 0.5
+    },
     "price": 500,
     "size": "med",
     "equipped": true,
@@ -38,7 +40,6 @@
     "inventoryItems": [],
     "maxWeight": null,
     "weightReduction": 0,
-    "baseWeight": 0.5,
     "sellMultiplier": 0.5,
     "currency": {
       "pp": 0,
@@ -47,13 +48,10 @@
       "cp": 0
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "Category",
-          "Kits"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "Category": "Kits"
+      }
     },
     "basePrice": 0,
     "uses": {
@@ -62,15 +60,13 @@
     },
     "range": {
       "maxIncrements": 1
-    },
-    "conditionals": []
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

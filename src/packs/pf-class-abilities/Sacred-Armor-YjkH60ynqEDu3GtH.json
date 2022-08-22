@@ -10,80 +10,117 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "swift"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": "action"
+    "actions": [
+      {
+        "_id": "acj9ek5dioh06tve",
+        "name": "Use",
+        "img": "systems/pf1/icons/feats/arcane-armor-mastery.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "swift"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": "self"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 7,
+          "maxFormula": "@classes.warpriest.level"
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": "1",
-      "units": "minute"
-    },
-    "target": {
-      "value": "self"
-    },
-    "range": {
-      "value": null,
-      "units": "personal",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 7,
       "per": "day",
+      "value": 7,
+      "maxFormula": "@classes.warpriest.level",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "@classes.warpriest.level"
+      "autoDeductChargesCost": "1"
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -106,9 +143,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "classFeat",
@@ -124,17 +165,40 @@
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
-    "size": "med"
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "swift"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "value": "self"
+    },
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
-    "pf1": {},
     "scene-packer": {
       "sourceId": "Item.saWbq2V02ZTAr21j"
     }

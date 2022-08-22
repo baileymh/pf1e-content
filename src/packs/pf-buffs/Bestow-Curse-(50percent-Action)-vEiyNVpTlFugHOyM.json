@@ -15,12 +15,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [
       {
@@ -31,7 +26,7 @@
       {
         "text": "50% chance of taking no action.",
         "target": "spell",
-        "subTarget": "effect"
+        "subTarget": "spellEffect"
       },
       {
         "text": "50% chance of taking no action.",
@@ -45,8 +40,8 @@
     "tag": "bestowCurse50Action",
     "useCustomTag": false,
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "buffType": "temp",
@@ -57,17 +52,10 @@
       "units": ""
     },
     "hideFromToken": false,
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
     "uses": {
       "value": 0,
       "max": 0
     },
-    "attackParts": [],
-    "conditionals": [],
     "identifiedName": "Bestow Curse (50% Action)",
     "range": {
       "maxIncrements": 1
@@ -78,8 +66,7 @@
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "zVsAG968dy8xHxpn": 3
+    "default": 0
   },
   "flags": {}
 }

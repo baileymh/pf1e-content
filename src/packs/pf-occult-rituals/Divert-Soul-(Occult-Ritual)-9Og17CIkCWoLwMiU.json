@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one helpless creature or soul (such as a soul imprisoned by soul bind or trap the soul)"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "g8wtaf55xdc2hodo",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one helpless creature or soul (such as a soul imprisoned by soul bind or trap the soul)"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Redirect a bound soul to a specific afterlife, not the one Pharasma would send it to"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Redirect a bound soul to a specific afterlife, not the one Pharasma would send it to"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "healing",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,52 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Concordance of Rivals pg. 46</em></p><p><strong>School</strong> necromancy; <strong>Level</strong> 9</p><p><strong>Casting Time</strong> 9 hours</p><p><strong>Components</strong> V, S, M (black diamond worth 25,000 gp), F (a forked metal rod attuned to the destination plane, as that used for plane shift), SC (at least 6, up to 12)</p><p><strong>Skill Checks</strong> Knowledge (planes) DC 26, 4 successes; Knowledge (religion) DC 26, 3 successes; Spellcraft DC 26, 2 successes</p><p><strong>Range</strong> touch</p><p><strong>Target</strong> one helpless creature or soul (such as a soul imprisoned by <em>soul bind</em> or <em>trap the soul</em>)</p><p><strong>Duration</strong> instantaneous</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> For 1 week following the performance of the ritual, every psychopomp within 10 miles of a caster knows the distance and direction to that caster and is aware that the caster was involved in a ritual to thwart a soul's natural progression.</p><p><strong>Failure</strong> A helpless creature is automatically freed and whisked away to a place it considers familiar and safe, as <em>word of recall</em>. An imprisoned soul is automatically freed. In addition, a memitim psychopomp appears adjacent to each caster and attacks the caster to the best of its ability. The memitim disappears once its designated caster is slain or after 10 minutes, whichever comes first.</p><h3 class=\"framing\">Effect</h3><p>This powerful ritual attempts to shunt the target's soul to a plane determined during the preparation for the ritual. A key component of the ritual is a forked rod, just like that used for a <em>plane shift</em> spell. Any other device suitable for use as a focus component for <em>plane shift</em> is also suitable for use with this ritual. The casters form a circle around the target, each touching the shoulder of the caster to his left to form a ring representing the multiverse as a whole. The primary caster stands inside this ring with the target, holding the diamond in one hand and the forked rod in the other. As the casters chant, the primary caster walks around the target in a circle. At the conclusion of the ritual, the primary caster touches the forked rod to the black diamond, which shatters. If the ritual is performed successfully, the target's soul is immediately sent to the designated plane and manifests there as a petitioner or another appropriate outsider, just as if the designated plane were the soul's appropriate reward and regardless of the soul's actual alignment or outlook. If the target is a helpless creature, it is slain by this effect (no save). If the target is a soul trapped inside an object, the object is emptied when the soul departs to its designated destination.</p><p></p><p> As this ritual bypasses the soul's judgment and natural passage to the afterlife, it is considered anathema to the psychopomps. Agents of the psychopomp ushers actively attempt to suppress knowledge of this ritual wherever they find it, but the psychopomps' enemies-such as daemons and sahkils-work hard to disseminate knowledge of the ritual to inquisitive mortals.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one helpless creature or soul (such as a soul imprisoned by soul bind or trap the soul)"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

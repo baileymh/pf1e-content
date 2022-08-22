@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1
+    },
     "price": 2,
     "size": "med",
     "equipped": false,
@@ -48,24 +50,17 @@
     "tag": "bottle",
     "useCustomTag": false,
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "Category",
-          "Adventuring Gear"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "Category": "Adventuring Gear"
+      }
     },
     "scriptCalls": [],
     "subType": "gear",
+    "extraType": "",
     "uses": {
       "value": 0,
       "max": 0
-    },
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
     },
     "range": {
       "maxIncrements": 1
@@ -75,8 +70,7 @@
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

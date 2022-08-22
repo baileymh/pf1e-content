@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "mmphm8wcmrddhr2j",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "Reflex",
+          "description": "negates"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "Reflex",
-      "description": "negates"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Imbue a dagger with the ability to tear a destructive hole between the Material Plane and the Ethereal Plane"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Imbue a dagger with the ability to tear a destructive hole between the Material Plane and the Ethereal Plane"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,50 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Occult Adventures pg. 211</em></p><p><strong>School</strong> evocation; <strong>Level</strong> 5</p><p><strong>Casting Time</strong> 50 minutes</p><p><strong>Components</strong> V, S, M (a dollop of ectoplasm and paste extracted from ground lotus root worth 500 gp), F (an obsidian dagger with at least a +2 enhancement bonus and the <em>ghost touch</em> special weapon ability, worth at least 18,301 gp)</p><p><strong>Skill Checks</strong> Knowledge (planes) DC 29, 3 successes; Knowledge (geography) DC 29, 2 successes</p><p><strong>Range</strong> touch</p><p><strong>Effect</strong> a rip between the Material Plane and the Ethereal Plane</p><p><strong>Duration</strong> 1 hour/primary caster's character level and instantaneous; see text</p><p><strong>Saving Throw</strong> Reflex negates; <strong>SR</strong> no</p><p><strong>Backlash</strong> The caster takes 4d6 points of damage.</p><p><strong>Failure</strong> The caster gains the incorporeal subtype and is confused for 24 hours.</p><h3 class=\"framing\">Effect</h3><p>Upon this ritual's completion, the focus dagger is imbued with the power to cut a momentary rift between the Material Plane and the Ethereal Plane, though only if the caster adheres to the restrictions of the ritual.</p><p></p><p> At the ritual's start, the caster must find the perfect spot for such an incision: a place where the features of the Material Plane and the Ethereal Plane are closely aligned (the exact spot is determined by the GM). Then, after mumbling an incantation that weakens the borders of those two planes at that location, the caster must evenly coat the entire focus blade with a mixture of the material components. When that is compete, the ritual is successful and the backlash occurs, but the ritual's true effect can be delayed. As long as the caster does not move from her space, and does not stop holding the focus dagger, she can use the dagger to cut into the weakened border between the two planes as a standard action that does not provoke attacks of opportunity, but she must do so within 1 hour per character level after successfully completing the ritual and taking the backlash. Doing so has an immediate and dramatic effect-the rip attempts to suck all creatures and unattended objects within 30 feet of the caster's space that weigh less than 200 pounds into either the Ethereal Plane (if the rip is made on the Material Plane) or the Material Plane (if the rip is made on the Ethereal Plane). With a successful Reflex save, a creature avoids the rip's pull. Creatures and objects pulled into the rift land in a corresponding space on the other plane. The ritual caster can choose whether she wants to be sucked through the rift or stay on the plane where she cast the ritual.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "Reflex",
+      "description": "negates"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

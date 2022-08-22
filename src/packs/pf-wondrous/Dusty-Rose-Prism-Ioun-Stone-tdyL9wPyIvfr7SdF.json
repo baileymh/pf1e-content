@@ -1,4 +1,5 @@
 {
+  "_id": "tdyL9wPyIvfr7SdF",
   "name": "Dusty Rose Prism Ioun Stone",
   "type": "equipment",
   "img": "systems/pf1/icons/spells/light-air-fire-1.jpg",
@@ -10,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 0,
+    "weight": {
+      "value": 0
+    },
     "price": 5000,
     "size": "med",
     "equipped": true,
@@ -33,38 +36,6 @@
       "custom": true,
       "school": "varied"
     },
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
     "changes": [
       {
         "_id": "von24axj",
@@ -80,57 +51,19 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -138,14 +71,12 @@
     "tag": "dustyRosePrismIounStone",
     "useCustomTag": false,
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "masterwork": false,
     "enh": null,
-    "attackType": "weapon",
-    "nonlethal": false,
     "proficient": true,
     "primaryAttack": true,
     "held": "normal",
@@ -159,11 +90,35 @@
     },
     "spellFailure": 0,
     "slot": "slotless",
-    "conditionals": []
+    "showInQuickbar": false,
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "attackType": "weapon",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
-  "flags": {
-    "core": {}
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
   },
-  "_id": "tdyL9wPyIvfr7SdF"
+  "flags": {}
 }

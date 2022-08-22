@@ -17,93 +17,126 @@
         "Combat"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": "passive",
-      "condition": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": "passive"
+    "actions": [
+      {
+        "_id": "3eq04ypgm434jeep",
+        "name": "Use",
+        "img": "icons/weapons/swords/swords-short.webp",
+        "description": "",
+        "tag": "resolveOfTheRejected",
+        "activation": {
+          "cost": 1,
+          "type": "passive",
+          "condition": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "passive"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "day",
+          "value": 1,
+          "maxFormula": "1",
+          "max": 1
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "",
+          "type": "",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 1,
       "per": "day",
+      "value": 1,
+      "maxFormula": "1",
       "autoDeductCharges": true,
       "autoDeductChargesCost": "1",
-      "maxFormula": "1",
       "max": 1
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -120,9 +153,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "trait",
@@ -134,28 +171,37 @@
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
-    "recharge": {
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "passive",
+      "condition": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": "passive"
+      }
+    },
+    "duration": {
       "value": null,
-      "charged": false
+      "units": ""
     },
-    "attack": {
-      "parts": []
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
     },
-    "size": "med"
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "zVsAG968dy8xHxpn": 3
+    "default": 0
   },
-  "flags": {
-    "exportSource": {
-      "world": "heroes-for-hire",
-      "system": "pf1",
-      "coreVersion": "0.7.9",
-      "systemVersion": "0.76.13"
-    }
-  }
+  "flags": {}
 }

@@ -5,20 +5,20 @@
   "main": "merge.js",
   "type": "module",
   "dependencies": {
-    "@seald-io/nedb": "2.2.1",
-    "yargs": "latest",
+    "@seald-io/nedb": "^2.2.2",
     "adm-zip": "latest",
     "fs-extra": "latest",
     "json-diff": "latest",
+    "prompt": "latest",
     "slugify": "latest",
-    "prompt": "latest"
+    "yargs": "latest"
   },
   "scripts": {
     "merge": "node ./tools/merge.js",
     "prune": "node ./tools/prune.js",
     "release": "node ./tools/release.js",
-    "extract":"node ./tools/extract.js",
-    "build":"node ./tools/build.js"
+    "extract": "node ./tools/extract.js",
+    "build": "node ./tools/build.js"
   },
   "author": "Chris Sanders <sanders.chris@gmail.com>",
   "license": "GNU General Public License v3"

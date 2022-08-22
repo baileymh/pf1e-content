@@ -14,89 +14,129 @@
         "Eidolon Evolution"
       ]
     ],
-    "activation": {
-      "cost": 1,
-      "type": "full"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 3,
-        "type": "action"
+    "actions": [
+      {
+        "_id": "cwae5cqp6x56todc",
+        "name": "Use",
+        "img": "systems/pf1/icons/feats/trample.jpg",
+        "description": "",
+        "tag": "trample2Ep",
+        "activation": {
+          "cost": 1,
+          "type": "full"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "",
+          "value": 0,
+          "maxFormula": "",
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Tramble",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "sizeRoll(1, 6, @size, 4)",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "str",
+          "damageMult": 1.5,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "(10 + ( @attributes.hd.total / 2) + @abilities.str.basemod)",
+          "type": "ref",
+          "description": "Reflex for half"
+        },
+        "effectNotes": [],
+        "attackNotes": [
+          "Targets of the trample can make attacks of opportunity at a -4 penalty. If a target forgoes the attack of opportunity, it can make a Reflex save for half damage. A trampling eidolon can only deal trampling damage to a creature once per round."
+        ],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
       }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
+    ],
     "uses": {
-      "value": 0,
       "per": "",
+      "value": 0,
+      "maxFormula": "",
       "autoDeductCharges": true,
       "autoDeductChargesCost": "1",
-      "maxFormula": "",
       "max": 0
     },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "Tramble",
-    "actionType": "mwak",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [
-        [
-          "sizeRoll(1, 6, @size, 4)",
-          ""
-        ]
-      ],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": ""
-    },
-    "formula": "",
-    "ability": {
-      "attack": "",
-      "damage": "str",
-      "damageMult": 1.5,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "(10 + ( @attributes.hd.total / 2) + @abilities.str.basemod)",
-      "type": "ref",
-      "description": "Reflex for half"
-    },
+    "attackNotes": [],
     "effectNotes": [],
-    "attackNotes": [
-      "Targets of the trample can make attacks of opportunity at a -4 penalty. If a target forgoes the attack of opportunity, it can make a Reflex save for half damage. A trampling eidolon can only deal trampling damage to a creature once per round."
-    ],
-    "soundEffect": "",
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -119,9 +159,13 @@
       "value": [],
       "custom": ""
     },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "featType": "misc",
@@ -133,22 +177,55 @@
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
-    "attack": {
-      "parts": []
+    "classSkills": {},
+    "activation": {
+      "cost": 1,
+      "type": "full"
     },
-    "size": "med"
+    "unchainedAction": {
+      "activation": {
+        "cost": 3,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "attackName": "Tramble",
+    "actionType": "mwak",
+    "damage": {
+      "parts": [
+        [
+          "sizeRoll(1, 6, @size, 4)",
+          ""
+        ]
+      ]
+    },
+    "ability": {
+      "attack": "",
+      "damage": "str",
+      "damageMult": 1.5,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "(10 + ( @attributes.hd.total / 2) + @abilities.str.basemod)",
+      "type": "ref",
+      "description": "Reflex for half"
+    },
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.world.eidolon-features.VXSVwLtU12w0m9Cl"
-    },
     "scene-packer": {
       "sourceId": "Item.pYO0FhNNfbIasBku"
     }

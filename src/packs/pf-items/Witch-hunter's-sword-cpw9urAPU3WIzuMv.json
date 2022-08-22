@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 0,
+    "weight": {
+      "value": 0
+    },
     "price": 650,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,136 @@
       "custom": false,
       "school": ""
     },
+    "actions": [
+      {
+        "_id": "mu04a124ptx1vuf5",
+        "name": "Use",
+        "img": "systems/pf1/icons/items/potions/unique-9.jpg",
+        "description": "",
+        "tag": "witchhuntersSword",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "per": "single",
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "max": 0
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "19",
+          "type": "fort",
+          "description": ""
+        },
+        "effectNotes": [
+          "<b>Primary Effect:</b>  [[1]] Int, Wis, and Cha damage. As long as this poison persists, the victim takes a [[-5]] penalty on concentration checks. In addition, a creature suffering from witch-hunter’s sword poison must succeed at a concentration check (DC = 20 + double the spell’s level) to cast spells or use spell-like abilities."
+        ],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": "single",
+      "value": 0,
+      "maxFormula": "",
+      "pricePerUse": 0,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "max": 0
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "witchhuntersSword",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "consumableType": "poison",
+    "showInQuickbar": false,
     "activation": {
       "cost": 1,
       "type": "standard"
@@ -48,97 +180,26 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": "single",
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "pricePerUse": 0,
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
     "actionType": "save",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
       "damage": "",
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
     "save": {
       "dc": "19",
-      "type": "fort",
-      "description": ""
+      "type": "fort"
     },
-    "effectNotes": [
-      "<b>Primary Effect:</b>  [[1]] Int, Wis, and Cha damage. As long as this poison persists, the victim takes a [[-5]] penalty on concentration checks. In addition, a creature suffering from witch-hunter’s sword poison must succeed at a concentration check (DC = 20 + double the spell’s level) to cast spells or use spell-like abilities."
-    ],
-    "attackNotes": [],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "witchhuntersSword",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "consumableType": "poison",
-    "attack": {
-      "parts": []
+    "attack": {},
+    "range": {
+      "maxIncrements": 1
     }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-poisons.wtDt6yoCeippT43n"
-    }
-  }
+  "flags": {}
 }

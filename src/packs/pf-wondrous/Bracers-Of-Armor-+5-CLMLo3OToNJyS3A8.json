@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1
+    },
     "price": 25000,
     "size": "med",
     "equipped": true,
@@ -34,38 +36,6 @@
       "custom": true,
       "school": "conjuration"
     },
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
     "changes": [
       {
         "_id": "nqmndro3",
@@ -82,57 +52,19 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "attackName": "",
-    "actionType": null,
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -140,14 +72,12 @@
     "tag": "bracersOfArmor5",
     "useCustomTag": false,
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "masterwork": false,
     "enh": null,
-    "attackType": "weapon",
-    "nonlethal": false,
     "proficient": true,
     "primaryAttack": true,
     "held": "normal",
@@ -161,19 +91,40 @@
     },
     "spellFailure": 0,
     "slot": "wrists",
+    "showInQuickbar": false,
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": null,
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "attackType": "weapon",
     "weightConverted": 1,
     "weightUnits": "lbs",
     "priceUnits": "gp",
-    "attack": {
-      "parts": []
+    "attack": {},
+    "range": {
+      "maxIncrements": 1
     }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

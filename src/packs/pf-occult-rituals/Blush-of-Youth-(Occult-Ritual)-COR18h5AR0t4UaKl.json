@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "0s6de14sbe8fb5n3",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "null",
+          "description": ""
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "null",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Rejuvenate your beauty or living body with the blood of others"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Rejuvenate your beauty or living body with the blood of others"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": false,
       "divineFocus": 0
@@ -137,23 +170,49 @@
     "atWill": false,
     "sr": false,
     "shortDescription": "<p><strong>Source</strong> <em>Villain Codex pg. 8</em></p><p><strong>School</strong> necromancy [evil]; <strong>Level</strong> 7</p><p><strong>Casting Time</strong> 7hours</p><p><strong>Components</strong> V, S, M (a fist-sized onyx worth at least 5,000 gp, one creature of younger than adult age of the same race as the primary caster per level of the primary caster), SC (see text)</p><p><strong>Skill Checks</strong> Knowledge (arcana) DC 33, 4 successes; Disguise DC 33, 2 successes; Heal DC 33, 1 success</p><p><strong>Range</strong> primary caster</p><p><strong>Duration</strong> 1 month/character level of the primary caster; see text</p><p><strong>Saving Throw</strong> none; <strong>SR</strong> no</p><p><strong>Backlash</strong> If the ritual is successful, the primary caster loses her memories from after the physical age of her new body (see below) for 24 hours. Otherwise, unlike normal, while the secondary casters perish, the primary caster suffers no further backlash.</p><p><strong>Failure</strong> The primary caster takes damage to her highest ability score equal to that score's modifier for 1 week, and no effect can remove, suppress, or otherwise ameliorate this damage until then. All creatures receive a +5 bonus on Will saving throws to disbelieve any illusions affecting the primary caster as long as this ability damage is in effect. Finally, the primary caster cannot attempt this ritual again as long as she suffers this penalty.</p><h3 class=\"framing\">Effect</h3><p>The caster must gather her intended victims in a circle with a radius no larger than 10 feet around her and restrain them for the duration of the ritual; while they don't participate in the ritual other than as sacrifices, these victims count as secondary casters for the purpose of determining the caster's skill bonuses. At the ritual's start, the caster stands at the center of the circle of victims and chants while holding the onyx aloft. The evil energy emanating from the caster slowly siphons the victims' blood through their facial orifices; that blood travels in a liquid line from the victims to the primary caster's onyx. From there, the blood washes over the primary caster. By the end of the ritual, the primary caster's entire body is bathed in an occluding egg of thick, dripping blood.</p><p></p><p> If the ritual is completed successfully, the blood hardens and then cracks like a chrysalis, revealing that the caster's body has become youthful and attractive; regardless of her actual years, she appears to be the age at which her beauty was most radiant. Her skin looks supple and healthy, her eyes are bright and sparkle like jewels, and her voice sounds musical.</p><p></p><p> If the caster is undead, she returns to her previous creature type (before dying and becoming undead) for the ritual's duration, treating her Constitution score as being equal to her Charisma score when necessary. She counts as a living creature of her previous type, but she retains the immunities granted by the undead type as well as any special abilities granted by her particular type of undead, unless those abilities rely on appearing undead or on physical features her young living body doesn't have (for instance, she would lose horrific appearance or claw attacks gained by becoming undead, but not a lich's paralyzing touch).</p><p></p><p> An incorporeal caster has no body and can't use this ritual, and the same holds true for any non-undead creature that never ages, such as a construct.</p><p></p><p> The caster receives a +5 competence bonus on Charisma-based skill checks other than Use Magic Device. Additionally, whenever she uses an illusion spell or similar effect that makes her appear as someone or something she is not (including <em>disguise self</em>, <em>appearance of life</em>, <em>greater appearance of life</em>, or <em>veil</em>, but not <em>invisibility</em>, <em>displacement</em>, or <em>mirror image</em>), creatures take a –10 penalty on saving throws to disbelieve the illusion, and divination magic that would normally allow creatures to see through illusions (such as <em>true seeing</em>) fails to do so for this illusion. If the illusion that changes her appearance causes a negative effect on any creatures that fail their saving throw to disbelieve, the saving throw penalty does not apply.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "null"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {
