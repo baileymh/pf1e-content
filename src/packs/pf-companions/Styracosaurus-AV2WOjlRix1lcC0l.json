@@ -1,7 +1,7 @@
 {
   "_id": "AV2WOjlRix1lcC0l",
   "name": "Styracosaurus",
-  "type": "npc",
+  "type": "character",
   "img": "systems/pf1/icons/races/creature-types/animal.png",
   "data": {
     "abilities": {
@@ -86,29 +86,23 @@
       "ac": {
         "normal": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "touch": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "flatFooted": {
-          "value": 0,
-          "total": 10
+          "value": 0
         }
       },
       "cmd": {
         "strAbility": "str",
         "dexAbility": "dex",
-        "value": 0,
-        "total": 10,
-        "flatFootedTotal": 10
+        "value": 0
       },
       "sr": {
-        "formula": "",
-        "total": 0
+        "formula": ""
       },
       "clCheck": false,
       "saveNotes": "",
@@ -127,12 +121,12 @@
       "quadruped": false,
       "savingThrows": {
         "fort": {
-          "base": 2,
+          "base": 0,
           "ability": "con",
           "total": 2
         },
         "ref": {
-          "base": 2,
+          "base": 0,
           "ability": "dex",
           "total": 3
         },
@@ -146,48 +140,44 @@
         "value": 9,
         "temp": 0,
         "nonlethal": 0,
-        "max": 0
+        "offset": 0
       },
       "wounds": {
         "min": 0,
         "base": 0,
         "value": 0,
-        "max": 11
+        "max": 11,
+        "offset": 0
       },
       "vigor": {
         "min": 0,
         "value": -8,
         "temp": 0,
         "base": 0,
-        "max": 8
+        "max": 8,
+        "offset": 0
       },
       "init": {
         "value": 0,
         "ability": "dex",
-        "bonus": 0,
-        "total": 0
+        "bonus": 0
       },
       "speed": {
         "land": {
-          "base": 30,
-          "total": 30
+          "base": 30
         },
         "climb": {
-          "base": 0,
-          "total": 0
+          "base": 0
         },
         "swim": {
-          "base": 0,
-          "total": 0
+          "base": 0
         },
         "burrow": {
-          "base": 0,
-          "total": 0
+          "base": 0
         },
         "fly": {
           "base": 0,
-          "maneuverability": "average",
-          "total": 0
+          "maneuverability": "average"
         }
       },
       "conditions": {
@@ -216,13 +206,11 @@
         "stunned": false
       },
       "spells": {
-        "usedSpellbooks": [],
         "spellbooks": {
           "primary": {
-            "altName": "",
+            "name": "Primary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Primary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -237,6 +225,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -253,77 +242,67 @@
               "spell0": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell1": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0,
+            "altName": "",
             "range": {
               "close": 25,
               "medium": 100,
@@ -331,10 +310,9 @@
             }
           },
           "secondary": {
-            "altName": "",
+            "name": "Secondary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Secondary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -349,6 +327,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -365,77 +344,67 @@
               "spell0": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell1": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0,
+            "altName": "",
             "range": {
               "close": 25,
               "medium": 100,
@@ -443,10 +412,9 @@
             }
           },
           "tertiary": {
-            "altName": "",
+            "name": "Tertiary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Tertiary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -461,6 +429,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -477,77 +446,67 @@
               "spell0": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell1": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0,
+            "altName": "",
             "range": {
               "close": 25,
               "medium": 100,
@@ -555,10 +514,9 @@
             }
           },
           "spelllike": {
-            "altName": "",
+            "name": "Spell-likes",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Spell-likes",
             "casterType": "high",
             "class": "_hd",
             "cl": {
@@ -573,6 +531,7 @@
             "ability": "cha",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -589,77 +548,67 @@
               "spell0": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell1": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": null,
                 "max": 0,
                 "value": 0
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
                 "preparedOffsetFormula": "",
-                "base": "",
                 "max": 0,
                 "value": 0
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0,
+            "altName": "",
             "range": {
               "close": 25,
               "medium": 110,
@@ -669,15 +618,7 @@
         }
       },
       "encumbrance": {
-        "level": 0,
-        "levels": {
-          "light": 33,
-          "medium": 66,
-          "heavy": 100,
-          "carry": 200,
-          "drag": 500
-        },
-        "carriedWeight": 0
+        "levels": {}
       },
       "hd": {
         "total": 1,
@@ -767,21 +708,21 @@
           "user": 0
         }
       },
-      "cr": {
-        "base": 1,
-        "total": 1
-      },
-      "mythicTier": 0,
-      "type": "",
-      "environment": "",
       "xp": {
-        "value": 400
+        "value": 400,
+        "max": 0
       },
+      "height": "",
+      "weight": "",
       "gender": "",
       "deity": "",
       "age": "",
-      "height": "",
-      "weight": ""
+      "cr": {
+        "base": 1
+      },
+      "mythicTier": 0,
+      "type": "",
+      "environment": ""
     },
     "skills": {
       "acr": {
@@ -792,7 +733,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "apr": {
@@ -803,7 +743,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "art": {
@@ -814,7 +753,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false,
         "subSkills": {}
       },
@@ -826,7 +764,6 @@
         "value": 0,
         "mod": -2,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "clm": {
@@ -837,7 +774,6 @@
         "value": 0,
         "mod": 0,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "crf": {
@@ -848,7 +784,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false,
         "subSkills": {}
       },
@@ -860,7 +795,6 @@
         "value": 0,
         "mod": -2,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "dev": {
@@ -871,7 +805,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "dis": {
@@ -882,7 +815,6 @@
         "value": 0,
         "mod": -2,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "esc": {
@@ -893,7 +825,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "fly": {
@@ -904,7 +835,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "han": {
@@ -915,7 +845,6 @@
         "value": 0,
         "mod": -2,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "hea": {
@@ -926,7 +855,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "int": {
@@ -937,7 +865,6 @@
         "value": 0,
         "mod": -2,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "kar": {
@@ -948,7 +875,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "kdu": {
@@ -959,7 +885,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "ken": {
@@ -970,7 +895,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "kge": {
@@ -981,7 +905,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "khi": {
@@ -992,7 +915,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "klo": {
@@ -1003,7 +925,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "kna": {
@@ -1014,7 +935,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "kno": {
@@ -1025,7 +945,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "kpl": {
@@ -1036,7 +955,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "kre": {
@@ -1047,7 +965,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "lin": {
@@ -1058,7 +975,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "lor": {
@@ -1069,7 +985,6 @@
         "value": 0,
         "mod": -4,
         "background": true,
-        "changeBonus": 0,
         "cs": false,
         "subSkills": {}
       },
@@ -1081,7 +996,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "prf": {
@@ -1092,7 +1006,6 @@
         "value": 0,
         "mod": -2,
         "background": true,
-        "changeBonus": 0,
         "cs": false,
         "subSkills": {}
       },
@@ -1104,7 +1017,6 @@
         "value": 0,
         "mod": 1,
         "background": true,
-        "changeBonus": 0,
         "cs": false,
         "subSkills": {}
       },
@@ -1116,7 +1028,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "sen": {
@@ -1127,7 +1038,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "slt": {
@@ -1138,7 +1048,6 @@
         "value": 0,
         "mod": 1,
         "background": true,
-        "changeBonus": 0,
         "cs": false
       },
       "spl": {
@@ -1149,7 +1058,6 @@
         "value": 0,
         "mod": -4,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "ste": {
@@ -1160,7 +1068,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "sur": {
@@ -1171,7 +1078,6 @@
         "value": 0,
         "mod": 1,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       },
       "swm": {
@@ -1182,7 +1088,6 @@
         "value": 0,
         "mod": 0,
         "background": false,
-        "changeBonus": 0,
         "cs": true
       },
       "umd": {
@@ -1193,14 +1098,30 @@
         "value": 0,
         "mod": -2,
         "background": false,
-        "changeBonus": 0,
         "cs": false
       }
     },
     "customSkills": {},
     "traits": {
       "size": "med",
-      "senses": "",
+      "senses": {
+        "dv": 0,
+        "ts": 0,
+        "bs": 0,
+        "bse": 0,
+        "ll": {
+          "enabled": true,
+          "multiplier": {
+            "dim": 2,
+            "bright": 2
+          }
+        },
+        "sid": false,
+        "tr": false,
+        "si": false,
+        "sc": true,
+        "custom": ""
+      },
       "dr": "",
       "eres": "",
       "cres": "",
@@ -1223,6 +1144,14 @@
         "custom": ""
       },
       "stature": "tall",
+      "weaponProf": {
+        "value": [],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [],
+        "custom": ""
+      },
       "perception": {
         "_deprecated": true
       }
@@ -1664,7 +1593,7 @@
       "intensity": 5
     },
     "actorId": "AV2WOjlRix1lcC0l",
-    "actorLink": false,
+    "actorLink": true,
     "disposition": -1,
     "displayBars": 0,
     "bar1": {
@@ -1734,9 +1663,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "classType": "racial",
@@ -1846,6 +1779,156 @@
           "unidentified": ""
         },
         "tags": [],
+        "actions": [
+          {
+            "_id": "x67bi9hdmyfifs5p",
+            "name": "Attack",
+            "img": "systems/pf1/icons/items/inventory/monster-tusk-bloody.jpg",
+            "description": "",
+            "tag": "",
+            "activation": {
+              "cost": 1,
+              "type": "attack"
+            },
+            "unchainedAction": {
+              "activation": {
+                "cost": 1,
+                "type": "action"
+              }
+            },
+            "duration": {
+              "value": null,
+              "units": "inst"
+            },
+            "target": {
+              "value": ""
+            },
+            "range": {
+              "value": null,
+              "units": "",
+              "maxIncrements": 1,
+              "minValue": null,
+              "minUnits": "",
+              "long": null
+            },
+            "uses": {
+              "autoDeductCharges": false,
+              "autoDeductChargesCost": "1",
+              "per": "",
+              "value": 0,
+              "maxFormula": "",
+              "max": 0
+            },
+            "measureTemplate": {
+              "type": "",
+              "size": "0",
+              "overrideColor": false,
+              "customColor": "",
+              "overrideTexture": false,
+              "customTexture": ""
+            },
+            "attackName": "",
+            "actionType": "mwak",
+            "attackBonus": "-5",
+            "critConfirmBonus": "",
+            "damage": {
+              "parts": [
+                [
+                  "sizeRoll(1, 8, @size, 4)",
+                  {
+                    "values": [
+                      "piercing"
+                    ],
+                    "custom": ""
+                  }
+                ]
+              ],
+              "critParts": [],
+              "nonCritParts": []
+            },
+            "attackParts": [],
+            "formulaicAttacks": {
+              "count": {
+                "formula": "",
+                "value": 0
+              },
+              "bonus": {
+                "formula": ""
+              },
+              "label": ""
+            },
+            "formula": "",
+            "ability": {
+              "attack": "str",
+              "damage": "str",
+              "damageMult": 1,
+              "critRange": 20,
+              "critMult": 2
+            },
+            "save": {
+              "dc": "0",
+              "type": "",
+              "description": ""
+            },
+            "effectNotes": [],
+            "attackNotes": [],
+            "soundEffect": "",
+            "powerAttack": {
+              "multiplier": "",
+              "damageBonus": 2,
+              "critMultiplier": 1
+            },
+            "naturalAttack": {
+              "secondary": {
+                "attackBonus": "-5",
+                "damageMult": 0.5
+              }
+            },
+            "nonlethal": false,
+            "usesAmmo": false,
+            "spellEffect": "",
+            "spellArea": "",
+            "conditionals": [],
+            "enh": {
+              "value": null
+            }
+          }
+        ],
+        "uses": {
+          "per": "",
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": false,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "gore",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "proficient": true,
+        "primaryAttack": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "ammoType": "",
+        "attackType": "natural",
+        "weaponGroups": {
+          "value": [],
+          "custom": ""
+        },
         "activation": {
           "cost": 1,
           "type": "attack"
@@ -1870,14 +1953,6 @@
           "minValue": null,
           "minUnits": "",
           "long": null
-        },
-        "uses": {
-          "value": 0,
-          "per": "",
-          "autoDeductCharges": false,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1925,31 +2000,15 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": [],
-          "ammunition": []
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
         },
-        "tag": "gore",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": []
-        },
-        "scriptCalls": [],
-        "masterwork": false,
-        "enh": null,
-        "attackType": "natural",
         "nonlethal": false,
-        "proficient": true,
-        "primaryAttack": true,
-        "held": "normal",
-        "showInQuickbar": true,
-        "broken": false,
         "conditionals": [],
+        "usesAmmo": false,
         "attack": {
           "parts": []
         },
@@ -1965,81 +2024,18 @@
       }
     },
     {
-      "_id": "H9BzM7VlFOzt00CF",
+      "_id": "uB3MIDL6JxXHD8k0",
       "name": "Animal Companion",
       "type": "class",
+      "img": "systems/pf1/icons/skills/blue_29.jpg",
       "data": {
         "description": {
-          "value": "<p>&nbsp;</p>\n<p>An animal companion&rsquo;s abilities are determined by the druid&rsquo;s level and its animal racial traits.&nbsp;<strong>Table: Animal Companion Base Statistics</strong>&nbsp;determines many of the base statistics of the animal companion. They remain creatures of the animal type for purposes of determining which spells can affect them.</p>\n<p>&nbsp;</p>\n<table style=\"width: 547px; height: 688px;\" border=\"1\" cellpadding=\"5\"><caption><strong>Table: Animal Companion Base Statistics</strong></caption>\n<thead>\n<tr>\n<th class=\"text\" style=\"text-align: center; width: 41px;\">Class Level</th>\n<th class=\"text\" style=\"text-align: center; width: 24px;\">HD</th>\n<th class=\"text\" style=\"text-align: center; width: 30px;\">BAB</th>\n<th class=\"text\" style=\"text-align: center; width: 26px;\">Fort</th>\n<th class=\"text\" style=\"text-align: center; width: 23px;\">Ref</th>\n<th class=\"text\" style=\"text-align: center; width: 26px;\">Will</th>\n<th class=\"text\" style=\"text-align: center; width: 35px;\">Skills</th>\n<th class=\"text\" style=\"text-align: center; width: 33px;\">Feats</th>\n<th class=\"text\" style=\"text-align: center; width: 65px;\">Natural Armor<br />Bonus</th>\n<th class=\"text\" style=\"text-align: center; width: 49px;\">Str/Dex Bonus</th>\n<th class=\"text\" style=\"text-align: center; width: 55px;\">Bonus Tricks</th>\n<th class=\"text\" style=\"text-align: center; width: 127px;\">Special</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">1st</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">1</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">1</td>\n<td class=\"text\" style=\"width: 127px;\">Link,&nbsp;share spells</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">2nd</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">1</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">3rd</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"text\" style=\"width: 127px;\">Evasion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">4th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">5th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">6th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"text\" style=\"width: 127px;\">Devotion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">7th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">8th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">9th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase,&nbsp;Multiattack</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">10th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">11th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">12th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">10</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">10</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">13th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">11</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">11</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">14th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">15th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"text\" style=\"width: 127px;\">Improved evasion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">16th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">13</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">13</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">17th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">14</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">14</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">18th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+11</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">7</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">19th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+11</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">7</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">20th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">16</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">16</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 67px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 57px;\">7</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2><span id=\"Features\">Animal Skills</span></h2>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Animal companions can have ranks in any of the following skills:</span></p>\n<ul>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Acrobatics* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Climb* (Str)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Escape Artist (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Fly* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Intimidate (Cha)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Perception* (Wis)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Stealth* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Survival (Wis)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Swim* (Str)</span></li>\n</ul>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">All of the skills marked with an (*) are class skills for animal companions. Animal companions with an Intelligence of 3 or higher can put ranks into any skill.</span></p>",
+          "value": "<p>An animal companion&rsquo;s abilities are determined by the druid&rsquo;s&nbsp;level and its animal racial traits.&nbsp;<strong>Table: Animal Companion Base Statistics</strong>&nbsp;determines many of the base statistics of the animal companion. They remain creatures of the animal type for purposes of determining which spells can affect them.</p>\n<p>&nbsp;</p>\n<table style=\"width: 547px; height: 688px;\" border=\"1\" cellpadding=\"5\"><caption><strong>Table: Animal Companion Base Statistics</strong></caption>\n<thead>\n<tr>\n<th class=\"text\" style=\"text-align: center; width: 41px;\">Class Level</th>\n<th class=\"text\" style=\"text-align: center; width: 24px;\">HD</th>\n<th class=\"text\" style=\"text-align: center; width: 30px;\">BAB</th>\n<th class=\"text\" style=\"text-align: center; width: 26px;\">Fort</th>\n<th class=\"text\" style=\"text-align: center; width: 23px;\">Ref</th>\n<th class=\"text\" style=\"text-align: center; width: 26px;\">Will</th>\n<th class=\"text\" style=\"text-align: center; width: 35px;\">Skills</th>\n<th class=\"text\" style=\"text-align: center; width: 33px;\">Feats</th>\n<th class=\"text\" style=\"text-align: center; width: 65px;\">Natural Armor<br />Bonus</th>\n<th class=\"text\" style=\"text-align: center; width: 49px;\">Str/Dex Bonus</th>\n<th class=\"text\" style=\"text-align: center; width: 55px;\">Bonus Tricks</th>\n<th class=\"text\" style=\"text-align: center; width: 127px;\">Special</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">1st</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">1</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">1</td>\n<td class=\"text\" style=\"width: 127px;\">Link,&nbsp;share spells</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">2nd</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+0</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">1</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">3rd</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"text\" style=\"width: 127px;\">Evasion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">4th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">2</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">5th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+1</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">2</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">6th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"text\" style=\"width: 127px;\">Devotion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">7th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">3</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">8th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">3</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">9th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+2</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">4</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase,&nbsp;Multiattack</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">10th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">11th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">9</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">4</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">12th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">10</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">10</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">5</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">13th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">11</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+7</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+3</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">11</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">14th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">5</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">15th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">12</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">6</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"text\" style=\"width: 127px;\">Improved evasion</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">16th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">13</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+8</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">13</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">17th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">14</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+4</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">14</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">7</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">6</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">18th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+11</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">7</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">19th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+11</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+9</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">15</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 65px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 55px;\">7</td>\n<td class=\"marker\" style=\"width: 127px;\">&mdash;</td>\n</tr>\n<tr>\n<td class=\"number\" style=\"text-align: center; width: 39px;\">20th</td>\n<td class=\"number\" style=\"text-align: center; width: 24px;\">16</td>\n<td class=\"number\" style=\"text-align: center; width: 30px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 23px;\">+10</td>\n<td class=\"number\" style=\"text-align: center; width: 26px;\">+5</td>\n<td class=\"number\" style=\"text-align: center; width: 35px;\">16</td>\n<td class=\"number\" style=\"text-align: center; width: 33px;\">8</td>\n<td class=\"number\" style=\"text-align: center; width: 67px;\">+12</td>\n<td class=\"number\" style=\"text-align: center; width: 49px;\">+6</td>\n<td class=\"number\" style=\"text-align: center; width: 57px;\">7</td>\n<td class=\"text\" style=\"width: 127px;\">Ability score increase</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2><span id=\"Features\">Animal Skills</span></h2>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Animal companions can have ranks in any of the following skills:</span></p>\n<ul>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Acrobatics* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Climb* (Str)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Escape Artist (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Fly* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Intimidate (Cha)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Perception* (Wis)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Stealth* (Dex)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Survival (Wis)</span></li>\n<li><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Swim* (Str)</span></li>\n</ul>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">All of the skills marked with an (*) are class skills for animal companions. Animal companions with an Intelligence of 3 or higher can put ranks into any skill.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "tags": [],
-        "changes": [
-          {
-            "_id": "ei8bzne7",
-            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) * .75)",
-            "operator": "add",
-            "subTarget": "bab",
-            "modifier": "base",
-            "priority": 0,
-            "value": 1
-          },
-          {
-            "_id": "7ghr133b",
-            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) / 2) + 2",
-            "operator": "add",
-            "subTarget": "fort",
-            "modifier": "base",
-            "priority": 0,
-            "value": 3
-          },
-          {
-            "_id": "f79zctnv",
-            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) / 2) + 2",
-            "operator": "add",
-            "subTarget": "ref",
-            "modifier": "base",
-            "priority": 0,
-            "value": 3
-          },
-          {
-            "_id": "447iqv0k",
-            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) / 3)",
-            "operator": "add",
-            "subTarget": "will",
-            "modifier": "base",
-            "priority": 0,
-            "value": 0
-          },
-          {
-            "_id": "735a8p18",
-            "formula": "floor((round(@classes.animalCompanion.level * .75) + 1) * 4.5)",
-            "operator": "add",
-            "subTarget": "mhp",
-            "modifier": "untyped",
-            "priority": -1,
-            "value": 9
-          },
-          {
-            "_id": "q89xx269",
-            "formula": "round(@classes.animalCompanion.level * .75) + 1",
-            "operator": "add",
-            "subTarget": "bonusSkillRanks",
-            "modifier": "untyped",
-            "priority": 0,
-            "value": 2
-          },
-          {
-            "_id": "6el4shbt",
-            "formula": "- @classes.animalCompanion.level",
-            "operator": "add",
-            "subTarget": "bonusSkillRanks",
-            "modifier": "untyped",
-            "priority": 0,
-            "value": -1
-          }
-        ],
+        "changes": [],
         "changeFlags": {
           "loseDexToAC": false,
           "noEncumbrance": false,
@@ -2055,103 +2051,92 @@
           "children": [],
           "classAssociations": [
             {
+              "_index": 0,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.I9aVgYTVbwwmdZYz",
-              "dataType": "compendium",
-              "name": "Bonus Tricks",
               "img": "systems/pf1/icons/items/inventory/fish.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 0
+              "name": "Bonus Tricks"
             },
             {
+              "_index": 1,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.g6t6hQoc95ASlz7D",
-              "dataType": "compendium",
-              "name": "Link",
               "img": "systems/pf1/icons/feats/quick-draw.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 1
+              "name": "Link"
             },
             {
+              "_index": 2,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.rSxgmcPwAAmFL4r9",
-              "dataType": "compendium",
-              "name": "Natural Armor Bonus",
               "img": "systems/pf1/icons/skills/blue_34.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 2
+              "name": "Natural Armor Bonus"
             },
             {
+              "_index": 3,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.ZaBFpK3HT49DAUpE",
-              "dataType": "compendium",
-              "name": "Share Spells",
               "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 3
+              "name": "Share Spells"
             },
             {
+              "_index": 4,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.nWKp65a3AOFqJOs6",
-              "dataType": "compendium",
-              "name": "STR/DEX Bonus",
               "img": "systems/pf1/icons/feats/athletic.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 4
+              "name": "STR/DEX Bonus"
             },
             {
+              "_index": 5,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.w8QhU9qZ4VXxO4Ij",
-              "dataType": "compendium",
-              "name": "Animal Companion Feats",
               "img": "systems/pf1/icons/skills/blood_07.jpg",
-              "hiddenLinks": {},
               "level": 1,
-              "_index": 5
+              "name": "Animal Companion Feats"
             },
             {
+              "_index": 6,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.Jcth45jjTCvvGBUS",
-              "dataType": "compendium",
-              "name": "Evasion",
               "img": "systems/pf1/icons/skills/blue_06.jpg",
-              "hiddenLinks": {},
               "level": 3,
-              "_index": 6
+              "name": "Evasion"
             },
             {
+              "_index": 7,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.HYLK9yCcU73xaVNS",
-              "dataType": "compendium",
-              "name": "Ability Score Increase",
               "img": "systems/pf1/icons/skills/green_19.jpg",
-              "hiddenLinks": {},
               "level": 4,
-              "_index": 7
+              "name": "Ability Score Increase"
             },
             {
+              "_index": 8,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.5uKoaeTitZUnfnQ1",
-              "dataType": "compendium",
-              "name": "Devotion",
               "img": "systems/pf1/icons/skills/red_01.jpg",
-              "hiddenLinks": {},
               "level": 6,
-              "_index": 8
+              "name": "Devotion"
             },
             {
+              "_index": 9,
+              "dataType": "compendium",
               "id": "pf-content.pf-companion-features.fZ8uC8TAnvzYp9YQ",
-              "dataType": "compendium",
-              "name": "Multiattack",
               "img": "systems/pf1/icons/skills/red_31.jpg",
-              "hiddenLinks": {},
               "level": 9,
-              "_index": 9
+              "name": "Multiattack"
             },
             {
-              "id": "pf-content.pf-companion-features.FLDY1YB8IHw4G4gV",
+              "_index": 10,
               "dataType": "compendium",
-              "name": "Improved Evasion",
+              "id": "pf-content.pf-companion-features.FLDY1YB8IHw4G4gV",
               "img": "systems/pf1/icons/skills/blue_06.jpg",
-              "hiddenLinks": {},
               "level": 15,
-              "_index": 10
+              "name": "Improved Evasion"
             }
           ]
         },
@@ -2165,26 +2150,30 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "classType": "base",
         "level": 1,
-        "hd": 0,
-        "hp": 0,
-        "bab": "",
-        "skillsPerLevel": 0,
+        "hd": 8,
+        "hp": 8,
+        "bab": "med",
+        "skillsPerLevel": 1,
         "savingThrows": {
           "fort": {
-            "value": ""
+            "value": "high"
           },
           "ref": {
-            "value": ""
+            "value": "high"
           },
           "will": {
-            "value": ""
+            "value": "low"
           }
         },
         "fc": {
@@ -2246,12 +2235,22 @@
           "value": 0,
           "max": 0
         },
+        "conditionals": [],
+        "identifiedName": "Animal Companion",
+        "auraStrength": 0,
         "range": {
           "maxIncrements": 1
         },
-        "size": "med"
+        "size": "med",
+        "customHD": "(round(@item.level * .75) + 1)"
       },
-      "sort": 200001,
+      "effects": [],
+      "folder": "Vvpy1gAw1xcfXp9K",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
       "flags": {
         "pf1": {
           "links": {
@@ -2286,12 +2285,12 @@
               "vIf6jIszJnzCCcsW": 6,
               "XPu7rUWyaARo4bzH": 9,
               "7aJWnfM1gUxxvLs6": 15,
-              "RDaWvTyGTP8MeGf1": 1,
-              "UchPcdvQLxdUXdsh": 1,
-              "dAtHnNFFgkvyarsG": 1,
-              "lgj6bqIMtAqP0NCd": 1,
-              "hUtp3gIU3g99k8sN": 1,
-              "1FYyZT5syZCvPJDE": 1
+              "tkLAoqxPCdgirO0m": 1,
+              "io7h7BZ92bqRwo8i": 1,
+              "gEPwIKGasCGA0mLg": 1,
+              "BXQqvoB1ntzeATO8": 1,
+              "dCujT9nyczbLSEOq": 1,
+              "pdAYCJwQV7Zs7vqM": 1
             }
           }
         },
@@ -2301,18 +2300,13 @@
         "scene-packer": {
           "sourceId": "Item.7pL8LLH4d2v9stEe"
         }
-      },
-      "img": "systems/pf1/icons/skills/blue_29.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
       }
     },
     {
-      "_id": "RDaWvTyGTP8MeGf1",
+      "_id": "tkLAoqxPCdgirO0m",
       "name": "Bonus Tricks",
       "type": "feat",
+      "img": "systems/pf1/icons/items/inventory/fish.jpg",
       "data": {
         "description": {
           "value": "<p><strong>Tricks selected:</strong>&nbsp;</p>\n<ol>\n<li>&nbsp;</li>\n</ol>\n<hr />\n<p>Bonus Tricks Granted: [[(floor(@classes.animalCompanion.level / 3) + 1)]]</p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The value given in this column is the total number of &ldquo;bonus&rdquo; tricks that the animal knows in addition to any that the druid might choose to teach it (see the Handle Animal skill for more details on how to teach an animal tricks). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed.&nbsp;</span></p>",
@@ -2324,82 +2318,17 @@
             "Animal Companion Class Feature"
           ]
         ],
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
+        "actions": [],
         "uses": {
-          "value": 0,
           "per": null,
+          "value": 0,
+          "maxFormula": "",
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
-          "maxFormula": "",
           "max": 0
         },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": "",
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "effectNotes": [],
         "attackNotes": [],
-        "soundEffect": "",
+        "effectNotes": [],
         "changes": [],
         "changeFlags": {
           "loseDexToAC": false,
@@ -2427,9 +2356,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -2445,43 +2378,7 @@
         "abilityType": "none",
         "crOffset": "",
         "disabled": false,
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "sort": 1500000,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf-content.pf-companion-features.I9aVgYTVbwwmdZYz"
-        },
-        "pf1": {},
-        "scene-packer": {
-          "sourceId": "Item.JeFlcXImdBSF6JlI"
-        }
-      },
-      "img": "systems/pf1/icons/items/inventory/fish.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "UchPcdvQLxdUXdsh",
-      "name": "Link",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">A druid can handle her animal companion as a free action, or push it as a move action, even if she doesn't have any ranks in the Handle Animal skill. The druid gains a +4 circumstance bonus on all wild empathy checks and Handle Animal checks made regarding an animal companion.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Animal Companion Class Feature"
-          ]
-        ],
+        "classSkills": {},
         "activation": {
           "cost": 1,
           "type": ""
@@ -2505,14 +2402,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2555,9 +2444,63 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "attack": {
+          "parts": []
+        },
+        "conditionals": [],
+        "identifiedName": "Bonus Tricks",
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.I9aVgYTVbwwmdZYz"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.JeFlcXImdBSF6JlI"
+        }
+      }
+    },
+    {
+      "_id": "io7h7BZ92bqRwo8i",
+      "name": "Link",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/quick-draw.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">A druid can handle her animal companion as a free action, or push it as a move action, even if she doesn't have any ranks in the Handle Animal skill. The druid gains a +4 circumstance bonus on all wild empathy checks and Handle Animal checks made regarding an animal companion.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Animal Companion Class Feature"
+          ]
+        ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
         "changes": [],
         "changeFlags": {
           "loseDexToAC": false,
@@ -2591,9 +2534,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -2609,58 +2556,7 @@
         "abilityType": "ex",
         "crOffset": "",
         "disabled": false,
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "sort": 1600000,
-      "flags": {
-        "autoanimations": {
-          "killAnim": false,
-          "override": false,
-          "animType": "t1",
-          "animName": "",
-          "hmAnim": "a1",
-          "color": "n1",
-          "dtvar": "dt1",
-          "explosion": false,
-          "explodeVariant": "ev1",
-          "explodeColor": "ec1",
-          "explodeRadius": "0",
-          "explodeLoop": "1",
-          "selfRadius": "5",
-          "animTint": "#ffffff",
-          "auraOpacity": 0.75,
-          "ctaOption": false
-        },
-        "pf1": {},
-        "scene-packer": {
-          "sourceId": "Item.EdFvI2UTFONcats7"
-        }
-      },
-      "img": "systems/pf1/icons/feats/quick-draw.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "dAtHnNFFgkvyarsG",
-      "name": "Natural Armor Bonus",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The number noted here is an improvement to the animal companion's existing natural armor bonus.&nbsp;<br /></span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Animal Companion Class Feature"
-          ]
-        ],
+        "classSkills": {},
         "activation": {
           "cost": 1,
           "type": ""
@@ -2684,14 +2580,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2734,9 +2622,81 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "attack": {
+          "parts": []
+        },
+        "conditionals": [],
+        "identifiedName": "Link",
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.EdFvI2UTFONcats7"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
+        }
+      }
+    },
+    {
+      "_id": "gEPwIKGasCGA0mLg",
+      "name": "Natural Armor Bonus",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/blue_34.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The number noted here is an improvement to the animal companion's existing natural armor bonus.&nbsp;<br /></span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Animal Companion Class Feature"
+          ]
+        ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
         "changes": [
           {
             "_id": "22vrjim6",
@@ -2775,9 +2735,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -2793,61 +2757,7 @@
         "abilityType": "none",
         "crOffset": "",
         "disabled": false,
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "sort": 1700000,
-      "flags": {
-        "autoanimations": {
-          "killAnim": false,
-          "override": false,
-          "animType": "t1",
-          "animName": "",
-          "hmAnim": "a1",
-          "color": "n1",
-          "dtvar": "dt1",
-          "explosion": false,
-          "explodeVariant": "ev1",
-          "explodeColor": "ec1",
-          "explodeRadius": "0",
-          "explodeLoop": "1",
-          "selfRadius": "5",
-          "animTint": "#ffffff",
-          "auraOpacity": 0.75,
-          "ctaOption": false
-        },
-        "core": {
-          "sourceId": "Compendium.pf-content.pf-companion-features.rSxgmcPwAAmFL4r9"
-        },
-        "pf1": {},
-        "scene-packer": {
-          "sourceId": "Item.tfYsNCDzPgfUJGdv"
-        }
-      },
-      "img": "systems/pf1/icons/skills/blue_34.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "lgj6bqIMtAqP0NCd",
-      "name": "Share Spells",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The druid may cast a spell with a target of &ldquo;You&rdquo; on her animal companion (as a spell with a range of touch) instead of on herself. A druid may cast spells on her animal companion even if the spells normally do not affect creatures of the companion's type (animal). Spells cast in this way must come from a class that grants an animal companion. This ability does not allow the animal to share abilities that are not spells, even if they function like spells.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Animal Companion Class Feature"
-          ]
-        ],
+        "classSkills": {},
         "activation": {
           "cost": 1,
           "type": ""
@@ -2871,14 +2781,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2921,9 +2823,81 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "attack": {
+          "parts": []
+        },
+        "conditionals": [],
+        "identifiedName": "Natural Armor",
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.rSxgmcPwAAmFL4r9"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.tfYsNCDzPgfUJGdv"
+        }
+      }
+    },
+    {
+      "_id": "BXQqvoB1ntzeATO8",
+      "name": "Share Spells",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The druid may cast a spell with a target of &ldquo;You&rdquo; on her animal companion (as a spell with a range of touch) instead of on herself. A druid may cast spells on her animal companion even if the spells normally do not affect creatures of the companion's type (animal). Spells cast in this way must come from a class that grants an animal companion. This ability does not allow the animal to share abilities that are not spells, even if they function like spells.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Animal Companion Class Feature"
+          ]
+        ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
         "changes": [],
         "changeFlags": {
           "loseDexToAC": false,
@@ -2951,9 +2925,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -2969,40 +2947,7 @@
         "abilityType": "ex",
         "crOffset": "",
         "disabled": false,
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "sort": 1800000,
-      "flags": {
-        "pf1": {},
-        "scene-packer": {
-          "sourceId": "Item.XSJ219aowIRHHL3S"
-        }
-      },
-      "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "hUtp3gIU3g99k8sN",
-      "name": "STR/DEX Bonus",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Add this modifier to the animal companion's Strength and Dexterity scores.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Animal Companion Class Feature"
-          ]
-        ],
+        "classSkills": {},
         "activation": {
           "cost": 1,
           "type": ""
@@ -3026,14 +2971,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3076,9 +3013,63 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "attack": {
+          "parts": []
+        },
+        "conditionals": [],
+        "identifiedName": "Share Spells",
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.XSJ219aowIRHHL3S"
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.ZaBFpK3HT49DAUpE"
+        }
+      }
+    },
+    {
+      "_id": "dCujT9nyczbLSEOq",
+      "name": "STR/DEX Bonus",
+      "type": "feat",
+      "img": "systems/pf1/icons/feats/athletic.jpg",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Add this modifier to the animal companion's Strength and Dexterity scores.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Animal Companion Class Feature"
+          ]
+        ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
         "changes": [
           {
             "_id": "zdsarrn9",
@@ -3127,9 +3118,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -3145,61 +3140,7 @@
         "abilityType": "none",
         "crOffset": "",
         "disabled": false,
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "sort": 1900000,
-      "flags": {
-        "autoanimations": {
-          "killAnim": false,
-          "override": false,
-          "animType": "t1",
-          "animName": "",
-          "hmAnim": "a1",
-          "color": "n1",
-          "dtvar": "dt1",
-          "explosion": false,
-          "explodeVariant": "ev1",
-          "explodeColor": "ec1",
-          "explodeRadius": "0",
-          "explodeLoop": "1",
-          "selfRadius": "5",
-          "animTint": "#ffffff",
-          "auraOpacity": 0.75,
-          "ctaOption": false
-        },
-        "core": {
-          "sourceId": "Compendium.pf-content.pf-companion-features.nWKp65a3AOFqJOs6"
-        },
-        "pf1": {},
-        "scene-packer": {
-          "sourceId": "Item.pDA7IHXF8VIRhSsr"
-        }
-      },
-      "img": "systems/pf1/icons/feats/athletic.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "1FYyZT5syZCvPJDE",
-      "name": "Animal Companion Feats",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<h2 style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span id=\"Traits\" style=\"box-sizing: border-box; user-select: text;\">Animal Feats</span></h2>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions can select from the following feats:</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\"><em style=\"box-sizing: border-box; user-select: text;\">Note that animal companions cannot select a feat with a requirement of base attack bonus +1 until they gain their second feat at 3 Hit Dice.</em></span></p>\n<table>\n<tbody>\n<tr>\n<td>Acrobatic</td>\n<td>Agile Maneuvers</td>\n<td>Armor Proficiency, Light</td>\n</tr>\n<tr>\n<td>Armor Proficiency, Medium</td>\n<td>Armor Proficiency, Heavy</td>\n<td>Athletic</td>\n</tr>\n<tr>\n<td>Blind-Fight</td>\n<td>Combat Reflexes</td>\n<td>Devotion against the Unnatural</td>\n</tr>\n<tr>\n<td>Diehard</td>\n<td>Disruptive Companion</td>\n<td>Dodge</td>\n</tr>\n<tr>\n<td>Endurance</td>\n<td>Feral Grace</td>\n<td>Ferocious Beast</td>\n</tr>\n<tr>\n<td>Ferocious Feint</td>\n<td>Friendly Face</td>\n<td>Great Fortitude</td>\n</tr>\n<tr>\n<td>Greater Tenacious Hunter</td>\n<td>Hefty Brute</td>\n<td>Improved Bull Rush</td>\n</tr>\n<tr>\n<td>Improved Initiative</td>\n<td>Improved Intercept Blow</td>\n<td>Improved Natural Armor</td>\n</tr>\n<tr>\n<td>Improved Overrun</td>\n<td>Intercept Blow</td>\n<td>Intimidating Prowess</td>\n</tr>\n<tr>\n<td>Iron Will</td>\n<td>Lightning Reflexes</td>\n<td>Linnorm Hunter Style</td>\n</tr>\n<tr>\n<td>Linnorm Hunter Retreat</td>\n<td>Mobility</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Power Attack</span></td>\n</tr>\n<tr>\n<td>Reflexive Interception</td>\n<td>Run</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Share Feature</span></td>\n</tr>\n<tr>\n<td>Skill Focus</td>\n<td>Spring Attack</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Stealthy</span></td>\n</tr>\n<tr>\n<td>Tenacious Hunter</td>\n<td>Toughness</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Weapon Focus</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Animal Companion Class Feature"
-          ]
-        ],
+        "classSkills": {},
         "activation": {
           "cost": 1,
           "type": ""
@@ -3223,14 +3164,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3273,29 +3206,82 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "changes": [
-          {
-            "_id": "68yy4on2",
-            "formula": "ceil((round(@classes.animalCompanion.level * .75) + 1) / 2)",
-            "operator": "add",
-            "subTarget": "bonusFeats",
-            "modifier": "untyped",
-            "priority": 0,
-            "value": 2
-          },
-          {
-            "_id": "i56qltba",
-            "formula": "- ceil(@classes.animalCompanion.level / 2)",
-            "operator": "add",
-            "subTarget": "bonusFeats",
-            "modifier": "untyped",
-            "priority": 0,
-            "value": -1
-          }
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "attack": {
+          "parts": []
+        },
+        "conditionals": [],
+        "identifiedName": "STR/DEX Bonus",
+        "size": "med"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "killAnim": false,
+          "override": false,
+          "animType": "t1",
+          "animName": "",
+          "hmAnim": "a1",
+          "color": "n1",
+          "dtvar": "dt1",
+          "explosion": false,
+          "explodeVariant": "ev1",
+          "explodeColor": "ec1",
+          "explodeRadius": "0",
+          "explodeLoop": "1",
+          "selfRadius": "5",
+          "animTint": "#ffffff",
+          "auraOpacity": 0.75,
+          "ctaOption": false
+        },
+        "core": {
+          "sourceId": "Compendium.pf-content.pf-companion-features.nWKp65a3AOFqJOs6"
+        },
+        "pf1": {},
+        "scene-packer": {
+          "sourceId": "Item.pDA7IHXF8VIRhSsr"
+        }
+      }
+    },
+    {
+      "_id": "pdAYCJwQV7Zs7vqM",
+      "name": "Animal Companion Feats",
+      "type": "feat",
+      "img": "systems/pf1/icons/skills/blood_07.jpg",
+      "data": {
+        "description": {
+          "value": "<h2 style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span id=\"Traits\" style=\"box-sizing: border-box; user-select: text;\">Animal Feats</span></h2>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions can select from the following feats:</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\"><em style=\"box-sizing: border-box; user-select: text;\">Note that animal companions cannot select a feat with a requirement of base attack bonus +1 until they gain their second feat at 3 Hit Dice.</em></span></p>\n<table>\n<tbody>\n<tr>\n<td>Acrobatic</td>\n<td>Agile Maneuvers</td>\n<td>Armor Proficiency, Light</td>\n</tr>\n<tr>\n<td>Armor Proficiency, Medium</td>\n<td>Armor Proficiency, Heavy</td>\n<td>Athletic</td>\n</tr>\n<tr>\n<td>Blind-Fight</td>\n<td>Combat Reflexes</td>\n<td>Devotion against the Unnatural</td>\n</tr>\n<tr>\n<td>Diehard</td>\n<td>Disruptive Companion</td>\n<td>Dodge</td>\n</tr>\n<tr>\n<td>Endurance</td>\n<td>Feral Grace</td>\n<td>Ferocious Beast</td>\n</tr>\n<tr>\n<td>Ferocious Feint</td>\n<td>Friendly Face</td>\n<td>Great Fortitude</td>\n</tr>\n<tr>\n<td>Greater Tenacious Hunter</td>\n<td>Hefty Brute</td>\n<td>Improved Bull Rush</td>\n</tr>\n<tr>\n<td>Improved Initiative</td>\n<td>Improved Intercept Blow</td>\n<td>Improved Natural Armor</td>\n</tr>\n<tr>\n<td>Improved Overrun</td>\n<td>Intercept Blow</td>\n<td>Intimidating Prowess</td>\n</tr>\n<tr>\n<td>Iron Will</td>\n<td>Lightning Reflexes</td>\n<td>Linnorm Hunter Style</td>\n</tr>\n<tr>\n<td>Linnorm Hunter Retreat</td>\n<td>Mobility</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Power Attack</span></td>\n</tr>\n<tr>\n<td>Reflexive Interception</td>\n<td>Run</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Share Feature</span></td>\n</tr>\n<tr>\n<td>Skill Focus</td>\n<td>Spring Attack</td>\n<td><span style=\"background-color: rgba(255, 255, 255, 0.2);\">Stealthy</span></td>\n</tr>\n<tr>\n<td>Tenacious Hunter</td>\n<td>Toughness</td>\n<td><span style=\"background-color: rgba(0, 0, 0, 0.05);\">Weapon Focus</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\" style=\"box-sizing: border-box; user-select: text;\">Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Animal Companion Class Feature"
+          ]
         ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
         "changeFlags": {
           "loseDexToAC": false,
           "noEncumbrance": false,
@@ -3322,9 +3308,13 @@
           "value": [],
           "custom": ""
         },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
         "flags": {
-          "boolean": [],
-          "dictionary": []
+          "boolean": {},
+          "dictionary": {}
         },
         "scriptCalls": [],
         "featType": "classFeat",
@@ -3340,12 +3330,92 @@
         "abilityType": "none",
         "crOffset": "",
         "disabled": false,
+        "classSkills": {},
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
         "attack": {
           "parts": []
         },
+        "conditionals": [],
+        "identifiedName": "Animal Companion Feats",
         "size": "med"
       },
-      "sort": 2000000,
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "tCEwvo1Tq58EKcH1": 3
+      },
       "flags": {
         "autoanimations": {
           "killAnim": false,
@@ -3372,25 +3442,18 @@
         "scene-packer": {
           "sourceId": "Item.Sf8nj2xULzL5EFRH"
         }
-      },
-      "img": "systems/pf1/icons/skills/blood_07.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
       }
     }
   ],
   "effects": [],
   "folder": null,
-  "sort": 100001,
+  "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {
     "core": {
-      "sourceId": "Compendium.world.companions.kaXYgRewcfDFTQNZ"
+      "sourceId": "Compendium.pf-content.pf-companions.AV2WOjlRix1lcC0l"
     }
   }
 }
