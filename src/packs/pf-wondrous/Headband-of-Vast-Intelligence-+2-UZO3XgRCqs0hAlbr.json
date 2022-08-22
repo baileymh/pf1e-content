@@ -1,4 +1,5 @@
 {
+  "_id": "UZO3XgRCqs0hAlbr",
   "name": "Headband of Vast Intelligence +2",
   "type": "equipment",
   "img": "systems/pf1/icons/items/equipment/belt-gems.jpg",
@@ -10,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1
+    },
     "price": 4000,
     "size": "med",
     "equipped": true,
@@ -32,37 +35,6 @@
     "aura": {
       "custom": false,
       "school": "trs"
-    },
-    "activation": {
-      "cost": null,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": ""
     },
     "changes": [
       {
@@ -101,49 +73,16 @@
       "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": ""
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": null,
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -151,14 +90,12 @@
     "tag": "",
     "useCustomTag": false,
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
     "masterwork": false,
     "enh": null,
-    "attackType": "weapon",
-    "nonlethal": false,
     "proficient": true,
     "primaryAttack": true,
     "held": "normal",
@@ -172,13 +109,35 @@
     },
     "spellFailure": 0,
     "slot": "headband",
-    "conditionals": []
-  },
-  "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf1.items.WWej7rMLpLLCHtJv"
+    "showInQuickbar": false,
+    "activation": {
+      "cost": null,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "ability": {
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "attackType": "weapon",
+    "range": {
+      "maxIncrements": 1
     }
   },
-  "_id": "UZO3XgRCqs0hAlbr"
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {}
 }

@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one creature; see text"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "l2ugg520wt2pfz1d",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one creature; see text"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "partial; see text"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "partial; see text"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Call forth a creature to harrass the target"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Call forth a creature to harrass the target"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "polymorph",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,23 +170,53 @@
     "atWill": false,
     "sr": true,
     "shortDescription": "<p><strong>Source</strong> <em>Blood of the Coven pg. 25</em></p><p><strong>School</strong> conjuration (calling) [curse]; <strong>Level</strong> 7</p><p><strong>Casting Time</strong> 7 hours</p><p><strong>Components</strong> V, S, M (a treasured possession of the target), F (a depiction of the nemesis creature worth at least 5,000 gp)</p><p><strong>Skill Checks</strong> Bluff DC 30, 2 successes; Diplomacy DC 30, 2 successes; Knowledge (planes) DC 30, 3 successes</p><p><strong>Range</strong> touch; see text</p><p><strong>Target</strong> one creature; see text</p><p><strong>Duration</strong> a year and a day; see text</p><p><strong>Saving Throw</strong> Will partial; see text; <strong>SR</strong> yes; see text</p><p><strong>Backlash</strong> The nemesis creature feeds on a portion of the primary caster's life force, inflicting a permanent negative level that cannot be healed until the nemesis creature is dismissed.</p><p><strong>Failure</strong> The nemesis creature is offended and harries the primary caster for a year and a day.</p><h3 class=\"framing\">Effect</h3><p>This ritual conjures forth a restless spirit or otherworldly entity to harass and sabotage a target of the caster's choice. The ritual must take place in an environment pleasing to the nemesis creature (an allip must be called in an asylum, a gremlin must be called in a clocktower or site of misfortune, etc.). The caster supplicates before a representation- usually a statue or tapestry-of the nemesis creature, reciting a long litany of the target's real or imagined sins and how deeply the target deserves to suffer.</p><p></p><p> Success conjures up the nemesis creature chosen from the list below, which goes forth to harass the victim to the best of its abilities. A pugwampi will hide and subject its victim to bad luck, while a lovelorn will stalk the victim and undermine his relationships.</p><p></p><p> Nemesis creatures do not kill their victims, and they avoid doing anything that might result in their victims' deaths (though they have no rules against killing others).</p><p></p><p> Beyond defining the nemesis creature's target, the ritual casters have no special control over or connection to the conjured beast.</p><p></p><p> A nemesis creature always knows its victim's location, but it must travel to the victim under its own power (or its creator's power). A victim can conceal itself from the nemesis creature's senses for 24 hours by succeeding at a Will saving throw each day at dawn. Should the nemesis creature be discovered and slain, its spirit returns to the depiction used to conjure it, where it re-forms after 1d4 days per Hit Die. Once re-formed, the nemesis creature emerges from its depiction to resume its campaign of subterfuge. The curse bestowed by this spell cannot be dispelled, but it can be removed with a miracle or wish spell. If the depiction of the nemesis creature is destroyed or if it is targeted with a remove curse or break enchantment spell, the nemesis creature is immediately destroyed and the curse ends.</p><p></p><p> The following creatures can be summoned as nemesis creatures: allip, gremlin (any), hellhound, imp, lovelorn, poltergeist, quasit, or tooth fairy.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one creature; see text"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "partial; see text"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {

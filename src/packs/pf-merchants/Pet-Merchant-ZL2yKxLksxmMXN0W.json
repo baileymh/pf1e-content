@@ -88,29 +88,23 @@
       "ac": {
         "normal": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "touch": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "flatFooted": {
-          "value": 0,
-          "total": 10
+          "value": 0
         }
       },
       "cmd": {
         "strAbility": "str",
         "dexAbility": "dex",
-        "value": 0,
-        "total": 10,
-        "flatFootedTotal": 10
+        "value": 0
       },
       "sr": {
-        "formula": "",
-        "total": 0
+        "formula": ""
       },
       "clCheck": false,
       "saveNotes": "",
@@ -149,48 +143,44 @@
         "base": 0,
         "temp": 0,
         "nonlethal": 0,
-        "max": 0
+        "offset": 0
       },
       "wounds": {
         "min": 0,
         "base": 0,
         "value": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "vigor": {
         "min": 0,
         "value": 0,
         "temp": 0,
         "base": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "init": {
         "value": 0,
         "ability": "dex",
-        "bonus": 0,
-        "total": 0
+        "bonus": 0
       },
       "speed": {
         "land": {
-          "base": 30,
-          "total": 30
+          "base": 30
         },
         "climb": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "swim": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "burrow": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "fly": {
           "base": 0,
-          "maneuverability": "average",
-          "total": null
+          "maneuverability": "average"
         }
       },
       "conditions": {
@@ -219,13 +209,11 @@
         "stunned": false
       },
       "spells": {
-        "usedSpellbooks": [],
         "spellbooks": {
           "primary": {
-            "altName": "",
+            "name": "Primary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Primary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -240,6 +228,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -263,54 +252,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "secondary": {
-            "altName": "",
+            "name": "Secondary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Secondary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -325,6 +305,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -348,54 +329,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "tertiary": {
-            "altName": "",
+            "name": "Tertiary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Tertiary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -410,6 +382,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -433,54 +406,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "spelllike": {
-            "altName": "",
+            "name": "Spell-likes",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Spell-likes",
             "casterType": "high",
             "class": "_hd",
             "cl": {
@@ -495,6 +459,7 @@
             "ability": "cha",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -518,61 +483,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           }
         }
       },
       "encumbrance": {
-        "level": 0,
-        "levels": {
-          "light": 33,
-          "medium": 66,
-          "heavy": 100,
-          "carry": 200,
-          "drag": 500
-        },
-        "carriedWeight": 0
+        "levels": {}
       },
       "hd": {
         "total": 1,
@@ -657,8 +606,7 @@
         }
       },
       "cr": {
-        "base": 1,
-        "total": 1
+        "base": 1
       },
       "mythicTier": 0,
       "type": "",
@@ -1010,7 +958,24 @@
     "customSkills": {},
     "traits": {
       "size": "med",
-      "senses": "",
+      "senses": {
+        "dv": 0,
+        "ts": 0,
+        "bs": 0,
+        "bse": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "dim": 2,
+            "bright": 2
+          }
+        },
+        "sid": false,
+        "tr": false,
+        "si": false,
+        "sc": false,
+        "custom": ""
+      },
       "dr": "",
       "eres": "",
       "cres": "",
@@ -1126,7 +1091,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 45,
         "size": "med",
         "equipped": false,
@@ -1163,16 +1130,14 @@
         "tag": "antelope",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1207,7 +1172,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 500,
+        "weight": {
+          "value": 500
+        },
         "price": 1500,
         "size": "med",
         "equipped": false,
@@ -1244,16 +1211,14 @@
         "tag": "axeBeakCombatTrained",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1283,7 +1248,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -1320,16 +1287,14 @@
         "tag": "baboon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1364,7 +1329,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 20,
+        "weight": {
+          "value": 20
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -1401,16 +1368,14 @@
         "tag": "badger",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1440,7 +1405,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -1477,16 +1444,14 @@
         "tag": "bat",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1521,7 +1486,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 740,
         "size": "med",
         "equipped": false,
@@ -1558,16 +1525,14 @@
         "tag": "bearGrizzly",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1602,7 +1567,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 100,
+        "weight": {
+          "value": 100
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -1639,16 +1606,14 @@
         "tag": "catHunting",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1678,7 +1643,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1500,
+        "weight": {
+          "value": 1500
+        },
         "price": 0,
         "size": "med",
         "equipped": false,
@@ -1715,16 +1682,14 @@
         "tag": "cattle",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1754,7 +1719,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.15,
+        "weight": {
+          "value": 0.15
+        },
         "price": 0.01,
         "size": "med",
         "equipped": false,
@@ -1791,16 +1758,14 @@
         "tag": "centipedeHouse",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1830,7 +1795,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 160,
         "size": "med",
         "equipped": false,
@@ -1867,16 +1834,14 @@
         "tag": "cheetah",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1906,7 +1871,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -1943,16 +1910,14 @@
         "tag": "chicken",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -1982,7 +1947,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 90,
         "size": "med",
         "equipped": false,
@@ -2019,16 +1986,14 @@
         "tag": "constrictorSnake",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2058,7 +2023,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 6,
+        "weight": {
+          "value": 6
+        },
         "price": 20,
         "size": "med",
         "equipped": false,
@@ -2095,16 +2062,14 @@
         "tag": "crab",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2134,7 +2099,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 55,
         "size": "med",
         "equipped": false,
@@ -2171,16 +2138,14 @@
         "tag": "crocodile",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2215,7 +2180,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -2252,16 +2219,14 @@
         "tag": "dodo",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2291,7 +2256,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 105,
         "size": "med",
         "equipped": false,
@@ -2328,16 +2295,14 @@
         "tag": "dolphin",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2367,7 +2332,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 8,
         "size": "med",
         "equipped": false,
@@ -2404,16 +2371,14 @@
         "tag": "donkeymule",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2443,7 +2408,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -2480,16 +2447,14 @@
         "tag": "duck",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2519,7 +2484,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 7,
         "size": "med",
         "equipped": false,
@@ -2556,16 +2523,14 @@
         "tag": "dwarfCaiman",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2600,7 +2565,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 40,
         "size": "med",
         "equipped": false,
@@ -2637,16 +2604,14 @@
         "tag": "eagle",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2676,7 +2641,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 125,
         "size": "med",
         "equipped": false,
@@ -2713,16 +2680,14 @@
         "tag": "electricEel",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2752,7 +2717,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1600,
         "size": "med",
         "equipped": false,
@@ -2789,16 +2756,14 @@
         "tag": "emperorCobra",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2828,7 +2793,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 40,
         "size": "med",
         "equipped": false,
@@ -2865,16 +2832,14 @@
         "tag": "falcon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2904,7 +2869,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 12,
+        "weight": {
+          "value": 12
+        },
         "price": 8,
         "size": "med",
         "equipped": false,
@@ -2941,16 +2908,14 @@
         "tag": "fox",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -2980,7 +2945,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 75,
         "size": "med",
         "equipped": false,
@@ -3017,16 +2984,14 @@
         "tag": "frogGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3061,7 +3026,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 60,
         "size": "med",
         "equipped": false,
@@ -3098,16 +3065,14 @@
         "tag": "frogPoison",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3137,7 +3102,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 90,
         "size": "med",
         "equipped": false,
@@ -3174,16 +3141,14 @@
         "tag": "gar",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3213,7 +3178,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 50,
+        "weight": {
+          "value": 50
+        },
         "price": 0,
         "size": "med",
         "equipped": false,
@@ -3250,16 +3217,14 @@
         "tag": "goat",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3294,7 +3259,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 175,
         "size": "med",
         "equipped": false,
@@ -3331,16 +3298,14 @@
         "tag": "gorilla",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3375,7 +3340,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 18,
         "size": "med",
         "equipped": false,
@@ -3412,16 +3379,14 @@
         "tag": "hawk",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3451,7 +3416,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -3488,16 +3455,14 @@
         "tag": "hedgehog",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3527,7 +3492,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 80,
         "size": "med",
         "equipped": false,
@@ -3564,16 +3531,14 @@
         "tag": "hyena",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3603,7 +3568,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -3640,16 +3607,14 @@
         "tag": "kangaroo",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3679,7 +3644,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -3716,16 +3683,14 @@
         "tag": "leopard",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3755,7 +3720,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -3792,16 +3759,14 @@
         "tag": "mantaRay",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3831,7 +3796,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 6,
         "size": "med",
         "equipped": false,
@@ -3868,16 +3835,14 @@
         "tag": "marineIguana",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3907,7 +3872,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 4,
         "size": "med",
         "equipped": false,
@@ -3944,16 +3911,14 @@
         "tag": "mongoose",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -3983,7 +3948,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -4020,16 +3987,14 @@
         "tag": "monitorLizard",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4059,7 +4024,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 3,
         "size": "med",
         "equipped": false,
@@ -4096,16 +4063,14 @@
         "tag": "monkey",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4140,7 +4105,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1000,
         "size": "med",
         "equipped": false,
@@ -4177,16 +4144,14 @@
         "tag": "morayEelGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4216,7 +4181,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 350,
         "size": "med",
         "equipped": false,
@@ -4253,16 +4220,14 @@
         "tag": "narwhal",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4292,7 +4257,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -4329,16 +4296,14 @@
         "tag": "octopus",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4368,7 +4333,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1800,
         "size": "med",
         "equipped": false,
@@ -4405,16 +4372,14 @@
         "tag": "octopusGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4449,7 +4414,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 45,
         "size": "med",
         "equipped": false,
@@ -4486,16 +4453,14 @@
         "tag": "osprey",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4525,7 +4490,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 20,
         "size": "med",
         "equipped": false,
@@ -4562,16 +4529,14 @@
         "tag": "otter",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4601,7 +4566,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 22,
         "size": "med",
         "equipped": false,
@@ -4638,16 +4605,14 @@
         "tag": "owlGreatHorned",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4677,7 +4642,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 50,
         "size": "med",
         "equipped": false,
@@ -4714,16 +4681,14 @@
         "tag": "parrot",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4758,7 +4723,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 0,
         "size": "med",
         "equipped": false,
@@ -4795,16 +4762,14 @@
         "tag": "pig",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4839,7 +4804,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -4876,16 +4843,14 @@
         "tag": "porcupine",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4915,7 +4880,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 135,
         "size": "med",
         "equipped": false,
@@ -4952,16 +4919,14 @@
         "tag": "porcupineGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -4991,7 +4956,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 7,
+        "weight": {
+          "value": 7
+        },
         "price": 200,
         "size": "med",
         "equipped": false,
@@ -5028,16 +4995,14 @@
         "tag": "pseudodragon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5067,7 +5032,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -5104,16 +5071,14 @@
         "tag": "rabbit",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5148,7 +5113,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 7,
+        "weight": {
+          "value": 7
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -5185,16 +5152,14 @@
         "tag": "raccoon",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5224,7 +5189,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 50,
+        "weight": {
+          "value": 50
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -5261,16 +5228,14 @@
         "tag": "ratDire",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5300,7 +5265,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 50,
+        "weight": {
+          "value": 50
+        },
         "price": 1,
         "size": "med",
         "equipped": false,
@@ -5337,16 +5304,14 @@
         "tag": "ratDonkey",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5381,7 +5346,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -5418,16 +5385,14 @@
         "tag": "raven",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5457,7 +5422,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 3,
         "size": "med",
         "equipped": false,
@@ -5494,16 +5461,14 @@
         "tag": "scavengerBeetleColony",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5533,7 +5498,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.55,
+        "weight": {
+          "value": 0.55
+        },
         "price": 15,
         "size": "med",
         "equipped": false,
@@ -5570,16 +5537,14 @@
         "tag": "scorpionGreensting",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5609,7 +5574,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -5646,16 +5613,14 @@
         "tag": "seaKrait",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5685,7 +5650,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 45,
         "size": "med",
         "equipped": false,
@@ -5722,16 +5689,14 @@
         "tag": "seal",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5761,7 +5726,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 325,
         "size": "med",
         "equipped": false,
@@ -5798,16 +5765,14 @@
         "tag": "shark",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5842,7 +5807,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 150,
+        "weight": {
+          "value": 150
+        },
         "price": 0,
         "size": "med",
         "equipped": false,
@@ -5879,16 +5846,14 @@
         "tag": "sheep",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5923,7 +5888,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -5960,16 +5927,14 @@
         "tag": "skunk",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -5999,7 +5964,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 190,
         "size": "med",
         "equipped": false,
@@ -6036,16 +6003,14 @@
         "tag": "skunkGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6075,7 +6040,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 18,
         "size": "med",
         "equipped": false,
@@ -6112,16 +6079,14 @@
         "tag": "snailKite",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6151,7 +6116,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 60,
+        "weight": {
+          "value": 60
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -6188,16 +6155,14 @@
         "tag": "snakeConstrictor",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6227,7 +6192,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": false,
@@ -6264,16 +6231,14 @@
         "tag": "snappingTurtle",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6303,7 +6268,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -6340,16 +6307,14 @@
         "tag": "spider",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6379,7 +6344,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": false,
@@ -6416,16 +6383,14 @@
         "tag": "squid",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6455,7 +6420,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 18,
         "size": "med",
         "equipped": false,
@@ -6492,16 +6459,14 @@
         "tag": "stingray",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6531,7 +6496,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 20,
         "size": "med",
         "equipped": false,
@@ -6568,16 +6535,14 @@
         "tag": "stirge",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6607,7 +6572,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.35,
+        "weight": {
+          "value": 0.35
+        },
         "price": 0.1,
         "size": "med",
         "equipped": false,
@@ -6644,16 +6611,14 @@
         "tag": "thrush",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6683,7 +6648,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 18,
         "size": "med",
         "equipped": false,
@@ -6720,16 +6687,14 @@
         "tag": "thylacine",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6759,7 +6724,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.35,
+        "weight": {
+          "value": 0.35
+        },
         "price": 0.02,
         "size": "med",
         "equipped": false,
@@ -6796,16 +6763,14 @@
         "tag": "toad",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6835,7 +6800,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.25,
+        "weight": {
+          "value": 0.25
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -6872,16 +6839,14 @@
         "tag": "toadVision",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6911,7 +6876,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": false,
@@ -6948,16 +6915,14 @@
         "tag": "toadGiant",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -6992,7 +6957,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 40,
         "size": "med",
         "equipped": false,
@@ -7029,16 +6996,14 @@
         "tag": "toucan",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7068,7 +7033,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 10,
+        "weight": {
+          "value": 10
+        },
         "price": 10,
         "size": "med",
         "equipped": false,
@@ -7105,16 +7072,14 @@
         "tag": "travelingBeeHive",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Animal Gear"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Animal Gear"
+          }
         },
         "scriptCalls": [],
         "subType": "gear",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7149,7 +7114,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 4,
+        "weight": {
+          "value": 4
+        },
         "price": 3,
         "size": "med",
         "equipped": false,
@@ -7186,16 +7153,14 @@
         "tag": "turtle",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7225,7 +7190,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": false,
@@ -7262,16 +7229,14 @@
         "tag": "vulture",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7301,7 +7266,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5
+        },
         "price": 2,
         "size": "med",
         "equipped": false,
@@ -7338,16 +7305,14 @@
         "tag": "weasel",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7377,7 +7342,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 100,
         "size": "med",
         "equipped": false,
@@ -7414,16 +7381,14 @@
         "tag": "wolf",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7458,7 +7423,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 125,
         "size": "med",
         "equipped": false,
@@ -7495,16 +7462,14 @@
         "tag": "wolverine",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7534,7 +7499,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1000,
+        "weight": {
+          "value": 1000
+        },
         "price": 24,
         "size": "med",
         "equipped": false,
@@ -7571,16 +7538,14 @@
         "tag": "yak",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7615,7 +7580,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 500,
+        "weight": {
+          "value": 500
+        },
         "price": 8000,
         "size": "med",
         "equipped": false,
@@ -7652,16 +7619,14 @@
         "tag": "griffonCombatTrained",
         "useCustomTag": false,
         "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Mounts/Pets"
-            ]
-          ]
+          "boolean": {},
+          "dictionary": {
+            "Category": "Mounts/Pets"
+          }
         },
         "scriptCalls": [],
         "subType": "misc",
+        "extraType": "",
         "uses": {
           "value": 0,
           "max": 0
@@ -7682,10 +7647,9 @@
   ],
   "effects": [],
   "folder": null,
-  "sort": 100001,
+  "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {
     "pf1": {

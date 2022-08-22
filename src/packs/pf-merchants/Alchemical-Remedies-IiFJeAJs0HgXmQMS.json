@@ -88,29 +88,23 @@
       "ac": {
         "normal": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "touch": {
           "ability": "dex",
-          "value": 0,
-          "total": 10
+          "value": 0
         },
         "flatFooted": {
-          "value": 0,
-          "total": 10
+          "value": 0
         }
       },
       "cmd": {
         "strAbility": "str",
         "dexAbility": "dex",
-        "value": 0,
-        "total": 10,
-        "flatFootedTotal": 10
+        "value": 0
       },
       "sr": {
-        "formula": "",
-        "total": 0
+        "formula": ""
       },
       "clCheck": false,
       "saveNotes": "",
@@ -149,48 +143,44 @@
         "base": 0,
         "temp": 0,
         "nonlethal": 0,
-        "max": 0
+        "offset": 0
       },
       "wounds": {
         "min": 0,
         "base": 0,
         "value": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "vigor": {
         "min": 0,
         "value": 0,
         "temp": 0,
         "base": 0,
-        "max": 0
+        "max": 0,
+        "offset": 0
       },
       "init": {
         "value": 0,
         "ability": "dex",
-        "bonus": 0,
-        "total": 0
+        "bonus": 0
       },
       "speed": {
         "land": {
-          "base": 30,
-          "total": 30
+          "base": 30
         },
         "climb": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "swim": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "burrow": {
-          "base": 0,
-          "total": null
+          "base": 0
         },
         "fly": {
           "base": 0,
-          "maneuverability": "average",
-          "total": null
+          "maneuverability": "average"
         }
       },
       "conditions": {
@@ -219,13 +209,11 @@
         "stunned": false
       },
       "spells": {
-        "usedSpellbooks": [],
         "spellbooks": {
           "primary": {
-            "altName": "",
+            "name": "Primary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Primary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -240,6 +228,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -263,54 +252,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "secondary": {
-            "altName": "",
+            "name": "Secondary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Secondary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -325,6 +305,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -348,54 +329,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "tertiary": {
-            "altName": "",
+            "name": "Tertiary",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Tertiary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -410,6 +382,7 @@
             "ability": "int",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -433,54 +406,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           },
           "spelllike": {
-            "altName": "",
+            "name": "Spell-likes",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Spell-likes",
             "casterType": "high",
             "class": "_hd",
             "cl": {
@@ -495,6 +459,7 @@
             "ability": "cha",
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
+            "psychic": false,
             "arcaneSpellFailure": true,
             "hasCantrips": true,
             "spellPreparationMode": "spontaneous",
@@ -518,61 +483,45 @@
               },
               "spell2": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell3": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell4": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell5": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell6": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell7": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell8": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               },
               "spell9": {
                 "castPerDayOffsetFormula": "",
-                "preparedOffsetFormula": "",
-                "base": ""
+                "preparedOffsetFormula": ""
               }
             },
             "spellSlotAbilityBonusFormula": "",
             "domainSlotValue": 1,
-            "concentration": 0
+            "altName": ""
           }
         }
       },
       "encumbrance": {
-        "level": 0,
-        "levels": {
-          "light": 33,
-          "medium": 66,
-          "heavy": 100,
-          "carry": 200,
-          "drag": 500
-        },
-        "carriedWeight": 0
+        "levels": {}
       },
       "hd": {
         "total": 1,
@@ -657,8 +606,7 @@
         }
       },
       "cr": {
-        "base": 1,
-        "total": 1
+        "base": 1
       },
       "mythicTier": 0,
       "type": "",
@@ -1010,7 +958,24 @@
     "customSkills": {},
     "traits": {
       "size": "med",
-      "senses": "",
+      "senses": {
+        "dv": 0,
+        "ts": 0,
+        "bs": 0,
+        "bse": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "dim": 2,
+            "bright": 2
+          }
+        },
+        "sid": false,
+        "tr": false,
+        "si": false,
+        "sc": false,
+        "custom": ""
+      },
       "dr": "",
       "eres": "",
       "cres": "",
@@ -1126,7 +1091,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -1149,6 +1116,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "airCrystals",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1172,15 +1166,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1223,26 +1208,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "airCrystals",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1268,7 +1234,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 5,
         "size": "med",
         "equipped": true,
@@ -1291,6 +1259,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "alchemicalGrease",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1314,15 +1309,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1365,26 +1351,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "alchemicalGrease",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1410,7 +1377,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -1433,6 +1402,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "alchemicalPreserves",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1456,15 +1452,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1507,26 +1494,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "alchemicalPreserves",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1552,7 +1520,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1,
         "size": "med",
         "equipped": true,
@@ -1575,6 +1545,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "alchemistsKindness",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1598,15 +1595,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1649,26 +1637,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "alchemistsKindness",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1694,7 +1663,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 100,
         "size": "med",
         "equipped": true,
@@ -1717,6 +1688,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "ambrosiaVial",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1740,15 +1738,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1791,26 +1780,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "ambrosiaVial",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1836,7 +1806,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": true,
@@ -1859,6 +1831,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "anderosSalveAndMulibrousTincture",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -1882,15 +1881,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -1933,26 +1923,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "anderosSalveAndMulibrousTincture",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -1978,7 +1949,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -2001,6 +1974,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "anestheticWine",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2024,15 +2024,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2075,26 +2066,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "anestheticWine",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -2120,7 +2092,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 0,
         "size": "med",
         "equipped": true,
@@ -2143,6 +2117,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antidote",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2166,15 +2167,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2217,26 +2209,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antidote",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -2262,7 +2235,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -2285,6 +2260,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antiplague",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2308,15 +2310,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2359,26 +2352,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antiplague",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -2404,7 +2378,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -2427,6 +2403,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antiemeticSnuff",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2450,15 +2453,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2501,26 +2495,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antiemeticSnuff",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -2546,7 +2521,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -2569,6 +2546,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antitoxin",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2592,15 +2596,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2643,26 +2638,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antitoxin",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -2688,7 +2664,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -2711,6 +2689,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "applecheek",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2734,15 +2739,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2785,26 +2781,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "applecheek",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -2830,7 +2807,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -2853,6 +2832,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "aquemir",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -2876,15 +2882,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -2927,26 +2924,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "aquemir",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -2972,7 +2950,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 40,
         "size": "med",
         "equipped": true,
@@ -2995,6 +2975,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bladeguard",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3018,15 +3025,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3069,26 +3067,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "bladeguard",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3114,7 +3093,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -3137,6 +3118,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "blainBane",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3160,15 +3168,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3211,26 +3210,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "blainBane",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3256,7 +3236,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 75,
         "size": "med",
         "equipped": true,
@@ -3279,6 +3261,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bloodboilingPill",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3302,15 +3311,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3353,26 +3353,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "bloodboilingPill",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3398,7 +3379,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 75,
         "size": "med",
         "equipped": true,
@@ -3421,6 +3404,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bloodchillingPill",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3444,15 +3454,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3495,26 +3496,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "bloodchillingPill",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3540,7 +3522,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -3563,6 +3547,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bloodclotterSalve",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3586,15 +3597,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3637,26 +3639,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "bloodclotterSalve",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3682,7 +3665,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 40,
         "size": "med",
         "equipped": true,
@@ -3705,6 +3690,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "bloodgorge",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3728,15 +3740,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3779,26 +3782,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "bloodgorge",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -3824,7 +3808,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 25,
         "size": "med",
         "equipped": true,
@@ -3847,6 +3833,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "boulderheadBock",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -3870,15 +3883,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -3921,26 +3925,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "boulderheadBock",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -3966,7 +3951,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 3,
         "size": "med",
         "equipped": true,
@@ -3989,6 +3976,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "calistriasKindness",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4012,15 +4026,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4063,26 +4068,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "calistriasKindness",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4108,7 +4094,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 20,
         "size": "med",
         "equipped": true,
@@ -4131,6 +4119,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "chameleonOintment",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4154,15 +4169,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4205,26 +4211,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "chameleonOintment",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4250,7 +4237,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -4273,6 +4262,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "curativeMyrrh",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4296,15 +4312,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4347,26 +4354,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "curativeMyrrh",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4392,7 +4380,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -4415,6 +4405,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "distilledTerrapSap",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4438,15 +4455,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4489,26 +4497,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "distilledTerrapSap",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4534,7 +4523,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 80,
         "size": "med",
         "equipped": true,
@@ -4557,6 +4548,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "essenceOfIndependence",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4580,15 +4598,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4631,26 +4640,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "essenceOfIndependence",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4676,7 +4666,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -4699,6 +4691,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "eyeDropsOfTheUnseenMaster",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4722,15 +4741,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4773,26 +4783,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "eyeDropsOfTheUnseenMaster",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4818,7 +4809,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -4841,6 +4834,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "fireWardGel",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -4864,15 +4884,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -4915,26 +4926,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "fireWardGel",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -4960,7 +4952,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 20,
         "size": "med",
         "equipped": true,
@@ -4983,6 +4977,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "fortifyingBrew",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5006,15 +5027,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5057,26 +5069,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "fortifyingBrew",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -5102,7 +5095,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2
+        },
         "price": 120,
         "size": "med",
         "equipped": true,
@@ -5125,6 +5120,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "fortifyingFertilizer",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5148,15 +5170,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5199,26 +5212,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "fortifyingFertilizer",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -5244,7 +5238,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -5267,6 +5263,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "frostWardGel",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5290,15 +5313,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5341,26 +5355,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "frostWardGel",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -5386,7 +5381,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 40,
         "size": "med",
         "equipped": true,
@@ -5409,6 +5406,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "icecapAle",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5432,15 +5456,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5483,26 +5498,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "icecapAle",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -5528,7 +5524,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 200,
         "size": "med",
         "equipped": true,
@@ -5551,6 +5549,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "iniquitousPanacea",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5574,15 +5599,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5625,26 +5641,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "iniquitousPanacea",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -5670,7 +5667,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -5693,6 +5692,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "insightLeaves",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5716,15 +5742,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5767,26 +5784,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "insightLeaves",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -5812,7 +5810,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -5835,6 +5835,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "lanternHoney",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -5858,15 +5885,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -5909,26 +5927,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "lanternHoney",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -5954,7 +5953,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -5977,6 +5978,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "liquidBreeze",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6000,15 +6028,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6051,26 +6070,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "liquidBreeze",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6096,7 +6096,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 20,
         "size": "med",
         "equipped": true,
@@ -6119,6 +6121,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "longbeardLambic",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6142,15 +6171,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6193,26 +6213,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "longbeardLambic",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -6238,7 +6239,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 625,
         "size": "med",
         "equipped": true,
@@ -6261,6 +6264,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "loyaltyTransfusion",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6284,15 +6314,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6335,26 +6356,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "loyaltyTransfusion",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6380,7 +6382,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -6403,6 +6407,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "meditationTea",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6426,15 +6457,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6477,26 +6499,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "meditationTea",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6522,7 +6525,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": true,
@@ -6545,6 +6550,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "mellowrootVial",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6568,15 +6600,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6619,26 +6642,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "mellowrootVial",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6664,7 +6668,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -6687,6 +6693,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "memoryIncense",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6710,15 +6743,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6761,26 +6785,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "memoryIncense",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6806,7 +6811,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 100,
         "size": "med",
         "equipped": true,
@@ -6829,6 +6836,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "muscleGrout",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6852,15 +6886,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -6903,26 +6928,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "muscleGrout",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -6948,7 +6954,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 80,
         "size": "med",
         "equipped": true,
@@ -6971,6 +6979,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "nostalgiaOil",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -6994,15 +7029,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7045,26 +7071,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "nostalgiaOil",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -7090,7 +7097,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 80,
         "size": "med",
         "equipped": true,
@@ -7113,6 +7122,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "padzahr",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7136,15 +7172,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7187,26 +7214,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "padzahr",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7232,7 +7240,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -7255,6 +7265,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "phantomAsh",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7278,15 +7315,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7329,26 +7357,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "phantomAsh",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7374,7 +7383,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 15,
         "size": "med",
         "equipped": true,
@@ -7397,6 +7408,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "poisonWardSalve",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7420,15 +7458,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7471,26 +7500,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "poisonWardSalve",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7516,7 +7526,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -7539,6 +7551,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "purificationPellet",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7562,15 +7601,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7613,26 +7643,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "purificationPellet",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7658,7 +7669,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": true,
@@ -7681,6 +7694,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "ragersAid",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7704,15 +7744,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7755,26 +7786,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "ragersAid",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7800,7 +7812,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1,
         "size": "med",
         "equipped": true,
@@ -7823,6 +7837,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "saltTablets10",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7846,15 +7887,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -7897,26 +7929,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "saltTablets10",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -7942,7 +7955,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -7965,6 +7980,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "scarsalve",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -7988,15 +8030,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8039,26 +8072,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "scarsalve",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -8084,7 +8098,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 300,
         "size": "med",
         "equipped": true,
@@ -8107,6 +8123,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "semblanceTransfusion",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8130,15 +8173,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8181,26 +8215,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "semblanceTransfusion",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -8226,7 +8241,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 25,
         "size": "med",
         "equipped": true,
@@ -8249,6 +8266,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "smellingSalts",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8272,15 +8316,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8323,26 +8358,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "smellingSalts",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -8368,7 +8384,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 25,
         "size": "med",
         "equipped": true,
@@ -8391,6 +8409,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "sootheSyrup",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8414,15 +8459,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8465,26 +8501,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "sootheSyrup",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -8510,7 +8527,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 300,
         "size": "med",
         "equipped": true,
@@ -8533,6 +8552,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "soulStimulant",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8556,15 +8602,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8607,26 +8644,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "soulStimulant",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -8652,7 +8670,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -8675,6 +8695,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "stillgutVial",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8698,15 +8745,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8749,26 +8787,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "stillgutVial",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -8794,7 +8813,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 0,
         "size": "med",
         "equipped": true,
@@ -8817,6 +8838,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "stinkInkArcane",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8840,15 +8888,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -8891,26 +8930,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "stinkInkArcane",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -8936,7 +8956,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 5,
         "size": "med",
         "equipped": true,
@@ -8959,6 +8981,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "stinkInkCommon",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -8982,15 +9031,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9033,26 +9073,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "stinkInkCommon",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -9078,7 +9099,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5
+        },
         "price": 10,
         "size": "med",
         "equipped": true,
@@ -9101,6 +9124,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "sunCream",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9124,15 +9174,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9175,26 +9216,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "sunCream",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -9220,7 +9242,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 300,
         "size": "med",
         "equipped": true,
@@ -9243,6 +9267,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "surgicalJelly",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9266,15 +9317,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9317,26 +9359,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "surgicalJelly",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -9362,7 +9385,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 150,
         "size": "med",
         "equipped": true,
@@ -9385,6 +9410,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "syntheticMumia",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "drug",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9408,15 +9460,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9459,26 +9502,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "syntheticMumia",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "drug",
         "attack": {
           "parts": []
         }
@@ -9504,7 +9528,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 40,
         "size": "med",
         "equipped": true,
@@ -9527,6 +9553,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "teaOfTransference",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9550,15 +9603,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9601,26 +9645,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "teaOfTransference",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -9646,7 +9671,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 50,
         "size": "med",
         "equipped": true,
@@ -9669,6 +9696,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "trollOil",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9692,15 +9746,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9743,26 +9788,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "trollOil",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -9788,7 +9814,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 100,
         "size": "med",
         "equipped": true,
@@ -9811,6 +9839,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "trollStyptic",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9834,15 +9889,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -9885,26 +9931,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "trollStyptic",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -9930,7 +9957,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 45,
         "size": "med",
         "equipped": true,
@@ -9953,6 +9982,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "twitchTonic",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -9976,15 +10032,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10027,26 +10074,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "twitchTonic",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -10072,7 +10100,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 3,
+        "weight": {
+          "value": 3
+        },
         "price": 75,
         "size": "med",
         "equipped": true,
@@ -10095,6 +10125,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "vaporsOfEasyBreath",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10118,15 +10175,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10169,26 +10217,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "vaporsOfEasyBreath",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -10214,7 +10243,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 35,
         "size": "med",
         "equipped": true,
@@ -10237,6 +10268,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "venombaneLozenges",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10260,15 +10318,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10311,26 +10360,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "venombaneLozenges",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -10356,7 +10386,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 5,
         "size": "med",
         "equipped": true,
@@ -10379,6 +10411,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "verminRepellent",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10402,15 +10461,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10453,26 +10503,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "verminRepellent",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -10498,7 +10529,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 85,
         "size": "med",
         "equipped": true,
@@ -10521,6 +10554,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "vivifyingMoxibustionNeedles",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10544,15 +10604,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10595,26 +10646,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "vivifyingMoxibustionNeedles",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -10640,7 +10672,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 1,
         "size": "med",
         "equipped": true,
@@ -10663,6 +10697,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "wingOil",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10686,15 +10747,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10737,26 +10789,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "wingOil",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
         "attack": {
           "parts": []
         }
@@ -10782,7 +10815,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -10805,6 +10840,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "wismuthSalix",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10828,15 +10890,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -10879,26 +10932,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "wismuthSalix",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -10924,7 +10958,9 @@
         },
         "tags": [],
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1
+        },
         "price": 30,
         "size": "med",
         "equipped": true,
@@ -10947,6 +10983,33 @@
           "custom": false,
           "school": ""
         },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "wyrmsBreathBitter",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
         "activation": {
           "cost": 1,
           "type": ""
@@ -10970,15 +11033,6 @@
           "maxIncrements": 1,
           "minValue": null,
           "minUnits": ""
-        },
-        "uses": {
-          "value": 0,
-          "per": null,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "max": 0
         },
         "measureTemplate": {
           "type": "",
@@ -11021,26 +11075,7 @@
           "type": "",
           "description": ""
         },
-        "effectNotes": [],
-        "attackNotes": [],
         "soundEffect": "",
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "wyrmsBreathBitter",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": [],
-          "dictionary": [
-            [
-              "Category",
-              "Alchemical Remedies"
-            ]
-          ]
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
         "attack": {
           "parts": []
         }
@@ -11057,10 +11092,9 @@
   ],
   "effects": [],
   "folder": null,
-  "sort": 100001,
+  "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {
     "pf1": {

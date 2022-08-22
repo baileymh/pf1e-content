@@ -11,7 +11,9 @@
     },
     "tags": [],
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1
+    },
     "price": 50,
     "size": "med",
     "equipped": true,
@@ -34,6 +36,32 @@
       "custom": false,
       "school": ""
     },
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "pricePerUse": 0,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "pathstones",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {
+        "Category": "Alchemical Tools"
+      }
+    },
+    "scriptCalls": [],
+    "consumableType": "misc",
+    "showInQuickbar": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -48,96 +76,21 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "pricePerUse": 0,
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
     "actionType": null,
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "effectNotes": [],
-    "attackNotes": [],
-    "soundEffect": "",
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "pathstones",
-    "useCustomTag": false,
-    "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "Category",
-          "Alchemical Tools"
-        ]
-      ]
-    },
-    "scriptCalls": [],
-    "consumableType": "misc",
-    "attack": {
-      "parts": []
+    "attack": {},
+    "range": {
+      "maxIncrements": 1
     }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "T7ruBbHuMiFYUDxv": 3
+    "default": 0
   },
   "flags": {}
 }

@@ -9,93 +9,125 @@
       "unidentified": ""
     },
     "tags": [],
-    "activation": {
-      "cost": 1,
-      "type": "standard"
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 2,
-        "type": "action"
-      }
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": "one helpless creature/character level of the primary caster, no two of which can be more than 30 ft. apart"
-    },
-    "range": {
-      "value": null,
-      "units": "touch",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": "",
-      "max": 0
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "other",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
+    "actions": [
+      {
+        "_id": "jpg8bmrdztlvsldi",
+        "name": "Use",
+        "img": "systems/pf1/icons/skills/affliction_05.jpg",
+        "description": "",
+        "tag": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "one helpless creature/character level of the primary caster, no two of which can be more than 30 ft. apart"
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "uses": {
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1 + @sl",
+          "per": null,
+          "value": 0,
+          "maxFormula": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": ""
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
         "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
+        "ability": {
+          "attack": null,
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "will",
+          "description": "partial, see text"
+        },
+        "effectNotes": [],
+        "attackNotes": [],
+        "soundEffect": "",
+        "powerAttack": {
+          "multiplier": "",
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          }
+        },
+        "nonlethal": false,
+        "usesAmmo": false,
+        "spellEffect": "",
+        "spellArea": "",
+        "conditionals": [],
+        "enh": {
+          "value": null
+        }
+      }
+    ],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
     },
-    "formula": "",
-    "ability": {
-      "attack": null,
-      "damage": "",
-      "damageMult": 1,
-      "critRange": 20,
-      "critMult": 2
-    },
-    "save": {
-      "dc": "0",
-      "type": "will",
-      "description": "partial, see text"
-    },
-    "effectNotes": [],
     "attackNotes": [],
-    "soundEffect": "",
+    "effectNotes": [],
     "links": {
       "children": []
     },
     "flags": {
-      "boolean": [],
-      "dictionary": [
-        [
-          "summary",
-          "Turn the targets into mice-like creatures that are innately afraid of cats"
-        ]
-      ]
+      "boolean": {},
+      "dictionary": {
+        "summary": "Turn the targets into mice-like creatures that are innately afraid of cats"
+      }
     },
     "scriptCalls": [],
     "learnedAt": {
@@ -112,11 +144,12 @@
     "subschool": "summoning",
     "types": "",
     "nonlethal": false,
-    "conditionals": [],
     "components": {
       "value": "components",
       "verbal": true,
       "somatic": true,
+      "thought": false,
+      "emotion": false,
       "material": true,
       "focus": true,
       "divineFocus": 0
@@ -137,24 +170,54 @@
     "atWill": false,
     "sr": true,
     "shortDescription": "<p><strong>Source</strong> <em>Villain Codex pg. 200</em></p><p><strong>School</strong> transmutation (polymorph); <strong>Level</strong> 5</p><p><strong>Casting Time</strong> 50 minutes</p><p><strong>Components</strong> V, S, M (one live mouse per target), F (a tiny cat figurine worth 500 gp and a golden cage worth at least 5,000 gp), SC (at least one per target)</p><p><strong>Skill Checks</strong> Intimidate DC 27, 1 success; Knowledge (arcana) DC 27, 1 success; Knowledge (nature) DC 27, 2 successes; Stealth DC 27, 1 success</p><p><strong>Range</strong> close</p><p><strong>Target</strong> one helpless creature/character level of the primary caster, no two of which can be more than 30 ft. apart</p><p><strong>Duration</strong> 1 hour/character level of the primary caster</p><p><strong>Saving Throw</strong> Will partial, see text; <strong>SR</strong> yes</p><p><strong>Backlash</strong> All casters are cursed with insatiable hunger, as per a permanent <em>feast of ashes</em>. This curse effect is negated for a caster if he consumes the fresh flesh or blood of any target within the duration. <em>Remove curse</em> and similar effects can also remove the curse, but only after the ritual's duration expires.</p><p><strong>Failure</strong> Consumption of a target's flesh or blood does not negate the backlash curse. For 1 hour, each target is affected by <em>freedom of movement</em>. Each caster is shaken and sickened.</p><h3 class=\"framing\">Effect</h3><p>The primary caster starts this ritual by placing one live mouse per target into the golden cage. When all the mice are caged, she then places the cat figurine within the cage. If the ritual succeeds, the figurine animates for a short period, during which it kills each of the caged mice. As each mouse is killed, the head of a target is transformed into a mouse head of a suitable size for the ritual's duration. Each target gains low-light vision and scent but loses the ability to speak (and thus the ability to complete verbal spell components, speak command words, and activate spell completion and spell trigger items). Any polymorph effects on the target are automatically dispelled, and for the duration of the ritual's effect, a target cannot use other polymorph spells or effects to assume a new form. In addition, while so transformed, a target must attempt a Will save whenever she encounters a cat, catlike creature, or creature in a cat mask; if she fails, she is affected as per <em>fear</em>. If she succeeds, the target becomes immune to this effect with respect to that particular feline only.</p><p></p><p> Finally, if a target moves farther than 1 mile from the cage per 5,000 gp of the cage's value, it takes 1d6 points of nonlethal damage each round it remains beyond that range. This effect is negated if the cage is destroyed or moved more than 100 feet from its location at the ritual's beginning.</p><p></p><p> Incorporeal or gaseous creatures are immune to the ritual, and a creature with the shapechanger subtype can revert to its natural form as a standard action.</p>",
+    "showInQuickbar": false,
+    "domain": false,
+    "slotCost": 1,
+    "activation": {
+      "cost": 1,
+      "type": "standard"
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 2,
+        "type": "action"
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": "one helpless creature/character level of the primary caster, no two of which can be more than 30 ft. apart"
+    },
+    "actionType": "other",
+    "ability": {
+      "damage": "",
+      "damageMult": 1,
+      "critMult": 2
+    },
+    "save": {
+      "dc": "0",
+      "type": "will",
+      "description": "partial, see text"
+    },
     "spellDuration": "",
     "spellEffect": "",
     "spellArea": "",
-    "showInQuickbar": false,
     "spellPoints": {
       "cost": "1 + @sl"
     },
-    "domain": false,
-    "slotCost": 1,
     "identifiedName": "Cats and Mice (Occult Ritual)",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
   "permission": {
-    "default": 0,
-    "IPeKQhMz2Odi77tR": 3
+    "default": 0
   },
   "flags": {
     "autoanimations": {
