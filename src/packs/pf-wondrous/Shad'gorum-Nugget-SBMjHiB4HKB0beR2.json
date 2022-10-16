@@ -3,7 +3,7 @@
   "name": "Shad'gorum Nugget",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This impossibly hard, lumpy piece of unforged iron originates from metal that remained cool after smelting-ore that resisted all attempts to forge it into another shape. Worshipers of Gorum believe this metal is a reflection of their god's unrelenting determination, and often fashion this stubborn iron into a pendant, though it is sometimes used as a mace head or as a counterweight to a greatsword or another large weapon instead. While wearing a Shad'Gorum nugget around the neck, the wearer gains fire resistance 1 and a +1 resistance bonus on Will saving throws.  If Gorum is the wearer's patron, the wearer can use chill metal once per day. At will, the wearer can mend small metallic items as if using a mending spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chill metal, mending, resist energy, resistance</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406686,
+    "modifiedTime": 1665949168947,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

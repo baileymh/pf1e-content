@@ -3,7 +3,7 @@
   "name": "Harp Of Charming",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This beautiful and intricately carved harp can be held comfortably in one hand, but both hands are required to utilize its magic. When played, a harp of charming enables the performer to work one suggestion (as the spell, Will DC 14 negates) into the music for each 10 minutes of playing if she can succeed on a DC 14 Perform (string) check. If the check fails, the audience cannot be affected by any further performances from the harpist for 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, suggestion</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405389,
+    "modifiedTime": 1665949167786,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Filth Fever",
   "type": "feat",
   "img": "systems/pf1/icons/races/ratfolk.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Type&nbsp;</strong>disease (injury); <strong>Save&nbsp;</strong>Fortitude DC 12;</p>\n<p><strong>Onset&nbsp;</strong><span id=\"ctl00_MainContent_DataListDiseases_ctl00_LabelName\">1d3 days</span>;&nbsp;<strong>Frequency&nbsp;</strong>1/day</p>\n<p><strong>Effect&nbsp;</strong>1d3 Dex damage and 1d3 Con damage</p>\n<p><strong>Cure</strong>&nbsp;2 consecutive saves</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -107,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -167,7 +173,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -206,8 +211,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428376427,
+    "modifiedTime": 1665949141240,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

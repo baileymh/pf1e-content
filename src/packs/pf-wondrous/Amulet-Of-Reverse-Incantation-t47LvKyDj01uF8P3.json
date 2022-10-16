@@ -3,7 +3,7 @@
   "name": "Amulet Of Reverse Incantation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An ivory cameo depicting two elderly, bearded wizards with identical faces hangs on this amulet's delicate silver chain. Three times per day, when casting a spell with a verbal component, the wearer of an amulet of reverse incantation can recite the spell's words backward as a free action in order to invert the spell's effect, as described below.  • If the wearer casts a spell that can counter or dispel another specific spell, she can activate the amulet to convert the spell being cast into the spell it specifically counters. For example, haste would become slow, or reduce person would become enlarge person.  • If the wearer casts a spell that detects or affects creatures of a certain alignment, the spell instead affects creatures of the opposite alignment. For example, chaos hammer would damage and blind chaotic creatures and outsiders instead of lawful ones.  • If the wearer casts a cure or inflict spell, she can activate the amulet to convert the spell being cast into the other type of the same spell level, such as converting cure moderate wounds into inflict moderate wounds.  Alignment restrictions still apply for casters who can't cast spells with certain alignment descriptors.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dispel magic, tongues</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409787,
+    "modifiedTime": 1665949171892,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Circlet Of Spell-Eating, Type IV",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Iridescent whorls and runes in a flowing eldritch script adorn this golden circlet. The circlet functions as a ring of spell knowledgeUE, allowing a spontaneous caster to learn and store an additional arcane spell. However, once the circlet has been worn for 1d6 days, the wearer must succeed at a DC 16 Will save each day when meditating to renew her spell slots. Failure indicates that she loses knowledge of a random spell, whose level cannot exceed the maximum level of the circlet of spell-eating. Knowledge of this spell is lost until the circlet is removed, returning at a rate of one spell per day, beginning with the lowest-level spell forgotten.  So long as the circlet of spell-eating has caused its wearer to forget at least one spell, its creator can cast the first spell lost to the item once per day as a spell-like ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, imbue with spell ability</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407380,
+    "modifiedTime": 1665949169633,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

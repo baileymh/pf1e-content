@@ -3,7 +3,7 @@
   "name": "Lady's Mercy",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This coin-sized black disk is engraved with a spiral on one side and a whippoorwill on the other. When the bearer of  the disk succeeds at a Constitution check to stabilize, the disk heals the wearer, restoring her to 1 hit point regardless of her previous hit point total. The disk then crumbles to dust. Should a character have multiple lady's mercies, only one disk triggers at a time.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds</p><h3><b>Source: </b></h3>AP 139",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410274,
+    "modifiedTime": 1665949172337,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

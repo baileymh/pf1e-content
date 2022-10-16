@@ -3,7 +3,7 @@
   "name": "Flare gun",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 300 gp</p><p><strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 1 lb.</p><p><strong>Damage</strong> 1d6 (small), 1d8 (medium); <strong>Damage Type</strong> F; <strong>Critical</strong> x3</p><p><strong>Range</strong> 240 ft.; <strong>Capacity</strong> 1; <strong>Usage</strong> Disposable; <strong>Special</strong> Slow-firing, touch</p><h2 class=\"framing\">Description</h2><p>A flare gun looks like a wide-barreled pistol, and although it can be used in combat, the item's primary use is to send signals. A flare gun and its ammunition (a small, rocket-propelled magnesium charge) are completely self-contained and disposable-once fired, a flare gun is useless. While a flare gun has excellent range, the flare tends to wobble and spiral in flight, incurring a 20% miss chance if it's being used to target a specific point. The flare detonates once it hits a target or reaches its maximum range of 2,400 feet, bursting into a sphere of fire that illuminates a 120-foot-radius area for 1 minute as it drifts slowly back to the ground. Any creatures within 20 feet of the flare must succeed at a DC 12 Fortitude saving throw each round or be dazzled by the intense light for as long as they remain in the area. Creatures adjacent to a lit flare are also blinded for 1d4 rounds on a failed save. A creature struck by a flare takes 1d8 points of fire damage (1d6 points of fire damage from Small flare guns), and continues to take the same amount of fire damage each round until the flare is removed. Removing a flare is a full-round action.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 18; <strong>Cost</strong> 150 gp</p><p>Craft Technological Arms and Armor, production lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -209,6 +214,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -302,8 +308,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387672,
+    "modifiedTime": 1665949152039,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

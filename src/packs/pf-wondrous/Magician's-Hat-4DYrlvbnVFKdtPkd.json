@@ -3,7 +3,7 @@
   "name": "Magician's Hat",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Mystic symbols embroidered in gold thread decorate this conical hat. Three times per day as a free action when casting a spell, the wearer can shift metamagic feats on prepared spells. The wearer can either move a metamagic feat from another prepared spell to a spell being cast or from the spell being cast to another prepared spell. In either case, the spell that gains the metamagic feat can't exceed the spell slot of the spell that originally had the metamagic feat. For example, a wizard with detect thoughts, silent dispel magic, and dimension door prepared could cast a silent detect thoughts (and would now have dispel magic prepared), but could not cast silent dimension door. Moving metamagic feats does not increase spell casting time, even for quickened spells. The hat provides no benefit to spontaneous casting or spell-like abilities.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mnemonic enhancer</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403641,
+    "modifiedTime": 1665949166116,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

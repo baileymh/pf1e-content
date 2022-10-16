@@ -3,7 +3,7 @@
   "name": "Deliquescent Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These heavy leather gloves ripple and flows at the wearer's command, reshaping to fit any hand, claw, tentacle, or alien limb. The wearer's melee touch attacks with that hand deal 1d6 points of acid damage. If the wearer uses that hand to wield a weapon or make an attack with an unarmed strike or natural weapon, that attack gains the corrosive weapon special ability.   The wearer's gloved hand is protected from the acid ability of oozes, allowing him to use that hand to attack oozes with unarmed strikes or natural attacks without risk of harm from contact with the ooze. These unarmed strikes and natural attacks never cause an ooze to split.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, acid arrow, summon monster V</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410372,
+    "modifiedTime": 1665949172406,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

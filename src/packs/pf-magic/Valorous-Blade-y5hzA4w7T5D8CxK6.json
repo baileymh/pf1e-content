@@ -3,7 +3,7 @@
   "name": "Valorous Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once per day within 1 minute of using this +1 valiantUE scimitar to kill or knock unconscious a foe, as a standard action, the wielder can inspire all allies within 60 feet who can see her. Those allies gain a +2 morale bonus on attack rolls, skill checks, and saving throws for 10 minutes.<br><p><b>Base Item:</b> +1 valiant scimitar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, good hope, true strike</p><h3><b>Source: </b></h3>Weapon Master's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373310,
+    "modifiedTime": 1665949139715,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

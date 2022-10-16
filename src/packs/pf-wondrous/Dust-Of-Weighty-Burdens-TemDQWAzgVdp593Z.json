@@ -3,7 +3,7 @@
   "name": "Dust Of Weighty Burdens",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Also known as lodestone essence, this coarse gray powder comes in a fragile ceramic flask covered in Terran runes. A newly-crafted flask contains enough powder for 10 applications if poured out carefully, or the whole container can be thrown as a splash weapon with a range increment of 10 feet.   One application of the dust sprinkled over an object increases the target's weight by 100 pounds. Multiple applications stack, and the effect remains until the object is scrubbed clean of the metallic particles (taking a full-round action per application) or it takes 5 points of electricity damage per application.   A creature struck directly with a thrown flask must make a Fortitude save (DC 10 + 1 per application remaining in the flask) or gain heavy encumbrance and be unable to fly for 2d4 rounds. Targets in the splash area must save or gain medium encumbrance for 2d4 rounds. Scrubbing or electricity damage neutralizes the thrown powder as noted above.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, slow, stone shape</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406765,
+    "modifiedTime": 1665949169017,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

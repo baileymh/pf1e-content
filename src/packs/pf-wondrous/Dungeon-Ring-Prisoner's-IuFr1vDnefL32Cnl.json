@@ -3,7 +3,7 @@
   "name": "Dungeon Ring, Prisoner's",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A jailer's dungeon ring is worked gold, set with carnelians. The ring is magically attuned to one or more iron prisoner's dungeon rings. When the wearer of a jailer's ring places a prisoner's ring on a subject, the prisoner cannot remove the ring without the use of a remove curse, limited wish, miracle, or wish spell. The wearer of the jailer's ring can also remove a linked prisoner's ring at any time.   The jailer is aware of any wearer of a linked prisoner's ring as per a constant status spell. Additionally, all wearers of linked prisoner's rings count as familiar to the jailer for the purposes of spells such as scrying and teleport.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, scrying, status</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405461,
+    "modifiedTime": 1665949167815,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

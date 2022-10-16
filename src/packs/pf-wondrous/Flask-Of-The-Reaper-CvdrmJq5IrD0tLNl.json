@@ -3,7 +3,7 @@
   "name": "Flask Of The Reaper",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This metal container looks like a hip flask for carrying alcoholic drinks except it is barely larger than a potion vial. The side of the flask may be blank or have a personalized decoration, but the screw-on stopper usually bears a mark like a shield or perhaps a featureless mask. Once per day, the bearer can drink from the flask to gain a +5 alchemical bonus on Fortitude saving throws against poison and a +5 competence bonus on Stealth checks for 1 hour.  If Norgorber is the bearer's patron, once per day the bearer can drink from the flask to gain a +5 competence bonus on Perception, Sleight of Hand, or Stealth checks (drinker's choice) for 1 hour. In addition, the bearer can pour acid from the flask (equivalent in volume to a standard acid flask) once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, acid splash, resistance, creator must have  5 ranks in Perception, Sleight of Hand, and Stealth</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404696,
+    "modifiedTime": 1665949167198,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

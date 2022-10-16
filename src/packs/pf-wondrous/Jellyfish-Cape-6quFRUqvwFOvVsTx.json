@@ -3,7 +3,7 @@
   "name": "Jellyfish Cape",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This billowing white cape renders the wearer almost invisible the moment she is submerged in salt water, granting her concealment (20% miss chance) so long as she remains entirely submerged. The wearer can breathe underwater and gains a swim speed of 20 ft. While the wearer is submerged, the cape surrounds her with tiny stinging tentacles. Any creature that ends its turn adjacent to the wearer takes 1 point of electricity damage and must succeed at a DC 16 Fortitude saving throw or be sickened for 1 round. The sickened effect is a poison effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape II, water breathing</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404086,
+    "modifiedTime": 1665949166580,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

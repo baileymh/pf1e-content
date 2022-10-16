@@ -3,7 +3,7 @@
   "name": "Ring Of The Faithful Dead",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This spiraling silver ring glows briefly when a living creature puts it on. If its wearer of a ring of the faithful dead is slain by a creature with the create spawn ability, the wearer does not rise as an undead creature, even if the ring is later removed. If a corpse is wearing a ring of the faithful dead, any attempts to create an undead creature from the corpse (such as via animate dead) automatically fail, though simply removing the ring ends this protection.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, sanctify corpseUM</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409074,
+    "modifiedTime": 1665949171241,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

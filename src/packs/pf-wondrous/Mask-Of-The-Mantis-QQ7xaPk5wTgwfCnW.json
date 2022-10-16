@@ -3,7 +3,7 @@
   "name": "Mask Of The Mantis",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A mask of the mantis is the traditional headgear of the Red Mantis assassin-a magical helm that evokes the eerie visage of a praying mantis. Designed both to mask the wearer's identity while on a job and to enhance the wearer's ferocious appearance, a mask of the mantis has 3 daily charges that can be used to gain additional bonuses. The wearer can spend a charge to gain darkvision to a range of 60 feet, the effects of see invisibility, the effects of deathwatch, or a +5 competence bonus on Perception checks. Once a charge is spent, the effect granted persists for 30 minutes before fading. Multiple effects can be active simultaneously. Charges expended from the mask replenish automatically in 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, darkvision, deathwatch, see invisibility</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406246,
+    "modifiedTime": 1665949168506,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

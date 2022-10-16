@@ -3,7 +3,7 @@
   "name": "Whip Mastery",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/battle-poi.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your superior expertise with this weapon does not provoke attacks of opportunity from your enemies.</em><br/><br/><b>Prerequisites</b><br/>Weapon Focus (whip), base attack bonus +2.<br/><br/><b>Benefits</b><br/>You no longer provoke attacks of opportunity when attacking with a whip. You can deal lethal damage with a whip, although you can still deal nonlethal damage when you want. Further, you can deal damage with a whip despite a creature's armor bonus or natural armor bonus.<br/><br/><b>Normal</b><br/>Attacking with a whip provokes attacks of opportunity as if you used a ranged weapon. A whip deals no damage to a creature that has an armor bonus of +1 or natural armor bonus of +3.<br/><br/><b>Combat Trick</b><br/>When using a whip to deal nonlethal damage, as long as you have at least 1 stamina point in your stamina pool, the whip deals 1d8 points of nonlethal damage (1d6 for a Small whip). At the start of your turn, you can spend 2 stamina points to increase the damage die of the whip as if it were one size category larger for your next attack, regardless of whether you are dealing lethal or nonlethal damage. For nonlethal attacks, these two increases stack. This effect doesn't stack with other effects that treat the weapon as a larger size category unless they increase the actual size.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357984,
+    "modifiedTime": 1665949126252,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

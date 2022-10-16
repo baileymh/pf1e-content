@@ -3,7 +3,7 @@
   "name": "Feller's Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The secret weapons of the Lumber Consortium's enforcers throughout Andoran, these belts nominally appear as expensive but effective aids for felling trees, but are instead used by the Consortium's enforcers. A creature wearing a feller's belt gains +4 bonus on combat maneuver checks to sunder wooden objects, ignores any hardness possessed by wooden objects, and bypasses the damage reduction of any creatures of the plant or fey type. A creature wearing a feller's belt for over 24 hours doubles the critical threat range of any held axe, as though that weapon possessed the keen weapon special ability. This benefit lasts for as long as the belt is worn, and doesn't  stack with any other effects that expand the critical threat range of a weapon (such as keen edge or the Improved Critical feat).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, keen edge, warp wood</p><h3><b>Source: </b></h3>Agents Of Evil",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404051,
+    "modifiedTime": 1665949166552,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

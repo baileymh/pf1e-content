@@ -3,7 +3,7 @@
   "name": "Noisemaker Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This decorative wayfinder appears to be made of gold, and its face is marked with white and silver motifs of roosters. Whenever the wielder of a noisemaker wayfinder falls asleep, the roosters decorating the wayfinder change to crescent moons. Whenever a Tiny or larger creature comes within 20 feet of the wayfinder's bearer while she is asleep and this magic item is on her person, the noisemaker wayfinder immediately begins vibrating, buzzing, and ringing loudly as long as there is a clear line of effect between the wayfinder's bearer and the triggering creature. The sound from this effect easily travels 60 feet, as the audible alarm version of the alarm spell. A creature that speaks the password (determined by the wielder and assigned to the wayfinder before she falls asleep) does not set off the alarm. When the wayfinder's alarm is triggered, the violent motion of the noisemaker wayfinder continues until the wielder presses a button on the side of the device. If the wielder of a noisemaker wayfinder is affected by a magical sleep effect (such as that caused by a sleep spell) and the alarm is triggered, the constant buzzing and vibration of the wayfinder allows the wielder to attempt a saving throw each round at the end of her turn to end the sleep effect and gives her a +2 circumstance bonus on such saves. Other sleeping creatures within hearing range of the wayfinder wake up from normal sleep, but not magical sleep. The bearer of a noisemaker wayfinder may disable its audible alarm function at will by pressing down on the compass needle.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, light</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404065,
+    "modifiedTime": 1665949166562,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

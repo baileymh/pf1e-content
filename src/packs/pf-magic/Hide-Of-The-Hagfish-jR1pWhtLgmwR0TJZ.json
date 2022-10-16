@@ -3,7 +3,7 @@
   "name": "Hide Of The Hagfish",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be one of the most unusual replacement materials. This suit of +1 slick hide armor appears to constantly drip a viscous ooze. When immersed in water, the wearer gains a swim speed of 20 feet and the ability to breathe underwater. The slime exuded by the armor is particularly unpleasant and foul-tasting-the first time a creature successfully bites a character wearing hide of the hagfish in a 24 hour period, that creature must succeed at a DC 14 Fortitude saving throw to avoid being nauseated by the slime for 1 round.<br><p><b>Base Item:</b> +1 slick hide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, grease, water breathing</p><h3><b>Source: </b></h3>Seers Of The Drowned City",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372872,
+    "modifiedTime": 1665949139275,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

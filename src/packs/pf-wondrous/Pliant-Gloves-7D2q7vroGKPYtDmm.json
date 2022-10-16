@@ -3,7 +3,7 @@
   "name": "Pliant Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Wearing these form-fitting fingerless black gloves makes the wearer's arms and body more flexible. As a swift action, the wearer can lengthen his arms for up to 10 rounds per day, gaining an additional 5 feet of reach. These rounds need not be consecutive. Attacking with these extended arms is unwieldy, and the wearer takes a -2 penalty on attack rolls, increasing to -4 if he is using two-handed weapons. Even when his limbs aren't extended, the wearer gains a +5 enhancement bonus on Escape Artist checks and Acrobatics checks to avoid falling damage. The wearer is still able to use hand-based natural attacks such as claws while wearing the gloves.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, liquid form</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404121,
+    "modifiedTime": 1665949166601,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

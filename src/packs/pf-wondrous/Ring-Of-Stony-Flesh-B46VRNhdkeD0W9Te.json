@@ -3,7 +3,7 @@
   "name": "Ring Of Stony Flesh",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A ring of stony flesh gives the wearer's skin the appearance of flexible stone. Once per day, the wearer can expend a charge as a standard action to gain the benefits of stoneskin. While under this effect, the wearer gains the earth glide ability, allowing her to move through unworked stone or earth as easily as a fish swims through water. The wearer cannot move through stone composed of multiple blocks-such as the walls of a tomb or castle-with this ability, only through solid masses of stone. In addition, a ring of stony flesh automatically nullifies any petrification effect that targets the wearer by expending 2 charges, provided the ring has at least 2 charges remaining. The ring's protection effect activates before the wearer attempts a saving throw against   the petrification attempt. A ring of stony flesh has 10 charges when created.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, stone to flesh, stoneskin</p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404592,
+    "modifiedTime": 1665949167124,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Guardian Gorget",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This flanged collar of mithral and steel protects the wearer's neck and shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and grants the light fortification property to the wearer. In addition, the wearer may engrave a glyph of warding directly onto the guardian gorget. When the wearer is struck in melee, she can trigger the glyph as an immediate action, causing the glyph to discharge against the creature making the attack (and other creatures within 5 feet, if a blast glyph was placed, though the wearer is not harmed by the glyph's effects). The glyph can be triggered even if the attack would normally leave the wearer incapable of taking actions (such as killed, stunned, dazed, or knocked unconscious).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, glyph of warding, limited wish or miracle, mage armor or magic vestment</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406737,
+    "modifiedTime": 1665949168986,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Eyes Of Mind Reading",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These large goggles feature adjustable lenses. When calibrated correctly, they sense the thoughts of a particular creature and send them into the wearer's mind. If the wearer spends 3 rounds studying a creature, spending a standard action each round to calibrate the lenses, she may scan a target's surface thoughts as if she had spent 3 rounds studying the target with detect thoughts. The target can attempt a DC 13 Will save to negate the effect. The wearer must spend three consecutive standard actions each time she wishes to read the mind of a new creature.  If the wearer is an android, he can spend a nanite surge to immediately detect surface thoughts instead of concentrating for 3 rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect thoughts, creator must be an android</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410362,
+    "modifiedTime": 1665949172397,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

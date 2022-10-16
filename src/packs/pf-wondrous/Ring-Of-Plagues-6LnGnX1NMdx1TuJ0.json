@@ -3,7 +3,7 @@
   "name": "Ring Of Plagues",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silver ring is set with a black opal. Once per day, when the wearer is reduced to half or fewer of her maximum hit point total, whoever dealt the activating blow to the wearer is immediately subjected to a major curseUM with unlimited range. A successful DC 19 Will saving throw is needed to negate the spell. Rather than one of the listed curse effects, the curse imposes a -4 penalty on the victim's saving throws and causes the victim to contract a disease chosen by the wearer from the contagion list without a save. The cursed disease has no onset time, but the attacker is allowed the normal saving throw to avoid its effects. It can be cured only by successfully casting both remove curse and remove disease within 1 minute of each other. Those exposed to the cursed attacker thereafter must save against the mundane version of the disease or become infected (though they are not cursed).  Once per day, if the wearer is killed or reduced to negative hit points, a plague of curses is unleashed. The attacker and the attacker's five nearest allies or immediate blood relatives become the targets of the curse described above. If the wearer is restored to at least 1 hit point, these curses end, allowing surviving victims to recover naturally.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, contagion, major curseUM, spiteAPG</p><h3><b>Source: </b></h3>Champions Of Corruption",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404062,
+    "modifiedTime": 1665949166561,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

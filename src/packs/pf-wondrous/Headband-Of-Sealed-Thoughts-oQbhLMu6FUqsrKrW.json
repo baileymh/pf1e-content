@@ -3,7 +3,7 @@
   "name": "Headband Of Sealed Thoughts",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Uncomfortably sharp protrusions bristle on the inner edge of this heavy, bronze headband. It grants its wearer a +4 enhancement bonus to Intelligence. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. It also grants skill ranks as a headband of vast intelligence +4. The wearer is protected from all effects that gather information about her via divination, and gains a bonus equal to her mythic tier on saving throws against mind-affecting effects. This protection otherwise functions as mind blank, except the headband provides no protection against limited wish, miracle, and wish, and it doesn't grant a resistance bonus on saving throws.   When the wearer succeeds at a saving throw against a mind-affecting effect, she can rebound the effect onto the caster as an immediate action by expending one use of mythic power. Treat this as the original spell or effect, except the wearer is treated as the caster and the original caster as the target. The rebounded spell affects only the original caster, and rebounding doesn't prevent the original spell from affecting targets other than the wearer of the headband of sealed thoughts.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, fox's cunning, mind blank, spell turning</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409178,
+    "modifiedTime": 1665949171310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

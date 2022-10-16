@@ -3,7 +3,7 @@
   "name": "Gremlin-Skin Drum",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These small hand drums have pitted metal frames, with dark skin bearing furry patches or rough scales stretched across it. The flaws in the drum's skin render the drum difficult to play, imposing a -4 penalty on the user's Profession (percussion) checks. Though undesirable as musical instruments, gremlin-skin drums are icons of ill luck and therefore prized by followers of Zyphus. These drums are usually planted in an area to encourage accidents or other misfortune there. As a standard action, the user can activate a gremlin-skin drum by setting it down and beating it three times. Once activated, the gremlin-skin drum's effect (see below) continually targets all creatures within 30 feet until the drum is picked up or moved, at which point the effect ends. A gremlin-skin drum can be activated up to five times before it becomes a nonmagical drum of poor craftsmanship.  Several types of gremlin-skin drums exist, and each drum's powers depend on the type of gremlin flesh used as its skin. These effects appear to be mere mischance upon casual observation; an observer must succeed at a DC 20 Perception check to notice that whenever a creature suffers a gremlin-skin drum's effect, the skin of the drum shudders slightly. The effects of multiple versions of the same type of gremlin-skin drums don't stack.  Grimple-Skin Drum: The diseased-looking skin of this drum occasionally oozes maggots. The penalties from the sickened condition increase by 1 (from -2 to -3) for any creatures within 30 feet of a grimple-skin drum.  Haniver-Skin Drum: The skin of this drum is leathery and moist. Any creature within 30 feet of the drum that attempts to draw or sheathe a weapon must succeed at a DC 13 Reflex save to avoid dropping the weapon.  Jinkin-Skin Drum: The thin skin of this drum has cartilaginous striations throughout. Creatures within 30 feet of the drum take a -1 penalty on saving throws to avoid curses and pit traps.  Monaciello-Skin Drum: The skin of this drum is red and warty. Creatures within 30 feet of the drum find their thinking muddled, and take a -5 penalty on all Knowledge checks.   Nuglub-Skin Drum: The skin of this drum is dotted with tufts of long, oily hair. Any creature tripped within 30 feet of the drum takes 1d6 points of nonlethal damage from a painful fall.  Pugwampi-Skin Drum: The skin of this drum has patches of mangy fur. Luck bonuses are reduced by 1 (minimum 0) for any creatures within 30 feet of the drum.  Vexgit-Skin Drum: The skin of this drum has patches of rough scales. Creatures within 30 feet of the drum that fail to avoid a trap take 1d6 points of nonlethal damage in addition to the usual effects of the trap.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, one dead gremlin of the type used to make the drum</p><h3><b>Source: </b></h3>AP 87",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407318,
+    "modifiedTime": 1665949169570,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

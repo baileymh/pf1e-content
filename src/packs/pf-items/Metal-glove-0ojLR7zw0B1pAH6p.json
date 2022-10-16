@@ -3,7 +3,7 @@
   "name": "Metal glove",
   "type": "equipment",
   "img": "icons/equipment/hand/glove-reticulated-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Dungeoneer's Handbook pg. 24</em><br/><strong>Price</strong> 120 gp; <strong>Weight</strong> 10 lbs.<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints, and the position of its fingers and wrist must be adjusted and locked into place before the wielder can properly slip it over her arm. When wearing a metal glove, it is impossible to manipulate one's digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's cage. Any trap or creature attempting to damage an arm wearing a metal glove must break through the glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as normal. A metal glove has hardness 10 and 15 hit points, and can withstand 2,000 pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of her body.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365698,
+    "modifiedTime": 1665949133675,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

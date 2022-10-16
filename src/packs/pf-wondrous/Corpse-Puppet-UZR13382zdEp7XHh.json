@@ -3,7 +3,7 @@
   "name": "Corpse Puppet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This crudely carved wax doll is roughly humanoid in shape. If the bearer of a corpse puppet dies while in an alternate form (such as that of a shapechanger using her change shape ability, a caster using a polymorph spell, or one obtained through some other effect), the creature automatically retains the shape it had upon dying instead of reverting to its natural form. Creatures with reason to suspect deception can attempt a DC 12 Will save; if successful, they realize the unnatural state of the corpse. A corpse puppet melts into nothingness when activated.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sculpt corpseAPG</p><h3><b>Source: </b></h3>Blood Of The Moon",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406803,
+    "modifiedTime": 1665949169048,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

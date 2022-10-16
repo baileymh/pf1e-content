@@ -3,7 +3,7 @@
   "name": "Battlement Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once per day on command, this +2 tower shield can transform into a solid, 1-foot-thick, 10-foot-by-10-foot wall of masonry with a battlement on top and an arrow slit in each 5-foot length. The wall acts as cover just like any physical wall. The wielder can touch the wall with one hand and command it to revert to a tower shield either resting on the ground and balanced against his hand or strapped to his arm in the normal fashion. The wall has all the characteristics of any other foot-thick wall of masonry (hardness 8, 90 hit points, break DC 35). Attacks sufficient to destroy the wall cause it to immediately transform back into a shield, which loses half its hit points and gains the broken condition. The shield remains in wall form until destroyed or commanded to return to shield form. The wall cannot appear in a space too small to accommodate it.<br><p><b>Base Item:</b> +2 tower shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, wall of stone</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371713,
+    "modifiedTime": 1665949138166,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

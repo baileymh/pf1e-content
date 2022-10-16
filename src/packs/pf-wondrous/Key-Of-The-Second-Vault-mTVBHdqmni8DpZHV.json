@@ -3,7 +3,7 @@
   "name": "Key Of The Second Vault",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elaborate key on a fine gold chain always glints, even in the dimmest light.  The bearer can use it to lock (but not unlock) any nonmagical lock as if it were the proper key. Once per day, the bearer can turn the key clockwise once to activate a shield of faith upon herself (though if the wearer is chaotic it provides only a +1 deflection bonus).  If Abadar is the bearer's patron, the key counts as a holy symbol.  Once per day, the bearer can speak a command word and summon a two-headed eagle as if using summon monster II (the eagle's extra head does not grant it an extra attack). This eagle obeys the bearer's commands as if they shared a common language. While the key is worn as a pendant or held in hand, the bearer gains a +2 bonus on Appraise checks to assess an object's value.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fox's cunning, shield of faith, summon  monster II, creator must have 5 ranks in Appraise</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409053,
+    "modifiedTime": 1665949171225,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

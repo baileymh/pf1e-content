@@ -3,7 +3,7 @@
   "name": "Serpentine Tattoo",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sinuous tattoo appears to move when the bearer flexes his muscles. Three times per day when the bearer makes a successful melee attack with a monk or performance weapon or an unarmed strike, he can cause the tattoo to lunge like a snake at the creature hit. This allows the bearer to perform a dirty trickAPG combat maneuver as an immediate action that does not provoke attacks of opportunity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Improved Dirty TrickAPG, Inscribe Magical TattooISM, summon monster I</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405530,
+    "modifiedTime": 1665949167872,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

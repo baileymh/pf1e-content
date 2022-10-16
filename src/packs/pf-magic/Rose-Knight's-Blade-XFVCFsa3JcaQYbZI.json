@@ -3,7 +3,7 @@
   "name": "Rose Knight's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elegant mithral sword bears a blooming rose on the crossguard, with vines winding around the hilt. Filarina Grantsliem discovered the rose knight's blade during her brief adventuring career, when she earned the blade as a reward after freeing a trapped azata from an ancient magical prison. Scarlet Rose agents have since been successful in creating new rose knight's blades, and the weapons are increasingly seeing use among these Gray Maidens and their affiliates. A rose knight's blade is a +1 benevolentUE mithral longsword. Along with its benevolence special ability, this sword can also provide aid by metaphorically cutting through certain debilitating effects. Three times per day, the wielder of a rose knight's blade can attempt a new saving throw against one of the following conditions affecting her: dazed, frightened, nauseated, panicked, paralyzed, shaken, staggered, or stunned- but only if the condition was caused by a mind-affecting effect. Alternatively, the wielder can expend one daily use and touch the blade to an adjacent creature as a standard action to remove one of these mind-affecting conditions from the ally.<br><p><b>Base Item:</b> +1 benevolent mithral longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, aid, break enchantment</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372408,
+    "modifiedTime": 1665949138841,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

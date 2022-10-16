@@ -3,7 +3,7 @@
   "name": "Mace Of Keys",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The flanges on the head of this +1 axiomatic heavy mace are shaped like skeleton keys. Three times per day as a swift or immediate action when making a melee attack with the mace, the wielder can trigger this mace's unlocking ability. This ability must be declared before the melee attack is rolled, and if the attack is unsuccessful, the unlocking ability is wasted. Upon a successful melee attack with the mace while using the unlocking ability, the wielder can attempt a combat maneuver check against the target's CMD. On a success, the mace causes an item on the target in the belt, shoulder, or neck slot to come loose and fall to the ground in the target's space.  In addition, when attempting to destroy a lock, the mace ignores up to 20 points of the lock's hardness.<br><p><b>Base Item:</b> +1 axiomatic heavy mace</p><h3><b>Requirements</b></h3><p>Craft Arms and Armor, knock, passwall</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372300,
+    "modifiedTime": 1665949138731,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Flask of Endless Sake",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple ceramic flask looks like any other normal container for serving sake, or rice wine. If the flask's silver stopper is removed and the command word spoken, up to 1 gallon of sake can be poured from the flask per round. In addition, once per day, a character can drink directly from the flask to gain the effects of a potion, determined randomly. Roll 1d6 on the following table to determine the type of potion.  d6 Roll Potion type  1 heroism  2 cure moderate wounds  3 enlarge person  4 reduce person  5 lesser restoration  6 rage  This potion cannot be poured out or saved for later use; it must be drunk, and the potion's effects take place immediately.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Brew Potion, Craft Wondrous Item, create water, cure moderate wounds, enlarge person, heroism, lesser restoration, rage, reduce person</p><h3><b>Source: </b></h3>AP 52",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405522,
+    "modifiedTime": 1665949167867,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

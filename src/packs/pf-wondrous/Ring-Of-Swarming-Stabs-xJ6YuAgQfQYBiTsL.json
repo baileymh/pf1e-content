@@ -3,7 +3,7 @@
   "name": "Ring Of Swarming Stabs",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring is crafted of hardened leather strips, into which bits of fur, feathers, bone, and ivory have been woven. Twice per day, when the wearer is flanking an opponent, he can as a swift action deal an additional 1d6 points of damage on a successful melee attack against that opponent. This is a sneak attack for any effects that reduce or negate such damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, guidance, creator must be able to sneak attack</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410379,
+    "modifiedTime": 1665949172411,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

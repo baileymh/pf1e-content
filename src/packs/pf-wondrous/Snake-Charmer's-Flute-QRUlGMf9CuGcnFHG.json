@@ -3,7 +3,7 @@
   "name": "Snake Charmer's Flute",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Two distinct songs are etched on the entwined pipes of this flute. Playing the first creates a soothing, rhythmic melody that lulls snakes and serpents into compliance. This tune grants a +5 competence bonus on Handle Animal and wild empathy checks to influence snakes as well as snakelike animals and magical beasts. If the musician lacks the wild empathy class feature, she can still use this song to influence snakes and snakelike creatures as if she had wild empathy, applying only her Charisma modifier and the flute's +5 bonus to the roll.  The second song of the snake charmer's flute can be performed only once per day as a full-round action. When used, it summons an advanced giant anaconda (Pathfinder RPG Bestiary 2 292, 252). This serpent obeys the musician's mental commands and remains as long as the user continues to spend a move action each round maintaining the tune, up to a maximum of 3 minutes.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dominate monster, summon nature's ally VIII</p><h3><b>Source: </b></h3>AP 120",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406247,
+    "modifiedTime": 1665949168509,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

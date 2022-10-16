@@ -3,7 +3,7 @@
   "name": "Rime-Stride Boots",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These fur-lined boots grant the wearer the ability to glide easily across icy surfaces. While doing so, the wearer adds 15 feet to her speed, and she does not need to make Acrobatics checks to run or charge on ice. While fighting on ice, the wearer gains a +2 circumstance bonus on combat maneuver checks and to CMD.  Once per day, the wearer may cause all surfaces within a 30-foot radius of himself to become covered in a thin sheet of ice for 10 rounds. A creature can walk within or through this icy area at half normal speed with a successful DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls. A creature using Acrobatics in this way is considered flat-footed and loses its Dexterity bonus to AC.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, pass without trace, sleet storm</p><h3><b>Source: </b></h3>Dirty Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404003,
+    "modifiedTime": 1665949166520,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Effortless Lace",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elegant silk ribbon gleams like mithral and feels like polished steel. When wrapped around the grip of a one-handed piercing or slashing melee weapon for 24 hours, the ribbon's magic permanently merges with the weapon, reducing the attack roll penalty incurred by a wielder who is smaller than the weapon's intended wielder by 2 (to a minimum penalty of 0).  If the weapon is wielded by a creature whose size matches that of the weapon's intended wielder, the weapon is treated  as a light melee weapon when determining whether it can be used with Weapon Finesse, as well as with any feat, spell, or special weapon ability that can be used in conjunction with light weapons. Once an effortless lace's abilities have been conveyed to a weapon, the ribbon must remain attached to the weapon or its effects end immediately, its magic is permanently lost, and it is reduced to worthless cloth. Effects that would dispel the magic of the weapon or cause the weapon to gain the broken condition (such as sundering) destroy the ribbon as well.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, shrink item</p><h3><b>Source: </b></h3>Giant Hunters Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406849,
+    "modifiedTime": 1665949169091,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

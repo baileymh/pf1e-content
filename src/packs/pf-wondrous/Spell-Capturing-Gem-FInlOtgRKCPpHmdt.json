@@ -3,7 +3,7 @@
   "name": "Spell-Capturing Gem",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A spell-capturing gem appears as a small chunk of azurite, lapis lazuli, or turquoise. This small blue gem is imbued with the power to capture a spell and make it available for later use. Once activated, a spell-capturing gem waits indefinitely for its owner to successfully counterspell a spell by using either dispel magic or other means. The gem's owner may then choose to capture the foiled spell in the gem, where it remains for a number of days equal to the owner's caster level minus the spell's spell level, minimum 1 day. (For example, if a 10th-level spellcaster successfully dispels and captures a fireball spell with this item, the spell could remain in the gem for up to 7 days.) At any time during that period, the wielder of the gem may use it to cast the captured spell, regardless of whether she would normally be able to do so. A spell cast in this way uses the minimum caster level necessary to determine all level-dependent effects. A spell-capturing gem is a single-use item. Once the captured spell has been released or once the storage duration of the gem is reached, the gem loses its sheen and turns gray, becoming a worthless pebble.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, spell turning</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404793,
+    "modifiedTime": 1665949167281,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

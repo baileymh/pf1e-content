@@ -3,7 +3,7 @@
   "name": "Bloodfeast Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Three flensed skulls jut from the face of this +2 heavy steel shield. Three times per day as a free action, the shield's wearer can command the heads to attack independently of her, biting with the wearer's base attack bonus (making multiple attacks if the wearer has a high enough base attack bonus). This attack is in addition to any actions performed by the wearer, and deals 1d6 points of damage plus 1 point of Constitution damage.  When using the bloodfeast shield's ability, if the wearer is a vampire (or regains hit points from blood drain in a similar manner), she also heals 5 hit points or gains 5 temporary hit points for 1 hour.<br><p><b>Base Item:</b> +2 heavy steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, vampiric touch</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371972,
+    "modifiedTime": 1665949138378,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

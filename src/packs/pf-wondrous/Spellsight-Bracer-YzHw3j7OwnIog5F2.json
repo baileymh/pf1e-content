@@ -3,7 +3,7 @@
   "name": "Spellsight Bracer",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Dozens of variants of this bracer exist, but they are usually leather, always ornately patterned, and bear a single spherical polished stone or gem (typically a carbuncle, olivine, or sard) mounted near the wrist. Medium to high-ranking Nethysian priests and priestesses often wear spellsight bracers, which also serve as a quick means of identifying fellow followers of the All-Seeing Eye. The wearer can use detect magic once per day. When she does, the spherical stone or gem in the bracer appears to open like a human eye. The bracer also provides a +1 resistance bonus on Will saving throws. A spellsight bracer uses up the wearer's entire wrists slot; the wearer may not use another item (even another spellsight bracer) that also uses the wrists slot, though a matching nonmagical bracer is often worn on the other wrist.  If Nethys is the wearer's patron, the wearer can use the bracer as if it were a lesser silent metamagic rod once per day. The wearer can spontaneously convert prepared spells or use available spell slots to cast mage hand, even if this spell is not on the wearer's class spell list or the wearer does not know the spell. Using either of these abilities also causes the eye in the bracer to open.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Silent Spell, detect magic, mage hand,  resistance</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407323,
+    "modifiedTime": 1665949169576,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

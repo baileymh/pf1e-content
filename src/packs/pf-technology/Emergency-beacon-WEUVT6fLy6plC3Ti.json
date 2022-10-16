@@ -3,7 +3,7 @@
   "name": "Emergency beacon",
   "type": "equipment",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 44</em></p><p><strong>Price</strong> 900 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 10 lbs.</p><p><strong>Capacity</strong> 30; <strong>Usage</strong> 1 charge</p><h2 class=\"framing\">Description</h2><p>An emergency beacon is a small, pod-shaped device that emits a bright red flash from a dome on its top once every 6 seconds when activated. The beacon also transmits its location. Any device capable of receiving signals of any sort can pick up a beacon's signal, which can then be tracked back to the source with a successful DC 15 Knowledge (engineering) or Survival check. A beacon's transmissions have a range of 100 miles over flat terrain, but this range is halved in forests or hills, and quartered in mountainous terrain or through water.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 25; <strong>Cost</strong> 450 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 30,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387776,
+    "modifiedTime": 1665949152128,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

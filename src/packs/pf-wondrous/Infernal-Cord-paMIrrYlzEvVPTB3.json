@@ -3,7 +3,7 @@
   "name": "Infernal Cord",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The entirety of this thick hide belt is scarred with impressions of fiendish visages, each shifting between a scowl and a smile. Commonly used by the servants of Asmodeus in Cheliax, this belt grants its wearer a +2 enhancement bonus to Constitution. Treat this Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.  Whenever an enemy scores a critical hit against the wearer, the wearer gains fast healing 1 for 1 minute. This ability doesn't trigger if the critical hit deals only nonlethal damage. Damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor doesn't trigger the fast healing, and suppresses the fast healing for 1 round if it's already active.  The wearer of an infernal cord can be detected as though she were an evil creature, and can sense the item's evil while wearing it. This belt imparts 1 negative level to any nonevil creature that wears it until the belt is removed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bear's endurance, infernal healingISWG</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409247,
+    "modifiedTime": 1665949171361,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

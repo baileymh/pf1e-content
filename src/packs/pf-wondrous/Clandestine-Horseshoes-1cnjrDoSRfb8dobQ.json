@@ -3,7 +3,7 @@
   "name": "Clandestine Horseshoes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>If a creature wearing these dull gray horseshoes remains stationary for 1 round, the creature and its rider, if any, gain a +10 bonus on Stealth checks for 1 round. In addition, once per day, the rider of a mount wearing clandestine horseshoes can turn both herself and her mount invisible, as invisibility. All four shoes must be worn by the same creature for the magic to be effective.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, invisibility</p><h3><b>Source: </b></h3>Legacy Of The First World",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403458,
+    "modifiedTime": 1665949165973,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

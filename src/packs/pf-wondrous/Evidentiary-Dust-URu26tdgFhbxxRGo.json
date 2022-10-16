@@ -3,7 +3,7 @@
   "name": "Evidentiary Dust",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This light, shimmery blue powder is typically kept in a silk satchel with hemp drawstrings. When tossed into the air, the dust can cover a chamber with up to 100 square feet of floor space, and illuminates all footprints made within that space in the last 24 hours. Illuminated footprints glow softly for 1 hour after the dust is sprinkled and grant a +20 circumstance bonus on Survival checks to follow the tracks. A handful of dust sprinkled along a trail or road illuminates footprints in the same way, and can span as much as 250 feet.   Evidentiary dust cannot reveal footprints of creatures that hid their trail via effects such as dust of tracelessness or a druid's trackless step.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, faerie fire, residual trackingAPG</p><h3><b>Source: </b></h3>Dungeoneers Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406791,
+    "modifiedTime": 1665949169037,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

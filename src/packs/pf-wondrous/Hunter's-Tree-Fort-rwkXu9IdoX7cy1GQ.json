@@ -3,7 +3,7 @@
   "name": "Hunter's Tree Fort",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item appears to be a wooden puzzle box approximately 3 inches on a side. When the box is placed on the ground beneath the boughs of a tree with a trunk at least 2 feet in diameter and the command word is spoken, the box unfolds and rises, melding with the tree. It becomes a stable structure attached to the limbs 20 feet above ground level, with a rope ladder hanging down from a trapdoor on the underside of the platform. The outer surfaces of the tree fort take on the visual characteristics of the tree in which it is erected, and require a DC 25 Perception check to notice (DC 15 in a dead tree or tree that has shed its leaves). There are two forms the tree fort can take, chosen at the time the device is activated.  Tree House: This version of the tree fort unfolds into a 20-foot-square, open-air platform with railings on all four sides but no roof. It is open to the elements and provides no protection from the weather, but it has enough convenient braces and knotholes to allow tents to be erected across its surface. Creatures standing in the tree house gain the benefits of partial cover against opponents on the ground, while those who are prone within it have total cover.  Blind: This version of the tree fort forms into a 5-foot-square hunting blind. It is enclosed on all sides, has a roof, and is equipped with a number of narrow horizontal windows for watching or shooting from any side. Creatures inside the blind have improved cover against all foes outside.  In either form, a hunter's tree fort remains open for up to 12 hours in any 24-hour period; these hours of use don't need to be consecutive. If the duration expires while the tree fort is occupied or the tree fort takes 50 points of damage (hardness 5), the fort descends and folds itself back up into its puzzle box form, leaving all inhabitants unharmed on the ground at the base of the tree. If the tree fort was forced to return to box form due to damage, it can't be activated again for 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, warp wood, rope trick</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409709,
+    "modifiedTime": 1665949171836,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

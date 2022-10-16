@@ -3,7 +3,7 @@
   "name": "Burn",
   "type": "feat",
   "img": "systems/pf1/icons/feats/extra-lay-on-hands.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC = 10 + 1/2 burning creature&rsquo;s racial HD + burning creature&rsquo;s Constitution modifier). A creature suffering from this effect can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must succeed at a Reflex save to avoid <a href=\"https://www.aonprd.com/Rules.aspx?Name=Catching%20on%20Fire&amp;Category=Heat%20Dangers\">catching on fire</a>.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: burn (2d6, DC 15)</p>\n<p><em>Location</em>: Special Attacks and individual attacks.</p>\n<p><em>Usage:</em> Replace duration, damage, and DC.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -114,6 +119,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -175,7 +181,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -221,8 +226,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402562,
+    "modifiedTime": 1665949165278,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

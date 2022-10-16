@@ -3,7 +3,7 @@
   "name": "Tsuruhashi, the Silent Crane",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The cross-guard and tines of this +2 adamantine sai are crafted of a mysterious red metal, adorned with grinning skulls. The haft is wrapped with delicate white crane feathers. Only a handful of tsuruhashi are known to exist, each one crafted as a silent killer. The weapon grants a +1 bonus to the DC of Fortitude saves made against an assassin's death attack or ninja's assassinate ability. In addition, while executing such an attack, the wielder of a tsuruhashi may cast silence upon his victim as a swift action. This ability can be used once per day and affects only the victim of the attack.<br><p><b>Base Item:</b> +2 adamantine sai</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, silence, slay living</p><h3><b>Source: </b></h3>AP 54",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372238,
+    "modifiedTime": 1665949138677,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

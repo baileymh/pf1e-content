@@ -3,7 +3,12 @@
   "name": "Special Qualities",
   "type": "feat",
   "img": "systems/pf1/icons/feats/blinding-critical.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Cd5pmm5PO3dEk4qS"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Reborn Samsaran&nbsp;</p>\n<hr />\n<p>A reborn samsaran gains the following special qualities.<em>Aura Transparency</em>: A reborn samsaran has difficulty hiding his psychic signatures. The DC of any skill check made to read his aura decreases by 5, and the check takes one-tenth as long as normal to perform.<em>Psychic Learning</em>: When a reborn samsaran expends psychic energy to cast <em>psychic reading</em> to identify a humanoid's class, he temporarily treats two of the target's class skills as if they were class skills for him. He can use these skills untrained and gains a +2 insight bonus on such checks. These benefits last for 24 hours or until the reborn samsaran spends <em>psychic energy</em> to cast psychic reading again.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Cd5pmm5PO3dEk4qS"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383819,
+    "modifiedTime": 1665949148140,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

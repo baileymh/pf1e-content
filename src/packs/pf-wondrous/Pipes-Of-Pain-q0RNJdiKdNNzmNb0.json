@@ -3,7 +3,7 @@
   "name": "Pipes Of Pain",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These appear to be like any other standard set of pipes with nothing to reveal their true nature. When played by someone who succeeds on a DC 15 Perform (wind instruments) check, the pipes create a wondrous melody. All within 30 ft. must make a DC 14 Will save or be fascinated by the sound. (This is a mind-affecting sonic compulsion.) As soon as the piping stops, all those affected are stricken by intense pain at even the slightest noise. Unless a character is in a totally silent area, she takes 1d4 points of damage per round for 2d4 rounds. During this time, damage from sonic attacks is doubled. Thereafter, the least noise causes an affected character to become shaken (except when she is in a totally silent area). This hypersensitivity is a curse and therefore hard to remove (see the bestow curse spell).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must have the bardic music class feature, sound burst</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409588,
+    "modifiedTime": 1665949171751,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

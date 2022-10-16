@@ -3,7 +3,7 @@
   "name": "Shadowbound Chains",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Jagged and spiked, this +1 vicious viridiumUE spiked chain shifts between hues of muted green and deep violet. Wielders who are devout followers of Zon-Kuthon are immune to the disease imparted by the viridium. When the wielder reduces a creature's hit points below 0 using the chain but doesn't kill it, she can call a shadowy duplicate of the target as a free action. This duplicate is treated as a shadow (Bestiary 245) without the create spawn ability. The duplicate is friendly to the wielder and attacks her enemies, but ignores its host body. The host can't benefit from any healing that would bring it above -1 hit points until the shadow is destroyed or disappears. The shadow fades away when the host body dies or after 10 rounds, whichever comes first. The wielder of the shadowbound chains can summon forth only one shadow at a time.<br><p><b>Base Item:</b> +1 vicious viridium spiked chain</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, shadow conjuration</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371738,
+    "modifiedTime": 1665949138196,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Drum Of Advance And Retreat",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When played, this sturdy snare drum increases the run speed of allied creatures within 120 feet as if they had the Run feat. Activating the drum is a standard action that requires a DC 20 Perform (percussion) check; maintaining the playing is a free action if the player is running. If the bearer stops playing the drum, the enhanced running speed ends. The drum may be used for up to 1 hour per day. This duration does not need to be consecutive, but must be used in 10-minute increments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, expeditious retreat</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403676,
+    "modifiedTime": 1665949166138,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

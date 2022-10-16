@@ -3,7 +3,7 @@
   "name": "Bottled Sunlight",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A single jar of bottled sunlight sheds light as a candle. Bottled sunlight can be thrown as a splash weapon, dealing 3d6 points of damage to a target vulnerable to sunlight. Creatures adjacent to the target that are vulnerable to sunlight take 1 point of splash damage. Regardless of its vulnerability to sunlight, a  creature directly struck radiates light as a torch for 1 round after being hit.  Alternatively, a jar of bottled sunlight can be poured over a 10- foot area to produce light like a lantern for 10 minutes.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight</p><h3><b>Source: </b></h3>Heroes Of The Darklands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407971,
+    "modifiedTime": 1665949170204,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

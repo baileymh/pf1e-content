@@ -3,7 +3,12 @@
   "name": "Resist Level Drain (Ex) (Shabti)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/light_07.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Zotb6RkQ5RtD75Fy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Shabti&nbsp;</p>\n<hr />\n<p>A shabti takes no penalties from energy drain effects, though it can still be killed if it accrues more negative levels than it has Hit Dice. After 24 hours, any negative levels a shabti takes are automatically removed without the need for additional saving throws.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Zotb6RkQ5RtD75Fy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384238,
+    "modifiedTime": 1665949148566,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

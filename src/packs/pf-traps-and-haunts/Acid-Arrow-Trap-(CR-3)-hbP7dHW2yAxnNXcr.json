@@ -3,7 +3,278 @@
   "name": "Acid Arrow Trap (CR 3)",
   "type": "npc",
   "img": "systems/pf1/icons/skills/arrow_08.jpg",
-  "data": {
+  "items": [
+    {
+      "_id": "vWDN8DRPv8woTjMH",
+      "name": "Acid Arrow",
+      "type": "attack",
+      "sort": 100000,
+      "flags": {},
+      "img": "systems/pf1/icons/skills/arrow_08.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong>&nbsp;<em>PRPG Core Rulebook pg. 420</em><br /><strong>Type</strong>&nbsp;magic;&nbsp;<strong>Perception</strong>&nbsp;DC 27;&nbsp;<strong>Disable Device</strong>&nbsp;DC 27</p>\n<hr />\n<p><strong>Effects</strong></p>\n<hr />\n<p><strong>Trigger</strong>&nbsp;proximity (alarm);&nbsp;<strong>Reset</strong>&nbsp;none<br /><strong>Effect </strong>spell effect (acid arrow, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)</p>\n<p>&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: OlsenTF; font-size: 10pt;\">&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [
+          {
+            "_id": "kxzovlmwqpsdiumb",
+            "name": "Attack",
+            "img": "systems/pf1/icons/skills/arrow_08.jpg",
+            "description": "",
+            "tag": "",
+            "activation": {
+              "cost": 1,
+              "type": "standard"
+            },
+            "unchainedAction": {
+              "activation": {
+                "cost": 2,
+                "type": "action"
+              }
+            },
+            "duration": {
+              "value": "4",
+              "units": "round"
+            },
+            "target": {
+              "value": "One creature"
+            },
+            "range": {
+              "value": "20",
+              "units": "ft",
+              "maxIncrements": "1",
+              "minValue": null,
+              "minUnits": ""
+            },
+            "uses": {
+              "autoDeductCharges": true,
+              "autoDeductChargesCost": "1",
+              "self": {
+                "value": 0,
+                "maxFormula": "",
+                "per": null
+              },
+              "per": "single",
+              "value": 0,
+              "maxFormula": "1",
+              "max": 1
+            },
+            "measureTemplate": {
+              "type": "",
+              "size": "",
+              "overrideColor": false,
+              "customColor": "",
+              "overrideTexture": false,
+              "customTexture": ""
+            },
+            "attackName": "",
+            "actionType": "rsak",
+            "attackBonus": "2",
+            "critConfirmBonus": "",
+            "damage": {
+              "parts": [
+                [
+                  "2d4",
+                  {
+                    "values": [
+                      "acid"
+                    ],
+                    "custom": ""
+                  }
+                ]
+              ],
+              "critParts": [],
+              "nonCritParts": []
+            },
+            "attackParts": [],
+            "formulaicAttacks": {
+              "count": {
+                "formula": "",
+                "value": null
+              },
+              "bonus": {
+                "formula": ""
+              },
+              "label": ""
+            },
+            "formula": "",
+            "ability": {
+              "attack": "dex",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20,
+              "critMult": 2
+            },
+            "save": {
+              "dc": "",
+              "type": "",
+              "description": ""
+            },
+            "effectNotes": [
+              "No splash damage. Unless neutralized, an effected creature is dealt 2d4 acid damage for 4 rounds."
+            ],
+            "attackNotes": [
+              "vs. touch"
+            ],
+            "soundEffect": "",
+            "powerAttack": {
+              "multiplier": "",
+              "damageBonus": 2,
+              "critMultiplier": 1
+            },
+            "naturalAttack": {
+              "primaryAttack": true,
+              "secondary": {
+                "attackBonus": "-5",
+                "damageMult": 0.5
+              }
+            },
+            "nonlethal": false,
+            "usesAmmo": false,
+            "spellEffect": "",
+            "spellArea": "",
+            "conditionals": [],
+            "enh": {
+              "value": null
+            }
+          }
+        ],
+        "uses": {
+          "per": "single",
+          "value": 0,
+          "maxFormula": "1",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 1
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "proficient": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "ammoType": "",
+        "attackType": "misc",
+        "weaponGroups": {
+          "value": [],
+          "custom": ""
+        },
+        "primaryAttack": true,
+        "activation": {
+          "cost": 1,
+          "type": "standard"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "duration": {
+          "value": "4",
+          "units": "round"
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "range": {
+          "value": "20",
+          "units": "ft",
+          "maxIncrements": "1",
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "rsak",
+        "attackBonus": "2",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "2d4",
+              "Acid"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": ""
+        },
+        "formula": "",
+        "ability": {
+          "attack": "dex",
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "",
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "nonlethal": false,
+        "conditionals": [],
+        "contextNotes": [],
+        "identifiedName": "Acid Arrow",
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPCLite"
+    }
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1441,7 +1712,7 @@
       "reach": 10
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1449,26 +1720,10 @@
     },
     "name": "Trap_Magical_Template",
     "displayName": 0,
-    "img": "systems/pf1/icons/skills/arrow_08.jpg",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "hbP7dHW2yAxnNXcr",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
@@ -1479,16 +1734,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1496,275 +1748,50 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
-  },
-  "items": [
-    {
-      "_id": "vWDN8DRPv8woTjMH",
-      "name": "Acid Arrow",
-      "type": "attack",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong>&nbsp;<em>PRPG Core Rulebook pg. 420</em><br /><strong>Type</strong>&nbsp;magic;&nbsp;<strong>Perception</strong>&nbsp;DC 27;&nbsp;<strong>Disable Device</strong>&nbsp;DC 27</p>\n<hr />\n<p><strong>Effects</strong></p>\n<hr />\n<p><strong>Trigger</strong>&nbsp;proximity (alarm);&nbsp;<strong>Reset</strong>&nbsp;none<br /><strong>Effect </strong>spell effect (acid arrow, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)</p>\n<p>&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: OlsenTF; font-size: 10pt;\">&nbsp;</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [
-          {
-            "_id": "kxzovlmwqpsdiumb",
-            "name": "Attack",
-            "img": "systems/pf1/icons/skills/arrow_08.jpg",
-            "description": "",
-            "tag": "",
-            "activation": {
-              "cost": 1,
-              "type": "standard"
-            },
-            "unchainedAction": {
-              "activation": {
-                "cost": 2,
-                "type": "action"
-              }
-            },
-            "duration": {
-              "value": "4",
-              "units": "round"
-            },
-            "target": {
-              "value": "One creature"
-            },
-            "range": {
-              "value": "20",
-              "units": "ft",
-              "maxIncrements": "1",
-              "minValue": null,
-              "minUnits": ""
-            },
-            "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
-              "per": "single",
-              "value": 0,
-              "maxFormula": "1",
-              "max": 1
-            },
-            "measureTemplate": {
-              "type": "",
-              "size": "",
-              "overrideColor": false,
-              "customColor": "",
-              "overrideTexture": false,
-              "customTexture": ""
-            },
-            "attackName": "",
-            "actionType": "rsak",
-            "attackBonus": "2",
-            "critConfirmBonus": "",
-            "damage": {
-              "parts": [
-                [
-                  "2d4",
-                  {
-                    "values": [
-                      "acid"
-                    ],
-                    "custom": ""
-                  }
-                ]
-              ],
-              "critParts": [],
-              "nonCritParts": []
-            },
-            "attackParts": [],
-            "formulaicAttacks": {
-              "count": {
-                "formula": "",
-                "value": null
-              },
-              "bonus": {
-                "formula": ""
-              },
-              "label": ""
-            },
-            "formula": "",
-            "ability": {
-              "attack": "dex",
-              "damage": "",
-              "damageMult": 1,
-              "critRange": 20,
-              "critMult": 2
-            },
-            "save": {
-              "dc": "",
-              "type": "",
-              "description": ""
-            },
-            "effectNotes": [
-              "No splash damage. Unless neutralized, an effected creature is dealt 2d4 acid damage for 4 rounds."
-            ],
-            "attackNotes": [
-              "vs. touch"
-            ],
-            "soundEffect": "",
-            "powerAttack": {
-              "multiplier": "",
-              "damageBonus": 2,
-              "critMultiplier": 1
-            },
-            "naturalAttack": {
-              "secondary": {
-                "attackBonus": "-5",
-                "damageMult": 0.5
-              }
-            },
-            "nonlethal": false,
-            "usesAmmo": false,
-            "spellEffect": "",
-            "spellArea": "",
-            "conditionals": [],
-            "enh": {
-              "value": null
-            }
-          }
-        ],
-        "uses": {
-          "per": "single",
-          "value": 0,
-          "maxFormula": "1",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 1
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": [],
-          "ammunition": []
-        },
-        "tag": "",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "masterwork": false,
-        "enh": null,
-        "proficient": true,
-        "primaryAttack": true,
-        "held": "normal",
-        "showInQuickbar": true,
-        "broken": false,
-        "ammoType": "",
-        "attackType": "misc",
-        "weaponGroups": {
-          "value": [],
-          "custom": ""
-        },
-        "activation": {
-          "cost": 1,
-          "type": "standard"
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 2,
-            "type": "action"
-          }
-        },
-        "duration": {
-          "value": "4",
-          "units": "round"
-        },
-        "target": {
-          "value": "One creature"
-        },
-        "range": {
-          "value": "20",
-          "units": "ft",
-          "maxIncrements": "1",
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": "rsak",
-        "attackBonus": "2",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [
-            [
-              "2d4",
-              "Acid"
-            ]
-          ],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": ""
-        },
-        "formula": "",
-        "ability": {
-          "attack": "dex",
-          "damage": "",
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": "",
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "nonlethal": false,
-        "conditionals": [],
-        "contextNotes": [],
-        "identifiedName": "Acid Arrow",
-        "size": "med"
       },
-      "sort": 100000,
-      "flags": {},
-      "img": "systems/pf1/icons/skills/arrow_08.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    }
-  ],
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "systems/pf1/icons/skills/arrow_08.jpg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "core": {
-      "sheetClass": "PF1.ActorSheetPFNPCLite"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428395572,
+    "modifiedTime": 1665949162268,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

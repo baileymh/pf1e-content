@@ -3,7 +3,7 @@
   "name": "Cups Of Rapport",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These wooden drinking cups are similar to those found in many common taverns, and always come in pairs-one is a master cup, and the other is a mark cup. When a user of the master cup shares drinks with someone with the mark cup, the master cup's user gains a supernatural advantage when attempting to  develop a good rapport with the creature drinking from the mark cup. After 5 minutes of sharing a drink and chatting with a user of the mark cup, the user of the master cup gains a +5 bonus on Bluff, Diplomacy, and Sense Motive checks against the user of the mark cup. The two users must share a beverage from a common source (for example, two cupfuls poured from a single bottle of wine, ladled from the same punch bowl, or dipped into the same spring water) and spend the 5 minutes socializing with one another. The bonus lasts for 1 hour or until the users move more than 15 feet apart from each other, whichever comes first. Once a creature has used a mark cup, that creature cannot be affected by the same mark cup for 1 day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm person</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406181,
+    "modifiedTime": 1665949168458,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

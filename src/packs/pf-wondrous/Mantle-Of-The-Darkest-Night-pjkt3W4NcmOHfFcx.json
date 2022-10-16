@@ -3,7 +3,7 @@
   "name": "Mantle Of The Darkest Night",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cloak is woven from a fabric of solid darkness held together by magic alone. When the wearer takes the total defense action, the mantle quickly dissolves into a globe of darkness (as per deeper darkness) that is centered on the wearer. The darkness coalesces into a mantle on the wearer's shoulders again at the beginning of her next turn unless she immediately uses another total defense action to maintain it. This effect functions up to 10 rounds per day.  If any of the item's daily uses are left, the wearer can grab the mantle and toss it into a space within 30 feet as a standard action. The mantle dissolves into a deeper darkness effect centered where the mantle landed and lasting for a number of rounds equal to the remaining daily uses. When the duration ends, the mantle materializes in the square into which the wearer threw it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, deeper darkness</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409256,
+    "modifiedTime": 1665949171367,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Fiendsplitter",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This well-made weapon acts as a +1 demon-bane battleaxe and constantly emits a susurrus of faint, overlapping voices. In the presence of demons, this murmur increases to a cacophony of angry cries. These voices are individually unintelligible; the item communicates by empathy rather than speech because its intelligence is a collection of several dozen essences rather than a single powerful personality. The battleaxe has the destruction of demons as its special purpose and the dedicated power to detect demons within 60 feet, even when the demons are hidden or in disguise.  Fiendsplitter is embossed with the symbol of Torag and can be used as a holy symbol by followers of that stern dwarven god. Three times per day, Fiendsplitter can affect itself with bless weapon. Additionally, to combat the foul poisons and life-sapping magic employed by many demons, Fiendsplitter can affect its wielder with lesser restoration three times per day.<br><p><b>Base Item:</b> +1 demon-bane battleaxe</p><h3><b>Requirements</b></h3><p>Craft Arms and Armor, bless weapon, lesser restoration, summon monster I</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373326,
+    "modifiedTime": 1665949139727,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

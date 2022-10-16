@@ -3,7 +3,7 @@
   "name": "Fanged Falchion",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The blade of this brutal-looking falchion is serrated, forming the fangs of the stylized etching of a jackal's profile on the shimmering metal. Such weapons are fashioned in honor of Lamashtu and are favored by her most powerful cultists as weapons not only for battle, but also for sacrifice.  A fanged falchion is a +1 unholy falchion and wounds caused by the weapon's serrated edge are horrifically ragged and bleed profusely. Whenever a fanged falchion's wielder scores a successful critical hit with it, the sword's blade animates and chews at its victim  In addition to doing damage for the critical hit, this horrific chewing deals 2 points of Constitution damage and stuns the victim for 1 round (Fort DC 15 negates). Creatures immune to critical hits are immune to this Constitution damage and the stun effect.<br><p><b>Base Item:</b> +1 unholy falchion</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, harm, unholy blight, creator must be evil</p><h3><b>Source: </b></h3>RotRL-AE-Appendix",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372187,
+    "modifiedTime": 1665949138610,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

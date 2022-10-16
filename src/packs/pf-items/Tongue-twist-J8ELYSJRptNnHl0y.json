@@ -3,7 +3,7 @@
   "name": "Tongue twist",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Tongue twist</h3><p><strong>Source</strong> <em>Potions and Poisons pg. 25</em></p><p><strong>Price</strong> 600 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 16</p><p><strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1d2 Int damage. Additionally, the creature loses the ability to speak one language at random from the languages he knows for 1 minute. Additional failed saves cause the target to lose the ability to speak additional languages if the target has the ability to speak more than one language. Any creature that can no longer speak a language speaks only gibberish, which prevents casting spells with verbal components</p><p><strong>Cure</strong> 2 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This viscous violet gel dulls the mind, impeding the ability to recall words. Thieves and assassins keep tongue twist on hand for dealing with troublesome spellcasters.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366438,
+    "modifiedTime": 1665949134346,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

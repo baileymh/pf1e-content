@@ -3,7 +3,7 @@
   "name": "Rod Of Balance",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This short, slender rod appears to be crafted from solid iron, though it is incredibly light. In this shortened form, the rod has no powers. However, when the wielder pushes a small button on one end of the rod (a move action), the rod springs open to a 5-foot length, and its powers become available for use. Once extended, the rod possesses several powers that add to the wielder's acrobatic abilities. The wielder of the rod receives a +10 competence bonus on all Acrobatics checks involving long jumps and high jumps; additionally, the wielder covers double the normal distance for a jump when making an Acrobatics check. The individual holding the rod also gain a +4 dodge bonus to AC when fighting defensively instead of the usual +2 bonus. Also, while using this item, the user of the rod cannot be knocked prone, and takes only half damage from falling.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, cat's grace, feather fall, jump</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406832,
+    "modifiedTime": 1665949169073,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

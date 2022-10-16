@@ -3,7 +3,7 @@
   "name": "Mantle Of The Protector",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silvery cloak has steel pauldrons built into it, and always seems to fit a little too loosely, no matter who happens to be wearing it. At the start of each day, the owner of a mantle of the protector may spend 10 minutes attuning the mantle to his armor and shield. He may then lend his attuned mantle to an ally, who can activate it as an immediate action at any time to gain the owner's armor and shield bonus as well as any other special properties the armor may have for 10 minutes. When the mantle is activated this way, the owner's armor and shield go dormant, and he loses any benefits they may provide for 1 minute.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shield other</p><h3><b>Source: </b></h3>Champions Of Purity",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408566,
+    "modifiedTime": 1665949170759,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Styx sap",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Styx sap</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 145</em></p><p><strong>Price</strong> 2,600 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 18</p><p><strong>Onset</strong> 1d4 minutes; <strong>Frequency</strong> 1/10 minutes for 60 minutes</p><p><strong>Effect</strong> 1d4 Wis damage, and the creature loses its memories from the past 10 minutes, as though they had been erased by the spell <em>modify memory</em></p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This milky-white sap can be harvested from a rare jungle tree known as a “weeping maiden” in the local tongue. The tree’s branches end in long, vine-like tendrils that hang low to the ground and bear large, bitter-tasting red fruit. While the fruit is safe to eat, the sap of the tree carries powerful neurotoxins that cause short-term memory loss in those that consume it. In some cultures, styx sap is occasionally taken deliberately in order to allow one to forget unpleasant or tragic events.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366845,
+    "modifiedTime": 1665949134761,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

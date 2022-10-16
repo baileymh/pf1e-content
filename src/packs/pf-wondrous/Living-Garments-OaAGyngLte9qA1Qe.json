@@ -3,7 +3,7 @@
   "name": "Living Garments",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These sheer and silky robes, many of which are made of spider silk, are of the finest quality. On command, a living garment can make a number of subtle adjustments to itself, including coloring, fit, and basic design, accommodating and accentuating whatever mood the wearer wishes to convey. It always remains clean, and automatically repairs damage to itself at a rate of 1 hit point per round (hardness 0, 4 hit points). It also grants the wearer a +5 competence bonus on Diplomacy checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, eagle's splendor, mending, prestidigitation, creator must be a drow</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406136,
+    "modifiedTime": 1665949168427,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

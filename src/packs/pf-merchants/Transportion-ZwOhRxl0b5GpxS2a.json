@@ -3,7 +3,630 @@
   "name": "Transportion",
   "type": "npc",
   "img": "icons/tools/navigation/map-plain-green.webp",
-  "data": {
+  "items": [
+    {
+      "_id": "3oy4YWOObvTt9sum",
+      "name": "Passage, Carriage",
+      "type": "loot",
+      "sort": 600000,
+      "flags": {},
+      "img": "icons/commodities/tech/wheel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> -; <strong>Price of Passage (per mile)</strong> 3 cp<br/><strong>Category</strong> Transport, Land</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>The price given is for a ride in a coach that transports people (and light cargo) between towns. For a ride in a cab that transports passengers within a city, 1 copper piece usually takes you anywhere you need to go.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.03,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Passage, Coach cab",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageCoachCab",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Land"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "Yj1pgJMl7vA2hnG9",
+      "name": "Passage, Dog sled",
+      "type": "loot",
+      "sort": 1600000,
+      "flags": {},
+      "img": "icons/environment/settlement/ship.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> -; <strong>Price of Passage (per mile)</strong> 1 sp<br/><strong>Category</strong> Transport, Sea</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>Most ships do not specialize in passengers, but many have the capability to take a few along when transporting cargo. Double the given cost for creatures larger than Medium or creatures that are otherwise difficult to bring aboard a ship.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.1,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageShipsPassage",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Sea"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "RjsfIM1xzc1LdNIt",
+      "name": "Passage, Sleigh",
+      "type": "loot",
+      "sort": 1700000,
+      "flags": {},
+      "img": "icons/commodities/tech/wheel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp; <strong>Price of Passage (per mile)</strong> 2 cp<br/><strong>Category</strong> Transport, Land</p><h2 class=\"framing\">Description</h2>This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the harness required to pull it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.02,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Passage, Sleigh",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageSleigh",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Land"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "mlqwW1ZBLA351Xn5",
+      "name": "Passage, Wagon (heavy)",
+      "type": "loot",
+      "sort": 1800000,
+      "flags": {},
+      "img": "icons/commodities/tech/wheel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.03,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Passage, Wagon (heavy)",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageWagonHeavy",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Land"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "eUWbbhXSbHDVKIrm",
+      "name": "Passage, Wagon (light)",
+      "type": "loot",
+      "sort": 1900000,
+      "flags": {},
+      "img": "icons/commodities/tech/wheel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em>, <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.02,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Passage, Wagon (light)",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageWagonLight",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Land"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "NE9h7knZGUPzoBwp",
+      "name": "Passage, Wagon (medium)",
+      "type": "loot",
+      "sort": 2000000,
+      "flags": {},
+      "img": "icons/commodities/tech/wheel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.02,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "Passage, Wagon (medium)",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageWagonMedium",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Land"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "qFIlN4JpNRDYHrpz",
+      "name": "Passage, Warship",
+      "type": "loot",
+      "sort": 2100000,
+      "flags": {},
+      "img": "icons/environment/settlement/ship.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em>, <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> 25,000 gp; <strong>Price of Passage (per mile)</strong> 2 sp<br/><strong>Category</strong> Transport, Sea</p><h2 class=\"framing\">Description</h2>This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ship can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0.2,
+        "size": "med",
+        "equipped": false,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "passageWarship",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Transport, Sea"
+          }
+        },
+        "scriptCalls": [],
+        "subType": "misc",
+        "extraType": "",
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "pf1": {
+      "sellMultiplier": null
+    },
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPCLoot"
+    }
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1015,7 +1638,7 @@
       "cp": 0
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1023,26 +1646,10 @@
     },
     "name": "Alchemist",
     "displayName": 0,
-    "img": "icons/environment/settlement/tavern.webp",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "ZwOhRxl0b5GpxS2a",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
@@ -1053,16 +1660,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1070,585 +1674,50 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "icons/environment/settlement/tavern.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "3oy4YWOObvTt9sum",
-      "name": "Passage, Carriage",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> -; <strong>Price of Passage (per mile)</strong> 3 cp<br/><strong>Category</strong> Transport, Land</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>The price given is for a ride in a coach that transports people (and light cargo) between towns. For a ride in a cab that transports passengers within a city, 1 copper piece usually takes you anywhere you need to go.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.03,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "Passage, Coach cab",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageCoachCab",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Land"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 600000,
-      "flags": {},
-      "img": "icons/commodities/tech/wheel.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "Yj1pgJMl7vA2hnG9",
-      "name": "Passage, Dog sled",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> -; <strong>Price of Passage (per mile)</strong> 1 sp<br/><strong>Category</strong> Transport, Sea</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>Most ships do not specialize in passengers, but many have the capability to take a few along when transporting cargo. Double the given cost for creatures larger than Medium or creatures that are otherwise difficult to bring aboard a ship.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.1,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageShipsPassage",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Sea"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 1600000,
-      "flags": {},
-      "img": "icons/environment/settlement/ship.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "RjsfIM1xzc1LdNIt",
-      "name": "Passage, Sleigh",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp; <strong>Price of Passage (per mile)</strong> 2 cp<br/><strong>Category</strong> Transport, Land</p><h2 class=\"framing\">Description</h2>This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the harness required to pull it.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.02,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "Passage, Sleigh",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageSleigh",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Land"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 1700000,
-      "flags": {},
-      "img": "icons/commodities/tech/wheel.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "mlqwW1ZBLA351Xn5",
-      "name": "Passage, Wagon (heavy)",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.03,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "Passage, Wagon (heavy)",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageWagonHeavy",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Land"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 1800000,
-      "flags": {},
-      "img": "icons/commodities/tech/wheel.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "eUWbbhXSbHDVKIrm",
-      "name": "Passage, Wagon (light)",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em>, <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.02,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "Passage, Wagon (light)",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageWagonLight",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Land"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 1900000,
-      "flags": {},
-      "img": "icons/commodities/tech/wheel.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "NE9h7knZGUPzoBwp",
-      "name": "Passage, Wagon (medium)",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em><br/><strong>Price</strong> 100 gp (heavy), 50 gp (light), 75 gp (medium); <strong>Weight</strong> 3 cp (heavy), 2 cp (light), 2 cp (medium)</p><h2 class=\"framing\">Description</h2>This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.<br/><br/> <em>Light Wagon</em>: Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.<br/><br/> <em>Medium Wagon</em>: Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.<br/><br/> <em>Heavy Wagon</em>: Wagons of this type are large, fourwheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.02,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "Passage, Wagon (medium)",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageWagonMedium",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Land"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 2000000,
-      "flags": {},
-      "img": "icons/commodities/tech/wheel.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "qFIlN4JpNRDYHrpz",
-      "name": "Passage, Warship",
-      "type": "loot",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 87</em>, <em>PRPG Core Rulebook pg. 159</em><br/><strong>Price</strong> 25,000 gp; <strong>Price of Passage (per mile)</strong> 2 sp<br/><strong>Category</strong> Transport, Sea</p><h2 class=\"framing\">Description</h2>This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ship can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0.2,
-        "size": "med",
-        "equipped": false,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "passageWarship",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Transport, Sea"
-          }
-        },
-        "scriptCalls": [],
-        "subType": "misc",
-        "extraType": "",
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "sort": 2100000,
-      "flags": {},
-      "img": "icons/environment/settlement/ship.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    }
-  ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1": {
-      "sellMultiplier": null
-    },
-    "core": {
-      "sheetClass": "PF1.ActorSheetPFNPCLoot"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428377061,
+    "modifiedTime": 1665949144403,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

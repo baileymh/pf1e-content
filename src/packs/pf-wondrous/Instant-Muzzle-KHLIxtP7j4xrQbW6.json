@@ -3,7 +3,7 @@
   "name": "Instant Muzzle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ball of iron bands and hinges is about the size of a human fist. Three times per day, when thrown at a creature or space as a thrown weapon, the contraption opens up as it strikes a solid surface, taking the shape of a metal muzzle. If it hits the target, the muzzle immediately attaches itself to the face of any Large or smaller creature struck by the ball or any single Large or smaller creature in the 5-foot square so targeted. The muzzle harmlessly clatters to the ground and returns to ball form if it fails to strike a creature or no creature is present in the space in which it landed, and it does not return to its thrower.   A creature muzzled with an instant muzzle cannot speak properly (if it was normally able to do so), and gains a 20% spell failure chance for any spell it attempts to cast with verbal components, and a 20% chance to incorrectly use a command word when activating a magic item. The muzzled creature cannot make bite attacks or even drink or eat properly. The muzzle has hardness 10 and 25 hit points. An instant muzzle remains attached to a creature for 4 rounds before detaching and returning to ball form, immediately teleporting back to the hand of the creature that originally threw the item.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fumbletongueUM, telekinesis</p><h3><b>Source: </b></h3>Animal Archive",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405556,
+    "modifiedTime": 1665949167887,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

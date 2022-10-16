@@ -3,7 +3,7 @@
   "name": "Book Of Written Whispers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When first created, a book of written whispers is a relatively slim volume of blank pages. Typically, the cover of a book of written whispers is made to appear nondescript or plain, but the actual design of the book's cover has no bearing on the item's use. This magic item is used to pen secret messages to allies in distant areas. Each book of whispers is linked to a specific activation word. The backside of each of the book's pages can be removed as a standard action; the removed page appears as a normal piece of paper, and the front side of the page that remains in the book of whispers turns uniformly dark gray. The removed page is known as a secret letter, while the page from which it was removed is known as a source page. A secret letter doesn't radiate magic, behaving as if under the effects of a magic aura spell.  At any point thereafter, the owner of the book of written whispers can write a message on the source page. This message can be up to 25 words long, a simple line drawing, or even a straightforward map. When the book's owner writes the activation word in the page's margin (this word does not count against the message's total word count), the message or image inscribed on the page instantly duplicates on the page's linked secret letter, and the actual contents of both the source page and the secret letter are hidden by a secret page effect. The carrier of the secret letter can use the activation word to reveal  the actual contents of the message or to restore the misleading secret page contents.  As a standard action, the owner of a book of written whispers can rip an entire source page out of the book. Doing so causes its linked secret letter to crumble to ash, whether or not any messages have yet been sent. A book of written whispers can be used only 25 times before it is filled; once used, a page cannot be reused to send a new message.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic aura, secret page, sending</p><h3><b>Source: </b></h3>Divine Anthology",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407394,
+    "modifiedTime": 1665949169646,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

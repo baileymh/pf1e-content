@@ -3,7 +3,7 @@
   "name": "Writhing Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elaborate +2 silken ceremonial armorUE is made of layers of silken braids and is often worn by diplomats and royalty when more drab or utilitarian armor is socially inappropriate. The wearer of writhing armor can cause it to unravel long braids of silk that twist and lash out of their own accord. The wearer can use one such braid to make attacks as a +1 whip. The constant writhing of the braids also grants the wearer a +4 dodge bonus to AC for 1 round when taking the withdraw action as a full-round action.<br><p><b>Base Item:</b> +2 silken ceremonial armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate rope</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372199,
+    "modifiedTime": 1665949138631,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

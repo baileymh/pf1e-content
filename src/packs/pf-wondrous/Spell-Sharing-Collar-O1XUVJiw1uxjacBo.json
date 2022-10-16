@@ -3,7 +3,7 @@
   "name": "Spell-Sharing Collar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick leather collar is studded with onyx gems and fastened with a simple metal clasp. Spell-sharing collars come in a variety of sizes and can be secured around the neck of any creature capable of wearing and using a neck-slot item. They are usually sold in sets.  A creature with the share spells ability (such as an animal companion or familiar) wearing a spell-sharing collar can benefit from that ability with any other creature wearing such a collar that is attuned to its own collar, rather than gaining the benefit only with its bonded master. Attuning two or more spell-sharing collars takes 10 minutes, during which time the collars must be touching one another. A spell-sharing collar can have as many as three other spell-sharing collars attuned to it at once. The granted ability otherwise functions as a familiar's share spells ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, imbue with spell ability</p><h3><b>Source: </b></h3>Familiar Folio",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406115,
+    "modifiedTime": 1665949168415,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

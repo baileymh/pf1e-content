@@ -3,7 +3,7 @@
   "name": "Hyperboreal Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This beautiful robe is fashioned from fine blue silk embroidered with silver thread, and trimmed with owl feathers and tiny shards of crystal. The robe grants its wearer a +2 resistance bonus on all saving throws. In addition, the flesh of the robe's wearer becomes searing cold to the touch. Anyone who strikes the wearer with an unarmed strike, a touch attack, or a natural weapon takes 1d6 points of cold damage. The wearer can activate or deactivate this ability as a free action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chill touch, resistance</p><h3><b>Source: </b></h3>AP 68",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409683,
+    "modifiedTime": 1665949171818,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

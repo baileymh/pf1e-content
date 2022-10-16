@@ -3,7 +3,7 @@
   "name": "Lash Of The Howler",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The lash of the howler is a +1 vicious scorpion whip tipped with quills torn from a howler's mane. Each time a creature takes damage from the lash of the howler, it must succeed at a DC 14 Reflex save or a quill breaks off and lodges in its flesh. The whip instantly sprouts a new quill to replace the one lost. The quill leaves the target sickened until it is removed. Removing a single quill from a creature requires a DC 15 Heal check made as a full-round action. For every 5 by which the check is exceeded, one additional quill can be removed. On a failed check, a quill is still removed but the process deals 1d4+1 points of damage to the victim.<br><p><b>Base Item:</b> +1 vicious scorpion whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, enervation, ray o f s ickening (Ultimate Magic)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372486,
+    "modifiedTime": 1665949138941,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

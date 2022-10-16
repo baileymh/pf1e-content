@@ -3,7 +3,7 @@
   "name": "Lenses Of Darkness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit over the wearer's eyes. When worn by a creature with light sensitivity or light blindness, these lenses protect the wearer against the effect of sunlight, the daylight spell, or similar light effects. Both lenses must be worn for the magic to be effective.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, darkness</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405440,
+    "modifiedTime": 1665949167805,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

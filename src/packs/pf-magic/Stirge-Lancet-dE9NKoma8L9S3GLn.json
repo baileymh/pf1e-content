@@ -3,7 +3,7 @@
   "name": "Stirge Lancet",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 returning featherweight dartUI transforms into an insect-sized stirge when fired. As with a normal featherweight dart, a stirge lancet deals no damage; it instead administers 1 dose of an applied poison so long as the target doesn't have damage reduction, hardness, or similar abilities. If no poison is applied to the stirge lancet, it instead attaches to the target for 1 round and draws 1 ounce of blood or an equivalent fluid (if any) from the target. After applying poison or drawing blood, the dart flies through the air back to the creature that fired it. Unlike other featherweight darts, a stirge lancet is not damaged or destroyed when used, and can be reused indefinitely (though it can store only 1 dose of poison or one blood sample at a time).  Although a stirge lancet leaves no evidence, the sound of its buzzing wings may attract attention. A creature hit by a stirge lancet can attempt a Perception check to hear its humming; the DC for this check is equal to 20 + the stirge lancet's enhancement bonus on attack rolls (DC 21 for a standard stirge lancet). If the target succeeds at this Perception check, it instinctively attempts to bat the dart out of the air without a second thought, thinking the projectile to be an ordinary insect. There is a 50% chance that a dart so detected is batted from the sky, preventing it from returning to the creature that fired it and allowing it to be detected with a successful DC 15 Perception check, as normal for a featherweight dart. A batted dart is not destroyed, but must be retrieved manually.<br><p><b>Base Item:</b> +1 returning featherweight dart</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate object, returning weaponUC</p><h3><b>Source: </b></h3>Spymaster's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372502,
+    "modifiedTime": 1665949138959,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

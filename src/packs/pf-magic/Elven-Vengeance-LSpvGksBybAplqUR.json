@@ -3,7 +3,7 @@
   "name": "Elven Vengeance",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This set of +2 elven chain grants its wearer a +4 resistance bonus on saving throws against spells, spell-like abilities, and other effects created by worshipers and minions of a specific demon lord, chosen when the armor is created. Against such foes, the armor's enhancement bonus increases to +4. The first suit of this armor was created quite recently by Perelir for her close friend Malindil as part of the ranger's vengeful crusade against Abraxas; since then, many other suits focused against other powerful demons (particularly the nascent demon lord Treerazer) have been crafted.<br><p><b>Base Item:</b> +2 elven chain</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, detect evil, resistance</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372202,
+    "modifiedTime": 1665949138633,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

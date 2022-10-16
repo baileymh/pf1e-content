@@ -3,7 +3,7 @@
   "name": "Dreaming death",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Dreaming death</h3><p><strong>Source</strong> <em>Agents of Evil pg. 22</em></p><p><strong>Price</strong> 2,500 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> inhaled; <strong>Save</strong> Fortitude DC 16</p><p><strong>Onset</strong> 10 minutes; <strong>Frequency</strong> 1/10 minutes for 1 hour</p><p><strong>Effect</strong> sleep 10 minutes, see text</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Imported in stoppered quartz vials by the enigmatic denizens of Leng, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.</p><p></p><p> Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a coup de grace attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367716,
+    "modifiedTime": 1665949135543,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

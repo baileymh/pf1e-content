@@ -3,7 +3,7 @@
   "name": "Planar Keystone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A planar keystone is a small cube etched with runes. Each planar keystone is attuned to a specific site on a particular plane-this site must be determined when the planar keystone is created and cannot be changed at a later date. Anyone examining the etched patterns can determine the plane and location with a successful DC 20 Knowledge (planes) check. Once per day, up to eight intelligent creatures within 20 feet of the planar keystone can concentrate upon its etched patterns for 1 minute. This concentration is tenuous; if any of the creatures are attacked or pause to take other actions during this time, the concentration of all participants is broken and the planar keystone's use for that day is lost. At the end of this time, all creatures concentrating on the planar keystone are transported to the planar keystone's site as if via plane shift, but arriving precisely on target. The planar keystone travels with the creatures-it is not left behind in the process.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gate</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410520,
+    "modifiedTime": 1665949172517,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

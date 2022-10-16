@@ -3,7 +3,7 @@
   "name": "Scabbard Of Stanching",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fine, red leather sheath is decorated with gold filigree. It fits any bladed slashing weapon. While worn, a scabbard of stanching protects against bleed damage. Anytime the wearer suffers a bleed effect, the scabbard automatically stanches it. It has no effect on bleed damage from effects that require a DC 16 or higher caster level or Heal check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409243,
+    "modifiedTime": 1665949171359,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

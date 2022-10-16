@@ -3,7 +3,7 @@
   "name": "Cauldron Of Transmutation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small brass cauldron is engraved with arcane runes, and its bottom is blackened by fire. To function, the cauldron must be filled with pure water and heated from below. When any two potions are emptied into the cauldron, they are transmuted into a single potion, the spell level of which must be equal to or lower than that of the component potion with the lower spell level. The user of the cauldron must designate which potion is to be created when the process begins. The entire process takes 1 minute per spell level of the potion being created.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, polymorph any object</p><h3><b>Source: </b></h3>Undead Unleashed",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406643,
+    "modifiedTime": 1665949168917,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

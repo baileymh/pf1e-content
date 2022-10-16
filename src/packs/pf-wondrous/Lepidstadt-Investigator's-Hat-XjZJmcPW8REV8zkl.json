@@ -3,7 +3,7 @@
   "name": "Lepidstadt Investigator's Hat",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black deerstalker cap features a subtle, sinister, eye-like design stitched on the front flap. The hat grants a +2 competence bonus on all Knowledge checks to identify monsters.  If the wearer is an investigator, the hat allows him to take advantage of his deductions in combat. Whenever he uses inspiration to identify a non-humanoid creature, he can record the result of the inspiration die and use it again later. Within the next minute, before rolling an attack roll against that creature, a skill check against that creature, or a saving throw against one of that creature's attacks, he can add the recorded inspiration die result to his roll-if he does so, he can't use inspiration to apply another inspiration die to the roll. Using the recorded result doesn't require the investigator to spend a use of inspiration, and the recorded result goes away once it's used. He can have only one inspiration die result recorded in this way. If he uses inspiration to identify another monster before using his recorded inspiration die, he must decide whether to replace the old result before rolling.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, know the enemyUM</p><h3><b>Source: </b></h3>Advanced Class Origins",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407255,
+    "modifiedTime": 1665949169523,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

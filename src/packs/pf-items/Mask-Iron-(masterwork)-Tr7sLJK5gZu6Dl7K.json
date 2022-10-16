@@ -3,7 +3,7 @@
   "name": "Mask, Iron (masterwork)",
   "type": "equipment",
   "img": "icons/equipment/head/mask-carved-scream-tan.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Path of the Hellknight pg. 15</em><br/><strong>Price</strong> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  75 gp (common), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  150 gp (masterwork); <strong>Weight</strong> 10 lbs. (common), 15 lbs. (masterwork)</p><h2 class=\"framing\">Description</h2><p>This plain but heavy iron helmet covers the entire head and fastens around the neck and shoulders. The wearer becomes difficult to identify, as the mask obscures all facial features. A creature wearing an iron mask is always treated as having made an involuntary Disguise skill check with a result of 10 (with no further modifiers). Additionally, the creature can only apply half its Dexterity modifier to Dexterity checks, Dexterity- based skill checks, initiative checks, and Reflex saving throws. The creature adds only half of its Dexterity modifier to its Armor Class and CMD, and to attack rolls, if applicable. The creature treats all other creatures as if they had concealment against it.<br/><br/> A creature wearing an iron mask can use the Escape Artist skill to slip free (DC 35, or DC 40 for a masterwork iron mask). Breaking the mask requires a Strength check (DC 30, or DC 32 for a masterwork iron mask). An iron mask has hardness 10 and 30 hit points. Half the damage dealt to an iron mask applies to the creature wearing it.<br/><br/> Iron masks are typically designed for Medium creatures, but Small ones can be bought for the same price, or larger ones can be bought for higher prices (the price is calculated the same way as buying larger-sized manacles; see page 68 of <em>Ultimate Equipment</em>). Most iron masks have locks; add the cost of the desired lock to the price of the mask. Masterwork masks also often feature frightening or demeaning sculpted visages.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "mask",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366904,
+    "modifiedTime": 1665949134804,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

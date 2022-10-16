@@ -3,7 +3,7 @@
   "name": "Concentrated laxative",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Concentrated laxative</h3><p><strong>Source</strong> <em>Antihero's Handbook pg. 28</em></p><p><strong>Price</strong> 75 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 12</p><p><strong>Onset</strong> 10 minutes; <strong>Frequency</strong> 1/minute for 2 minutes</p><p><strong>Effect</strong> This mixture gained popularity0and notoriety0when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is sickened for 1 minute, and after a second failure, the target is nauseated for 1 minute</p><p><strong>Cure</strong> 1 save</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367340,
+    "modifiedTime": 1665949135191,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Seasoned Spirit",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/plant.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Vine Leshy&nbsp;<br /><strong>Replaced Trait(s):</strong> Climber, Plantspeech, Unassuming Foliage&nbsp;</p>\n<hr />\n<p>Long-lived vine leshys are less flexible, but they have established stronger bonds with the natural world. These leshys can spend an hour in concentration to cast <%SPELLS%speak with plants%%><i>speak with plants</i><%END> as a spell-like ability with a caster level equal to their character level.<br /><br /> This alters plantspeech and replaces climber and unassuming foliage.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384368,
+    "modifiedTime": 1665949148690,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

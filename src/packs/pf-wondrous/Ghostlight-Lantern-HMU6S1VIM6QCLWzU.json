@@ -3,7 +3,7 @@
   "name": "Ghostlight Lantern",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brass bullseye lantern is embossed with dancing orbs flitting amid a leaf-and-holly motif. A ghostlight lantern functions as a normal bullseye lantern, but if the remains of a dead will-o'-wisp are placed inside it, the lantern gains additional abilities. The dead will-o'-wisp powers the lantern for a period of 1 week, during which time the lantern sheds a bluish-white light without the need for oil as fuel. Creatures within the 60-foot cone of the lantern's normal light are outlined with a pale, bluish glow, as faerie fire. Orcs within the cone are dazzled, as if in bright sunlight, for as long as they remain within the light. Additionally, three times per day as a standard action, the wielder of a ghostlight lantern can draw upon the power of the deceased will-o'- wisp fueling it to cast shocking grasp. Lastly, while within the bounds of Ghostlight Marsh in the Hold of Belkzen, a ghostlight lantern unerringly emits a beacon that illuminates a direct path to the circle of standing stones that form the entrance to the Vault of Thorns. After 1 week, the power of the deceased aberration is exhausted, and the ghostlight lantern loses its additional abilities, once again functioning only as a normal bullseye lantern until another dead will-o'-wisp is placed inside.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, faerie fire, find the path, flare, shocking grasp</p><h3><b>Source: </b></h3>AP 92",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405339,
+    "modifiedTime": 1665949167751,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

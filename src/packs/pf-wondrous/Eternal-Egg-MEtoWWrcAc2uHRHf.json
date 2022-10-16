@@ -3,7 +3,7 @@
   "name": "Eternal Egg",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This device is an arcane engine that draws on the spell-like abilities of the couatl egg trapped within to power a beacon that specifically calls to the lost mage Nex. The beacon continually sings out across the dimensions to Nex in an attempt to arouse his interest and draw him back to Golarion.  Additionally, once per day the user can activate the device to teleport herself, the Eternal Egg, and up to 8 willing creatures holding hands to or from Afareen Astabhan's private extradimensional retreat (which acts as a permanent demiplane created with lesser create demiplaneUM). This functions as plane shift. When teleporting from the extradimensional retreat, the item and its passengers are returned to a location within between 5 and 500 miles (determined randomly) of the last location the Eternal Egg occupied on the Material Plane.  Should Nex ever respond to the Eternal Egg's beacon, it can be used to transport the user and anyone else standing in the 10-foot-radius magic circle inscribed on the floor to Nex's location. 24 hours later, the user and her companions can follow the beacon back. This use exhausts the Eternal Egg's powers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Magic Item, plane shift, temporal stasis</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406020,
+    "modifiedTime": 1665949168339,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

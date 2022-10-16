@@ -3,7 +3,7 @@
   "name": "Gloves Of Bony Power",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These black gloves are decorated with images of white bones, as if revealing the bones within the wearer's hands. The left glove can be used once per day to create a spectral hand, which makes the bony hand image on that glove slide off and manifest as a ghostly skeletal hand for the duration of the effect. The right glove can be used once per day to deliver an inflict moderate wounds spell, which gives that hand's bones a pale, sickly glow until the touch is delivered or discharged. If the wearer is a living creature, he can also use the right glove on himself to cast cure moderate wounds instead of inflict moderate wounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure moderate wounds, inflict moderate  wounds, spectral hand</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404745,
+    "modifiedTime": 1665949167242,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

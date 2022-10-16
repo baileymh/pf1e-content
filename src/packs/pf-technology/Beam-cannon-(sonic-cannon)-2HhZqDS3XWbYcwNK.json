@@ -3,7 +3,7 @@
   "name": "Beam cannon (sonic cannon)",
   "type": "weapon",
   "img": "icons/skills/ranged/cannon-barrel-firing-orange.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #89: Palace of Fallen Stars pg. 62</em></p>\n<h2 class=\"framing\">Statistics</h2>\n<p><strong>Cost</strong> 58,000 gp</p>\n<p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 18 lbs.</p>\n<p><strong>Damage</strong> 2d6 (small), 3d6 (medium); <strong>Damage Type</strong> Sonic; <strong>Critical</strong> x2</p>\n<p><strong>Range</strong> 300 ft.; <strong>Capacity</strong> 50; <strong>Usage</strong> 1 charge; <strong>Special</strong> Automatic, touch</p>\n<h2 class=\"framing\">Description</h2>\n<p>A beam cannon is an immense version of one of the six more common beam rifle types. Beam cannons are generally referred to by type as summarized below. In addition to the standard automatic firing mode options (<em>Pathfinder Campaign Setting: Technology Guide</em> 20), a beam cannon can be used to launch a devastating blast of energy. This is a full-round action, and these blasts can't be used to make iterative attacks. When a beam cannon is used to launch a blast, no attack roll is made-you simply target a 20-foot-radius spread within a maximum range of 300 feet. You must have line of effect to your target when you launch a blast; if the blast impacts a solid object before reaching the target area, it explodes at that point. All creatures caught in the blast radius take 6d6 points of damage of the energy type appropriate to the cannon (Reflex DC 14 half). Each blast also has an additional effect as determined by the type of cannon. Firing a blast from a beam cannon consumes 10 charges.</p>\n<p>&nbsp;</p>\n<p><strong>Sonic Cannon</strong>: A sonic cannon deals sonic damage. A creature that is critically hit by a sonic cannon or fails its saving throw against the cannon's blast must succeed at a DC 15 Fortitude saving throw or be permanently deafened. A sonic cannon costs 58,000 gp and has a Craft DC of 33.</p>\n<h2 class=\"framing\">Construction</h2>\n<p><strong>Craft</strong> DC 33; <strong>Cost</strong> 29,000 gp</p>\n<p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -209,6 +214,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -302,8 +308,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387613,
+    "modifiedTime": 1665949151979,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

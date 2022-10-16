@@ -3,7 +3,7 @@
   "name": "Helm of Reclamation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The helm of reclamation is designed to destroy large groups of undead or powerful individual undead creatures, and is often used by undead-hating clerics with a flair for the dramatic. The gems of this helm produce sunburst (10 yellow diamonds), searing light (30 bloodstones), and daylight (40 opals). Like a standard helm of brilliance, it glows near and harms undead, and has the flaming weapon ability, but does not protect against fire or risk detonation.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight, detect undead, flame blade, searing light, sunburst</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409047,
+    "modifiedTime": 1665949171221,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

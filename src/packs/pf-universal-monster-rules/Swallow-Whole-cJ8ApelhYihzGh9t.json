@@ -3,7 +3,7 @@
   "name": "Swallow Whole",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_22.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>If a creature with this special attack begins its turn with an opponent <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grappled</span></a> in its mouth (see <a href=\"https://www.aonprd.com/UMR.aspx?ItemName=Grab\">grab</a>), it can attempt a new combat maneuver check (as though attempting to pin the opponent). If it succeeds, it swallows its prey, and the opponent takes bite damage. Unless otherwise noted, the opponent must be at least one size category smaller than the swallowing creature. Being swallowed causes a creature to take damage each round. The amount and type of damage vary and are given in the creature&rsquo;s statistics. A swallowed creature keeps the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grappled</span></a> condition, while the creature that did the swallowing does not. A swallowed creature can try to cut its way free with any light slashing or piercing weapon (the amount of damage required for the creature to cut itself free is equal to 1/10 the creature&rsquo;s total hit points), or it can just try to escape the grapple. The Armor Class of the interior of a creature that swallows whole is normally 10 + 1/2 its natural armor bonus, with no modifiers for size or Dexterity. If a swallowed creature cuts its way out, the swallowing creature cannot use swallow whole again until the damage is healed. If the swallowed creature escapes the grapple, it ends up back in the attacker&rsquo;s mouth, where it may be bitten or swallowed again.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: swallow whole (5d6 acid damage, AC 15, 18 hp);</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:&nbsp;</em>Replace damage</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -112,6 +117,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +179,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -220,8 +225,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402510,
+    "modifiedTime": 1665949165243,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

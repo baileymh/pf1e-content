@@ -3,7 +3,7 @@
   "name": "Gloves Of Stolen Unlife",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These pale gray gauntlets feature cabochons of banded black onyx that slowly shift to white when the gloves are activated. Three times per day, the wearer can activate the gloves as a swift action after successfully affecting an undead creature with an offensive single-target spell. Doing so grants the wearer a number of temporary hit points equal to 10 + the Hit Dice of the affected undead (maximum +10), which last a number of minutes equal to the level of the spell cast. This effect ends immediately if either glove is removed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, false life</p><h3><b>Source: </b></h3>Undead Slayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404615,
+    "modifiedTime": 1665949167138,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

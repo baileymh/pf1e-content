@@ -3,7 +3,7 @@
   "name": "Arlcon's Bracers Of Insanity",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These arm bands, forged by the evil wizard Arlcon centuries ago to torment his nemesis, Jazard the Bold, grant the wearer the following bonuses: +4 Strength, +4 Constitution, and a +4 deflection bonus to AC. It also lowers the wearer's effective Wisdom by -8 except when calculating Will saves, in which case the bonus remains unchanged. Once the bracers are donned, the wearer immediately goes insane, attacking anyone and anything in sight. The wearer's alignment also shifts to chaotic evil. Only a remove curse allows the victim to remove the bracers and restores the victim's original alignment.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Create Wondrous Item, bull's strength, endurance, mage armor, bestow curse</p><h3><b>Source: </b></h3>The Lost City of Barakus",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404073,
+    "modifiedTime": 1665949166567,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

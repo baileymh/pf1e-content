@@ -3,7 +3,12 @@
   "name": "Spell-Like Abilities (Fetchling)",
   "type": "feat",
   "img": "systems/pf1/icons/races/fetchling.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.sgDumJc8UgEtJqM7"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Fetchling&nbsp;</p>\n<hr />\n<p>A fetchling can use <em>disguise self</em> once per day as a spell-like ability. He can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches character 9th level in any combination of classes, he gains <em>shadow walk</em> (self only) as a spell-like ability usable once per day, and at 13th level, he gains <em>plane shift</em> (self only, to the Shadow Plane or the Material Plane only) usable once per day. A fetchling's caster level for these abilities is equal to his character level.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.sgDumJc8UgEtJqM7"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383414,
+    "modifiedTime": 1665949147706,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

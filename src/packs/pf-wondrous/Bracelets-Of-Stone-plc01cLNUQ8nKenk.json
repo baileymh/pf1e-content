@@ -3,7 +3,7 @@
   "name": "Bracelets Of Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These rugged stone armbands slip on easily and swiftly adjust to a size appropriate for the wearer. Once per day, the wearer can create a wall of stone up to 2 inches thick and 45 feet long (or 90 feet long, if the thickness is reduced to 1 inch). For the purpose of this effect, the bracelets of stone count as a stone surface that the wall of stone can merge with, and they magically provide the wearer the strength necessary to support any wall of stone so created. Thus, the wearer can create a bridge or wall in nearly any location as long as he is standing adjacent to a point where the bracelets can connect to it. If the bracelets are used this way, the wearer can't move from this space and is considered flat-footed during this time, but may end the effect as an immediate action (thus destroying the wall). If either bracelet is taken off or a portion of the wall is breached or destroyed, this effect immediately ends and the wall of stone crumbles to dust.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, wall of stone</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409258,
+    "modifiedTime": 1665949171369,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

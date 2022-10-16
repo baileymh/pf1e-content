@@ -3,7 +3,7 @@
   "name": "Mothman Memento",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Mothmen sometimes create these tokens when they know their powers won't be needed for a long period of time or they are close to death and wish to preserve their legacies. A mothman memento can be any item that is worn around the neck, such as an amulet or pendant. As a full-round action while wearing a mothman memento, a mothman can simultaneously kill itself and inject its soul into the item.  A mothman memento can lie untouched for years or even decades before it winds up in the hands of another creature. Any humanoid or monstrous humanoid that wears the memento gains the ability to cast modify memory as a spell-like ability three times per day (caster level 12th).  If a creature goes to sleep or falls unconscious while wearing a mothman memento, the wearer must succeed at a DC 19 Will save or be affected as though by a nightmare spell (no modifiers due to knowledge or physical connection; caster level 12th). A creature can be affected by this nightmare effect only once every 24 hours. After the first time the wearer is affected by the nightmare effect, the memento can only be removed by means of a remove curse spell. A creature that dies from the nightmare effect rises as a mothman the next morning.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, modify memory, nightmare, soul bind</p><h3><b>Source: </b></h3>Mystery Monsters Revisited",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409859,
+    "modifiedTime": 1665949171932,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

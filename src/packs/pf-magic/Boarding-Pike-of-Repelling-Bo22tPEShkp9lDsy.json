@@ -3,7 +3,7 @@
   "name": "Boarding Pike of Repelling",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 boarding pike (Pathfinder Player Companion: Pirates of the Inner Sea 18) is an 8-foot-long pole topped with a tapered metal spearpoint and a backward-facing hook, used to draw vessels closer together or repel boarders. A metal skull caps the butt of the pike. On command, a boarding pike of repelling can be extended as a swift action, giving its wielder a reach of 20 feet for 1 round. While the pike is extended, the wielder does not threaten adjacent creatures or creatures up to 15 feet away. A boarding pike of repelling can also be extended in this way to draw vessels closer together for boarding.<br><p><b>Base Item:</b> +1 boarding pike</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, wood shape</p><h3><b>Source: </b></h3>AP 55",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371811,
+    "modifiedTime": 1665949138258,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "The Thundering Blade of the House of Sugimatu",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once per day as a standard action, the bearer of this +1 thundering naginata (Ultimate Combat 133) can strike the blade against the ground, causing it to ring with a deafening clangor that functions as the shout spell.  Stolen by Munasukaru years ago, the thundering blade is the ancestral weapon of the Sugimatu family, one of the five imperial families of Minkai. The thundering blade is imbued with royal honor, and bestows one permanent negative level on any creature without honor that attempts to wield it (such as oni, traitors, kinslayers, and the like). The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.  A naginata is a two-handed martial melee weapon that deals 1d8 points of slashing damage and has a critical modifier of x4. A naginata is a reach weapon. A naginata costs 35 gp and weighs 9 lbs.<br><p><b>Base Item:</b> +1 thundering naginata</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/ deafness, shout</p><h3><b>Source: </b></h3>AP 52",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372932,
+    "modifiedTime": 1665949139328,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

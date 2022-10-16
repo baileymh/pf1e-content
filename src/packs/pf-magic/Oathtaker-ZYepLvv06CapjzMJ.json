@@ -3,7 +3,7 @@
   "name": "Oathtaker",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This Large +1 tetsubo (see page 27) is banded in corroded iron bearing brass studs that are embossed with wicked Tien characters of punishment and pain. Once per day, the wielder can bestow a blood geas upon a willing subject who swears an oath to the wielder (the wielder and the subject must agree on the exact nature of the oath). The blood geas functions as a mark of justice that activates if the subject of the blood geas breaks his oath, dealing 12d6+9 points of damage to the subject. If the subject survives, the blood geas is removed, though the subject can swear a new oath and receive a new blood geas if he chooses. A character can be under only one blood geas at a time. A blood geas is permanent unless removed by the wielder.<br><p><b>Base Item:</b> +1 tetsubo</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mark of justice, slay living</p><h3><b>Source: </b></h3>AP 50",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372448,
+    "modifiedTime": 1665949138894,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

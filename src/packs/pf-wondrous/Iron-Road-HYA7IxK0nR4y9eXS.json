@@ -3,7 +3,7 @@
   "name": "Iron Road",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Iron Road is a melancholic talisman ( Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Volume 1 40), a potent magic item that contains a bound hellmouth devil (a portal to Hell crafted from a devil). Once per day the wearer can activate the talisman to summon a hellmouth, which takes the form of Jyangzipao, an eyeless, amphisbaenic underworld dragon with corroded iron scales. Each of Jyangzipao's two mouths forms a 10-foot portal to Hell; one connects to Avernus and the other to Dis. Only one portal can be used each time the talisman is activated, remaining open for 10 minutes (or until the wearer dismisses it) and functioning as the spell gate. The portal cannot connect to any other locations, so should the wearer of the Iron Road pass through the gate and linger in Hell for more than 10 minutes, the hellmouth closes behind him and traps him in Hell. Jyangzipao currently exists only as a portal, and is not an independent creature with his own desires or needs.  The hellmouth maw that connects to Dis always connects to the Souk Sinister, an auction house in the city of Dis operated by Hasharizi, a heavily tattooed contract devil (Pathfinder RPG Bestiary 3 76). Hasharizi happily offers her services as a fence for stolen goods, and she is willing to search the markets of Dis for rare treasures for a commission (typically 10% of the item's cost), providing the talisman's wearer a portable means of liquidating wealth and securing otherwise unavailable goods. It usually takes at least a day for the devil to fence or find the requested items. For those requiring more immediate boons, Hasharizi is always willing to tailor an infernal contract to meet her patron's needs.  Jyangzipao's other maw opens just outside Seventh Spire, a lead-brick fortress surrounded by a moat of rusty quicksand in Avernus. The ambitious cornugon Ulkruoth commands the keep and its ever-growing garrison of warmonger devils (Princes of Darkness 60) and bearded devils. For a fair price- much as though the wearer had cast planar ally-he sells his troops' services as mercenaries. For particularly glorious assignments likely to hasten his eventual transformation into a malebranche, Ulkruoth is known to halve his price or waive it entirely.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gate, greater planar binding, ability to conjure and bind a greater devil</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405353,
+    "modifiedTime": 1665949167757,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

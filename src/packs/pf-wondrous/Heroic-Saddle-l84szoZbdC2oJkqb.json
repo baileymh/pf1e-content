@@ -3,7 +3,7 @@
   "name": "Heroic Saddle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elaborate military saddle is embellished with intricate tooling and a panoply of tassels, ribbons, and bells fit to announce a mighty hero's marvelous return. A new tassel, ribbon, or bell appears on the saddle after each victory. Whenever the rider of a mount wearing a heroic saddle is targeted with a conjuration (healing) effect, that effect also affects the mount. Use the rider's level to determine the scaling abilities of this item.  10th Level: The mount gains a +1 resistance bonus on saving throws and a +1 deflection bonus to Armor Class.  11th Level: Once per day as a full-round action, the rider of a mount wearing a heroic saddle can command the heroic saddle to grant the mount 1d8 + 10 temporary hit points. These temporary hit points last for 24 hours or until expended, and they do not stack with themselves but do stack with temporary hit points from other sources.  13th Level: The saddle's bonuses on saving throws and to AC increase to +2.  15th Level: The saddle's bonuses on saving throws and to AC increase to +3. When the rider commands the saddle to grant his mount temporary hit points, the rider also gains a number of temporary hit points equal to half the amount his mount gains.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, aid, resistance, shield other</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408621,
+    "modifiedTime": 1665949170793,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Surge [Mythic]",
   "type": "feat",
   "img": "systems/pf1/icons/spells/explosion-sky-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The monster can call upon its <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"emNdW1Y7gFdGwNpo\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">mythic power</span></a> to overcome difficult challenges. It can expend one use of mythic power to increase any d20 roll it just made by rolling 1d6 and adding the result to the d20 roll. Using this ability is an immediate action taken after the original roll is made and the results are revealed. The bonus die gained by using this ability increases to 1d8 at 4th rank, 1d10 at 7th rank, and 1d12 at 10th rank. The monster can use this ability even if it&rsquo;s mindless or of animal-level intelligence. (See the Mythic Rules for more information.</p>\n<p>Surge doesn&rsquo;t have a separate entry in the monster stat block&mdash;the surge die is listed in the mythic power ability.</p>\n<p>&nbsp;</p>\n<p><em>Usage:</em> Replace Surge die</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -201,8 +206,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402603,
+    "modifiedTime": 1665949165310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

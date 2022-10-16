@@ -3,7 +3,7 @@
   "name": "Blessed Keepsake",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The fine chain bears a glass-fronted locket. If a piece of an outsider with an alignment subtype-such as a tooth from a demon or an angel's wing feather-is held in the locket for 24 hours, the blessed keepsake's magic activates. If the creature has more than one alignment subtype, one must be chosen when the piece is added to the locket.  The wearer can detect creatures of the chosen alignment at will, as the corresponding detect chaos/evil/good/law spell.  Three times per day, the wearer can use the blessed keepsake to gain protection from creatures of that alignment, as the corresponding protection from chaos/evil/good/law spell.  Lastly, if the wearer has the channel energy ability, she can channel energy to affect outsiders with that subtype as if she possessed the Alignment Channel feat.  If the piece of outsider is removed, the blessed keepsake is inactive until a new piece is attuned.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Alignment Channel, detect chaos, evil,  good, and law, protection from chaos, evil, good, and law</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409842,
+    "modifiedTime": 1665949171923,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

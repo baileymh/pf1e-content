@@ -3,7 +3,7 @@
   "name": "Angelfall Bow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Black feathers adorn the tips of this ebony +1 composite longbow (+5 Strength bonus). The bow gives off the faint scent of brimstone when the string is drawn back.  Three times per day as a swift action, the wielder of an angelfall bow can imbue the next arrow she fires that round with the bow's inherent raging energy. On a hit, the attack deals damage as normal and acts as a trip combat maneuver to knock the target prone, treating the result of the wielder's attack roll as the combat maneuver check result. If the target is flying, it must immediately succeed at a DC 25 Fly check to stay aloft or plummet to the ground.  Once per day when the wielder of an angelfall bow would be affected by a spell or spell-like ability with the light descriptor, she can attempt an immediate dispel check (using the caster level of the bow) to counter the effect. This manifests as a pulsating darkness emerging from the bow and swallowing the light.<br><p><b>Base Item:</b> +1 composite longbow (+5 Str)</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dust of twilightAPG, thundering drumsAPG</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373330,
+    "modifiedTime": 1665949139732,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

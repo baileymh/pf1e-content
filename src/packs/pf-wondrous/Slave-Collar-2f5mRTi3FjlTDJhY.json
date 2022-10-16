@@ -3,7 +3,7 @@
   "name": "Slave Collar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Slave collars are popular items among drow, duergar, and other Darklands societies that require obedience and servitude from slave castes. As these collars are relatively costly, they are typically reserved for use on particularly powerful or desirable slaves. A slave collar consists of a simple ring of metal (typically brass or bronze) that latches in place with a lock. Many feature additional adornments like short lengths of chain. Each slave collar's lock is attuned to a unique key. The person who carries a collar's key is aware of that collar's wearer as if it were the target of a constant status spell. In addition, the key carrier can communicate telepathically with the wearer of the collar as long as the wearer is within 100 feet of her. As long as a slave collar is worn, that collar's key carrier automatically penetrates the collar wearer's spell resistance (if any), and the collared creature takes a -5 penalty on all saving throws against the key carrier's spells. A slave collar's lock can be picked with a successful DC 40 Disable Device check, or broken open with a successful DC 30 Strength check-either method immediately destroys the slave collar. The wearer of a slave collar takes a -10 penalty on Disable Device or Strength checks made to disable the slave collar it wears.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, status, telepathic bond</p><h3><b>Source: </b></h3>AP 65",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403518,
+    "modifiedTime": 1665949166018,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

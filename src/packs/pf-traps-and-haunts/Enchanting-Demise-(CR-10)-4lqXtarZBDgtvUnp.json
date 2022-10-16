@@ -3,7 +3,15 @@
   "name": "Enchanting Demise (CR 10)",
   "type": "npc",
   "img": "systems/pf1/icons/skills/affliction_08.jpg",
-  "data": {
+  "flags": {
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPC"
+    },
+    "scene-packer": {
+      "sourceId": "Actor.HqKWWVM9dL0Z9sMD"
+    }
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1688,7 +1696,7 @@
     },
     "dFlags": {}
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1696,26 +1704,10 @@
     },
     "name": "Enchanting Demise (CR 10)",
     "displayName": 0,
-    "img": "systems/pf1/icons/skills/affliction_08.jpg",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "4lqXtarZBDgtvUnp",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
@@ -1726,16 +1718,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1743,27 +1732,51 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "systems/pf1/icons/skills/affliction_08.jpg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
   "items": [],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "core": {
-      "sheetClass": "PF1.ActorSheetPFNPC"
-    },
-    "scene-packer": {
-      "sourceId": "Actor.HqKWWVM9dL0Z9sMD"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428395380,
+    "modifiedTime": 1665949162233,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

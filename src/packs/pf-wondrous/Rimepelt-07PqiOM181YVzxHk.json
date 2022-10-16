@@ -3,7 +3,7 @@
   "name": "Rimepelt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This snow-white fur pelt of a winter wolf can be worn over the shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves to resist cold weather. The wearer can, as a standard action, transform into a Large winter wolf as if using beast shape IV. In certain special locations where winter wolves have the ability to take human form, such as the Howlings district of Whitethrone or the town of Redtooth, the wearer of a rimepelt in wolf form can take human form as winter wolves do, appearing as a white-haired, blue-eyed human. In either wolf or human form, the wearer of a rimepelt smells like a winter wolf to other winter wolves and creatures with the scent ability. When the wearer returns to his normal form, or after 2 hours have elapsed, the rimepelt becomes a mundane winter wolf pelt.   Very rarely, a properly skinned winter wolf pelt manifests the properties of a rimepelt without requiring additional enchantment. A winter wolf whose pelt has such potential usually manifests some telltale physical attribute, such as heterochromatic eyes. Creating a rimepelt from such a rare creature requires a successful DC 25 Profession (hunter) or Survival check. Taking 20 is not allowed in this situation, and a failed check results in the pelt being utterly ruined for any use.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape IV</p><h3><b>Source: </b></h3>AP 68",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403378,
+    "modifiedTime": 1665949165908,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

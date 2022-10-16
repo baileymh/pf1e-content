@@ -3,7 +3,7 @@
   "name": "Chest Of Keeping",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A chest of keeping is a large container capable of holding up to 1,000 pounds of contents, with a volume limit of 150 cubic feet. While the chest's lid is closed, the contents are preserved so that they resist the passage of time and do not decay. Living creatures placed inside the chest have no need to eat or drink, but they age normally. The chest is airtight when the lid is closed, with enough air to last a living creature for up to 10 minutes before it suffocates. Once the lid is closed, a chest of keeping can be folded up, compacting down to the size of a typical loaf   of bread. When the chest is compressed in this way, its contents do not add to the chest's standard weight of 10 pounds, as they are shunted into an extradimensional space for storage. Folding or unfolding a chest of keeping is a full-round action, and a chest of keeping cannot be opened when it is folded.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gentle repose, secret chest</p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406090,
+    "modifiedTime": 1665949168394,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

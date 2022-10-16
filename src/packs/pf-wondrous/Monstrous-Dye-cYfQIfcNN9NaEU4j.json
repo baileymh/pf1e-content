@@ -3,7 +3,7 @@
   "name": "Monstrous Dye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small bone container is filled with a thick dye. Each container holds enough dye to cover one ornament created with the Grisly Ornament feat (see page 24). When applied to an ornament, it aids in the ornament's preservation, allowing it to remain effective for an additional 24 hours. Once per day as a free action, a dyed ornament can be commanded to attack a target adjacent to the wearer. A ghostly image of the creature from which the ornament was harvested appears and makes a natural attack against the target, attacking with the wearer's base attack bonus and dealing 2d6 points of damage. This attack can be made in addition to any actions performed by the wielder. An ornament integrated into a wondrous item with the Monstrous Crafter feat (see page 24) can gain this attack ability, but doing so requires two applications of monstrous dye to function properly.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gentle repose, summon nature's ally IV</p><h3><b>Source: </b></h3>Monster Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407830,
+    "modifiedTime": 1665949170083,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

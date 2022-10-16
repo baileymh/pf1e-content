@@ -3,7 +3,7 @@
   "name": "Quarterstaff Of Vaulting",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1/+1 darkwood quarterstaff grants superior balance and acrobatic skill. It glows with a faint green-yellow radiance when in use and can extend to nearly double its length, though only when being used to perform acrobatic feats. The wielder gains a +5 competence bonus on Acrobatics checks and can move at full speed without penalty when using Acrobatics to move on narrow surfaces or uneven ground. When making a high jump while wielding the quarterstaff of vaulting, the Acrobatics DC is equal to 3 times the height to be reached instead of 4.  In addition, with a successful DC 25 Acrobatics check, the wielder can use the staff to vault over an opponent's head in place of taking a 5-foot step. She can only use this ability on creatures no more than one size category larger than her, and must end her movement in the nearest adjacent square on the opposite side of the creature. If this square is unavailable, she cannot use this ability. This movement does not provoke attacks of opportunity.<br><p><b>Base Item:</b> +1/+1 darkwood quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, jump</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371865,
+    "modifiedTime": 1665949138300,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

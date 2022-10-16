@@ -3,7 +3,7 @@
   "name": "Hexing Doll",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This malevolent-looking doll is made out of cheap rags and embroidery thread and is stuffed with straw or sawdust. A creature holding or carrying the doll takes a -4 penalty on saving throws against witch hexes. Alternatively, if the doll is stuffed with the hair of a creature, any witch holding the doll increases the DC of her hexes by +2 when using the hexes against that creature. A doll used in this way does not cause the witch to take a penalty on her saving throws.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409816,
+    "modifiedTime": 1665949171909,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

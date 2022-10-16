@@ -3,7 +3,7 @@
   "name": "Ki Mat",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This humble pad of woven river reeds allows its owner to recover his mental fortitude and ki pool by practicing breathing exercises and other forms of meditation. Each hour its owner spends sitting on the mat without taking any other action, he can attempt to center himself by making a Wisdom check with a DC of 10 + the monk's current number of ki points (note that ability checks, like skill checks, do not automatically succeed on a 20). If the check is successful, the monk regains 1 ki point.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lesser restoration, creator must be a monk</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404796,
+    "modifiedTime": 1665949167283,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

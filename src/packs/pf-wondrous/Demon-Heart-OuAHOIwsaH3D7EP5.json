@@ -3,7 +3,7 @@
   "name": "Demon Heart",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pulsating lump of reddish-black muscle can be implanted only if the recipient's own heart is first removed-removing the recipient's heart deals 2d4 points of Constitution damage and 1 point of Constitution bleed to the recipient, and at the beginning of its next turn the recipient is reduced to -1 hit points and begins dying. Implanting the demon heart requires a successful DC 20 Heal check made as a full-round action, and causes it to graft itself into the recipient's chest and halt the Constitution bleed. Once in place, the demon heart pumps with unrighteous might-the recipient gains a +4 profane bonus on saving throws against fear effects. In addition, if the recipient is suffering a bleed effect, as a full-round action it can cause the demon heart to flood its bloodstream with tainted ichor, ending the bleed effect but causing it to become nauseated for 1 round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, remove fear, stabilize</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406166,
+    "modifiedTime": 1665949168447,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

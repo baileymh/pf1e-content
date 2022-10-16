@@ -3,7 +3,7 @@
   "name": "Hallowed Chain",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Most often forged in Ustalav and Varisia as protection against the unquiet dead, this suit of +2 chainmail amplifies the effect of channeled positive energy. When its wearer is healed by positive energy (even if not currently wounded) or is in the area of positive energy channeled to harm undead, the armor absorbs 1 point of positive energy per 2 dice of healing, with a minimum of 1 point and a maximum of 5 points. This does not reduce the effect of the positive energy on any of its targets. Until the end of the wearer's next turn, any creature that would be harmed by positive energy (such as an undead) that strikes the wearer with a natural weapon or an unarmed strike or that succeeds at a grapple combat maneuver check against the wearer takes an amount of damage equal to the amount of positive energy stored in the armor.  If multiple effects charge the armor, only the strongest effect applies. Fixed amounts of healing (such as that granted by the heal spell) have no effect on the armor.<br><p><b>Base Item:</b> +2 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cure moderate wounds, creator must be a Varisian</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371848,
+    "modifiedTime": 1665949138290,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

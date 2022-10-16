@@ -3,7 +3,7 @@
   "name": "Pentacle Token",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Roughly the size of a saucer, this thin ceramic disc is painted red and marked with an inverted pentagram, the unholy symbol of Asmodeus. A pentacle token must first be attuned to a devil by touching the token to a devil as a standard action. A single pentacle token can be attuned to one devil of CR 9 or higher, or up to five devils of CR 8 or lower. An individual devil can be attuned to only one pentacle token at a time. Attuning a pentacle token to additional devils beyond these limits replaces earlier attunements, starting with the earliest attunement.  An attuned pentacle token can be broken as a standard action, immediately alerting all devils attuned to that token of the owner's location and the distance and direction to it. If the devil has the greater teleport spell-like ability, it can use that ability as an immediate action to transport itself to a square adjacent to the broken pentacle token. Teleporting to the token's location in this way increases the devil's damage reduction by 5 (for example, from DR 10/good to DR 15/good) for 1 hour (if the devil does not already have damage reduction, it gains DR 5/good for 1 hour). The creature breaking a pentacle token has no control over or command of any devils attuned to that token. Once a pentacle token is broken, it loses its magic and cannot be used again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, refuge, creator must be a cleric of Asmodeus</p><h3><b>Source: </b></h3>AP 108",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406123,
+    "modifiedTime": 1665949168419,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

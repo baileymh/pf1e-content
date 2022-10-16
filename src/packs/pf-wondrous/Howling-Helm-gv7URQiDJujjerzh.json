@@ -3,7 +3,7 @@
   "name": "Howling Helm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The wearer of this helm, crafted from a beast's skull, gains the ability to communicate with dogs, wolves, dire wolves, foxes, jackals, coyotes, and similar canine animals as the speak with animals spell. The wearer gains a +2 competence bonus on Diplomacy checks and Charisma checks to influence wolf-like magical beasts such as blink dogs, winter wolves, and worgs.  On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell summon nature's ally III. They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, speak with animals, summon nature's ally III</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408386,
+    "modifiedTime": 1665949170623,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

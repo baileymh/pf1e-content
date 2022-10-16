@@ -3,7 +3,7 @@
   "name": "Frightful Presence",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>This special quality makes a creature&rsquo;s very presence unsettling to foes. Activating this ability is a free action that is usually part of an attack or charge. Opponents within range who witness the action may become <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"07JPXUqIPshVnTCL\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">frightened</span></a> or <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"07JPXUqIPshVnTCL\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">shaken</span></a>. The range is usually 30 feet, and the duration is usually 5d6 rounds. This ability affects only opponents with fewer Hit Dice or levels than the creature has. An affected opponent can resist the effects with a successful Will save (DC = 10 + 1/2 frightful creature&rsquo;s racial HD + that frightful creature&rsquo;s Charisma modifier; the exact DC is given in the creature&rsquo;s descriptive text). On a failed save, the opponent is shaken, or panicked if it has 4 Hit Dice or fewer. An opponent that succeeds at the saving throw is immune to that same creature&rsquo;s frightful presence for 24 hours. Frightful presence is a mind-affecting fear effect.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: frightful presence (60 ft., DC 21)</p>\n<p><em>Location</em>: Aura.</p>\n<p><em>Usage:</em> Replace radius and DC</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -207,8 +212,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402582,
+    "modifiedTime": 1665949165291,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

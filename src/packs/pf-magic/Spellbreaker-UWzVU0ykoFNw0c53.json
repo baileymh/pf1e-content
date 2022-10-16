@@ -3,7 +3,7 @@
   "name": "Spellbreaker",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Only one end of this iron-shod +3 quarterstaff has an enhancement bonus. The enhanced end acts as a bane weapon against any creature with the ability to cast spells or use spell-like abilities. As a standard action, the wielder can strike the unenhanced end against the ground while expending one use of mythic power to produce an antimagic field centered on the staff. This effect has a duration of 2 hours. Anyone striking the staff against the ground a second time dismisses the effect. The antimagic field remains in effect if the staff is dropped or disarmed. The staff retains its enhancement bonus and extra damage against spellcasters inside any antimagic field.<br><p><b>Base Item:</b> +3 quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Mythic Crafter, antimagic field</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372367,
+    "modifiedTime": 1665949138797,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

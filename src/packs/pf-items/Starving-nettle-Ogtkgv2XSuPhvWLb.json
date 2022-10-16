@@ -3,7 +3,7 @@
   "name": "Starving nettle",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Starving nettle</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 145</em></p><p><strong>Price</strong> 300 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 15</p><p><strong>Frequency</strong> 1/day for 8 days</p><p><strong>Effect</strong> 1d3 Dex and Con damage. In addition, each time the creature fails a save against the poison, for the following 24 hours it is overwhelmed with nausea whenever food is presented to it and is unable to bring itself to eat, no matter how hungry it becomes.</p><p><strong>Cure</strong> 2 consecutive saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This peculiar nettle plant bears a singularly effective poison that protects it from being eaten: creatures pricked by the nettle’s thorns and affected by the poison are overcome with nausea at the mere idea of food, protecting the plant from being consumed. Farmers remain vigilant for signs of this fast-growing and hardy plant; it is difficult and dangerous to remove, so culling it is best done early, while the plant is still relatively small.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366762,
+    "modifiedTime": 1665949134700,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

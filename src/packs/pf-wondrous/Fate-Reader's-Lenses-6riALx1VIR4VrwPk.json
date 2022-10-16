@@ -3,7 +3,7 @@
   "name": "Fate-Reader's Lenses",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Fate-reader's lenses consist of two specially crafted harrow decks. The decks sport a stylized image of an eye on the back of each card-one deck's eyes are red, and the deck's eyes are blue. Each card in the red deck is linked to its corresponding card in the blue deck. The owner can peer through the eyes of any card from the red deck to see whatever is in front of the corresponding blue-eyed card, as if using enter image (Pathfinder RPG Advanced Player's Guide 219).  The owner can peer through any red card at will; drawing a random card and peering through it is a standard action, while going through the deck and selecting a specific card is a full-round action. If the corresponding blue card is still shuffled in with the rest of the blue deck, it is automatically moved to the top of that deck, ready to be drawn by whoever bears it. Once a blue card is drawn, it can be placed on a creature's person with a successful Sleight of Hand check or stuck to any sturdy flat surface, where it remains until moved again by either you or another creature.  Only a single pair of cards can have a visual link between them at any time, and placing a red card at the bottom of its deck causes the eye on the matching blue card to close, ending the visual link until the red card is peered through again. While the blue cards can be meted out and separated however the owner desires, the red cards lose their magic if separated from the red-eyed harrow deck for more than 10 minutes. If a blue card or a red card is destroyed, the matching card of the opposite deck loses its magic.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, enter image</p><h3><b>Source: </b></h3>The Harrow Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404091,
+    "modifiedTime": 1665949166583,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,66 @@
   "name": "Spacesuit",
   "type": "equipment",
   "img": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 30</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 90,000 gp</p><p><strong>Type</strong> Heavy; <strong>Weight</strong> 35 lbs.; <strong>Armor Bonus</strong> +7</p><p><strong>Max Dex Bonus</strong> +0; <strong>Armor Check Penalty</strong> -8</p><p><strong>Arcane Spell Failure Chance</strong> 50%</p><p><strong>Speed (30 ft.)</strong> 20 ft.; <strong>Speed (20 ft.)</strong> 15 ft.</p><p><strong>Capacity</strong> 25 ; <strong>Usage</strong> 1 charge/hour</p><h2 class=\"framing\">Description</h2><p>This airtight suit of synthetic polymers includes a transparent, dome-like helmet that completely covers the wearer's head. A spacesuit is nearly identical in function to an HEV suit (see page 31), except that as long as the spacesuit is charged, it provides a bit more armor protection as well as complete protection from all radiation and exposure to vacuum. A spacesuit repairs damage to itself at the rate of 4d6 points of damage per charge consumed. It has hardness 6 and 60 hit points.</p><p></p><p> A space suit is fitted with numerous small booster jets that grant the wearer a fly speed of 20 ft. (poor) in areas of zero gravity while the spacesuit is charged. The boosters impart no benefit in areas of high, low, or normal gravity.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 30; <strong>Cost</strong> 45,000 gp</p><p>Craft Technological Arms and Armor, military l</p>",
       "chat": "",
@@ -78,6 +137,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 25,
           "maxFormula": "",
@@ -133,6 +197,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +237,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "heavyArmor",
@@ -185,6 +249,7 @@
     "spellFailure": 50,
     "slot": "armor",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,66 +322,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387824,
+    "modifiedTime": 1665949152174,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

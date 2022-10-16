@@ -3,7 +3,7 @@
   "name": "Bloatstrike Tail",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Three times per day, the wielder of this +1 pounder tail attachmentARG can force any creature it strikes to increase in size by one size category (Fort DC 11 negates) for 3 rounds. An enlarged creature takes a -2 penalty to Dexterity (to a minimum of 1), a -1 penalty on attack rolls, and -1 penalty to AC because of its increased size, as the spell enlarge person. However, an enlarged creature doesn't gain the usual size bonus to Strength.  If a creature fails its saving throw but can't enlarge any more because of the environment, it begins squeezing (Pathfinder RPG Core Rulebook 193). A creature stops growing if growing larger would make it so large that it would be unable to squeeze.<br><p><b>Base Item:</b> +1 pounder tail attachment</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, enlarge person</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372228,
+    "modifiedTime": 1665949138668,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

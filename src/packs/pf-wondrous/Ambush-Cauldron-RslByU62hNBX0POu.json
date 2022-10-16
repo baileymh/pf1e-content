@@ -3,7 +3,7 @@
   "name": "Ambush Cauldron",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This huge, sooty cauldron has two sets of rings aligned on opposite sides. Through these rings, large shafts can be inserted in order for two bearers to lift and carry the cauldron. The inside of the oversized pot is caked with baked-on residue that smells foul and is greasy to the touch. Once per day, a horde of up to 100 orcs can consume a thick soup or gruel prepared within the cauldron. This substance makes the orcs uncannily stealthy and difficult to track. For the next 2 hours, any overland movement by the horde leaves few traces. When a creature attempts a Survival check to discover the horde's tracks, the effect negates the penalty to the DC for the number of orcs in the group.  Any non-orc who consumes even a single spoonful of the soup or gruel immediately become nauseated for 10 minutes and does not gain any benefits.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, pass without trace</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406665,
+    "modifiedTime": 1665949168931,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

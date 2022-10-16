@@ -3,7 +3,7 @@
   "name": "Pallid Crystal",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This finger-length crystal is a pale, opaque pink color when worn by a living creature, but slowly changes to a deep, translucent violet when carried by an undead. The wearer can consume spoiled food or drink as if it were fresh and wholesome, tasting as good as it did before it spoiled.  Any person with the Profession (cook) skill can use the crystal to season a meal with the flavor of salt, sugar, cinnamon, ginger, or pepper (or the equivalent spices for the undead palate-fear's breath, nightfog, bloodroot, thileu bark, or hatefinger).  If Urgathoa is the wearer's patron, the wearer can use death knell once per day. Both cure and inflict spells heal the wearer, whether the wearer is living or undead; the crystal flares with black or white energy when it converts these spells into a form that does not harm the wearer. The crystal does not affect any other uses of positive or negative energy, just cure and inflict spells (and effects that duplicate those spells).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, death knell, inflict light  wounds, purify food and drink</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405491,
+    "modifiedTime": 1665949167844,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

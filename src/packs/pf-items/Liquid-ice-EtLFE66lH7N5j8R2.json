@@ -3,7 +3,7 @@
   "name": "Liquid ice",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Liquid ice</h1><b>Source</b> <a class=\"external-link\" href=\"http://paizo.com/products/btpy8tmc?Pathfinder-Roleplaying-Game-Ultimate-Equipment\" target=\"_blank\"><i>Ultimate Equipment pg. 107</i></a>, <a href=\"http://paizo.com/pathfinderRPG/v5748btpy8fo1\" target=\"_blank\"><i>Advanced Player's Guide pg. 184</i></a>, <a href=\"http://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8dmf\" target=\"_blank\"><i>Adventurer's Armory pg. 19</i></a><br/><b>Price</b> 40 gp; <b>Weight</b> 2 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>Also known as 'alchemist's ice,' this sealed jar contains crystalline blue fluid that immediately starts to hiss and evaporate once opened. During the 1d6 rounds after it is opened but before it evaporates completely, you can use it to freeze a liquid or to coat an object in a thin layer of ice. You can also throw liquid ice as a splash weapon. A direct hit deals 1d6 points of cold damage; creatures within 5 feet of where it hits take 1 point of cold damage from the splash. Crafting this item is a DC 25 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366314,
+    "modifiedTime": 1665949134245,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

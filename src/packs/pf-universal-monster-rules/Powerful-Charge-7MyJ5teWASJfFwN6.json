@@ -3,7 +3,7 @@
   "name": "Powerful Charge",
   "type": "feat",
   "img": "systems/pf1/icons/feats/run.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>When a creature with this special attack charges, its attack deals extra damage in addition to the normal benefits and hazards of a charge. The attack and the damage from the attack are given in the creature&rsquo;s description.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: powerful charge (gore, 4d8+24)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace damage</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -112,6 +117,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +179,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -221,8 +226,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402430,
+    "modifiedTime": 1665949165183,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Pyre Bead",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tiny glass bead transforms itself into a 10-foot-by-10- foot pile of logs and kindling whenever its command word is spoken. A sturdy, 8-foot-tall post juts out of the center of the log heap. This heap does not light upon coming into being, but anyone who touches the heap and says a second command word causes it to burst into flame (this also automatically activates any pyre salt in the flame's area). The fire burns for 4 hours or until extinguished, at which point it turns back into a bead. The owner of the item must wait twice as long as the fire burned before she can order the bead to become a pile of logs again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, produce flame</p><h3><b>Source: </b></h3>Path Of The Hellknight",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407349,
+    "modifiedTime": 1665949169603,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

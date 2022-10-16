@@ -3,7 +3,7 @@
   "name": "Dragonmaw Nunchaku",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The bars of this +2 nunchaku are solid iron, wrapped in leather decorated with an imperial dragon motif, and connected by a chain. Once per day, when the wielder of a dragonmaw nunchaku confirms a critical hit against an opponent with the nunchaku, he can cast confusion on that creature as a free action. The confusion effect lasts for 8 rounds, and a DC 16 Will save negates the effect.  In addition, in the round following a successful disarm attack with the dragonmaw nunchaku, the wielder can spin the nunchaku as a standard action, creating a curtain of whirling force replicas of the disarmed weapon around himself for 1 round. This functions as a ringed blade barrier with a radius of 10 feet around the wielder (Reflex DC 19). The disarmed weapon determines the damage dice of the blade barrier (i.e., 12d6 for a wakizashi, 12d8 for a katana, and so on). The disarmed weapon is unaffected, and drops to the ground as normal. The wielder can create the blade barrier once per day, and only in the round following a successful disarm attack.<br><p><b>Base Item:</b> +2 nunchaku</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blade barrier, confusion</p><h3><b>Source: </b></h3>AP 53",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372451,
+    "modifiedTime": 1665949138896,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

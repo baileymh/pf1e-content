@@ -3,7 +3,7 @@
   "name": "Anvengen's Edge",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 keen glaive bears a fragment of the soul and mind of Westcrown's first mayor after the fall of Aroden and the rise of the House of Thrune. The glaive itself has taken Anvengen's name for its own, but can only communicate with its wielder via empathic urges. If its wielder worships Asmodeus, the glaive uses bleed on any of its wielder's foes it notices is dying, and grants divine favor on a wielder who commands it to do so. If the wielder doesn't worship Asmodeus, the glaive uses bleed on any dying creature it notices and only grants divine favor against chaotic or good foes-if a wielder commands it to not use bleed in a battle or commands it to grant divine favor against a nongood or nonchaotic foe, a personality conflict occurs and the glaive attempts to gain control of the wielder.<br><p><b>Base Item:</b> +1 keen glaive</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor</p><h3><b>Source: </b></h3>AP 26",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373306,
+    "modifiedTime": 1665949139713,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

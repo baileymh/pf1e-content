@@ -3,7 +3,7 @@
   "name": "Fiend's Relief",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A creature wielding one of these +1 longspears-which are favored gifts of House Thrune-gains a +3 bonus on attack rolls when flanking with an evil-aligned outsider, instead of +2. A creature using the longspear's reach to attack through a square occupied by an allied evil-aligned outsider ignores any cover bonus the fiend would grant to the target.<br><p><b>Base Item:</b> +1 longspears</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, command, detect evil</p><h3><b>Source: </b></h3>Agents Of Evil",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -212,6 +217,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -311,8 +317,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372970,
+    "modifiedTime": 1665949139359,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

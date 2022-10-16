@@ -3,7 +3,7 @@
   "name": "Bag Of Tricks Gray",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small sack looks empty at first glance. Anyone reaching into the bag feels a small, fuzzy ball inside. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the Handle Animal skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.  GRAY BAG RUST BAG TAN BAG  d% ANIMAL d% ANIMAL d% ANIMAL  01-30 Bat 01-30 Wolverine 01-30 Grizzly bear  31-60 Rat 31-60 Wolf 31-60 Lion  61-75 Cat 61-85 Boar 61-80 Heavy horse  76-90 Weasel 86-100 Leopard 81-90 Tiger  91-100 Riding dog 91-100 Rhinoceros  The heavy horse and the riding dog appear with harness and tack, and each accepts the character who drew it from the bag as a rider.  Animals produced are always random, and only one may exist at a time. Up to 10 animals can be drawn from the bag each week, but no more than two per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon nature's ally II</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405630,
+    "modifiedTime": 1665949167923,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

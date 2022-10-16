@@ -3,7 +3,7 @@
   "name": "Construct Channel Brick",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This solid red brick changes its shape to match its bearer's holy symbol. If the bearer has the channel energy class feature, she can focus her power on the brick, allowing her to repair damaged constructs and objects as if they were living creatures. The item works whether the bearer channels positive or negative energy. If the bearer has the Artifice domain, she adds +2d6 points of damage to her artificer's touch domain power when repairing constructs and objects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, make whole</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407370,
+    "modifiedTime": 1665949169625,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

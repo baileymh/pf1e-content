@@ -3,7 +3,7 @@
   "name": "Copycat Siphon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A copycat siphon is a simple-looking metal tube that can be connected to two flasks, bottles, beakers, or vials of standard size. Three times per day while two containers are connected to a copycat siphon, the user can speak the item's command word while pouring a liquid (including magical liquids like potions or elixirs) into one of the containers. In doing so, the other container attached to the siphon also fills up with an exact replica of the poured liquid, appearing to all normal senses (including touch, smell, taste, and sight) as if it were an exact copy of the original liquid. However, when imbibed, the copy acts only as fresh water, and has none of the other effects of the original liquid. The created liquid registers to detect spells as if it were the original liquid (as the magic aura spell, Will DC 14).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create water, magic aura, major image</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407753,
+    "modifiedTime": 1665949170025,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

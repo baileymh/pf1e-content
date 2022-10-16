@@ -3,7 +3,7 @@
   "name": "Mosswater Stained Leather",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This set of +2 studded leather glows eerily in darkness. Tinted using rare dyes from the lost town of Mosswater in the River Kingdoms, this leather suit gives its wearer a ghostly appearance in areas of dim light or darker. While in such areas, the wearer gains a +4 circumstance bonus on Bluff checks to pretend to be undead. On command, the armor makes its wearer ethereal (as the ethereal jaunt spell). The effect is dismissible. The armor can be used in this manner for a total of up to 10 rounds per day. This duration doesn't need to be continuous, but must be used in 1-round increments.<br><p><b>Base Item:</b> +2 studded leather</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, ethereal jaunt</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372869,
+    "modifiedTime": 1665949139273,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

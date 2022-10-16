@@ -3,7 +3,7 @@
   "name": "Replenishing Aquarium Ball, Greater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Replenishing aquarium balls act as standard aquarium balls (see page 20), but are endowed with magical effects beneficial to the creature held within. The power of the magic depends on the kind of replenishing aquarium ball.  Lesser: The ball continually refreshes itself with clean water, allowing a creature within to live as long as it has food.  Standard: The ball continually refreshes itself with clean water and fresh food.  Greater: The ball continually refreshes itself with clean water and fresh food. In addition, a greater replenishing aquarium ball is magically enhanced so that the glass is as hard as stone (hardness 8, 15 hp) without increasing its weight.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item; create food and water, stoneskin</p><h3><b>Source: </b></h3>Familiar Folio",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403578,
+    "modifiedTime": 1665949166066,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

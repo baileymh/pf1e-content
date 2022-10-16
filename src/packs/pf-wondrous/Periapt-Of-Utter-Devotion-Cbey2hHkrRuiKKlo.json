@@ -3,7 +3,7 @@
   "name": "Periapt Of Utter Devotion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet functions as a periapt of devotion but has a Will save DC of 16 and can affect nonhumanoids (as per charm monster).  In addition, once per day when talking to the wearer, the giver can implant a triggered suggestionACG in the wearer's mind, as per the spell. The wearer can attempt a DC 16 Will save to negate the effect. If he surpasses the DC by 5 or more, he also breaks the periapt's charm effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beguiling giftAPG, charm monster, triggered suggestionACG</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404674,
+    "modifiedTime": 1665949167184,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

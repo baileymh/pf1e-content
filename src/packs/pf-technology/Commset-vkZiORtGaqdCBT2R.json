@@ -3,7 +3,7 @@
   "name": "Commset",
   "type": "equipment",
   "img": "icons/commodities/tech/antenna-powered-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 42</em></p><p><strong>Price</strong> 6,000 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 2 lbs.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge/hour</p><h2 class=\"framing\">Description</h2><p>This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile-beyond this range, communication is impossible without enhancing the signal strength with a signal booster (see page 51). The price and cost listed for this item are for a single commset.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 27; <strong>Cost</strong> 3,000 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387929,
+    "modifiedTime": 1665949152258,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

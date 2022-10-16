@@ -3,7 +3,7 @@
   "name": "Earthfire Shuriken",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 flaming burst shuriken is etched with the image of an erupting volcano. Any creature damaged by an earthfire shuriken must make a DC 15 Reflex save or catch fire. Each round, burning creatures may attempt a Reflex save to quench the flames; failure results in another 1d6 points of fire damage.<br><p><b>Base Item:</b> +1 flaming burst shuriken</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, burning gaze (see page 208 of the Advanced Player's Guide), flame blade, flame strike, or fireball</p><h3><b>Source: </b></h3>AP 50",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372727,
+    "modifiedTime": 1665949139220,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

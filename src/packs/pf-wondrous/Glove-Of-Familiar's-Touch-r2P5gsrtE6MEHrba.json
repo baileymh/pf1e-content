@@ -3,7 +3,7 @@
   "name": "Glove Of Familiar's Touch",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A glove of familiar's touch features a large, brightly colored gem fastened to its palm, and comes with an additional gem attuned to the glove. As long as his familiar is touching the attuned gem, the wearer of this glove can designate his familiar as the source for any touch spell he casts, even if he and his familiar are not in contact when the spell is cast. A glove of familiar's touch takes up the wearer's entire hands slot; the wearer can't gain the benefits of another magic item (even another glove of familiar's touch) that also uses the hands slot.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imbue with spell ability</p><h3><b>Source: </b></h3>Familiar Folio",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409647,
+    "modifiedTime": 1665949171794,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Pistol Of The Infinite Sky",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An infinity symbol is engraved on both sides of this +5 pistol's mother of pearl grip, and the barrel is adorned with gold depicting the moon, planets, and stars against a night sky of the pistol's cold black steel. This pistol never needs to be reloaded. After one shot is fired, a bullet and powder magically appear in the chamber. This ammunition never suffers a misfire.<br><p><b>Base Item:</b> +5 pistol</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, reloading hands</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372939,
+    "modifiedTime": 1665949139334,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

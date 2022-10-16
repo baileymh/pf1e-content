@@ -3,7 +3,7 @@
   "name": "Greater Hat of Disguise",
   "type": "equipment",
   "img": "icons/equipment/head/hat-belted-simple-brown.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2>Description</h2>\n<p>Like a hat of disguise, this garment allows its wearer to alter her appearance. It functions as an alter self spell (as opposed to disguise self). The hat becomes a part of the disguise and can be a hat, a helmet, a headscarf, and so forth.</p>\n<p><strong>Base Item:</strong></p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Wondrous Item, alter self</p>\n<h3><strong>Source: </strong></h3>\n<p>Curse of the Riven Sky</p>\n<p><strong>Foundry Usage:</strong></p>\n<p>To apply affects from this item, use the Alter Self buffs in the compendium.<br /></p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366808,
+    "modifiedTime": 1665949134734,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

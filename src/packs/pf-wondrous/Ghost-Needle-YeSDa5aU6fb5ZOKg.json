@@ -3,7 +3,7 @@
   "name": "Ghost Needle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bone needle must be inserted into living flesh (a standard action) to function, dealing the creature 1d4 points of damage and causing it to appear ghostly and translucent for up to 30 minutes, as if using ghostly disguiseUM. If the creature negates  all the damage (such as with damage reduction), this also negates the ghostly disguise effect, as the needle fails to penetrate his flesh.  In addition, as a swift action, a creature with an embedded ghost needle can choose to become partially incorporeal until the beginning of its next turn. During this time, the creature can enter or pass through solid objects as though it had the incorporeal special ability, natural weapons or unarmed strikes it uses are treated as if they had the ghost touch weapon special ability, and any spell the creature casts is treated as if it had applied the Ectoplasmic SpellAPG metamagic feat to it. The creature takes 1d4 points of damage each round it spends in this quasi-incorporeal state, and each round spent in this state expends 10 minutes of the ghost needle's duration. If there are fewer than 10 minutes of duration remaining, it can't choose to remain incorporeal. A ghost needle crumbles to dust after use.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, ethereal jaunt, ghostly disguiseUM</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407307,
+    "modifiedTime": 1665949169561,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

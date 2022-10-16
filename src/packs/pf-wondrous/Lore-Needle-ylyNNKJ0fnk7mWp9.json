@@ -3,7 +3,7 @@
   "name": "Lore Needle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick silver needle is approximately 6 inches long and can be carefully inserted into the brain of a willing or helpless target in order to magically expand the target's knowledge. Implanting a lore needle takes 10 minutes and requires a successful DC 15 Heal check. A user can insert the needle into her own head with a successful DC 25 Heal check. On a failure, the needle deals 2 points of Constitution damage and 2 points of Intelligence damage to the target and is not implanted. A creature with an implanted lore needle can, up to three times per day when attempting a Knowledge check, apply to that check its bonus on any other single Knowledge skill in which it is trained.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, modify memory</p><h3><b>Source: </b></h3>Magic Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410467,
+    "modifiedTime": 1665949172476,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

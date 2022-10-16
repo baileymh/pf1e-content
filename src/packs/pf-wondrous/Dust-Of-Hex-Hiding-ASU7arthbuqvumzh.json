@@ -3,7 +3,7 @@
   "name": "Dust Of Hex Hiding",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This translucent dust warps harmful magical auras, making it difficult to discern cursed items from beneficial ones. Sprinkling the dust over a cursed magic item shields it from divination magic for 5 days. When identifying the item, a creature must exceed the item's DC by 15 (instead of by 10) to determine whether the item is cursed. If a creature activates the curse while the item is under this effect, treat the curse's caster level as 2 higher for the purpose of resisting spells such as remove curse and break enchantment. The dust can also be scattered over a magical glyph, rune, or symbol to increase the DC to find and disable the trap by 5 for 5 days.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic aura</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404281,
+    "modifiedTime": 1665949166721,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

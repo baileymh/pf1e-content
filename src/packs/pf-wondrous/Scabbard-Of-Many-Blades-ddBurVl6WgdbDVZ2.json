@@ -3,7 +3,7 @@
   "name": "Scabbard Of Many Blades",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This scabbard can hold multiple melee weapons in an extradimensional space, including weapons that would not normally fit in any kind of scabbard or sheath. It can hold up to four two-handed weapons. Two one-handed or light melee weapons can fit in each two-handed weapon slot, for a maximum capacity of eight one-handed or light melee weapons. Only weapons designed to be used by creatures the same size as the wearer or smaller can be kept in a scabbard of many blades. The scabbard can't be used to store shields (even if they can be used to make melee attacks), gauntlets, improvised weapons, or wands, but can store rods (which are treated as one-handed weapons) and magic staves (which are treated as two-handed weapons).  When the wearer draws a weapon from the scabbard, if she does not lose her grip on it (keeping it in her hands at all times), as a move action she can have it switch places with another weapon in the scabbard. If the wearer has the Quick Draw feat, she can do this as a swift action. If the wearer loses her grip on a weapon drawn from the scabbard, that weapon can't switch places with another weapon until it has been, sheathed in the scabbard of many blades and drawn again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, secret chest</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407882,
+    "modifiedTime": 1665949170128,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

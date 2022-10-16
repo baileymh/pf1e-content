@@ -3,7 +3,7 @@
   "name": "Flowing Fortress Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pale-blue +2 breastplate is made from flowing ocean water enchanted to retain its shape. The armor check penalty of a suit of flowing fortress armor doesn't apply to Swim checks. When the wearer speaks a command word, the armor flows on or off the wearer, allowing it to be donned or removed with a single move action from up to 10 feet away.  A suit of flowing fortress armor has 3 charges, which refresh automatically every day at sunrise. By spending 1 charge as a standard action, the wearer transforms into water for one of two effects.  Gush: The wearer transforms into water and bursts forward like a geyser up to 40 feet in any direction, then returns to her normal form, allowing her to cross chasms or vault obstacles. The wearer may attempt bull rush combat maneuvers against any creatures and moveable objects along her path, regardless of size. The wearer rolls a single combat maneuver check and applies the result to each creature within the area. This bull rush does not provoke an attack of opportunity. If the wearer encounters an immovable object, she may attempt a Strength check to destroy that object as a free action. On a failed bull rush combat maneuver check or Strength check, the wearer's progress is stopped and she reforms next to the obstacle that blocked her path.  Melt: The wearer melts into a puddle, gaining a swim speed of 60 feet, the ability to flow through any space a Tiny creature could squeeze through, and a +8 circumstance bonus on Stealth checks. The wearer can see and hear normally, but can't speak, attack, or cast spells in this form.  This transformation lasts up to 10 minutes, but may be dismissed as a free action.<br><p><b>Base Item:</b> +2 breastplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, control water, elemental body I</p><h3><b>Source: </b></h3>Down The Blighted Path",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372946,
+    "modifiedTime": 1665949139342,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

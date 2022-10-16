@@ -3,7 +3,7 @@
   "name": "Dawnfire",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 scimitar has a twisted hilt that evokes a stylized version of Sarenrae's holy symbol. The blade is etched with a prayer to the goddess to redeem the repentant and consume the unremorseful. Once per day, the wielder can use spell combat (as a magus) to make a full attack with the scimitar in one hand (with a -2 penalty on all attacks) and project a 15-foot cone of flame from the other hand that deals 3d4 points of fire damage to creatures in the area. This cone of fire does not provoke attacks of opportunity, and is otherwise identical to burning hands, except the flames are yellow-white and undead creatures in the area take 3 additional points of damage from the fire. The hand projecting the fire must be free-not wielding a weapon or holding an object-for the wielder to use this ability.<br><p><b>Base Item:</b> +1 scimitar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, burning hands, searing light</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372735,
+    "modifiedTime": 1665949139225,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

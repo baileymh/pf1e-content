@@ -3,7 +3,7 @@
   "name": "Broken Chain Of The Beast",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This 8-foot length of corroded, broken chain is threaded with a leather strap to hold it together; it is worn like a belt and must be tied in place, as it lacks a buckle.  Once per day, the wearer can call upon its power to summon an evil creature from the summon monster I list; the creature attacks the wearer's enemies if any are present, but it is not under the wearer's control and attacks the wearer or the wearer's allies if there are no more enemies to kill.  If Rovagug is the wearer's patron, the wearer can gain the benefits of a rage spell once per day by speaking the god's name.  If the wearer is ever bound, shackled, or otherwise rendered helpless while still conscious, this rage ability automatically activates if the wearer hasn't already used it that day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, rage, summon monster I</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409133,
+    "modifiedTime": 1665949171279,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Elixir Of Emulation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A drinker must add hair, skin, fur, blood, or nail clippings of a single creature to this elixir before drinking it, or it is expended uselessly. Once appropriate material has been added, the elixir retains potency for 24 hours, after which it becomes an inert, valueless liquid. If drunk while potent, the elixir functions as alter self, allowing the drinker to assume the shape of the donor creature, which must be a living, corporeal, Small or Medium creature. In addition, the elixir aids the drinker in duplicating the mannerisms of the donor creature, granting her a +20 bonus on Disguise checks to pass herself off as that creature and eliminating the penalty for masquerading as a different gender, race, or age. Once during the elixir's duration, the drinker can try to learn information known by the donor creature at the time its material was harvested, as if she had cast harvest knowledge (see below). An elixir of emulation lasts 2d6+12 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect thoughts, polymorph</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410503,
+    "modifiedTime": 1665949172500,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

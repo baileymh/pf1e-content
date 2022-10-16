@@ -3,7 +3,7 @@
   "name": "Sword Of Inner Fire",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 flaming burst brilliant energy longsword has a burnished copper hilt and burns with blue and white flame. In the hands of a mythic wielder, the sword's fire damage bypasses fire resistance and fire immunity. As a swift action, the wielder can expend one use of mythic power to enable the sword of inner fire to damage nonliving creatures (such as constructs and undead) for 1 round, though the sword still can't damage inanimate objects.  A wielder of at least 3rd tier can absorb the sword of inner fire into her body as a swift action, and call it back to hand with another swift action. While the sword is stored in this way, her eyes burn with orange flame and she gains a +5 deflection bonus to AC and a +2 luck bonus on all saving throws.<br><p><b>Base Item:</b> +1 flaming burst brilliant energy longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Mythic Crafter, flame strike, gaseous form, instant summons, shield of faith</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372914,
+    "modifiedTime": 1665949139314,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

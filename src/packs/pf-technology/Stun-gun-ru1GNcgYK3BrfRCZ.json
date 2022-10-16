@@ -3,7 +3,7 @@
   "name": "Stun gun",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 3,000 gp</p><p><strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 3 lbs.</p><p><strong>Damage</strong> 1d6 (small), 1d8 (medium); <strong>Damage Type</strong> -; <strong>Critical</strong> x2</p><p><strong>Range</strong> 20 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong> Nonlethal, semi-automatic, touch</p><h2 class=\"framing\">Description</h2><p>This weapon uses a sonic amplifier to produce powerful low-frequency blasts of energy that pummel targets. The weapon has a relatively short range, but the fact that it deals nonlethal damage at range and can knock targets prone makes it a favorite for those seeking to capture their foes alive. A hit by a stun gun deals nonlethal damage-on a critical hit, the gun can attempt a free trip combat maneuver check against the target (CMB = user's base attack bonus + 10); this attempt doesn't provoke attacks of opportunity.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 22; <strong>Cost</strong> 1,500 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -207,6 +212,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -300,8 +306,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387905,
+    "modifiedTime": 1665949152238,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

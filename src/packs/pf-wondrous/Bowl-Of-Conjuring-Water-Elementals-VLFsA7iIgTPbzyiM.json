@@ -3,7 +3,7 @@
   "name": "Bowl Of Conjuring Water Elementals",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using summon monster VI. If filled with fresh water, it conjures a Large water elemental as if using summon monster V. Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster V, summon monster VI</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406839,
+    "modifiedTime": 1665949169080,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Specialty smoke pellet (Pepper)",
   "type": "consumable",
   "img": "icons/commodities/tech/bearing-steel-green.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Specialty smoke pellet</h1><b>Source</b> <i>Dungeoneer's Handbook pg. 27</i><br/><b>Price</b> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  60 gp (Pepper), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  40 gp (Smog); <b>Weight</b> - (Pepper), - (Smog)<h2 class=\"framing\">Description</h2><p>Like standard smoke pellets (<i>Ultimate Equipment </i>105), these specialty pellets fill a single 5-foot square with opaque smoke for 1 round when broken. They can also be thrown as a ranged touch attack with a range increment of 10 feet. However, unlike standard smoke pellets, these pellets produce smoke that confers additional effects.<br/><br/> <i>Pepper Pellet</i>: The smoke from a pepper pellet is an ocular and respiratory irritant, and creatures that are hit by a pepper pellet or pass through the smoke must succeed at a DC 12 Fortitude save or be sickened for 1 round.<br/><br/> <i>Smog Pellet</i>: The smoke from a smog pellet is oily, and creatures that are hit by a smog pellet or pass through the smoke are covered in thick residue. This residue makes invisible creatures visible for 1d4 rounds.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366218,
+    "modifiedTime": 1665949134163,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

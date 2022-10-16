@@ -3,7 +3,7 @@
   "name": "Ostume Bureau",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large, oaken bureau has a double-door cabinet that sits atop three horizontal drawers. A user can concentrate on a set of clothing he would like to wear, then open the cabinet or one of the drawers to retrieve a set of magically fabricated clothing matching what he imagined. Clothing created in this way can't have any magical properties other than those listed here, but does provide all benefits based on the type of clothing it is (a cold-weather outfit would grant a +2 bonus on Fortitude saves against exposure to cold weather, for instance). The bureau can't create armor.  The clothes fade to worthless scraps after 24 hours, as do any pieces separated from the whole (such as buttons, buckles, gem adornments, or strips torn off as bandages). The costume bureau can generate a total of four sets of clothing per day-one from the wardrobe and one from each of the three drawers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, minor creation, creator must have at least 5 ranks in Craft (clothing) or Profession (tailor)</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404624,
+    "modifiedTime": 1665949167144,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

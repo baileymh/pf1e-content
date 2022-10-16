@@ -3,7 +3,7 @@
   "name": "Ekujae Jungle Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Made of densely compacted jungle leaves by the Ekujae jungle elves of the Mwangi, this +1 leaf armorISWG has been delicately inscribed with elven script. Prized by druids who venture out of the jungle, this armor counts as a plant for the purposes of an entangle spell, allowing the spell to originate from the position of the wearer. Ekujae jungle armor is uniquely suited to jungle terrain, keeping out the elements and granting the wearer a +5 competence bonus on Stealth checks in such terrain. This armor also allows the wearer to ignore the effects of a hot climate as if under the effects of endure elements.<br><p><b>Base Item:</b> +1 leaf armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, endure elements, entangle, creator must be a druid</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372751,
+    "modifiedTime": 1665949139238,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

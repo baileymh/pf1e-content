@@ -3,7 +3,7 @@
   "name": "Ring Of Lingering Blood Magic",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When the wearer of this ring is bloodraging, he can expend 1 round of bloodrage to extend the duration of a beneficial spell affecting him with a duration of 1 round per level or greater by 2 rounds. This is a free action the wearer can take once per round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Endurance, Extend Spell, Forge Ring, creator must have the bloodrage class feature</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404064,
+    "modifiedTime": 1665949166561,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

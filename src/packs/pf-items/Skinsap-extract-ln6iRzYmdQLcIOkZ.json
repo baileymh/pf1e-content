@@ -3,7 +3,7 @@
   "name": "Skinsap extract",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Skinsap extract</h3><p><strong>Source</strong> <em>Adventurer's Armory 2 pg. 18</em></p><p><strong>Price</strong> 1,400 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 16</p><p><strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Initial Effect</strong> staggered and confused (see above); <strong>Secondary Effect</strong> 1d2 Dexterity damage</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Harvested by some Mwangi tribes from the skin of colorful tree frogs, this potent poison is often used to coat arrows, darts, and other weapons. A creature that fails its save is distracted by persistent auditory hallucinations of dripping water and susurrous voices, gaining the staggered condition until it is cured or the poison has run its course. A creature that fails two consecutive saving throws against this effect is also confused until cured or the poison has run its course; this confusion is a mind-affecting effect.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367726,
+    "modifiedTime": 1665949135550,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

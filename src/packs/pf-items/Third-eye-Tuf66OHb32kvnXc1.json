@@ -3,7 +3,7 @@
   "name": "Third eye",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Third eye</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 145</em></p><p><strong>Price</strong> 900 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 17</p><p><strong>Onset</strong> 1 minute; <strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1d3 Wis damage. Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become confused for that round.</p><p><strong>Cure</strong> 2 consecutive saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This poison is produced in the liver of a particular species of water-dwelling lizard and produces potent hallucinations. In some places, the lizards are raised as livestock specifically for the harvesting of the poison, which is then used for ritual ceremonies and recreational purposes. People in some cultures voluntarily dose themselves with this poison as a way to gain oracular insights into the world, but more often than not the revelations are nothing but subtle nightmares and lack true insight.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366908,
+    "modifiedTime": 1665949134807,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Frostblood Axe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 frost wounding battleaxe sacrifices the souls of those it kills to the foul gods of the frost giants. Whenever it kills a creature with at least 1 Hit Die (including creatures killed by its bleed damage), as an immediate action the wielder can activate either divine favor on himself or bless on himself and his allies.<br><p><b>Base Item:</b> +1 frost wounding battleaxe</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed, bless, chill metal, death knell, divine favor</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410428,
+    "modifiedTime": 1665949172446,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

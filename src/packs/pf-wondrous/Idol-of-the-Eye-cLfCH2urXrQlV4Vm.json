@@ -3,7 +3,7 @@
   "name": "Idol of the Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This squat, golden idol looks like a bald, obese wise man with an extra eye in his forehead. It can be used once per day to gain information as with an augury spell, and once per day as a divination spell. Once per week, a single yes-or-no question can be asked of it (as with a commune spell). The answers do not come from a deity, but instead from insights granted by celestial movements and conjunctions; a sample insight might be, Because Aballon and Eox are in conjunction in the House of the Eagle, the answer is yes.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, augury, commune, divination</p><h3><b>Source: </b></h3>Curse of the Riven Sky",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407819,
+    "modifiedTime": 1665949170076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

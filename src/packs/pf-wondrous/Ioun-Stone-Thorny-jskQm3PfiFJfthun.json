@@ -3,7 +3,7 @@
   "name": "Ioun Stone, Thorny",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Used by warriors of ancient Azlant, these strangely shaped ioun stones are popular with combat-savvy members of the Pathfinder Society. These variant ioun stones resemble a thorny sphere-each possesses a circular shape with dozens of needle-like points jutting out. Each type of stone is a different color and grants its wearer a +2 competence bonus on checks for a specific combat maneuver. All varieties of thorny ioun stone have the same price and cost.  Brown: +2 competence bonus on trip attempts.  Crimson: +2 competence bonus on bull rush attempts.  Orange: +2 competence bonus on sunder attempts.  Silver: +2 competence bonus on overrun attempts.  Teal: +2 competence bonus on disarm attempts.  Violet: +2 competence bonus on grapple attempts.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be 12th level</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408538,
+    "modifiedTime": 1665949170741,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

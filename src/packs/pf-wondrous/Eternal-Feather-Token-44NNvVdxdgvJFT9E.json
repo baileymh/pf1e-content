@@ -3,7 +3,7 @@
   "name": "Eternal Feather Token",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small, colorful feather waves gently as if blown by a constant breeze. As a standard action, the feather's owner can change its form into another variety of feather token. Any owner can use an eternal feather token to duplicate the effects of an anchor feather token. Higher-level owners have additional options. The token remains transformed until its owner commands it to change again, or until it is activated in that form like a normal feather token. Once activated, the token reverts to the appearance of a normal feather of a dingy gray color. Over the next week, it slowly regains its color. A week after its last activation, it can be used again.  7th Level: The feather can become a fan feather token.  9th Level: The feather can become a bird feather token.  11th Level: The feather can become a tree feather token.  13th Level: The feather can become a swan boat feather token or whip feather token.  15th Level: The feather recharges its color and is usable after 1 day instead of 1 week.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, major creation, make whole</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403632,
+    "modifiedTime": 1665949166110,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

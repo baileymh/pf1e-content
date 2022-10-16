@@ -3,7 +3,7 @@
   "name": "Depth Charger",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved to look like the bones of fish, the barrel and mechanical components of this blunderbuss are made of mithral. A depth charger is a +2 reliableUE blunderbussUE that gains an additional +2 enhancement bonus on attack rolls against creatures with the aquatic subtype, and deals an additional 2d6 points of damage to such creatures with a successful attack. All ammunition used by a depth charger is considered to have the dry loadUE weapon special ability in addition to any other magical enhancements it previously contained.  When a depth charger is wielded underwater, it enables its wielder to breathe normally. The wielder can continue to breathe underwater for a total of 12 hours as long as she continues to hold the blunderbuss. These hours do not have to be consecutive but must be used in 1-hour increments. The available breathing time is reset only if a depth charger is kept dry for 12 continuous hours.<br><p><b>Base Item:</b> +2 reliable blunderbuss</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, GunsmithingUC, air bubbleUC mending, summon monster I, water breathing</p><h3><b>Source: </b></h3>Down The Blighted Path",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372514,
+    "modifiedTime": 1665949138981,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

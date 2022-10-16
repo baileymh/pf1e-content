@@ -3,7 +3,7 @@
   "name": "Blancher",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This Large +4 adamantine heavy pick has a haft of petrified bone and a head of crudely formed adamantine. Blancher is unusually heavy and must be wielded with two hands, but it deals damage as if it were a Huge weapon rather than a Large weapon. On a successful critical hit, it deals 1d12 points of bleed damage (this bleed damage does not stack with multiple hits) and 1d3 points of Charisma damage as the victim's flesh, hair, and eyes are blanched and whitened.<br><p><b>Base Item:</b> +4 adamantine heavy pick</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor; bestow curse, bleed</p><h3><b>Source: </b></h3>AP 76",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373338,
+    "modifiedTime": 1665949139739,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Energy Resistance (Ifrit)",
   "type": "feat",
   "img": "systems/pf1/icons/races/ifrit.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Kwf0pAUwEzqXQkQ2"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Ifrit&nbsp;</p>\n<hr />\n<p>Ifrits have fire resistance 5.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Kwf0pAUwEzqXQkQ2"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384345,
+    "modifiedTime": 1665949148661,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,12 @@
   "name": "Orc Ferocity",
   "type": "feat",
   "img": "systems/pf1/icons/races/half-orc.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.hETqoU3ZOGpWtQmf"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Half-Orc&nbsp;</p>\n<hr />\n<p>Once per day, when a half-orc is brought below 0 hit points but not killed, he can fight on for 1 more round as if disabled. At the end of his next turn, unless brought to 1 or more hit points, he immediately falls unconscious and begins dying.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.hETqoU3ZOGpWtQmf"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383424,
+    "modifiedTime": 1665949147714,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

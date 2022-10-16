@@ -3,7 +3,7 @@
   "name": "Emerald Wedge Ioun Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An emerald wedge ioun stone is a bit larger than most ioun stones. This ioun stone grants a +2 enhancement bonus to Charisma, Intelligence, and Wisdom; it grants ranks in Use Magic Device as a side effect of its Intelligence bonus. Zinlun's emerald wedge ioun stone is wedged in a crack in his skull, and he can use this magic item as his arcane bond. For all other creatures, it functions as a normal ioun stone that floats in the air about the user's head.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be 12th level.</p><h3><b>Source: </b></h3>AP 138",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408427,
+    "modifiedTime": 1665949170657,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

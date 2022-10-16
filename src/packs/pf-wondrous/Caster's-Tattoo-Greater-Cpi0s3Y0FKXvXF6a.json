@@ -3,7 +3,7 @@
   "name": "Caster's Tattoo, Greater",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A caster's tattoo is infused with potential magical energy that aids in casting spells that normally utilize verbal and somatic components. Once per day, a spellcaster may activate her caster's tattoo as a swift action to automatically enhance the next spell she casts in that round with both the Still Spell and Silent Spell feats. When she casts the spell, the caster's tattoo flares with light for a moment, then grows faint and faded-it replenishes its energy in 24 hours, after which it becomes bold and colorful and can be used again. Required material components or foci must be in the creature's possession to cast the spell (and are consumed as normal), but need not be held when the spell is cast. Caster's tattoos are available in lesser, standard, and greater versions, allowing the modified casting of a spell of up to 3rd level, 6th level, or 9th level respectively.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Inscribe Magical Tattoo, Silent Spell, Still Spell</p><h3><b>Source: </b></h3>Inner Sea Magic",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404682,
+    "modifiedTime": 1665949167190,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

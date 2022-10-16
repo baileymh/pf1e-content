@@ -3,7 +3,7 @@
   "name": "Coat Of Shells",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Overlapping scallop shells form this suit of +2 scale mail. While the wearer is swimming in water, the coat of shells restricts her movement speed as light armor instead of as medium armor. Whether worn in or out of water, a coat of shells requires medium armor proficiency.  When out of the water, a coat of shells keeps its wearer's skin wet and cool. This provides the wearer resist fire 5 and the  benefits of the endure elements spell against hot temperatures only, and it doubles the amount of time a wearer with the water dependent racial trait or water dependency can spend out of water without harm. None of these benefits apply in water.<br><p><b>Base Item:</b> +2 scale mail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, create water, endure elements, freedom of movement, creator must be either a gillman or a merfolk</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372908,
+    "modifiedTime": 1665949139310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

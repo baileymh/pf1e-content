@@ -3,7 +3,7 @@
   "name": "Oil Of Attraction",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This vial of foul-smelling unguent is a great boon for trackers and hunters. Each vial of oil is keyed to a particular kind of creature and functions only against such creatures. The kind of creature is fairly narrow. The most common kinds are demons, devils, dragons, hags, lycanthropes, and vampires, but others might have corresponding oils of attraction at the GM's discretion.  Whenever a creature throws a vial at a target (treat this as a touch attack, like throwing a splash weapon without a splash radius), the vial shatters, coating the target on a direct hit. The foul slime drips off the coated creature, granting anyone trying to track it a +10 circumstance bonus on Survival checks.  The scent of the oil grants anyone who can smell it a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that creature, as well as a +1 bonus on attack and damage rolls against it. These bonuses stack with the favored enemy class feature.  The oil lasts for 1 hour, during which no amount of washing with ordinary cleaning supplies can remove the slime from a creature. Only universal solvent denatures the oil. Bonuses from multiple oils of attraction don't stack.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406822,
+    "modifiedTime": 1665949169064,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Steadfast Grapple",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This iron grappling hook is attached to a 50-foot length of silk rope. When a steadfast grapple is thrown, it automatically hits and attaches to any targeted object or structure within range of its rope. Against creatures, the wielder must make attack rolls as normal. Once attached, a steadfast grapple can only be removed with a DC 30 Strength check, the command word, or magic such as dispel magic.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate rope, true strike</p><h3><b>Source: </b></h3>AP 55",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408961,
+    "modifiedTime": 1665949171158,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

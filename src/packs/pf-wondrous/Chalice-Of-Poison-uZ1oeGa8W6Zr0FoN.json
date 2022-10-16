@@ -3,7 +3,7 @@
   "name": "Chalice Of Poison",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This chalice can be made to a variety of specifications, but is usually elegantly designed. Once per day when the user speaks a command word, the next time any potable liquid is poured into the chalice, it is infused with poison, as per the spell (Fortitude DC 16), which can be delivered as an ingested or contact poison (chosen when the command word is spoken). The poison remains potent for 24 hours, after which it becomes inert.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, poison</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409892,
+    "modifiedTime": 1665949171954,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

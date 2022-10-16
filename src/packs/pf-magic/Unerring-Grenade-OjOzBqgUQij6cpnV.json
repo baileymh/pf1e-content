@@ -3,7 +3,7 @@
   "name": "Unerring Grenade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The warped clay sphere of this +1 fuse grenade (Ultimate Equipment 107) is painted with a crimson bull's-eye symbol and its fuse is dyed red. An unerring grenade can be lit as a move action and thrown like a splash weapon. An unerring grenade veers toward its target, whether a creature or a grid intersection, negating any miss chances that would otherwise apply, such as from concealment. The thrower still has to aim at the right square or grid intersection. An unerring grenade otherwise functions as a normal fuse grenade (Reflex DC 16 half).<br><p><b>Base Item:</b> +1 fuse grenade</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, true seeing</p><h3><b>Source: </b></h3>AP 91",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372263,
+    "modifiedTime": 1665949138699,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Iron Collar Of The Unbound Coven",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This grotesque collar is useful to any witch who is eager to form a coven, but would rather avoid associating with one or more evil hags. The collar is a crude band of iron from which hang the fist-sized shrunken heads of three hags (an annis hagB3, a green hag, and a sea hag). The heads remain semi-animate-they occasionally twitch, blink, coo softly, or whisper curses at the wearer, each other, or anyone else nearby. A witch with the coven hex who wears the collar gains access to the following powers.  Champion of the Unbound Coven: If the wearer joins a coven, the coven can ignore the requirement to have at least one hag as a member. Each of the coven members must still have the coven hex, and one of the members must be at least a 9th-level witch.  Dreadful Gaze: Three times per day as a swift action, the wearer can command the hags' heads to lock their terrible  gazes on one humanoid within 30 feet. The target of this gaze attack must succeed at a DC 15 Will save or become paralyzed with terror (as the effect of the hold person spell). This is a mind-affecting fear effect.  Hag Form: Once per day as a standard action, the wearer can assume the form of a powerfully built Medium crone that resembles the horrific union of an annis hag, a green hag, and a sea hag. This metamorphosis is identical to the transformation spell, including the violent change to the wearer's mindset and the loss of spellcasting ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Craft (leather) 4 ranks, alter self, hold person, transformation, coven hex</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409207,
+    "modifiedTime": 1665949171331,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

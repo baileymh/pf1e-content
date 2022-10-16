@@ -3,7 +3,7 @@
   "name": "Impact Gauntlets",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These gauntlets are made of worn leather; the palms are smooth, but the wrists and backs of the gauntlets are covered in rough pebbles of various shapes and colors. The wearer can catch Small, Medium, or Large rocks and similar projectiles as if she possessed the rock catching monster ability, as long as she has at least one hand free. A rock caught by the wearer shrinks and is permanently absorbed into the gauntlets. A wearer who also possesses the rock catching ability can catch rocks twice per round instead of once.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shrink item</p><h3><b>Source: </b></h3>Giant Hunters Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410486,
+    "modifiedTime": 1665949172490,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

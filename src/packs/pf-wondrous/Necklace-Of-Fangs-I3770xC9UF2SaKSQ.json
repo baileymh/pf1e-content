@@ -3,7 +3,7 @@
   "name": "Necklace Of Fangs",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The collected vampire fangs that make up a necklace of fangs emit a strong warding aura against vampires. A creature wearing a necklace of fangs and brandishing a mirror, holy symbol, or other object that is revolting to a vampire (a standard action) keeps the vampire at bay as usual, but the Will save for the vampire to overcome its revulsion and function normally during subsequent rounds is DC 27, rather than DC 25.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, protection from evil</p><h3><b>Source: </b></h3>Blood Of The Night",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405379,
+    "modifiedTime": 1665949167782,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

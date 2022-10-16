@@ -3,7 +3,7 @@
   "name": "Cybernetic Arm",
   "type": "equipment",
   "img": "icons/equipment/hand/gauntelet-tooled-blue.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 36</em></p><p><strong>Price</strong> 4,750 gp</p><p><strong>Slot</strong> arm; <strong>Weight</strong> 9 lbs.</p><p><strong>Install</strong> DC 28; <strong>Implantation</strong> 2</p><h2 class=\"framing\">Description</h2><p>A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. If a creature has two cybernetic arms, it can lift and carry double the normal maximum weight for that creature's Strength and size, and it gains a +5 circumstance bonus on Climb checks. A character who wields a onehanded or light weapon with a cybernetic arm gains a +5 bonus to CMD against disarm attempts; two cybernetic arms do not increase this bonus, but do allow the bonus to apply to two-handed weapons.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 25; <strong>Cost</strong> 2,375 gp</p><p>Craft Cybertech, cybernetics lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387873,
+    "modifiedTime": 1665949152213,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

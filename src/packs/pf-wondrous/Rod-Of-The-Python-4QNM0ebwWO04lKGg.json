@@ -3,7 +3,7 @@
   "name": "Rod Of The Python",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Unlike with most rods, one end of this rod curls and twists back on itself in a crook-the tip of this crook sometimes looks like the head of a snake. The rod itself is about 4 feet long and weighs 10 pounds. It strikes as a +1/+1 quarterstaff. If the user throws the rod to the ground (a standard action), it grows to become a constrictor snake by the end of the round. The python obeys all commands of the owner. (In animal form, it retains the +1 enhancement bonus on attack and damage rolls possessed by the rod form.) The serpent returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 100 feet from the owner. If the snake form is slain, it returns to rod form and cannot be activated again for 3 days. A rod of the python only functions if the possessor is good.<br><p><b>Base Item:</b> +1/+1 quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Rod, baleful polymorph, creator must be good</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403655,
+    "modifiedTime": 1665949166125,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

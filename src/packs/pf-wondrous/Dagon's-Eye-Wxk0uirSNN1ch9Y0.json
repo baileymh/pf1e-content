@@ -3,7 +3,7 @@
   "name": "Dagon's Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This chunk of yellow crystal glows like a torch, shedding normal light in a 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal light. The crystal floats in the air 1 foot above any solid surface and can be moved with little effort.  Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a comprehend languages spell.  If any form of Celestial writing is placed in the light of Dagon's Eye, the words erupt into a searing fireball that deals 6d6 points of fire damage to all creatures within 20 feet of the writing. Creatures in the area take only half damage with a successful DC 14 Reflex save. This ability functions once every 10 minutes.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, comprehend languages, explosive runes, creator must worship a demon lord</p><h3><b>Source: </b></h3>AP 124",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407214,
+    "modifiedTime": 1665949169496,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

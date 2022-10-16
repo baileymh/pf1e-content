@@ -3,7 +3,7 @@
   "name": "Paralyzing Snare",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once the command word is spoken, this 5-foot-diameter loop of wire blends with its surroundings. To find it, a character with the trapfinding ability must succeed at a DC 30 Perception check. Setting the snare is a full-round action that provokes attacks of opportunity. Any creature that steps into the snare must succeed at a DC 26 Will save or become magically paralyzed, as the spell hold monster. This effect can be ended by uttering the command word, succeeding at a DC 30 Disable Device check, or succeeding at the Will save. The snare is destroyed when the effect ends.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, snare, hold monster</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407883,
+    "modifiedTime": 1665949170129,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

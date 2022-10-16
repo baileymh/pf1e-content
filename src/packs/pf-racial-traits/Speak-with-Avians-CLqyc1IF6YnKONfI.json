@@ -3,7 +3,12 @@
   "name": "Speak with Avians",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_26.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.U5oSULyy45aJebcs"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Syrinx&nbsp;</p>\n<hr />\n<p>Syrinxes can speak with all birds of the animal creature type and birdlike magical beasts (such as phoenixes and thunderbirds).</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.U5oSULyy45aJebcs"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382742,
+    "modifiedTime": 1665949147175,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

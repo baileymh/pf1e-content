@@ -3,7 +3,7 @@
   "name": "Elemental Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate ring has a thick iron band covered in sigils of calling, and is set with a large glowing gemstone that appears to be an elemental gem. The ring serves as a gateway for a specific elder elemental (25% chance each for air, earth, fire, or water) that performs a narrow range of services when called.  When activated with a command word, the elemental is called (as by greater planar ally) and demands to know what service it is to perform. It can only be commanded to protect a specific creature or object, attack a specific creature, damage a specific object, or answer questions about its home plane. The wearer of the ring is able to communicate with the elder elemental as if they shared a common language. The elder elemental serves for no more than 24 hours, after which it returns to its home plane and the ring become a valueless hunk of lead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, planar ally, planar binding</p><h3><b>Source: </b></h3>Cohorts & Companions",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403452,
+    "modifiedTime": 1665949165966,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

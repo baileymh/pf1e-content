@@ -3,7 +3,7 @@
   "name": "Ring Of Resilience",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Whenever the wearer of this ring regains a grit point or a panache point through her actions (not just a daily refresh), she can try to end a single ongoing condition affecting her, attempting a new saving throw against the original DC. The effect must be one that allows a saving throw, that can be removed by either dispel magic or heal, and against which the wearer failed her initial saving throw. If the wearer succeeds at the new save, the effect is removed even if succeeding at the save would normally have other consequences, and even if the effect normally requires multiple saves to remove. If the effect allows more than one type of saving throw, use the type and DC for the first saving throw the wearer failed against the effect. The wearer can use the ring only once for each ongoing condition. Because the wearer must regain a grit point or a panache point to use the ring, it provides no benefit if she hasn't used any grit or panache.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, restoration, creator must be a grit or panache user</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404018,
+    "modifiedTime": 1665949166529,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

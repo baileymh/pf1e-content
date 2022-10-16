@@ -3,7 +3,7 @@
   "name": "All-Seeing Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This hardened, oversized eyeball is nearly a foot in diameter. The possessor gains a +1 insight bonus on the saving throw DCs of any spells of the divination school he casts, as well as a +1 insight bonus on dispel checks made against divination effects. In addition, once per week, the possessor of an all-seeing eye can cast commune as a spell-like ability without the need for a material component. Using an all-seeing eye in this way effectively uses up its magic for a week, and the possessor does not benefit from the insight bonuses it grants until a week after commune was cast.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, commune, guidance</p><h3><b>Source: </b></h3>Giants Revisited",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403405,
+    "modifiedTime": 1665949165927,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

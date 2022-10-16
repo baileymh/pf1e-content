@@ -3,7 +3,7 @@
   "name": "Bottle Of Messages",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This green glass bottle has a tiny winding key on its elongated stem that, if turned, causes a shadowy cork to slowly become substantial over a 1-round period. Anything the owner of the bottle speaks into the bottle during this time (up to 25 words) gets trapped inside it once the cork fully manifests. As soon as the cork is removed or the bottle is smashed, this message is released exactly as if the owner had spoken the words at that moment. Once the bottle releases its message, it shatters.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic mouth</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409862,
+    "modifiedTime": 1665949171934,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

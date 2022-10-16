@@ -3,7 +3,7 @@
   "name": "Black Alibi",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The blade of this +1 short sword appears to be nothing more than a shadow, but is quite solid and as sharp as steel. Five times per day, the wielder can as a move action create a featureless black mask of illusory cloth on the face of a willing target he touches. This mask obscures the wearer's identity and lasts for 10 minutes. Once per day, the wielder can activate the sword as a swift action; 1 minute afterward, the sword completely erases the wielder's memory of the previous minute (as if using modify memory).<br><p><b>Base Item:</b> +1 short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, disguise self, either false alibi* or modify memory</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372477,
+    "modifiedTime": 1665949138931,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

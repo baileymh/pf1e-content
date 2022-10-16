@@ -3,7 +3,7 @@
   "name": "Elixir of Spirit Sight",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elixir seems to be made of thick vapor rather than liquid, and constantly emits soft whispers when uncorked. For 1 minute, the drinker gains the ability to see invisibility (as the spell), and his weapons and armor are treated as if they had the ghost touch special ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, plane shift, see invisibility</p><h3><b>Source: </b></h3>AP 39",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407182,
+    "modifiedTime": 1665949169474,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

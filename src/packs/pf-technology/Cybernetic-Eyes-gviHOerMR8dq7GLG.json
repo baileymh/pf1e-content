@@ -3,7 +3,7 @@
   "name": "Cybernetic Eyes",
   "type": "equipment",
   "img": "icons/commodities/biological/eye-lizard-green.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 37</em></p><p><strong>Price</strong> 4,000 gp</p><p><strong>Slot</strong> eyes; <strong>Weight</strong> 1 lb.</p><p><strong>Install</strong> DC 28; <strong>Implantation</strong> 1</p><h2 class=\"framing\">Description</h2><p>A cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod (see page 53) at a price equal to twice the veemod's normal price.</p><p></p><p> The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above.  </p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 2,000 gp</p><p>Craft Cybertech, cybernetics lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387846,
+    "modifiedTime": 1665949152190,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

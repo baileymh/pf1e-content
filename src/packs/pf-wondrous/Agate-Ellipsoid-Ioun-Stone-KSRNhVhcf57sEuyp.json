@@ -3,7 +3,7 @@
   "name": "Agate Ellipsoid Ioun Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone grants you a single use of the augury spell with a 100% success rate. The stone must have been orbiting your head for at least 24 hours before it can be activated in such a way, which you can do with a thought as a free action. The stone instantly returns an answer of weal, woe, weal and woe, or nothing. After being used in this manner, the stone loses all magical power and becomes a dull gray ioun stone.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, augury, creator must be 12th level</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405580,
+    "modifiedTime": 1665949167897,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

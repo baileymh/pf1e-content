@@ -3,7 +3,7 @@
   "name": "Steel-mind Cap",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Ruined scraps of various constructs were repurposed and combined to form this ornate iron helmet. Though the helmet is not intelligent, it has a brute mechanical cunning that allows it to assert control whenever the wearer's mind is overwhelmed. The helmet takes control of the wearer's body anytime he is dazed or stunned. Whenever the wearer would be dazed, he is instead confused. Whenever the wearer would be stunned, he is instead confused and staggered.   Time spent under the cap's influence counts against the duration of the daze or stun effect. The cap functions for up to 5 rounds per day. These rounds do not need to be consecutive. The cap stops asserting control over its wearer when the duration of the daze or stun effect ends, or when the cap's 5 rounds of duration are expended.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, surmount affliction (Ultimate Magic)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404766,
+    "modifiedTime": 1665949167260,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

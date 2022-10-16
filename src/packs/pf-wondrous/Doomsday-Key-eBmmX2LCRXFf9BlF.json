@@ -3,7 +3,7 @@
   "name": "Doomsday Key",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Created ages before the construction of Windsong Abbey by the cult of Groetus, doomsday keys are used by the cult to seal certain doors in their temples, as well as the legendary Doomsday Doors themselves. See the adventure in this volume for examples of the types of unique locks that doomsday keys can work with.  Up to three times per day as a standard action made by twisting the key in the air (as if unlocking an invisible lock), a doomsday key causes up to four creatures chosen by and within 20 feet of the user to become shaken for 1 minute (Will DC 14 negates)-this is a mind-affecting effect. A doomsday key can also be used to inflict bestow curse (Will DC 14 negates) once per day-this use requires a successful touch attack. While worn about the neck (and thus taking up the neck item slot), a doomsday key bestows a +4 resistance bonus on the wearer's saving throws made against curse effects; this protection does not help against curses the wearer may already be suffering from.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, doom, remove curse</p><h3><b>Source: </b></h3>AP 64",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407919,
+    "modifiedTime": 1665949170163,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

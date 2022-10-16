@@ -3,7 +3,7 @@
   "name": "Spell Totem",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a piece of bone from the kind of animal it depicts, this primitive charm can hold (but not cast) up to 3 levels of spells as a minor ring of spell storing. When the bearer uses a polymorph effect or other ability to transform into an animal that matches the animal the totem depicts (including dire versions), it can use one of the spells stored within on itself as a swift action. This spell must be able to target the bearer in its animal form. The bearer does not need to be able to cast the spell contained within a spell totem in order to use this item. When the bearer changes shape again-either by taking the form of a different creature or reverting to its natural form-the spell cast from the totem immediately ends, as though the duration had expired. Spell totems can be crafted in the form of animals or magical beasts.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Quicken Spell, contingency, imbue with  spell ability</p><h3><b>Source: </b></h3>Blood Of The Moon",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406749,
+    "modifiedTime": 1665949168996,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

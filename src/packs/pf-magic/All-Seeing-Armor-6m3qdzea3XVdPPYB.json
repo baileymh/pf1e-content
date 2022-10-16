@@ -3,7 +3,66 @@
   "name": "All-Seeing Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 0.25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 chain shirt is made of shiny, bright rings on the left side and dull, dark rings on the right. The church of Nethys uses suits of all-seeing armor to help Nethysians explore and catalog ancient libraries. At will, the wearer can use detect magic and read magic. Once per day, the wearer can use comprehend languages.<br><p><b>Base Item:</b> +1 chain shirt</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, comprehend languages, detect magic, read magic</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +133,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +145,7 @@
     "spellFailure": 0,
     "slot": "armor",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -164,66 +223,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 0.25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 0.25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371741,
+    "modifiedTime": 1665949138198,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

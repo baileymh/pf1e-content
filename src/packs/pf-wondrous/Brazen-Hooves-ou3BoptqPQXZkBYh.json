@@ -3,7 +3,7 @@
   "name": "Brazen Hooves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These hooves cast from Abyssal bronze can be affixed to the stump of a creature's severed leg or foot, causing the leg to regrow (or transform) into a shaggy, black-furred goat leg ending in a cloven hoof of burning brass. If the leg or foot is not already severed, it can be hacked off, dealing 1d6 points of Constitution damage and 1d6 points of bleed damage. Applying the still-glowing bronze hoof, hot from the forge-fire, cauterizes the stump and ends the bleed damage, and the transformation of the leg takes 1 minute. Once complete, the recipient can make one hoof attack per round as a secondary natural attack that deals 1d4 points of damage if it's a Medium creature or 1d3 points of damage if it's a Small creature, plus 1d6 points of fire damage. The brazen hoof leaves a scorch mark whenever the recipient walks on any surface with hardness 5 or less, but it does not set surfaces on fire.   If a creature has a pair of brazen hooves grafted, it gains the trample special attack, dealing 1d6 points of fire damage in addition to normal trample damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bull's strength, wall of fire</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409199,
+    "modifiedTime": 1665949171327,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

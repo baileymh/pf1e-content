@@ -3,7 +3,7 @@
   "name": "Dawnflower's Light",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When lit, this hooded lantern shines brightly in a 60-foot radius, as daylight. Once per day as a swift action, if the owner worships Sarenrae or is a good-aligned divine spellcaster, she can intensify the lantern's light for 1 hour. This intensified light dazzles evil outsiders and undead in the area, and evil incorporeal creatures take 75% damage from magical attacks instead of 50%. If an illuminated creature or object has a mark indicating evil allegiance-such as a demoniac's demonic mark (see page 46 of Pathfinder Campaign Setting: Lords of Chaos, Book of the Damned, Vol. 2)-that mark glow brilliantly, shining through anything short of magical concealments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight, detect evil, creator must worship Sarenrae</p><h3><b>Source: </b></h3>Demon Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405975,
+    "modifiedTime": 1665949168308,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

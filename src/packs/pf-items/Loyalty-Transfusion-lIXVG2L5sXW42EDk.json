@@ -3,7 +3,7 @@
   "name": "Loyalty Transfusion",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Alchemy Manual pg. 15</em><br/><strong>Price</strong> 625 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>This serum transfers a homunculus's loyalty from one master to another. In order for this to work, the homunculus's current master and its master-to-be must each place a drop of their blood into the serum. When an appropriate homunculus drinks this concoction, it thereafter treats the master-to-be as its master. The change in ownership also causes the homunculus's alignment to change to match that of its new owner.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><strong>Recipe</strong> (200 quicksilver + 150 realgar + 200 spirit of wine)/distillation; <strong>Craft</strong> 30<br/><strong>Time</strong> 1 day; <strong>Tools</strong> retort; <strong>Type</strong> alchemical remedy</p>",
       "chat": "",
@@ -88,8 +88,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367709,
+    "modifiedTime": 1665949135537,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Shadowform Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When wrapped around a wearer's waist, this belt grants a +6 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. Furthermore, as a swift action, its wearer can become incorporeal. While incorporeal, he does not gain a deflection bonus to AC based on his Charisma, but his natural armor bonus is converted to deflection bonus. The wearer can remain incorporeal for up to 10 rounds per day. The rounds need not be consecutive.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cats grace, etherealness</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408585,
+    "modifiedTime": 1665949170767,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

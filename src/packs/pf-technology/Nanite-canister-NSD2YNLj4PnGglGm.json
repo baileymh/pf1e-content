@@ -3,7 +3,7 @@
   "name": "Nanite canister",
   "type": "equipment",
   "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 50</em></p><p><strong>Price</strong> 500 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 1 lb.</p><p><strong>Capacity</strong> -; <strong>Usage</strong> disposable</p><h2 class=\"framing\">Description</h2><p>A nanite canister is used to power technological devices that use nanites-such items generally don't require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 25; <strong>Cost</strong> 250 gp</p><p>Craft Technological Item, nanotech lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387739,
+    "modifiedTime": 1665949152092,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

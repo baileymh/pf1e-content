@@ -3,7 +3,7 @@
   "name": "Altar Of Erastil",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar is a large stone hearth that is normally kept blazing and features a prominent image of Erastil wielding his sacred bow, using the holy weapon either in defense of a home or to hunt game for food. Praying at the altar grants a +2 circumstance bonus on Handle Animal and Heal checks, or one of the following magic weapon special abilities (worshiper's choice) to one magic weapon carried or wielded by the worshiper: animal-bane, conservingUE, huntsmanUE, or merciful. This effect is suppressed if the weapon leaves the worshiper's grasp, but resumes if the weapon is returned to the worshiper.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, abundant ammunitionUC, cure light wounds,  detect animals or plants, magic circle against chaos, magic circle  against evil, summon monster I, creator must worship Erastil</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409788,
+    "modifiedTime": 1665949171893,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

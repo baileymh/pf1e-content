@@ -3,7 +3,7 @@
   "name": "Bracers Of Celestial Intervention",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Prayers and engravings of celestial beings cover these golden bracers. A paladin can expend one or more of her uses of smite evil into these bracers as a standard action to call forth agathions, angels, or archons to aid her. This acts as a summon monster spell of a spell level equal to the number of smite evil uses the paladin expends. Outsiders summoned with the bracers must be from the list detailed in the summon monster spell or from the expanded summon monster list on pages 28-29.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster VII, creator must be lawful good</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407914,
+    "modifiedTime": 1665949170160,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

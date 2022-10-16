@@ -3,7 +3,7 @@
   "name": "Ivory Baton",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This white, slender rod is engraved with decorative emblems of elephants, jackals, alligators, and other wild beasts, and is worth 2,000 gp because of its masterful craftsmanship. The wielder can command the obedience of golems within 120 feet when she activates the device (a standard action), bypassing their immunity to magic and any other resistances to magic they may possess. Up to 300 Hit Dice worth of golems can be ruled at once with an ivory baton. Ruled golems obey the wielder as if she were their creator. Still, if the wielder attacks a ruled golem or gives it a command that is obviously harmful to it, the magic is broken. An ivory baton can be used for 500 total minutes before crumbling to dust. This duration need not be continuous. For each golem ruled beyond the first, multiply the number of minutes expended by the number of golems ruled (so, for example, a creature wielding an ivory baton to control three golems effectively expends 3 minutes of the rod's total duration every minute).  In addition, an ivory baton acts as a golembane scarab as long as its wielder holds the rod in one hand.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, geas/quest, mass charm monster</p><h3><b>Source: </b></h3>Lost Kingdoms",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409696,
+    "modifiedTime": 1665949171828,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ioun Stone sepia ellipsoid",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dark stone sometimes appears to be made of transparent crystal filled nearly to the brim with dark ink. It provides the benefits of an iridescent spindle (sustains you without air), pearly white spindle (regenerate 1 hit point per 10 minutes), and an orange prism (+1 caster level). However, it has two drawbacks. First, once set loose to orbit your head, it dislikes being contained (including being placed in a wayfinder) and frees itself to orbit again 1d4+1 hours after being removed from its spinning path. Second, it drains the power out of other ioun stones, rendering them dull gray and powerless at a rate of one every 24 hours. Thus, it is an excellent and valuable item if you only have one ioun stone, but hard to conceal and dangerous to your other treasures. A remove curse or similar spell can put the stone at rest and prevent it from returning to its orbit. The Society has at least three specimens of this type locked in the Vaults to prevent ignorant Pathfinders from ruining perfectly good ioun stones. In theory you could place one directly into a wayfinder rather than ever letting it orbit, though conflicting reports suggest the sepia ellipsoid may be able to drain power out of orbiting stones even when contained in this way. The specimens in the Vaults are carefully locked in lead boxes to prevent them from draining the powers of other stored ioun stones.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mage's disjunction, regenerate, water breathing, creator must be 12th level</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373311,
+    "modifiedTime": 1665949139716,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

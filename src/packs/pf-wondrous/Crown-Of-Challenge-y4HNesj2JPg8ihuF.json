@@ -3,7 +3,7 @@
   "name": "Crown Of Challenge",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jagged steel crown is rough and scratched but shows no sign of being dented or misshapen. Once per day, the wearer can issue a challenge to a creature able to see and hear him. The creature gains a +2 morale bonus on melee attack rolls and damage rolls against the crown's wearer for 1 minute. The creature challenged also takes a -2 penalty on attack rolls and damage rolls against all targets other than the wearer, and takes a -2 penalty to the save DCs of its spells, spell-like abilities, and supernatural abilities that affect other targets unless they also affect the wearer of the crown. These penalties last 1 minute or until the creature challenged makes a melee attack against the wearer of the crown.   If the crown's wearer has the challenge class feature, he gains the benefit of his challenge against the creature challenged without expending a daily use of his own challenge ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, greater planar ally</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410427,
+    "modifiedTime": 1665949172445,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

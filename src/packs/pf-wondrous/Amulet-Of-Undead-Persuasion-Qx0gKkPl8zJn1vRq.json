@@ -3,7 +3,7 @@
   "name": "Amulet Of Undead Persuasion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once per day, this bloodstone amulet can be commanded to produce a red liquid that temporarily satisfies one undead creature's hunger for 24 hours, though feeding on the stone's liquid is unappealing, much  like eating the food from create food and water. The wearer can collect and store the liquid in a vial for later use, but the fluid vanishes at the next sunrise if unused. A dhampir wearer gains a +4 bonus on Diplomacy checks to influence undead who have consumed the substance in the past day, and those undead take a -2 penalty on saving throws against the dhampir wearer's spells and effects. Additionally, a dhampir wearer can use command undead once per day on an undead who has consumed the liquid from the amulet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, command undead, minor creation, creator must be a dhampir</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406594,
+    "modifiedTime": 1665949168894,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Morlock Hide",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 shadow leather armor causes the wearer's skin to warp and distort into a welter of horrid scarification. The armor itself disappears from view under this coat of scars and the wearer's face appears as a loathsome, eyeless veil of flesh. This change is illusory, similar to glamered armor; however, morlock hide does cause the wearer's arms and legs to extend and her posture to become hunched. She gains a +2 circumstance bonus on Acrobatics, Climb, and Escape Artist checks, and she can move through narrow spaces while squeezing at normal speed and with no penalty to AC or on attack rolls.<br><p><b>Base Item:</b> +1 shadow leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, alter self, invisibility</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372372,
+    "modifiedTime": 1665949138800,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Jumping Cinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This piece of sooty coal has a tiny bit of flint embedded in it. The bearer of a jumping cinder can, as a standard action, order it to burst into flames and bounce around in random directions. Each round, the jumping cinder leaps into a randomly selected adjacent square. If a creature is in the square into which the jumping cinder lands, that creature takes 1d6 points of fire damage if it fails a DC 12 Reflex save. After 1 minute, the jumping cinder burns out, leaving behind a puff of smoke and a tiny smear of ash. Some goblin tribes use jumping cinders to randomly select volunteers for undesirable duties from a large crowd of goblins-anyone who takes fire damage from the jumping cinder but is not killed by the fire has to do the undesirable task.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, flaming sphere</p><h3><b>Source: </b></h3>Goblins Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407818,
+    "modifiedTime": 1665949170076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

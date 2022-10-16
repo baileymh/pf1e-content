@@ -3,7 +3,7 @@
   "name": "Stormcaller",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 keen shock spear constantly flickers and sparks with power. When casting spells with the electricity descriptor, the spear's wielder adds 1 to her effective caster level. (This doesn't stack with other effects or feats that increase caster level.) Once per week, the wielder can cast control weather for the purposes of summoning a storm or increasing the severity of an existing storm.  As a full-round action, the wielder can expend one use of mythic power to call lightning down on foes he hits. This works like the call lightning spell (CL 13th), with the following differences. Rather than being directed as a move action, for 13 rounds the lightning is called down on the first opponent hit by the spear each round. This effect bypasses lightning resistance and treats lightning immunity as lightning resistance 10. If the wielder confirms a critical hit on an attack that calls down a lightning bolt, the lightning also deals double damage.<br><p><b>Base Item:</b> +1 keen shock spear</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, call lightning, control weather</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372313,
+    "modifiedTime": 1665949138751,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

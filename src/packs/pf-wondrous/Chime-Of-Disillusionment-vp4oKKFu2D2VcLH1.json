@@ -3,7 +3,7 @@
   "name": "Chime Of Disillusionment",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When struck, this heavy iron tube produces a discordant tone and draws the surrounding light in on itself. Within a 60-foot-radius burst centered on the point where the chime was struck, the illumination level drops one step, to a minimum of dim light. The echoes of the chime resonate for 1 minute, during which creatures in the area can't benefit from morale bonuses and gain a +4 bonus on Will saves made to disbelieve. After this period, the suppression of morale bonuses ends and the ambient light level returns to normal. If the bearer expends one use of mythic power while striking the chime, the area increases to a 120-foot-radius burst, and each mythic enemy within it loses one use of mythic power, in addition to the chime's normal effects. The chime can be struck three times per day. Additional strikes produce no sound or effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, calm emotions, darkness</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410300,
+    "modifiedTime": 1665949172356,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

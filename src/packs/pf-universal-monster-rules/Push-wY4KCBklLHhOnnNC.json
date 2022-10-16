@@ -3,7 +3,7 @@
   "name": "Push",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-unarmed-strike.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with the push ability can choose to attempt a free combat maneuver check with a certain successful attack (often a slam attack). If successful, this check pushes a creature directly away as with a bull rush, but the distance moved is set by this ability. The type of attack that causes the push and the distance pushed are included in the creature&rsquo;s description. This ability only works on creatures of a size equal to or smaller than the pushing creature. Creatures pushed in this way do not provoke attacks of opportunity and stop if the push would move them into a solid object or creature.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: push (slam, 10 feet)</p>\n<p><em>Location</em>: Special Attacks and individual attacks.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +109,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +171,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -204,8 +209,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402593,
+    "modifiedTime": 1665949165300,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

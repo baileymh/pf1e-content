@@ -3,7 +3,7 @@
   "name": "Caduceus Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Two entwined wooden snakes run the length of this laurel rod, which is capped with a pair of brass wings. This mystical implement gives its possessor a +5 insight bonus on Craft (alchemy) checks and a +1 insight bonus on attack and damage rolls with alchemical items, including alchemists' bombs. When it's held in hand, the caduceus rod can be invoked five times per day to grant one of the following boons, each of which counts as a 6th-level spell-like ability.  Awaken: The rod awakens all sleeping creatures within a 40-foot-radius burst centered on the wielder. Creatures in the burst gain immunity to sleep effects for 1 minute.  Exchange: The wielder transmutes one of his prepared alchemical extracts into an extract of another formula in his formula book of equal or lower level.  Mercy: All dying (-1 or fewer hit points) creatures in a 40-foot-radius burst centered on the wielder die. Each such creature can attempt a DC 19 Fortitude save to instead take 1d6 points of negative energy damage. This is a death effect.  Revive: The wielder targets a creature within 40 feet with empowered breath of life.  Slumber: As deep slumber, except that it affects a 20-foot-radius burst centered on the wielder, can affect up to 20 HD of creatures, and has a Will save DC of 19. The wielder of the rod is unaffected and can choose to exclude up to four other targets from the effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, breath of life, deep slumber, heroism, universal formulaAPG, creator must have at least 10 ranks in Craft (alchemy)</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404272,
+    "modifiedTime": 1665949166713,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

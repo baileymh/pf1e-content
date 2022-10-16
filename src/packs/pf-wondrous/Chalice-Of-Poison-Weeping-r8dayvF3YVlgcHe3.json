@@ -3,7 +3,7 @@
   "name": "Chalice Of Poison Weeping",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silver chalice has stylized representations of rearing unicorns serving as handles. The bearer of the chalice can expel toxins from a poisoned creature's body, causing the target to weep the poison from its eyes and allowing the bearer to collect it in the chalice. This functions as neutralize poison on the target, eliminating that poison. If the target is immune to poison or the poison has run its course, the chalice has no effect. If the poison normally has a solid or liquid form, it collects as a single dose of the poison in the cup (regardless of how many times the target was poisoned). The collected poison has all the normal effects of the original poison, except its DC is 4 lower, and can be stored in another container or used like any other poison. The chalice can be used once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, neutralize poison</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409658,
+    "modifiedTime": 1665949171800,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

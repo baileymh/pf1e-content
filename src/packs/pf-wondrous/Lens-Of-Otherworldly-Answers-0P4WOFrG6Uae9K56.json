@@ -3,7 +3,7 @@
   "name": "Lens Of Otherworldly Answers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This multifaceted prism acts as an aid in concentration. It can be used as a focus for the read aura occult skill unlock (Pathfinder RPG Occult Adventures 197) to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, a lens of otherworldly answers emits light in a small area, increasing the light level in a 10-foot-radius by one step (darkness becomes dim light, and dim light becomes normal light). The lens cannot increase the light level above normal light. The color of the light produced varies according to the psychic creature's predominant emotional state at the time (Occult Adventures, 199), defaulting to soft white light in the case of no significant emotional state.  In addition, the owner gains special insight into questions asked and answers received from inscrutable planar powers. When expended as an additional material component when casting contact other plane (which causes the lens to crumble into valueless shards of crystal) the owner can attempt a Charisma check, Intelligence check, or Wisdom check (instead of being able to attempt only an Intelligence check) to avoid the Intelligence and Charisma drain risked by the spell. In addition, the owner subtracts 1d10 from the percentage roll (to a minimum of 1) for determining whether a contacted entity tells the truth, doesn't know, lies, or provides a random answer. If the owner is on the same plane as the entity being contacted, she subtracts an additional 1d10 from the percentage roll.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, contact other plane</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403392,
+    "modifiedTime": 1665949165918,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

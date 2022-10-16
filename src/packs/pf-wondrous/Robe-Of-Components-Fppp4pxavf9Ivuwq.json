@@ -3,7 +3,7 @@
   "name": "Robe Of Components",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The pockets of this simple blue robe always seem to carry just what the wearer needs whenever she casts a spell. The robe functions as a spell component pouch, providing any spell components or focuses that are necessary for the wearer's spellcasting. The robe can even produce spell components or focuses with a specific cost, though it provides no more than 50 gp worth of such materials in any single day. The materials supplied by the robe are suitable only for spellcasting, and disappear if they leave the wearer's person or when the spell requiring them is cast.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, minor creation</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404819,
+    "modifiedTime": 1665949167303,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Welcome Pain",
   "type": "feat",
   "img": "systems/pf1/icons/feats/greater-feint.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your appreciation of pain grants you great stamina.</em><br/><br/><b>Prerequisites</b><br/>Iron Will, worshiper of Zon-Kuthon.<br/><br/><b>Benefits</b><br/>Whenever you would be reduced to 0 or fewer hit points because of an ongoing or repeating damage effect (such as bleed), you may make a last-ditch effort to shed the condition. If you succeed at a DC 25 Will save, you ignore the damage that would reduce you to 0 or fewer hit points that turn. The DC of each subsequent save made in this manner increases by 1. In addition, spells or abilities that have the pain descriptor deal only half damage to you (if any).",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358858,
+    "modifiedTime": 1665949127006,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

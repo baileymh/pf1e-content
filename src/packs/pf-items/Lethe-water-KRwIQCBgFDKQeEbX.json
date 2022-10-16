@@ -3,7 +3,7 @@
   "name": "Lethe water",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Lethe water</h3><p><strong>Source</strong> <em>Feast of Dust pg. 42</em></p><p><strong>Price</strong> N/A; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Willpower DC 16</p><p><strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1d4 Int and Cha damage (cannot reduce a creature's Int or Cha below 1)</p><p><strong>Cure</strong> 2 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Creatures reduced below 3 Intelligence gain the fiendish creature simple template (<em>Pathfinder RPG Bestiary</em> 294) and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature’s Intelligence score rises above 3.</p><p></p><p> Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as bloodroot, but ingested rather than injury; <em>Pathfinder RPG Core Rulebook</em> 558).</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366478,
+    "modifiedTime": 1665949134374,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

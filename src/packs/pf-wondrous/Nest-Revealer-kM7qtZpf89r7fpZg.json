@@ -3,7 +3,7 @@
   "name": "Nest Revealer",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small vial is sealed with a fine metal cap engraved with the visage of a noble hound. When a few drops of a creature's blood are placed in the vial, it begins to fill on its own, replicating the creature's blood over the span of 1 minute. After 1 minute, the vial shatters and a small fist-sized orb of crystallized blood falls to the ground. This animate orb rolls in the direction of the last location in which the source creature slept for at least 1 hour. The blood travels at a rate of 20 feet per round and can travel up to 10 miles over the span of 5 hours. If the orb does not reach the creature's nest within 5 hours, it collapses into a puddle containing enough blood to activate another nest revealer.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, locate creature</p><h3><b>Source: </b></h3>Monster Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408567,
+    "modifiedTime": 1665949170759,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

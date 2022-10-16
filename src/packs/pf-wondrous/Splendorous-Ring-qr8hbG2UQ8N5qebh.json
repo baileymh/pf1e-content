@@ -3,7 +3,7 @@
   "name": "Splendorous Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A splendorous ring is composed of six white and yellow gemstones faceted in a platinum band. Three times per day, the wearer of a splendorous ring can twist the ring to cloak himself in an aura of glory. He appears both radiant and terrible, glowing with the might of the heavens. Anyone within 10 feet of the ring when it is activated must succeed at a DC 13 Will save or be fascinated by the wearer's form as if affected by hypnotic pattern. 2d4+3 Hit Dice worth of creatures are affected in this way.   The fascinating effect of the ring lasts for 3 rounds. During that time and for 5 rounds after, the ring's wearer gains a +2 sacred bonus on any Charisma checks or Charisma-based skill checks to influence any good-aligned creatures affected by the ring's hypnotic pattern effect, and a -2 penalty on any Charisma checks or Charisma-based skill checks to influence any evil-aligned creatures affected by the hypnotic pattern effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, eagle's splendor, hypnotic pattern, creator must be good-aligned</p><h3><b>Source: </b></h3>Chronicle Of The Righteous",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409640,
+    "modifiedTime": 1665949171789,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

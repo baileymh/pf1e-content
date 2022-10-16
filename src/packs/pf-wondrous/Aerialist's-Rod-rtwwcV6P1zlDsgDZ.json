@@ -3,7 +3,7 @@
   "name": "Aerialist's Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A small, metal loop caps each end of this well-worn, 2-foot-long brass rod. Pressing on each of three smooth studs on the rod's surface activates a different special ability. Pressing a stud a second time collapses the rod back into its ordinary form.  Balancing Pole: The rod extends to 7 feet in length and grants its holder a +5 competence bonus on Acrobatics checks and a +3 enhancement bonus on Reflex saving throws. The user must hold the rod in both hands to gain these bonuses, and they apply only on checks and saving throws related to maintaining balance. In this form, the rod also acts as a masterwork quarterstaff.  Tightrope: A line of rope lashes out from each end of the rod, anchoring to create a horizontal tightrope up to 100 feet long. Characters can traverse the tightrope by hanging below it with a successful DC 15 Climb check, or walking atop it with a successful DC 20 Acrobatics check.  Trapeze: Two lines of rope fly from the ends of the rod and anchor in a ceiling up to 40 feet overhead. Using the trapeze requires a successful DC 10 Acrobatics check and allows the user to traverse gaps up to 50 feet wide. If the user is trying to go farther than 50 feet, she can attempt to jump upon releasing her grip. The trapeze counts as a running start for the purposes of performing a long jump, and grants the user a +5 competence bonus on Acrobatics checks to determine how far she can jump. When the user is outdoors, this ability functions only if there are branches, buildings, or other overhangs to which the trapeze can attach.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, animate rope, cat's grace</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409708,
+    "modifiedTime": 1665949171835,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

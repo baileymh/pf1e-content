@@ -3,7 +3,7 @@
   "name": "Bleed",
   "type": "feat",
   "img": "systems/pf1/icons/feats/bleeding-critical.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with this ability causes wounds that continue to <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"93aTFy7v8VUq8sNi\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">bleed</span></a>, dealing additional damage each round at the start of the affected creature&rsquo;s turn. This bleeding can be stopped with a successful DC 15 <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.skills\" data-id=\"RtBGttkocvTbySjd\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">Heal</span></a> skill check or through the application of any magical healing. The amount of damage each round is specified in the creature&rsquo;s entry.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: bleed (2d6)</p>\n<p><em>Location</em>: Special Attacks and individual attacks.</p>\n<p><em>Usage:</em> Replace bleed damage formula</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -110,6 +115,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -217,8 +222,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402559,
+    "modifiedTime": 1665949165276,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

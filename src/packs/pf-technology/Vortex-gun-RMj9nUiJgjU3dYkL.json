@@ -3,7 +3,7 @@
   "name": "Vortex gun",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 182,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 15 lbs.</p><p><strong>Damage</strong> 8d6 (small), 10d6 (medium); <strong>Damage Type</strong> Force; <strong>Critical</strong> 19-20/x2</p><p><strong>Range</strong> 100-ft. cone; <strong>Capacity</strong> 30; <strong>Usage</strong> 10 charges; <strong>Special</strong> Slow-firing, scatter, touch</p><h2 class=\"framing\">Description</h2><p>A vortex gun looks like a sleek shotgun with three barrels arranged in a triangular formation. When this weapon is fired, the three barrels release a beam of gravitons that spiral around each other to create a 100-foot-long cone-shaped vortex of devastating energy. This energy tears, crushes, and twists everything in its path. Being struck by a vortex gun induces overwhelming vertigo in living victims. A living creature damaged by a vortex gun must succeed at a DC 18 Fortitude saving throw to avoid being nauseated for 1 round. A critical hit also allows the user of the gun to attempt a trip combat maneuver check against the target (CMB = user's base attack bonus + 15); this attempt doesn't provoke attacks of opportunity. Flying creatures struck by a vortex gun are affected as if they were struck by hurricane force winds. A creature protected by a force field takes no damage from a vortex gun but must succeed at a DC 18 Reflex save or the shot automatically depletes all of the force field's remaining hit points.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 33; <strong>Cost</strong> 91,000 gp</p><p>Craft Technological Arms and Armor, graviton lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -191,6 +196,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -284,8 +290,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387762,
+    "modifiedTime": 1665949152113,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Slaver's will",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Slaver's will</h3><p><strong>Source</strong> <em>Heroes of the Darklands pg. 31</em></p><p><strong>Price</strong> 350 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 14</p><p><strong>Onset</strong> 10 minutes; <strong>Frequency</strong> 1/hour for 8 hours</p><p><strong>Effect</strong>  1 Wis damage, target must roll twice and take the lower result for all saving throws against mind-affecting effects until the Wis damage is healed</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This saccharine extract is made by drow and duergar taskmasters to help keep recalcitrant slaves in line. The poison clouds the minds of those who consume it, impairing victims’ critical thinking and making them more suggestible.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366474,
+    "modifiedTime": 1665949134372,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

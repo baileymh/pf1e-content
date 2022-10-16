@@ -3,7 +3,7 @@
   "name": "Rod Of The Deadlord",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This baton and the small skull that tops it are both made of blackened adamantine. The rod can be wielded as a +1 conductiveUE light mace. At the wielder's command, it transforms into a morningstar, heavy mace, flail, or heavy flail. It returns to its normal shape if left unattended for 1 round. Commanders of undead legions often wield such rods as symbols of authority. Changing the weapon's type can be used to signal a change in strategy for the undead horde, with the mace indicating a steady march, the morningstar calling for an aggressive assault, a flail indicating a retreat, and so on.  11th Level: The rod's enhancement bonus increases to +2.  13th Level: Any creature hit by the rod of the deadlord gains a temporary negative level. The target avoids this negative level if it succeeds at a Fortitude save with a DC equal to 6 + the wielder's Hit Dice (maximum 21). This negative level lasts for 12 hours, and can't become a permanent negative level.  15th Level: If the wielder confirms a critical hit, instead of gaining a temporary negative level the target gains a permanent negative level with no saving throw. Each day thereafter, the target must succeed at a Fortitude save (using the same DC as the 13th-level unlockable ability) or acquire another negative level. This is a curse effect that continues until removed (DC 23) or until the target dies. A target slain by this curse cannot be revived from death until the curse is removed.  17th Level: The rod's enhancement bonus increases to +3. Once per day, the rod's owner can tap the rod on the ground as a standard action to duplicate the effects of animate dead. The total HD of undead the owner can control in this way is equal to her level. If she controls other undead from castings of animate dead, she uses only the highest maximum she can control-the values do not stack. She ceases to control undead created by the rod if the rod leaves her possession.<br><p><b>Base Item:</b> +1 conductive light mace</p><h3><b>Requirements</b></h3><p>Craft Rod, bestow curse, enervation, major creation, spectral hand</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404012,
+    "modifiedTime": 1665949166526,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

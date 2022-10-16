@@ -3,7 +3,7 @@
   "name": "Mockingskull",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The tools of juvenile necromancers and bitter witches, mockingskulls are immortal and sleepless guardians. Each is made from a humanoid skull inlaid with a precious gem eye. Mockingskulls keep watch over an area with a +8 Perception check bonus, and can be commanded to either warn away intruders or raise an alarm by screaming insults and invectives. If a mockingskull screams invectives, it can attempt an Intimidate check at a +10 bonus each round against one creature within 30 feet.  Treat a mockingskull as a single Hit Die mindless undead for the purposes of spells and effects that control, damage, or hide creatures from undead. A mockingskull has hardness 3 and 10 hit points; these hit points are automatically restored every midnight. Although largely mindless, especially old mockingskulls sometimes develop personality quirks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, animate dead</p><h3><b>Source: </b></h3>Agents Of Evil",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403685,
+    "modifiedTime": 1665949166146,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

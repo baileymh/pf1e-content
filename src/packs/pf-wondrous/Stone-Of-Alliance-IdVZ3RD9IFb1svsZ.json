@@ -3,7 +3,7 @@
   "name": "Stone Of Alliance",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tiny sphere of marble can be used to strengthen an existing link between the user and a creature bound to him. When activated by a creature and then swallowed by that creature's animal companion, bonded mount, or familiar, the stone magically remains inside the companion creature. Thereafter, the master is continually aware of the companion's distance, direction, and general condition as if using the spell status. If the master has line of sight to the companion, he may as an immediate action protect the creature from being harmed by one successful attack, taking the full effect of that attack instead.   Once per day the master may spend a standard action to transfer the blinded, dazzled, deafened, fatigued, shaken, or sickened condition from the companion to himself. Alternatively, the master may partially transfer the exhausted, frightened, or nauseated condition from the companion to himself, with he and the companion both suffering the lesser version of that condition (fatigued for exhausted, and so on). The master must be within 30 feet of the companion for him to use either aspect of this ability.   The stone remains harmlessly inside the companion until it dies, the master dies, or the master dismisses the companion, at which point it crumbles into a worthless powder and is digested.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shield other, status</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405446,
+    "modifiedTime": 1665949167807,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Arcanolembic",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This glass flask looks similar to the alembics used by alchemists to distill various liquids, but this one is framed in a delicate silver brace and the glass is etched with various arcane runes. When used to create an alchemical object, the arcanolembic allows the creator to double her progress for 1 day's work (although this does not affect the cost or the price of the components of the object). In addition, when used to brew a potion, the arcanolembic reduces the time needed to create the potion by 25%. Finally, the arcanolembic can be used to hold one potion. When a creature consumes a potion from the arcanolembic, the potion is treated as if the caster level were 2 higher than the usual minimum for a potion of its level. Placing a potion into the arcanolembic is a full-round action. While holding a potion, the arcanolembic cannot be used for any other purpose.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Brew Potion, Craft Wondrous Item, 5 ranks in Craft (alchemy)</p><h3><b>Source: </b></h3>Thornkeep",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410506,
+    "modifiedTime": 1665949172502,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Cookbook Of Arcane Augmentation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This book is bound in dyed goatskin, and its coarse, thick pages are stained in a variety of colors and covered in wavering script; rough sketches; and diagrams of various plants, mystic symbols, and animal parts. A crude wooden spoon serves a bookmark. A cookbook of arcane augmentation contains recipes that allow an arcane spellcaster who prepares spells to augment her spells with specific metamagic effects through ritual preparation. A cookbook of arcane augmentation contains recipes for Ectoplasmic SpellAPG, Persistent SpellAPG, Rime SpellUM, and Sickening SpellAPG, and can be used to augment spells of 6th level or lower.   Once per day, the spellcaster can augment a spell by following a recipe as part of her normal spell preparation. To prepare an augmented spell, the spellcaster must succeed at a Craft (alchemy) check (DC 15 + spell level) while mixing the recipe's ingredients in a cauldron. (The cost of these ingredients is negligible, and they are assumed to be readily available in a spell component pouch.) If the check succeeds, the spell is augmented with the recipe's metamagic feat. This doesn't change the spell slot of the augmented spell. On a failed check, that spell can't be augmented that day, but the caster can attempt to augment another spell.   A spellcaster can prepare only a single augmented spell each time she prepares spells, and apply only one augmentation from the cookbook to any given spell, but can combine an augmentation with metamagic feats she possesses. In this case, only the feats possessed by the caster adjust the spell slot of the spell being cast. The book doesn't confer the associated metamagic feat on the owner, only the ability to use the given feat when spells are prepared.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Ectoplasmic SpellAPG, Persistent SpellAPG, Rime SpellUM, Sickening SpellAPG</p><h3><b>Source: </b></h3>AP 69",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404052,
+    "modifiedTime": 1665949166553,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

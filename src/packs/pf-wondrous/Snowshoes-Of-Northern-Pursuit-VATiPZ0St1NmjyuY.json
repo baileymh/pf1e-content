@@ -3,7 +3,7 @@
   "name": "Snowshoes Of Northern Pursuit",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These masterwork snowshoes (Pathfinder RPG Ultimate Equipment 91) provide greater stability and weight distribution in snow. The snowshoes completely negate the effects of normal snow on movement, and reduce the movement penalties in heavy snow by half (i.e., it only costs 2 squares of movement to enter a square covered with heavy snow instead of 4 squares of movement). In addition, the wearer can increase her land speed in snowy terrain by 10 feet for up to 10 rounds per day. This is considered an enhancement bonus and the duration need not be spent in consecutive rounds. Finally, as a standard action once per day, the snowshoes can generate a ripple effect that removes all trace of tracks left in the snow in a 60-foot radius.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, feather stepAPG, longstrider, pass without trace</p><h3><b>Source: </b></h3>AP 67",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406826,
+    "modifiedTime": 1665949169067,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

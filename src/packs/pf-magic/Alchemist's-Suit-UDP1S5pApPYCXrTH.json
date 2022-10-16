@@ -3,7 +3,7 @@
   "name": "Alchemist's Suit",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bizarre +1 quilted clothUE armor holds eight small vials that can be filled with potions, poisons, or other alchemical substances, plus numerous decoys. If the wearer is struck by a bludgeoning attack or critical hit, is grappled, takes constrict damage, or is swallowed whole, the wearer can choose one vial to break as an immediate action that does not provoke an attack of opportunity. The wearer must choose himself or his attacker as the target of the vial's contents, which immediately produce their effect. If the wearer is the target, the effect functions at half strength and for half the normal duration   (minimum 1 round). For example, a potion of cure moderate wounds broken in this manner cures half as many hit points as normal. If the wearer's opponent is the target, the wearer must attempt a touch attack against the opponent to apply the effect. If the attack is successful, the opponent is affected as if struck by the vial's contents. If the vial contains a substance that would harm the opponent only upon ingestion, the opponent can avoid being affected if she succeeds at a DC 15 Reflex save.<br><p><b>Base Item:</b> +1 quilted cloth armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, shrink item</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372361,
+    "modifiedTime": 1665949138794,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

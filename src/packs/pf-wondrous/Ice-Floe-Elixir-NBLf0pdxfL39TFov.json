@@ -3,7 +3,7 @@
   "name": "Ice Floe Elixir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This chilled elixir usually takes the form of a pale blue liquid in a small glass vial coated in ice. Imbibing the elixir grants the drinker cold resistance 10 and the ability to merge with solid ice in the same fashion as meld into stone. These effects last for 1 hour.   Alternatively, instead of drinking the ice floe elixir, the vial can be uncorked, releasing a cold, glowing vapor from the vial's mouth that coalesces around all living creatures within 30 feet. Creatures covered with the cloying vapor take a -20 penalty on Stealth checks and do not benefit from blur, displacement, invisibility, or similar effects for as long as they stay in the affected area. The vapor also reveals figments, mirror images, and projected images in the area for what they really are. This effect lasts for 5 rounds before the vapor dissipates. This effect does not function in any environment already affected by fog, mist, or cloud-like effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, faerie fire, meld into stone, resist energy</p><h3><b>Source: </b></h3>AP 67",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406063,
+    "modifiedTime": 1665949168376,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

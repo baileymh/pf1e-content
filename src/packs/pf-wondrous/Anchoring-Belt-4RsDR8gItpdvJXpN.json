@@ -3,7 +3,7 @@
   "name": "Anchoring Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This belt looks like nothing more than iron chains connecting large pieces of slate. It grants its wearer a +5 inherent bonus to combat maneuver defense against bull rush, drag, grapple, overrun, reposition, and trip combat maneuvers and a +5 inherent bonus on saving throws against any effect that attempts to move the wearer with physical force or energy. Furthermore, if the wearer is a mythic creature and targeted by an effect that would teleport her, she can choose whether or not she wishes to be teleported.   As a standard action, the wearer can expend one use of mythic power to create a 30-foot-radius aura that affects all enemy creatures within it as though they were subject to a dimensional anchor spell. This aura lasts for a number of rounds equal to the wearer's mythic tier.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, bull's strength, dimensional anchor</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403658,
+    "modifiedTime": 1665949166127,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

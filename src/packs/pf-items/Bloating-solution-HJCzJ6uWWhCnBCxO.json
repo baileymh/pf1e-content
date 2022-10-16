@@ -3,7 +3,7 @@
   "name": "Bloating solution",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Bloating solution</h1><b>Source</b> <i>Alchemy Manual pg. 23</i><br/><b>Price</b> 25 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This thin vial of viscous purple fluid can be thrown at an ooze creature as a splash weapon with a range increment of 10 feet. On a direct hit, the solution causes an ooze creature to become bloated and turgid, suppressing its compression ability and reducing the save DC of any constrict, engulf, and entrap attacks made by the ooze by 2. Bloating solution also reduces an ooze creature's reach by 5 feet for the purpose of determining when the ooze can make attacks of opportunity (to a minimum reach of 0 feet). The effects of bloating solution last 1 minute. An affected intelligent ooze creature can attempt a DC 15 Fortitude save as a full-round action to end the effect early.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (15 phosphorus + 30 salt + 20 urea)/distillation; <b>Craft</b> 20<br/><b>Time</b> 10 minutes; <b>Tools</b> retort; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366390,
+    "modifiedTime": 1665949134308,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

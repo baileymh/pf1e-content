@@ -3,7 +3,7 @@
   "name": "Cage Of Captivity",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This miniature cage of golden wire can be used to capture a weakened outsider once per day. The target outsider must be called or otherwise physically present; a cage of captivity has no effect on summoned outsiders. The target also must be unable to take actions continually throughout the entire process, whether cowering, dazed, dying, helpless, stunned, or unconscious.  The user can attempt to draw a subdued outsider into the cage of captivity by placing gemstones within and concentrating for 1 minute. These gems must be worth at least 100 gp per Hit Dice of the target. If the target fails a DC 20 Will save-this increases to DC 25 if the user speaks the target's true name (Ultimate Magic 101)-the target shrinks to a height of 1 inch and is drawn into the cage, as the minimum containment option of the binding spell. Any creature holding the cage can converse with the trapped outsider. The planar being cannot use any supernatural or spell-like abilities while trapped, but it can still interact with, lie to, and manipulate captors using appropriate skill checks.  Anyone holding the cage of captivity may attempt to open it as a standard action. If an outsider is trapped within, doing so requires a DC 22 Will save. If a creature fails this save, they cannot open the cage and are repulsed by it for 24 hours as per the antipathy spell. The user who originally captured the imprisoned outsider gains a +5 morale bonus on this save.  Any creature opening a cage of captivity can compel the trapped outsider to perform a service in exchange for  its release. The trapped creature is compelled to fulfill this request as geas/quest if the creature opening the cage of captivity knows the creature's true name. If not, this request functions as lesser geas if the trapped outsider has 7 or fewer Hit Dice, or as suggestion if it has more than 7 Hit Dice. These requests ignore any spell resistance of the trapped outsider, but a successful DC 20 Will save negates this effect. Once it performs this service, an outsider can never again be trapped by the same cage of captivity.  Variant cages of captivity may take the form of lamps, bowls, bottles, and similar containers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, antipathy, binding, geas/quest</p><h3><b>Source: </b></h3>Cohorts & Companions",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407332,
+    "modifiedTime": 1665949169586,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Amulet Of The Spirits,  Battle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the spirit grants its wearer powers from one type of shaman spirit bond, but makes her vulnerable to attacks and effects that target creatures with that spirit bond (such as a spirit-hunting weapon). If a creature that already has the associated mystery or spirit wears the amulet, that wearer does not gain the abilities listed below; instead, the effective level of her mystery or spirit powers increases by 2. This effect does not stack with other abilities that increase the effective level of mystery or spirit powers.  Battle: This amulet is shaped like a tiny dagger that hangs point down. Once per day as a swift action, the wearer can activate a battle ward, which grants her a +3 deflection bonus to AC. Each time she is attacked, the deflection bonus is reduced by 1 (whether the attack succeeds or not) until the ward fades away when the bonus reaches +0. In addition, once per day as a swift action the wearer can curse a creature within 30 feet, making it take more damage from bleed effects and causing its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is ability damage). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points. This curse lasts for 8 rounds. Moderate necromancy; CL 8th; Craft Wondrous Item, bestow curse, entropic shield.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item,  bestow curse, entropic shield, creator must be a shaman with the appropriate spirit</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407288,
+    "modifiedTime": 1665949169543,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

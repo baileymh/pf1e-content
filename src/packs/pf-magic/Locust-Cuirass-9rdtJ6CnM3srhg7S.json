@@ -3,7 +3,7 @@
   "name": "Locust Cuirass",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The overlapping leather plates of this +2 lamellar cuirass (Pathfinder RPG Ultimate Equipment 12) oddly feel more like insect chitin than the supple leather they are crafted from. This armor's lightweight construction gives it a maximum Dexterity bonus of +6.  The wearer of a locust cuirass can take 10 on Acrobatics checks to jump even if distracted or in danger. Once per day as an immediate action, the wearer can summon a swarm of locusts that surround her and support her weight during a fall, causing her to drift slowly down to the ground, similar to feather fall. While falling, the wearer can move up to 5 feet in any horizontal direction for every 1 foot she falls, at a speed of 60 feet per round. The wearer takes no damage upon landing. The effect ends as soon as the wearer touches the ground or after 6 rounds, whichever comes first. If the effect expires while the wearer is still in the air, she falls the remaining distance as normal.<br><p><b>Base Item:</b> +2 lamellar cuirass</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cape of waspsUM</p><h3><b>Source: </b></h3>AP 81",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371780,
+    "modifiedTime": 1665949138231,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

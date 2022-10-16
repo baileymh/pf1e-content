@@ -3,7 +3,7 @@
   "name": "Ring Of The Hidden Psyche",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring resembles a ring of psychic mastery, but its flawless sapphire serves as a vessel for the wearer's soul. It possesses all the abilities of a ring of psychic mastery in addition to the following effects.  The wearer's soul instantly enters the ring upon the wearer's death, even if her body is utterly destroyed. This counts as an object possession spell, except that the possessing soul cannot animate the ring and must instead wait for someone to wear it. From inside the ring, she can attempt a greater possession on anyone who voluntarily wears the ring (Will DC 23 negates). A successful save against the greater possession effect renders the new wearer immune to further such attempts for 24 hours. Dispelling the object possession effect on the ring banishes the soul from the ring to its appropriate afterlife. Otherwise, a soul can remain in the ring indefinitely. While in the ring, the soul knows when a creature has put on the ring. The soul can't otherwise sense the area around it or take actions other than attempting the greater possession effect.  A ring of the hidden psyche resists attempts to discern its true nature. Detect magic reveals only the properties of a ring of psychic mastery, though identify or stronger magic can reveal the ring's full powers if the caster succeeds at a DC 23 Will save.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, greater possession*, magic aura, object possession*, wish</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406734,
+    "modifiedTime": 1665949168984,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

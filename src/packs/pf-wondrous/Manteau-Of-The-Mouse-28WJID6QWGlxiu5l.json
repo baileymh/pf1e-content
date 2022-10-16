@@ -3,7 +3,7 @@
   "name": "Manteau Of The Mouse",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use beast shape III once per day to transform into a mouse.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape III</p><h3><b>Source: </b></h3>Giant Hunters Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403481,
+    "modifiedTime": 1665949165991,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

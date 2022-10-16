@@ -3,7 +3,7 @@
   "name": "Metamagician's Apprentice",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This slender rod is usually capped with a metal knob resembling the face of a young male or female mage. The first rod of this type was created by a ruthless cabal of wizards and sorcerers who transferred the minds of their most promising apprentices into a set of rods for the sake of greater power.  The bound apprentices' intellects have no free will but retain their rebellious imaginations. Under normal circumstances, the rod must do what its wielder commands, but it can make telepathic, respectful complaints about how unhappy it is to be a group of living minds imprisoned in an inanimate object-though few wielders care. While no good creature would create a metamagician's apprentice, he or she can still wield one.  The rod can be used as a +1 light mace. On command, it transforms into a +1/+1 quarterstaff or back to its rod form.  A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as Silent Spell and Empower Spell) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.  The rod can use read magic and detect magic at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.  A typical rod of this type is lawful neutral, though rods with other alignments exist.  If a metamagician's apprentice becomes dominant after a personality conflict, it insists the wearer find a way to free its mind from the object or destroy the item so its mind can be at peace.<br><p><b>Base Item:</b> +1 light mace|+1/+1 quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Rod, the four metamagic feats the rod is to know</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404826,
+    "modifiedTime": 1665949167310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Mistcaller",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a mammoth tusk, this ivory flute is covered with delicate carvings of wind blowing over waves, which are inlaid with silver. It functions as a masterwork musical instrument, although the notes are pitched much lower than most flutes and any tune, no matter how jauntily played, carries a mournful quality.  Once per day, the user can attempt a DC 15 Perform (wind) check to summon a bank of spectral fog. This effect functions as obscuring mist c entered o n t he user, except it moves with the user. The mist lasts for as long as the user continues to play, to a maximum of 5 minutes. Spectral faces appear to anyone within the mist other than the user, whispering for those within the mist to lay down their burdens and rest. Anyone within the mist other than the user can elect to fall asleep as a free action. Creatures asleep within the spectral fog heal 1 hit point per minute spent sleeping, and recover 1 point of ability damage if they spend at least 1 full minute asleep. Sleepers under this effect can be awakened normally.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fog cloud, restoration</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408991,
+    "modifiedTime": 1665949171175,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

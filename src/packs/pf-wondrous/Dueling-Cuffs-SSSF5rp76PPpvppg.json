@@ -3,7 +3,7 @@
   "name": "Dueling Cuffs",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These tight-fitting mithral bracers are used throughout the Inner Sea region in nations where dueling is prominent. The wearer of dueling cuffs gains a +1 deflection bonus to AC.  This bonus increases to +2 if the wearer is wielding one or more weapons that benefit from the Weapon Finesse feat.  In a duel (Ultimate Combat 150), the wielder doesn't take the normal -5 penalty when using the dueling parry action.  In addition, the wielder can attempt to deflect ranged attacks from firearms with a dueling parry, but takes a -5 penalty on such attempts.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bullet shieldUC, cat's grace</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406702,
+    "modifiedTime": 1665949168958,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

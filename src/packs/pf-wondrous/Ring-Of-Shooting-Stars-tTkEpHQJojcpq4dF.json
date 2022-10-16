@@ -3,7 +3,7 @@
   "name": "Ring Of Shooting Stars",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring has two modes of operation: one for when the wearer is in dim light or outdoors at night, and a second one when the wearer is underground or indoors at night. At night or in areas of shadow or darkness, the ring of shooting stars can perform the following functions on command.  • Dancing lights (once per hour)  • Light (twice per night)  • Ball lightning (special, once per night)  • Shooting stars (special, three per week)  The first special function, ball lightning, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble dancing lights, and the wearer controls them similarly (see the dancing lights spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.  NUMBER OF BALLS DAMAGE PER BALL  1 lightning ball 2d6 points of electricity damage  2 lightning balls 3d6 points of electricity damage  3 lightning balls 2d6 points of electricity damage  4 lightning balls 1d6 points of electricity damage  Once the ball lightning function is activated, the balls can be released at any time before the sun rises. Multiple balls can be released in the same round.  The second special function produces three shooting stars that can be released from the ring each week, simultaneously or one at a time. Upon impact, they deal 12 points of damage and spread (as a fireball) in a 5-foot-radius sphere that deals 24 points of fire damage.  Any creature struck by a shooting star takes full damage from the impact plus full fire damage from the spread unless it succeeds at a DC 13 Reflex save. Creatures not struck but within the spread ignore the impact damage and take only half damage from the fire spread on a successful DC 13 Reflex save. The range is 70 feet, at the end of which the shooting star explodes unless it strikes a creature or object before that. A shooting star always follows a straight line, and any creature in its path must make a successful DC 13 Reflex save or be hit by the projectile.  Indoors at night, or underground, the ring of shooting stars has the following properties.  • Faerie fire (once per day)  • Spark shower (special, once per day)  The spark shower is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arch 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying metal weapons. Any creature wearing metal armor and/or carrying a metal weapon takes 4d8 points of damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, faerie fire, fireball, light, lightning bolt</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409828,
+    "modifiedTime": 1665949171914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

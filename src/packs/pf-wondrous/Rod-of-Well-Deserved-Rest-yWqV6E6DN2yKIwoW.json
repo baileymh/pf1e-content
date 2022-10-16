@@ -3,7 +3,7 @@
   "name": "Rod of Well-Deserved Rest",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rod is made of polished gold, and features three blownglass onion domes at one end. It functions as a +1 light mace.  Up to three times per day, with a successful hit in combat, the wearer may attempt to put the target of the attack asleep (DC 14 Will save negates). This functions as sleep, but there is no limit to the number of Hit Dice that may be affected.  In addition, the wielder may create an opaque sphere of force to protect himself from the elements once per day, as a tiny hut spell with a 5-foot radius. If the wielder goes to sleep with the rod in his possession, 8 hours of sleep provides healing equivalent to a full day of bed rest. Upon waking, the wielder enjoys the benefits of a good hope spell for 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, deep slumber, good hope, restful sleep (Advanced Player's Guide 239), tiny hut</p><h3><b>Source: </b></h3>AP 39",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410455,
+    "modifiedTime": 1665949172469,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

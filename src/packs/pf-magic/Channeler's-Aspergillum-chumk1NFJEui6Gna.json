@@ -3,7 +3,7 @@
   "name": "Channeler's Aspergillum",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 battle aspergillumUE has additional powers when filled with holy water or unholy water (filling it requires a move action). By swinging a filled channeler's aspergillum in an arc, the wielder affects up to nine creatures in a 30-foot cone as with mass cure light wounds (if the aspergillum is filled with holy water) or mass inflict light wounds (if the aspergillum is filled with unholy water). This action expends the holy or unholy water within. If the wielder has the channel energy ability, she can also use a channeler's aspergillum to increase her effective cleric level by 2 for the purpose of channeling energy. Each time the wielder uses the channeler's aspergillum in this way, the holy water (for channeled positive energy) or unholy water (for channeled negative energy) stored in the aspergillum is expended. Regardless of which of these ways the channeler's aspergillum is used, it can only be filled with holy or unholy water up to three times per day. A channeler's aspergillum can hold only one flask's worth of holy or unholy water at a time.<br><p><b>Base Item:</b> +1 battle aspergillum</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mass cure light wounds, mass inflict light wounds, creator must be able to channel energy</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372496,
+    "modifiedTime": 1665949138948,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

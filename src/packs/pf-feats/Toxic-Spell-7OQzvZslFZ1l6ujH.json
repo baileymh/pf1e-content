@@ -3,7 +3,7 @@
   "name": "Toxic Spell",
   "type": "feat",
   "img": "systems/pf1/icons/spells/fog-acid-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can infuse a spell with the power of a poison.</em><br/><br/><b>Prerequisites</b><br/>Craft (poison) 5 ranks, ability to cast 2nd-level spells, poison use class feature.<br/><br/><b>Benefits</b><br/>You can use 1 dose of contact, ingested, inhaled, or injury poison as an additional material component for a spell you cast. This spell gains the poison descriptor (Pathfinder RPG Ultimate Magic 138). Select a single creature affected by the spell. If that creature fails its saving throw against the spell, it must also attempt a saving throw against the poison used as a material component. If the target fails the save against the poison, the poison takes effect immediately, ignoring any onset time. The poison uses its save DC (rather than the save DC of the spell), but is modified by any effects that increase the spell's DC (such as Spell Focus). This feat works only with spells whose effects can be negated by a successful Fortitude save. A toxic spell uses up a spell slot 1 level higher than the spell's actual level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351461,
+    "modifiedTime": 1665949119519,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

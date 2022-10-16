@@ -3,7 +3,7 @@
   "name": "Sadist's Lash",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A sadist's lash is a long whip of thin strips of leather. Created originally by a special sect of wizards who served under Runelord Sorshen, sadist's lashes swiftly became quite popular throughout Thassilon. The lash acts as a +1 wounding whip, and also aids enchantment spells in two ways. First, it can deliver enchantment spells with a range of touch as if the wielder had touched the creature struck. Additionally, any creature that takes damage from a sadist's lash takes a -5 penalty on Will saves against all enchantment effects created by the wielder of the lash for 1 minute unless it succeeds at a DC 15 Will save.<br><p><b>Base Item:</b> +1 wounding whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dominate person</p><h3><b>Source: </b></h3>RotRL-AE-Appendix",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372895,
+    "modifiedTime": 1665949139299,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

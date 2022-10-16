@@ -3,7 +3,7 @@
   "name": "Robes Of Xin-Edasseril",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The robes of Xin-Edasseril grant a +5 armor bonus to AC and spell resistance 20, and they cause the wearer to cast all abjuration spells at +1 caster level. Two of the robe's pockets function as handy haversacks. In addition, the robes protect the wearer with energy resistance 10 for an energy type of the wearer's choice-this energy resistance can be changed once per day as a standard action (currently, Belimarius uses it to resist cold).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mage armor, protection from spells, resist energy, secret chest</p><h3><b>Source: </b></h3>AP 137",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408491,
+    "modifiedTime": 1665949170705,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Riddling Khopesh",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 khopeshUE has a handle in the shape of an elongated sphinx, with the sphinx's serene face as the pommel of the sword. Once per day, the wielder can attempt to answer a series of riddles posed telepathically by the khopesh over 10 minutes. At the end of that time, if the wielder succeeds at a DC 15 Intelligence check (the wielder can't take 10 or 20 on this check), the sword's enhancement bonus increases by 1 for the next 24 hours as long as it is wielded by the creature who correctly answered its riddles. If the result of the Intelligence check is 20 or more, the wielder can also add the flaming, ghost touch, or keen special weapon ability to the weapon for 24 hours.<br><p><b>Base Item:</b> +1 khopesh</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, commune</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372717,
+    "modifiedTime": 1665949139210,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

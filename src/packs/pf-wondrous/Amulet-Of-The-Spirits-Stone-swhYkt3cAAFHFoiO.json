@@ -3,7 +3,7 @@
   "name": "Amulet Of The Spirits, Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the spirit grants its wearer powers from one type of shaman spirit bond, but makes her vulnerable to attacks and effects that target creatures with that spirit bond (such as a spirit-hunting weapon). If a creature that already has the associated mystery or spirit wears the amulet, that wearer does not gain the abilities listed below; instead, the effective level of her mystery or spirit powers increases by 2. This effect does not stack with other abilities that increase the effective level of mystery or spirit powers.     Stone: This rounded river rock hangs from a copper chain. Once per day as a swift action, the wearer can activate a ward of stone, granting herself DR 5/adamantine against the next two melee attacks against her. This ward lasts for 1 minute, after which it fades away if not expended. In addition, once per day as a swift action the wearer can cause a creature within 30 feet to become slightly magnetic; this effect lasts for 2 rounds. Whenever the creature is attacked by a melee or ranged weapon made primarily of metal, it takes a -4 penalty to AC. Moderate abjuration; CL 8th; Craft Wondrous Item, heat metal, stoneskin.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, heat metal, stoneskin, creator must be a shaman with the appropriate spirit</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409777,
+    "modifiedTime": 1665949171885,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

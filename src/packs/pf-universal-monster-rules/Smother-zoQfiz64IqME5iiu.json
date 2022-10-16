@@ -3,7 +3,7 @@
   "name": "Smother",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_36.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<div>\n<p>If the creature&rsquo;s <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grappled</span></a> opponent is holding its breath, the monster can force that opponent to expel or consume some of its breath, or can otherwise reduce the time remaining until the target has to attempt checks to avoid suffocation.</p>\n<p>If the monster succeeds at a grapple check against the opponent, the remaining duration for which the opponent can hold its breath decreases by 1d6 rounds. If this reduces the remaining time that the creature can hold its breath to 0 rounds or fewer, the DCs of its suffocation checks increase by 5. For example, if the monster is grappling a creature that has 10 rounds remaining before it has to attempt suffocation checks, a successful grapple check reduces that duration by 1d6 rounds.</p>\n<p>If the monster has another ability (such as <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"2wxBJU0qDZ5501Up\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">constrict</span></a>) that harms the opponent when it succeeds at a grapple check, it can automatically use the smother ability when it succeeds at the grapple check to use the other ability.</p>\n<br />\n<p><em>Format</em>: smother</p>\n<p><em>Location</em>: Special Attacks.</p>\n</div>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -201,8 +206,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402604,
+    "modifiedTime": 1665949165311,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

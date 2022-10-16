@@ -3,7 +3,7 @@
   "name": "Booming Scepter",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bejeweled scepter constantly emits a low hum that amplifies the wielder's voice. A booming scepter acts as a +1 thundering light mace that grants the wielder a +5 competence bonus on Intimidate checks and the ability to use shout, as per the spell, once per day. When a booming scepter is held in both hands, the wielder's voice carries far enough to be heard by all creatures within 1 mile, regardless of ambient noise or intervening obstacles, although this feature cannot penetrate the area of a silence spell.<br><p><b>Base Item:</b> +1 thundering light mace</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Rod, shout, ventriloquism</p><h3><b>Source: </b></h3>Heroes Of The High Court",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373010,
+    "modifiedTime": 1665949139392,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

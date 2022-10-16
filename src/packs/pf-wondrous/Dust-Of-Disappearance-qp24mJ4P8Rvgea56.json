@@ -3,7 +3,7 @@
   "name": "Dust Of Disappearance",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dust looks like dust of appearance and is typically stored in the same manner. A creature or object touched by it becomes invisible (as greater invisibility). Normal vision can't see dusted creatures or objects, nor can they be detected by magical means, including see invisibility or invisibility purge. Dust of appearance, however, does reveal people and objects made invisible by dust of disappearance. Other factors, such as sound and smell, also allow possible detection. The greater invisibility bestowed by the dust lasts for 2d6 rounds. The invisible creature doesn't know when the duration will end.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, greater invisibility</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409639,
+    "modifiedTime": 1665949171787,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

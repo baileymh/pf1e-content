@@ -3,7 +3,7 @@
   "name": "Draughtcap fungus",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Draughtcap fungus</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 144</em></p><p><strong>Price</strong> 150 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 16</p><p><strong>Onset</strong> 4d6 hours; <strong>Frequency</strong> 1/hour for 8 hours</p><p><strong>Effect</strong> 1d2 Str damage. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of dehydration no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water. </p><p><strong>Cure</strong> 2 consecutive saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This yellow-brown mushroom is commonly found in deserts and other dry environments. Its spores absorb moisture at an incredible rate, wreaking havoc on the body of any creature foolish enough to consume it. Draughtcap fungus bears a close resemblance to a common edible mushroom, and a successful DC 20 Knowledge (nature) or Survival check is required to differentiate the two.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366854,
+    "modifiedTime": 1665949134766,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

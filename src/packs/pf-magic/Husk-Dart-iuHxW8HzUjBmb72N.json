@@ -3,7 +3,7 @@
   "name": "Husk Dart",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick metal +2 wushu dartUE has a ring at its base tied with a short ribbon of green silk. If the wielder confirms a critical hit against a living creature with the husk dart, the creature is stricken with an insatiable hunger, as feast of ashesAPG (Fortitude DC 16 negates). If the creature fails its saving throw, the husk dart's wielder gains 2d6 temporary hit points that last up to 24 hours and is nourished as though he had just eaten a normal meal; a wielder with the ki pool class feature also regains 1 ki point.<br><p><b>Base Item:</b> 2 wushu dart</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, feast of ashesAPG, lesser restoration</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372863,
+    "modifiedTime": 1665949139268,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

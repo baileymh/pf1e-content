@@ -3,7 +3,7 @@
   "name": "Elixir Of Dragon Breath",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This gurgling, luminescent elixir comes in several different varieties, each keyed to a particular type of metallic or chromatic dragon. A creature that drinks the elixir can, as a standard action, breathe out a single blast of energy similar to a dragon's breath weapon, dealing 7d6 points of energy damage. Creatures in the area may attempt a DC 16 Reflex save for half damage. The magic of the elixir ends after one use of the breath weapon or after 1 hour has passed, whichever comes first. The type of energy produced and the shape of the blast are determined by the elixir's associated dragon type:   Black or copper dragon: 30-foot line of acid.   Blue or bronze dragon: 30-foot line of electricity.   Brass dragon: 30-foot line of fire.   Green dragon: 15-foot cone of acid.   Gold or red dragon: 15-foot cone of fire.   Silver or white dragon: 15-foot cone of cold.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dragon's breath (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409703,
+    "modifiedTime": 1665949171833,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

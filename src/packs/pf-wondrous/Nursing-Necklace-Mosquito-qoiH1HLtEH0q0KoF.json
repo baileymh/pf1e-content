@@ -3,7 +3,7 @@
   "name": "Nursing Necklace, Mosquito",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large, vermin-shaped medallion can crawl free from its setting to heal the wearer's ills. On command, the vermin can animate to perform any function allowable by the Heal skill on the wearer only. The vermin has a +12 bonus on Heal checks for these purposes and acts as if it had unlimited uses of a healer's kit (the circumstance bonus for using a healer's kit is factored into the vermin's bonus on Heal checks). Alternatively, the vermin can aid a healer working to treat the wearer. In this case, the vermin grants the healer a +10 circumstance bonus on Heal checks for this purpose.  Based on its type, the vermin also grants additional benefits to the necklace that might affect creatures other than the wearer, as described below.  Ant: If the wearer's hit point total is negative, the vermin automatically activates and, on the wearer's next turn, performs first aid (even if the wearer is unconscious).  Centipede: On command, the vermin can use the Heal skill to provide long-term care for up to six creatures (which may or may not include the wearer), as long as the targets remain within 30 feet of the wearer for the duration of their rest. (This does not count as the wearer performing long-term care on herself; therefore the vermin can include her in the long-term care given.)  Leech: Once per day on command, the vermin can suck impurities from the blood. This ends any ongoing poison effect if the vermin succeeds at a Heal skill check with a DC equal to the poison's saving throw DC. On a failure, the wearer still receives a +4 competence bonus on her next saving throw against the poison.  Mosquito: Once per day on command, the vermin can neutralize disease in the blood. This ends any ongoing disease if the vermin succeeds at a Heal skill check with a DC equal to the disease's saving throw DC. On a failure, the wearer still receives a +4 competence bonus on her next saving throw against the disease.  Spider: Three times per day on command, the vermin can fire silk webbing over the wounds of a creature within 30 feet. This allows the vermin to attempt a Heal check to stabilize the creature or stop bleed damage at range.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, remove sickness, summon swarm</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409637,
+    "modifiedTime": 1665949171786,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

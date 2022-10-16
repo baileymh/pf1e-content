@@ -3,7 +3,7 @@
   "name": "Hell's Eye",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 flaming light mace has an iron shaft and a polished ruby-red stone head, similar to a gemstone. Sometimes a diabolical eye or face is visible for a moment within the stone. The stone is suitable for use as a scrying device for spells such as scrying. Once per day as a swift action, the wielder can transform the mace's flames to hellfire for 1 minute. This hellfire deals half fire damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage from it. Protection from evil and similar effects protect against the damage from unholy energy.<br><p><b>Base Item:</b> +1 flaming light mace</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, flame blade, flame strike</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372911,
+    "modifiedTime": 1665949139312,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

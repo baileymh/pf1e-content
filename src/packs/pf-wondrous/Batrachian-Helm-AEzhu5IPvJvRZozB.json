@@ -3,7 +3,7 @@
   "name": "Batrachian Helm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This oily bronze helm is fashioned in the shape of a frog's head. Three times per day as a swift action, the helm fires an unerring tongue of force at a visible target within 20 feet.   If the target is an unattended object weighing 250 pounds or less, it is pulled 20 feet toward the wearer. If the target is a creature of the wearer's size or smaller, the wearer may make a combat maneuver check as a free action to pull the target 20 feet toward him.   If the target is a creature larger than the wearer, an unattended object weighing more than 250 pounds, or an immobile structure such as a wall, the wearer is pulled 20 feet toward the target. This movement does not provoke attacks of opportunity, and the object or creature stops if the movement would move it into a solid object or creature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, telekinesis</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404275,
+    "modifiedTime": 1665949166716,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

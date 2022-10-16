@@ -3,7 +3,7 @@
   "name": "Ghost Mirror Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted by Uqtaal spirit-shamans, this ancient +1 ghost touch four-mirror armor (Pathfinder RPG Ultimate Combat 128, or use breastplate) consists of four polished steel plates harnessed together with leather shoulder straps. Two round plates protect the wearer's front and back, while two smaller rectangular plates cover the sides of the torso.  The wearer of ghost mirror armor can cast deathwatch (caster level 1st) three times per day. In addition, when the wearer is attacked by an incorporeal undead creature, the armor automatically casts protection from evil on the wearer as an immediate action up to once per day.<br><p><b>Base Item:</b> +1 ghost touch four-mirror armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, deathwatch, etherealness, protection from evil</p><h3><b>Source: </b></h3>AP 51",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371880,
+    "modifiedTime": 1665949138312,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

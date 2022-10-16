@@ -3,7 +3,7 @@
   "name": "Feather Token, floating feather",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Several varieties of these enchanted feathers are popular in Andoran. Full rules for feather tokens can be found in the Core Rulebook. Floating Feather: This token can be attached to any creature up to 200 pounds, causing a pair of large wings to grow from the target and allowing her to fly (speed 30, average maneuverability) for 1 minute. The token can be attached to an object of up to 200 pounds, which flies straight in a direction indicated by the creature who activates the feather unless the activator uses a move action to redirect its movement. The wings persist for 1 minute.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, major creation</p><h3><b>Source: </b></h3>Andoran",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407989,
+    "modifiedTime": 1665949170220,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

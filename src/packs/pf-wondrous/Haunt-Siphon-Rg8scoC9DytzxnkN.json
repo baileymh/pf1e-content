@@ -3,7 +3,7 @@
   "name": "Haunt Siphon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air.  To capture a haunt's energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)-this can be before or after the haunt has acted. You must be within the haunt's area of influence to use a haunt siphon. When you activate a haunt siphon, it deals 3d6 points of positive energy damage to a single haunt.  If it deals enough damage to the haunt to reduce the haunt's hit points to 0, the mist inside the haunt siphon glows green-if it does not reduce the haunt to 0 hit points, the haunt siphon is still expended and becomes nonmagical. It may take multiple haunt siphons to destroy powerful haunts. A haunt that is neutralized by a haunt siphon takes a -5 penalty on its caster level check to manifest again after its reset time passes.  A haunt siphon that neutralizes a haunt can no longer be used to harm haunts, but it can be used as a grenadelike splash weapon that deals 1d6 points of negative energy damage with a direct hit. Every creature within 5 feet of the point where the haunt siphon hits takes 1 point of negative energy damage from the splash.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure moderate wounds, gentle repose</p><h3><b>Source: </b></h3>AP 43",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406651,
+    "modifiedTime": 1665949168921,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

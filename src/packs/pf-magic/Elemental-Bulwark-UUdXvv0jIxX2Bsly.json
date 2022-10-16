@@ -3,7 +3,7 @@
   "name": "Elemental Bulwark",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 chainmail is attuned to a specific kind of element when created (acid, cold, electricity, or fire) and takes on a colored sheen based on the elemental type (green for acid, blue for cold, silver for electricity, or red for fire.) On command, the wearer of an elemental bulwark can create an effect identical to fire shield, except its effects apply to the type of elemental damage chosen when the armor was crafted. This effect lasts for up to 10 rounds per day, but these rounds need not be used consecutively. Ending this effect is a free action.<br><p><b>Base Item:</b> +2 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fire shield</p><h3><b>Source: </b></h3>Armor Masters Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372365,
+    "modifiedTime": 1665949138796,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Burglar Boots, Minor",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These form-fitting, calfskin boots are dyed black and lightly decorated with raven feathers. grant their wearer a +5 competence bonus on Perception checks to spot or locate traps and devices on the floor with 10 feet. This includes pits, pressure plates, and other mechanical and magical devices located on or attached to the floor. This bonus also applies to AC and on any Reflex saving throws against such traps.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must have 4 ranks in Perception</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410393,
+    "modifiedTime": 1665949172422,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Phoenix Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cloak is made of tough leather, and is decorated with brilliant red and orange feathers. As a free action, the wearer can rub her hands together, setting them alight-thus granting her natural attacks and unarmed strikes the burn special ability (Bestiary 298; 1d6, Reflex DC 14). The wearer can use this ability for up to 10 rounds per day, which don't need to be consecutive.   If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a breath of life spell (CL 9th) and polymorphs into a bird-like creature made of flames (as elemental body II, CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on Fly skill checks due to this maneuverability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, breath of life, elemental body II</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407408,
+    "modifiedTime": 1665949169657,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

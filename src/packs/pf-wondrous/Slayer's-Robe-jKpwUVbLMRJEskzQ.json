@@ -3,7 +3,7 @@
   "name": "Slayer's Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ragged, brown robe could be mistaken for a monk's cassock, but the devotees who wear it are dedicated only to the art of killing. This robe grants the wearer a +5 competence bonus on Stealth checks and Sleight of Hand checks to conceal a weapon, and a +1 resistance bonus on all saving throws. If worn by a slayer, the resistance bonus on saving throws increases to match the slayer's studied target bonus when he is facing a studied target.  On command, the robe's wearer is able to turn into a brown mist (as the gaseous form spell) for up to 5 minutes per day. This duration doesn't need to be continuous, but must be used in 1-minute increments. While the wearer is in this form, the bonus on Stealth checks increases to +10. The wearer can end this effect as a standard action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, gaseous form, guidance</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408513,
+    "modifiedTime": 1665949170724,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

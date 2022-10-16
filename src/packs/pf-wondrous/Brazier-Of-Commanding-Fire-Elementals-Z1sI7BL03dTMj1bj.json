@@ -3,7 +3,7 @@
   "name": "Brazier Of Commanding Fire Elementals",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Decorated in flame motifs and intricate filigree, this deep-sided brass container holds burning coals. When a fire is lit in the brazier and the proper summoning words are spoken (1 full round), a Large fire elemental appears under the command of the speaker, functioning as a summon monster VI spell. If brimstone or alchemist's fire is added, the elemental is Huge instead of large, and the brazier works as a summon monster VII spell. Only one elemental can be summoned at a time. A new elemental requires a new fire, which cannot be lit until after the first elemental disappears (or is dispelled, dismissed, or slain).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster VII</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407324,
+    "modifiedTime": 1665949169577,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

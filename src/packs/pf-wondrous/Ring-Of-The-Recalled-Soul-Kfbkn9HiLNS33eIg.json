@@ -3,7 +3,7 @@
   "name": "Ring Of The Recalled Soul",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell mindscape door, but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the detect mindscapeOA spell.  Once the ring's wearer has connected to the mindscape, he can open the door to that particular mindscape from anywhere on the same plane, so long as the mindscape still exists. Physical distance poses no barrier to the mindscape. Each time the ring's wearer opens the door to a mindscape he has previously visited, he can alter the designated creatures allowed to pass through the door as if he were opening the door for the first time.  The ring's wearer cannot prevent creatures within the mindscape from exiting to the real world so long as the door is open. The ring's wearer can close the door to the mindscape at any time as long as he is not within the mindscape.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, mindscape doorOA</p><h3><b>Source: </b></h3>AP 132",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405602,
+    "modifiedTime": 1665949167908,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

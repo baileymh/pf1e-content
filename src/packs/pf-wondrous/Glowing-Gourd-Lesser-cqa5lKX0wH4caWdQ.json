@@ -3,7 +3,7 @@
   "name": "Glowing Gourd, Lesser",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This gourd has been hollowed out and carved with the symbol of a good-aligned deity. It sheds light as a candle. If the gourd is smashed onto the ground, the 20-foot-radius area around the crushed gourd is affected as if by a consecrate spell for 10 hours, and all non-evil creatures in the area gain the benefits of remove fear for 5 rounds. This magic item is often crafted from a pumpkin, though other types of gourds, or even large turnips, can be used.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, consecrate, remove fear, creator must be good-aligned</p><h3><b>Source: </b></h3>PFS 8-06",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407845,
+    "modifiedTime": 1665949170096,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

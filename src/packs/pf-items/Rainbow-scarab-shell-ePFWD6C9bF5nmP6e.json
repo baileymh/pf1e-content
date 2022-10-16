@@ -3,7 +3,7 @@
   "name": "Rainbow scarab shell",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Rainbow scarab shell</h3><p><strong>Source</strong> <em>Adventurer's Armory 2 pg. 18</em></p><p><strong>Price</strong> 150 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 14</p><p><strong>Onset</strong> 1 round; <strong>Frequency</strong> 1/round for 4 rounds</p><p><strong>Effect</strong> 1d4 Strength  damage and suffocation (see above)</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins suffocating. Creatures that do not breathe are immune to this suffocation, but not the Strength damage.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367364,
+    "modifiedTime": 1665949135210,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Coldfire Wrappings",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When carefully wrapped around the  body of a Medium-sized creature (a process that takes 10 minutes), these magical linen wrappings protect the wearer from fire and provide defense against physical attacks. As an immediate action, the wearer can immolate herself in wispy blue flames that protect the wearer as the chill shield version of fire shield and deal 1d6+10 points of cold damage to attackers. This protection lasts for 10 rounds before the wrappings crumble away into fine ash.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fire shield</p><h3><b>Source: </b></h3>AP 48",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407828,
+    "modifiedTime": 1665949170082,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

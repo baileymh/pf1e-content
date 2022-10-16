@@ -3,7 +3,7 @@
   "name": "Nail Of The Princess",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 scythe has five onyx gems set into its blade. A creature with the ability to channel negative energy can expend one use of that ability to charge the weapon with power, causing one onyx gem per 1d6 points of channeled energy to glow (multiple channels do not stack; the wielder must be able to channel 5d6 points of negative energy to activate all five gems). Anytime the wielder deals damage to a creature with the scythe, he can activate one charged gem as a swift action, releasing its energy and dealing 1d6 points of channeled negative energy damage to the target. Alternatively, as a standard action the wielder can touch the scythe to a willing creature healed by negative energy (such as undead) and release any number of stored charges, each of which heals the target for 1d6 points of damage.<br><p><b>Base Item:</b> +1 scythe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, creator must be able to channel negative energy</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372907,
+    "modifiedTime": 1665949139309,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

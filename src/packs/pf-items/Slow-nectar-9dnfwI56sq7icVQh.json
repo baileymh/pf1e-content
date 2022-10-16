@@ -3,7 +3,7 @@
   "name": "Slow nectar",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Slow nectar</h3><p><strong>Source</strong> <em>Pathfinder #93: Forge of the Giant God pg. 8</em></p><p><strong>Price</strong> N/A; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 17</p><p><strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1d3 Dex damage plus paralysis for 1 round</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>The ettercaps collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365959,
+    "modifiedTime": 1665949133872,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

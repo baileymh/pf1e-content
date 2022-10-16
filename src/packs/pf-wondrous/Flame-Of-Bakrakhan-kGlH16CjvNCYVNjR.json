@@ -3,7 +3,7 @@
   "name": "Flame Of Bakrakhan",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ancient Thassilonian diadem is crafted in the shape of an enraged face with an enormous ruby in the center. The gem allows its wearer to channel her rage into pure flame. While under the effects of rage, as a standard action the wearer can expend 1 round of rage or raging song to cause the ruby to release a beam of fire like a miniature hellfire flume. If the wearer succeeds at a ranged touch attack against a creature or object within 30 feet, the beam deals 2d6 points of fire damage to that target. If the wearer instead expends 3 rounds of rage, bloodrage, or raging song, the beam becomes a 60-foot line instead, dealing 5d6 points of fire damage to all creatures and objects along that line (Reflex DC 14 negates).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, scorching ray</p><h3><b>Source: </b></h3>Advanced Class Origins",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408562,
+    "modifiedTime": 1665949170757,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

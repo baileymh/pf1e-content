@@ -3,7 +3,7 @@
   "name": "Death's Head Talisman 18HD",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet allows the wearer to command a number of undead skeletons and zombies, which are keyed to the amulet when it is created. The animation of the undead is part of the creation process-undead that have already been created cannot be bound to a death's head talisman. The number of HD of undead tied to the amulet is equal to twice the amulet's caster level. The amulet allows the wearer to command the undead as if she had created them with animate dead, even if she has no magical talent of her own. The undead are only under control while the amulet is worn; if the amulet is removed, the undead revert to normal behavior, standing in place but responding if attacked. Once the specific undead tied to the amulet are destroyed, the talisman loses all power.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead</p><h3><b>Source: </b></h3>City of Strangers",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404294,
+    "modifiedTime": 1665949166731,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

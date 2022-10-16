@@ -3,7 +3,7 @@
   "name": "Circlet Of Speaking",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thin, silver circlet allows an animal wearing it to speak, even if it is not normally capable of doing so because of its low Intelligence score or lack of known languages. The creator of the item decides what language the circlet's wearer can speak when she crafts the item (typically Common); once crafting is complete, this cannot be changed. A circlet of speaking does not grant an animal a bonus to Intelligence, and the wearer's general behavior remains largely the same while it wears a circlet of speaking, though it can communicate its desires and rudimentary knowledge as though being spoken to via speak with animals.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, speak with animals</p><h3><b>Source: </b></h3>Animal Archive",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410442,
+    "modifiedTime": 1665949172458,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

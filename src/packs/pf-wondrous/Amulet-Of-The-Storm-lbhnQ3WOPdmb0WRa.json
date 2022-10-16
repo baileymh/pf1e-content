@@ -3,7 +3,7 @@
   "name": "Amulet Of The Storm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a single piece of reddish coral, this small amulet is shaped into a swirling, counterclockwise spiral centered behind a leaf. The design and creation of these amulets is credited to the original Storm Kindlers, and they are rarely found outside of Garund. When worn, the amulet provides energy resistance 5 against cold and electricity. If the wearer worships Gozreh, the energy resistances both increase to 10. The wearer automatically identifies spells with the air, electricity, or water descriptor that are cast in her presence, as if she had succeeded at a Spellcraft check to do so. Once per day as an immediate action, the wearer of an amulet of the storm can attempt to counterspell any spell containing the air, electricity, or water descriptor as if the wearer were casting dispel magic. If this counterspell attempt is successful, it redirects the magical energy back at the caster in the form of bolts of lightning, dealing 1d6 points of electricity damage per level of the spell that was countered to the spell's original caster. A successful DC 18 Reflex save halves this damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dispel magic, protection from energy, creator must be a worshiper of Gozreh</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408996,
+    "modifiedTime": 1665949171181,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

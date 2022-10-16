@@ -3,7 +3,7 @@
   "name": "Stargazer's Glass",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This spyglass grants enhanced vision of celestial bodies and the movements of the cosmos in the dark of night. Anyone looking through the spyglass gains a +5 competence bonus on skill checks to learn about the movements of the heavens or the constellations. These are typically Knowledge (nature) checks.  9th Level: Objects viewed through the spyglass are magnified to 4 times their size instead of 2 times their size. This ability functions at all times, not just at night.  11th Level: Looking through the spyglass also grants the viewer low-light vision at night, and objects viewed through the spyglass are magnified to 6 times their size.  13th Level: While outdoors at night and looking through the stargazer's glass, the user can increase the range of a spell she casts of the pattern subschool or with the light descriptor as if using the Reach Spell metamagic feat (Pathfinder RPG Advanced Player's Guide 168). She increases the spell's range by one  category-from touch to close range, close to medium range, or medium to long range-without increasing the spell's level. This ability can be used once per night. Objects viewed through the spyglass are magnified to 8 times their size.  15th Level: The user can extend the range of the spell by two categories instead of one. Objects viewed through the spyglass are magnified to 10 times their size.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Reach SpellAPG, clairaudience/clairvoyance, keen senseAPG</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405371,
+    "modifiedTime": 1665949167777,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Soul Jar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An empty soul jar can be used to contain a soul that has been successfully trapped in a black sapphire via soul bind. Holding the gemstone against the soul jar's lid for 1 full round transfers the soul in the gem to the soul jar (which can hold the soul of a creature of up to 20 Hit Dice), leaving the black sapphire unharmed 50% of the time. The rest of the time, transferring the soul from gem to jar shatters the black sapphire. A creature that can use soul bind as a spell-like ability (and thus does not use a focus) can automatically place a captured soul in a held soul jar as the spell-like ability is used. A soul in a soul jar cannot travel to the Boneyard to be judged, but can be restored to life via resurrection or more powerful magic. A soul jar can contain only one soul at a time. Soul jars are fragile (hardness 1, hp 10); if a soul jar is broken, the soul held within immediately escapes to the Boneyard.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, soul bind</p><h3><b>Source: </b></h3>Curse Of The Crimson Throne Chapter Appendix",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408471,
+    "modifiedTime": 1665949170689,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

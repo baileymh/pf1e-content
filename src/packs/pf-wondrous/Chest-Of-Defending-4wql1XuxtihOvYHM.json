@@ -3,7 +3,7 @@
   "name": "Chest Of Defending",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This appears to be a complex wooden chest of immense size-at least 5 feet long and 3 feet wide and tall, with numerous drawers, side-compartments, hatches, and lids and ornately carved feet and scrollwork trim. In spite of its size, a chest of defending has an interior volume of 6 cubic feet. It has permanent alarm and arcane lock spells cast on it, which can be set to acknowledge a specific creature as the effective caster of the spells with a command word (thus allowing that creature to determine the details of the chest's spells as if she had cast them). This password is normally carved in one of the small drawers. All the compartments of the chest have average quality locks, and can be further locked with padlocks (not included).  If the chest's alarm spell is triggered, the chest's most impressive magic property comes into effect: it alters shape and composition to become a Medium wood golem (the chest's contents are unharmed by the transformation). Unless given different instructions by someone who uses the chest's command word, the golem attacks the creature that triggered its alarm, then folds back into a normal chest once the trespasser is defeated. All the items within the chest count against the golem's encumbrance.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Construct, Craft Wondrous Item, alarm, animate objects, cat's grace, geas/quest, limited wish, creator must be at least caster level 12th, creator must succeed at a DC 17 Craft (carpentry) check</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403681,
+    "modifiedTime": 1665949166144,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

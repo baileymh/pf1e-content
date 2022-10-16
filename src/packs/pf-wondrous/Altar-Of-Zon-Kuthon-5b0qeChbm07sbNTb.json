@@ -3,7 +3,7 @@
   "name": "Altar Of Zon-Kuthon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar is a veiled box of thick steel designed to house ritual implements of torture and self-mutilation in perfect darkness.  Praying at the altar grants the worshiper a +2 competence bonus on attack rolls, weapon damage rolls, and saving throws for 1 minute whenever the worshiper takes damage or is the target of a pain effect during the next 24 hours after praying at the altar. Multiple sources of damage or pain reset this duration rather than stack.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic circle against chaos, magic circle  against good, rage, creator must worship Zon-Kuthon</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404022,
+    "modifiedTime": 1665949166531,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

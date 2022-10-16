@@ -3,7 +3,7 @@
   "name": "Skin of Klendar the Troll King",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This suit of mottled, greenish hide armor has no seams, as if it were made from a single large, disgusting skin. When worn, it tightens to fit snugly against the body. The skin acts as a suit of +2 hide armor and grants the wearer 5 temporary hit points. These hit points regenerate at a rate of 1 hp per round. If the wearer is damaged by fire or acid, the temporary hit points do not regenerate, but may be restored by magical healing. In addition, while wearing the armor, the bearer finds that he can speak Giant with a commanding voice. The wearer gains a +2 bonus on all Diplomacy or Intimidate skill checks made to influence any creature with the giant subtype. This bonus extends to all giants except trolls, which prove utterly offended by the armor, which all too readily resembles the flayed flesh of one of their kind. Any troll treats the wearer of the armor one step less favorably than it otherwise would. In addition, even the most charismatic can never improve a troll's attitude any higher than indifferent while wearing the armor.<br><p><b>Base Item:</b> +2 hide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, aid, regenerate</p><h3><b>Source: </b></h3>AP 27",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372359,
+    "modifiedTime": 1665949138792,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

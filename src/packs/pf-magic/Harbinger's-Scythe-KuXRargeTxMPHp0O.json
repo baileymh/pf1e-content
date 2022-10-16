@@ -3,7 +3,7 @@
   "name": "Harbinger's Scythe",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 scythe has a handle carved of bone and topped with a single onyx gem. Once per day when the wielder of the weapon confirms a critical hit against a foe, she can command the blade to release a wave of soul-stealing power. All enemies within a 10-foot-radius burst of the wielder must succeed at a DC 16 Will save or gain 1 temporary negative level. After 1 hour, these temporary negative levels disappear automatically without requiring a saving throw. This ability is not triggered by a critical hit against a helpless or unaware creature or a creature that has a number of Hit Dice less than half the wielder's total Hit Dice.<br><p><b>Base Item:</b> +2 scythe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, enervation</p><h3><b>Source: </b></h3>AP 139",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372189,
+    "modifiedTime": 1665949138624,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

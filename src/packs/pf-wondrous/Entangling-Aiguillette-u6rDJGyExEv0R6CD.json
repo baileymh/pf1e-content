@@ -3,7 +3,7 @@
   "name": "Entangling Aiguillette",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This length of prickly green vine is woven into a living aiguillette worn around the shoulder. Once per day as an immediate action when the wearer is struck by a melee attack, she can compel the vine to uncoil and wrap around the attacker, causing the attacker to become entangled (Reflex DC 13 negates). An entangled creature cannot move from its space. At the start of the entangled creature's turn, it can attempt a new saving throw against the entangling aiguillette, though the DC increases by 1 for each round the creature fails its save (to a maximum of 16 after 3 rounds). The entangled creature can also untangle itself as a move action by succeeding at a DC 13 Strength or Escape Artist check. The entangling aiguillette's owner cannot move while entangling a creature, but can release an entangled creature as a free action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, entangle</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409863,
+    "modifiedTime": 1665949171935,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rimeheart Amulet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant endure elements effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use frigid touch (Pathfinder RPG Ultimate Magic 221) as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calm emotions, endure elements, frigid touchUM</p><h3><b>Source: </b></h3>Ships Of The Inner Sea",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403695,
+    "modifiedTime": 1665949166157,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

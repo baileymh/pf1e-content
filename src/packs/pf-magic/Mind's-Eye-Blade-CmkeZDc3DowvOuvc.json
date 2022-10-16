@@ -3,7 +3,7 @@
   "name": "Mind's Eye Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The hilt of this ornate +2 dagger is engraved with a depiction of a human clutching the sides of her head. When a creature takes damage from the blade, its mind rejects the presence of the wielder. The blade's wielder gains concealment (20% miss chance) against the damaged creature's attacks for 1 round. Multiple hits don't further increase the concealment effect or its duration. This is a mind-affecting effect.  Three times per day, when the wielder of a mind's eye blade  performs a coup de grace or sneak attack against an opponent, the wielder immediately receives a piece of information from the target's mind. The target can attempt a DC 16 Will save to negate this effect. The target can then attempt a DC 21 Bluff check; if it fails, the wielder gains the information she desires. If the target succeeds at its check, the wielder gains no information. If the target succeeds by 5 or more, however, it can choose what answer to provide, and the wielder believes that answer to be true. Subsequent attempts to gain the same piece of information from the same creature yield the same result. If the wielder doesn't specify the piece of information she wishes to retrieve, the GM determines what information she learns.<br><p><b>Base Item:</b> +2 dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mind probeOA</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371829,
+    "modifiedTime": 1665949138273,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

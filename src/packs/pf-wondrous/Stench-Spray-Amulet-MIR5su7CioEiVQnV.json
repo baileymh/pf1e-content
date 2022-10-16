@@ -3,7 +3,7 @@
   "name": "Stench Spray Amulet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fetish of bone, shed reptilian skin, and small stones can be worn around the neck to convert a creature's stench into a breath weapon. It has no benefits for a creature that doesn't have the stench special ability. While a creature wears this amulet, its stench aura is suppressed. Once per hour as a standard action, the creature can spray a brown slime from its mouth in a 30-foot cone. Any creature hit by the slime must succeed at a Fortitude saving throw or become sickened for the same duration. The save DC and duration are the same as those of the wearer's stench aura.  Furthermore, the floor in the cone becomes coated in the slick slime for 1 minute. This has the same effects as coating a solid surface with a grease spell (DC 11), but doesn't require creatures to attempt saving throws if they're in the area when the cone is created-only if they move through the area.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, grease</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406025,
+    "modifiedTime": 1665949168343,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

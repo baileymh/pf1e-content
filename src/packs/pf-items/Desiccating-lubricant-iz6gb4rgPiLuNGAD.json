@@ -3,7 +3,7 @@
   "name": "Desiccating lubricant",
   "type": "consumable",
   "img": "icons/commodities/materials/slime-white.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Desiccating lubricant</h1><b>Source</b> <i>Alchemy Manual pg. 23</i><br/><b>Price</b> 30 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This oily solution draws water out of living creatures (especially amorphous creatures), simultaneously dehydrating them and drenching their surfaces with a slick, sickly cold sweat. Desiccating lubricant can be thrown as a splash weapon with a range increment of 10 feet. A living creature struck by a direct hit from desiccating lubricant takes 1d4 points of nonlethal damage; a -2 penalty on combat maneuver checks to grapple, bull rush, or disarm; and a -2 penalty to CMD against grapple, bull rush, and disarm checks. These penalties last 1 minute. Against ooze creatures and creatures with the water subtype, desiccating lubricant deals 2d4 points of lethal damage and the penalties increase to -4.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (25 cold iron + 10 salt + 10 urea)/congelation; <b>Craft</b> 20<br/><b>Time</b> 10 minutes; <b>Tools</b> alchemist's lab; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367646,
+    "modifiedTime": 1665949135488,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Amulet Of Euphoric Healing",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These glass amulets hold bubbling red liquid and often feature a religion's or deity's holy symbol, most commonly that of Asmodeus or Zon-Kuthon. While worn, the amulet tinges the user's healing magic with a wash of ecstasy that acts as a magical drug, making the recipient of the magical healing susceptible to mental manipulation by the wearer. Anytime the wearer casts a healing spell or uses a spell-like ability on a single target, the recipient of the magical healing additionally must succeed at a DC 13 Fortitude save or become addicted to the wearer's healing spells. The wearer can suppress this effect by shielding the amulet from view with a hand or held item as a free action. The drug has the following statistics.  EUPHORIC HEALING  Type spell Addiction minor, Fortitude DC 13  Effect 24 hours, -2 penalty against all mind-affecting spells cast by the amulet's wearer  Damage 1 Wis damage<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, enthrall</p><h3><b>Source: </b></h3>Champions Of Corruption",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403527,
+    "modifiedTime": 1665949166024,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

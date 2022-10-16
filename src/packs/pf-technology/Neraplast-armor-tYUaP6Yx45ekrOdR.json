@@ -3,7 +3,66 @@
   "name": "Neraplast armor",
   "type": "equipment",
   "img": "icons/equipment/chest/breastplate-sculpted-green.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #85: Fires of Creation pg. 60</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 1,200 gp</p><p><strong>Type</strong> Light; <strong>Weight</strong> 5 lbs.; <strong>Armor Bonus</strong> +2</p><p><strong>Max Dex Bonus</strong> +8; <strong>Armor Check Penalty</strong> 0</p><p><strong>Arcane Spell Failure Chance</strong> 5%</p><p><strong>Speed (30 ft.)</strong> 30 ft.; <strong>Speed (20 ft.)</strong> 20 ft.</p><p><strong>Capacity</strong> 24 ; <strong>Usage</strong> 1 charge</p><h2 class=\"framing\">Description</h2><p>This lightweight, formfitting bodysuit features a variety of pockets, straps, and a built-in interface for automatically adjusting the various colors and patterns on its fabric. Selecting a color or pattern is a full-round action that consumes 1 charge and provokes an attack of opportunity. Capable of cycling through dozens of hues, the armor can even be used to adopt sophisticated camouflage patterns that grant a +3 competence bonus on Stealth checks. Whenever the wearer enters a terrain of significantly different coloration and background patterns, the armor must be recalibrated to its current area to maintain this bonus.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 22; <strong>Cost</strong> 600 gp</p><p>Craft Technological Arms and Armor, production lab</p>",
       "chat": "",
@@ -78,6 +137,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 24,
           "maxFormula": "",
@@ -133,6 +197,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +237,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "lightArmor",
@@ -185,6 +249,7 @@
     "spellFailure": 5,
     "slot": "armor",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,66 +322,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387915,
+    "modifiedTime": 1665949152245,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

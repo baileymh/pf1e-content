@@ -3,7 +3,12 @@
   "name": "Crystalline Dust (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/races/aphorite.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.S6KYcYGjNvaK5Wvf"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Aphorite&nbsp;</p>\n<hr />\n<p>An aphorite can manifest a haze of crystalline dust that forms into indistinct runes and glyphs surrounding its body. This effect grants the aphorite a 20% miss chance against melee and ranged attacks. Activating this dust is a move action, but it can be maintained each round as a free action. The effect cannot be disrupted, but it ends immediately if the aphorite is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. An aphorite can use this ability a number of rounds per day equal to its Hit Dice, but the rounds do not need to be consecutive.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.S6KYcYGjNvaK5Wvf"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384240,
+    "modifiedTime": 1665949148567,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

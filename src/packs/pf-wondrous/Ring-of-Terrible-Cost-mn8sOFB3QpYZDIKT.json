@@ -3,7 +3,7 @@
   "name": "Ring of Terrible Cost",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These rings once displayed the smiling face of King Gaspodar, and were forged in limited quantities to celebrate the end of his reign. After Aroden's death, the rings were cast aside or lost.  Recently, several resurfaced, but changed by unknown means- Gaspodar's face now bears a sorrowful expression, and flames loom behind him.  As a standard action, you may charge the ring with a +1 profane bonus by sacrificing 2 of your hit points. These hit points remain lost and cannot be healed by any means until the ring's power is expended. You may do this multiple times, up to a maximum of a +5 profane bonus stored in the ring.  As an immediate action, you can add the stored profane bonus to any single attack roll, damage roll, skill check, or saving throw, which expends the charged energy from the ring. You must declare this use after rolling the die but before you learn the result of the roll. You must expend all the ring's power at once. Once the charge is expended, you can heal your lost hit points normally. Expending this charge does not ruin the ring, and you may charge it again by sacrificing more hit points.  The charge in the ring can come from multiple donors, but none of the donors can regain their sacrificed hit points until the ring's charge is spent or the ring is destroyed. For this reason, owners of a ring of terrible cost guard the item carefully.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, aid, resistance, vampiric touch</p><h3><b>Source: </b></h3>Cheliax Empire Of Devils",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409080,
+    "modifiedTime": 1665949171244,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

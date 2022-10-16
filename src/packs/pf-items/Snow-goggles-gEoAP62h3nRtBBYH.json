@@ -3,7 +3,7 @@
   "name": "Snow goggles",
   "type": "equipment",
   "img": "icons/equipment/head/goggles-leather-blue.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #51: The Hungry Storm pg. 67</em><br/><strong>Price</strong> 12 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\">Description</h2><p>These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as smoked goggles (<em>Advanced Player's Guide </em>183). In addition, they provide immunity to polar mirages.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367581,
+    "modifiedTime": 1665949135437,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Mountainshaper's Girdle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wide belt grants the wearer a +4 enhancement bonus to Strength. In addition, the wearer can spend 1 ki point to use stone shape. When he uses this ability, he can instead choose to shape metal, but he can affect only one-tenth as much material. To shape a usable weapon out of metal or stone, the wearer must succeed at a Craft (weapons) check. Items created in this way can never be of masterwork quality.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bear's endurance, stone shape</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404141,
+    "modifiedTime": 1665949166614,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

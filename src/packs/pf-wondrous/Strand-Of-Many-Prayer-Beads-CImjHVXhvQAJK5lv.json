@@ -3,7 +3,7 @@
   "name": "Strand Of Many Prayer Beads",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item appears to be a simple string of prayer beads until the owner casts a divine spell while carrying the beads. Once that occurs, she learns how to activate one of the strand's special beads-a bead of blessing-to cast bless once per day.  9th Level: The owner can also activate the strand's bead of healing to cast cure serious wounds once per day.  10th Level: The owner can also activate the strand's bead of healing to cast remove blindness/deafness or remove disease instead of cure serious wounds.  14th Level: The owner can also activate the strand's bead of smiting to cast chaos hammer, holy smite, order's wrath, or unholy blight (whichever was used to craft the item) once per day.  16th Level: The owner can also activate the strand's bead of karma to cast her spells with a +4 caster level bonus for 10 minutes once per day.  19th Level: The owner can also activate the strand's bead of wind walking to cast wind walk once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless, cure serious wounds, remove blindness/deafness, remove disease, righteous might, wind walk, and either chaos hammer, holy smite, order's wrath, or unholy blight</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404652,
+    "modifiedTime": 1665949167165,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

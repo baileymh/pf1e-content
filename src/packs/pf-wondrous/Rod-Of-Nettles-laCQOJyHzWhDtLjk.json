@@ -3,7 +3,7 @@
   "name": "Rod Of Nettles",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wooden rod is engraved with serrated-edged leaves of stinging nettles. This rod acts as a +1 light mace that deals no damage. Instead, the rod's venomous touch (melee touch attack) deals 1d3 points of Dexterity damage and causes the target to become sickened for 1d6 rounds (DC 14 Fortitude negates the sickened effect and halves the Dexterity damage); on a critical hit, no saving throw is allowed.  Once per day on command, the wielder may touch the rod of nettles to ordinary vegetation, causing a 20-foot cube to become tangled with nettle-choked overgrowth as the overgrowth ability of the plant growth spell. Furthermore, creatures entering or within this area are affected as if touched by the rod, though creatures with a natural armor bonus of +3 or greater are immune to this effect. A creature that saves is unaffected by the area's poison for 24 hours.<br><p><b>Base Item:</b> +1 light mace</p><h3><b>Requirements</b></h3><p>Craft Rod, plant growth, poison</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408993,
+    "modifiedTime": 1665949171178,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

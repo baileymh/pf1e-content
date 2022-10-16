@@ -3,7 +3,7 @@
   "name": "Maintenance Overseer's Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tarnished signet is marked as belonging to a specific city no smaller than a large town, though it functions in any settlement of at least that size. After spending 5 days in a settlement with the maintenance overseer's ring equipped, its wearer learns a great deal about the schematics of any sewers, tunnels, basements, and passages beneath the settlement. This knowledge is not necessarily absolute, but allows the wearer to act as though trained in Knowledge (dungeoneering) when answering questions about the settlement's underground with a +5 bonus on all such checks.  A maintenance overseer's ring also grants the wearer an automatic Perception check to notice secret doors within 10 feet in any area beneath street level of a city to which the ring is attuned. A wearer who already receives a Perception check to perceive a secret door (such as a dwarf using stonecunning) rolls her Perception check twice and takes the better result.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, create treasure mapAPG</p><h3><b>Source: </b></h3>Heroes Of The Streets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408497,
+    "modifiedTime": 1665949170711,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

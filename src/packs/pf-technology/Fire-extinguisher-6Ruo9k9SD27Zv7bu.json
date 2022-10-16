@@ -3,7 +3,7 @@
   "name": "Fire extinguisher",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/ice_09.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 44</em></p><p><strong>Price</strong> 6,000 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 7 lbs.</p><p><strong>Capacity</strong> 10 (disposable); <strong>Usage</strong> 1 charge</p><h2 class=\"framing\">Description</h2><p>This cylindrical device has a nozzle at one end and a handle on one side. When activated as a standard action, a fire extinguisher creates a 15-foot cone of misty vapor that swiftly extinguishes fires within its area of effect. Against magical fire effects, such as those created by a <em>wall of fire</em> or similar spell, the fire extinguisher only extinguishes the part of the larger effect its vapors directly contact. Continual magic flames, such as those of a <em>flaming</em> weapon or fire creature, are suppressed for 6 rounds before they automatically reignite. To extinguish an instantaneous fire effect or spell, the wielder must use a readied action with the fire extinguisher to counter the effect; this can cancel the entire effect, provided the source of the effect is in the extinguisher's area of effect.</p><p></p><p> When used against a creature of the fire subtype, a blast from a fire extinguisher deals 4d6 points of damage (Reflex DC 15 halves). A breathing creature exposed to a direct blast from a fire extinguisher is not harmed as long as the area is relatively well-ventilated-using a fire extinguisher in a confined area with poor or no ventilation can result in slow suffocation (at the GM's discretion).</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 26; <strong>Cost</strong> 3,000 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387644,
+    "modifiedTime": 1665949152009,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

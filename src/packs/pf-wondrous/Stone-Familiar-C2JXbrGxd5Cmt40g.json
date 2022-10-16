@@ -3,7 +3,7 @@
   "name": "Stone Familiar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This life-sized carving of a Tiny animal is crafted from dark, rough stone. It has a hardness of 8 and 20 hit points. A witch can use the stone familiar to store up to 500 levels of spells (cantrips count as 1/2 level for this purpose). A witch can use the stone familiar to teach her living familiar any spells stored in it, and vice versa. A witch who identifies a stone familiar immediately knows what spells are stored inside it. A stone familiar is never found as randomly generated treasure with spells already stored in it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, share memory (Ultimate Magic), creator must be a witch</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404637,
+    "modifiedTime": 1665949167153,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

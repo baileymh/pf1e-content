@@ -3,7 +3,7 @@
   "name": "Litchina",
   "type": "equipment",
   "img": "icons/equipment/head/mask-carved-wood-white.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Distant Shores pg. 63</em><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\">Description</h2><p>Though Taramai is long dead, and that first Keleshite invasion now little more than scattered stone foundations crumbling amid the grass, his legacy remains a point of great cultural pride among the Kara, with several leaders since having claimed to be his reincarnation. Taramai also pioneered the now-standard Kara practice of wearing the litchina-a metal face mask sculpted to match a given warrior's face, so that the enemy can never read any fear or pain in a Kara's expression. Each warrior must earn his or her litchina in battle, and most Kara would sooner fight naked than go without theirs.<br/><br/> To be worn properly, a litchina must be attached to a helm or headpiece of some sort (usually via small hooks). While worn in this manner, it grants the wearer a +1 competence bonus to Intimidate. A magically enhanced litchina can count as occupying either the head, headband, or eyes slot (determined at the time of item creation). A standard litchina costs 100 gp and weighs 2 pounds.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "mask",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367820,
+    "modifiedTime": 1665949135621,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

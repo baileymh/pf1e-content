@@ -3,7 +3,12 @@
   "name": "Blood Sap",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.JcSk6YRzDcEhs3jj"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Rival Guide pg. 53</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>150 gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>30 minutes; +1d4 Str and +1d3 Dex, then slowed (as per the spell @Compendium[pf1.spells.jcr72piqo6g549e1]{Slow}) for 3 hours</p>\n<p><strong>Damage </strong>1d4 Con damage</p>\n<p>Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.JcSk6YRzDcEhs3jj"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367171,
+    "modifiedTime": 1665949135060,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

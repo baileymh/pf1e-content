@@ -3,7 +3,7 @@
   "name": "Armor of the Tireless Warrior",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted by shamans of the Yumogu tribe for their mightiest chieftains, this undecorated +3 leather armor is made from strips of boiled horsehide. While her enemies tire around her, the wearer of this armor can keep fighting. If the wearer is a barbarian, the armor of the tireless warrior allows her to rage for 2 additional rounds per day. Once per day on command, the wearer can cause her enemies to become fatigued, as per the waves of fatigue spell. In addition, once per day, the wearer can draw upon the armor's strength to banish her own weariness. For 10 minutes, the wearer takes no penalties from the fatigued or exhausted conditions. This effect is merely an illusion, however, and when it ends, the wearer takes 1d6 points of nonlethal damage and the condition or conditions return.<br><p><b>Base Item:</b> +3 leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, invigorate (Pathfinder RPG Advanced Player's Guide 230), rage, waves of fatigue</p><h3><b>Source: </b></h3>AP 53",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373021,
+    "modifiedTime": 1665949139400,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

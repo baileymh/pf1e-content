@@ -3,7 +3,7 @@
   "name": "Caller's Feather",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magnificent feather, plucked from the wing of a powerful erinyes or angel, allows the wearer to call stronger outsiders to her service. The wearer can use the feather to call 2 more HD  worth of creatures when casting a planar binding or planar ally spell (including lesser and greater versions) or when casting gate. Alternatively, when casting one of these spells, the spellcaster can expend this feather to summon a single outsider with up to 2 more Hit Dice than the spell would normally allow. For example, he may summon a trumpet archon with planar ally, or a pit fiend with greater planar binding. The wearer gains a +2 insight bonus on all Charisma checks and Charisma-based skill checks to influence the creature called. Once used, the feather crumbles to mundane dust.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, planar ally or planar binding</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406178,
+    "modifiedTime": 1665949168456,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

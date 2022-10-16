@@ -3,7 +3,7 @@
   "name": "Pathfinder Pouch",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This nondescript belt pouch is quite popular among Pathfinders who need to smuggle items past snooping guards or government officials. Detect magic does not detect that it is magical (as per the magic aura spell), but the pouch acts as a very small bag of holding (contents limit 10 pounds, volume limit 2 cubic feet). With a command word, the wearer can close or open the extradimensional space within the pouch; when closed, the pouch holds no more than a mundane belt pouch the size of a human fist, though objects within the extradimensional space remain stored, unreachable until the pouch is unsealed again. This allows the user to empty his pockets or even turn the pouch inside-out to prove he carries no contraband, and access the hidden goods later when in a safe place. Because of their nonmagical auras, these pouches sometimes hold secret treasures for generations without their owners realizing their nature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic aura, secret chest</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410387,
+    "modifiedTime": 1665949172417,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

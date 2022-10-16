@@ -3,7 +3,7 @@
   "name": "Dusty Rose Prism Cracked Ioun Stone",
   "type": "equipment",
   "img": "systems/pf1/icons/spells/light-air-fire-1.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2>Description</h2>\n<p>These crystalline stones always float in the air and must be within 3 feet of their owner to be of any use. When a character first acquires a stone, she must hold it and then release it, whereupon it takes up a circling orbit 1d3 feet from her head. Thereafter, a stone must be grasped or netted to separate it from its owner. The owner may voluntarily seize and stow a stone (to keep it safe while she is sleeping, for example), but she loses the benefits of the stone during that time. Ioun stones have AC 24, 10 hit points, and hardness 5.</p>\n<p>+1 competence bonus to Initiative.</p>\n<p><strong>Base Item:</strong></p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Wondrous Item, creator must be 12th level</p>\n<h3><strong>Source: </strong></h3>\n<p>PFRPG Core</p>",
       "chat": "",
@@ -14,7 +14,7 @@
     "weight": {
       "value": 0
     },
-    "price": 5000,
+    "price": 500,
     "size": "med",
     "equipped": true,
     "resizing": false,
@@ -56,11 +56,12 @@
     "contextNotes": [],
     "actions": [],
     "uses": {
-      "per": null,
+      "per": "",
       "value": 0,
       "maxFormula": "",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1"
+      "autoDeductChargesCost": "1",
+      "max": 0
     },
     "attackNotes": [],
     "effectNotes": [],
@@ -78,7 +79,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -91,6 +91,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -112,13 +113,22 @@
     "attackType": "weapon",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "nonlethal": false
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407405,
+    "modifiedTime": 1665951131660,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

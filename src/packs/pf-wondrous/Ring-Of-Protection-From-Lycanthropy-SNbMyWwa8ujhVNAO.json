@@ -3,7 +3,7 @@
   "name": "Ring Of Protection From Lycanthropy",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The delicate silver ring holds 3 moonstones (1,500 gp value as jewelry alone). In addition to its monetary value, the ring grants the wearer immunity to all forms of lycanthropy. Should the ring be placed on the finger of an afflicted lycanthrope, the target is allowed an immediate DC 25 Will save to throw off the effects of the curse. The ring cannot remove lycanthropy from a natural lycanthrope.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, remove curse</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406696,
+    "modifiedTime": 1665949168955,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

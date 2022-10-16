@@ -3,7 +3,7 @@
   "name": "Pale Green Prism Cracked Ioun Stone",
   "type": "equipment",
   "img": "systems/pf1/icons/spells/light-eerie-1.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2>Description</h2>\n<p>These crystalline stones always float in the air and must be within 3 feet of their owner to be of any use. When a character first acquires a stone, she must hold it and then release it, whereupon it takes up a circling orbit 1d3 feet from her head. Thereafter, a stone must be grasped or netted to separate it from its owner. The owner may voluntarily seize and stow a stone (to keep it safe while she is sleeping, for example), but she loses the benefits of the stone during that time. Ioun stones have AC 24, 10 hit points, and hardness 5.</p>\n<p>+1 competence bonus on attack rolls or saving throws</p>\n<p><strong>Base Item:</strong></p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Wondrous Item, creator must be 12th level</p>\n<h3><strong>Source: </strong></h3>\n<p>PFRPG Core</p>",
       "chat": "",
@@ -78,7 +78,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -91,6 +90,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -117,8 +117,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406154,
+    "modifiedTime": 1665949168440,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

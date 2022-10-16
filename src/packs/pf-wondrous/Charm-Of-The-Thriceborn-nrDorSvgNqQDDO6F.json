@@ -3,7 +3,7 @@
   "name": "Charm Of The Thriceborn",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A creature carrying this knot-shaped charm for 3 full days becomes its owner until she loses possession of it. A creature can only be the owner of a single charm of the thriceborn. At the start of each day, the charm's owner rolls 3d20 and keeps their results as her charmed dice. Once during that day, instead of rolling a d20, the charm's owner can instead use the result of one of the three charmed dice, randomly selected (roll 1d3 to choose).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, threefold sight</p><h3><b>Source: </b></h3>Legacy Of The First World",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409152,
+    "modifiedTime": 1665949171292,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

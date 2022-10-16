@@ -3,7 +3,7 @@
   "name": "Stench-gas bladder",
   "type": "consumable",
   "img": "icons/sundries/survival/wetskin-leather-red.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Stench-gas bladder</h1><b>Source</b> <i>Pathfinder #115: Trail of the Hunted pg. 41</i><br/><b>Price</b> 30 gp; <b>Weight</b> 1/2 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This thin bladder splits when it hits a target. You can throw a gas bladder as a ranged weapon with a range increment of 10 feet. Any creature struck by a gas bladder must succeed at a DC 14 Fortitude save or be sickened for 1d6 rounds.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368091,
+    "modifiedTime": 1665949135846,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

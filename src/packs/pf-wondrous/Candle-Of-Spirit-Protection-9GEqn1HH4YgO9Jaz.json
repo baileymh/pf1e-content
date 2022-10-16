@@ -3,7 +3,7 @@
   "name": "Candle Of Spirit Protection",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from collected ectoplasm and wax, candles of spirit protection ward off creatures from the spirit world. To function, a candle of spirit protection must be placed in the desired area. When it's lit, fine lines of smoke coil out, creating a circular line of smoke in a 10-foot radius around the candle. This area is protected against intrusion by astrally projected creatures, ethereal creatures, haunts, incorporeal creatures, mediums channeling a spirit, and phantoms, and at the GM's discretion can affect other spirits or creatures made of ectoplasm. Such creatures can't enter the area of effect, and act as though they were affected by an antilife shell that specifically targets them and no other creatures.  The candle can't be moved once it is lit; attempting to do so ends the effect. Otherwise, a lit candle of spirit protection burns for 1 hour. Either way, the candle is expended after one use.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, antilife shell</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404229,
+    "modifiedTime": 1665949166680,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

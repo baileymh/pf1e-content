@@ -3,7 +3,7 @@
   "name": "Maelstrom Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The device of this +1 bashing heavy steel shield features a magical image of the trackless seas, complete with rolling waves and crashing whitecaps. When used to make a shield bash attack, the shield's wielder can make a trip attack as a free action against the same target without provoking an attack of opportunity from the creature being tripped. On command, the wielder can make the shield produce a gallon of fresh drinkable water. Once per day on command, the wielder can use the maelstrom shield to emit a stream of water as the hydraulic push spell.<br><p><b>Base Item:</b> +1 bashing heavy steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bull's strength, control water, hydraulic push (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373051,
+    "modifiedTime": 1665949139425,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

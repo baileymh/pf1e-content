@@ -3,7 +3,7 @@
   "name": "Crest Of The Fallen",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fist-sized silver badge bears a stylized image of a heraldic animal. The first time a character wears the crest, the animal changes to match that of the wearer's heraldic symbol. If the wearer doesn't have a heraldic animal, it takes the form of an animal appropriate to the character's personality. The animal depicted must be one suitable for use as a druid animal companion (see page 53 of the Pathfinder RPG Core Rulebook). Once a character has worn the crest, the animal depicted on the crest is always the same for that character and can't be changed.  Once per day, if the wearer of the crest of the fallen falls unconscious (other than voluntary sleep), the animal on the crest jumps out of the badge and becomes a living creature in an unoccupied square adjacent to the wearer. The creature has the same statistics as a 1st-level druid's animal companion of the same type as depicted on the crest, except its hit points are equal to one-quarter of the wearer's maximum hit points. The creature also gains the 4th- or 7th-level advancement as described in the animal companion's statistics if the wearer is of sufficient level (treating his character level as the effective druid level). It doesn't, however, gain any of the other bonuses or abilities of an animal companion.  The creature guards the fallen wearer to the best of its ability. It protects the wearer by attacking enemies, assisting allies using the aid another action, dragging the character's body to a safe location, or taking other helpful actions. The creature can't move more than 50 feet from   the badge, and it disappears after 5 rounds. It can't use equipment or magic items, including potions.  If the animal is slain, it disappears and the heraldic image on the crest of the fallen fades to a dark gray for 1 week, during which time the crest can't be activated.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, deathwatch, summon nature's ally II</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407226,
+    "modifiedTime": 1665949169507,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

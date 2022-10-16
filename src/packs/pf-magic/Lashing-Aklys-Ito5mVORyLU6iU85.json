@@ -3,7 +3,7 @@
   "name": "Lashing Aklys",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The lashing aklys was first invented by derro magisters to bolster their ability to upend their foes. A lashing aklys is a +1 aklys that grants a +2 bonus on combat maneuver checks made to trip foes-this bonus stacks with that granted by Improved Trip. If you have Improved Trip, you can make trip attempts against foes of up to two size categories larger than you with a lashing aklys.<br><p><b>Base Item:</b> +1 aklys</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate rope</p><h3><b>Source: </b></h3>AP 64",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371960,
+    "modifiedTime": 1665949138367,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

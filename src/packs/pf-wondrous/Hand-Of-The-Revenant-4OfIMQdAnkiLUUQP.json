@@ -3,7 +3,7 @@
   "name": "Hand Of The Revenant",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This mummified member casts spectral hand 3/day (CL 7th). If affixed to the stump of a severed hand, its wielder can use chill touch at will, but every time the hand drains a point of Strength, they have to succeed at a DC 16 Will save or move one step closer to chaotic evil alignment. On chaotic evil characters, the hand grants +2 natural AC bonus.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chill touch, spectral hand</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403650,
+    "modifiedTime": 1665949166123,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

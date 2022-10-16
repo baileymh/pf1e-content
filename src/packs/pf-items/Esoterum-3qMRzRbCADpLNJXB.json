@@ -3,7 +3,12 @@
   "name": "Esoterum",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.gfKpD41BO9paCPOx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Potions and Poisons pg. 26</em></p>\n<p><strong>Type</strong> inhaled;<strong> Addiction </strong>major, Fortitude DC 24</p>\n<p><strong>Price </strong>600&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>24 hours; the user gains the benefits of the @Compendium[pf-content.pf-feats.K5qarZRwcU7eFECZ]{Psychic Sensitivity}&nbsp;feat but takes a &ndash;4 penalty on Will saves and automatically fails Will saves against possession attempts</p>\n<p><strong>Damage </strong>1d4 Con damage and 1d4 Wis damage</p>\n<p>Legends tell of esoterum dens in Tian Xia and Vudra where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.gfKpD41BO9paCPOx"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365777,
+    "modifiedTime": 1665949133733,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

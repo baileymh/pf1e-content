@@ -3,7 +3,7 @@
   "name": "Tangleburn bag",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/magic-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Tangleburn bag</h1><b>Source</b> <i>Ultimate Equipment pg. 107</i><br/><b>Price</b> 150 gp; <b>Weight</b> 5 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This sack contains tanglefoot bag materials and alchemical powders that burn at a high temperature. It functions like a tanglefoot bag, plus a direct hit on a creature deals 1d6 points of fire damage, and the creature must make a DC 20 Reflex save or catch on fire. If it catches on fire, for the next 2 rounds extinguishing the flames is a DC 25 Reflex save instead of a DC 15 save, and using water to extinguish the flames creates a burst of burning material equivalent to alchemist's fire making a direct hit on the target (including splash damage). After the initial 2 rounds, the flames may be extinguished as normal. Crafting this item is a DC 30 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 30</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -143,6 +148,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -235,8 +241,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368238,
+    "modifiedTime": 1665949135954,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

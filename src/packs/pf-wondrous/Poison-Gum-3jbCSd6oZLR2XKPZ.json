@@ -3,7 +3,7 @@
   "name": "Poison Gum",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Poison gum is often used by agents of Norgorber, particularly those alchemists and poisoners who venerate the insidious god as Blackfingers. Chewing a piece of poison gum-which resembles nothing so much as a lump of congealed sap-is a move action that provokes attacks of opportunity, though the user can continue to chew the gum as a free action on consecutive rounds. Doing so fills the user's mouth with three doses of Medium spider venom (Pathfinder RPG Core Rulebook 560). This poison lasts for up to 5 minutes before losing its potency. As a swift action while chewing poison gum, the user can apply the poison to a wielded weapon. If the user lacks the poison use class feature, there is a 5% chance that he exposes herself to the poison while chewing the gum or applying the poison to a weapon, and if he rolls a natural 1 on an attack roll with a poisoned weapon, he also exposes himself to the poison.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, poison, creator must have the poison use  class feature</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403613,
+    "modifiedTime": 1665949166095,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

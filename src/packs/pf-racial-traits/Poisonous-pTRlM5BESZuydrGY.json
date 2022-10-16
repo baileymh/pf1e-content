@@ -3,7 +3,7 @@
   "name": "Poisonous",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/plant.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Vine Leshy&nbsp;<br /><strong>Replaced Trait(s):</strong> Plantspeech; Change Shape&nbsp;</p>\n<hr />\n<p>Vine leshys made from poison ivy vines carry natural poison in their bodies. As a swift action, the leshy can imbue its vines with this irritating substance. The next time the leshy hits a creature with an unarmed strike, the creature is affected by the following poison.<br /><br /> <i>Vine Leshy Toxin</i>: Unarmed strike�injury; <i>save </i>Fort DC 10 + half the vine leshy's Hit Dice + the leshy's Constitution modifier; <i>frequency </i>1/round for 6 rounds; <i>effect </i>sickened for 1 round; cure 1 save.<br /><br /> The leshy can use this ability a number of times per day equal to its Constitution modifier (minimum 1). A vine leshy is immune to its own poison, but not to those of other vine leshys.<br /><br /> This replaces plantspeech and change shape.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384461,
+    "modifiedTime": 1665949148773,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

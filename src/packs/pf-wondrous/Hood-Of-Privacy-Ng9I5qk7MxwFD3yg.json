@@ -3,7 +3,7 @@
   "name": "Hood Of Privacy",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This voluminous silver hood shimmers like a scattered handful of diamonds. The hood completely covers the wearer's face, hiding his identity, but does not impair the wearer's senses. The wearer gains a +4 bonus on saving throws against mind-affecting effects. The wearer is immediately aware when someone attempts to gain information about him through a divination spell or effect, such as scrying. As a swift action, the wearer can reduce the hood's saving throw bonus by 1 to thwart such a divination attempt, providing whatever false information the wearer desires to the diviner, or even to conceal the information entirely as though the wearer were undetectable to the divination effect. The creature using the divination effect can attempt a DC 26 Will save to learn that the information is fabricated or concealed. Expended bonuses return at a rate of 1 per week.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect scrying, mind blank</p><h3><b>Source: </b></h3>Legacy Of The First World",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406094,
+    "modifiedTime": 1665949168397,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

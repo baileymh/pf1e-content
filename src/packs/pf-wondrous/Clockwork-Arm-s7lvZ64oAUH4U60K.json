@@ -3,7 +3,7 @@
   "name": "Clockwork Arm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The claw can be attached in place of the missing arm of any Medium humanoid to function as a replacement arm. This requires an hour-long installation surgery that must be performed by a character with 8 ranks in both Craft (clockwork) and Heal. The recipient must succeed at a DC 18 Fortitude save for the arm to properly attach, and takes 2 points of Constitution damage from the surgery in any case. If the arm is properly attached, the recipient can lift up to 1-1/2 his maximum load over his head, and gains a claw attack as a secondary attack that deals 1d6 points of damage (if nothing is held in that arm).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bull's strength, regenerate, creator must have 8 ranks in Craft (clockwork)</p><h3><b>Source: </b></h3>Plunder & Peril",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409725,
+    "modifiedTime": 1665949171850,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

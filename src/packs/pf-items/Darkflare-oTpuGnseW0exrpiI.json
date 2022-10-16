@@ -3,7 +3,7 @@
   "name": "Darkflare",
   "type": "consumable",
   "img": "icons/commodities/materials/orb-tassle-blue-yellow.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Darkflare</h1><b>Source</b> <i>Adventurer's Armory 2 pg. 25</i>, <i>Faction Guide pg. 55</i><br/><b>Price</b> 1 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This alchemical flare explodes in black sparks 1 round after lighting. Any creature with darkvision in the same square as a darkflare when it explodes must succeed at a DC 15 Fortitude save or lose its darkvision for 1d10 rounds. Affected creatures can still use other vision (such as normal vision and low-light vision) with no penalty.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367796,
+    "modifiedTime": 1665949135605,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

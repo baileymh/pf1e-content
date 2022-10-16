@@ -3,7 +3,7 @@
   "name": "Chupar Pick",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A curved yellow fang juts from the wooden haft of this light pick in place of a metal tip. Though the fang seems fragile, the enchantments on the weapon render it as hard as steel, and the fang evokes some of the powers of the beast from which it came. A chupar pick functions as a +1 light pick of wounding. When the chupar pick scores a critical hit, its wielder is affected by a haste effect for 7 rounds as if targeted by a haste spell. Subsequent critical hits made while the wielder is affected extend the duration of the haste effect but have no additional effect.<br><p><b>Base Item:</b> +1 light pick of wounding</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, haste, one chupacabra fang</p><h3><b>Source: </b></h3>Mystery Monsters Revisited",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373081,
+    "modifiedTime": 1665949139446,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

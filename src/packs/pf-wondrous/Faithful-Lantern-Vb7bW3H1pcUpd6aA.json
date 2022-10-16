@@ -3,7 +3,7 @@
   "name": "Faithful Lantern",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fine, silver bullseye lantern is embossed with the image of a stoic sentinel. It functions as a bullseye lantern that doesn't require oil to function. On command, the lantern floats alongside its user, shedding its light in whichever direction the user is looking.  Once per day on command, the lantern can be designated to stand guard for up to 8 hours. The lantern ceases to shed light and keeps watch over a 30-foot-radius area centered on itself. The lantern acts as the alarm spell, except it is activated only by creatures that are Small or larger, and it cannot see invisible creatures. If the lantern detects a creature, it notifies the user that commanded the lantern with a mental alarm, waking the user if necessary. Once the lantern notifies its user, it shines its light on the intruder until commanded to stop.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, light, mage's faithful hound, unseen servant</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406853,
+    "modifiedTime": 1665949169093,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

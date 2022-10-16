@@ -3,7 +3,7 @@
   "name": "Ornament Of Healing Light",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This palm-sized holy symbol is composed of tiny pieces of stained glass held in a gold frame. The exact symbol is determined upon the item's creation. As a free action, the creature holding the ornament can project the image of the holy symbol upon any creature or surface within 15 feet, similar to using a shadow puppet and lamp. This light is not bright enough to illuminate an area. If the bearer is a paladin, she may use her lay on hands ability on a creature touched by the symbol's light (effectively increasing her lay on hands range from touch to 15 feet).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sacred bond (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408545,
+    "modifiedTime": 1665949170745,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

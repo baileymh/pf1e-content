@@ -3,7 +3,7 @@
   "name": "Lady's Spiral",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy whip features Pharasmin imagery on its silver handle. The Lady's spiral is a +1 ghost touch undeadbane whip that deals lethal damage to undead creatures regardless of their armor bonus or natural armor bonus. In addition, the handle of a Lady's spiral can be wielded as a +1 silver stake. This stake has the same statistics and properties as a wooden stakeUE, except it is made of silver and thus overcomes DR/silver. Though it's effectively two weapons in one, a Lady's spiral is not a double weapon and cannot be wielded as one.<br><p><b>Base Item:</b> +1 ghost touch undeadbane whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cure light wounds, plane shift, summon monster I, creator must be a worshiper of Pharasma</p><h3><b>Source: </b></h3>Undead Slayer's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371900,
+    "modifiedTime": 1665949138324,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

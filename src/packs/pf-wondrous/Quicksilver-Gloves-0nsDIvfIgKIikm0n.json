@@ -3,7 +3,7 @@
   "name": "Quicksilver Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These tight-fitting gloves have silver tips at the end of each finger. When worn, the silver spreads to cover the gloves so they appear to be covered in liquid metal.  As a swift action, the wearer can command the gloves to coat a held weapon with silver. The affected weapon is treated as silver for the purpose of overcoming damage reduction. The effect can be applied only to light or one-handed weapons made primarily of metal. This ability can be used for up to 10 rounds each day, though these rounds need not be consecutive.  Once per day, the gloves' wearer can make an extra attack with a melee weapon as if using a speed weapon. This benefit does not stack with similar effects, such as a haste spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, haste, versatile weapon</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403410,
+    "modifiedTime": 1665949165929,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

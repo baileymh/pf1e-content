@@ -3,7 +3,7 @@
   "name": "Starknife Of The Void",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The starknife of the void is a weapon designed by devotees of Black Butterfly and at one time could only be found among the faithful of her mystery cults. Over time, these weapons fell into the hands of those outside the cult, and now they crop up in odd places- sealed vaults, underground treasure caches, the bottom of the sea-but always places where there is darkness and stillness.  The starknife of the void is a +2 returning starknife. If the wielder scores a critical hit against a foe with a starknife of the void, it discharges a blindness/deafness spell affecting the creature struck. The target must succeed at a DC 14 Fortitude save or be struck blind or deaf (as chosen by the wielder of the starknife of the void). If the starknife of the void deals more than one critical hit to the same target, the target can potentially become both blind and deaf.<br><p><b>Base Item:</b> +2 returning starknife</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/deafness, telekinesis</p><h3><b>Source: </b></h3>Chronicle Of The Righteous",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371802,
+    "modifiedTime": 1665949138251,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

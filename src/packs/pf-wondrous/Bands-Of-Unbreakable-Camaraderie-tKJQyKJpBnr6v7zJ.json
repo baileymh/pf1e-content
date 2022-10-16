@@ -3,7 +3,7 @@
   "name": "Bands Of Unbreakable Camaraderie",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>While worn, this pair of plain steel armbands limits the ability of the wearer to strike out against his comrades with weapon attacks, in the event he is unable to control his own actions (such as if confused or dominated) or unable to distinguish friends from foes (such as if blinded). The armbands grow heavier and hinder the wearer's momentum under these circumstances, causing him to take a -4 penalty on attack rolls against creatures he would otherwise consider allies. Alternatively, two creatures can each wear one of the armbands, occupying the wrists slot for both. Under these conditions, the bands apply only half the normal penalty on attack rolls against allies. However, the two wearers ignore each other for any effects that would cause them to attack the closest creature, unless one wearer purposefully attacks the other. Even if the wearers do attack one another, their attacks take the full -4 penalty, always fail to confirm critical hits, and deal nonlethal damage only.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, battlemind linkUM</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409811,
+    "modifiedTime": 1665949171904,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

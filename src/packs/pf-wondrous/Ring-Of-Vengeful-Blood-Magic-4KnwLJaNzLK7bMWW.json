@@ -3,7 +3,7 @@
   "name": "Ring Of Vengeful Blood Magic",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This claw ring is made of red metal tinged with orange, and a long nail made of obsidian extends from the tip. It allows its wearer to cast a spell as an attack of opportunity. Three time per day, if the wearer is bloodraging and a foe provokes an attack of opportunity from him, the wearer can cast a spell with a casting time of 1 standard action or less as the attack of opportunity. The spell must target the creature that provoked the attack or include it in the spell's area, and must be no higher than 3rd level. This counts as one of the wearer's attacks of opportunity for the round; casting this spell does not itself provoke an attack of opportunity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Combat Reflexes, Forge Ring, Quicken Spell</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403648,
+    "modifiedTime": 1665949166121,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

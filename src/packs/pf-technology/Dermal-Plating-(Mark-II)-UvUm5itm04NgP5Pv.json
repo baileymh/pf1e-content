@@ -3,7 +3,7 @@
   "name": "Dermal Plating (Mark II)",
   "type": "equipment",
   "img": "icons/commodities/tech/frame-copper.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 37</em></p><p><strong>Price</strong> 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)</p><p><strong>Slot</strong> body; <strong>Weight</strong> 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)</p><p><strong>Install</strong> DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)</p><p><strong>Implantation</strong> 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)</p><h2 class=\"framing\">Description</h2><p>Dermal plating consists of sheets of highly resistant bioplastics anchored directly onto the patient's skin. These armored plates grant an enhancement bonus to natural armor; this bonus influences other elements of the dermal plating, as detailed below.</p><p></p><p> <table class=\"inner\"><tbody><tr><td><strong>Plating</strong></td><td><strong>Enhancement</strong></td><td><strong>Implantation</strong></td><td><strong>Install</strong></td></tr> <tr><td>Mark I</td><td>+1</td><td>2</td><td>DC 24</td></tr> <tr><td>Mark II</td><td>+2</td><td>4</td><td>DC 26</td></tr> <tr><td>Mark III</td><td>+3</td><td>4</td><td>DC 28</td></tr> <tr><td>Mark IV</td><td>+4</td><td>8</td><td>DC 30</td></tr> <tr><td>Mark V</td><td>+5</td><td>10</td><td>DC 32</td></tr></tbody></table></p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 24 (Mark I), DC 25 (Mark II), DC 26 (Mark III), DC 27 (Mark IV), DC 28 (Mark V); <strong>Cost</strong> 2,000 gp (Mark I), 8,000 gp (Mark II), 18,000 gp (Mark III), 32,000 gp (Mark IV), 50,000 gp (Mark V)</p><p>Craft Cybertech, cybernetics lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387771,
+    "modifiedTime": 1665949152122,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

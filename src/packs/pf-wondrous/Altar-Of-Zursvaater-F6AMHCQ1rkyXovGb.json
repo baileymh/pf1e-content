@@ -3,7 +3,7 @@
   "name": "Altar Of Zursvaater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This huge brazier burns with a raging fire. Any creature (not just a worshiper of Zursvaater) can pray at the altar, though accepting the altar's blessing is both an evil and lawful act. Praying at the altar grants a +2 circumstance bonus on Craft checks and cold resistance 20 for 24 hours. The cold resistance is suppressed if the target of the effect leaves the temple grounds, but resumes if the target returns.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, guidance, magic circle against chaos, magic circle against good, resist energy, creator must worship Zursvaater</p><h3><b>Source: </b></h3>AP 95",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404783,
+    "modifiedTime": 1665949167274,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

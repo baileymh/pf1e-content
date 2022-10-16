@@ -3,7 +3,7 @@
   "name": "Earth Breaker Of Righted Injustice",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The tribal symbols covering the surface of this +2 anarchicUE flaming earth breakerUE radiate a tangible heat. These brutal weapons are crafted by the Shoanti blacksmiths of the Storval Plateau, and each is attuned to the wildest tempers of the people of the Sklar-Quah and the Cinderlands that they call their home. If the wielder possesses the rage class feature, he can choose to add either the devil bane special ability or the orc bane special ability to the weapon at the beginning of his rage. This added weapon special ability lasts only for the duration of the wielder's rage, and once the special ability has been selected, it cannot be switched until the next time the wielder enters a rage.<br><p><b>Base Item:</b> 2 anarchic flaming earth breaker</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor; chaos hammer; fireball, flame blade, or flame strike; creator must be chaotic</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372441,
+    "modifiedTime": 1665949138873,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

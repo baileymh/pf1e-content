@@ -3,7 +3,7 @@
   "name": "Headband Of Vermin Control",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The wearer of this black leather headband can spend 10 minutes attuning the headband to one touched vermin of Medium or larger size. Once the headband is attuned, any creature wearing it can attempt Handle Animal and Ride checks to influence or control that vermin as if it were an animal and had animal-level intelligence. The attunement lasts until the vermin dies, the headband is destroyed, or the headband is attuned to a different vermin.  Duergar-created items of this type are usually protected by a dust ward* spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, control vermin</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407164,
+    "modifiedTime": 1665949169458,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

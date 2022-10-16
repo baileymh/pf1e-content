@@ -3,7 +3,7 @@
   "name": "Dimensional Grenade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This M1914 concussion grenade (see page 66) can be thrown up to 680 feet away, as it teleports itself directly to the target location when thrown. This allows a dimensional grenade to be thrown even at targets behind cover, including total cover. The wielder does not need to attempt an attack roll; the dimensional grenade simply appears in the target location and detonates at the beginning the wielder's next turn. A dimensional grenade deals 3d6 points of force damage in a 15-foot radius (Reflex DC 15 for half). In addition, any creature damaged by the grenade's blast must succeed at a DC 16 Will save or be dazed for 1 round. The grenade is consumed in the attack.<br><p><b>Base Item:</b> M1914 concussion grenade</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dimension door, mass dazeUM</p><h3><b>Source: </b></h3>AP 71",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373087,
+    "modifiedTime": 1665949139450,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

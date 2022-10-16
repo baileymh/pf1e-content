@@ -3,7 +3,7 @@
   "name": "Belt Of Foraging",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in Survival, she need not make a check to get along in the wild; she always succeeds at that Survival check as long as she moves at half her overland speed. She can still choose to make that check to provide food and water for one other creature for every 2 points by which her result exceeds DC 10. Furthermore, she can instead make a DC 20 Survival check to get along in the wild while moving at full speed instead of half speed. While doing so, she can provide food and water for one other creature for every 2 points by which his check result exceeds 20.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect animals and plants, creator must have 1 rank in Survival</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407232,
+    "modifiedTime": 1665949169511,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

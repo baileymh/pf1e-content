@@ -3,7 +3,7 @@
   "name": "Final Word",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 war razorISWG is commonly used by members of the Bloody Barbers thieves' guild in Absalom. A preferred means for the guild to permanently silence snitches and traitorous informants as part of their trademark method of eliminating enemies (a practice they call giving someone a crimson shave), this blade also sees wide use throughout thieves' and assassins' guilds and among the ranks of bounty hunters in almost every nation of the Inner Sea region. When delivering a coup de grace with a final word, the wielder gains a +4 bonus to the DC of the Fortitude saving throw to determine whether the target of the coup de grace dies from the attack. This bonus is not added to the weapon damage of the coup de grace attack. Any target slain by a coup de grace made with a final word has its spirit wrenched out of its body. The spirit is then forced to answer four questions of the wielder's choosing as though under the effects of a speak with dead spell. The target can't attempt a Will save to ignore this effect, and takes a -4 penalty on all Bluff checks to deceive the wielder. After a target answers the wielder's questions, it can't be the target of any further speak with dead spells.<br><p><b>Base Item:</b> +1 war razor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, speak with dead</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371793,
+    "modifiedTime": 1665949138243,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

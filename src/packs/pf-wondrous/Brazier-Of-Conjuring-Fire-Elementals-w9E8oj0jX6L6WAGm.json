@@ -3,7 +3,7 @@
   "name": "Brazier Of Conjuring Fire Elementals",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using summon monster VI. Otherwise, the brazier conjures a Large fire elemental as if using summon monster V. Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster V, summon monster VI</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410316,
+    "modifiedTime": 1665949172367,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Mark Of The Grinning Skull",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An ebony skull adorns this tarnished silver band. When the wearer successfully demoralizes a creature with an Intimidate check, the penalties for being shaken increase by 2 on checks and rolls involving the wearer. For example, attacks made against the wearer and saves against her spells would take a -4 penalty rather than a -2 penalty.  11th Level: Once per day, the wearer can attempt to frighten a creature with an Intimidate check instead of demoralizing it. She must declare she is doing so before attempting the Intimidate check. The penalty increase for checks and rolls involving the wearer also applies if the creature is frightened in this way.  14th Level: The wearer can attempt to demoralize opponents as a move action instead of as a standard action. If the wearer can already do so because of the intimidating glare barbarian power or a similar ability, she can instead demoralize opponents as a swift action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cause fear, doom</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404823,
+    "modifiedTime": 1665949167307,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

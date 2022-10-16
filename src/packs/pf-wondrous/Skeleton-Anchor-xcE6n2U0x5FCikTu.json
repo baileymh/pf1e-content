@@ -3,7 +3,7 @@
   "name": "Skeleton Anchor",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ship's anchor is crafted of fused bones and skulls, but it has the strength and hardness of iron. When attached to a ship by a rope or chain and dropped into the water, the anchor increases its weight to properly anchor the ship it is attached to. Once per day, the skeleton anchor can hold the ship it is attached to immobile for up to 1 day, or until commanded to release.  The greatest property of a skeleton anchor, however, is to summon undead skeletons from the corpses of drowned mariners, who rise from the depths of the sea and clamber up the sides of the ship to serve as its crew. The undead created by the anchor are 1 Hit Die skeletons (Pathfinder RPG Bestiary 250) that possess Profession (sailor) scores of +7. Each skeleton can perform the duties of one crew member but has no other abilities. The skeletons cannot speak, attack, or even defend themselves. They are not proficient with any weapons or armor. The skeletons obey the commands of the ship's captain or pilot, but they only obey orders pertaining to the operation of a ship.  A skeleton anchor can be used just once every 7 days to create up to 28 skeletal crew members. The skeletons do not count against the maximum total Hit Dice worth of undead creatures that the user can control. The skeletons act as crew for 1 week or until dismissed by the ship's captain or pilot. At the end of the week, the skeletons abandon the ship.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, desecrate, levitate, skeleton crew (Pathfinder Player Companion: Pirates of the Inner Sea 29)</p><h3><b>Source: </b></h3>AP 58",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410396,
+    "modifiedTime": 1665949172425,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

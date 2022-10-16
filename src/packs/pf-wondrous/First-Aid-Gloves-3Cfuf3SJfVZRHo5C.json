@@ -3,7 +3,7 @@
   "name": "First Aid Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These gloves have a sapphire decorating each finger, bearing 10 in all. While wearing a pair of first aid gloves, as a standard action the wearer can cast any of the following spells (caster level 9th), permanently expending a number of sapphires equal to the spell's level (as denoted in parentheses after each spell): breath of life (5), cure critical wounds (4), cure light wounds (1), cure moderate wounds (2), cure serious wounds (3), and mass cure light wounds (5). When casting a spell from the gloves, the wearer can't expend sapphires on different hands; thus only a full hand's worth of gems can be used to cast breath of life or mass cure light wounds. Regardless, both gloves must be worn to function. Once all of the sapphires are expended, a pair of first aid gloves becomes nonmagical.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, breath of life, cure critical wounds, cure light wounds, cure moderate wounds, cure serious wounds, mass cure light wounds</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403565,
+    "modifiedTime": 1665949166060,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

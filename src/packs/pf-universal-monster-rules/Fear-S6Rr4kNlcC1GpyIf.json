@@ -3,7 +3,7 @@
   "name": "Fear",
   "type": "feat",
   "img": "systems/pf1/icons/skills/ice_17.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>Fear attacks can have various effects.</p>\n<p>&nbsp;</p>\n<p><em>Fear Aura (Su):</em> The use of this ability is a free action. The aura can freeze an opponent (as in the case of a <a href=\"https://www.aonprd.com/MonsterDisplay.aspx?ItemName=Mummy\">mummy&rsquo;s despair</a>) or function like the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.spells\" data-id=\"be88e90guqbi1q1z\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">fear</span></a> spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.</p>\n<p><em>Fear Cone (Sp) and Ray (Su):</em> These effects usually work like the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.spells\" data-id=\"be88e90guqbi1q1z\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">fear</span></a> spell. If a fear effect allows a saving throw, it is a Will save (DC = 10 + 1/2 the fearsome creature&rsquo;s racial HD + that creature&rsquo;s Charisma modifier; the exact DC is given in the creature&rsquo;s descriptive text). All fear attacks are mind-affecting fear effects.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: fear aura (30 ft., DC 17) <em>or</em> fear cone (50 ft., DC 19)</p>\n<p><em>Location</em>: Aura <em>or</em> Special Attacks.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402485,
+    "modifiedTime": 1665949165223,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

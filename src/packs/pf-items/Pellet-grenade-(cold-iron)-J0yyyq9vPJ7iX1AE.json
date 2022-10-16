@@ -3,7 +3,7 @@
   "name": "Pellet grenade (cold iron)",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/magic-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Pellet grenade</h1><b>Source</b> <i>Ultimate Equipment pg. 107</i><br/><b>Price</b> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  150 gp (adamantine), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  100 gp (cold iron), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  50 gp (iron), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  70 gp (silver); <b>Weight</b> 1 lb. (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)<h2 class=\"framing\">Description</h2><p>This variant of a fuse grenade has most of the black powder replaced with metal pellets. When it explodes, it deals 1d6 points of bludgeoning damage, 1d6 points of piercing damage, and 1d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 halves). A typical pellet grenade uses iron pellets, but they can instead be packed with silver, cold iron, or adamantine, bypassing damage reduction as appropriate to that material type. Like ammunition, the pellets are destroyed after one use. Crafting a pellet grenade is a DC 25 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -145,6 +150,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -238,8 +244,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366434,
+    "modifiedTime": 1665949134344,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

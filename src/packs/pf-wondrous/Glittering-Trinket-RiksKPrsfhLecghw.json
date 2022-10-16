@@ -3,7 +3,7 @@
   "name": "Glittering Trinket",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Though actually made of cheap tin and colored glass, this adornment appears to be a beautiful and expensive piece of jewelry worth 1,000 gp. A glittering trinket can come in the form of a necklace (using the neck item slot), a bracelet (taking up the wrists slot), a belt buckle (taking the waist slot), or a ring (taking up one ring slot). The trinket's inflated price affects only people's opinion of the wearer. It uses its actual price and cost for any abilities or effects that depend on the item having a certain value. Anyone who physically interacts with a glittering trinket can attempt a DC 11 Will save to disbelieve the illusion, and a successful DC 20 Appraise check identifies it as false. Because of these factors, selling the trinket-especially to a merchant-rarely fetches the inflated price.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disguise self</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406652,
+    "modifiedTime": 1665949168922,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

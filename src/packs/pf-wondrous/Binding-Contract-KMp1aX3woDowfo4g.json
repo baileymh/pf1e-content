@@ -3,7 +3,7 @@
   "name": "Binding Contract",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This parchment scroll is a legal contract detailing terms of service between the signatories. Until the scroll is signed, its owner can modify the contract as she sees fit. Once signed, the contract places all signatories under a special geas that forces them to uphold their end of the contract, although creatures cannot be forced to sign this contract while under magical compulsions or other mental influences. This special geas ends for a signatory only if that signatory completes his agreed-upon terms, if the terms become impossible to fulfill, or via a miracle or a wish. Other means that would normally remove a geas, such as break enchantment, automatically fail.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, erase, geas/quest, tongues, creator must be a Chelaxian</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405574,
+    "modifiedTime": 1665949167895,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

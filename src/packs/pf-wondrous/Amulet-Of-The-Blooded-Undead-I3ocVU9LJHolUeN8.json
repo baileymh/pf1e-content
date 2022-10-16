@@ -3,7 +3,7 @@
   "name": "Amulet Of The Blooded, Undead",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the blooded grants its wearer powers from one sorcerer bloodline, but makes him vulnerable to attacks and effects that target creatures with the appropriate bloodline (such as a blood-hunting weapon). If a creature that already has the associated bloodline wears the amulet, the wearer does not gain the abilities listed below; instead, the effective level of his bloodline powers increases by 2. This effect does not stack with other abilities that increase the effective level of bloodline powers.   Undead: This chunk of petrified bone dangles from a silver chain. The wearer gains cold resistance 5 and DR 5/- against nonlethal damage. Three times per day the wearer can make a melee touch attack to cause a creature to become shaken for 4 rounds. Touching a creature that is already shaken causes it to become frightened for 1 round if it has fewer than 8 Hit Dice. Moderate abjuration; CL 9th; Craft Wondrous Item, chill touch, resist energy.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chill touch, resist energy, creator must be a sorcerer of the appropriate bloodline</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405381,
+    "modifiedTime": 1665949167783,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

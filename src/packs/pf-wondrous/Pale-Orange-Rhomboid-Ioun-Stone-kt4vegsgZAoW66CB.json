@@ -3,7 +3,7 @@
   "name": "Pale Orange Rhomboid Ioun Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone absorbs your soul as the magic jar spell immediately prior to your death. You can't transfer your soul from the ioun stone receptacle to another creature's body, and are, for all intents and purposes, dead. While your soul is in the ioun stone, you can sense any life forces within 120 feet as though you were placed in a magic jar. At any point within 12 hours of your soul's transfer into the pale orange rhombus ioun stone, you can return to your body as long as it is within 120 feet of the ioun stone. Upon returning to your body, you are unconscious and dying with a number of negative hit points equal to your Constitution score minus 1. If you fail to stabilize and aren't healed after 1 turn, you die and your soul is not absorbed by the ioun stone. Your soul can be absorbed into a pale orange rhombus ioun stone only once per 24-hour period.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic jar, creator must be 12th level</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408608,
+    "modifiedTime": 1665949170783,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

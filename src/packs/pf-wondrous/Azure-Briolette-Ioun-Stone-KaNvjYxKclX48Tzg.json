@@ -3,7 +3,7 @@
   "name": "Azure Briolette Ioun Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pear-shaped ioun stone sparkles in a brilliant blue color. Whenever a creature fails a saving throw against a mind-affecting spell cast by this ioun stone's user, the user gains a number of temporary hit points equal to the targeted creature's Charisma bonus (minimum 0) until the start of the user's next turn. These temporary hit points do not stack. The user doesn't gain temporary hit points from a creature that voluntarily fails its saving throw against the spell.  Resonance: This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer's mind. This functions as the grave wordsOA spell, except that only the user can hear the corpse speak.  Cracked: This stone functions as normal, but the number of temporary hit points gained from the azure briolette ioun stone cannot exceed the user's Charisma bonus (minimum 0). Price: 14,000 gp.  Flawed: This stone grants only 1 temporary hit point, even if the target's Charisma bonus is higher than 1. Price: 8,000 gp.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be 12th level</p><h3><b>Source: </b></h3>AP 125",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405592,
+    "modifiedTime": 1665949167900,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ring Of The Trickster",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This five-piece puzzle ring must be properly assembled before it can be placed on a finger. Once per day as a move action, the wearer can create a single mirror image as if using the Trickery domain's copycat power. If the wearer is a cleric with the Trickery domain and the copycat power, she instead gains two additional uses of that ability.  6th Level: The wearer can use prestidigitation at will.  8th Level: By spending 1 full round reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into another simple object. Treat the result as if the wearer had reconfigured a traveler's any-toolUE, except that the resulting object additionally grants a +2 competence bonus on a skill check of the wearer's choice that could conceivably involve the object. As long as she does not lose the object, the wearer can return the fifth piece to the ring by spending another full round. The wearer cannot use any of the ring's creation powers without all five pieces.  10th Level: By spending 1 minute reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into a new object as minor creation, except that the wearer uses Disable Device rather than Craft to create a complex object. The fifth piece of the ring mysteriously reappears 24 hours after the new object vanishes. The wearer cannot use any of the ring's creation powers without all five pieces.  12th Level: By spending 10 minutes reconfiguring the ring's puzzle, the wearer can find a way to solve the puzzle with four of the pieces while twisting the final piece into a tiny shape that grows into a new object as major creation, except that the  wearer uses Disable Device rather than Craft to create a complex object. The fifth piece mysteriously reappears 24 hours after the new object vanishes. The wearer cannot use any of the ring's creation powers without all five pieces.  15th Level: Once per day as a standard action, the wearer can create a duplicate while becoming invisible, as mislead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, major creation, mirror image, prestidigitation</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403425,
+    "modifiedTime": 1665949165940,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

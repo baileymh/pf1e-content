@@ -3,7 +3,7 @@
   "name": "Zul",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Zul is a +1 human bane trident that has been passed down from chieftain to chieftain in Krelloort's tribe for generations. Zul's three-pronged head is crafted of magically strengthened seashells, and its haft is composed of rough, twisted coral that deals 1 point of damage each time it is grasped, unless the wielder has a natural armor bonus or is wearing gauntlets.  As an immediate action after a successful melee attack with the trident, Zul's wielder can transmute the substance of the target creature into rigid coral. This attack deals 1d4 points of Dexterity damage and slows the target (as the spell) for 1 round as its flesh calcifies. A DC 16 Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is permanently petrified, transformed into inert, mindless coral. Break enchantment or restoration reverses all of the effects of this calcification. This ability can be used up to 7 times per day.<br><p><b>Base Item:</b> +1 human bane trident</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, calcific touch (Advanced Players Guide 208), summon monster I</p><h3><b>Source: </b></h3>AP 56",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373069,
+    "modifiedTime": 1665949139438,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

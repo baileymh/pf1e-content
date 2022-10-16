@@ -3,7 +3,7 @@
   "name": "Candle Of Abaddon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Molded from a pale, milky-green wax into the shape of a column of screaming souls and stamped on the bottom with the unholy symbol of one of the Four Horsemen, a candle of Abaddon is a boon to evil spellcasters and any who would summon or interact with daemons. When burned, the candle sheds eerie dim illumination in a radius of 15 feet similar to Abaddon's perpetual eclipse. This candle lowers existing light levels in the area to dim conditions; this effect functions as a 6th-level spell with the darkness descriptor.  A spellcaster within the radius of a burning candle of Abaddon gains a +2 bonus to his effective caster level when casting spells with the evil descriptor. The light also acts as per magic circle against evil, but only against daemons. Natural healing doesn't work within the light's radius of illumination,  and magical healing requires a successful DC 25 caster level check to take effect.  A candle of Abaddon normally burns for 4 hours, but any burning consumes at least 10 minutes of its overall life span, even if it was lit for less than 10 minutes. It is possible to extinguish the candle simply by blowing it out, so users often place it in a lantern to protect it from drafts and the like (this doesn't interfere with its magical properties).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, desecrate, magic circle against evil, creator must be evil</p><h3><b>Source: </b></h3>Book of the Damned",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405992,
+    "modifiedTime": 1665949168319,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

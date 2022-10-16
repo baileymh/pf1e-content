@@ -3,7 +3,7 @@
   "name": "Scaled Sash",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Glittering with every movement, this sash is associated with a specific type of chromatic dragon. Three times per day, the wearer may convert all the damage dealt by a single attack with a melee, ranged, or natural weapon into the matching dragon's breath weapon damage type. The amount of damage dealt remains unaffected. The sash may be used after the attack's results are known, but must be declared before damage has been rolled. Attacks dealing any type of energy damage cannot be converted in this manner unless the energy type of the original damage is the same as that granted by the scaled sash. If the original attack would be affected by damage reduction, the converted damage is reduced as if it did not bypass the damage reduction, even if the target has no special defenses against the converted energy type   For example, an archer wearing a black scaled sash makes a successful attack against a target with his longbow. Before rolling damage on the hit, he opts to use his sash to convert the damage dealt to acid damage. Damage is rolled normally, but deals acid damage instead of piercing damage. This includes damage dealt from additional effects such as sneak attack, favored enemy, and the bane special weapon property.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, form of the dragon I</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404824,
+    "modifiedTime": 1665949167308,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

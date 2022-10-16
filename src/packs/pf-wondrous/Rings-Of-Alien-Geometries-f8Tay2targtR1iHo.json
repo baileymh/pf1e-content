@@ -3,7 +3,7 @@
   "name": "Rings Of Alien Geometries",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A short silver chain joins these two crystal rings together. When worn on two adjacent fingers of the same hand, the two rings occupy a single ring slot. Once per day as a standard action, the wearer of a pair of rings of alien geometries can create two shimmering portals, each 5 feet in diameter and surrounded by a 4-inch-thick ring of force. Only one side of each portal functions as a gateway; the other side is blocked (as if by a wall of force). Each portal must be oriented vertically and be within 30 feet of the wearer at the time of creation.  Medium or smaller creatures can move through either portal as easily as moving to an adjacent square, stepping out of the other portal. Large creatures can squeeze through but can't end movement halfway through a portal. Any creature farther than 5 feet away from a portal has no line of sight or line of effect through it to the other portal, but a creature adjacent to one of the portals can attack through it as though the square directly in front of the other portal were adjacent to the creature.  Both of the portals vanish after 10 rounds. Destroying a portal is possible only with spells or attacks that can destroy a wall of force. Destroying one portal causes the other portal to immediately collapse.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, dimension door, wall of force</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407973,
+    "modifiedTime": 1665949170206,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

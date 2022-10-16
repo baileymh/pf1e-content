@@ -3,7 +3,7 @@
   "name": "Scabbard Of Pain",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rugged black leather scabbard is wrapped in jet black chains that allow it to easily be hung from one's belt. A scabbard of pain grants it bearer knowledge of advanced torturing techniques used by depraved cultists of the Midnight Lord. It grows or shrinks to fit any bladed weapon sized for a Medium or Small creature. Three times per day, the bearer can declare that he is attempting to deliver a painful strike with a melee attack. If the attack hits, the opponent must succeed at a DC 11 Fortitude save or be affected by ray of sickeningUM. The bearer can expend one use of the scabbard's painful strike as an immediate action to affect himself with the ray of sickening effect and voluntarily fail the saving throw. Doing so allows the bearer to reroll a failed saving throw against a mind-affecting effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, ray of sickening</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409248,
+    "modifiedTime": 1665949171362,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

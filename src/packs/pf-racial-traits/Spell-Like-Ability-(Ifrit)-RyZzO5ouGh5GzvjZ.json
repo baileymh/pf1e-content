@@ -3,7 +3,12 @@
   "name": "Spell-Like Ability (Ifrit)",
   "type": "feat",
   "img": "systems/pf1/icons/races/ifrit.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.iDe7BhclJf5sTToB"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Ifrit&nbsp;</p>\n<hr />\n<p>Ifrits can use <em>burning hands</em> 1/day as a spell-like ability (caster level equals the ifrit's character level).</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.iDe7BhclJf5sTToB"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383735,
+    "modifiedTime": 1665949148075,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

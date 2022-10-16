@@ -3,7 +3,7 @@
   "name": "Otyugh Hide",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This muddy brown +1 hide armor carries a fetid stench like raw sewage, and occasionally sprouts angry and uncomfortable-looking blisters. Creatures other than the wearer are repulsed by the otyugh armor's vile putridity.  Any creature ending its turn adjacent to the wearer becomes sickened (Fortitude DC 13 negates) for as long as it remains adjacent to the wearer and for 1 round thereafter. A creature that strikes the wearer with a bite attack is affected the same way, even if it possesses exceptional reach and attacks while not adjacent to the wearer. If the wearer is swallowed whole, the attacker is automatically sickened and must succeed at a DC 13 Fortitude save at the beginning of its turn or be forced to regurgitate and drop the wearer harmlessly in an adjacent square (though the wearer is knocked prone during the regurgitation). Creatures with the scent ability suffer a -2 penalty to their saving throw against the stench of the otyugh armor. These abilities are poison effects; creatures immune to poison are immune to these effects as well. The wearer is immune to this effect.  The wearer gains a +2 competence bonus on saves against disease, poison, and any effect that would cause her to become nauseated or sickened.<br><p><b>Base Item:</b> +1 hide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, contagion, stinking cloud</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372344,
+    "modifiedTime": 1665949138783,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

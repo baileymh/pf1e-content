@@ -3,7 +3,7 @@
   "name": "Tool Optimizer",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/hammer.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can easily find items that function as tools or augment your own set of tools.</em><br/><br/><b>Prerequisites</b><br/>Craft (any) 1 rank, Disable Device 1 rank, or Profession (any) 1 rank.<br/><br/><b>Benefits</b><br/>You take no penalty for using an improvised tool associated with a skill in which you have at least 1 rank. For example, if you have 1 rank in Disable Device, you take no penalty when opening a lock without a proper tool. If you have at least 3 ranks in a skill, you can treat a normal tool associated with that skill as though it were a masterwork tool.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353150,
+    "modifiedTime": 1665949121271,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Mask of Destruction and Creation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This reversible silken mask is flat white on one side and a swirling mass of colors above a black background on the other.  When worn with the white side out, it allows the wearer to use detect magic once per day. When worn with the black side out, it allows the wearer to use read magic once per day. If Nethys is your patron, you can use the black side of the mask to cast magic missile as a 3rd-level caster once per day. Likewise, you can use the white side of the mask to cast disguise self once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect magic, disguise self, magic missile, read magic</p><h3><b>Source: </b></h3>Faiths Of Balance",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410399,
+    "modifiedTime": 1665949172425,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

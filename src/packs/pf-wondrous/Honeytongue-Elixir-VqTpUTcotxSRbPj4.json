@@ -3,7 +3,7 @@
   "name": "Honeytongue Elixir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Drinking this elixir grants the imbiber a +10 bonus on Bluff checks made to convince another that her words are the truth. This bonus lasts for 10 minutes, and doesn't apply to any other use of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a secret message via innuendo. If a magical effect is used against the honeytongue elixir's imbiber that would detect her lies or force her to speak the truth, the user of the effect must succeed at a DC 16 caster level check to compel the elixir's imbiber to tell the truth. Failure means the effect doesn't detect the imbiber's lies or force her to tell the truth.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, glibness</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407158,
+    "modifiedTime": 1665949169452,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rend",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>If it hits with two or more natural attacks in 1 round, a creature with the rend special attack can cause tremendous damage by latching on to the opponent&rsquo;s body and tearing flesh. This attack deals an additional amount of damage, but no more than once per round. The type of attacks that must hit and the additional damage are included in the creature&rsquo;s description. The additional damage is usually equal to the damage caused by one of the attacks plus 1-1/2 times the creature&rsquo;s Strength bonus.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: rend (2 claws, 1d8+9)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace damage</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -112,6 +117,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +179,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -221,8 +226,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402463,
+    "modifiedTime": 1665949165206,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

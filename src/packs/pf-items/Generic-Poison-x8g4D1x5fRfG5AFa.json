@@ -3,7 +3,7 @@
   "name": "Generic Poison",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Price</strong> 0 gp; <strong>Weight</strong> 0</p>\n<p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 10</p>\n<p><strong>Onset</strong> Immediate; <strong>Frequency</strong> 1/round for X rounds</p>\n<p><strong>Effect</strong> 1d4 Dex damage</p>\n<p><strong>Cure</strong> 1 saves</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368205,
+    "modifiedTime": 1665949135925,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

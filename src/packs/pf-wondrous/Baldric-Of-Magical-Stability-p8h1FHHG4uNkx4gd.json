@@ -3,7 +3,7 @@
   "name": "Baldric Of Magical Stability",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rugged leather baldric can hold one weapon in its sheath and has pockets sufficient to hold one of the following (or gear of an equivalent volume): two cases of bolts, one quiver of arrows, or 40 bullets or firearm cartridges. The wearer, as well as each item held in the baldric, gains a +2 insight bonus on saving throws against the effects of primal magic (Pathfinder Campaign Setting: Inner Sea Magic 12). When a Garundi wearer attempts a concentration check to prevent a primal magic event from triggering, she gains a +2 competence bonus on the check; she can attempt the check even if she is not a spellcaster, treating her effective caster level as 5 and applying the highest of her Intelligence, Wisdom, and Charisma modifiers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, antimagic field, creator must be a Garundi</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409225,
+    "modifiedTime": 1665949171343,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

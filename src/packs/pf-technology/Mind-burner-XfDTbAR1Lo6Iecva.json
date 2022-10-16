@@ -3,7 +3,7 @@
   "name": "Mind burner",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #86: Lords of Rust pg. 63</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 8,000 gp</p><p><strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 2 lbs.</p><p><strong>Damage</strong> Special (small), Special (medium); <strong>Damage Type</strong> Special; <strong>Critical</strong> x2</p><p><strong>Range</strong> 20 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong> Touch</p><h2 class=\"framing\">Description</h2><p>A mind burner is a pistol with a dishlike adornment at the tip of its barrel. When this weapon is fired, a pulse of white smoke pools in the dish an instant before a thin beam of white light lances out to strike its target. A mind burner is silent when fired, but stray particles from the mind-altering beam can cause those nearby to catch unexpected scents associated with powerful memories-the odor of a bouquet of flowers given to one's first lover, the scent of a parent's perfume or sweat, or maybe even the odor of a favorite food that hasn't been eaten in years. These fragmentary memories generally have no additional effect on those who experience them, but at the GM's discretion, they could cause the resurfacing of repressed memories or forgotten fears.</p><p></p><p> On a successful hit, a mind burner causes intense headaches that dull the senses and weaken willpower. Each hit deals 1d4 points of nonlethal damage, but also imposes a �2 penalty on Perception checks and a �1 penalty on saving throws against mind-affecting effects. These penalties stack with themselves, up to a maximum penalty of �10 on Perception checks and �5 on mind-affecting saving throws. A creature can resist the penalties caused by a shot from a mind burner with a successful DC 14 Will save; otherwise, the penalties persist for 1 hour after the previous successful shot. On a critical hit, a mind burner's penalties are doubled along with its nonlethal damage.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 4,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -189,6 +194,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -282,8 +288,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387782,
+    "modifiedTime": 1665949152137,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

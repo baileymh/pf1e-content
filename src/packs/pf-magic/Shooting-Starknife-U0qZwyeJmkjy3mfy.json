@@ -3,7 +3,7 @@
   "name": "Shooting Starknife",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bright +1 starknife is engraved with a beautiful moth icon. When wielded, it leaves a trail of harmless starry motes that shed light as a candle in any squares the wielder occupies or moves through. These motes last for 1 round before fading away. Once per day, the wielder can speak a command word to use jump (with a +20 bonus), but this effect immediately ends if the wielder loses its grasp on the weapon. Additionally, once per day the wielder can use it to fire a blast of motes, with the same effect as color spray.<br><p><b>Base Item:</b> +1 starknife</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, color spray, jump</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372357,
+    "modifiedTime": 1665949138791,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

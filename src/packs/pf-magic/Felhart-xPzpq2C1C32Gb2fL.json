@@ -3,7 +3,7 @@
   "name": "Felhart",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Felhart is a +2 bane longbow crafted from the fiercely carved horns of at least two venerable stags and strung with a cord laced with silver. The designated foe that its bane effect functions against varies, being determined by the creature a wielder hates the most when the bow is first picked up (as decided upon by the GM). This bane effect remains the same for a wielder, regardless of how many times he's used the bow. Thus, for one user it might be a +2 bane vs. humanoids (humans) longbow, while for another it might be a +2 bane vs. dragons longbow. A wielder can do nothing to change the bow's bane effect. In addition, once per week, felhart's wielder can summon a reliable steed as per the spell mount. This creature takes the form of a lean, swift white elk that, despite its almost ghostly appearance, possesses the same statistics as a horse. This creature allows felhart's wielder to ride it, and serves loyally for up to 5 hours, vanishing at the end of this time. The mount will not allow any creature beside felhart's wielder to ride it unless the weapon's bearer succeeds at a DC 16 Handle Animal check. Even if this check succeeds, the mount only allows another rider to ride along with the weapon bearer. The elk never allows a strange rider to ride it alone.<br><p><b>Base Item:</b> +2 bane longbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, true strike</p><h3><b>Source: </b></h3>AP 27",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373302,
+    "modifiedTime": 1665949139709,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

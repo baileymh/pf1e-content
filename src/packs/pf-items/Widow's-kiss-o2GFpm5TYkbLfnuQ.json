@@ -3,7 +3,7 @@
   "name": "Widow's kiss",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Widow's kiss</h3><p><strong>Source</strong> <em>Agents of Evil pg. 22</em></p><p><strong>Price</strong> 7,000 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 24</p><p><strong>Onset</strong> 1d4 days; <strong>Frequency</strong> 1/day</p><p><strong>Effect</strong> 1d3 Con, see text</p><p><strong>Cure</strong> 3 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Developed by the spiderlike jorogumos (<em>Pathfinder RPG Bestiary 3</em> 156), widow’s kiss is distilled from the monsters’ natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host’s bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host’s body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo’s spider empathy ability.</p><p></p><p> The effects of widow’s kiss can be removed a combination of <em>cure disease</em> and <em>neutralize poison</em>. If a creature is slain by the poison’s Constitution damage, a spider swarm (<em>Pathfinder RPG Bestiary</em> 258) erupts from the body 1d6 rounds later.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367780,
+    "modifiedTime": 1665949135593,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

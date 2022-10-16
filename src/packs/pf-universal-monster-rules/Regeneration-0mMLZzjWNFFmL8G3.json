@@ -3,7 +3,7 @@
   "name": "Regeneration",
   "type": "feat",
   "img": "icons/commodities/biological/organ-heart-red.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<div>\n<p>A creature with this ability is difficult to kill. Creatures with regeneration heal damage to themselves at a fixed rate, as with <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"dNIkY0Gup3uvU0eK\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">fast healing</span></a>, but they can&rsquo;t die as long as their regeneration is still functioning (although creatures with regeneration still fall unconscious when their hit points are below 0). Certain damage types, typically acid and fire, cause a creature&rsquo;s regeneration to stop functioning on the round following the attack. During this round, the creature does not heal any damage and can die normally. The creature&rsquo;s descriptive text describes the types of damage that cause the regeneration to cease functioning.</p>\n<p>Attacks that don&rsquo;t deal hit point damage are not healed by regeneration. Regeneration also does not restore hit points lost from starvation, suffocation, or thirst. Regenerating creatures can regrow lost portions of their bodies and can reattach severed limbs or body parts if they are brought together within 1 hour of severing. Severed parts that are not reattached wither and die normally.</p>\n<p>A creature must have a Constitution score to have the regeneration ability.</p>\n<br />\n<p><em>Format</em>: regeneration 5 (acid, fire)</p>\n<p><em>Location</em>: hp.</p>\n</div>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402415,
+    "modifiedTime": 1665949165173,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Murderer's Machete",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wide machete is darkly stained with blood. It is treated as a +1 keen short sword that also has a vicious cutting edge, allowing it to deal slashing damage in addition to piercing damage.  The murderer's machete grants its wielder the ability to move with unnatural grace and speed while stalking potential victims. The wielder gains a +2 competence bonus on Stealth checks and Survival checks to track. In addition, once per day, the wielder can lick the bloodstains on the blade as a standard action to gain the benefits of cruel jaunt (see page 114).<br><p><b>Base Item:</b> +1 keen short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cruel jaunt, keen edge, creator must sacrifice a sentient living creature</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373002,
+    "modifiedTime": 1665949139384,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Prayer Wheel Of Ethical Strength",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Sacred or profane mantras cover the outer face of this cylindrical wooden block, which rotates around a decorative brass spindle. By holding the spindle in one hand while meditating or resting to regain ki, the bearer may attune his ki points to the wheel. Once attuned, the bearer's ki strikes count as good (if the wheel has sacred mantras) or evil (if the wheel has profane mantras) instead of lawful for the purpose of overcoming damage reduction. This lasts until the next time the bearer rests or meditates to regain ki points. A creature can only be attuned to one prayer wheel at a time, and a prayer wheel can only be attuned to one person at a time. Only creatures who can make lawfully-aligned ki strikes can use a prayer wheel.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, align weapon</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408609,
+    "modifiedTime": 1665949170784,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

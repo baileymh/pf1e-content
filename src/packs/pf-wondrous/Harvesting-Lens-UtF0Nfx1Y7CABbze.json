@@ -3,7 +3,7 @@
   "name": "Harvesting Lens",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick, intricate lens piece is covered in alchemical wiring. A small aperture on the side of the lens connects to a mundane glass vial, such as a vial used for potions. When slid onto the viewer's end of a telescope, a harvesting lens allows the telescope's user to harness the power of starlight or the void as she chooses.  When a vial is fitted to the lens and the telescope is aimed at a distant star in the night sky, the vial slowly fills with collected starlight. After 8 hours, the vial is filled with silvery liquid cosmic light. One filled and removed, the vial of starlight sheds light for 8 hours, as if it were affected by light. During this time, the vial can be thrown as a splash weapon with a range increment of 10 feet. On a direct hit, the vial shatters in a blinding flash of light, affecting the target as a blinding ray (Fortitude DC 13 negates). If the vial misses, it breaks with no effect. Either way, a new empty vial must be attached to the harvesting lens to use it again.  Alternatively, a harvesting lens attached to a telescope can be pointed toward an empty, dark space between the stars. After 8 hours, the vial becomes full of thick, inky dark matter. For 8 hours after the vial of dark matter is filled and removed, an inky black haze surrounds any creature holding it, as the protective penumbra spell. A vial of dark matter can also be thrown as a splash weapon with a range increment of 10 feet. Upon striking any solid body or surface, the vial breaks and releases a 10-footradius emanation of magical darkness that lasts for 3 minutes.  This effect otherwise acts as darkness.  Only vials that have been filled for 8 hours produce the above effects. Partially filled vials do not work.  Only one magical lens (such as this or a lens of starlight) can be attached to a telescope at a time.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, blinding rayARG, light, protective penumbraUM</p><h3><b>Source: </b></h3>People Of The Stars",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406816,
+    "modifiedTime": 1665949169058,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

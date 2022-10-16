@@ -3,7 +3,7 @@
   "name": "Liar's Well",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When opened, this cursed well of many worlds has a 50% chance of displaying a false image of its destination. For example, the well may appear to open onto the plane of Axis while in reality opening onto a layer of the Abyss, though the difference is not always to the user's detriment. Any creatures emerging from the other side are not subject to the illusion. The false image is defeated by a true seeing spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gate, mirage arcana</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407785,
+    "modifiedTime": 1665949170049,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

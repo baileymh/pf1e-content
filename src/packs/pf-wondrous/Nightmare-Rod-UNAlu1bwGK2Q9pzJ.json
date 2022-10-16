@@ -3,7 +3,7 @@
   "name": "Nightmare Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A nightmare rod is a wooden rod with a smooth, purple, crystalline octopus clutching one end, its tentacles wrapped around the length of the rod and its bulbous body serving as a sort of mace head. Indeed, a nightmare rod can be wielded as a +2 heavy mace. On a critical hit, a nightmare rod floods the target's mind with horrific visions of nightmarish dooms that stagger the victim for 1 round if it fails a DC 15 Will save. This is a mind-affecting fear effect.  In addition, a nightmare rod has the following powers.  • Once per day as a free action when the rod hits a living creature, the user can affect the creature struck with a phantasmal killer spell (Will/Fort DC 16).  • Once per day, the user can cast nightmare. If the recipient is awake when the spell begins, the wielder need not enter a trance (as he would if he had cast the spell)- the nightmare rod maintains its own sort of trance on the spell and automatically finishes casting the spell as soon as the recipient falls asleep. If the recipient does not fall asleep within 24 hours, the nightmare rod ceases attempting to cast the spell automatically.  • As long as the wielder carries the nightmare rod in his hand, he is immune to fear effects.<br><p><b>Base Item:</b> +2 heavy mace</p><h3><b>Requirements</b></h3><p>Craft Rod, fear, nightmare, phantasmal killer, remove fear</p><h3><b>Source: </b></h3>AP 65",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406790,
+    "modifiedTime": 1665949169036,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

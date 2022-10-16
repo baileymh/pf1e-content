@@ -3,7 +3,12 @@
   "name": "Death Throes",
   "type": "feat",
   "img": "systems/pf1/icons/races/half-elf.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.y12plKgwu8HiVAca"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Caligni&nbsp;</p>\n<hr />\n<p>When a caligni is slain, its body combusts in a flash of searing light. All creatures within a 5-foot burst must succeed at a Fortitude save (DC = 10 + 1/2 the caligni's Hit Dice + the caligni's Constitution bonus) or be dazzled for 1d4 rounds. The corpse left behind is a third of the caligni's size, withered and unrecognizable as the individual. <em>Raise dead</em> and similar spells cast upon these remains restore a caligni as normal.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.y12plKgwu8HiVAca"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382609,
+    "modifiedTime": 1665949147063,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

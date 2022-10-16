@@ -3,7 +3,7 @@
   "name": "Shield Of Aroden",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Shield of Aroden is a +5 light fortification spell resistance (17) heavy wooden shield. Once per day, the bearer can invoke a form of fire shield that protects against cold attacks and damages opponents with fire and holy damage similarly to the spell flame strike. Once per round as an immediate action, if an adjacent ally is hit by a ranged or melee attack, the bearer can use the shield to redirect the attack to himself, taking all effects from that attack as if he were the intended target. All allies within 100 feet of the bearer gain the effect of bless and prayer. Additionally, all allies within 100 feet of the bearer know his relative position and condition, as per the spell status.  Beyond these properties, the Shield of Aroden is designed to protect its bearer from death. Any attack that would kill the bearer (not merely make him unconscious or dying) triggers this ability, redirecting the lethal attack fully upon the shield and leaving the bearer unharmed (even if the attack normally only works on living creatures). For example, if the bearer failed a saving throw against flesh to stone, the shield would turn to stone and shatter instead, whereas if the bearer failed his save against horrid wilting, the shield would turn to dry splinters. This power always destroys the shield, reducing it to 1d20 nearly invulnerable shards that suggest the way in which it was last destroyed.  The Shield of Aroden bestows two negative levels on any chaotic creature that attempts to wield it. These negative levels remain as long as the shield is held or carried. These negative levels never result in actual level loss, but they cannot be overcome in any way (including restoration spells) while the creature possesses the shield.<br><p><b>Base Item:</b> +5 light fortification spell resistance (17) heavy wooden shield</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372943,
+    "modifiedTime": 1665949139338,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Orb Of Arcane Research",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Made of a glassy, translucent substance, this orb swirls with the eldritch energy of spellcasters long departed. When the bearer researches a spell to create a new spell or learn an existing one from another source (see Chapter 9 of the Pathfinder RPG Core Rulebook), this orb provides a +2 competence bonus on Spellcraft checks.   Additionally, when the command word is spoken, an orb of arcane research allows its bearer to gain a +5 insight bonus on a Craft (alchemy), Knowledge (arcana), Knowledge (nature), or Spellcraft check made to research a spell or extract formula (see page 86 of Ultimate Campaign). The orb can be used five times in this way before the item cracks, losing all of its magical properties and reverting to a piece of mundane glass.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Scribe Scroll, read magic</p><h3><b>Source: </b></h3>Quests and Campaigns",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409123,
+    "modifiedTime": 1665949171274,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

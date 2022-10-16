@@ -3,7 +3,7 @@
   "name": "Brain Cylinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A brain cylinder allows the surgically extracted brain of a Large or smaller creature to continue to function even after it has been removed from the body. Technically, the creature from whom the brain was harvested is dead, but as long as the brain remains in the cylinder, the creature can continue to think. Dials on the cylinder's side control whether the brain can see, hear, or speak using a raspy speaker built into the cylinder's surface. The brain can speak and understand any languages it knew in life, and retains the use of the following skills at the values it possessed while alive: Appraise, Bluff, Diplomacy, all Knowledge skills, Linguistics, Perception, and Sense Motive. It retains no other abilities it possessed in life, including purely mental abilities. Mi-go typically preserve humanoid brains in this manner when they wish to interrogate a creature at a later date, or when they wish to preserve a creature as a resource for consultation or research purposes.  A brain cylinder is usually made of dark metal and has hardness 10 and 30 hit points-cylinders made of other materials might have higher or lower hardness scores and hit point totals. If a brain cylinder is destroyed, the brain within is lost. Likewise, if the creature from which the brain was harvested is restored to life, the brain within the cylinder is destroyed, and only powerful effects capable of building entirely new bodies can restore to life a creature that has had its brain removed. Note that the gp price to create a brain cylinder only accounts for the basic creation- the brain of a particularly knowledgeable creature could be worth far more than 5,000 gp to some buyers, especially if the information contained in the brain is of a particularly sensitive nature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gentle repose, magic jar, 7 ranks in Heal</p><h3><b>Source: </b></h3>AP 88",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405403,
+    "modifiedTime": 1665949167793,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

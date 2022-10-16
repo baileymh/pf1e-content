@@ -3,7 +3,7 @@
   "name": "Reaper's Lantern",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black iron lantern and chain functions as a +1 heavy flail. The lantern burns with a cold blue-green flame that sheds light as per a hooded lantern. On command, the wielder can reduce the light to a 5-foot radius of dim light or restore it to full brightness.  Once per day, when the wielder hits a creature with the lantern, she can deal an additional 2d6 points of negative energy damage as a swift action. If she does so, she gains a number of temporary hit points equal to the damage she dealt that last for 1 hour.  A creature reduced to 0 hit points or fewer by the lantern must succeed at a DC 13 Fortitude save or die. This is a death effect. For 24 hours after a creature is killed this way, the lantern's flame holds an echo of the creature's soul. A speak with dead spell cast on the flame yields information as if it were the creature's corpse. The flame can hold the echo of only one creature's soul; if the lantern kills another creature, a new echo replaces the previous one.<br><p><b>Base Item:</b> +1 heavy flail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, continual flame, death knell, speak with dead, vampiric touch</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373044,
+    "modifiedTime": 1665949139420,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

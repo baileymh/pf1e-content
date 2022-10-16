@@ -3,7 +3,7 @@
   "name": "Necklace Of Stolen Breath",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This necklace is a string of intricately carved bones that hold fragments of drowned souls. The wearer can mimic the voice of anyone whose spirit is stored in the necklace as if using sound mimicry. Additionally, the wearer can destroy a bone as a standard action to summon a drowned shade, which has the stats of a water elemental with the following changes. A drowned shade gains undead immunities and is treated as undead, and it projects a 20-foot-radius drowning aura, which imposes a -5 penalty on Swim checks to creatures without the aquatic or water subtype and negates magical means of breathing underwater. Each round a creature holds its breath within the aura counts as 2 rounds for the purpose of drowning.  Once per day, if the wearer falls below 0 hit points, she can destroy a bone to heal herself (this is not an action).  A minor soul bone summons a Small water elemental drowned  shade or heals 1d8+11 hit points; a lesser soul bone summons a Medium water elemental drowned shade or heals 3d8+11 hit points; a standard soul bone summons a Large water elemental drowned shade or heals 5d8+11 hit points; and a greater soul bone summons a Huge water elemental drowned shade or heals 7d8+11 hit points.  The necklace's listed price does not include the price of bones. The wearer can add a new soul bone to the necklace by ritually drowning a sentient creature and paying the additional cost. The requirements are as follows: minor (300 gp, 2-HD sacrifice), lesser (1,400 gp, 4-HD sacrifice), standard (2,250 gp, 8-HD sacrifice), and greater (3,300 gp, 10-HD sacrifice).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Augment Summoning, Craft Wondrous Item, summon monster VI or summon nature's ally V</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405489,
+    "modifiedTime": 1665949167841,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

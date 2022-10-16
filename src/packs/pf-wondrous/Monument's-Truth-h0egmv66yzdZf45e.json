@@ -3,7 +3,7 @@
   "name": "Monument's Truth",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast speak with dead on the creature that was buried beneath. The user of the monument's truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature's death.  A creature with an Intelligence score of at least 3 while it was alive must have been buried beneath the monument for at least 1 year for monument's truth to function. If more than one such creature is buried beneath the monument, the effect fails, the psychic impressions having become too tangled to transmit comprehensible information.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, speak with dead, stone tell</p><h3><b>Source: </b></h3>AP 139",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408391,
+    "modifiedTime": 1665949170627,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

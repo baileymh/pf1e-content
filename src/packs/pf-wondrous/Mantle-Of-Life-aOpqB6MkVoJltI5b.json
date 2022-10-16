@@ -3,7 +3,7 @@
   "name": "Mantle Of Life",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This short cape shimmers faintly under light. The wearer is immune to the energy drain attacks made by undead creatures. She still suffers any other effects of the attack, but ignores the energy drain. If a corpse is wearing the mantle, it can't rise as an undead creature for any reason. This doesn't prevent creatures  that were already undead from using abilities like rejuvenation to return to unlife.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, death ward</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407397,
+    "modifiedTime": 1665949169648,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

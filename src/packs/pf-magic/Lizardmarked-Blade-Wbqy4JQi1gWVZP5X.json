@@ -3,7 +3,7 @@
   "name": "Lizardmarked Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The pommel of this +1 shocking gladiusUE is shaped like the head of a lightning-breathing linnorm. The wielder automatically detects any electrical discharges within 100 feet, and as a move action can concentrate on a creature within 60 feet to determine whether it has a resistance or immunity to electricity damage. Once per day, the wielder can speak the lizardmarked blade's command word to cause the weapon to deal damage as if it's one size category larger than it actually is (effectively increasing the gladius's damage die from 1d6 to 1d8). This lasts for 10 minutes.<br><p><b>Base Item:</b> +1 shocking gladius</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, lead bladesAPG, lightning bolt</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372394,
+    "modifiedTime": 1665949138828,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

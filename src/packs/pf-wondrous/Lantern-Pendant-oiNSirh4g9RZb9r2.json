@@ -3,7 +3,7 @@
   "name": "Lantern Pendant",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small pendant of brass and glass is crafted in the shape of a lantern and continuously sheds light as a light spell. As a move action, the wearer can open the miniature lantern pendant and direct the tiny phantasmal fire within to float to any point within 110 feet. This functions as dancing lights, but the wearer can create a number of lights equal to 1/2 his character level, up to a maximum of four, and can create only torchlike lights, not glowing spheres or humanoid shapes. While the dancing lights are active, the light of the lantern pendant itself is extinguished.  6th Level: Once per day, the wearer can command the phantasmal fire to fly forth and limn all creatures in an area as faerie fire. Just as when using dancing lights, the pendant's light is extinguished throughout the duration.  8th Level: The wearer can choose between faerie fire and glitterdust (Will DC 13) when he uses the 6th-level ability.  10th Level: Once per day, the wearer can focus the lantern's power, causing its light to increase from the light spell to the daylight spell, with a duration as daylight. The daylight is suppressed whenever he activates any other ability that extinguishes the pendant's light, but such time still counts against its duration.  13th Level: Once per day, the wearer can release the lantern's lights in the form of wandering star motesAPG (Will DC 16). During the duration, the pendant's light is extinguished.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dancing lights, daylight, faerie fire, light, wandering star motesAPG</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409188,
+    "modifiedTime": 1665949171317,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

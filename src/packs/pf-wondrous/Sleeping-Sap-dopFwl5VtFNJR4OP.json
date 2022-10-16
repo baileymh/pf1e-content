@@ -3,7 +3,7 @@
   "name": "Sleeping Sap",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>On a confirmed critical hit, this +1 sap puts a creature to sleep for 3 minutes as per sleep, with no HD limit (Fort DC 13 negates).<br><p><b>Base Item:</b> +1 sap</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sleep</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407894,
+    "modifiedTime": 1665949170136,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

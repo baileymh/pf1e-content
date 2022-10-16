@@ -3,7 +3,7 @@
   "name": "Laurel Wreath",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This crown of laurel leaves inspires its wearer to achieve mighty deeds. She gains a +4 morale bonus on saving throws against mind-affecting effects. If she succeeds at a saving throw against a harmful mind-affecting effect, the surge of confidence gives her a +2 morale bonus on attack rolls, skill checks, and weapon damage rolls for 1 minute. If she fails such a saving throw, she is instead shaken for 1 minute, though this condition doesn't stack with other fear effects to make her frightened or panicked.   A mythic creature wearing the wreath gains 2 temporary hit points per tier at the start of each day. These temporary hit points are restored whenever the wearer rests 8 hours or otherwise gains the equivalent of doing so.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, false hope, good hope</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403698,
+    "modifiedTime": 1665949166160,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ghost Mirror",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small hand mirror is warped and tarnished around the edges. A creature wielding the mirror can activate it by speaking a command word as a standard action. Once activated, the mirror grants the wielder the ability to see all undead within 60 feet clearly reflected in the mirror. This includes ethereal undead and incorporeal undead hiding in objects or walls of up to 5 feet in thickness. A ghost mirror does not confer any ability to see such creatures directly- only their mirrored reflections-and grants creatures seen in it concealment (50% miss chance). A ghost mirror can be used for 3 minutes per day. These uses do not need to be consecutive but must be used in 1-minute increments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect undead</p><h3><b>Source: </b></h3>Undead Unleashed",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409194,
+    "modifiedTime": 1665949171323,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

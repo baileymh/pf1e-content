@@ -3,7 +3,7 @@
   "name": "Amulet Of Mighty Fists +2",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet grants an enhancement bonus of +1 to +5 on attack and damage rolls with unarmed attacks and natural weapons Alternatively, this amulet can grant melee weapon special abilities, so long as they can be applied to unarmed attacks. See Table 3-8: Melee Weapon Special Abilities for a list of abilities. Special abilities count as additional bonuses for determining the market value of the item, but do not modify attack or damage bonuses. An amulet of mighty fists cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. An amulet of mighty fists does not need to have a +1 enhancement bonus to grant a melee weapon special ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, greater magic fang, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409239,
+    "modifiedTime": 1665949171356,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

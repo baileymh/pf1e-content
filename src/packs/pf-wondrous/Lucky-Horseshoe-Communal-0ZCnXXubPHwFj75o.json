@@ -3,7 +3,7 @@
   "name": "Lucky Horseshoe, Communal",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item looks like and functions as a lucky horseshoe. In addition, if the horseshoe is placed prominently over the entrance of a building and left there for a period of at least 8 hours, it provides good luck to all those who spend time within that building. In order to gain this benefit, a character must spend at least 8 consecutive hours within the building; the benefit lasts for 24 hours. A single communal lucky horseshoe can provide its benefit to any number of creatures per day, but each creature can gain the benefits of only one lucky horseshoe at a time. Once a creature invokes the lucky horseshoe's ability, she can't benefit from another lucky horseshoe for 24 hours, though time she spends inside the building during that interval counts toward the 8 consecutive hours required to gain the communal lucky horseshoe's benefit for the next day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divine favor, hallow</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403400,
+    "modifiedTime": 1665949165924,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

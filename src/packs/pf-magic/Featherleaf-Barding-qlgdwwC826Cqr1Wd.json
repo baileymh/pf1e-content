@@ -3,7 +3,7 @@
   "name": "Featherleaf Barding",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This enchanted sleeve is made of tiny, feather-shaped leaves and is designed to fit birds. Once fitted over the body of a Tiny or smaller avian creature, featherleaf barding automatically shrinks to snugly fit the creature's torso and neck, serving as +1 leather armor (granting a total bonus to AC of +2). The maximum fly speed of a creature wearing featherleaf barding is 60 feet with average maneuverability. In forests, jungles, and thickly wooded areas, the wearer can fly through branches, brush, and even whole tree trunks as if they weren't there, though its fly speed and maneuverability remain the same.<br><p><b>Base Item:</b> +1 leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fly, tree stride</p><h3><b>Source: </b></h3>Familiar Folio",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373007,
+    "modifiedTime": 1665949139389,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

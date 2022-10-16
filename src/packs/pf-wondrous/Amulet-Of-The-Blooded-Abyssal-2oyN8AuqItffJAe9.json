@@ -3,7 +3,7 @@
   "name": "Amulet Of The Blooded, Abyssal",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the blooded grants its wearer powers from one sorcerer bloodline, but makes him vulnerable to attacks and effects that target creatures with the appropriate bloodline (such as a blood-hunting weapon). If a creature that already has the associated bloodline wears the amulet, the wearer does not gain the abilities listed below; instead, the effective level of his bloodline powers increases by 2. This effect does not stack with other abilities that increase the effective level of bloodline powers.    Abyssal: This amulet is a chunk of bright red garnet in which fire seems to dance when light plays across its surface. It hangs from a chain of brass. The wearer gains electricity resistance 5 and a +2 bonus on saving throws against poison. In addition, the wearer can grow claws as a free action. The claws are treated as natural weapons, and allows the wearer to make two claw attacks as a full attack action using his full base attack bonus. The claws deal 1d4 points of damage each (1d3 if the wearer is Small) plus the wearer's Strength modifier. Moderate abjuration; CL 9th; Craft Wondrous Item, delay poison, magic fang, resist energy.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, delay poison, magic fang, resist energy, creator must be a sorcerer of the appropriate bloodline</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403534,
+    "modifiedTime": 1665949166033,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

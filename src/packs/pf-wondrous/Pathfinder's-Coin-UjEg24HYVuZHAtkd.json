@@ -3,7 +3,7 @@
   "name": "Pathfinder's Coin",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This apparently simple coin, usually styled to resemble ancient currency, hides intricate gold and platinum wires within. This matrix, carefully modeled after fragmentary Azlanti coins, causes the Pathfinder's coin to rise an inch into the air and slowly spin in place if placed atop a wayfinder. In addition, when levitating above a wayfinder, the coin can be given a message of 25 words or fewer. This message repeats in the speaker's voice the next time the coin is floated above a wayfinder. Only one message may be stored at a time, and once it is triggered, the message is expended and a new one may be recorded.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, identify, levitate, magic mouth</p><h3><b>Source: </b></h3>Pathfinder Society Field Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406807,
+    "modifiedTime": 1665949169052,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

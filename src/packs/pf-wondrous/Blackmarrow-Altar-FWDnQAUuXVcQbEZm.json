@@ -3,7 +3,7 @@
   "name": "Blackmarrow Altar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar is built from skulls and bones as black as onyx. When placed upright on a solid surface, the altar begins radiating negative energy, as per desecrate. If the altar is knocked over, the effect ends until the altar is righted as a move action. A spellcaster can use a blackmarrow altar as a focus when casting animate dead or create undead. The spell then doesn't require onyx gems as a material component. Instead, the altar supplies the  unholy energy needed for casting the spell. The altar can sustain a maximum of 20 Hit Dice of undead creatures created this way, and it can't create more than 20 HD of undead creatures in a week even if previously created undead are destroyed. The undead creatures can't create spawn or use similar abilities.  When undead creatures created with the altar as a focus move farther than 100 feet away from it, dark fumes continuously pour out from their eyes (or eye sockets) and mouths. Any such undead creature needs to return to the altar's vicinity within 4 hours to replenish its negative energy. If unable to do so, the creature is immediately destroyed after 4 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, desecrate</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404805,
+    "modifiedTime": 1665949167291,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Orb Of Golden Heaven",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This alabaster sphere, overlaid with golden bands set with diamonds in runelike patterns, sheds light like a continual flame spell. Making a melee touch attack with the orb has the same effect as dousing the target with a flask of holy water. A good creature may hold the orb in hand and command it to invoke consecrate and searing light each once per day.   The orb bestows one permanent negative level on any evil creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by restoration spells) while the bearer has the orb. If the bearer of an orb of golden heaven wears a crown of golden heaven, its light counts as daylight instead of continual flame, and its consecrate acts as if the orb were a shrine to the bearer's deity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless water, consecrate, daylight, searing light</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404643,
+    "modifiedTime": 1665949167159,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

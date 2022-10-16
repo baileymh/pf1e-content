@@ -3,7 +3,7 @@
   "name": "Sigil Chalk",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This short stick of grayish chalk is flecked with mithral. When the chalk's bearer succeeds at a Knowledge check to identify a monster's special powers or vulnerabilities, he can take a standard action to draw a 1-foot-wide runic shape in the air that represents the monster's type. This rune floats around the user's head for 1 hour, moving with the user. The hovering rune provides the user a +1 insight bonus on attack rolls and skill checks against creatures of the type represented by the rune. It doesn't impair the user's vision or movement in any way. The rune cannot be harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A rune's Armor Class against touch attacks is equal to 10 + the user's Dexterity modifier.  If the user fails an attack roll or skill check against a creature of the type represented by his hovering rune, he can dismiss the rune as an immediate action to gain a +2d4 competence bonus on the attack roll or skill check retroactively, which may turn the failure into a success. Each stick of sigil chalk may be used to draw five runes. A single user can have a number of hovering runes equal to his Intelligence modifier (minimum 1) simultaneously, but each must represent a different creature type.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gallant inspirationAPG, true strike</p><h3><b>Source: </b></h3>Magic Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406787,
+    "modifiedTime": 1665949169033,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Orbicular Sac",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Breaking open this magically enhanced spider egg sac (a standard action) conjures a massive spider web in a square adjacent to the user. The web is 5 feet thick and up to 20 feet wide and high. The spider web is nearly invisible; spotting it requires a successful DC 20 Perception check in bright light.  This DC increases by 4 for every step below bright light in which the spider web is placed. This effect otherwise acts as the web spell (DC 13). Alternatively, the user can enhance a web created by another orbicular sac. Each additional sac increases the duration of the web by 30 minutes and the Reflex and grapple DCs by 2 (maximum increase of +10).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, invisibility, web</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407321,
+    "modifiedTime": 1665949169573,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Grab",
   "type": "feat",
   "img": "systems/pf1/icons/feats/combat-casting.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>If the creature hits with the indicated attack, it deals the normal amount of damage and tries to start a <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grapple</span></a> as a free action without provoking an attack of opportunity. Unless otherwise noted, grab works only against opponents the same size category as the creature or smaller. The creature has the option to conduct the grapple normally or simply use the part of its body it used in the grab to hold the opponent. If it chooses to do the latter, it takes a &ndash;20 penalty on its combat maneuver check to start and maintain the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grapple</span></a>, but does not gain the grappled condition itself. A successful hold does not deal any extra damage unless the creature also has the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"2wxBJU0qDZ5501Up\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">constrict</span></a>&nbsp;special attack. If the creature does not constrict, each grapple combat maneuver check it succeeds at during successive rounds automatically deals the damage indicated for the attack that established the hold. Otherwise, it deals constrict and grapple damage (the amount is given in the creature&rsquo;s descriptive text).</p>\n<p>Creatures with the grab special attack receive a +4 bonus on combat maneuver checks to start and maintain a grapple.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: grab</p>\n<p><em>Location</em>: individual attacks.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -207,8 +212,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402520,
+    "modifiedTime": 1665949165251,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

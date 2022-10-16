@@ -3,7 +3,7 @@
   "name": "Daikyu of Commanding Presence",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This asymmetric Minkai longbow, or daikyu, is over 6 feet long, and made of laminated bamboo, wood, and leather with a grip crafted from the hide of an imperial dragon. The daikyu of commanding presence is a +2 seeking composite longbow that adjusts its strength rating to match the Strength bonus of its wielder. Once per day, the wielder of the daikyu of commanding presence can fire a single arrow into the air, which illuminates the surrounding area with the effects of a daylight spell for 1d6 rounds. All allies within the daylight spell's area of increased illumination (120 feet) receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge, for the duration of the daylight effect. If the wielder of the daikyu of commanding presence is a cavalier or samurai, this daylight effect counts as a banner for the purpose of the character's banner ability, and the morale bonuses are treated as for a cavalier or samurai of five levels higher. In addition, a cavalier or samurai wielding the daikyu of commanding presence can use his challenge ability against a foe within the first range increment of the bow, and deals extra damage to the target of his challenge with arrows fired from the bow.  The daikyu of commanding presence is an ancestral weapon of the Higashiyama family, one of the five imperial families of Minkai. The daikyu is imbued with royal honor, and bestows one permanent negative level on any creature without honor who attempts to wield it (such as oni, traitors, kinslayers, and the like). The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.<br><p><b>Base Item:</b> +2 seeking composite longbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bull's strength, daylight, heroism, true seeing</p><h3><b>Source: </b></h3>AP 53",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373102,
+    "modifiedTime": 1665949139460,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

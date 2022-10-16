@@ -3,7 +3,7 @@
   "name": "Amulet Of The Abyss",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each amulet of the Abyss bears a demon lord's rune on its face, indicating the entity to which the amulet is attuned. An amulet of the Abyss functions as an unholy symbol of the demon lord. For a worshiper of that demon lord, an amulet of the Abyss also functions as a phylactery of faithfulness. An amulet of the Abyss grants its wearer the ability to cast each of the three spell-like abilities granted by the associated demon lord's first exalted demonic boon  once per day. See the individual demon lord entries in Chapter 1 for lists of the spells each demon lord grants as an exalted boon. Any lawful or good character who wears this amulet gains 2 negative levels. These negative levels remain as long as the amulet is worn and cannot be overcome in any way as long as the amulet is worn (though they never result in actual level loss).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must worship a demon lord</p><h3><b>Source: </b></h3>Book of the Damned",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405365,
+    "modifiedTime": 1665949167772,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

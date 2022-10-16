@@ -3,7 +3,7 @@
   "name": "Origami Swarm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stiff folded paper vaguely resembles a hand-sized pest such as a beetle, spider, or cockroach. Completing two key folds in the paper causes it to multiply into hundreds of similar-sized duplicates of itself. These duplicates fill a 10-foot space and act as a rat swarm, except they have fire vulnerability, the construct type, and do not have the disease special ability. The paper beetles do not attack their creator, but are otherwise uncontrolled and attack anything nearby. After 5 rounds, the beetles crumple and fall inert. Once activated, an origami swarm loses all magic.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407781,
+    "modifiedTime": 1665949170047,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

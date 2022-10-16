@@ -3,7 +3,7 @@
   "name": "Spirit Planchette, Brass",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops (typically costing 25 gp); while these items can be used as alternative components for augury spells, only magical spirit planchettes allow users to communicate with the other side. Three types of spirit planchettes exist-brass, cold iron, and silver. Each in turn allows an increasingly potent form of divination effect to be utilized. A spirit planchette requires a board to move upon, but this board can be made up of letters scribed upon any smooth surface-it need not be a prepared board for a spirit planchette to work. To use a spirit planchette, you must rest your fingers lightly upon the planchette's surface and then concentrate on the planchette (as if maintaining a spell with a duration of concentration) for 2d6 rounds while the planchette attunes itself to the ambient spirits of the area. After this time, the planchette begins to slowly slide in random patterns across the board-at this point, questions may be asked of the spirits by any of the individuals involved in the seance. The consequences of each question asked of the spirits depends upon what type of planchette is used for the divination, as summarized on the table below. The spirits reply in a language understood by the character who asked the question, but resent such contact and give only brief answers to the questions. All questions are answered with yes, no, or maybe, or by spelling out a single word from the letters arranged on the board. The spirits answer each question either in the same round the question is asked (in the case of a yes, no, or maybe answer) or at a rate of one letter per round (in the case of a single word being spelled out). A spirit planchette may be used once per day-the maximum number of questions you can ask with it depends on the type of planchette being used (as detailed on the table below). Communication with spirits can be a dangerous task, for many spirits are jealous or hateful of the living. Every time a spirit planchette is used, the user must succeed on a Will save to avoid being temporarily possessed and harmed by the angry spirits. In some areas where the spirits are particularly violent or hateful (such as in Harrowstone), this Will save takes a -2 penalty. The DC of this save depends on the type of spirit planchette being used. Anyone who fails the Will save becomes confused for a number of rounds (depending on the type of planchette being used), and no answer is received. The spirits in the area are not omniscient-the GM should decide whether or not the spirits would actually know the answer to the question asked, and if they do not, the answer granted is automatically maybe. If the GM determines that the spirits are knowledgeable about the answer, roll d% to determine whether the spirits speak truthfully or whether they lie. Spirit Planchettes Planchette Questions Will save Confusion True Type per Use DC Duration Answer Lie Brass 1 11 1 round 01-60 61-100 Cold Iron 3 15 2 rounds 01-75 76-100 Silver 5 19 3 rounds 01-90 91-100<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, contact other plane, speak with dead</p><h3><b>Source: </b></h3>AP 43",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406007,
+    "modifiedTime": 1665949168331,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

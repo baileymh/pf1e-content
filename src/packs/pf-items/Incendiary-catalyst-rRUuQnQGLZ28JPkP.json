@@ -3,7 +3,7 @@
   "name": "Incendiary catalyst",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/magic-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Incendiary catalyst</h1><b>Source</b> <i>Pathfinder #115: Trail of the Hunted pg. 74</i><br/><b>Price</b> 40 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>Incendiary catalyst can be thrown at a creature as a ranged touch attack with a range increment of 10 feet. On a hit, the target is doused with accelerants that give the target vulnerability to fire (<i>Pathfinder RPG Bestiary</i> 305) for 1 round. Incendiary catalyst does not affect creatures that are already vulnerable to fire, and the target's fire immunity and resistances apply as normal. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 20</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368049,
+    "modifiedTime": 1665949135820,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

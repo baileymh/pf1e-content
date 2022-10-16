@@ -3,7 +3,7 @@
   "name": "Righteous Medal Of Valor",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These ornate military medals are awarded to crusaders and adventurers who excel and deserve commendation in the war against the Worldwound. A medal must be affixed to a worn article of clothing to function, but doesn't have to be worn visibly. Any number of righteous medals can be worn, but the effects of multiple medals of a single type don't stack. A righteous medal functions only if the wearer has legitimately achieved the feat for which she received the medal. As a swift action, the wearer can gain a +2 sacred bonus to the medal's associated ability score for 1 minute. In addition, each righteous medal grants a constant sacred bonus on one type of roll, as detailed below.   Righteous Medal of Valor: This medal looks like a demonic skull, the top of which has been pierced by four red-hilted swords. It is awarded to a hero who delivers a death blow to a demon whose CR is at least 1 higher than the hero's character level. This medal is associated with Strength and grants a +2 sacred bonus to CMD.   A mythic character who wears all six righteous medals gains one additional use of mythic power per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item; bless,  bull's strength</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404633,
+    "modifiedTime": 1665949167150,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Assisting Glove",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The wearer of this simple glove can speak a command word to transform it into a glowing disembodied hand. As a swift action, the wearer can have the glove assist him with a task as if using the aid another action; the glove uses the wearer's base attack bonus or skill ranks when making the check to see if aid another is successful (it does not gain the benefit of the wearer's ability scores or other bonuses). The hand remains until it has attempted one action or until 1 minute passes, whichever comes first, at which time it becomes a nonmagical lambskin glove.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mage hand, unseen servant</p><h3><b>Source: </b></h3>APG",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404165,
+    "modifiedTime": 1665949166629,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

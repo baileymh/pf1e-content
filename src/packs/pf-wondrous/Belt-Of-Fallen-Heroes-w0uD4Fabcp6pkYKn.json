@@ -3,7 +3,7 @@
   "name": "Belt Of Fallen Heroes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large brass belt has three panels depicting scenes of battle. Once per day on command, the wearer can summon the spirit of a hero of one of the depicted battles. This spirit acts as a spiritual ally, though unlike the force created by that spell, the summoned hero is not entirely mindless. Whether or not the summoned hero is active, it attempts to guide its wearer to victory via telepathic warning and advice, granting its user a +1 insight bonus on all saving throws.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divine favor, spiritual ally</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410309,
+    "modifiedTime": 1665949172363,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

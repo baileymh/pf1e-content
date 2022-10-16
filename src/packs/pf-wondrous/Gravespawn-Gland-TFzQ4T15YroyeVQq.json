@@ -3,7 +3,7 @@
   "name": "Gravespawn Gland",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A gravespawn gland is a piece of zombie brain implanted in the host's skull. When the command word (which is often kept secret by its creator) is spoken within 60 feet of the host, the gravespawn gland releases a surge of necromantic power, dealing 4d6 points of negative energy damage to the host. The host must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by breath of life or raise dead. A creature killed by a gravespawn gland rises 1 round later as a mindless zombie.  A gravespawn gland is rarely implanted willingly. Unlike with most necrografts, implanting this organ requires a successful DC 25 Heal check by the necrograft surgeon, not a successful Fortitude save by the recipient. Removing an implanted gravespawn gland requires a successful DC 25 Heal check; if this check is failed by more than 5, the gravespawn gland detonates inside the host.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead, inflict critical wounds, creator must have 11 ranks in Heal</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406748,
+    "modifiedTime": 1665949168995,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

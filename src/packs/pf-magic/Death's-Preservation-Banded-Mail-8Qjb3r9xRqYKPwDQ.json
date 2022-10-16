@@ -3,7 +3,7 @@
   "name": "Death's Preservation Banded Mail",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 light fortification banded mail has a small, ovoid stone set in the left shoulder. The armor monitors the wearer's hit point total as the spell status. If an attack against the wearer does enough damage to kill him outright, he and his gear are teleported to a specific location determined at the time of the armor's creation. This effect acts in all other ways as the spell word of recall, with the predetermined location considered the place of sanctuary. The wearer's body is protected from decomposition for 18 days as per the gentle repose spell. Once this ability has been used, the stone set into the armor crumbles to dust and the armor reverts to being a suit of +2 light fortification banded mail.<br><p><b>Base Item:</b> 2 light fortification banded mail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, contingency, gentle repose, limited wish or miracle, word of recall</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371766,
+    "modifiedTime": 1665949138220,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

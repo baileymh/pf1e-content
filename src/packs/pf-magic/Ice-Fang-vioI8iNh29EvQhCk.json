@@ -3,7 +3,7 @@
   "name": "Ice Fang",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 frost short sword has a blade made of sparkling blue ice. Anyone wielding an ice fang is protected from cold weather as if they were affected by endure elements. As a move action, the wielder may cause the blade to either grow to the size of a longsword, melt away to the size of a dagger, or return to its original size. An ice fang left unattended  automatically reverts to its original size in 1 minute. An ice fang functions as a dagger, short sword, or longsword depending on the current size of its blade. Once per day upon confirming a critical hit, the wielder may choose to have the blade shatter and send razor-sharp shards of ice flying in a 15-foot cone. The original target of the attack must be within this cone's area of effect. Roll the damage for the critical hit normally and apply to the original target. All other creatures in the cone take damage equal to the amount of the critical hit; one half of this damage is piercing, the other half is cold damage. A successful DC 16 Reflex saving throw reduces the damage by half. After using this ability, the wielder must spend a standard action to reform the blade of the ice fang, at any size, before it can be used as a weapon again.<br><p><b>Base Item:</b> +2 frost short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, endure elements, ice storm, shrink item</p><h3><b>Source: </b></h3>Down The Blighted Path",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373094,
+    "modifiedTime": 1665949139456,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

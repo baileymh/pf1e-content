@@ -3,7 +3,7 @@
   "name": "Amulet Of Primal Mastery",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The dark green orb on this silver necklace is covered in what looks like thorns, but it's not sharp or painful to the touch. While wearing this amulet, whenever you cast a spell that triggers a primal magic event, roll d% twice when generating the result. You may pick which of the two results actually occurs. Additionally, you gain a +2 bonus on all saving throws to resist primal magic events. This bonus doesn't stack with other bonuses on saves to resist primal magic events.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, miracle, crafter must be an oracle with the spellscar mysteryISM</p><h3><b>Source: </b></h3>Wardens Of The Reborn Forge",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404735,
+    "modifiedTime": 1665949167232,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

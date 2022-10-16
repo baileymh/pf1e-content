@@ -3,7 +3,7 @@
   "name": "Elemental Apprentice",
   "type": "feat",
   "img": "icons/weapons/swords/swords-short.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p class=\"description\"><em>You spent your childhood in a region where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies. Your time near raw elemental energies has inured you to taking damage from them.</p></em>\n<p>&nbsp;</p>\n<p><strong>Benefits</strong></p>\n<p>At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can&rsquo;t be changed). Once per day as a free action, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a flaming weapon).</p>",
       "chat": "",
@@ -52,6 +52,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 1,
           "maxFormula": "1",
@@ -106,6 +111,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -167,7 +173,6 @@
       "classes": []
     },
     "showInQuickbar": true,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428390449,
+    "modifiedTime": 1665949153968,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

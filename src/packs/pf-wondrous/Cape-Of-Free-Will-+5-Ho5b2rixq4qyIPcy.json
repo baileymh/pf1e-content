@@ -3,7 +3,7 @@
   "name": "Cape Of Free Will +5",
   "type": "equipment",
   "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The wearer of this brightly colored patchwork cape gains a bonus on all saving throws, as with a cloak of resistance, but the resistance bonus on Will saves is one greater. Furthermore, if the wearer fails a Will saving throw, he can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, he can't use this ability again for 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, resistance, the creator must have the mythic saves ability</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -96,7 +96,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -109,6 +108,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -140,8 +140,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405365,
+    "modifiedTime": 1665949167771,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

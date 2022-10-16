@@ -3,7 +3,7 @@
   "name": "Book of Night without Moon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>As a standard action, the book's bearer may release a shadow from the book, conjuring an illusory duplicate of the shadow's owner as if with the spell shadow conjuration (DC 18 Will save to recognize that the conjuration is an illusion). The shadow is intelligent and can follow complex commands, but cannot speak and lacks the memories or personality of the creature that cast it. The shadow serves the character who released it for 1 hour or until destroyed, whichever comes first. The shadow then returns instantly and permanently to its original owner, wherever he or she may be. It cannot be commanded to return to the book and cannot be stolen again. The book's magic can sustain up to five active shadows at a time.  A  purchased or found as treasure contains 2d6 shadows, chosen by the GM.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shadow conjuration</p><h3><b>Source: </b></h3>The Midnight Mirror",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406108,
+    "modifiedTime": 1665949168409,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Propitious Metumbe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This polished talisman of darkwood inscribed with the pictogram of a specific wendo hangs from a loop of twine. The wearer gains a +2 luck bonus on saving throws against witch hexes, spells and abilities with the curse descriptor, and any spells or effects that would force the wielder to reroll a die or roll multiple dice and take the worst result.   Once per day when the wearer is targeted by such a spell or effect that doesn't normally grant a saving throw, she can make a Will saving throw to negate the effect. If she attempts the save against a spell, the save DC is equal to 10 + the spell's level + the caster's primary casting ability bonus (Cha for sorcerers, Int for wizards, Wis for clerics, and so forth). If she attempts the save against a non-spell effect, the save DC is equal to 10 + half the HD of the effect's source + the source's Charisma modifier.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hex wardUM</p><h3><b>Source: </b></h3>Faiths & Philosophies",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406001,
+    "modifiedTime": 1665949168327,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

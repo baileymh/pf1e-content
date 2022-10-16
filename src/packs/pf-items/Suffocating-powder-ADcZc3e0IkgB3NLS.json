@@ -3,7 +3,7 @@
   "name": "Suffocating powder",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-yellow.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Suffocating powder</h1><b>Source</b> <i>Alchemy Manual pg. 27</i><br/><b>Price</b> 45 gp; <b>Weight</b> 2 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This small sack of green-gray powder is thrown as a splash weapon with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 18 Fortitude save or begin choking and gasping for air as if suffocating (DC 12 for creatures in the splash radius). Affected creatures cannot breathe or speak for 1 round.<br/><br/> <b>Mythic</b>: You can expend one use of mythic power while throwing a bag of suffocating powder to charge the item with mythic power. Non-mythic creatures do not receive saving throws to avoid the suffocation effect. Affected creatures suffocate for an additional number of rounds equal to your mythic tier.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (50 brimstone + 50 phosphorus + 5 realgar)/sublimation; <b>Craft</b> 20<br/><b>Time</b> 1 hour; <b>Tools</b> retort; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365990,
+    "modifiedTime": 1665949133893,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Crimson Altar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This red marble altar is carved in the shape of two legless humans conjoined at the waist, their heads facing opposite directions. The figure's four arms are bent at the elbow, supporting the altar like the legs of a table would. Each face is featureless save for a gaping maw, and hollow moans occasionally escape from their taut, perpetually blood-stained marble lips.  Whenever a creature within 40 feet of the altar takes piercing or slashing damage, the altar's foul magic invades the wound and forces it to stay open, automatically dealing 1d4 points of bleed damage. This bleed damage doesn't stack with any bleed damage the attack would normally deal, nor does it stack with itself.  Unholy magic beckons spilled blood to crawl toward the altar. There is a shallow, round indentation on the altar; if a silver cup worth 25 gp is placed within, crimson nectar trickles into the cup each time a creature within 40 feet takes bleed damage. The cup is filled to the brim once 30 points of bleed damage have been dealt within 40 feet of the altar. As a standard action, a creature can drink the nectar to regain 5d6 hit points. The nectar heals both living and undead creatures. The nectar loses its potency and turns into clotted blood if it is not consumed within 1 round of the cup being removed from the altar. The altar can produce 3 full cups of healing nectar per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed, death knell</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406242,
+    "modifiedTime": 1665949168503,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

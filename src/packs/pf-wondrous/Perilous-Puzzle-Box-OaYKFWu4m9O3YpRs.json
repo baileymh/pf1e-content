@@ -3,7 +3,7 @@
   "name": "Perilous Puzzle Box",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Brass latticework decorates the faces of this cubical mahogany puzzle box. While in its solved configuration, the puzzle box is safe to open and close, and the user can access an extradimensional compartment that can store up to 10 pounds of objects. The user can store a single touch spell of 4th level or lower in the box by casting the spell and touching the box. This spell has no effect until the box is changed to an unsolved state and someone subsequently tries and fails to solve it.  Any creature can close the box and twist its segments, at which point the puzzle box becomes unsolved and requires a successful DC 20 Intelligence check to solve and open. Each subsequent consecutive round spent randomly twisting the segments increases the number of Intelligence checks needed to solve the puzzle, to a maximum of three checks after 3 rounds of scrambling. As soon as the creature ceases twisting the segments, it is no longer safe to change the configuration.  Thereafter, twisting any segment triggers a 1-minute timer, during which the holder can safely attempt to solve the puzzle with a series of Intelligence checks. This requires two hands and a full-round action for each Intelligence check. If the timer runs out before the puzzle is solved or the creature pauses for 1 round in the middle of attempting to solve the puzzle, the touch spell stored in the perilous puzzle box (if any) discharges, automatically hitting any creature holding the box.  Unless the attempt to solve the puzzle succeeds, after 1 minute, the box automatically reverts to the configuration it had before the attempt to solve the puzzle and locks itself for 24 hours. If a perilous puzzle box is destroyed (hardness 10, 20 hp), any contents stored in the extradimensional space are lost on the Ethereal Plane.  A found puzzle box has a 75% chance of having a touch spell stored within it, usually bestow curse, contagion, or inflict critical wounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imbue with spell ability, secret chest</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406138,
+    "modifiedTime": 1665949168427,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

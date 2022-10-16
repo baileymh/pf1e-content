@@ -3,7 +3,7 @@
   "name": "Stinging Stiletto",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tiny dagger has a black leather hilt and a gold-inlaid pattern of stripes and sharp angles on its steel blade. It can transform into a delicate necklace or ornate finger-ring at the wearer's command. The wearer gains a +3 competence bonus on Perception checks while the item is carried or worn. The wearer can also use it to cast ghost sound once per day.  If Calistria is the wearer's patron, once per day the wearer may speak a command word to use fox's cunning. As a standard action, the wearer can prick her finger with the dagger and swear an oath on her own blood to avenge herself against a particular named creature; the wearer gains a +1 competence bonus on her next attack roll within 1 minute against that creature. Speaking a new vengeance-oath removes the old one, whether or not the wearer has achieved her vengeance.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fox's cunning, ghost sound, guidance,  creator must have 5 ranks in Perception</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406033,
+    "modifiedTime": 1665949168349,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

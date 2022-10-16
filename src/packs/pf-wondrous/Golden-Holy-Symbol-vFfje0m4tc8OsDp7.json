@@ -3,7 +3,7 @@
   "name": "Golden Holy Symbol",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This holy symbol is always warm to the touch, and whenever it strikes metal it rings out with the sound of a choir of angels. When used as a divine focus for a divine spell, the symbol emits a bright light that heals its wearer of a number of points of damage equal to the spell's level.   If the wearer expends one use of mythic power when casting a divine spell that uses this holy symbol as its divine focus, the emblem glows for a number of rounds equal to the wearer's mythic tier, shedding light like a torch. Instead of this item's normal effect, at the start of each of the wearer's turns, she and all her allies within 30 feet heal a number of points of damage equal to 1d6 + the wearer's tier. This effect lasts as long as the light persists.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, cure critical wounds</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410269,
+    "modifiedTime": 1665949172333,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

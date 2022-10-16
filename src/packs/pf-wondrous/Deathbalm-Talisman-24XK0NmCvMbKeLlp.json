@@ -3,7 +3,7 @@
   "name": "Deathbalm Talisman",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A deathbalm talisman grants its wearer a +5 resistance bonus on Fortitude saves against disease or poison, and if placed around the neck of an individual already suffering the effects of poison or disease, it allows a new save (with no additional bonus from the deathbalm talisman) to immediately remove the affliction. Whenever a wearer successfully saves against the effects of disease or poison while wearing a deathbalm talisman, it becomes dormant for 24 hours. After this time has passed, it refreshes and functions again. A character who wears a functioning deathbalm talisman for a period of 24 hours heals 1d4 points of ability damage to any one ability score currently suffering ability damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lesser restoration, neutralize poison, remove disease</p><h3><b>Source: </b></h3>AP 62",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403478,
+    "modifiedTime": 1665949165989,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

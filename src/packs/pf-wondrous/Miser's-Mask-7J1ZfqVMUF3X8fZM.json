@@ -3,7 +3,7 @@
   "name": "Miser's Mask",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wooden mask depicts the sunken face of a miser with an upturned nose. The mask grants the wearer the scent ability (Bestiary 304), but she can use it only to sense coins and gems. Each type and quality of gem has its own unique aura to the wearer, granting her a +5 competence bonus on Appraise checks made to ascertain the value of gems.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bloodhound (Advanced Player's Guide), the creator must have 4 ranks in Appraise</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404128,
+    "modifiedTime": 1665949166605,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

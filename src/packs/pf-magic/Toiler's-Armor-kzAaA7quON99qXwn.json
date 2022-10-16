@@ -3,7 +3,7 @@
   "name": "Toiler's Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 chainmail looks like something a talentless dwarven apprentice would make-ugly, asymmetrical, and finished quickly rather than with care. The wearer gains a luck bonus or penalty equal to 1d6-3 on Craft checks to make armor or weapons while wearing it. This bonus or penalty is determined the first time the wearer attempts such a Craft check to determine a day's progress. If the wearer removes the armor, this bonus or penalty persists for an additional 24 hours. Once per day, the wearer can use magic weapon.<br><p><b>Base Item:</b> +1 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, crafter's curseAPG , crafter's fortuneAPG , magic weapon</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372894,
+    "modifiedTime": 1665949139298,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Dragonfoe Amulet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet consists of a cracked dragon scale set in a disk of gold. Most are slightly damaged, bearing the scars of draconic breath weapons. The dragonfoe amulet is a powerful, specialized tool for those who oppose dragons, improving the protection and attacks of the wearer in a number of ways.   The wearer of a dragonfoe amulet ignores the damage reduction of dragons. This only affects actual dragons, not all creatures of the dragon type. In addition, if the wearer casts a spell against a dragon, she can roll twice to overcome any spell resistance the dragon might possess, taking the higher result. Lastly, the wearer takes no damage instead of half damage on a successful Reflex save against a dragon's breath weapon (as the evasion ability).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Spell Penetration, magic weapon, jump</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405462,
+    "modifiedTime": 1665949167816,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

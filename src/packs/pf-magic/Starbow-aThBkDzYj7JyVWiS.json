@@ -3,7 +3,7 @@
   "name": "Starbow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Favored by worshipers of Desna and elves alike, the silvery wooden limbs and green riser of this +3 composite longbow are decorated with rows of tiny stars, sparkling comets, and little moons. Arrows fired from this bow trail streams of silvery light, and resemble shooting stars as they fly. Creatures that take penalties in bright light take these penalties for 1 round after being struck by such an arrow. An arrow shot from the starbow sheds light as a sunrod for 1 minute after it is shot. A starbow responds to the strength of its wielder, acting as a bow with a strength rating equal to its wielder's Strength bonus. The wielder can fire it with a lesser Strength bonus (and cause less damage) if desired. Three times per day as a standard action, the wielder can use a starbow to fire a 30-foot-long cone of arrow-shaped bolts of radiance. All creatures in the area of effect take 5d8 points of damage unless they are undead or creatures harmed by sunlight, in which case the damage increases to 10d8. This damage bypasses damage reduction and energy resistance. A successful DC 18 Reflex save halves the damage. A creature that takes damage from this attack is shrouded with a soft radiance (as faerie fire) for 1 minute.<br><p><b>Base Item:</b> +3 composite longbow</p><h3><b>Requirements</b></h3><p>Craft Arms and Armor, searing light, warp wood</p><h3><b>Source: </b></h3>AP 75",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372461,
+    "modifiedTime": 1665949138918,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

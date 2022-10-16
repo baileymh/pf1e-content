@@ -3,7 +3,7 @@
   "name": "Boots Of The Winter Jarl",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the giant form I spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, grace, endure elements, giant form I, pass without trace</p><h3><b>Source: </b></h3>AP 69",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409864,
+    "modifiedTime": 1665949171936,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Moon Clock",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This intricate mechanism opens like a pocket watch to reveal a set of dials indicating the current phase of the moon, as well as the previous and upcoming phases. A moon clock can be destroyed as a standard action to release a powerful blast of lunar energy in a 30-foot-radius burst. Lycanthropes in the area of this blast must succeed at a DC 20 Will save or revert to their humanoid forms.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divination, lunar veil</p><h3><b>Source: </b></h3>Blood Of The Moon",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409659,
+    "modifiedTime": 1665949171801,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

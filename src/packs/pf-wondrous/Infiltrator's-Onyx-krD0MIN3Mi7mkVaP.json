@@ -3,7 +3,7 @@
   "name": "Infiltrator's Onyx",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These gems always come in pairs-one white onyx and one black onyx. The white onyx has an aura of faint divination, while the black onyx is nonmagical. The black onyx gem on its own is worth 50 gp as a spell component for animate dead and similar spells. If the black onyx is used as a material component in a necromancy spell, the bearer of the white onyx receives a mental alarm. This alarm reveals the direction of the paired black onyx gem as long as it is within 1,000 feet, as locate object. This effect lasts for 5 minutes.  If the owner of the white onyx gem is within 1 mile of the black onyx at the time the necromancy spell is cast, the owner may destroy the white onyx as a standard action. Doing so also destroys the black onyx, making it unsuitable for use as a spell component and ruining the necromancy spell. The destruction of either onyx gem immediately ends the alarm and locate object effects. The white onyx turns gray and crumbles to dust after the locate object effect ends.  More expensive sets of these gems exist; black onyx gems in such variant sets are worth up to 1,000 gp or more. The value of the black onyx gem is added to the item's construction cost.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, locate object, magic aura</p><h3><b>Source: </b></h3>Undead Slayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408602,
+    "modifiedTime": 1665949170780,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

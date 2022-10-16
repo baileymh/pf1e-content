@@ -3,7 +3,7 @@
   "name": "Alchemical coal (blinding cinders)",
   "type": "consumable",
   "img": "icons/tools/laboratory/bowl-liquid-orange.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Alchemical coal</h1><b>Source</b> <i>Advanced Race Guide pg. 135</i><br/><b>Price</b>  100 gp (blinding cinders),  50 gp (choking smoke); <b>Weight</b> - (blinding cinders), - (choking smoke)<h2 class=\"framing\">Description</h2><p>A kobold who chews and swallows this alchemically treated piece of coal (a full-round action) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is sickened for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.  <br/><br/> <i>Blinding Cinders</i>: This jagged bit of dusty red coal allows a kobold to breathe a 30-foot line of coarse cinders. The breath weapon deals 1d6 points of fire damage and blinds creatures in the area for 1 round. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not blinded. <br/><br/> <i>Choking Smoke</i>: This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened.  </p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -143,6 +148,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -236,8 +242,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367738,
+    "modifiedTime": 1665949135558,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

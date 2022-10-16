@@ -3,7 +3,7 @@
   "name": "Fast Swallow",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_22.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"xS4u83CQ0ssI6i5I\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">swallow whole</span></a> as a free action at any time during its turn, not just at the start of its turn.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: fast swallow</p>\n<p><em>Location</em>: Special Attacks.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -195,8 +200,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402425,
+    "modifiedTime": 1665949165180,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

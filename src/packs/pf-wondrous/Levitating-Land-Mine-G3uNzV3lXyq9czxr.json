@@ -3,7 +3,7 @@
   "name": "Levitating Land Mine",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once the command word is spoken, this steel disc burrows 3 inches into the ground. To find it, a character with the trapfinding ability must succeed at a DC 25 Perception check. Planting the mine is a full-round action that provokes attacks of opportunity.   Once the mine is set, any creature that steps into its square must succeed at a DC 14 Will save or the mine levitates the creature 5 inches above the ground. A levitated creature can attack but not move, is denied its Dexterity bonus to AC, and takes a -4 penalty to CMD against bull rush, drag, and reposition combat maneuvers. Flying creatures are immune. The creature can attempt a new save each round to end the effect. The effect ends after 5 rounds, with a successful DC 25 Disable Device check, or with a successful saving throw. The land mine is destroyed when the effect ends.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hostile levitationUC, snare</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404831,
+    "modifiedTime": 1665949167321,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

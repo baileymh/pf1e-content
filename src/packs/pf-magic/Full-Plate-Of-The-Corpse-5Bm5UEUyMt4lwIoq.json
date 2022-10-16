@@ -3,7 +3,7 @@
   "name": "Full Plate Of The Corpse",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This suit of +2 full plate has been etched and stained in such a way that it resembles the form and shape of a decomposed body that is encased in a suit of armor. The wearer is effectively hidden from non-intelligent undead, which can't see, hear, or smell him; even extraordinary or supernatural senses capabilities can't penetrate the magical shroud. An intelligent undead creature can attempt a single Will saving throw (DC 14) to penetrate the ward. All affected undead behave as if the wearer simply isn't there.<br><p><b>Base Item:</b> +2 full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, hide from undead</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371720,
+    "modifiedTime": 1665949138175,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Wolflord's Fang",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 huntsmanUE bastard sword has a grip bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the sword, he can allow an ally of his choice to perform a trip combat maneuver against the target as an immediate action, provided the ally is adjacent to the target struck. This trip attempt doesn't provoke attacks of opportunity. If the attempt fails, the wielder's ally is not tripped in return.  As a standard action on command three times per day, the wielder can unleash a spine-chilling howl. When he does so, he attempts a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. Allies within 30 feet can join the howl as an immediate action to aid the wielder's Intimidate check, granting a +2 bonus to the wielder's check for each ally who succeeds at a DC 10 Intimidate check. Allies who howl can also immediately take a 5-foot step. This movement does not count against their ability to move or take a 5-foot step earlier or later in the round.<br><p><b>Base Item:</b> +2 huntsman bastard sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, aspect of the wolfAPG, detect animals or plants</p><h3><b>Source: </b></h3>Seers Of The Drowned City",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372280,
+    "modifiedTime": 1665949138715,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

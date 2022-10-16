@@ -3,7 +3,7 @@
   "name": "Frostbite Sling",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 frost sling is crafted of blue-dyed leather. In lieu of adding cold damage to normal ammunition, three times per day wielder may create and hurl a magical snowball with the sling instead. This ranged touch attack has a maximum range of 40 feet, deals 1d6+6 points of nonlethal cold damage, and leaves the target fatigued. The fatigued condition ends when the target recovers from the nonlethal damage. This effect cannot make the target exhausted even if it is already fatigued.<br><p><b>Base Item:</b> +1 frost sling</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, frostbite (Ultimate Magic)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372778,
+    "modifiedTime": 1665949139260,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

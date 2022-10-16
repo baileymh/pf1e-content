@@ -3,7 +3,7 @@
   "name": "Skillchip (mark III)",
   "type": "equipment",
   "img": "icons/skills/trades/smithing-anvil-brown.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 52</em></p><p><strong>Price</strong> 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)</p><p><strong>Slot</strong> skillslot; <strong>Weight</strong> - (mark I), - (mark II), - (mark III), - (mark IV), - (mark V)</p><p><strong>Capacity</strong> -; <strong>Usage</strong> -</p><h2 class=\"framing\">Description</h2><p>A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active skillslot (see page 38).</p><p></p><p> The magnitude of the bonus granted by a skillchip varies, ranging from a +2 enhancement bonus to a +10 enhancement bonus, as summarized on the following table.</p><p></p><p> <table class=\"inner\"><tbody><tr><td><strong>Model</strong></td><td><strong>Bonus</strong></td></tr> <tr><td>Mark I</td><td>+2</td></tr> <tr><td>Mark II</td><td>+4</td></tr> <tr><td>Mark III</td><td>+6</td></tr> <tr><td>Mark IV</td><td>+8</td></tr> <tr><td>Mark V</td><td>+10</td></tr></tbody></table></p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 24 (mark I), DC 26 (mark II), DC 28 (mark III), DC 30 (mark IV), DC 32 (mark V)</p><p><strong>Cost</strong> 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)</p><p>Craft Technological Item, at least 10 ranks in skill to be encoded, cybernetics lab</p>",
       "chat": "",
@@ -69,7 +69,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -82,6 +81,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -154,8 +154,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387759,
+    "modifiedTime": 1665949152110,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

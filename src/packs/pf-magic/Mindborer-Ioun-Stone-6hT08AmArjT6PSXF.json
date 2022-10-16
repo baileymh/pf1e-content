@@ -3,7 +3,7 @@
   "name": "Mindborer Ioun Stone",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cursed item looks like any normal ioun stone, and has powers according to its color and shape. However, whenever you are in combat, the orbiting stone batters at your face and head, dealing 1 hit point of damage each round. If you sleep or fall unconscious while the stone is in orbit, it drills into your head, dealing 1 point of Intelligence, Wisdom, and Charisma damage each round until the penalty to one of these ability scores exceeds your actual score, at which point it removes itself from your head and hides itself on your person, near other gems. The stone can remove itself from a wayfinder to attack you in this fashion. The attack automatically wakes a sleeping character. The only way to end the attack is to interfere with the magic of the stone (by using dispel magic, entering an antimagic field, and so on) or grab it and place it in a container.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, creator must be 12th level</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371739,
+    "modifiedTime": 1665949138197,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

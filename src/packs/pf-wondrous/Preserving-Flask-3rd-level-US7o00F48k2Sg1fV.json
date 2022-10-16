@@ -3,7 +3,7 @@
   "name": "Preserving Flask 3rd-level",
   "type": "equipment",
   "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small, durable flask is designed to preserve alchemical extracts indefinitely. An extract stored in a preserving flask remains potent until it is consumed or otherwise removed from the flask. Preserved extracts count against an alchemist's extracts per day on the day they are prepared, but not on subsequent days. Each flask is capable of preserving an extract of a particular level. An extract stored in the flask retains duration, caster level, and other properties it had when it was created. The flask works on extracts and infusions, but not mutagens.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be able to create alchemical extracts of the extract level to be stored</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406792,
+    "modifiedTime": 1665949169039,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

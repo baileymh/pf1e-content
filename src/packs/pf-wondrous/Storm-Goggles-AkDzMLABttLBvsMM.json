@@ -3,7 +3,7 @@
   "name": "Storm Goggles",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These goggles, made from a pair of smoky crystal lenses set in an adjustable leather strap, help the wearer see through storms of rain, snow, or even dust. A pair of storm goggles fully negates any Perception penalties imposed by a natural storm or atmospheric condition. Also, once per round when the wearer makes an attack against a target that has concealment from him because of natural or magical fog, mist, clouds, or vapor, the wearer can choose to roll the miss chance percentile twice and take the better of the two results.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Skill Focus (Perception), acute sensesUM</p><h3><b>Source: </b></h3>Heroes Of The Wild",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404290,
+    "modifiedTime": 1665949166728,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

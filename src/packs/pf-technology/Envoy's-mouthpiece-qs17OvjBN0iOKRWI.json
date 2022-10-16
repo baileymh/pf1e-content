@@ -3,7 +3,66 @@
   "name": "Envoy's mouthpiece",
   "type": "equipment",
   "img": "icons/equipment/neck/necklace-carved-stone-wood.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #86: Lords of Rust pg. 62</em></p><p><strong>Price</strong> 2,000 gp</p><p><strong>Slot</strong> headband; <strong>Weight</strong> 1 lb.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1/hour</p><h2 class=\"framing\">Description</h2><p>Originally worn by translators, messengers, and diplomats, these objects were always constructed to appear elegant and beautiful. An envoy's mouthpiece is a circlet worn across the mouth, with slender arms that reach along the jaw to wrap around the wearer's skull and hold the device in place. Two thin earpieces extend up from the band to slip unobtrusively into the user's ears once a mouthpiece is donned. When created, an envoy's mouthpiece is encoded with a specific single language. Whenever the language is spoken within 30 feet of the wearer, the mouthpiece translates that language into Androffan. In addition, any words spoken in Androffan by the wearer are transformed by the mouthpiece into the encoded language, allowing conversation to take place between the wearer and speakers of the encoded language. An envoy's mouthpiece cannot be used to translate languages other than the one it has been programmed to translate, but a newly created mouthpiece could, in theory, translate languages into something other than Androffan.</p><p></p><p> An envoy's mouthpiece automatically records any words spoken through it, allowing anything said through the device to be replayed through its earpiece at the touch of a button on the lower right side. Up to 30 continuous hours can be recorded in this manner. Holding the button down for a full round erases any currently stored conversations.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 1,000 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -69,7 +128,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -82,6 +140,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -154,66 +213,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387901,
+    "modifiedTime": 1665949152235,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

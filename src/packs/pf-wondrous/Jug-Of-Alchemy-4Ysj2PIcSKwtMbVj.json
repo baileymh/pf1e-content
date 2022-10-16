@@ -3,7 +3,7 @@
   "name": "Jug Of Alchemy",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical jug can pour forth various liquids on command. The quantity depends on the liquid summoned. The jug can pour only one kind of liquid, with up to seven decantations of that liquid, on any given day. Possible liquids and their respective daily maximum quantities are as follows: • Ammonia, 1 quart • Aqua regia, 8 ounces (a powerful acid causing 2d6 acid damage per ounce on a direct hit) • Beer, 4 gallons • Chlorine, 1 ounce • Cyanide, 0.5 ounces • Fresh water, 8 gallons • Oil, 1 pint • Pure alcohol, 4 ounces • Salt water, 16 gallons • Vinegar, 2 gallons • Wine, 1 gallon<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, minor creation,creator must have at 10 ranks in Craft (alchemy)</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403662,
+    "modifiedTime": 1665949166129,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

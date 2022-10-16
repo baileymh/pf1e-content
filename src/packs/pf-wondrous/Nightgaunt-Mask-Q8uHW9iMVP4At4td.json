@@ -3,7 +3,7 @@
   "name": "Nightgaunt Mask",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A black, horned nightgaunt mask has two eyeholes but no other facial features. When the mask is worn, even the eyeholes vanish, leaving the wearer with no visible face at all. The wearer gains the advantages shared by the faceless nightgaunts on which the mask is based. The entire face of the mask functions as a sort of eye, allowing the wearer to see normally. The wearer also gains a +4 bonus on all saving throws against gaze attacks, and does not breathe (and is thus immune to inhaled toxins and scent-based effects). However, the wearer can't speak, and therefore can't cast spells or use items that require verbal components or command words.  Once per day, but only after wearing the mask for at least 1 hour, the wearer can summon 1d4+1 nightgaunts to do her bidding, as if by casting summon monster VI. These nightgaunts remain for 11 rounds. Alternatively, the wearer can summon a single nightgaunt that remains for 24 hours. She can communicate with and thus give orders to these nightgaunts via telepathy to a range of 100 feet. If the wearer removes the nightgaunt mask, any summoned nightgaunts immediately turn on her and attempt to carry her off and drop her from a great height before vanishing.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alter self, blindness/ deafness, summon monster VI</p><h3><b>Source: </b></h3>AP 65",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406226,
+    "modifiedTime": 1665949168493,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

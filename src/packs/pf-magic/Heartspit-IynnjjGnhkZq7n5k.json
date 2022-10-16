@@ -3,7 +3,7 @@
   "name": "Heartspit",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Fitted with a menacingly cruel 2-foot-long barbed iron head, this Large +1 giant-bane longspear can skewer an opponent, lodging beneath the flesh and holding fast. On a confirmed critical hit with the spear, Heartspit's wielder can attempt a combat maneuver check to grapple the target as a free action. This grapple attempt does not provoke an attack of opportunity from the target if that creature is not threatening the wielder. While grappling a creature with Heartspit, the wielder can move or damage the target with the spear only on the wielder's turn. The wielder is still considered grappled, though he does not have to be adjacent to the target to continue the grapple. If the wielder ends the grapple or the target successfully breaks the grapple, the target takes 4d6 points of slashing damage as the spear's barbed head is ripped free.<br><p><b>Base Item:</b> +1 giant-bane longspear</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, hold person, keen edge, summon monster I</p><h3><b>Source: </b></h3>AP 93",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371961,
+    "modifiedTime": 1665949138367,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

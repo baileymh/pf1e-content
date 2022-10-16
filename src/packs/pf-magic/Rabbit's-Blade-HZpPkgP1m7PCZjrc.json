@@ -3,7 +3,7 @@
   "name": "Rabbit's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The blade of this unassuming longsword is permanently broken, snapped at an angle halfway along the blade. In spite of this, the sword can be wielded as a +2 short sword without penalty. As long as the wielder of a rabbit's blade is threatening two or more foes and he has no allies within 15 feet, he gains the use of the Cleave feat. If he is threatening three or more foes and has no allies within 30 feet, the wielder gains the use of the Great Cleave feat instead. Each threatened foe must have Hit Dice equal to or greater than 1/2 the wielder's character level in order to count toward this weapon's ability.<br><p><b>Base Item:</b> +2 short sword</p><h3><b>Requirements</b></h3><p>Cleave, Craft Magical Arms and Armor, Great Cleave, divine power</p><h3><b>Source: </b></h3>The Harrow Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371938,
+    "modifiedTime": 1665949138350,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

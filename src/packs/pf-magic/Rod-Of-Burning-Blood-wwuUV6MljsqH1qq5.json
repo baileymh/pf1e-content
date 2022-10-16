@@ -3,7 +3,7 @@
   "name": "Rod Of Burning Blood",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rod of blackened iron is inset with rubies and functions as a +1 cunningUE light mace. Unholy water poured over the rod is absorbed, giving the rod 1 charge per vial. When the rod strikes a creature, the wielder can expend 1 charge from the rod to spray the creature with burning blood from the weapon's head. This burning blood deals 1d6 points of damage (half fire, half unholy).  Alternatively, the wielder can expend 5 charges at once to create a spray of burning blood in a 15-foot cone. Creatures in the area take 5d4 points of damage (half fire, half unholy; Reflex DC 17 half). The rod can hold at most 10 charges at any one time. Charging the rod with unholy water is a standard action that provokes attacks of opportunity.<br><p><b>Base Item:</b> +1 cunningUE light mace</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Rod, flame strike, true strike</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373295,
+    "modifiedTime": 1665949139704,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

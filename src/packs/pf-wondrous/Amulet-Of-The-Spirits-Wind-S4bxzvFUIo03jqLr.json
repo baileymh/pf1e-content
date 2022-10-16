@@ -3,7 +3,7 @@
   "name": "Amulet Of The Spirits, Wind",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the spirit grants its wearer powers from one type of shaman spirit bond, but makes her vulnerable to attacks and effects that target creatures with that spirit bond (such as a spirit-hunting weapon). If a creature that already has the associated mystery or spirit wears the amulet, that wearer does not gain the abilities listed below; instead, the effective level of her mystery or spirit powers increases by 2. This effect does not stack with other abilities that increase the effective level of mystery or spirit powers.    Wind: This feather hangs from a chain of slender twigs reminiscent of a bird's nest. Once per day as a swift action, the wearer can activate a ward of wind that lasts for 1 minute. When she is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack roll has a 20% miss chance. In addition, once per day as a swift action the wearer can cause a creature within 30 feet to spark and shimmer with electrical energy. While this does not harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from concealment or invisibility. Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes 5 points of electricity damage. The sparking aura lasts 4 rounds. Moderate abjuration and evocation; CL 8th; Craft Wondrous Item, entropic shield, shocking grasp.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, entropic shield, shocking grasp, creator must be a shaman with the appropriate spirit</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406679,
+    "modifiedTime": 1665949168941,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

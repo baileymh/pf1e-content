@@ -3,7 +3,7 @@
   "name": "Deck Of Illusions",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a major image of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)  PLAYING CARD TAROT CARD CREATURE  Ace of hearts IV. The Emperor Red dragon  King of hearts Knight of swords Male human fighter and four guards  Queen of hearts Queen of staves Female human wizard  Jack of hearts King of staves Male human druid  Ten of hearts VII. The Chariot Cloud giant  Nine of hearts Page of staves Ettin  Eight of hearts Ace of cups Bugbear  Two of hearts Five of staves Goblin  PLAYING CARD TAROT CARD CREATURE  Ace of diamonds III. The Empress Glabrezu (demon)  King of diamonds Two of cups Male elf wizard and female apprentice  Queen of diamonds Queen of swords Half-elf ranger  Jack of diamonds XIV. Temperance Harpy  Ten of diamonds Seven of staves Male half-orc barbarian  Nine of diamonds Four of pentacles Ogre mage  Eight of diamonds Ace of pentacles Gnoll  Two of diamonds Six of pentacles Kobold  PLAYING CARD TAROT CARD CREATURE  Ace of spades II. The High Priestess Lich  King of spades Three of staves Three human clerics  Queen of spades Four of cups Medusa  Jack of spades Knight of pentacles Male dwarf paladin  Ten of spades Seven of swords Frost giant  Nine of spades Three of swords Troll  Eight of spades Ace of swords Hobgoblin  Two of spades Five of cups Goblin  PLAYING CARD TAROT CARD CREATURE  Ace of clubs VIII. Strength Iron golem  King of clubs Page of pentacles Three halfling rogues  Queen of clubs Ten of cups Pixies  Jack of clubs Nine of pentacles Half-elf bard  Ten of clubs Nine of staves Hill giant  Nine of clubs King of swords Ogre  Eight of clubs Ace of staves Orc  Two of clubs Five of cups Kobold  PLAYING CARD TAROT CARD CREATURE  Joker Two of pentacles Illusion of deck's owner  Joker (with Two of staves Illusion of deck's trademark) owner (sex reversed)  A randomly generated deck is usually complete (11-100 on d%), but may be discovered with 1d20 of its cards missing (01-10). If cards are missing, reduce the price by a corresponding amount.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, major image</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403428,
+    "modifiedTime": 1665949165943,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

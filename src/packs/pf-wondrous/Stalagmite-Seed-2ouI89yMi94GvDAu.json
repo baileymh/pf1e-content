@@ -3,7 +3,7 @@
   "name": "Stalagmite Seed",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These dense pebbles are sometimes used by drow skirmishers for both offense and defense. If a stalagmite seed is thrown, it has a range increment of 20 feet. If it's slung, treat it as a sling bullet. If the attack misses, roll for misdirection as if it were a splash weapon. When a stalagmite seed strikes a natural stone surface, a stone stalagmite immediately emerges where it landed, filling the 5-foot square and growing to 10 feet in height. Any creature occupying the square takes 5d6 points of piercing and bludgeoning damage and is knocked prone. Any creature that succeeds at a DC 14 Reflex save takes half damage and is not knocked prone.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic stone, stone shape</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403533,
+    "modifiedTime": 1665949166031,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

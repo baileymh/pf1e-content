@@ -3,7 +3,7 @@
   "name": "Incense Of Eidos",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This incense gives off a musty smell when burned, reminiscent of old tomes in libraries. When a character lights incense of eidos and then spends 10 minutes meditating nearby, she is able to recall with perfect clarity any information she wishes. For the next 10 minutes, the affected character can take 20 on any Knowledge skill check, even if in immediate danger  or distracted. One pound of incense of eidos is enough for three 10-minute meditation sessions.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fox's cunning</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409721,
+    "modifiedTime": 1665949171847,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

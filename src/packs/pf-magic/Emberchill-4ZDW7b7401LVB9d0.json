@@ -3,7 +3,7 @@
   "name": "Emberchill",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Emberchill is a +1 frost sickle whose cruel blade is crafted entirely of magical ice. The weapon itself is immune to fire damage. It is believed that one of Irrisen's past queens originally forged Emberchill, and over the succeeding centuries, tradition has kept the weapon in the hands of the White Witches, such as its current wielder, Nazhena Vasilliovna. A spellcaster can store a single spell of any level with the cold descriptor and a casting time of one standard action in Emberchill. The wielder can use the stored spell to counterspell any spell with the fire descriptor, provided that the stored cold spell is 1 or more levels higher than the target fire spell (unless the cold spell specifically counters the fire spell). The wielder must still ready an action and succeed at a Spellcraft check to identify the spell to counterspell it. Once stored in the weapon, the cold spell cannot be used for any other purpose, but the wielder can harmlessly discharge the stored spell as a swift action to make room for another spell. Abilities that grant the cold descriptor to spells, such as the frozen caress hex of the winter witch archetype, make those spells suitable for storing within Emberchill.<br><p><b>Base Item:</b> +1 frost sickle</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Improved Counterspell, dispel magic, ice storm, creator must be a caster of at least 10th level</p><h3><b>Source: </b></h3>AP 68",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371706,
+    "modifiedTime": 1665949138158,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

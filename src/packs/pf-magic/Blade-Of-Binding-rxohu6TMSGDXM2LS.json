@@ -3,7 +3,7 @@
   "name": "Blade Of Binding",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 greatsword is decorated with a lock motif. On a successful hit with the sword against a creature that is the wielder's size or smaller, the wielder can attempt to start a grapple as a free action that doesn't provoke an attack of opportunity. If the wielder succeeds at the grapple, the sword's blade transforms into a metal chain and wraps around the target, giving the wielder a +5 bonus on further grapple checks against the target. If the target escapes the grapple or the wielder decides to release the target from the grapple, the chain reverts to sword form (with the wielder holding the handle).  The wielder can also let go of the chain's handle while grappling or pinning the target; if he does so, the chain remains in place and the target gains the entangled condition (Escape Artist DC 20 to slip free, break DC 28, hardness 10, 10 hit points, concentration DC 17 to cast spells while entangled). Another creature can grab the chain's handle as a standard action and will it to revert to sword form as a swift action, which releases the bound creature. If the chain is destroyed, it reverts to sword form and the weapon gains the broken condition.<br><p><b>Base Item:</b> +1 greatsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate rope</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373022,
+    "modifiedTime": 1665949139401,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

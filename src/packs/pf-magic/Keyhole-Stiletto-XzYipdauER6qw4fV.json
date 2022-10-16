@@ -3,7 +3,7 @@
   "name": "Keyhole Stiletto",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sturdy +1 ghost touch adamantine dagger can be used as a punch to destroy the workings of a lock or other mechanical device, granting a +2 bonus to Disable Device checks for that purpose, but leaving obvious signs of tampering. Its true usefulness becomes evident when wielded against force magic. The wielder of a keyhole stiletto ignores armor bonuses granted by a force effect (such as the mage armor spell or bracers of armor). Once per day, the user may whisper a command word to allow the stiletto to cut a single small hole in a force effect such as a wall of force or resilient sphere. The hole can be any shape, but the blade cannot cut a line longer than 3 feet or carve a circle wider than 1 foot.<br><p><b>Base Item:</b> +1 ghost touch adamantine dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, disintegrate, plane shift</p><h3><b>Source: </b></h3>Down The Blighted Path",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372423,
+    "modifiedTime": 1665949138851,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Omebound Timepiece",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This complicated brass chronometer can be wound only while on the Material Plane. Attempts to wind a homebound timepiece on any other plane simply fail, with the winding pin spinning and turning without effect. Winding a homebound timepiece is an arduous process that requires 10 minutes, but it thereafter keeps accurate time for the next 10 days, as time passes on the Material Plane. If a homebound timepiece is taken to a plane with the erratic time or flowing time traits, it speeds up or slows down as necessary to accurately measure the passage of relative time on the Material Plane (for example, if it is taken to a plane where 1 day is equal to 1 round on the Material Plane, the timepiece slows down considerably and functions for nearly 40 years). If the homebound timepiece is taken to a plane with the timeless trait, it is immediately but harmlessly unwound.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divination</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405648,
+    "modifiedTime": 1665949167932,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

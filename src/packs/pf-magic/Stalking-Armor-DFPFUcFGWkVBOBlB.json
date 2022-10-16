@@ -3,7 +3,7 @@
   "name": "Stalking Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 studded leather armor comes in a number of varieties, each corresponding to a specific type of terrain from the ranger's favored terrain list. The armor takes on visual characteristics related to that type of terrain (cold stalking armor might be gray and white with a white fur trim, jungle stalking armor could be lush green with vine patterns, and so on) and makes the wearer blend in more naturally with his surroundings. The stalking armor grants the wearer a +5 competence bonus on Stealth and Perception checks attempted while in that specific terrain.<br><p><b>Base Item:</b> +2 studded leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, chameleon strideAPG, perceive cuesAPG</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371836,
+    "modifiedTime": 1665949138278,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

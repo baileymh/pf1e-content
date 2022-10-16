@@ -3,7 +3,7 @@
   "name": "Nine-Eaves Key",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use open/close at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, identify, open/close</p><h3><b>Source: </b></h3>AP 139",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404041,
+    "modifiedTime": 1665949166546,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

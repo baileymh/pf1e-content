@@ -3,7 +3,7 @@
   "name": "Black Eagle's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 greatsword is made of blackened steel and embodies the Lambreth ideal that all crimes must be punished twice. Once per day after the wielder slays a creature with the Black Eagle's blade, the wielder can empower the weapon to become a +2 bane greatsword as an immediate action; the sword's bane ability is keyed to the same creature type as the one that the wielder killed to activate the effect. This effect lasts for 8 rounds or until the wielder kills a second creature with the weapon, whichever comes first.<br><p><b>Base Item:</b> +1 greatsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, summon monster I</p><h3><b>Source: </b></h3>People Of The River",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372478,
+    "modifiedTime": 1665949138932,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

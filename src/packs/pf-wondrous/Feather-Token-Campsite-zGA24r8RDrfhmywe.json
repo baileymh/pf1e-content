@@ -3,7 +3,7 @@
   "name": "Feather Token, Campsite",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This feather token can be used only once. It creates a fully functional campsite, including a tent suitable to house six Medium creatures, a campfire with enough dry wood to burn for 24 hours, a modest wooden table with two benches suitable to seat three people each, and a hitching post for up to six steeds. The campsite remains for up to 24 hours before disappearing, leaving no trace except footsteps and refuse left behind by those using the site.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, major creation</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410493,
+    "modifiedTime": 1665949172494,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

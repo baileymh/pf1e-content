@@ -3,7 +3,7 @@
   "name": "Antiquarian's Monocle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This lens, mounted in a round silver frame, fits snugly in the eye orbit of any Medium or Small user. Three times per day on command, the monocle allows the user to read magical inscriptions (including scrolls) as if affected by read magic.  Once per day, by speaking a second command word, the user can activate a 1st-level spell from a scroll even if she doesn't have the spell on her class list or meet the other requirements. Activating a scroll with the monocle is a full-round action (or the spell's casting time, whichever is longer).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, read magic</p><h3><b>Source: </b></h3>Gallows Of Madness",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406735,
+    "modifiedTime": 1665949168984,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

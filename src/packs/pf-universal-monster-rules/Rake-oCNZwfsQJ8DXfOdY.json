@@ -3,7 +3,7 @@
   "name": "Rake",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_31.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with this special attack gains extra natural attacks under certain conditions, typically when it <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grapples</span></a> its foe. In addition to the options available to all grapplers, a monster with the rake ability gains two free claw attacks that it can use only against a <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"zemoWcP2SR6FTiS1\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">grappled</span></a> foe. The bonus and damage caused by these attacks are included in the creature&rsquo;s description. A monster with the rake ability must begin its turn already grappling to use its rake&mdash;it can&rsquo;t begin a grapple and rake in the same turn.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: rake (2 claws +8, 1d4+2)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace damage</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -112,6 +117,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +179,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -221,8 +226,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402555,
+    "modifiedTime": 1665949165272,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

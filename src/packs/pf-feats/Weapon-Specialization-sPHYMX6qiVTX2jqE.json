@@ -3,7 +3,7 @@
   "name": "Weapon Specialization",
   "type": "feat",
   "img": "systems/pf1/icons/feats/craft-magic-arms-and-armor.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed strike or grapple) for which you have already selected the Weapon Focus feat. You deal extra damage when using this weapon.</em><br /><br /><strong>Prerequisites</strong><br />Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th.<br /><br /><strong>Benefits</strong><br />You gain a +2 bonus on all damage rolls you make using the selected weapon.<br /><br /><strong>Special</strong><br />You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.<br /><br /><strong>Combat Trick</strong><br />Once per round, you can spend 2 stamina points to gain your Weapon Specialization bonus on damage rolls with a weapon with which you don't have Weapon Specialization. This bonus lasts until the start of your next turn.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: add +2 manually to Damage Formula in the attack of the selected weapon.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358198,
+    "modifiedTime": 1665949126452,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

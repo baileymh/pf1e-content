@@ -3,7 +3,7 @@
   "name": "Horn Of The Hurricane",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This curved length of opaque crystal twists and expands from its mouthpiece, ending in a small raging tornado. Lightning dances within the crystal whenever the horn is sounded. As a standard action, the horn is able to be blown to create a 30-foot cone of elemental lightning that deals 3d6 points of electricity damage (5d6 in Subtier 6-7). The cone deals 6d6 points of electricity damage (10d6 in Subtier 6-7) against creatures that have the air subtype. This damage ignores any immunities or resistances to electricity that such creatures have. A DC 17 Reflex save reduces the damage by half. Creatures with the air subtype take a -4 penalty on their saves against this effect.  The horn can also simply be used in a mundane fashion to produce an echoing tone. However, if the Horn of the Hurricane is used magically more than once in a given day, there is a 20% cumulative chance with each extra use that it explodes and deals 10d6 points of electricity damage to the person who is sounding it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lightning bolt, shout</p><h3><b>Source: </b></h3>PFS 8-12",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409651,
+    "modifiedTime": 1665949171796,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

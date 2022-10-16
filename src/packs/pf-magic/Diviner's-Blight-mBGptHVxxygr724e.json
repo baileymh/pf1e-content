@@ -3,7 +3,7 @@
   "name": "Diviner's Blight",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Aside from its superb craftsmanship, this +4 leather armor has little to distinguish it from any other armor. Once per week, while a living creature wears a suit of diviner's blight armor, the wearer can recite a command word and spend 1 minute in concentration to have the armor imitate a creature with which the wearer is familiar. The imitated creature must be within one size category of the wearer. Imitating a creature has no visible effect on the armor or the wearer, but instead confounds magical divinations.  Spells such as scrying meant to observe the imitated creature instead observe the wearer, who appears to the scryer as the imitated creature; the imitated creature still attempts any necessary saving throw or applies its spell resistance, but if the spell succeeds, diviner's blight redirects any scrying sensor to its wearer. Magical means of detecting a creature's location always consider the location of the wearer as the actual location of the imitated creature, and only 8th-level or higher spells like discern location or greater prying eyes can overcome this effect. Spells such as detect lies or zone of truth react as though the wearer were the imitated target and not himself, but only for the purpose of stating his identity. Diviner's blight would not, for instance, affect a question about the wearer's mother's name.  The imitation remains in place until the wearer chooses a different creature to imitate or spends 1 minute in concentration to end it. The armor resumes its normal form when removed, but the target of its imitative effect remains set-when a character dons the armor (whether the character who dons the armor is the last wearer or a different person), the armor immediately begins imitating the creature it's set to imitate again.<br><p><b>Base Item:</b> +4 leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, misdirection, project image</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372912,
+    "modifiedTime": 1665949139313,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

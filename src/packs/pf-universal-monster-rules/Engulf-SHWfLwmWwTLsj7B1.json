@@ -3,7 +3,7 @@
   "name": "Engulf",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_27.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature can engulf creatures in its path as part of a standard action. It cannot make other attacks during a round in which it engulfs. The creature merely has to move over its opponents, affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the creature, but if they do so, they are not entitled to a saving throw against the engulf attack. Those who do not attempt attacks of opportunity can attempt a Reflex save to avoid being engulfed&mdash;on a success, they are pushed back or aside (target&rsquo;s choice) as the creature moves forward. Engulfed opponents gain the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"uxkaA2RC6METVN6w\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">pinned</span></a> condition, are in danger of suffocating, are trapped within the creature&rsquo;s body until they are no longer pinned, and may be subject to other special attacks from the creature. The save DC is Strength-based.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: engulf (DC 12, 1d6 acid and paralysis)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace DC and damage</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -111,6 +116,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -217,8 +222,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402487,
+    "modifiedTime": 1665949165223,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

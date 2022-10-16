@@ -3,7 +3,7 @@
   "name": "Chime Of Storm Calling",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This copper chime can be struck as a standard action, producing a cloud of mist around the user equivalent to an obscuring mist spell. If struck again before the mist disperses, the user can call down the fury of a storm on a single target within the clouded area, either striking it with a bolt of lightning (3d6 electricity damage, Reflex DC 15 half) or buffeting it with a gust of wind for 1 round, equivalent to the spell gust of wind. Either use immediately disperses the cloud of mist and renders the chime of storm calling inert for 24 hours. If the chime of storm calling is not struck again, the mist disperses after 5 minutes, after which it may be used again to create new banks of mist.  A chime of storm calling cannot summon lightning or wind while underground, indoors, or in an arid climate.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, call lightning, gust of wind, obscuring mist</p><h3><b>Source: </b></h3>Ire Of The Storm",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404270,
+    "modifiedTime": 1665949166712,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

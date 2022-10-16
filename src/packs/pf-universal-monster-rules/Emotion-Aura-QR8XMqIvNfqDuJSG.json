@@ -3,7 +3,7 @@
   "name": "Emotion Aura",
   "type": "feat",
   "img": "systems/pf1/icons/feats/extra-ki.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with this ability surrounds itself with an area of swirling, chaotic emotions. These emotions make it difficult for spellcasters to cast spells with the <a href=\"https://www.aonprd.com/Rules.aspx?Name=Components&amp;Category=Psychic%20Magic\">emotion component</a>. Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with an emotion aura + that creature&rsquo;s Charisma modifier) to cast a spell with an emotion component. Failing this check causes the spell to be lost with no effect. In addition, any spellcaster casting spells with the emotion or fear descriptor on targets inside this aura must succeed at this check or the spell fails to affect targets within the aura (although others outside the area are affected as normal). Creatures with this ability are immune to its effects and can cast spells normally.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: emotion (DC 17)</p>\n<p><em>Location</em>: Aura.</p>\n<p><em>Usage:</em> Replace Concentration check DC</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -202,8 +207,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402477,
+    "modifiedTime": 1665949165216,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

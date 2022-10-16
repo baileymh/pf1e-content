@@ -3,7 +3,66 @@
   "name": "Memory Facet (Compassion, Ingenuity) (Iron Gods)",
   "type": "equipment",
   "img": "icons/commodities/tech/metal-panel.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Artifact</strong></p>\n<p><strong>Source</strong> <em>Pathfinder #88: Valley of the Brain Collectors pg. 62</em></p>\n<p><strong>Slot</strong> none; <strong>Weight</strong> -</p>\n<p><strong>Capacity</strong> -; <strong>Usage</strong> -</p>\n<h3 class=\"framing\">Description</h3>\n<p>A memory facet is a length of crystal about the size of a human thumb. This potent device is used to store programming meant to augment or change the nature of how an AI functions. Originally used as a portable method of safely transporting and storing the complex and lengthy code required to program and enhance artificial intelligences, it can also be used to augment and enhance an existing AI. Full rules for memory facets can be found on pages 62-63 of \"Lords of Rust,\" including rules for aggression facets, ego facets, and inhibitor facets. The new memory facets detailed below can be found in \"Valley of the Brain Collectors.\"</p>\n<p>&nbsp;</p>\n<p><strong>Compassion Facet</strong>: A compassion facet allows an AI to understand and even experience love and associated emotions, imparting a +2 bonus on all Will saving throws and granting a +4 bonus on Diplomacy and Sense Motive checks. An AI with a compassion facet can form a strong emotional bond with a number of creatures equal to its CR as a standard action-once this bond is formed, the AI gains a +4 bonus on attack rolls and weapon damage rolls while controlling a robot and making attacks against a creature the AI has witnessed harming one of its bonded creatures within the last hour.</p>\n<p>&nbsp;</p>\n<p><strong>Ingenuity Facet</strong>: An ingenuity facet grants an AI insight into the construction and maintenance of technological items and robot maintenance. This facet grants a +4 bonus on Disable Device checks, as well as the Craft Technological Arms and Armor and Craft Technological Item feats. While the AI controls a robot, this facet given the AI the ability to repair 3d8+15 points of damage to any robot it can touch (including itself) as a full-round action at will, but only once per day for any given robot.</p>",
       "chat": "",
@@ -78,6 +137,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +197,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +237,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +249,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -258,66 +323,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387837,
+    "modifiedTime": 1665949152184,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Chaos Cutter",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This narrow, sleek sloop is made of an iridescent metal that glows a pale white and is as hard as adamantine. It boasts a single mast with two translucent planar sails and can plow across the tumultuous metaphysical seas of the Maelstrom to reach any plane in the Great Beyond. When not in the Maelstrom, the vehicle acts in all regards as a heavy chariot that hovers 5 feet off the ground instead of standing on a pair of wheels.  When piloted in the Maelstrom, a chaos cutter can fly with a maximum speed of 100 feet and acceleration of 30 feet. Any creature can sail and direct a cutter using its rudder with a successful DC 10 Profession (sailor) check, which can be attempted untrained. Success at this check also counts as success at a Wisdom check to change the direction of gravity (and thus the cutter's trajectory); creatures on a cutter treat gravity as normal while in the vehicle.  A chaos cutter is reinforced with an imperceptible field that protects against planar energies. While on a cutter, a passenger does not need to eat, drink, or breathe, as though it were of the outsider type. Additionally, all creatures on the  vehicle are affected by planar adaptation ( Pathfinder RPG Advanced Player's Guide 236) and protection from chaos.  A chaos cutter has 175 hit points and is 15 feet long.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, overland flight, planar adaptationAPG, polymorph, protection from chaos</p><h3><b>Source: </b></h3>Heaven Unleashed",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409126,
+    "modifiedTime": 1665949171276,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

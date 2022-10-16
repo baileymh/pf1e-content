@@ -3,7 +3,7 @@
   "name": "Caltrop Bead, Cold Iron",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The wielder may throw this small, dense iron sphere as a ranged touch attack (with a 10-foot range increment) or use it as a sling bullet. Upon striking a solid object, a caltrop bead explodes into caltrops in a 10-foot-radius burst. A creature directly hit by a caltrop bead takes 2d4 points of piercing damage, and adjacent creatures take 1d4 points of damage as the bead suddenly bursts. Caltrops created by a caltrop bead remain for 1 hour before disappearing.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, minor creation</p><h3><b>Source: </b></h3>Demon Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404045,
+    "modifiedTime": 1665949166549,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

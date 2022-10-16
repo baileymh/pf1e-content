@@ -3,7 +3,7 @@
   "name": "Bone Razor",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jagged bone knife seems too thin and frail for combat but easily cuts flesh. If used to perform a coup de grace on a helpless living creature and the creature dies from the attack, the creature's flesh begins to peel off and its bones animate as a skeleton under the command of the bearer of the razor. The creature's flesh is not destroyed, but decays at a steady rate. The bearer of the razor can spend 1 minute reattaching the flesh to the animate skeleton, which ends the necromantic magic and results in a normal corpse (though a corpse of a person killed or mutilated by knife wounds). If the bearer uses the razor to flense and animate another creature's bones, the previous animate skeleton is immediately destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404044,
+    "modifiedTime": 1665949166548,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

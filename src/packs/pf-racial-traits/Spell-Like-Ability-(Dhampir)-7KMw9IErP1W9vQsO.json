@@ -3,7 +3,12 @@
   "name": "Spell-Like Ability (Dhampir)",
   "type": "feat",
   "img": "systems/pf1/icons/races/dhampir.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.TkO66LBa7a0GwXGU"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Dhampir&nbsp;</p>\n<hr />\n<p>A dhampir can use <em>detect undead</em> three times per day as a spell-like ability (with a caster level equal to the dhampir's character level). Dhampirs of specific heritages (see below) gain other spell-like abilities in place of <em>detect undead</em>.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.TkO66LBa7a0GwXGU"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382633,
+    "modifiedTime": 1665949147081,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

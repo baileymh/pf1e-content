@@ -3,7 +3,7 @@
   "name": "Amulet Of Quaking Strikes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple bronze amulet depicts a mountaintop being shattered by a sword blow. Twice per day, the amulet's wearer can make a single melee attack against the ground as a standard action. The wearer can choose a point of origin within 100 feet of himself and apply his attack roll against all creatures within a 20-foot radius of that point. The amulet's wearer rolls his attack's damage once and applies it to all creatures in the affected area. The damage includes the weapon's base damage dice, the wearer's Strength modifier, and damage from feats such as Power Attack and Vital Strike; it doesn't include damage from other magical sources, such as enhancement bonuses, spells, and magic weapon special abilities.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, earthquake</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404750,
+    "modifiedTime": 1665949167245,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

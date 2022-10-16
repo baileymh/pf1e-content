@@ -3,7 +3,7 @@
   "name": "Shield Of Sunrise",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 bashing light steel shield features a brilliant sun motif, and always seems comfortably warm to the touch. Once per day when the shield's bearer successfully hits a creature with a shield bash attack, he may activate the shield as a swift action to mark the target with radiant energy. This radiant energy lasts for 1d4 rounds. During this time, the marked creature shines like a sunrod, and the wielder's allies gain a +1 insight bonus on attack rolls against the marked creature as long as they are within 30 feet of it. If the marked creature is vulnerable to light, this insight bonus increases to +3. When a marked creature is hit by a melee or ranged attack, the radiant energy discharges in a burst of light, dealing 1d6 points of damage to the marked creature and ending the marking effect. If the creature is vulnerable to light, it is also dazed for 1 round.<br><p><b>Base Item:</b> +1 bashing light steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, daybreak arrowUC, tactical acumenUC</p><h3><b>Source: </b></h3>Undead Slayer's Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372380,
+    "modifiedTime": 1665949138807,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

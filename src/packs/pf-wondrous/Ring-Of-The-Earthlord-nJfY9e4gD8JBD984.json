@@ -3,7 +3,7 @@
   "name": "Ring Of The Earthlord",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone ring is constantly covered in a thin layer of dirt. It grants its wearer the ability to meld into stone once per day.  8th Level: The wearer can also use soften earth and stone once per day. She can speak Terran, and she gains a +2 resistance bonus on saving throws against attacks by creatures from the Plane of Earth and a +4 morale bonus on attack rolls against such creatures. Additionally, these creatures take a -1 penalty on attack rolls against her. The wearer takes a -2 penalty on all saving throws against air or electricity effects.  11th Level: Earth elementals can't attack the wearer or even approach within 5 feet of her. If she wishes, the wearer   can attempt to use charm monster on an earth elemental (DC 17 Will save negates). If she fails the attempt, she loses the protection against that elemental and can't attempt to charm that elemental again.  14th Level: The wearer can use stone shape twice per day and use stoneskin on herself once per week.  16th Level: The wearer can use wall of stone once per day and can now use meld into stone three times per day.  17th Level: The wearer can use passwall once per week and can now use meld into stone at will.  18th Level: The wearer can now use passwall twice per week and soften earth and stone at will.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, meld into stone, passwall, soften earth and stone, stone shape, stoneskin, summon monster VI, wall of stone</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409114,
+    "modifiedTime": 1665949171267,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

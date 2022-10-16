@@ -3,7 +3,7 @@
   "name": "Guerrilla Bandanna",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Used by warband leaders in Nirmathas, a guerrilla bandanna is a plain brown and green bandanna that can be tied around the forehead. The wearer gains a +5 competence bonus on Stealth checks while traveling in forested terrain, and can extend this bonus to up to 10 allies while they remain within 100 feet of the wearer.  increases his favored enemy bonus on attack rolls by 1 for each of his favored enemies. If the ranger has the hunter's bond (companions) class feature, this increase also applies to the attack roll bonus his allies gain from that ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, instant enemyAPG, invisibility</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409072,
+    "modifiedTime": 1665949171238,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

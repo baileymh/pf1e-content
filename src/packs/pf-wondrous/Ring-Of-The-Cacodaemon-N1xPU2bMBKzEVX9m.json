@@ -3,7 +3,7 @@
   "name": "Ring Of The Cacodaemon",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Sculpted into the intricate form of a golden cacodaemon, this ring features a decorative wide-open mouth and can hold a soul gem braced between its horns. The ring allows its wearer to tap into the residual memories of the mangled soul it contains. Once per day, the wearer can interrogate the soul in the gem, as per speak with dead, except the soul answers telepathically. Once per day, the bearer can project the soul's last tormented moments before it was consumed and bound, creating a cone of terror as per fear.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fear, speak with dead</p><h3><b>Source: </b></h3>Book of the Damned",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406057,
+    "modifiedTime": 1665949168368,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

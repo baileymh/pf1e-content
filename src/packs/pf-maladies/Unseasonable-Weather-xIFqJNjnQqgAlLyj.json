@@ -3,7 +3,12 @@
   "name": "Unseasonable Weather",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_11.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.nw0zVrOgEv1Ka2J3"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Horror Adventures pg. 145</em></p><p><strong>Type</strong> regional curse; <strong>Save</strong> Will DC 23</p><p><strong>Effect</strong> The weather in the cursed region changes drastically, even bringing snow to a blazing desert. The area is plagued by your choice of , very hot conditions, or frequent powerful storms. The weather remains unpredictable, and can change over time (as determined by the GM), but the baseline weather is altered as long as the curse remains.</p><p><strong>Cure</strong> The cursed weather can be returned to normal only by casting <em>remove curse</em> at the center of the affected area, followed by a casting of <em>control weather</em>.</p>",
       "chat": "",
@@ -63,7 +68,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,12 +99,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.nw0zVrOgEv1Ka2J3"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428376496,
+    "modifiedTime": 1665949141310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

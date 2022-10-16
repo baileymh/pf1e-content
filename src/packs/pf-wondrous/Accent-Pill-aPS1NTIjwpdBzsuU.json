@@ -3,7 +3,7 @@
   "name": "Accent Pill",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small, white pill has the consistency of a toughened almond. When consumed on its own, an accent pill has no effect on the creature ingesting it. To function, the pill must first be coated with the blood or saliva of a living creature. Once coated, the pill turns from white to a dull brown. Consuming a coated pill grants the consuming creature the exact tone and speech mannerisms of the creature whose blood or saliva was used to coat the pill. When used as part of a disguise, it grants the consumer a +15 bonus on Disguise checks to fool a listener into thinking the speaker is the creature whose blood or saliva coated the pill; as with vocal alterationUM, this bonus applies only to someone hearing the voice without seeing the speaker. This effect lasts for 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, vocal alterationUM, creator must possess 5 ranks in Craft (alchemy)</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407397,
+    "modifiedTime": 1665949169649,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

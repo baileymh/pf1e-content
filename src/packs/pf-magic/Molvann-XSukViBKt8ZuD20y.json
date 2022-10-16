@@ -3,7 +3,7 @@
   "name": "Molvann",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy warhammer is capped with steel spikes on both ends of its massive head, and a leather thong prevents it from falling from the wielder's hand. Molv&#235;nn is a +3 warhammer that deals both piercing and bludgeoning damage. Yet although it is already a formidable weapon, its true potential is only realized in the hands of a barbarian. Wielded by a barbarian, Molv&#235;nn becomes a +5 thundering warhammer. The barbarian gains an additional 1 hit point per barbarian level when raging and can add twice her Strength modifier (instead of half again her Strength modifier) to damage rolls while wielding Molv&#235;nn two-handed. Additionally, while Molv&#235;nn's wielder is raging, she cannot be disarmed, nor can Molv&#235;nn be sundered.<br><p><b>Base Item:</b> +3 warhammer|+5 thundering warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/deafness, rage</p><h3><b>Source: </b></h3>AP 34",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372411,
+    "modifiedTime": 1665949138843,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

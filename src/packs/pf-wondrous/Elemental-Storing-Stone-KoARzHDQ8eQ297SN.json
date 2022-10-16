@@ -3,7 +3,7 @@
   "name": "Elemental Storing Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small stone appears to be a normal river rock shot through with veins of white marble. At the beginning of each day, an elemental storing stone activates and can begin storing elemental energy. If the wielder of the stone takes 10 or more points of a single type of energy damage (acid, cold, electricity, fire, or sonic), the stone becomes charged with that energy. A charged elemental storing stone can be used to launch a single ray attack of the energy type stored within. The ray is a ranged touch attack with a range of 60 feet that deals 2d6 points of damage on a successful hit. An elemental storing stone may be used once per day. If the stone is charged and not used by the beginning of the next day, the charge is wasted and the stone must be charged again to function.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, elemental touchAPG</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405622,
+    "modifiedTime": 1665949167916,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Dagger Of Repossession",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 dagger has a thin crystal tube embedded in its center. Once per day, the wielder of this dagger may slash herself, dealing damage as normal, but also channel some of her own blood into the tube, imprinting her memories onto the dagger.  The imprinted blood lasts for a number of days equal to the wielder's HD plus her Constitution modifier (minimum 1). During this time, the dagger of repossession is typically given to an ally of the creature whose blood is imprinted. If the original wielder becomes possessed (such as by a ghost's malevolence ability or a magic jar spell) and she's slashed with the dagger again, the imprinted blood is consumed, the target regains her memories, and any possession effect immediately ends. A dagger of repossession does not end charm or compulsion effects, but the target receives another save against these effects at the original DC. Other mind-affecting effects are unaffected by the dagger. An imprinted dagger of repossession has no unusual effect if used on anyone other than the target whose blood is imprinted.<br><p><b>Base Item:</b> +1 dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, break enchantment</p><h3><b>Source: </b></h3>Demon Hunter's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372468,
+    "modifiedTime": 1665949138925,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Amethyst Pyramid Ioun Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone grants you the ability to pass undetected before undead as if under the effects of a hide from undead spell. Unintelligent undead automatically can't see you, and intelligent undead receive a single DC 12 Will save to notice you despite the stone's effects. If you attempt to channel positive energy, turn or command undead, touch an undead creature, or attack any creature (even with a spell), the stone's effects are negated for 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hide from undead, creator must be 12th level</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405977,
+    "modifiedTime": 1665949168310,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

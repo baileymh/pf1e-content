@@ -3,7 +3,7 @@
   "name": "Falcon Crown",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This metal headdress is shaped like a falcon's head and enameled in brilliant colors. Originally crafted for a wizard dedicated to Horus as a reward from his pharaoh for his prowess on the battlefield, the falcon crown was believed lost when the wizard was struck down by an ancient blue dragon. Centuries later, however, archaeologists discovered the falcon crown among the ruins of Tumen. Researcher-priests of Nethys acquired the crown shortly after, and when the Nethysian priestess Serethet became the Forgotten Pharaoh, she claimed the falcon crown for herself.  The wearer of the falcon crown gains a +2 insight bonus to her Armor Class. In addition, up to three times per day as an immediate action, the wearer of the falcon crown can sacrifice a prepared spell or unused spell slot of 1st level or higher and transform it into a damaging ray, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d4 points of damage for every level of the spell or spell slot sacrificed. A non-spellcaster cannot create rays with the falcon crown, but can still gain the AC bonus.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Arcane BlastAPG, Craft Wondrous Item, foresight, haste</p><h3><b>Source: </b></h3>AP 82",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410313,
+    "modifiedTime": 1665949172365,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

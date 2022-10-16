@@ -3,7 +3,7 @@
   "name": "Frostmelding",
   "type": "feat",
   "img": "systems/pf1/icons/races/elf.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Elf&nbsp;<br /><strong>Replaced Trait(s):</strong> Elven Magic&nbsp;</p>\n<hr />\n<p>A few rare Snowcaster elves are able to supernaturally blend with their surroundings to avoid the eyes of outsiders. Elves with this alternate racial trait can use <%SPELLS%meld into stone%%><i>meld into stone</i><%END> as a spell-like ability once per day, with a caster level equal to their character level, except that they instead meld with snow and ice and the spell duration is 1 round per level.<br /><br />This replaces elven magic.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383371,
+    "modifiedTime": 1665949147668,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

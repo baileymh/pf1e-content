@@ -3,7 +3,7 @@
   "name": "Gloomspire Tisane",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>By imbibing this bitter dark violet brew, a creature gains the ability to safely access any of the Gloomspires. Though the spires continue to shift for creatures that do not drink Gloomspire tisane, a creature consuming it can access any of the Gloomspires as if they were fixed in place. Additionally, while under the brew's effects, a creature can see twice as far as normal in conditions of fog or mist. For example, it can see creatures up to 10 feet away when in a fog cloud instead of only 5 feet (though such creatures still have concealment). The tisane's effects last for 24 hours. As soon as the effects end, the creature experiences a madness-inducing waking nightmare and takes 1d6 points of Wisdom damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, break enchantment</p><h3><b>Source: </b></h3>PFS 8-15",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406726,
+    "modifiedTime": 1665949168977,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

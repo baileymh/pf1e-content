@@ -3,7 +3,7 @@
   "name": "Corset Of Dire Witchcraft",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This slimming garment is fastened with laces, buckles, and buttons and reinforced with ribs of leather or bone. A corset of dire witchcraft grants a +4 armor bonus to AC. If the wearer is a witch, each day when she communes with her familiar to prepare spells, she may enhance one hex she knows, increasing its caster level by +2 for 24 hours. This enhancement ends if the corset is removed or if she uses it to enhance a different hex.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mage armor, creator must be a witch</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406017,
+    "modifiedTime": 1665949168336,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

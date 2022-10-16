@@ -3,7 +3,7 @@
   "name": "Hemnetep's Chariot",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This miniature chariot is made of wood and bronze and has a leather thong so it can hang around the neck or a belt. Once per day when the command word is spoken, the chariot increases in size to a fully functioning medium chariot (Pathfinder RPG Ultimate Combat 181) capable of holding one Large creature or four Medium creatures. Up to four Medium creatures or one Large creature can be harnessed to the chariot to pull it, allowing these creatures as well as the chariot to gain the effects of overland flight. The chariot cannot move of its own volition and must have a source of propulsion in order to fly.  With a second command word, the chariot shrinks back to its miniature size. Any creatures harnessed to it (but not those riding the vehicle) are absorbed into the miniature chariot. Such creatures are affected as if by a temporal stasis spell; they reappear at their normal size when the chariot is next activated.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, overland flight, shrink item</p><h3><b>Source: </b></h3>Undead Unleashed",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404635,
+    "modifiedTime": 1665949167151,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

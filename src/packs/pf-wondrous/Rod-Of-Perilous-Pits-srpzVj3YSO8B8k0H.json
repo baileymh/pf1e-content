@@ -3,7 +3,7 @@
   "name": "Rod Of Perilous Pits",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rod roughly resembles a torch with a small brass cage at the end. The wielder can cast any spell of 3rd level or lower into the rod. The rod can contain one spell at a time; casting a new spell into it replaces the older one. As long as a spell is contained within the rod, the brass cage glows as brightly as a candle. The wielder of a rod of perilous pits can use the rod when casting a pit spell (create pitAPG, hungry pitAPG, and similar spells with pit in their names). Doing so changes that spell's casting time to a full-round action (or adds 1 round, if the casting time is already at least 1 full round). After successfully casting the pit spell, the rod's wielder can choose to manifest the contained spell inside the summoned pit. The contained spell manifests at the bottom of the pit, but does so after creatures have attempted their initial saves to avoid falling in. This allows the caster to center spells with a duration of instantaneous (such as fireball) or spells with longer durations (such as stinking cloud) within the pit.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, create pitAPG, creator must be a caster of at least 12th level</p><h3><b>Source: </b></h3>Magic Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409771,
+    "modifiedTime": 1665949171881,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

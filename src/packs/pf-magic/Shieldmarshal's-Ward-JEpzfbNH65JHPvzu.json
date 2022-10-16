@@ -3,7 +3,7 @@
   "name": "Shieldmarshal's Ward",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from magnetic ore warped by exposure to the Mana Wastes, this +1 arrow deflection buckler is thought to be one of the original shields granted by Duke Alkenstar to the first shieldmarshals. Whenever the bearer of this shield successfully deflects a projectile using the shield, she can, as a free action, expend one use of mythic power to redirect the deflected projectile toward any creature to which she has a clear line of effect, using the original attacker's attack and damage rolls. The range increment penalty on the attack roll of this deflected projectile is calculated from the original point at which the projectile was fired. For example, a foe fires an arrow from his shortbow (range increment 60 feet) at a mythic character bearing a shieldmarshal's ward who is 100 feet away, taking a -2 penalty on his attack roll. The mythic character deflects the arrow toward the same foe, meaning the arrow has traveled a total of 200 feet, which imposes a -6 penalty on the attack roll to hit the foe (since three range increments of 60 feet equals 180 feet). A character who possesses levels in the shieldmarshal prestige class (Pathfinder Campaign Setting: Paths of Prestige 48) can bear a shieldmarshal's ward without penalty, even if she isn't proficient with it.<br><p><b>Base Item:</b> +1 arrow deflection buckler</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Mythic CrafterMA, protection from arrows, shield, telekinesis</p><h3><b>Source: </b></h3>Mythic Origins",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371963,
+    "modifiedTime": 1665949138370,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

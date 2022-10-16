@@ -3,7 +3,7 @@
   "name": "Enervating Pistol",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Kerdak Bonefist had this +1 reliable distance pistol (Ultimate Combat 138, 142) specially crafted for him to take advantage of his unique skeletal hand. The pistol shows signs of wear and exposure to the elements, but its walnut stock, nickel-plated barrel, and gold accents are of fine craftsmanship, and its mechanisms still move with precision. Ammunition fired from an enervating pistol deals an extra 1d6 points of negative energy damage on a successful hit. On a successful critical hit, an enervating pistol bestows a negative level on its target. One day after being struck, subjects must make a DC 16 Fortitude save for each negative level or they become permanent. An enervating pistol bestows one permanent negative level on any creature wielding it that is not undead or does not possess an undead hand. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including restoration spells) while the weapon is wielded.<br><p><b>Base Item:</b> +1 reliable distance pistol</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, clairaudience/clairvoyance, finger of death, enervation, mending</p><h3><b>Source: </b></h3>AP 60",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371857,
+    "modifiedTime": 1665949138294,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

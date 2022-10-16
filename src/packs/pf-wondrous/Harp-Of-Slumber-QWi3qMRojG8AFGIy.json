@@ -3,7 +3,7 @@
   "name": "Harp Of Slumber",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Despite having the strength and texture of unhewn stone, this pale white harp is sculpted from solid glass. A harp of slumber has several effects when played. At will, the user can produce a lullaby effect by plucking a single string. Up to three times per day, the user can strum the harp to produce a sleep effect. If the performer succeeds at a DC 13 Perform (string instrument) skill check, this use of the harp functions as deep slumber instead. The DC for these effects increases by 2 against creatures with the giant subtype.  Mythic: A mythic performer can expend one use of mythic power when strumming a harp of slumber in order to augment   the effect it creates to mythic sleep, or mythic deep slumber if the performer also succeeds at a DC 13 Perform (string instrument) check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, deep slumber, lullaby, sleep</p><h3><b>Source: </b></h3>Giant Hunters Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406556,
+    "modifiedTime": 1665949168876,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

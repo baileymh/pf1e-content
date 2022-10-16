@@ -3,7 +3,7 @@
   "name": "Runestone Of Power, 7th-Level",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A runestone of power is a small chip of polished stone etched with a rune. These objects are potent aids to all spellcasters who cast spontaneously (but not to spellcasters like clerics who have the option to spontaneously cast certain spells). Once per day, a spontaneous caster can draw upon a runestone of power to cast a spell-doing so is part of the spellcasting action, and expends that runestone's power for the day rather than one of the spellcaster's actual spell slots for the day. An expended runestone of power recharges its capacity after 24 hours. The spell must be of a particular level, depending on the runestone.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, creator must be able to spontaneously cast spells of the appropriate spell level</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403675,
+    "modifiedTime": 1665949166137,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

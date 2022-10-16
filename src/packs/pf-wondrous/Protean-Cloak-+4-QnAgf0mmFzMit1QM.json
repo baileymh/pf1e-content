@@ -3,7 +3,7 @@
   "name": "Protean Cloak +4",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These multihued cloaks are as mutable as the proteans that inspired them. The typical protean cloak appears to be crafted from the hide of a naunet protean, but regardless of their apparent source, all protean cloaks shimmer and flicker with a riot of color. While the material feels scaly and rugose to the touch, a protean cloak flows like silk and does not hinder mobility.  A protean cloak provides a +1 to +5 resistance bonus on a single type of saving throw (typically Will saving throws). Once per day as a standard action, the wearer can change the type of saving throw that receives this bonus; the cloak then provides its bonus on the new type of saving throw until its type is changed again. If a protean cloak is unattended for more than 24 hours, the resistance bonus it applies automatically reverts back to Will saves.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, entropic shield, resistance, creator must be chaotic, creator's caster level must be at least three times the cloak's bonus</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406564,
+    "modifiedTime": 1665949168881,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Flask Of Reconcoction",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thin silver flask can hold a single ounce of liquid. If a potion of a 1st-level spell is poured into the flask, the flask's interior analyzes and bonds to that potion. Once the potion is drunk, the flask begins to hiss and bubble, as strange liquids and reagents  slowly mix within it. After 1 full week, the flask has produced a new potion of the same 1st-level spell at minimum caster level. If anyone drinks or empties the flask before the week is over, they gain no benefit, the nascent potion is lost, and the flask ceases concocting until it is filled with a new 1st-level potion. If a potion in the flask is poured out of the flask, rather than drunk directly from it, the flask does not reconcoct that potion.  6th Level: The flask takes only 1 day to reconcoct a 1st-level potion, rather than 1 week.  8th Level: The flask can reconcoct a potion of a 2nd-level spell, but it takes 1 week.  10th Level: The flask takes only 1 day to reconcoct a 2nd-level potion, rather than 1 week.  12th Level: The flask can reconcoct a potion of a 3rd-level spell, but it takes 1 week.  14th Level: The flask takes only 1 day to reconcoct a 3rd-level potion, rather than 1 week.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alchemical allocationAPG</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406241,
+    "modifiedTime": 1665949168502,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

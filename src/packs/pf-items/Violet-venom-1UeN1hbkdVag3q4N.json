@@ -3,7 +3,7 @@
   "name": "Violet venom",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Violet venom</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 145</em>, <em>Heroes of the Wild pg. 20</em></p><p><strong>Price</strong> 800 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 13</p><p><strong>Frequency</strong> 1/minute for 6 minutes</p><p><strong>Effect</strong> 1d2 Str and Con damage</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>The putrefying essence of a violet fungus must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365720,
+    "modifiedTime": 1665949133690,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Marvelous fear gas",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Marvelous fear gas</h3><p><strong>Source</strong> <em>Inner Sea Intrigue pg. 50</em></p><p><strong>Price</strong> 150 gp; <strong>Weight</strong> 1/2 lb.</p><p><strong>Type</strong> inhaled; <strong>Save</strong> Fortitude DC 17</p><p><strong>Onset</strong> injury or affected by any fear condition or effect; <strong>Frequency</strong> 1/minute for 4 minutes</p><p><strong>Initial Effect</strong> shaken for 10 minutes (this can't produce a more severe fear effect); <strong>Secondary Effect</strong> 1d2 Wisdom damage</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This poison is the creation of the Guild of Wonders in Absalom, whose members hunt down and intimidate their enemies.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367647,
+    "modifiedTime": 1665949135489,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

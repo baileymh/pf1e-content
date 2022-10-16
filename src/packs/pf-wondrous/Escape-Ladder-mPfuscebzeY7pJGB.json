@@ -3,7 +3,7 @@
   "name": "Escape Ladder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This 10-foot long rope ladder unrolls itself on command, extending upward into the air and magically holding itself in place. The ends of each rope have small loops for tying to another rope, a grappling hook, a piton, or similar fixtures. A second command word makes the ladder roll itself again, pulling itself toward whichever end the speaker is touching. Climbing the ladder is a DC 0 Climb check. The ladder can hold up to 300 pounds if holding itself in the air, or 600 pounds if attached to a sturdy surface.   A third command word creates an extradimensional space at the top of the ladder that is identical to rope trick, except it only holds up to one Medium creature and has a very short duration. When a creature enters the extradimensional space, at the end of the creature's turn the space collapses and the creature is transported as though by dimension door 1d6 x 100 feet away in a random direction to a safe, ground-level location. The ladder remains behind and falls to the ground when this power is used. The third command word may be   used once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate rope, dimension door, rope trick</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409048,
+    "modifiedTime": 1665949171222,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

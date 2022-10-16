@@ -3,7 +3,7 @@
   "name": "Crimson Bluff",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>With a blade crafted entirely out of black metal, this +2 speed sawtooth sabreUE has only one hint of color: a red hilt. Once per day as a standard action, the wielder of the blade can utter a prayer to the god Achaekek to create 1d4+3 illusory Red Mantis assassins that last for 1 hour. These illusions confound the wielder's enemies, allowing the wielder to flank an enemy with an appropriately positioned figment. The wielder can direct the movement of all figments as a single swift action, moving each of them up to 30 feet. Any creature interacting with (or being flanked by) an illusion can attempt a DC 16 Will save to disbelieve the effect. If an illusory assassin is hit by an attack, it disappears. (Use the wielder's touch AC as an illusion's AC.) Three times per day as an immediate action, when the wielder of a crimson bluff is the target of an enemy's melee attack, she can swap places with an illusory assassin that is adjacent to her.<br><p><b>Base Item:</b> +2 speed sawtooth sabre</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, creator must be an 11th-level cleric of Achaekek or be able to cast haste, mirror image, and mislead</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373038,
+    "modifiedTime": 1665949139412,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

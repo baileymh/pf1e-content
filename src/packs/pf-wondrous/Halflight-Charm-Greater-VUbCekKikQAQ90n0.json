@@ -3,7 +3,7 @@
   "name": "Halflight Charm, Greater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>While regular halflight charms are temporarily issued to anyone traversing the Halflight Path under Duskwarden guidance, greater halflight charms are given to those who have saved a Duskwarden's life or performed a great service for the organization. They thus carry great social cachet with the Duskwardens, who consider selling or purchasing one to be a grave insult.  A greater halflight charm is a dark blue crystal amulet embossed with a golden arch and suspended from a black cord. When worn, it grants the wearer darkvision 60 feet. It also grants a +2 bonus on all initiative checks made while in underground areas. In addition, once per year, the wearer can call on the amulet to summon the specific Duskwarden on whom the charm was imprinted at its creation, who is instantly teleported to an adjacent square along with his standard adventuring gear, provided the wearer is on the same plane. The Duskwarden is not bound to the caster's will in any way.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, darkvision, teleport</p><h3><b>Source: </b></h3>AP 63",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406847,
+    "modifiedTime": 1665949169088,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

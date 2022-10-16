@@ -3,7 +3,7 @@
   "name": "Perfectionist Shavtoosh",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This long piece of cloth is so fine that it can pass through a finger ring. Delicately woven with multiple colors to spell out Iroran prayers, it is usually worn as a shawl or belt, or wrapped around the chest and shoulders-it does not use a magic item body slot. If wrapped around at least one limb, it grants the wearer the Improved Unarmed Strike feat. It may also be wielded as a +1 whip. The wearer can meditate on the shawl's sacred mantras to use cure light wounds and know the enemyUM each once per day.<br><p><b>Base Item:</b> +1 whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cure light wounds, know the enemyUM</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371951,
+    "modifiedTime": 1665949138361,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

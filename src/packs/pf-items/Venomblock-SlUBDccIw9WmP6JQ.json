@@ -3,7 +3,7 @@
   "name": "Venomblock",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-5.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Venomblock</h1><b>Source</b> <i>Monster Hunter's Handbook pg. 27</i><br/><b>Price</b> 60 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like a injury poison (<i>save</i> Fort DC 14; <i>frequency </i>1/round for 6 rounds; <i>cure </i>2 saves), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -231,8 +237,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366877,
+    "modifiedTime": 1665949134782,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

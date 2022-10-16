@@ -3,7 +3,7 @@
   "name": "Amulet Of Radiation Absorption",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet features a large, ragged stone that was harvested from highly radioactive regions of the Darklands and that glows with a faint green light. The wearer is rendered immune to the effects of all forms of radiation. Additionally, for each minute the wearer is exposed to radiation, the amulet absorbs 1 charge of radioactive energy. The amulet can hold up to 5 charges. Charges naturally dissipate at a rate of 1 charge per 24 hours. As a standard action, the wearer can expend 1 charge in order to fire a ray of concentrated radiation from the amulet. Treat this as a ranged touch attack with a range of 60 feet. The wearer can choose any one of the following effects, as outlined below.  Blightburn: The target takes 6d6 points of fire damage.  Caphorite: The target must succeed at a DC 14 Fortitude save or be blinded for 1d4 rounds.  Lazurite: The target takes 2d6 points of negative energy damage, and if it dies in the next hour, there is a 50% chance it rises as a ghoul 1d4 rounds later.  Surface: The target takes 1d2 points of Strength and Constitution damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, radiation ward (see page 15), remove radioactivity (Pathfinder Campaign Setting: Technology Guide 11)</p><h3><b>Source: </b></h3>Heroes Of The Darklands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409128,
+    "modifiedTime": 1665949171277,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

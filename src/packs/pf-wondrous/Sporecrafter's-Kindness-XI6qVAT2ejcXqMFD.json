@@ -3,7 +3,7 @@
   "name": "Sporecrafter's Kindness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brown hemp sack is filled with mold spores, soil, and chemical reagents. It can be thrown as a splash weapon with a range increment of 10 feet. Upon breaking open, a sack of sporecrafter's kindness releases russet mold spores in a 5-foot-radius burst and unleashes 1d4+1 vegepygmies in the nearest adjacent squares. The vegepygmies are not under the control of the user, and immediately attack the nearest creatures for 5 rounds, after which they collapse into nonmagical plant matter.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, poison, summon nature's ally III</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407222,
+    "modifiedTime": 1665949169501,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Shackles Of Compliance",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These battered iron manacles are typically found with a small spiked iron key in one of the locks. The shackles magically adjust themselves to fit around the wrists of any creature from Small to Large size and automatically lock. A creature wearing shackles of compliance becomes more susceptible to intimidation. Any creature attempting to intimidate or demoralize a target wearing shackles of compliance gains a +4 bonus on Intimidate checks. In addition, the holder of the manacles' key can cast command (DC 25 Will) on the wearer of the shackles three times per day. Shackles of compliance have hardness 10 and 10 hit points, and a DC 30 Disable Device check is required to pick the shackles' lock. A manacled creature can break free with a DC 28 Strength check or DC 35 Escape Artist check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, command</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407337,
+    "modifiedTime": 1665949169591,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

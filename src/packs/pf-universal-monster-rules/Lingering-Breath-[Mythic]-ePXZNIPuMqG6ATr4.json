@@ -3,7 +3,7 @@
   "name": "Lingering Breath [Mythic]",
   "type": "feat",
   "img": "systems/pf1/icons/skills/ice_11.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature can expend one use of <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"emNdW1Y7gFdGwNpo\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">mythic power</span></a> as a free action when it uses its <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"pQMisEKPQrTWyLh0\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">breath weapon</span></a> to make the area radiate energy damage (of the same type as the breath weapon) for 1 round per mythic rank. Any creature in, entering, or passing through the breath weapon&rsquo;s area during this duration takes damage according to the creature&rsquo;s size. This ability has no effect on breath weapons that do not deal energy damage.</p>\n<p>&nbsp;</p>\n<h2>Table 3-1: Lingering Breath Damage</h2>\n<table class=\"inner\">\n<tbody>\n<tr>\n<th><strong>Creature Size</strong></th>\n<th><strong>Points of Energy Damage</strong></th>\n</tr>\n<tr>\n<td>Medium or smaller</td>\n<td>2d4</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>2d6</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>2d8</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>4d6</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>4d8</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p><em>Format</em>: lingering breath (2d6 fire, 5 rounds)</p>\n<p><em>Location</em>: Special Attacks.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -195,8 +200,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402513,
+    "modifiedTime": 1665949165246,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

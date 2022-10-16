@@ -3,7 +3,7 @@
   "name": "Uncanny Activation",
   "type": "feat",
   "img": "systems/pf1/icons/skills/shadow_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can coax greater power out of magical devices.</em><br/><br/><b>Prerequisites</b><br/>Use Magic Device 12 ranks.<br/><br/><b>Benefits</b><br/>If you exceed the Use Magic Device DC to activate a spell completion or spell trigger item by 5 or more, you can increase the item's caster level by 1 for determining the spell's effect. Alternatively, if you exceed the Use Magic Device DC by 10 or more when activating a magic item with charges, you can expend an additional charge to increase the caster level by 2 levels. Regardless, you can't increase an item's caster level to one that is higher than your own caster level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358097,
+    "modifiedTime": 1665949126366,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

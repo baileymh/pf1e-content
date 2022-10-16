@@ -3,7 +3,7 @@
   "name": "Experimental Body",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/construct.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Wyrwood&nbsp;<br /><strong>Replaced Trait(s):</strong> Darkvision; Low-Light Vision&nbsp;</p>\n<hr />\n<p>Some wyrwoods have been built from rare materials in an effort to imbue them with special properties. Choose one of the following abilities. <br /><br /><i>Blessed</i>: These wyrwoods contain divine relics. Wyrwoods with this trait can use <%SPELLS%divine favor%%><i>divine favor</i><%END> once per day as a spell-like ability with a caster level equal to their Hit Dice. <br /><br /><i>Enchanted</i>: Crafted from the remnants of broken staves, wands and other items, these wyrwoods have a natural attunement to the arcane. Wyrwoods with this trait treat their Intelligence score as 2 higher for the purpose of determining bonus spells or extracts per day. <br /><br /><i>Fey-Touched</i>: These wyrwoods have components that create a powerful link to the First World. Wyrwoods with this trait can use <%SPELLS%charm animal%%><i>charm animal</i><%END> once per day as a spell-like ability with a caster level equal to their Hit Dice. <br /><br /><i>Scorched</i>: These wyrwoods are built from the ruins of cities and structures destroyed by conflict. Once per day, after a successful melee attack against an enemy, wyrwoods with this trait can deal an additional number of points of damage equal to their Wisdom modifier as a free action. <br /><br />This replaces darkvision and low-light vision.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383426,
+    "modifiedTime": 1665949147715,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

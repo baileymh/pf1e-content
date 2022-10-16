@@ -3,7 +3,7 @@
   "name": "Figurine Of Wondrous Power (tin imp)",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These fat, smirking imp figurines are made of solid tin. A tin imp turns into an imp (Pathfinder RPG Bestiary 78) on command, though it retains its metallic consistency, which gives it a +4 armor bonus to AC. In imp form, a tin imp can turn invisible at will as a swift action, though it retains none of an imp's other spell-like abilities and lacks a poisoned sting. Tin imps generally avoid combat, but make excellent spies and trackers.  The tin imp's owner can, as a move action, designate a single creature in his line of sight as the tin imp's quarry. The tin imp then follows its quarry clandestinely, and sends a whispered message to its owner once each hour detailing the quarry's location and activities. The message is similar to the whispering wind spell, though the message unerringly locates the tin imp's owner instead of moving to a predetermined location. A tin imp can maintain its animate status for up to 48 hours per week. This duration doesn't need to be continuous, but must be used in 1-hour increments. If slain in combat, a tin imp is destroyed.  Additionally, a creature with the track class feature can command a tin imp he owns to study a set of footprints (a standard action) and designate the creature that made the footprints as its quarry. The tin imp can then attempt to track the creature as if its owner was tracking it, using the owner's Perception and Survival skill (and any tracking bonuses).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects, invisibility, whispering wind</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407395,
+    "modifiedTime": 1665949169647,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

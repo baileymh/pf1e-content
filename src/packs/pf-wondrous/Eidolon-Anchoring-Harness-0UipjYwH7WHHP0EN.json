@@ -3,7 +3,7 @@
   "name": "Eidolon Anchoring Harness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Loadstone studs line the straps of this ornate leather harness. When worn by an eidolon, the bindings act as a dimensional safety harness, anchoring the outsider to its current plane. Any time the eidolon would be forced to return to its home plane (such as when it's reduced to negative hit points equal to its Constitution score or when its master is rendered unconscious), it can expend one use of its summoner's summon monster spell-like ability as a free action to remain on the Material Plane for 1 round. The summoner does not need to be conscious for the eidolon to use this ability, but he must be within 100 feet. If the summoner is conscious, he can refuse to allow this expenditure (which means the eidolon is forced back to its home plane).   If the condition that would have sent the eidolon back to its home plane is still in effect after 1 round has passed, the eidolon may expend another use of its master's summon monster spell-like ability; otherwise it immediately returns to its home plane.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dimensional anchor</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403395,
+    "modifiedTime": 1665949165920,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

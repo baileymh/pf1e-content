@@ -3,7 +3,7 @@
   "name": "Diabolical Masquerade Mask",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This masquerade mask resembles a handsome horned devil with red lenses in place of eyes. It functions as a hat of disguise. The wearer can use charm person and infernal healingISWG each once per day. When infernal healing is active, the mask becomes visible whether or not the wearer is using its disguise abilities (although all other elements of the disguise remain).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm person, disguise self, infernal healing</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409137,
+    "modifiedTime": 1665949171282,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

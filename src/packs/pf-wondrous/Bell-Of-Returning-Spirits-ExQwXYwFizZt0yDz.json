@@ -3,7 +3,7 @@
   "name": "Bell Of Returning Spirits",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ancient bronze hand bell has an ivory handle, and simple pictograms of animals are etched onto its exterior. Once per day on command, the user can ring the bell to summon his familiar to his side, as long as the familiar is within 100 feet of the  user. This ability is the equivalent of a spell of a level equal to one-third the user's level. The familiar immediately appears in a space of the user's choice adjacent to him.  If the user's familiar is dead, this ability can be used summon its spirit back from beyond the grave. This functions as a raise dead spell, but can target only the user's familiar. The familiar doesn't need to be touched to accomplish this, though it must be within 100 feet. Any negative levels the familiar gains as a result of being raised are automatically removed at the rate of 1 per day, and any lost Constitution is automatically restored at the rate of 1 point per day. Once the bell has been used to raise a familiar, it transforms into inert clay and loses all of its magic abilities.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, raise dead, summon nature's ally</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404779,
+    "modifiedTime": 1665949167270,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

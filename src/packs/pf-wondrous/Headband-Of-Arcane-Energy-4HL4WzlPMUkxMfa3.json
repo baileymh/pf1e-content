@@ -3,7 +3,7 @@
   "name": "Headband Of Arcane Energy",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This headband has three swirling patterns of red, green, and blue crystals arching across its length. Three times per day, its wearer can sacrifice an arcane spell to create an offensive blast or defensive shield. The blast is a ranged touch attack with a range of 30 feet, which deals 1d6 points of energy damage (cold, electricity, or fire) per spell level sacrificed. The shield creates a swirling band of energy that lasts 1 round and gives the wearer a deflection bonus to AC equal to 2 + the level of the spell sacrificed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Arcane Blast, Arcane Shield, Craft Wondrous Item, prismatic spray</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403645,
+    "modifiedTime": 1665949166119,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

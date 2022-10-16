@@ -3,7 +3,7 @@
   "name": "Hangman's Noose",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 whip is made from a hemp rope that once served as the noose in a gallows. The countless executions committed with the rope have left an indelible mark on the weapon.  As a standard action, the wielder of a hangman's noose can attempt a combat maneuver check to wrap the whip around a creature's neck. If she succeeds, the victim can't move outside of the whip's reach. As a standard action, the wielder can attempt a repositionAPG combat maneuver check to move the victim within the whip's reach or to pull the whip tighter, strangling the victim (see the rules for suffocation on page 445 of the Core Rulebook). Once the target is being strangled, the wielder can attempt a combat maneuver check as a standard action to squeeze the air out of the victim's lungs. This reduces the amount of time the victim can hold his breath by 1d6+1 rounds.  A victim can escape the noose with a successful Escape Artist check (DC = the wielder's CMD), or by severing the noose with an attack or a successful sunder combat maneuver check. The noose has AC 18, hardness 2, and 12 hp. If severed, the noose can still be used as a +1 whip and repairs itself after 1 hour.<br><p><b>Base Item:</b> +1 whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate rope, suffocationAPG</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372296,
+    "modifiedTime": 1665949138728,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

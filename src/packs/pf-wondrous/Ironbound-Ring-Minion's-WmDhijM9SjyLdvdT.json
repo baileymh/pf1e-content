@@ -3,7 +3,7 @@
   "name": "Ironbound Ring, Minion's",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>While holding one or more minion's ironbound rings, the wearer of a master's ironbound ring can impart instructions of 50 words or fewer to each minion's ironbound ring. The wearer of a minion's ironbound ring can recall the instructions at will and is aware of any action that would cause him to act against those instructions. The DC of any skill check attempted to force the wearer to abandon, misinterpret, or consciously fail the instructions increases by 5, such as for Bluff checks to trick the wearer or Intimidate checks to interrogate him. The wearer gains a +3 resistance bonus on Will saves to resist spells and effects that would force him to act against the instructions, such as dominate person and suggestion.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, resistance, suggestion</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407208,
+    "modifiedTime": 1665949169492,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

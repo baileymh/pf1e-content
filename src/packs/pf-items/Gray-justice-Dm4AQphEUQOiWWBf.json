@@ -3,7 +3,7 @@
   "name": "Gray justice",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Gray justice</h3><p><strong>Source</strong> <em>Agents of Evil pg. 22</em></p><p><strong>Price</strong> 400 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 18</p><p><strong>Frequency</strong> 1/minute for 10 minutes</p><p><strong>Effect</strong> 1d2 Wis, see text</p><p><strong>Cure</strong> 2 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Crafted by alchemists in Galt, gray justice has found use among the Gray Gardeners as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, confusion, and nausea; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366285,
+    "modifiedTime": 1665949134222,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Bag of Concealment type I",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A bag of concealment appears to be a common leather sack with a shoulder strap, about 2 feet by 4 feet in size. The bag behaves as a bag of holding, with all the same carrying capacities according to size, except for a few key points. Each bag of concealment is keyed to a specific owner upon creation (and can only be keyed to one person at a time)-should the bag's owner be killed, it becomes keyed to the next person to open it (the currently keyed person can also relinquish this status as a standard action, allowing another creature to become keyed to the bag by opening it). Only the person a bag of concealment is keyed to may access its contents. Any others who look in the bag see only the inside of an empty sack, with dimensions matching the bag's outside measurements, as the true contents are kept separate and undetectable in the bag's magical pocket dimension. Should anything be placed in the empty bag by someone other than the owner, the goods that have been shunted to the pocket dimension cannot be accessed unless the new item is removed. A bag of concealment registers as nonmagical unless successfully identified, as per a permanent version of the spell magic aura. The mouth of a bag of concealment can be stretched to up to four times its normal width, so larger goods may be hidden inside.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, magic aura, secret chest</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409023,
+    "modifiedTime": 1665949171198,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

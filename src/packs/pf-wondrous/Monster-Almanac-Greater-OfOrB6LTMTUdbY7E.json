@@ -3,7 +3,7 @@
   "name": "Monster Almanac, Greater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The countless pages of this heavy tome bear detailed illustrations and descriptions of creatures from the Material Plane and other planes, including numerous Material Plane planets and the vast black spaces between the stars. The book looks slim when closed, but when a user turns its pages, more and more pages appear.  The user must spend at least 10 minutes researching a particular type of monster to get any benefit from the almanac. If the user is trained in the appropriate Knowledge skill to identify the monster, she gets a +5 circumstance bonus on her skill check. She can attempt a Knowledge check to identify a creature despite being untrained in the appropriate skill (without the +5 bonus) regardless of the DC.  If the user spends 24 hours instead of 10 minutes, she can treat the check as though she got a result of 25. This functions much like using an extensive library and doesn't require the user to be trained in the relevant Knowledge skill.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, legend lore, major image</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406151,
+    "modifiedTime": 1665949168437,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

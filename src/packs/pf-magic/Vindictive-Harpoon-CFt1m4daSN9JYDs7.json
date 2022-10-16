@@ -3,7 +3,7 @@
   "name": "Vindictive Harpoon",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 returning harpoon (Pirates of the Inner Sea 18) is made from the jagged, scrimshaw-carved tusk of a narwhal attached to a 50-foot length of woven sinew. Unlike most thrown weapons, a vindictive harpoon functions as well underwater as on land, and its wielder takes no penalties on attack rolls underwater.<br><p><b>Base Item:</b> +1 returning harpoon</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, freedom of movement, telekinesis</p><h3><b>Source: </b></h3>AP 55",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371819,
+    "modifiedTime": 1665949138263,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Okeno Madu",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A common sight among the more deplorable slavers of Katapesh, this +1 leather maduUE is adorned with body parts- ranging from fingers and toes to severed heads- each one crudely affixed to the shield's spikes. The wielder of the shield gains a +4 competence bonus on Intimidate checks while the shield is visible. The wearer and any associated companions take a -4 penalty on all Diplomacy checks made against good-aligned creatures while the shield is visible. Once per day as a standard action, the wielder of an Okeno madu can shake the shield, causing the fetishes to rattle uncontrollably for 3 rounds. When he shakes the shield, the wielder can choose one creature within 35 feet to suffer the effects of the spell castigate (Pathfinder RPG Advanced Player's Guide 210) as long as the fetishes continue shaking.<br><p><b>Base Item:</b> +1 leather madu</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, castigate</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372458,
+    "modifiedTime": 1665949138914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

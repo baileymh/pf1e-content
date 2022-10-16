@@ -3,7 +3,7 @@
   "name": "Collar Of Obedience",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This collar of bright red leather bears a small golden pendant and makes the wearer much more biddable and compliant. The wearer takes a -4 penalty on saving throws against mind-affecting effects used by the creature that placed the collar on it, and that creature gains a +4 bonus on Handle Animal checks to train or push the wearer. Any other creatures take a -4 penalty on Handle Animal checks against the wearer, and the wearer gains a +2 resistance bonus on saving throws against their mind-affecting effects.   A collar of obedience can be placed on any Small, Medium, or Large creature. Placing a collar of obedience on a creature is a full-round action that requires a successful grapple maneuver. Removing the collar is also a full-round action, and the creature removing it must have precise digits capable of working the locking mechanism. A creature made helpful with wild empathy does not resist having the collar equipped or removed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm animal or mind fog</p><h3><b>Source: </b></h3>Animal Archive",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407965,
+    "modifiedTime": 1665949170201,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

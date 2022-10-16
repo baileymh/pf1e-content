@@ -3,7 +3,7 @@
   "name": "Jar Of Mottled Clay",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This empty clay jar, suitable for holding a few ounces of liquid, smells of freshly tilled earth and changes hue in sunlight. A jar of mottled clay can be thrown as a ranged touch attack with a range increment of 10 feet.  When the jar strikes a creature or a solid object, a mound of earth and clay rises up from where it struck. The mound is 5 feet wide and 10 feet tall, and has a hardness of 2 and 40 hit points. A creature struck by a direct hit must succeed at a DC 13 Reflex save or be pushed back 5 feet and knocked prone as the mound erupts where the target was standing. Success allows the creature struck to move 5 feet in any direction and avoid being knocked prone.  The mound lasts for 3 rounds before losing its structure and collapsing into a pile of dirt. A creature can topple a mound with a successful DC 18 Strength check; creatures within 10 feet on the opposite side of the mound must attempt Reflex saves as if directly struck by the jar of mottled clay. When a mound collapses or is destroyed, it creates difficult terrain in a 5-foot-radius area centered on the square where it was created.  A jar of mottled clay can optionally be filled with an alchemical item. Filling a jar requires a successful DC 15 Craft (alchemy) check. When thrown, a modified jar applies the effects of the alchemical item along with its own effect; contradictory or bizarre combinations of effects are subject to the GM's discretion.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, soften earth and stone</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407390,
+    "modifiedTime": 1665949169641,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

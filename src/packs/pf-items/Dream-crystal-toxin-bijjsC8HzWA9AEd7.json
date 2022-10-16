@@ -3,7 +3,7 @@
   "name": "Dream crystal toxin",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Dream crystal toxin</h3><p><strong>Source</strong> <em>Doom Comes to Dustpawn pg. 18</em></p><p><strong>Price</strong> 2,500 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested or injury; <strong>Save</strong> Willpower DC 20</p><p><strong>Frequency</strong> 1/hour for 6 hours</p><p><strong>Effect</strong> 1d2 Int drain (a creature currently suffering the curse of bestial dreams transforms into an id mutant once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first)</p><p><strong>Cure</strong> 3 consecutive saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies0a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed <em>Lirgen’s Glory</em> can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects0see the curse of bestial dreams on page 4 for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367301,
+    "modifiedTime": 1665949135157,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Gloves Of The Commanding Conjurer",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These gloves grant the wearer greater control over his summoned creatures. As long as he wears the gloves, creatures conjured by the wearer can understand him as if they shared a common language. This communication is not two-way and does not grant the wearer the ability to understand the creature.   Three times per day, the wearer can attempt to take control of a summoned creature within 50 feet as if using control summoned creature (Will DC 16).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, comprehend languages, control summoned creature (Ultimate Magic)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404039,
+    "modifiedTime": 1665949166545,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

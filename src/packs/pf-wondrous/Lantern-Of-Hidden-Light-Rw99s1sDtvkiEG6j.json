@@ -3,7 +3,7 @@
   "name": "Lantern Of Hidden Light",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A lantern of hidden light can be an invaluable tool for one who wishes to see in darkened areas without being revealed to those accustomed to the darkness. This magical lantern can be activated with a touch to one of its crystal panes, and functions as a hooded lantern, save that this light (and what it illuminates) is visible only to the character who holds the lantern in one hand. To other observers, the lantern always appears unlit, and does not appear to be shedding any light at all.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, light</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406671,
+    "modifiedTime": 1665949168934,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

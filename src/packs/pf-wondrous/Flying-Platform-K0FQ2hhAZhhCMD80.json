@@ -3,7 +3,7 @@
   "name": "Flying Platform",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sturdy, 10-foot-by-10-foot mithral platform bears five shifting, white runes of Auran incantations related to clouds and swift travel. It functions identically to a carpet of flying, except it requires periodic recharging to maintain power. The device can hold up to 5 charges, depleting them at a rate of 1 charge for every hour or partial hour of continuous use. The charges can be restored by casting overland flight onto the runes, which restores 1 charge per casting.  When in operation, a flying platform also reduces the effect of rushing wind upon those standing on it, producing an alter winds effect to decrease the wind's intensity by one step. A flying platform can normally carry 800 pounds at a speed of 40 feet, but it can carry up to twice this amount with a reduced speed of 30 feet. A flying platform can hover without need for a Fly check, and grants a +5 bonus on any other Fly checks made to operate it. It has hardness 10 and 60 hit points.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alter windsAPG, overland flight</p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405532,
+    "modifiedTime": 1665949167873,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

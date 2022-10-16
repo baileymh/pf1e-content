@@ -3,7 +3,7 @@
   "name": "Deserach's Chest",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This chest resembles an iron chest except reliefs of powerful magic symbols and images depicting the lich-mage Deserach cover the outside. The magic used to create the item makes it almost impossible to open by means other than with a cipher created when the chest is created. The lid cannot be opened by either breaking it or the Disable Device skill. The chest has a hardness of 100 and 10 hp.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane lock, secret chest, limited wish</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404660,
+    "modifiedTime": 1665949167169,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

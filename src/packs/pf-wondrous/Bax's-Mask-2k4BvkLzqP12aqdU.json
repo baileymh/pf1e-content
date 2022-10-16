@@ -3,7 +3,7 @@
   "name": "Bax's Mask",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This plain mask is made of a reflective, dark gray ceramic. When worn, the mask transforms to look like the wearer's skull, and it gradually becomes eerier and more fearsome the closer a viewer gets to the wearer. Whenever a creature enters a square adjacent to the wearer of Bax's mask, that creature must succeed at a DC 13 Will save or become shaken for as long as it remains adjacent to the wearer. An affected creature can attempt a new save by moving away from the wearer and reentering a square adjacent to the wearer. A creature that succeeds at the save is immune to the mask's effect for 24 hours. A creature shaken by Bax's mask does not become frightened if affected by the mask again, but other fear effects stack with the creature's shaken condition as normal.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, scare</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403525,
+    "modifiedTime": 1665949166023,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

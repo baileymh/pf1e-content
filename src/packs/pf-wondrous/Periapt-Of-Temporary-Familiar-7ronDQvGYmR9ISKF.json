@@ -3,7 +3,7 @@
   "name": "Periapt Of Temporary Familiar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This clear blue crystal amulet contains a pearl figurine depicting a miniature animal on the familiar list, such as a bat, monkey, or raven. Three times per day, the wearer can call forth the animal depicted in the amulet to serve as her familiar. This temporary familiar has all of the familiar abilities as if the wearer was a 5th-level wizard, and remains for 5 minutes or until it is reduced to 0 hit points. If the temporary familiar is reduced to 0 hit points, it cannot be summoned again for 24 hours. The familiar retains memories from past summonings. Only those without familiars of their own can activate a periapt of temporary familiar.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster V, creator must have a familiar</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404164,
+    "modifiedTime": 1665949166629,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

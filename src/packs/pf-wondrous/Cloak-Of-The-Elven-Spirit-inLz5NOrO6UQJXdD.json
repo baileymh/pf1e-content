@@ -3,7 +3,7 @@
   "name": "Cloak Of The Elven Spirit",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks. If the wearer spends at least 1 minute concentrating on blending the cloak's colors to match her surroundings, she can attempt Stealth checks without cover or concealment until she makes an attack or moves more than half her base speed on her turn. Once she breaks this effect, she must spend another minute to reactivate it.  14th Level: The cloak grants its wearer the camouflage ranger ability in forested areas.  18th Level: At will, when the wearer envelops herself in the cloak as a standard action, she can become invisible as invisibility.  20th Level: If the wearer also wears the boots of the elven spirit (see page 170), she can focus the cloak's invisibility effect. As a free action, she can choose to make it so her attacks do not end the invisibility effect for 1 round. She can use this ability for 10 rounds per day, but the rounds need not be consecutive.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, blend, greater invisibility, invisibility, creator must be an elf</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408489,
+    "modifiedTime": 1665949170703,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

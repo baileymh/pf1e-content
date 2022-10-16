@@ -3,7 +3,274 @@
   "name": "Crushing Stone Trap (CR 15)",
   "type": "npc",
   "img": "icons/commodities/stone/boulder-black.webp",
-  "data": {
+  "items": [
+    {
+      "_id": "MrkrWy4U7k98BuOG",
+      "name": "Crushing Stone",
+      "type": "attack",
+      "sort": 100000,
+      "flags": {},
+      "img": "icons/commodities/stone/boulder-black.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Type</strong>&nbsp;mechanical;&nbsp;<strong>Perception</strong>&nbsp;DC 30;&nbsp;<strong>Disable Device</strong>&nbsp;DC 20</p>\n<hr />\n<p><strong>EFFECTS</strong></p>\n<hr />\n<p><strong>Trigger</strong>&nbsp;location;&nbsp;<strong>Reset</strong>&nbsp;manual</p>\n<p><strong>Effect</strong>&nbsp;Atk +15 melee (16d6); multiple targets (all targets in a 10-ft. square)</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [
+          {
+            "_id": "fd217yexvgjrn6qg",
+            "name": "Attack",
+            "img": "icons/commodities/stone/boulder-black.webp",
+            "description": "",
+            "tag": "",
+            "activation": {
+              "cost": 1,
+              "type": "special"
+            },
+            "unchainedAction": {
+              "activation": {
+                "cost": 1,
+                "type": "special"
+              }
+            },
+            "duration": {
+              "value": null,
+              "units": ""
+            },
+            "target": {
+              "value": "multiple targets (all targets in a 10-ft. square)"
+            },
+            "range": {
+              "value": null,
+              "units": "melee",
+              "maxIncrements": 1,
+              "minValue": null,
+              "minUnits": ""
+            },
+            "uses": {
+              "autoDeductCharges": true,
+              "autoDeductChargesCost": "1",
+              "self": {
+                "value": 0,
+                "maxFormula": "",
+                "per": null
+              },
+              "per": "",
+              "value": 0,
+              "maxFormula": "",
+              "max": 0
+            },
+            "measureTemplate": {
+              "type": "",
+              "size": "",
+              "overrideColor": false,
+              "customColor": "",
+              "overrideTexture": false,
+              "customTexture": ""
+            },
+            "attackName": "",
+            "actionType": "mwak",
+            "attackBonus": "15",
+            "critConfirmBonus": "",
+            "damage": {
+              "parts": [
+                [
+                  "16d6",
+                  {
+                    "values": [
+                      "bludgeoning"
+                    ],
+                    "custom": ""
+                  }
+                ]
+              ],
+              "critParts": [],
+              "nonCritParts": []
+            },
+            "attackParts": [],
+            "formulaicAttacks": {
+              "count": {
+                "formula": "",
+                "value": null
+              },
+              "bonus": {
+                "formula": ""
+              },
+              "label": ""
+            },
+            "formula": "",
+            "ability": {
+              "attack": "",
+              "damage": "",
+              "damageMult": 1,
+              "critRange": 20,
+              "critMult": 2
+            },
+            "save": {
+              "dc": "0",
+              "type": "",
+              "description": ""
+            },
+            "effectNotes": [],
+            "attackNotes": [],
+            "soundEffect": "",
+            "powerAttack": {
+              "multiplier": "",
+              "damageBonus": 2,
+              "critMultiplier": 1
+            },
+            "naturalAttack": {
+              "primaryAttack": true,
+              "secondary": {
+                "attackBonus": "-5",
+                "damageMult": 0.5
+              }
+            },
+            "nonlethal": false,
+            "usesAmmo": false,
+            "spellEffect": "",
+            "spellArea": "",
+            "conditionals": [],
+            "enh": {
+              "value": null
+            }
+          }
+        ],
+        "uses": {
+          "per": "",
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "proficient": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "ammoType": "",
+        "attackType": "misc",
+        "weaponGroups": {
+          "value": [],
+          "custom": ""
+        },
+        "primaryAttack": true,
+        "activation": {
+          "cost": 1,
+          "type": "special"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "special"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": "multiple targets (all targets in a 10-ft. square)"
+        },
+        "range": {
+          "value": null,
+          "units": "melee",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "mwak",
+        "attackBonus": "15",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "16d6",
+              "Bludgeoning"
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": ""
+        },
+        "formula": "",
+        "ability": {
+          "attack": "",
+          "damage": "",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "0",
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "nonlethal": false,
+        "conditionals": [],
+        "contextNotes": [],
+        "identifiedName": "Crushing Stone",
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPCLite"
+    }
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1430,7 +1697,7 @@
       "reach": 10
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1438,26 +1705,10 @@
     },
     "name": "Crushing Cage Trap (CR 11)",
     "displayName": 0,
-    "img": "icons/environment/traps/cage-grey-steel.webp",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "5CLZiXJzKOQLsBrJ",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
@@ -1468,16 +1719,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1485,271 +1733,50 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
-  },
-  "items": [
-    {
-      "_id": "MrkrWy4U7k98BuOG",
-      "name": "Crushing Stone",
-      "type": "attack",
-      "data": {
-        "description": {
-          "value": "<p><strong>Type</strong>&nbsp;mechanical;&nbsp;<strong>Perception</strong>&nbsp;DC 30;&nbsp;<strong>Disable Device</strong>&nbsp;DC 20</p>\n<hr />\n<p><strong>EFFECTS</strong></p>\n<hr />\n<p><strong>Trigger</strong>&nbsp;location;&nbsp;<strong>Reset</strong>&nbsp;manual</p>\n<p><strong>Effect</strong>&nbsp;Atk +15 melee (16d6); multiple targets (all targets in a 10-ft. square)</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [
-          {
-            "_id": "fd217yexvgjrn6qg",
-            "name": "Attack",
-            "img": "icons/commodities/stone/boulder-black.webp",
-            "description": "",
-            "tag": "",
-            "activation": {
-              "cost": 1,
-              "type": "special"
-            },
-            "unchainedAction": {
-              "activation": {
-                "cost": 1,
-                "type": "special"
-              }
-            },
-            "duration": {
-              "value": null,
-              "units": ""
-            },
-            "target": {
-              "value": "multiple targets (all targets in a 10-ft. square)"
-            },
-            "range": {
-              "value": null,
-              "units": "melee",
-              "maxIncrements": 1,
-              "minValue": null,
-              "minUnits": ""
-            },
-            "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
-              "per": "",
-              "value": 0,
-              "maxFormula": "",
-              "max": 0
-            },
-            "measureTemplate": {
-              "type": "",
-              "size": "",
-              "overrideColor": false,
-              "customColor": "",
-              "overrideTexture": false,
-              "customTexture": ""
-            },
-            "attackName": "",
-            "actionType": "mwak",
-            "attackBonus": "15",
-            "critConfirmBonus": "",
-            "damage": {
-              "parts": [
-                [
-                  "16d6",
-                  {
-                    "values": [
-                      "bludgeoning"
-                    ],
-                    "custom": ""
-                  }
-                ]
-              ],
-              "critParts": [],
-              "nonCritParts": []
-            },
-            "attackParts": [],
-            "formulaicAttacks": {
-              "count": {
-                "formula": "",
-                "value": null
-              },
-              "bonus": {
-                "formula": ""
-              },
-              "label": ""
-            },
-            "formula": "",
-            "ability": {
-              "attack": "",
-              "damage": "",
-              "damageMult": 1,
-              "critRange": 20,
-              "critMult": 2
-            },
-            "save": {
-              "dc": "0",
-              "type": "",
-              "description": ""
-            },
-            "effectNotes": [],
-            "attackNotes": [],
-            "soundEffect": "",
-            "powerAttack": {
-              "multiplier": "",
-              "damageBonus": 2,
-              "critMultiplier": 1
-            },
-            "naturalAttack": {
-              "secondary": {
-                "attackBonus": "-5",
-                "damageMult": 0.5
-              }
-            },
-            "nonlethal": false,
-            "usesAmmo": false,
-            "spellEffect": "",
-            "spellArea": "",
-            "conditionals": [],
-            "enh": {
-              "value": null
-            }
-          }
-        ],
-        "uses": {
-          "per": "",
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": [],
-          "ammunition": []
-        },
-        "tag": "",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "masterwork": false,
-        "enh": null,
-        "proficient": true,
-        "primaryAttack": true,
-        "held": "normal",
-        "showInQuickbar": true,
-        "broken": false,
-        "ammoType": "",
-        "attackType": "misc",
-        "weaponGroups": {
-          "value": [],
-          "custom": ""
-        },
-        "activation": {
-          "cost": 1,
-          "type": "special"
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": "special"
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": "multiple targets (all targets in a 10-ft. square)"
-        },
-        "range": {
-          "value": null,
-          "units": "melee",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": "mwak",
-        "attackBonus": "15",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [
-            [
-              "16d6",
-              "Bludgeoning"
-            ]
-          ],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": ""
-        },
-        "formula": "",
-        "ability": {
-          "attack": "",
-          "damage": "",
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": "0",
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "nonlethal": false,
-        "conditionals": [],
-        "contextNotes": [],
-        "identifiedName": "Crushing Stone",
-        "size": "med"
       },
-      "sort": 100000,
-      "flags": {},
-      "img": "icons/commodities/stone/boulder-black.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    }
-  ],
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "icons/environment/traps/cage-grey-steel.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "core": {
-      "sheetClass": "PF1.ActorSheetPFNPCLite"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428395396,
+    "modifiedTime": 1665949162237,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

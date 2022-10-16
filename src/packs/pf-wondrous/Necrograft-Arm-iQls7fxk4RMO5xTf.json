@@ -3,7 +3,7 @@
   "name": "Necrograft Arm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An arm of undead flesh allows its host to lift up to 1-1/2 times his maximum load over his head. A humanoid with two necrograft arms can lift up to twice his maximum load over his head. Each necrograft arm also provides its host with a natural slam attack (replacing any natural attacks that limb may have once had) that deals 1d4 points of bludgeoning damage (1d3 for Small creatures) as a secondary attack. If a host attacks with only slam attacks in a round, the slams are instead considered primary attacks. A necrograft arm is clumsy, imposing a cumulative -2 circumstance  penalty on all Craft, Disable Device, and Sleight of Hand checks per limb replaced, as well as on relevant Perform checks (such as for stringed instruments and wind instruments).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead, regenerate, creator must have 8 ranks in Heal</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408464,
+    "modifiedTime": 1665949170683,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Skullcrusher Gauntlets",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These bloodstained gauntlets are made of a combination of blackened steel and polished white stone. They are slightly oversized and somewhat bulky, though still suitable for combat. They function as +1 gauntlets.  Once per day, the wearer can unleash a devastating attack with the gauntlets that can instantly knock a target unconscious. The wearer must announce her intent before making her attack roll, and creatures immune to critical hits can't be affected. To make the attack, the wearer makes a single melee attack at her highest base attack bonus as a full-round action. If the strike hits, the target takes 4d6 points of force damage and must succeed at a DC 15 Fortitude save or fall unconscious until the end of its next turn. Even if the target succeeds at the Fortitude save, it is staggered until the end of its next turn.  When worn by a brawler with the knockout class feature, the DC to resist the brawler's knockout increases by 2.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, deep slumber, stone fistAPG</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407242,
+    "modifiedTime": 1665949169517,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

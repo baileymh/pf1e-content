@@ -3,7 +3,12 @@
   "name": "Flayleaf",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.ILumVZIqulFnPwIx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>GameMastery Guide pg. 237</em></p>\n<p><strong>Type</strong> inhaled or ingested;<strong> Addiction </strong>minor, Fortitude DC 12</p>\n<p><strong>Price 10</strong>&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect </strong>1 hour;<strong> </strong>+2 alchemical bonus on saves against mind-affecting effects, fatigue</p>\n<p><strong>Damage </strong>1 Wis damage</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.ILumVZIqulFnPwIx"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367674,
+    "modifiedTime": 1665949135506,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

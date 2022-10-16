@@ -3,7 +3,7 @@
   "name": "Metalseeker Swarm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>In its inert state, a metalseeker swarm is a heavy, 2-inch-square cube of textured Numerian steel. Once per day on command, the cube disintegrates into a cloud of countless Fine flying constructs that resemble mechanical fireflies. These fireflies cluster and flutter about in a 60-foot-radius spread around the user, homing in on Tiny or larger masses of metal and illuminating them as though the objects emitted candlelight. The fireflies continue to highlight metal objects for 5 minutes before swarming back into cube-form in the user's hand.  Creatures in the area wearing metal armor are illuminated as if by faerie fire. Creatures in the area wielding metal weapons are dazzled as long as they are within range of the mechanical fireflies and continue to wield the weapons.  The mechanical fireflies glow different colors depending on the type of metal they touch, though the item bears no indication of which colors correspond to what metals, so the user must figure out the fireflies' code to glean any useful information from it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect metal (see page 26), faerie fire,  summon swarm</p><h3><b>Source: </b></h3>People Of The River",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405451,
+    "modifiedTime": 1665949167809,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

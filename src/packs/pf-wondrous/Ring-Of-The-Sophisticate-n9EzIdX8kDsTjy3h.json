@@ -3,7 +3,7 @@
   "name": "Ring Of The Sophisticate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Often worn on the little finger, this ring grants its wearer a +4 competence bonus on Sense Motive and Knowledge (local) checks. Also, once per day on command, the wearer can use the ring to cast either locate creature or locate object (the wearer's choice). Furthermore, on command and at will, the wearer can instantly know the direction from herself to the nearest tavern, pub, or similar watering hole as long as that establishment is in a settlement whose population is equivalent to that of a village or greater (GameMastery Guide 203) and that is within 20 miles of the wearer.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, know direction, locate creature, locate object, creator must have at least 4 ranks in both Sense Motive and Knowledge (local)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409104,
+    "modifiedTime": 1665949171261,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

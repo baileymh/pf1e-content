@@ -3,7 +3,7 @@
   "name": "Seed of Life",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_24.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>An empyreal lord can touch a willing creature and imbue it with magical healing power. The target radiates an aura of good as if it were an outsider and gains a +2 insight bonus on all saving throws against negative energy and death effects. As a standard action, the target can release this energy, turning it inward as a <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.spells\" data-id=\"4re1j2w8wkvsvnsi\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">heal</span></a> spell targeting itself or outward as <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.spells\" data-id=\"8y24u1ejlqeoiyqb\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">mass cure serious wounds</span></a>&nbsp;on allies within 30 feet (caster level 15th). If not released, the energy dissipates harmlessly after 24 hours. The empyreal lord can use this ability 5 times per day, but only on other creatures.</p>",
       "chat": "",
@@ -44,6 +44,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 5,
           "maxFormula": "",
@@ -98,6 +103,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -159,7 +165,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
@@ -207,8 +212,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402556,
+    "modifiedTime": 1665949165274,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

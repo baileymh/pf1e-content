@@ -3,7 +3,7 @@
   "name": "Mantle Of The Faithful Vessel",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple robe automatically shifts color and style to match the signature colors, fabrics, and symbols of the wearer's faith (if any) when she dons it.   When the wearer channels energy, any creatures healed by the energy gain the benefits of bless for 1 minute and any creatures harmed by the energy are subjected to bane (Will DC 11 negates) for 1 minute. The wearer adds her mythic tier to the damage dealt or healed when she channels energy.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, bestow curse, bless, channel energy class feature</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407312,
+    "modifiedTime": 1665949169565,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

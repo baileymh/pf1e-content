@@ -3,7 +3,7 @@
   "name": "Mask Of The Cursed Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This mask is decorated with a staring, bloodshot eye. Anyone other than an ally who observes the wearer using a scrying spell or pierces any of his magical disguise (including invisibility and polymorph effects) with a divination spell is blinded for 1d4 minutes (Fortitude DC 16 negates) and the  wearer receives a brief mental glimpse of the perpetrator. This is enough to enable scrying or teleportation to investigate the perpetrator, but the wearer is considered to have no familiarity with the subject. The mask can trigger only once per day, after which it falls dormant until the next midnight.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, blindness/deafness</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407291,
+    "modifiedTime": 1665949169544,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

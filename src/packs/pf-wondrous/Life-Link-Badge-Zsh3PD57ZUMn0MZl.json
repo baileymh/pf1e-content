@@ -3,7 +3,7 @@
   "name": "Life Link Badge",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When this plain leather badge is sewn onto a summoner's armor or clothing, a faded image of his summoner rune appears on its surface. The summoner can add charges to the badge by expending summoner spells slots; the badge gains charges equal to the spell level of the slot expended (maximum 5 charges). Adding charges to the badge is a standard action (regardless of the spell level expended). When the summoner uses his life link ability, instead of sacrificing his own hit points, he may expend charges from the badge to heal the eidolon 1d6 hit points per charge. The summoner does not have to decide how many charges are spent beforehand (he may expend one charge, roll, and decide whether or not to spend more charges for more healing). All charges in the badge are lost when the summoner readies spells after resting.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, rejuvenate eidolon (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407372,
+    "modifiedTime": 1665949169626,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

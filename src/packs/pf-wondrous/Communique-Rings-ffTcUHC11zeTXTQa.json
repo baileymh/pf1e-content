@@ -3,7 +3,7 @@
   "name": "Communique Rings",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Created in pairs, these simple golden rings allow for short-range communication between the wearers. The listed price and cost are for both rings. As long as the wearers are within 1 mile of one another, they can communicate by whispering, causing the other ring to whisper the words to the recipient. Words spoken into or recited by a communique ring can be heard by nearby creatures if the wearer speaks too loudly. A communique ring transmits sound only while worn, and a wearer can remove the ring if she needs to be silent. Only magical silence or distance will block this communication, and wearers can speak through walls and other obstructions normally. The rings pick up only sound directly spoken into them by the wearer with the intent to transmit, not ambient sounds or the voices of other creatures.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, message</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407997,
+    "modifiedTime": 1665949170226,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

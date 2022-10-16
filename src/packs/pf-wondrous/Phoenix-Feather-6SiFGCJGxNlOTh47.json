@@ -3,7 +3,7 @@
   "name": "Phoenix Feather",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This vibrant red feather is surrounded by a faint, soothing golden glow that makes it appear preternaturally shiny and pristine. As an immediate action, the user can activate the phoenix feather to attempt a saving throw against a spell or effect with the death descriptor, even if the spell or effect does not normally allow a saving throw. If the spell or effect normally allows a saving throw for reduced damage or a partial effect, the bearer suffers only the reduced damage or partial effect on a failed saving throw, and completely negates all damage and effects on a successful saving throw. If the spell or effect does not normally allow a saving throw, calculate the DC of the saving throw this item provides as if it did.  Alternatively, when a single attack, spell, or effect deals hit point damage to the user that would reduce her to negative hit points, after the hit point damage is rolled but before it is applied to her, she can activate the phoenix feather as a free action. If she does, she reduces the amount of hit point damage she takes by up to 5d8 + 9 points. (She can never reduce the amount of damage taken to less than 0.) A phoenix feather is usable once,  after which it immediately burns away in a fiery flash before being reduced to ash.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, breath of life, death ward, creator must be good</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404069,
+    "modifiedTime": 1665949166564,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

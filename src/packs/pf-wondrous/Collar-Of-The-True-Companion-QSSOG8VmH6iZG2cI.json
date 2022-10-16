@@ -3,7 +3,7 @@
   "name": "Collar Of The True Companion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Although it appears to be a simple thong of leather, this collar was initially conceived by druids who believed that there were animals who possessed spirits worthy of elevation to true sentience. If worn by a creature of the animal type with an Intelligence less than 3, a collar of the true companion grants a +2 enhancement bonus to Intelligence. This does not give the animal the ability to speak, but it does allow it to understand one spoken language (chosen by the item's creator).   If the collar is worn for at least 1 week by a creature of the animal type, the creature is raised to humanlike sentience, as though by the awaken spell. Once this occurs, the collar loses its magical properties.   If a collar of the true companion is worn for more than 1 week by a creature not of the animal type, the wearer is feebleminded until the collar is removed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, awaken, fox's cunning</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406549,
+    "modifiedTime": 1665949168873,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

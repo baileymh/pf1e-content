@@ -3,7 +3,12 @@
   "name": "Vigilance",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.BVYHOnu5SEzecXJo"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Potions and Poisons pg. 27</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>15 gp;&nbsp;<strong>Weight </strong>0 lbs</p>\n<p><strong>Effect </strong>1d3 hours;<strong> </strong>+10 alchemical bonus on Perception checks</p>\n<p><strong>Effect</strong> 4 hours; user is denied his Dexterity bonus to AC</p>\n<p><strong>Damage </strong>1d4 Con damage</p>\n<p><span id=\"ctl00_MainContent_DataListDrugs_ctl00_LabelName\" style=\"margin-top: 0px;\">Scholars and students are often willing to accept the clumsiness and slow reactions in exchange for the benefits gained in research and study from this bitter white powder.</span></p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.BVYHOnu5SEzecXJo"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365828,
+    "modifiedTime": 1665949133779,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

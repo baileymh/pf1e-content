@@ -3,7 +3,7 @@
   "name": "Breath Weapon",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_14.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>Some creatures can exhale a cloud, cone, or line of magical effects. A breath weapon usually deals damage and is often based on some type of energy. Breath weapons allow a Reflex save for half damage (DC = 10 + 1/2 breathing creature&rsquo;s racial HD + breathing creature&rsquo;s Constitution modifier; the exact DC is given in the creature&rsquo;s descriptive text). A creature is immune to its own breath weapon unless otherwise noted. Some breath weapons allow a Fortitude save or a Will save instead of a Reflex save. Each breath weapon also includes notes on how often it can be used.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: breath weapon (60-ft. cone, 8d6 fire damage, Reflex DC 20 for half, usable every 1d4 rounds)</p>\n<p><em>Location</em>: Special Attacks; if the breath does more than just deal damage, it also appears under Special Abilities with its own entry.</p>\n<p><em>Usage:&nbsp;</em>Replace template size, damage, Reflex DC, and usability.&nbsp;</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -114,6 +119,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -175,7 +181,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -226,8 +231,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402590,
+    "modifiedTime": 1665949165297,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

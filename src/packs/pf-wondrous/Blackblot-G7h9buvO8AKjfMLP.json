@@ -3,7 +3,7 @@
   "name": "Blackblot",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A pitch-black powder made from pulverized marrowstone mixed with the dust of the Negative Energy Plane, blackblot interferes with life energy and mythic abilities. A handful of blackblot can be thrown onto a creature as a splash weapon. Treat this as a ranged touch attack with a range increment of 10 feet. If the target takes a direct hit, it must succeed at a DC 16 Fortitude save or be rendered immune to positive energy, similar to the protection death ward offers against negative energy. Spells and effects that heal or harm based on positive energy, such as cure spells and channeled positive energy, have no effect on the target. This effect lasts for 1 minute. Every creature within 5 feet of the point where the blockblot hits must succeed at a DC 14 Fortitude save or be immune to positive energy for 1 round. A mythic creature that takes a direct hit from a dose of blackblot must attempt an additional DC 16 Will save. If the creature fails, it can't expend mythic power for 1 minute, though mythic abilities that don't require the expenditure of mythic power function normally. The mythic creature can attempt an additional Will save each round; if it's successful, this effect ends. Blackblot is typically stored in small silk packets or hollow bone tubes. The listed price is for 1 dose.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, bestow curse, mythic  severanceMA</p><h3><b>Source: </b></h3>Mythic Origins",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404835,
+    "modifiedTime": 1665949167324,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

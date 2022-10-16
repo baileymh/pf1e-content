@@ -3,7 +3,7 @@
   "name": "Serpentine Choker",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This finely wrought iron slave collar is embedded with flecks of pyrite and resembles a stylized rendering of a snake eating its own tail. To function, it must be placed around the neck of a helpless living creature of up to Large size. A creature that speaks the command word while touching the collar can hold the wearer accountable to a single service or course of action (as if affected by geas/ quest, DC 19) for the next 11 days.  Instead of the penalties associated with that spell, if the wearer deviates from this action or attempts to remove the collar before the service ends-either directly or by encouraging others to-the collar tightens and begins to choke the wearer into submission (as if affected by suffocationAPG). The choking effect ends once the wearer falls unconscious. A serpentine choker can be removed safely if the controlling creature speaks the command word again while touching the collar, or as if it were a cursed item.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, geas/quest, suffocationAPG</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408409,
+    "modifiedTime": 1665949170640,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

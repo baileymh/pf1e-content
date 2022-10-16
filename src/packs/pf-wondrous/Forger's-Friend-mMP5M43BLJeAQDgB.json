@@ -3,7 +3,7 @@
   "name": "Forger's Friend",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This leather satchel contains a forger's kit-quills, ink, parchment, and sealing wax-as well as personal oddments ranging from braids of hair to heirloom brooches. When attempting to create a forgery, the user can place within the forger's friend a personal possession or other item connected to the person whose handwriting the user wants to forge. After 24 hours, any forgery made with paper or parchment also kept within the satchel for that duration is supernaturally convincing beyond the +2 circumstance bonus granted by the forger's kit itself. A creature attempting to detect the forgery takes a penalty on its Linguistics check equal to the penalty a target of a scrying spell would take based on the contents of the forger's friend. The forger's friend can acclimate the forging gear within to only one creature at a time.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, scrying</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409042,
+    "modifiedTime": 1665949171215,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

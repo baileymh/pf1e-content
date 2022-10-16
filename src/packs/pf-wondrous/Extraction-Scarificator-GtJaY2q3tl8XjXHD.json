@@ -3,7 +3,7 @@
   "name": "Extraction Scarificator",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An extraction scarificator is a horrid variant of the more common bloodletting device used by healers and doctors. An extraction scarificator can be used only on a willing or helpless target. When placed against exposed flesh, the extraction scarificator's blades deal 1d4 points of damage plus 1d4 bleed. Once per day, an extraction scarificator can be used to extract and concentrate one of the four bodily humors from its target as well. The humor to be extracted can be adjusted as needed, and must be immediately poured into a potion vial or the extracted humor is lost. Extracting a humor takes a variable number of rounds-as soon as the victim has taken a total of 6 points of damage in all from the bleed effect, the extraction is complete. For 24 hours after extraction, this purified humor has an additional effect, functioning as one of four potions as listed below (all function at caster level 3rd).  Black Bile: potion of lesser restoration  Blood: potion of cure moderate wounds  Phlegm: potion of calm emotions  Yellow Bile: potion of rage<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed, calm emotions, cure moderate wounds, lesser restoration, rage</p><h3><b>Source: </b></h3>AP 61",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405269,
+    "modifiedTime": 1665949167732,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

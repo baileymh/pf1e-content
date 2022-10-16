@@ -3,7 +3,7 @@
   "name": "Blade Of The Rising Sun",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This golden-bladed +1 glorious undead bane katana shines like the first rays of the morning sun. Whenever the wielder of a blade of the rising sun threatens a critical threat (regardless of whether the critical is confirmed or whether the target is subject to critical hits), the target is surrounded by a halo of golden sunlight equivalent to faerie fire until the beginning of the wielder's next turn. Undead surrounded by this glow take 1d6 points of damage at the beginning of their turn.  The wielder of a blade of the rising sun may declare a sacrificial strike (similar to the retributive strike of a staff of power) as a standard action, or as an immediate action before losing consciousness upon gaining the dying or dead condition. A sacrificial strike converts the wielder's body and spirit into raw energy equivalent to a sunburst (DC 22). Allies of the wielder within the sunburst are not harmed, and the wielder may choose to affect all allies within the sunburst as mass cure light wounds or all allies within 10 feet as breath of life. The caster level for the effects of the sacrificial strike is equal to the sword's caster level plus 1/2 the wielder's level (maximum 25th level).  A sacrificial strike destroys the wielder's body (as the spell disintegrate), but she has a 50% chance of being reincarnated (as the reincarnate spell) 24 hours after performing a sacrificial strike in a random safe location within 1 mile. The wielder's gear is left behind unharmed after the sacrificial strike; however, the blade of the rising sun is teleported to a random location at least 100 miles distant.<br><p><b>Base Item:</b> +1 glorious undead bane katana</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/deafness, daylight, flare, miracle, sunburst</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371693,
+    "modifiedTime": 1665949138142,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

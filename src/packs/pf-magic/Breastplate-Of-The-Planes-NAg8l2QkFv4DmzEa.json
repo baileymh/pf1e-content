@@ -3,7 +3,7 @@
   "name": "Breastplate Of The Planes",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sturdy, unadorned breastplate has a +1 enhancement bonus on the Material Plane. On any Elemental Plane, or against attacks made by creatures native to any Elemental Plane, its enhancement bonus increases to +2. On the Astral Plane or the Ethereal Plane, or against attacks made by creatures native to either of those planes, its enhancement bonus increases to +3. On any other plane, or against attacks made by any outsider, its enhancement bonus increases to +4.<br><p><b>Base Item:</b> breastplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, plane shift</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372239,
+    "modifiedTime": 1665949138679,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

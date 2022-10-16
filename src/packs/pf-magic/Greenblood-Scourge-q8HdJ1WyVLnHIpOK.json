@@ -3,7 +3,7 @@
   "name": "Greenblood Scourge",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Originally made from the winding intestines of a scrag, the first version of this +2 corrosiveUE whip was crafted by a blood-bard who fought in Green Blood on a Black Rock. After the blood-bard's stunning victory, these weapons have gained popularity across the Sodden Lands and Shackles. Unless damaged by fire, a greenblood scourge regenerates hit points at a rate of 1 hit point per minute. In performance combat (Pathfinder RPG Ultimate Combat 153), the wielder of a greenblood scourge can spend a victory point as a swift action to give the weapon the corrosive burstUE special ability. Also, the wielder no longer needs to attempt a performance combat check when using the withdraw action during performance combat, as the weapon's blasts of acid prevent the enemy from approaching.<br><p><b>Base Item:</b> +2 corrosive whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, acid arrow, adorationUC</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372994,
+    "modifiedTime": 1665949139379,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

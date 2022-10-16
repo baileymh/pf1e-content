@@ -3,7 +3,7 @@
   "name": "Clawhand Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This shield is made of bone and ivory, but has been imbued with magic to function as a +2 mithral heavy steel shield (though it is not considered to be made of metal). The shield has stylized animal claws encircling its outer rim. If the wearer is grappled, pinned, or swallowed whole, as a standard action he can cause the claws to animate and make a single melee attack dealing 1d8 points of damage + the wielder's Strength modifier (1d6 + his Strength modifier for a Small wielder) without requiring a successful combat maneuver check to do so. This is considered a weapon attack with a one-handed weapon the wielder is proficient with, not a shield bash.  Additionally, the claws can animate to perform the somatic components of a spell as long as the arm holding the shield would be able to provide these components if it weren't carrying a shield. As a result, the shield has no arcane spell failure chance.<br><p><b>Base Item:</b> +2 mithral heavy steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, summon nature's ally I</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372393,
+    "modifiedTime": 1665949138827,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

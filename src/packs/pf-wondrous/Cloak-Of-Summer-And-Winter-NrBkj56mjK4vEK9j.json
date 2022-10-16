@@ -3,7 +3,7 @@
   "name": "Cloak Of Summer And Winter",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This quilted silk cloak is trimmed with thick white feathers. As a move action once per day, the wearer can whirl the cloak about himself to activate a fire shield effect. It activates as a warm shield if the ambient temperature is 65 degrees Fahrenheit or colder, or as a chill shield if the ambient temperature is 66 degrees Fahrenheit or hotter.  If the wearer is a Triaxian, he gains energy resistance for as long as he wears the cloak. If he's summerborn, he gains fire resistance 10. If he's winterborn, he gains cold resistance 10. If he is transitional, he gains resistance 5 to both cold and fire.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fire shield, resist energy, creator must be a Triaxian</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406110,
+    "modifiedTime": 1665949168411,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

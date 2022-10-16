@@ -3,7 +3,7 @@
   "name": "Pickpocket's Bandolier",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carefully embroidered black leather makes up this stylish bandolier, which can hold as many as 12 daggers, vials, or similarly shaped items. The wearer of a pickpocket's bandolier opposes Sleight of Hand checks attempt against her with her own Sleight of Hand checks (instead of Perception). Additionally, as a swift action after succeeding at a Sleight of Hand check, the wearer can stuff stolen goods (of size Tiny or smaller) into one of the slots on the pickpocket's bandolier, making the purloined object appear to be a simple dagger. Only a careful examination of the bandolier reveals the true nature of items concealed in this manner.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shrink item</p><h3><b>Source: </b></h3>Heroes Of The Streets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407257,
+    "modifiedTime": 1665949169524,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

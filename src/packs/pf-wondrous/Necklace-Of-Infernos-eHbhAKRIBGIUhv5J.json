@@ -3,7 +3,7 @@
   "name": "Necklace Of Infernos",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This golden chain is strung with glowing red-golden spheres of various sizes. It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective. It acts as a necklace of fireballs (type I) with a 6d6 sphere instead of the 5d6 sphere. After a bead explodes, a tiny new sphere of the same type that exploded begins to bloom along the chain, growing in size and intensity over the course of 1 week, after which it is ready to detonate again.  12th Level: The necklace acts as a necklace of fireballs (type II) with an additional 4d6 sphere.  14th Level: The necklace acts as a necklace of fireballs (type IV) with a 9d6 sphere instead of the 8d6 sphere.  16th Level: The necklace acts as a necklace of fireballs (type VII) with an additional 5d6 sphere.  18th Level: The spheres grow back in 1 day instead of 1 week.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fireball</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407922,
+    "modifiedTime": 1665949170165,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

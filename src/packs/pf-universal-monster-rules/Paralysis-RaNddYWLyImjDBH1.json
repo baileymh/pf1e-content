@@ -3,7 +3,38 @@
   "name": "Paralysis",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_17.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "bards": {
+        "bardAnim": "a1",
+        "bardSelf": true,
+        "bardTarget": true
+      },
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "spellVar": "a1",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Paralysis renders the victim immobile. <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"8zG4yDD2zGVSAJFH\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">Paralyzed</span></a> creatures cannot move, speak, or take any physical actions. The creature is rooted to the spot, frozen and helpless. Paralysis works on the body, and a character can usually attempt to resist it with a Fortitude saving throw (DC = 10 + 1/2 the paralyzing creature&rsquo;s racial HD + that creature&rsquo;s Constitution modifier; the DC is given in the creature&rsquo;s description). Unlike <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.spells\" data-id=\"78kwl5t99j9e8tzh\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">hold person</span></a> and similar effects, a paralysis effect does not allow a new save each round. A winged creature flying in the air at the time that it is paralyzed cannot flap its wings and falls. A swimmer can&rsquo;t swim and may drown. The duration of the paralysis varies and is included in the creature&rsquo;s description.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: paralysis (1d4 rounds, DC 18)</p>\n<p><em>Location</em>: Special Attacks and individual attacks.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: adjust duration.</p>",
       "chat": "",
@@ -48,6 +79,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -105,6 +141,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -166,7 +203,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -207,38 +243,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "animName": "",
-      "animTint": "#ffffff",
-      "animType": "t1",
-      "auraOpacity": 0.75,
-      "bards": {
-        "bardAnim": "a1",
-        "bardSelf": true,
-        "bardTarget": true
-      },
-      "color": "n1",
-      "ctaOption": false,
-      "dtvar": "dt1",
-      "explodeColor": "",
-      "explodeLoop": "1",
-      "explodeRadius": "0",
-      "explodeVariant": "ev1",
-      "explosion": false,
-      "hmAnim": "a1",
-      "killAnim": false,
-      "override": false,
-      "selfRadius": "5",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "spellVar": "a1",
-      "teleDist": 30,
-      "uaStrikeType": "physical"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402484,
+    "modifiedTime": 1665949165222,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

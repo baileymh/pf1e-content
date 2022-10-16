@@ -3,7 +3,7 @@
   "name": "Field Medic's Breastplate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This battered yet lovingly polished +1 breastplate is marked by three chipped glass circles set over the heart, each of a different color. Three times per day, the wearer may tap a circle to activate it, enveloping her in a shimmering aura that protects her from harm. The wearer gains DR 10/- and is protected if she were under the effects of a globe of invulnerability spell. The effect ends as soon as the wearer makes an offensive action or casts an offensive spell, or after 1 minute. In addition, whenever the wearer casts a cure spell or administers a cure potion while under this effect, she may add one additional die to the total amount of damage healed.<br><p><b>Base Item:</b> +1 breastplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cure light wounds, sanctuary</p><h3><b>Source: </b></h3>Champions Of Purity",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371917,
+    "modifiedTime": 1665949138338,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

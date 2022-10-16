@@ -3,7 +3,7 @@
   "name": "Secure Paypack",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rugged backpack is identical to a handy haversack in most regards, with numerous compartments for storing items. Any effort to identify it with a Spellcraft check result ranging from 24 to 33 by someone unfamiliar with its special properties reveals it to be a handy haversack. A result below 24 does not identify any magic properties, while a result of 34 or higher reveals its additional secret properties. It has two hidden compartments (Perception DC 35), each able to store up to 1 cubic foot of material or 10 pounds in weight. In addition, the entire item is reinforced with thin mithral fibers, giving it a hardness of 15 and 5 hit points. Each compartment has a concealed superior lock (Perception DC 35, Disable Device DC 40) built in to prevent unauthorized access. When a compartment is locked, an item can still be removed from it as a move action by a character who has a key to the lock, like a normal handy haversack. The keys are not magical and can be crafted (Craft DC 25) by a character able to disable the existing locks and who has at least 5 ranks in Craft (locks). Each secure paypack is normally created with two keys.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane lock, knock, secret chest</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408397,
+    "modifiedTime": 1665949170632,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Firework (coughing dragon)",
   "type": "consumable",
   "img": "systems/pf1/icons/spells/explosion-magenta-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Firework (coughing dragon)</h1><b>Source</b> <i>Ships of the Inner Sea pg. 29</i><br/><b>Price</b> 40 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>When lit, this foot-long wooden tube begins to hiss and emit puffs of smoke. One round later it takes flight, moving in a straight line at a speed of 90 feet for 1d6 rounds before exploding in a burst of thick, colorful smoke. Each square the firework passes through during its flight fills with smoke (treat the effect as a fog cloud spell, except a moderate or stronger wind dissipates the smoke in 1 round), as does an area in a 15- foot radius surrounding the point at which the rocket exploded. This smoke stings the eyes and inflames the lungs, and a creature that begins its turn in a square filled with smoke must succeed at a DC 15 Fortitude saving throw or be sickened for 1d4 rounds.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365992,
+    "modifiedTime": 1665949133894,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

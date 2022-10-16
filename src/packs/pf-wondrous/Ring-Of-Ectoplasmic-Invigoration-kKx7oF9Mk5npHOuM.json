@@ -3,7 +3,7 @@
   "name": "Ring Of Ectoplasmic Invigoration",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A summoner wearing a ring of ectoplasmic invigoration can use his maker's call class feature to absorb his eidolon (dismissing it in the process) instead of bringing it to his side. He gains 2 temporary hit points per Hit Die of the eidolon and the benefits of a lesser restoration spell. The eidolon must still be within range of his maker's call ability. Any temporary hit points gained fade after 1 hour or when the eidolon is summoned again. A wearer with the transposition ability can transport himself to the eidolon's square (still absorbing and dismissing it) rather than calling the eidolon to him.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, the creator must be able to summon an eidolon and have the maker's call class feature</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408563,
+    "modifiedTime": 1665949170757,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Shockwave Blunderbuss",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Whenever the wielder fires pellets from this +2 sonic boom (see page 27) blunderbussUE, she attempts a free combat maneuver check to trip each creature struck by the pellets. The wielder uses the shockwave blunderbuss's Combat Maneuver Bonus of +20 for these trip attempts. The wielder doesn't provoke attacks of opportunity for these trip attempts and doesn't risk knocking herself prone.<br><p><b>Base Item:</b> +2 sonic boom blunderbuss</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, reverse gravity, shout</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371843,
+    "modifiedTime": 1665949138282,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

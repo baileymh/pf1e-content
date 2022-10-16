@@ -3,7 +3,7 @@
   "name": "Ghast retch flask",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Ghast retch flask</h1><b>Source</b> <a class=\"external-link\" href=\"http://paizo.com/products/btpy8tmc?Pathfinder-Roleplaying-Game-Ultimate-Equipment\" target=\"_blank\"><i>Ultimate Equipment pg. 107</i></a><br/><b>Price</b> 50 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>Harvested and concentrated from the remains of slain ghasts, this foul-smelling powder is kept in tightly sealed flasks. It is thrown as a splash weapon and the flask breaks on impact, releasing noxious dust. The target is nauseated for 1 round and sickened for 3 rounds after that. A successful DC 12 Fortitude save prevents the nauseated condition, but not the sickened condition. Creatures within 5 feet of where the flask hits are sickened for 1 round. This is a poison effect. Crafting this item is a DC 20 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 20</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367579,
+    "modifiedTime": 1665949135435,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

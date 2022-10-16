@@ -3,7 +3,7 @@
   "name": "Lantern Of Concealment",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black lamp has a wooden frame wrapped with a cover made from white linen, on which are drawn numerous spidery runes and constellations. While lit, a lantern of concealment creates a hide campsite effect in a 20-foot cube centered on the lantern that lasts for 10 hours. This effect moves with the lantern, but only functions while the lantern is stationary. If the lantern is moved while its concealment effect is active, it must take 10 minutes to adjust to its new location before continuing the hide campsite effect. A lantern of concealment can only be used in this way once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hide campsiteAPG</p><h3><b>Source: </b></h3>Dungeoneers Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410478,
+    "modifiedTime": 1665949172483,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

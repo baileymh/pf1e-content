@@ -3,7 +3,7 @@
   "name": "Tamer's Whip",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This leathern lash is dyed with special unguents that give it a disturbing crimson hue. A tamer's whip is a +1 animal-bane whip that deals lethal damage to animals and magical beasts regardless of their natural armor bonus. Cracking a tamer's whip as a move action grants the wielder the following benefits until the end of her turn: a +4 competence bonus on Intimidate checks made against animals and magical beasts, a +4 competence bonus on Handle Animal checks made to push them, and a +2 bonus on any combat maneuvers against animals or magical beasts.<br><p><b>Base Item:</b> +1 animal-bane whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animal trance, snare, summon nature's ally I</p><h3><b>Source: </b></h3>Animal Archive",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372509,
+    "modifiedTime": 1665949138976,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

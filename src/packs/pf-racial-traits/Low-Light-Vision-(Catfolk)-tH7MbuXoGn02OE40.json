@@ -3,7 +3,12 @@
   "name": "Low-Light Vision (Catfolk)",
   "type": "feat",
   "img": "systems/pf1/icons/races/catfolk.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.AcNZkoRxcmlaxsib"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Catfolk&nbsp;</p>\n<hr />\n<p>In dim light, catfolk can see twice as far as humans.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.AcNZkoRxcmlaxsib"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384795,
+    "modifiedTime": 1665949149159,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

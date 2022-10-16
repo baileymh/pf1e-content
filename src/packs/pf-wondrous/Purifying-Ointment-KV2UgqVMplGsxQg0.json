@@ -3,7 +3,7 @@
   "name": "Purifying Ointment",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Usually stored in a jar shaped like a scarab beetle, this unguent is pale green and smells like thistle with a hint of the scent of embalming fluids. A jar contains five applications, each of which can be applied as a full-round action.  When applied to an afflicted area or swallowed, the ointment removes a single curse or restores ability damage caused by an undead's special attack (such as a shadow's touch). This ointment otherwise acts as per lesser restoration or remove curse with a +5 bonus on the check. Unlike normal applications of remove curse, purifying ointment can potentially remove an affliction that is both a curse and disease (such as mummy rot), though that requires two successful caster level checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lesser restoration, remove curse, remove disease</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405586,
+    "modifiedTime": 1665949167899,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

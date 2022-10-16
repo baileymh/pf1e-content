@@ -3,7 +3,7 @@
   "name": "Periapt Of Wound Closure",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone is bright blue and dangles on a silver chain meant to be worn on the neck. The wearer of this periapt automatically becomes stable if his hit points drop below 0 (but not if the damage is enough to kill the wearer). The periapt doubles the wearer's normal rate of healing or allows normal healing of wounds that would not do so normally. Hit point damage caused by bleeding is negated for the wearer of the periapt, but he is still susceptible to damage from bleeding that causes ability damage or drain.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, heal</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404190,
+    "modifiedTime": 1665949166650,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

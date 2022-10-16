@@ -3,7 +3,7 @@
   "name": "Rod Of Dwarven Might",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dwarven version of the more famous rod of lordly might has no spell-like powers; however, when wielded by a dwarf, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a dwarf's racial traits by +1. The rod shares the mundane powers of a rod of lordly might, but its magical weapon forms are tailored to dwarven preferences.  • In its normal form, the rod can be used as a +1 returning light hammer.  • When button 1 is pushed, the rod becomes a +3 dwarven longhammer.  • When button 2 is pushed, the rod becomes a +4 dwarven waraxe.  • When button 3 is pushed, the rod becomes a +2 light crossbow or +2 heavy crossbow.<br><p><b>Base Item:</b> +1 returning light hammer|+3 dwarven longhammer|+4 dwarven waraxe|+2 light crossbow|+2 heavy crossbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Rod, bull's strength</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407847,
+    "modifiedTime": 1665949170099,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

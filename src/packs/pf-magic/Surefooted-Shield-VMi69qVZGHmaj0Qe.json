@@ -3,7 +3,7 @@
   "name": "Surefooted Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The face of this +2 heavy steel shield is lined with sheets of riveted steel to absorb more impact. A surefooted shield grants its wielder a +2 bonus on his CMD versus awesome blow, bull rush, and overrun combat maneuvers and on Reflex saves against trample attacks.  Additionally, up to three times per day, whenever an enemy's melee attack misses the wielder, an enemy fails a combat maneuver against the wielder, or the wielder succeeds at a Reflex save against a trample attack, the wielder can move 5 feet as an immediate action; this movement does not provoke attacks of opportunity and does not count as a 5-foot step.<br><p><b>Base Item:</b> +2 heavy steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, abjuring stepUC</p><h3><b>Source: </b></h3>AP 94",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372376,
+    "modifiedTime": 1665949138804,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

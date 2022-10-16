@@ -3,7 +3,7 @@
   "name": "Diabolus Bell",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black, iron bell is inscribed with diabolical symbols. The spherical clapper is affixed to a chain, resembling a tyrant's ball and chain. Diabolus bells can be dedicated to other powers of Hell, such as archdevils. They act as divine foci for spells granted by associated patrons.  Once per day, when the wielder speaks a command word while ringing the bell (a standard action), lawful neutral or lawful evil creatures within a 20-foot radius that hear the toll and worship Asmodeus can say a prayer to Asmodeus as a move action to be affected as per ward the faithfulAPG. The supplication must be said before the beginning of the wielder's next turn and within 20 feet of the bell.  Chaotic or good creatures within a 20-foot radius that hear the toll must instead succeed at a DC 13 Will save or be affected as per doom. Creatures that are both chaotic and good that fail the Will save take 1d8 points of sonic damage and must succeed at a DC 13 Fortitude save or be stunned for 1 round.  Finally, any living creatures within a 20-foot radius that have -1 or fewer hit points must succeed at a DC 13 Will save or be slain as per death knell. At the beginning of the wielder's next turn, if the bell's death knell effect slew a creature, the wielder can then choose to grant the benefits of death knell to either himself or any one creature within sight that is benefiting from the bell's ward the faithful effect. Even if multiple enemy creatures fail their saving throws versus the death knell effect, only one creature gains the benefits.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, death knell, doom, sound burst, ward the faithfulAPG</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405562,
+    "modifiedTime": 1665949167890,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

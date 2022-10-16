@@ -3,7 +3,7 @@
   "name": "Nightskin",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each of these +2 glamered chain shirts bears a permanent illusion of being a fantastic ebon gown of peerless design or a royal suit of nighted hues. Yet those who see past the illusion find a strange padding within the armor, stitched skins of macabre origins filled with locks of delicate hair, dyed in devil's blood. Those who wear the armor find that they can see in even the most abysmal darkness as per a devil's ability to see in darkness (seeing through even magical darkness as if it were full light). In addition, the wearer finds that he can understand Infernal perfectly, though the armor does not grant the ability to speak it. Nightskin is a fundamentally evil armor and any wearer of good alignment is treated as being sickened for as long as the armor is worn.<br><p><b>Base Item:</b> +2 glamered chain shirt</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, major image, true seeing</p><h3><b>Source: </b></h3>AP 30",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372435,
+    "modifiedTime": 1665949138860,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

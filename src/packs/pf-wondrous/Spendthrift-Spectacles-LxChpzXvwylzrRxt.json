@@ -3,7 +3,7 @@
   "name": "Spendthrift Spectacles",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from brass and polished quartz, these expensive bifocals grant the wearer a +5 bonus on Appraise checks, and on Linguistics or Perception checks to detect a forgery. However, after they have been worn for 1 week, they begin distorting the wearer's perception of value, replacing this bonus with a -10 penalty on the same checks. This penalty persists even when a victim is not wearing the spendthrift spectacles. Whenever the wearer is making a purchase that costs more than 10 gp, he must succeed at a DC 14 Will save or be compelled to make extravagant offers and pay outrageous prices (1d10 x 10% more than the asking price) for the item, paying with coin and valuables if available, or bartering with other equipment if not.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beguiling giftAPG, bestow curse</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406003,
+    "modifiedTime": 1665949168328,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

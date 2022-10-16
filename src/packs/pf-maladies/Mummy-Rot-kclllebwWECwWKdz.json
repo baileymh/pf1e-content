@@ -3,7 +3,12 @@
   "name": "Mummy Rot",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_11.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.oTSQgIz2udX3uCXt"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>PRPG Core Rulebook pg. 557</em></p><p><strong>Type</strong> curse; <strong>Save</strong> Fortitude DC 16</p><p><strong>Onset</strong> 1 minute</p><p><strong>Effect</strong> 1d6 Con damage and 1d6 Cha damage</p><p><strong>Frequency</strong> 1/day</p><p><strong>Cure</strong> mummy rot can only be cured by successfully casting both <em>remove curse</em> and <em>remove disease</em> within 1 minute of each other.</p>",
       "chat": "",
@@ -63,7 +68,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,12 +99,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.oTSQgIz2udX3uCXt"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428376472,
+    "modifiedTime": 1665949141289,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

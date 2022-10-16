@@ -3,7 +3,7 @@
   "name": "Overflowing Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An overflowing rod amplifies and focuses the side effects of a kineticist's burn. While holding the rod, the kineticist counts as 3 levels higher for the purpose of determining the effects of her elemental overflow ability. If used by a character without elemental overflow, the rod grants its wielder the benefit of elemental overflow as a 3rd-level kineticist (which is generally helpful only to low-level kineticists or kineticists with archetypes that replace elemental overflow with another class feature).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, creator must be a 10th-level kineticist</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403497,
+    "modifiedTime": 1665949166002,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

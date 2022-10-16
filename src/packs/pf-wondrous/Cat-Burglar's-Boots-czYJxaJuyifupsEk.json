@@ -3,7 +3,7 @@
   "name": "Cat Burglar's Boots",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These soft-soled boots provide their wearer with a +2 competence bonus on Acrobatics, Climb, and Stealth checks. Once per day as an immediate action, the wearer of cat burglar's boots can reroll any one failed Acrobatics, Climb, or Stealth check, taking the result of that check in place of the first failed check (even if the second result is worse). In addition, a secret pocket in the boots is built to hold a fully functional set of masterwork thieves' tools. A DC 22 Perception check is required to notice this pocket. Any other object in the pocket causes it to bulge and become obvious to even casual observation.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cat's grace</p><h3><b>Source: </b></h3>AP 61",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407848,
+    "modifiedTime": 1665949170100,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

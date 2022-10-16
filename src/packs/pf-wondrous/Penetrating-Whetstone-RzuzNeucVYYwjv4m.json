@@ -3,7 +3,7 @@
   "name": "Penetrating Whetstone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This whetstone is made from finely worked obsidian. Sharpening a blade with this whetstone requires 15 minutes of work and grants the weapon the ability to ignore up to 3 points of natural armor for its next five attacks. If the target of the weapon's attack has a natural armor bonus of less than +3, the weapon deals 1 additional point of damage for each point of natural armor below 3 the target has. The process of honing the blade shatters a portion of the whetstone's enchanted obsidian, dispelling its magic and turning it into a mundane whetstone afterward.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, keen edge</p><h3><b>Source: </b></h3>Monster Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406674,
+    "modifiedTime": 1665949168936,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

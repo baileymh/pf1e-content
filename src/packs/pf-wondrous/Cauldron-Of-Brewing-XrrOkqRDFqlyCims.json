@@ -3,7 +3,7 @@
   "name": "Cauldron Of Brewing",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A cauldron of brewing looks like a fine cooking pot with four stout legs. The cauldron is capable of heating any liquid placed in it to a precise temperature (anywhere from just above room temperature to hot enough to boil salt water) and maintaining it indefinitely while still remaining only slightly warm to the touch on the outside. A cauldron of brewing provides a +5 competence bonus on Craft (alchemy) skill checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be trained in Craft (Alchemy)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407273,
+    "modifiedTime": 1665949169532,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

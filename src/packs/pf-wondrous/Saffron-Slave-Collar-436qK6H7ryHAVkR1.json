@@ -3,7 +3,7 @@
   "name": "Saffron Slave Collar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical slave collar (which uses the same statistics as masterwork manacles) is reserved for particularly strong-willed slaves. When shackled around a creature's neck, the   collar targets the wearer with a calm emotions effect (Will DC 13 negates). The wearer must attempt an additional save each minute it wears the collar until it fails a save or removes the collar. Once active, the calming effect of the collar remains until the collar is removed or the wearer takes a number of points of damage equal to or greater than its Hit Dice. Once per day, the wielder of the key to the Saffron slave collar's lock (a superior lock) can cast suggestion on the wearer. A successful DC 14 Will saving throw negates this effect, unless the target is subject to the calm emotions effect of the collar, in which case it receives no saving throw.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calm emotions, suggestion</p><h3><b>Source: </b></h3>Ships Of The Inner Sea",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403631,
+    "modifiedTime": 1665949166109,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

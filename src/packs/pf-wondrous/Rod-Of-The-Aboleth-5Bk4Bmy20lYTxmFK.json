@@ -3,7 +3,7 @@
   "name": "Rod Of The Aboleth",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The rod of the aboleth acts as a +1 corrosive light mace. One end of the rod has three eye-shaped rubies imbedded in it, while the other end comes to a sharp point. When exposed to moisture, the surface of the rod takes on a slimy sheen that doesn't affect the wielder's grip. This rod has the following powers.  • Once per day as a free action, when the rod hits a living creature, the target must succeed at a DC 18 Fortitude saving throw or take 1d4 points of Constitution damage.  • Once per day as a free action, when the rod hits a living creature, the creature must succeed at a DC 13 Will saving throw or be affected as though targeted with a aboleth's lung spell (Advanced Race Guide).  • On command for 1 minute per day, the wielder may gain a swim speed of 60 feet for 1 minute. This time need not be continuous, and can be spent in 1-round increments.<br><p><b>Base Item:</b> +1 corrosive light mace</p><h3><b>Requirements</b></h3><p>Craft Rod, aboleth's lung, acid arrow, touch of the sea (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403689,
+    "modifiedTime": 1665949166150,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

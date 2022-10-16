@@ -3,7 +3,7 @@
   "name": "Merciful Baldric",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sash of white silk embroidered with golden suns never tears, fades, or soils. Once per day, a paladin wearing this baldric can select three extra mercies of her level or lower she does not already know and add them to the list of mercies she can use for the day. She has access to these mercies for 24 hours. When the wearer uses a mercy to remove a condition caused by a curse, disease, or poison, the mercy actually cures the source curse, disease, or poison rather than merely suppressing it for 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Extra Mercy, remove disease, remove curse, creator must be lawful good</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404775,
+    "modifiedTime": 1665949167266,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

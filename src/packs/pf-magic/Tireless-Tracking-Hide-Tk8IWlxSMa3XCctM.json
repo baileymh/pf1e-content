@@ -3,7 +3,7 @@
   "name": "Tireless Tracking Hide",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 hide armor is always made from the pelt of a migratory herd animal. Anyone wearing this armor can maintain a hustle for a full 8 hours without growing fatigued, doubling her normal daily overland movement rate. After that, the wearer begins to take nonlethal damage each hour, per the hustle rules (Core Rulebook 171). This armor does not increase tactical movement during combat. The benefits of this armor aren't replenished until the character has had a full night's rest.<br><p><b>Base Item:</b> +1 hide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bear's endurance</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372347,
+    "modifiedTime": 1665949138785,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

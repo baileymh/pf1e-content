@@ -3,7 +3,7 @@
   "name": "Cloak Of Woodland Creatures",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This forest-green wool cloak is thick and warm. Its hem and the edge of its hood are embroidered with small figures of forest creatures (rabbits, squirrels, and the like) in white thread.  When worn, this cloak bestows a +1 resistance bonus on all saving throws. The wearer can remove the cloak at any time and lay it on the ground outdoors. This ends the resistance bonus but summons a number of animals from the cloak. The animals serve the character who summoned them for 10 minutes (or until slain or returned to the cloak's folds). A summoned creature can follow any of the commands described in the Handle Animal skill. Use the following tables to determine what animals can be called forth.  The cloak summons creatures only when laid down outdoors on naturally occurring ground (not, for example, on a wooden deck or stone pathway). The cloak can be used to summon animals up to three times per day.  d% Animal  01-30 1 owl  31-60 1d3 rats  61-75 1 weasel  76-90 1d6 squirrels  91-100 1d4 rabbits<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, resistance, summon nature's ally I</p><h3><b>Source: </b></h3>AP 115",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404818,
+    "modifiedTime": 1665949167302,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

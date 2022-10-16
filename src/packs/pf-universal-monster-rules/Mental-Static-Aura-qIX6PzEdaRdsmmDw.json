@@ -3,7 +3,7 @@
   "name": "Mental Static Aura",
   "type": "feat",
   "img": "icons/commodities/biological/organ-brain-pink.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with this ability creates a field around itself that makes concentrating difficult for those without this ability. Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with the mental static aura + that creature&rsquo;s Charisma modifier) to cast a spell with a <a href=\"https://www.aonprd.com/Rules.aspx?Name=Components&amp;Category=Psychic%20Magic\">thought component</a>. Failing this check causes the spell to be lost with no effect. In addition, all spellcasters must attempt this check at the start of their turns if they are concentrating on an active spell or effect. Failing it means that they cease concentrating on the spell or effect. Creatures with this ability are immune to its effects and can cast spells normally.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: mental static (DC 18)</p>\n<p><em>Location</em>: Aura.</p>\n<p><em>Usage:&nbsp;</em>Replace DC</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +108,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -202,8 +207,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402563,
+    "modifiedTime": 1665949165279,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

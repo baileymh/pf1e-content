@@ -3,7 +3,7 @@
   "name": "Mundanity Grease",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This slippery, jet-black goo has a consistency comparable to warm lard. A bottle of mundanity grease can be thrown as a splash weapon with a range increment of 10 feet.  When an animal companion, a familiar, or another bonded creature is struck by mundanity grease, the bond to its master is temporarily suspended. The creature and its master lose any of the following abilities they have from the companion or familiar bond: deliver touch spells, devotion, empathic link, evasion, improved evasion, link, scry on familiar, share spells, speak with animals of its kind, spell resistance, and speak with master. For the duration of the effect, a familiar originally of the animal type is treated as an animal (rather than a magical beast) for the purposes of determining which spells affect it. This effect lasts for 1d4 minutes or until the grease is washed off the affected creature by magical means.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, greater dispel magic</p><h3><b>Source: </b></h3>Familiar Folio",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407944,
+    "modifiedTime": 1665949170184,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

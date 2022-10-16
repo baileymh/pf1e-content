@@ -3,7 +3,7 @@
   "name": "Snowfall Orb",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>On the borderlands between the Plane of Air and the Plane of Water, vast sheets of glacial ice tip from one realm to the other, storms of boulder-sized hail pulverize extant structures, and entire nations of snow swirl amid the dense interplanar vapors. The snowfall orb is a relic of this harsh realm and is capable of channeling its awesome elemental power in a variety of ways.  First, anytime the owner's equipment is targeted by heat metal, the effect is automatically countered as if the snowfall orb had cast chill metal.  Second, once per day, the owner can concentrate on the orb for 10 minutes to alter the weather in a 1-mile radius.  Doing so causes snow, heavy snow, sleet, or hail (user's choice) to fall within that radius for 1d4 hours, regardless of the environment's predominant climate or season. This ability otherwise functions as control weather.  Finally, the user can throw a snowfall orb at an opponent as a ranged touch attack with a range increment of 20 feet. On a hit, the orb is destroyed and the target immediately takes 5d6 points of cold damage. At the beginning of each round thereafter for 4 rounds, the target takes an additional 1d6 points of cold damage and must succeed at a DC 15 Fortitude save or take 1d2 points of Dexterity damage and become staggered for 1 round. If the target takes 3 or more points of Dexterity damage in this way, the creature becomes fatigued; if the target takes 5 or more points of Dexterity damage, it becomes exhausted instead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chill metal, control weather, snowball  (Pathfinder Player Companion: People of the North 26)</p><h3><b>Source: </b></h3>Blood Of The Elements",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410413,
+    "modifiedTime": 1665949172433,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

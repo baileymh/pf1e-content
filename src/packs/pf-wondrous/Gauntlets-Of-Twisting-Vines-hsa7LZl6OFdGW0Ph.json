@@ -3,7 +3,7 @@
   "name": "Gauntlets Of Twisting Vines",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These wrist wraps are actually dark, thorny vines that constantly move and twist around the wearer's hands of their own accord. The wearer gains a +2 circumstance bonus on combat maneuver checks to disarm, grapple, and stealAPG. Once per day when the wearer successfully pins a foe with a grapple check, the vines can move off the wearer (ending the circumstance bonus on combat maneuver checks), envelop the target, and tie it up. A tied-up victim can escape the vines by succeeding at a combat maneuver or Escape Artist check with a DC equal to the result of the combat maneuver check that pinned the victim. The character who was wearing the gauntlets when they were used to envelop a target can remove them from the target as a move action. Any other creature must succeed at a combat maneuver or Strength check at the same DC to pry the gauntlets loose of an enveloped target.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Improved Grapple, entangle</p><h3><b>Source: </b></h3>Heroes Of The Wild",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408438,
+    "modifiedTime": 1665949170663,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

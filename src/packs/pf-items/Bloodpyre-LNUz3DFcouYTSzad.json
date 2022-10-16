@@ -3,7 +3,7 @@
   "name": "Bloodpyre",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Bloodpyre</h3><p><strong>Source</strong> <em>Agents of Evil pg. 22</em></p><p><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 14</p><p><strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1 Cha, Int, and Wis, 2d6 fire, see text</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This orange liquid burns regardless of temperature, which its drow creators claim is a side-effect of its Abyssal inspiration. The staggering pain inflicted by bloodpyre’s slow burn inhibits victims’ mental faculties but provides fiendish strength, so some drow houses enhance their warriors with bloodpyre despite the pain and damage it causes. Each round a victim fails her saving throw against bloodpyre’s effects, she gains a cumulative +1 alchemical bonus to her Strength, to a maximum of +6 after six failed saves. In addition to ability score damage, the victim also takes 2d6 points of fire damage each time she fails the saving throw against the poison.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -137,6 +142,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -216,8 +222,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366668,
+    "modifiedTime": 1665949134632,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

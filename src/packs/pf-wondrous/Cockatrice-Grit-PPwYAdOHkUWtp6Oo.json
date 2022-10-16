@@ -3,7 +3,7 @@
   "name": "Cockatrice Grit",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical grit is used by flinging a dose at a creature within 15 feet by as a ranged touch attack. If the grit hits, the target takes 1d4 points of Dexterity damage and is slowed (as the spell) for 1 round as its body starts slowly turning to stone. Each round that follows, the victim can attempt a DC 17 Fortitude save at the start of its turn as a free action to end the effect; otherwise, it takes an additional 1d4 points of Dexterity damage and is slowed for 1 more round. This effect can last for a maximum of 11 rounds. If this Dexterity damage ever meets or exceeds the victim's actual Dexterity score, the creature becomes petrified permanently, as if by flesh to stone. A dose of cockatrice grit is consumed when it is used, and doesn't activate until it has been thrown-the grit can be handled safely.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calcific touch or flesh to stone</p><h3><b>Source: </b></h3>Rival Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406193,
+    "modifiedTime": 1665949168468,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rod Of Interminable Hexes",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex), she can use this rod's power to double the duration of the hex, so long as the hex's normal duration is longer than 1 round. When augmented with this rod, a hex that might have a longer duration if a target fails its save but only a 1-round duration if the target succeeds at its save (such as evil eye) still has only a 1-round duration against a target that succeeds at its save.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, Extend Spell, creator must possess the hex class feature</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408594,
+    "modifiedTime": 1665949170775,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

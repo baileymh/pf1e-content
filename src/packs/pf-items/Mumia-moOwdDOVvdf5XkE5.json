@@ -3,7 +3,12 @@
   "name": "Mumia",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.lJGygJtdS8Cebohd"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Lost Kingdoms pg. 22</em></p>\n<p><strong>Type</strong> inhaled, ingested, or injury; <strong>Addiction</strong> major, Fortitude DC 18</p>\n<p><strong>Price</strong> 500 gp;&nbsp;<strong>Weight</strong> 0 lbs</p>\n<p><strong>Effect</strong> 1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, fatigue. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a ghoul every week she remains addicted.</p>\n<p><strong>Damage</strong> 1d2 Wis damage</p>\n<p>Perhaps the strangest of the valuables removed from the dusty tombs of Osirion is the flesh of the dead itself. During the years of satrapy-dominated Osirion and later under the rule of Keleshite sultans, a highly prized royal physician of Osirian descent by the name of Merenfren used a previously unknown black, tarlike substance as an ingredient in numerous salves, potions, and pills she concocted to treat ailments and revitalize her wealthy clientele.</p>\n<p>Calling the drug mumia, Merenfren managed to keep the key ingredient of her potent cure-all hidden from her patients until 2271 AR, when a rival scholar finally discovered her sinister secret: Mumia was nothing more than the f lesh of carefully preserved corpses excavated from Osirian tombs. Even the sweet elixir that she sold as the &ldquo;water of life&rdquo; was merely a diluted substance derived from the body of a young child preserved in a jar of honey. Merenfren was quickly tried and executed for her crimes, including the desecration of the dead as well as tricking her noble patients into consuming the vile substance. However, it was too late to undo the chemist's discoveries&mdash;she had already left her mark on Osirian society by inspiring an entire subculture based on the trade and consumption of mumia. An extensive black market took hold in Osirion's grisly underworld, and even the Keleshite masters of Osirion continued to partake of the foul drug made from the dead. The mysterious disappearances of mumia addicts were often attributed to their contact with the Osirian criminal element rather than any of the drug's long-lasting side effects, but mumia sellers knew better and took care to not get hooked to the drug themselves.</p>\n<p>Even today, mumia made from the bodies of properly prepared and aged corpses&mdash;as well as cheap, knock-off mumia made from the embalmed bodies of animals or the recently dead&mdash;fetches a fine price in the back alleysof Sothis and other major cities in northern Garund. An unscrupulous graverobber need not hawk only fineries and art anymore, but can profit immensely from the act of plundering mummified bodies as well if she knows where to pawn them.</p>\n<p>Cheap, imitation mumia made from the recently deceased or improperly treated bodies has the same stats as mumia, but the benefits are rendered at 50% their normal potency and for half the duration.</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.lJGygJtdS8Cebohd"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367753,
+    "modifiedTime": 1665949135568,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

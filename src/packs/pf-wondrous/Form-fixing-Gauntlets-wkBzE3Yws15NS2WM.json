@@ -3,7 +3,7 @@
   "name": "Form-fixing Gauntlets",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These leather gauntlets grant the wearer a +2 morale bonus on unarmed strikes, natural attacks, and combat maneuver checks versus creatures with the change shape special ability or similar abilities that allow it to change shape at will. While the wearer has such a creature grappled or pinned, it cannot use any shape-changing spells or abilities unless it succeeds at a concentration check; the DC of this check is 4 + the DC of casting the spell while grappled. If the wearer has such a creature pinned, a successful grapple check allows him to force the target into a specific shape it can take naturally (without the use of a spell). this involuntary transformation only forces the creature into a shape it is normally capable of and does not cost the creature an action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, polymorph any object</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410347,
+    "modifiedTime": 1665949172387,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

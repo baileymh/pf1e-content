@@ -3,7 +3,7 @@
   "name": "Muzzle Of Suppression",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A muzzle of suppression hardly resembles the long-snouted devices often equipped to dogs or other dangerous creatures. More mask than anything, this leather garment sports an orange metallic ball that's inserted in the creature's mouth, after which the mask's straps and chains are secured around the back of the creature's head and neck. The muzzle can be strapped around a humanoid-shaped head (such as that of a capramace) to negate the creature's ability to speak, mumble, or make any noise at all, identical to the effect of a silence spell. Not even muffled cries for help can pierce the barrier created by a muzzle of suppression. The garment's keystone strap can only be opened by the creature that placed the muzzle on its subject; other creatures attempting to disassemble the strap must succeed at a DC 30 Disable Device check to do so. A dispel magic or knock spell can also unlock a muzzle of suppression.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane lock, silence</p><h3><b>Source: </b></h3>Wardens Of The Reborn Forge",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409803,
+    "modifiedTime": 1665949171898,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

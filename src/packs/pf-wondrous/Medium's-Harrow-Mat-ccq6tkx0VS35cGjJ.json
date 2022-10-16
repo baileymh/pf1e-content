@@ -3,7 +3,7 @@
   "name": "Medium's Harrow Mat",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This harrow mat allows a harrower to tap into the ancestral knowledge of nearby spirits. If a harrower uses this mat as an additional focus component while casting harrowing or greater harrowing, she treats her caster level as 1 higher. When this mat is used to perform a harrowing (magical or not) over a grave or other burial site, the spirit of the interned body influences the harrowing; for each card drawn related to the past, the harrower can draw from the deck twice and choose which card to place.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, speak with dead</p><h3><b>Source: </b></h3>The Harrow Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407833,
+    "modifiedTime": 1665949170085,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

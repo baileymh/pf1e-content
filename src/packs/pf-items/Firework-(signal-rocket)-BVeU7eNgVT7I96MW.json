@@ -3,7 +3,7 @@
   "name": "Firework (signal rocket)",
   "type": "consumable",
   "img": "systems/pf1/icons/spells/explosion-orange-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Firework (signal rocket)</h1><b>Source</b> <i>Monster Codex pg. 117</i><br/><b>Price</b> 100 gp; <b>Weight</b> 3 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>You can use this rocket can deliver simple auditory and visual signals to an army from a distance. When used during mass combat, a signal rocket allows a commander to change strategy track (<i>Pathfinder RPG Ultimate Campaign</i> 239) with a higher degree of success than normal. A commander can launch a signal rocket while changing a strategy track by more than 1 step to grant his army a +5 circumstance bonus on its Morale check to implement his orders. Crafting this item requires a successful DC 15 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 15</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366224,
+    "modifiedTime": 1665949134172,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

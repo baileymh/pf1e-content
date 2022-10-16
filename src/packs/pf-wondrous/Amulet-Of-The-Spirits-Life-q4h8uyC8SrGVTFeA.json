@@ -3,7 +3,7 @@
   "name": "Amulet Of The Spirits, Life",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each different type of amulet of the spirit grants its wearer powers from one type of shaman spirit bond, but makes her vulnerable to attacks and effects that target creatures with that spirit bond (such as a spirit-hunting weapon). If a creature that already has the associated mystery or spirit wears the amulet, that wearer does not gain the abilities listed below; instead, the effective level of her mystery or spirit powers increases by 2. This effect does not stack with other abilities that increase the effective level of mystery or spirit powers.     Life: This amulet is formed from a petrified robin's egg strung on a simple thong of woven hair. The wearer becomes more receptive to healing magic, regaining an additional 1d6 hit points from any cure spell cast upon her. In addition, once per day as a standard action, the wearer can cut off any single creature within 30 feet from all forms of magical healing and effects that remove conditions. A DC 13 Will saving throw negates this effect, which otherwise lasts for 1 minute. Moderate conjuration and necromancy; CL 10th; Craft Wondrous Item, cure light wounds, inflict moderate wounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, inflict moderate wounds, creator must be a shaman with the appropriate spirit</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409593,
+    "modifiedTime": 1665949171756,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

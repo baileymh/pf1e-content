@@ -3,7 +3,7 @@
   "name": "Senate Aide Badge",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brooch features the heraldry of a Taldan noble family, marking the wearer as an aide to the associated senator. All senate aide badges are part of a set, attuned to a single master senator badge during their creation. A creature wearing the pinned brooch can receive telepathic communications sent from the wearer of the master senator badge. Once the wearer of the senate aide badge receives a message, she has 1 minute to send a telepathic reply of up to 25 words. Sending a reply requires a full-round action of concentration. The wearer of the master senator badge can send up to 10 telepathic messages per day, targeting either a specific badge or broadcasting to all badge wearers, and knows the approximate direction and distance to all wearers of senate aid badges attuned to the master badge.  Senate aide badges are often further enchanted with emergency effects that mimic the contingency spell, whisking endangered staff to safety or casting protective magic. The exact conditions and effects vary, and their cost is added the badge's construction cost.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sending, status</p><h3><b>Source: </b></h3>AP 127",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406835,
+    "modifiedTime": 1665949169076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

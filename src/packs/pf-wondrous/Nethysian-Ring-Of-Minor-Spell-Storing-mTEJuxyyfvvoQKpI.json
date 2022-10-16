@@ -3,7 +3,7 @@
   "name": "Nethysian Ring Of Minor Spell Storing",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring is made of several metals hammered together into a mottled pattern, with Nethys's holy symbol stamped on one end. It functions as a ring of minor spell storing, except domain spells from Nethys's domains (see page 100) count as 1 spell level lower (minimum 1st level) for the purpose of storing them in the ring.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, imbue with spell ability</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409049,
+    "modifiedTime": 1665949171223,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rockfall Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A rockfall cloak is fashioned from rigid fabric with a stony texture, and it grants a +2 circumstance bonus on Stealth checks in underground terrain. The wearer can command the cloak to encapsulate her as a free action. The cloak then hardens into a spherical stone shell resembling a smooth boulder that occupies an entire 5-foot square and weighs 200 pounds. The shell has a hardness of 10 and 25 hit points. Any damage from falling or from falling rocks is dealt to the stone shell. If it is destroyed, any remaining damage is transferred to its wearer. A rockfall cloak remains in this stone shell form for 1 hour (or earlier, if the wearer chooses) before crumbling to dust. Once it's used in its stone shell form, a rockfall cloak is destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, stone shieldARG</p><h3><b>Source: </b></h3>Heroes Of The Darklands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405504,
+    "modifiedTime": 1665949167855,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

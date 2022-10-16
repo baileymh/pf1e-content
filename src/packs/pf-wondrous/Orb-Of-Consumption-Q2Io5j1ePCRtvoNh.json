@@ -3,7 +3,7 @@
   "name": "Orb Of Consumption",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cruel Thassilonian device could not seem less intimidating-it appears as nothing more frightening than a hollow sphere of pink glass the size of a halfling's head. When it is held in both hands and its command word is spoken, a pulsing light throbs at the core of the sphere and the sound of an ongoing exhalation of breath emanates from the orb.  This effect lasts for as long as the user concentrates, up to a maximum of 6 rounds per day. All creatures within 10 feet of the orb that possess an Intelligence of 3 or higher (save the orb's user, who is immune to its effects as long as it is held) must succeed at a DC 15 Will save or be compelled to approach the sphere and touch it-this save is required every round the creature remains within 10 feet of the user and the orb. This is a mind-affecting sonic effect. The first applicable creature to touch an active orb of consumption takes 1d2 points of Constitution damage and 1d2 points of Wisdom damage (a successful DC 15 Will save negates this damage). The life energy and sanity consumed by the orb grant the user a +4 enhancement bonus to Charisma for 1 hour per point of Constitution or Wisdom damage dealt. Additional uses do not increase the bonus to Charisma but do increase the duration of the effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, eagle's splendor</p><h3><b>Source: </b></h3>AP 62",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406217,
+    "modifiedTime": 1665949168488,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

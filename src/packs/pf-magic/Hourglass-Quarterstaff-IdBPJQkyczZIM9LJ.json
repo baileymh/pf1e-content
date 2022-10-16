@@ -3,7 +3,7 @@
   "name": "Hourglass Quarterstaff",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 disruption/+1 invigoratingUE quarterstaff is a sturdy shaft of yew with heavy metal rings at each end. The quarterstaff is thinner in the center than at the ends, giving it the appearance of a very elongated hourglass. The wielder of the hourglass quarterstaff can use threefold aspectAPG once each day, but this spell expires if the hourglass quarterstaff leaves the wielder's hand for more than 1 minute. The wielder instantly knows the age step of any humanoid creature she views; for most creatures, this is young, adult, middle age, old, or venerable. This ability penetrates mundane disguises but not illusions or magical disguises. For example, the wielder would identify a middle-aged halfling masquerading as a human child as middle-aged, but would identify a doppelganger in the form of an old woman as old.<br><p><b>Base Item:</b> +1 disruption/+1 invigorating quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, deathwatch, good hope, heal, threefold aspectAPG</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371956,
+    "modifiedTime": 1665949138364,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

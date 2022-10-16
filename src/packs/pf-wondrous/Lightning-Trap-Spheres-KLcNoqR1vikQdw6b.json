@@ -3,7 +3,7 @@
   "name": "Lightning Trap Spheres",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These tiny spheres, crafted from a dull gray material and studded with tiny copper protuberances, come in sets of  four. As a standard action, a user can throw four or more spheres at a single target as a ranged touch attack with a 30-foot range increment. On a hit, the spheres explode outward, forming an immobile cage of semisolid lightning around the target. Any creature attempting to pass through the cage wall automatically takes 10d6 points of electricity damage. Four lightning trap spheres thrown simultaneously can capture a Medium target, eight spheres can capture a Large target, 12 spheres can capture a Huge target, and 16 spheres can capture a Gargantuan target. The trap persists for 1 minute for each set of spheres used, then dissipates, consuming the spheres in the process. The price above is for a set of four lightning trap spheres.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, forcecage, lightning bolt</p><h3><b>Source: </b></h3>AP 112",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405565,
+    "modifiedTime": 1665949167892,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

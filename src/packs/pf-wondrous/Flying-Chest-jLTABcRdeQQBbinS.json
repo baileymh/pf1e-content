@@ -3,7 +3,7 @@
   "name": "Flying Chest",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These chests most often appear as hinged, reinforced wooden barrels with saddles. Upon close inspection, a keyhole is visible on the side of the barrel, where a good lock is inset. The chest's interior can hold up to 6 cubic feet of material. The chest can be ridden by a single Medium creature or two Small creatures, and is able to fly through the air as if affected by an overland flight spell (with a +5 bonus on Fly checks) for up to 10 hours per day, split up as its owner desires. The chest can carry up to 300 pounds at a speed of 40 feet, or up to 600 pounds at a speed of 30 feet. Only the weight of riders and materials strapped to the chest's exterior counts for this limitation, not the weight of material stored within.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate object, overland flight, permanency</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408514,
+    "modifiedTime": 1665949170725,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

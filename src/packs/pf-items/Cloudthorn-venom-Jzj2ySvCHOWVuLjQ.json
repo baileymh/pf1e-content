@@ -3,7 +3,7 @@
   "name": "Cloudthorn venom",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Cloudthorn venom</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 144</em></p><p><strong>Price</strong> 400 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> injury; <strong>Save</strong> Fortitude DC 14</p><p><strong>Onset</strong> 1d4 rounds; <strong>Frequency</strong> 1/hour for 3 hours</p><p><strong>Effect</strong> 1d3 Str and Dex damage. In addition, the creature is unable to feel pain for 1 hour, rendering it immune to pain effects. A creature attacking the poisoned creature can attempt a Sleight of Hand check opposed by the poisoned creature’s Perception check in order to attempt to deliver the attack without the target being aware of it, as the creature feels no pain from the attack. If a PC is rendered numb in this way, the GM should secretly track all damage dealt to the character until the numbing effect ends.</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This potent neurotoxin is created by the cloudthorn plant, a wild bramble whose thorns deliver a poison that numbs its victims to pain, allowing the plant to feast on the blood that flows from the wounds to the ground below. The plant’s name comes from the weightless, airy feeling that victims of the poison experience, which some liken to the notion of walking on clouds.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366460,
+    "modifiedTime": 1665949134362,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

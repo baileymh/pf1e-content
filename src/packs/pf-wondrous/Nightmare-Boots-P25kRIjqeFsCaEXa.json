@@ -3,7 +3,7 @@
   "name": "Nightmare Boots",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Prized by evil warriors, these boots are made of inky black leather trimmed with a crimson mane of fiendish horsehair. Some bear the hair of actual nightmares along their rims, causing them to occasionally flare and crackle with flames reminiscent of the foul equines. When the wearer runs or charges, smoke issues up from the boots, acting as concealment (20% miss chance) when the wearer provokes attacks of opportunity while making those actions. Secondly, three times per day, as a swift action, the wearer can make the boots smoke, which grants her concealment until the end of her turn. Lastly, once per day, when the wearer hits a creature with a melee attack, she can command the boots to ignite. When the boots ignite, all creatures within a 5-foot radius take 2d6 points of fire damage. A DC 13 Reflex saving throw halves the damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, burning hands, pyrotechnics</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406177,
+    "modifiedTime": 1665949168455,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

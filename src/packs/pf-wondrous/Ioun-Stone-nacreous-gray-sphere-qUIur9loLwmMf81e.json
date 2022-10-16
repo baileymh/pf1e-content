@@ -3,7 +3,7 @@
   "name": "Ioun Stone nacreous gray sphere",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone protects you from ability score penalties from aging and you cannot be magically aged. Any penalties you have already incurred remain in place. Bonuses still accrue, and you still die of old age when your time is up. If you lose the stone or its abilities are negated in some way, all age and penalties apply immediately.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bear's endurance, creator must be 12th level</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409623,
+    "modifiedTime": 1665949171776,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

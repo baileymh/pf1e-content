@@ -3,7 +3,7 @@
   "name": "Seamless Skin",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This skin has been removed from a specific humanoid creature and magically preserved. Any creature no more than one size category different from the skinned creature  can don the skin with 1 minute of effort, whereupon the wearer gains the physical appearance and size the skinned creature had while alive, and its abilities as defined in the spell alter self, but not its immunities, weapon proficiencies, weaknesses, or spell resistance. Otherwise, this effect functions like recorporeal incarnation.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, recorporeal incarnation (see page 61)</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409028,
+    "modifiedTime": 1665949171202,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

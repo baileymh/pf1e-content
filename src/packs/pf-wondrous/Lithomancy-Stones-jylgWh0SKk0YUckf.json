@@ -3,7 +3,7 @@
   "name": "Lithomancy Stones",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A set of lithomancy stones contains 15 semi-precious stones of varying shape and color, representing a mixture of elements, emotions, and various spiritual presences from the outer planes. Once per day, the possessor of a set of lithomancy stones can frame a question in her mind, cast the stones upon the ground, and attempt a reading with a Knowledge (planes) check to find the answer to her question. The check takes 1 minute, and the DC depends on the time frame of the question. The DC for a question regarding the next 30 minutes is 20. A question regarding the next day has a DC of 30, and a question about the next week has a DC of 40. The GM rolls the check in secret. If the possessor fails the check by 5 or more, she receives a false or misleading reading. If the possessor fails the check by less than 5, it yields no result. A successful check reveals information similar to that gained through a successful augury (for a reading about the next 30 minutes) or divination (for longer readings), which is communicated by the relative position of the stones.  In addition to this function, lithomancy stones can be used as an additional focus for augury, divination, or similar spells to increase the chance of receiving correct information by 10% (to a maximum of 90%).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divination, creator must have at least 5 ranks in Knowledge (planes)</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408544,
+    "modifiedTime": 1665949170744,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Bronze Skinning Knife",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bronze skinning knife bears the symbol of Old Deadeye on its blade. Designed as a hunting tool, it cannot be used as an effective weapon. As long as the bearer carries the knife, he can find enough food and water in the wilderness to satisfy one creature's hunger and thirst (either the bearer himself or someone traveling with him). In addition, the bearer gains a +1 resistance bonus on Fortitude saving throws.  If Erastil is the bearer's patron, once per day the bearer can speak a command word to use true strike. Once per day the bearer can speak a command word to give a touched thrown weapon, arrow, or bolt the returning weapon special ability for 1 minute. A magic arrow or bolt that returns does not keep its magical properties but is still usable as masterwork ammunition.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create food and water, delay poison, mage  hand, true strike</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405980,
+    "modifiedTime": 1665949168312,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

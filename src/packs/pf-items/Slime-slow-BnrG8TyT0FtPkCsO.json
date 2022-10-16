@@ -3,7 +3,7 @@
   "name": "Slime slow",
   "type": "consumable",
   "img": "icons/commodities/materials/liquid-blue.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Slime slow</h1><b>Source</b> <a class=\"external-link\" href=\"http://paizo.com/products/btpy8ywa?Pathfinder-Player-Companion-Demon-Hunters-Handbook\" target=\"_blank\"><i>Demon Hunter's Handbook pg. 19</i></a><br/><b>Price</b> 15 gp; <b>Weight</b> 1/2 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>Dark blue crystals are suspended at various points in this chunky mixture of icy liquid. When the liquid inside is exposed to open air, a vial of slow slime has a unique congealing effect on amorphous bodies. The wielder can throw a vial of slime slow as a splash weapon. If a creature with the amorphous special quality suffers a direct hit, that creature must succeed at a DC 20 Fortitude save or lose the benefits of being amorphous for 1d4 rounds. Amorphous creatures indirectly hit by slime slow must attempt the same Fortitude save, but only risk losing the benefits of being amorphous for 1 round. Crafting a vial of slime slow requires a successful DC 20 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 20</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366233,
+    "modifiedTime": 1665949134177,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

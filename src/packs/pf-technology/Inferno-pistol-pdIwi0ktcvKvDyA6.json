@@ -3,7 +3,7 @@
   "name": "Inferno pistol",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #85: Fires of Creation pg. 60</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 5,000 gp</p><p><strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 2 lbs.</p><p><strong>Damage</strong> 1d4 (small), 1d6 (medium); <strong>Damage Type</strong> F; <strong>Critical</strong> x2</p><p><strong>Range</strong> 30 ft.; <strong>Capacity</strong> 1 nanite canister; <strong>Usage</strong> 1 charge; <strong>Special</strong> Touch</p><h2 class=\"framing\">Description</h2><p>An inferno pistol is a less refined variant of the longer-range laser pistol<sup>TG</sup>. Unlike a laser pistol, which uses an intensely focused beam of light to burn a target, an inferno pistol is much less elegant-it generates a blob of molten, red-hot material and fires what appears to be a burning pellet of fire with a soft hissing sound. This material is consumed swiftly in firing, leaving behind nothing but ash and painful burns on anything it strikes. On a critical hit, a shot from an inferno pistol also inflicts 1 point of burn damage (Reflex DC 12 negates). An inferno pistol has a maximum range of 5 increments.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 21; <strong>Cost</strong> 2,500 gp</p><p>Craft Technological Arms and Armor, nanotech lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -191,6 +196,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -284,8 +290,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387893,
+    "modifiedTime": 1665949152229,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

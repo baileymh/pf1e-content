@@ -3,7 +3,7 @@
   "name": "Soothing Lyre",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate string instrument looks as if it were crafted from gold and silver but is as light as hollow wood. It grants a +2 circumstance bonus on Perform (string instruments) checks. When the proper chords are struck (a standard action), the bearer can target all creatures within a 30-foot-radius burst with a lullaby spell (DC 13) that lasts as long as the bearer concentrates plus up to 13 rounds.  Additionally, once per day as a standard action, she can strum the lyre to affect up to nine creatures with mass cure light wounds, as per the spell. If the character has the bardic performance class feature, instead of this effect, she can perform a soothing performance once per day, even if she is not of sufficient level to normally have access to that ability (this still requires 4 rounds of continuous performance and still uses her bard level as the caster level). A bard who can use soothing performance and who plays the lyre as part of her performance increases her effective caster level for that ability by 1.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lullaby, mass cure light wounds, creator must be a bard of at least 12th level with the bardic performance class ability</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409620,
+    "modifiedTime": 1665949171775,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

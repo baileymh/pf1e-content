@@ -3,7 +3,7 @@
   "name": "Horn Of Assured Victory",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This coiled battle horn is crafted from fine brass. When blown, its clarion call can be heard clearly up to a range of 2 miles, cutting through any weather condition short of a windstorm. Once per day, the commander of an army can blow the horn to bolster the troops. This grants the army a +2 bonus on OM checks and Morale checks. The army also gains an additional number of hit points equal to its ACR for that battle.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, aid</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407771,
+    "modifiedTime": 1665949170036,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

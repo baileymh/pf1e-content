@@ -3,7 +3,7 @@
   "name": "Spiritual leader's vestments",
   "type": "equipment",
   "img": "icons/equipment/chest/robe-layered-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Disciple's Doctrine pg. 28</em><br/><strong>Price</strong> 100 gp; <strong>Weight</strong> 8 lbs.<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>These fine garments come in assorted vibrant colors and are used in the most important religious or spiritual ceremonies. The vestments typically include a robe or cloak embroidered with a religion's holy symbol, as well as a number of extravagant accessories, such as fine jewelry, long sashes, tall hats, and other appropriate attire.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365800,
+    "modifiedTime": 1665949133752,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

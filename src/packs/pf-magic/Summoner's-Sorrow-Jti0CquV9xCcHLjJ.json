@@ -3,7 +3,7 @@
   "name": "Summoner's Sorrow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The summoner's sorrow is a +2 cold iron glaive that deals an extra 2d6 points of damage against summoned creatures, including eidolons. Once each round when the summoner's sorrow damages a summoned or illusory creature, the wielder can make a dispel check as a free action to send away or destroy the creature. This is treated as a dispel magic spell targeted against the spell that created the creature, except that the wielder's base attack bonus is used in place of the wielder's or item's caster level. This ability has no effect on creatures that are called rather than summoned, or on summoned creatures that cannot be dispelled, such as a summoner's eidolon.  Once per day as a free action, the wielder can attempt a dismissal against a creature damaged by the weapon instead of dispelling it. This ability functions only against extraplanar creatures (whether summoned or not), and works as the spell of the same name with a Will save DC of 17. The wielder cannot both dispel and dismiss in the same round.<br><p><b>Base Item:</b> +2 cold iron glaive</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dismissal, dispel magic</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371976,
+    "modifiedTime": 1665949138382,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

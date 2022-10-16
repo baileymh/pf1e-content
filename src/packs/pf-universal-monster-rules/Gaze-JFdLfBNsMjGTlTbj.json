@@ -3,7 +3,7 @@
   "name": "Gaze",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-iron-will.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>This attack takes effect when foes look at the attacking creature&rsquo;s eyes. The attack can have any sort of effect; <span style=\"text-decoration: underline;\">charm</span>, <span style=\"text-decoration: underline;\">death</span>, and <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"qLQsdbMorUOjOJWJ\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">petrification</span></a> are common. The typical range is 30 feet, but check the creature&rsquo;s entry for details. The type of saving throw for a gaze attack varies, but it is usually a Will or Fortitude save (DC = 10 + 1/2 the gazing creature&rsquo;s racial HD + that creature&rsquo;s Charisma modifier; the exact DC is given in the creature&rsquo;s text). A successful saving throw negates the effect. A monster&rsquo;s gaze attack is described in abbreviated form in its description. Each opponent within range of a gaze attack must attempt a saving throw each round at the beginning of her turn in the initiative order. Only looking directly at a creature with a gaze attack leaves an opponent vulnerable. Opponents can avoid the need to attempt the save by not looking at the creature, in one of two ways.</p>\n<p>&nbsp;</p>\n<p><em>Averting Eyes</em>: The opponent avoids looking at the creature&rsquo;s face, instead looking at its body, watching its shadow, tracking it in a reflective surface, etc. Each round, the opponent has a 50% chance to avoid having to attempt a saving throw against the gaze attack. The creature with the gaze attack, however, gains concealment against that opponent.</p>\n<p>&nbsp;</p>\n<p><em>Wearing a Blindfold</em>: The foe cannot see the creature at all (also possible to achieve by turning one&rsquo;s back on the creature or shutting one&rsquo;s eyes). The creature with the gaze attack gains total concealment against the opponent.</p>\n<p>A creature with a gaze attack can actively gaze as an attack action by choosing a target within range. That opponent must attempt a saving throw but can try to avoid this as described above. Thus, it is possible for an opponent to save against a creature&rsquo;s gaze twice during the same round, once before the opponent&rsquo;s action and once during the creature&rsquo;s turn.</p>\n<p>Gaze attacks can affect ethereal opponents. A creature is immune to gaze attacks of others of its kind unless otherwise noted. Allies with a gaze attack might be affected. The creature&rsquo;s allies are considered to be averting their eyes from the creature with the gaze attack, and have a 50% chance to not need to attempt a saving throw against the gaze attack each round. The creature can also veil its eyes, thus negating its gaze ability.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: gaze</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace DC and range</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +109,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +171,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -211,8 +216,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402451,
+    "modifiedTime": 1665949165198,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Crusader's Scabbard",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This scabbard of vigorAPG prominently bears the symbol of Iomedae. Three times per day, the scabbard can cast bless weapon on any weapon sheathed within, but does so reluctantly on any weapon other than a longsword. While the user is in combat, the scabbard hurls threats of righteous retribution in a loud, clear voice as it attempts to demoralize opponents (Intimidate bonus of +7). The consciousness within the crusader's scabbard is valorous and stridently condemns displays of cowardice or dishonesty.<br><p><b>Base Item:</b> scabbard of vigor</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless weapon, greater magic weapon</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409806,
+    "modifiedTime": 1665949171899,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

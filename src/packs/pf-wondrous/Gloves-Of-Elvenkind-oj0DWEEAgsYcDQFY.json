@@ -3,7 +3,7 @@
   "name": "Gloves Of Elvenkind",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These plain gray leather gloves grant a +5 competence bonus on Spellcraft checks and concentration checks made to cast a spell defensively. Both gloves must be worn for the magic to be effective.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Combat Casting, Craft Wondrous Item, creator must be an elf</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409189,
+    "modifiedTime": 1665949171318,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

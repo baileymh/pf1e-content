@@ -3,7 +3,7 @@
   "name": "Horseshoes Of Desert Fury",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This set of horseshoes is inscribed with binding runes to contain the essence of a minor spirit of fire. With a command word from the wearer or the wearer's rider, the horseshoes burst into flames which do not harm the wearer, but cause the wearer's hooves to function as +1 flaming weapons for the duration of the effect. The flames can remain active for up to 80 minutes. The duration need not be consecutive, but must be spent in 10-minute increments.  Three times per day, a Keleshite wearer or rider can speak another command word to cause the horseshoes to kick up a cloud of choking sand similar to solid fog centered on the wearer's current position; the sand builds up gradually and doesn't impede movement until the wearer exits the affected area, at which point it immediately takes effect. Creatures that begin their turn in the area of the sand must succeed at a DC 16 Fortitude save or be sickened for as long as they remain in the area and for 1d4 minutes thereafter.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, flame blade, magic fang, solid fog, creator must be a Keleshite</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407764,
+    "modifiedTime": 1665949170032,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

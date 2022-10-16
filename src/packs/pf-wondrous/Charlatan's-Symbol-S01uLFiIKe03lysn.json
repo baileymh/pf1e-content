@@ -3,7 +3,7 @@
   "name": "Charlatan's Symbol",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small relic is designed to resemble a holy symbol of a genuine or fictional deity and can be worn about the neck. A charlatan's symbol contains an extradimensional compartment that can hold one wand of a 1st-level cleric spell, which becomes attuned to the symbol after 24 hours. Speaking a command word or phrase activates the wand as if the user had succeeded at a DC 20 Use Magic Device check, which also causes the symbol to glow faintly. Those observing a spell cast through the use of a charlatan's symbol must succeed at a DC 20 Spellcraft check in order to determine that the spell was cast from a wand rather than through normal divine spellcasting.  After using the symbol, the wearer receives a +5 circumstance bonus on Bluff checks related to the assumed religion against witnesses for 24 hours.  To anyone using detect magic, the charlatan's symbol appears to be nonmagical (as magic aura), as if it were a standard holy symbol.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, eagle's splendor, magic aura, creator must have 5 ranks in both Bluff and Use Magic Device</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406675,
+    "modifiedTime": 1665949168937,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

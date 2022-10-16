@@ -3,7 +3,7 @@
   "name": "Hivebrain Symbiote",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This red maggot constantly writhes and distends, snapping a small pair of pincers. A combination of hellwasp and worm, the hivebrain symbiote grants an echo of a hive mind when attached to an intelligent creature. When placed on the back of a host's neck as a standard action, the hivebrain symbiote attaches painlessly and immediately boosts the host's mental faculties. While having a hivebrain symbiote attached, as an immediate action the host can reroll a concentration check or an Intelligence-based check. The host must take the second roll, even if it is worse. An attached hivebrain symbiote continues to function for a number of hours equal to the host's Intelligence modifier (minimum 1 hour) before falling off and dying. A hivebrain symbiote dies immediately if removed before this time elapses.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mnemonic enhancement</p><h3><b>Source: </b></h3>AP 87",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406131,
+    "modifiedTime": 1665949168425,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

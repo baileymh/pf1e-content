@@ -3,7 +3,7 @@
   "name": "Monocle Of The Investigator",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This crystal lens fits over a single eye but takes up the entire eyes slot. Once per day, the wearer is able to gaze at a 10-foot-by-10- foot area and see exactly what occurred in that area during the past 24 hours. The vision of what occurred in the specified area comes to the user in a single minute of observation; if that minute is interrupted, the wearer must use the monocle again to get the full observation. All the visual details of the observed events are clear and memorable to the user, no matter how obscure. The monocle does not, however, provide any insight into the observed events besides what can be visually seen. Observed conversations cannot be heard, for example.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, legend lore, vision</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409694,
+    "modifiedTime": 1665949171827,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

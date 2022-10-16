@@ -3,7 +3,7 @@
   "name": "Ring Of Tactical Precision",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This steel ring is inlaid with adamantine swords and shields. The wearer gains a +5 competence bonus on Profession (soldier) checks, and anytime the wearer gives or receives a numeric bonus from a teamwork feat or the aid another action, that bonus increase by +1. By wearing the ring for 1 hour, a creature may imbue it with a teamwork feat he knows for 24 hours. During this time, any creature wearing the ring may use that feat when cooperating with the creature that imbued it, but not with other creatures even if they possess the same teamwork feat. If the ring is imbued with a new teamwork feat, it replaces the previous feat.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, creator must have 5 ranks of Profession (soldier) and at least one teamwork feat</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404634,
+    "modifiedTime": 1665949167151,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

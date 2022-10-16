@@ -3,7 +3,7 @@
   "name": "Arboreal Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The oaken plates of this +1 wild wooden armorAPG are rough with untreated bark. The wearer can activate the armor with a command word, causing her flesh to become treelike in appearance and resilience. This grants the wearer a +4 enhancement bonus to her existing natural armor bonus and removes her need to breathe, but reduces her speed by half and imposes a -2 penalty on Reflex saves. This effect remains until dismissed as a free action. The wearer can use this ability for up to 10 rounds per day, though the rounds need not be consecutive.<br><p><b>Base Item:</b> +1 wild wooden armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, baleful polymorph, barkskin</p><h3><b>Source: </b></h3>Heroes Of The Wild",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372267,
+    "modifiedTime": 1665949138703,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ring Of The Shadow Victim",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This smooth, lusterless gray ring is crafted of dark glass and has the image of a body carved into its band. Once per day, the wearer of this ring can perform a complex mental and verbal ritual, repeatedly whispering the ring's command word, while touching any humanoid corpse that has been dead for less than 1 week. The creature must have had 7 Hit Dice or fewer in life. This ritual can be as short as 1 round or could last up to 24 hours. It requires both total focus and constant contact between the ring, the wearer, and the target corpse. Interruption of any kind spoils the ritual, requiring the wearer to begin anew. The wearer of the ring chooses how long this ritual will last, but that decision must be made before she begins the ritual.  On the ritual's completion, an illusory duplicate of the creature touched-partially real and formed of animate ice cloaked in magical shadow-springs into existence. This functions as lesser simulacrum in all ways unless stated otherwise. The wearer of this ring gains a +10 bonus on the Disguise check when performing this ritual. The shadow creature appears in all ways to be hearty and full of life, equipped with all of the gear and clothing that was carried or worn by the corpse throughout the ritual. At the same moment the shadow creature is completed, the targeted corpse and all of its attendant equipment vanishes, melting away like snow.  The false creature brought into existence by the ring of the shadow victim has the same base ability scores, type, and subtype as the targeted corpse. It appears in all ways to be the same individual as the corpse touched, and it retains the general personality, attitude, abilities, and intellect of that creature. However, this duplicate doesn't possess any memories that  the wearer of the ring doesn't also possess, has no spell-like or supernatural abilities, can't use activated extraordinary abilities, can't gain the benefits of healing, can't gain levels or increase its abilities, and can't have more than 3 Hit Dice.  This false creature behaves much like the target did in life, except it has a starting attitude of helpful toward the ring's wearer and is generally willing to assist the wearer in any endeavor. The shadow creature will take nearly any action to aid the wearer of the ring, including dangerous, foolish or suicidal actions. This semi-illusory creature remains in existence for a duration equal to 7 x the length of the initial ritual that created it, until the wearer removes the ring of the shadow victim, until the wearer activates the ring again, or until the creature is destroyed by violence, whichever comes first. At that time, the duplicate vanishes and the original corpse, unchanged from when the initial ritual was completed, appears in its place.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, alter self, gentle repose, lesser simulacrumUM</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407749,
+    "modifiedTime": 1665949170024,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

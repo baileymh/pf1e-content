@@ -3,7 +3,7 @@
   "name": "Harp Of Contagion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the bearer may play the harp to target a single opponent with a poison spell (DC 16). Alternatively, the bearer may play the harp to grant allies within 30 feet a +2 resistance bonus on saving throws against disease and poison; maintaining this benefit each round is a standard action. If the player has the countersong bardic performance ability, he may expend rounds of bardic performance to use the harp to refocus his countersong against disease and poison instead of sonic or language-dependent effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, poison, resistance</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404645,
+    "modifiedTime": 1665949167160,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

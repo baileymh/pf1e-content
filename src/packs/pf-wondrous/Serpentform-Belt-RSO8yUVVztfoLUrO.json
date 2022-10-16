@@ -3,7 +3,7 @@
   "name": "Serpentform Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This snakeskin belt is crafted from the hides of brightly hued serpents. When buckled, it immediately binds tightly to the wearer's waist. Once per day, the wearer can command the serpentform belt to transform her lower half into that of a serpent. While in this form, the wearer gains a +4 bonus on combat maneuver checks to grapple or pin a foe. Once a foe is grappled, the wearer can constrict the opponent with any successful subsequent grapple checks, dealing an amount of bludgeoning damage equal to 1d8 + her Strength modifier, if Medium (1d6 if Small). The snake form lasts until another command is given, or for a maximum of 10 minutes, whichever is shorter.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape I</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406636,
+    "modifiedTime": 1665949168911,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

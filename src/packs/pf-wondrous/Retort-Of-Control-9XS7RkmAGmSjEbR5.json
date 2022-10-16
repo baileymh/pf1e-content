@@ -3,7 +3,7 @@
   "name": "Retort Of Control",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This crystal retort was meticulously crafted from the hides of a dozen shattered crysmals. When light is shone through the retort, the concoction within glows like a golden torch. A retort of control can be used to perform spontaneous alchemy (see pages 4-5) with speed and precision. Distillation and sublimation can be carried out in merely 10 minutes when using this tool. In addition, if the user speaks a command word while using spontaneous alchemy to create an alchemical item with the retort as an additional crafting tool, she can designate one creature type or creature subtype. The created alchemical item does not affect creatures of the designated creature type or subtype-alchemical weapons do not harm such creatures on a direct hit or with splash damage, alchemical remedies do not work on such creatures, and so on.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, haste, mark of justice</p><h3><b>Source: </b></h3>Alchemy Manual",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404248,
+    "modifiedTime": 1665949166693,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

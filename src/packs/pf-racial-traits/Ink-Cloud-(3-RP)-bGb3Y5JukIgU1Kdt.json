@@ -3,7 +3,12 @@
   "name": "Ink Cloud (3 RP)",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/ooze.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.zOF4R7HZHIWudQSS"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Cecaelia&nbsp;</p>\n<hr />\n<p>Once per hour as a standard action, a cecaelia can emit a 10-foot-radius sphere of ink while underwater. This ink cloud provides total concealment and persists for 1 minute.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.zOF4R7HZHIWudQSS"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383930,
+    "modifiedTime": 1665949148227,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

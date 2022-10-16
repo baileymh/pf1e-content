@@ -3,7 +3,66 @@
   "name": "Memory Facet (Aggression, Ego, Inhibitor) (Iron Gods)",
   "type": "equipment",
   "img": "icons/commodities/tech/metal-panel.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Artifact</strong></p>\n<p><strong>Source</strong> <em>Pathfinder #86: Lords of Rust pg. 62</em></p>\n<p><strong>Slot</strong> none; <strong>Weight</strong> -</p>\n<p><strong>Capacity</strong> -; <strong>Usage</strong> -</p>\n<h3 class=\"framing\">Description</h3>\n<p>A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming-these devices were rare and difficult to craft, and at the time <em>Divinity </em>began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance artificial intelligences. To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls-where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.</p>\n<p>&nbsp;</p>\n<p>Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created-items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.</p>\n<p>&nbsp;</p>\n<p>Listed below are rules for the memory facets in this adventure-future adventures will contain rules for other types of memory facets, and in the final adventure, the PCs can use their collected facets not only to fight against Unity, but also to augment and enhance their own AI ally, the oracle Casandalee.</p>\n<p>&nbsp;</p>\n<p><strong>Aggression Facet</strong>: This memory facet enhances an AI's offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting Deadly Aim and Power Attack as bonus feats when the AI is controlling a robot.</p>\n<p>&nbsp;</p>\n<p><strong>Ego Facet</strong>: An ego facet bolsters an AI's sense of selfesteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting Toughness as a bonus feat when the AI is controlling a robot.</p>\n<p>&nbsp;</p>\n<p><strong>Inhibitor Facet</strong>: An inhibitor facet is unusual among memory facets in that it isn't intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI's Charisma by 4 and imposes a �4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack.</p>",
       "chat": "",
@@ -78,6 +137,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +197,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +237,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +249,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -258,66 +323,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387667,
+    "modifiedTime": 1665949152035,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

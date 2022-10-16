@@ -3,7 +3,7 @@
   "name": "Bubble Vault",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tiny pearl swells to form a 1-foot-diameter soap-like bubble when placed in water. Up to 5 cubic feet of goods can be placed inside the bubble vault. On command, the bubble sinks to the bottom of the water, automatically burying itself 1 foot deep in the bottom ground if there is mud or other loose material present. If the command word is spoken three times within 30 feet of the bubble, it rises to the surface of the water, at which time it can be opened and the items within it retrieved. Once opened, the bubble reverts to its pearl form for 24 hours. The bubble is watertight but does not otherwise magically protect or preserve its contents. If forced open, it has hardness 1 and 5 hit points.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shrink item, unseen servant</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406567,
+    "modifiedTime": 1665949168883,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

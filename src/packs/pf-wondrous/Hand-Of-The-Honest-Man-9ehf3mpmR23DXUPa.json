@@ -3,7 +3,7 @@
   "name": "Hand Of The Honest Man",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This mummified human hand comes from an honest man punished for a crime he didn't commit, and is dried and hung from a simple twine thong around the neck. The hand's scapegoat origins offer some protection to its wearer. When the wearer of a hand of the honest man is targeted by a curse or a misfortune effect such as a witch's misfortune or evil eye hex, the curse is instead transferred to the hand with no ill effects to the wearer. The hand retains the curse (even if it normally expires after a set duration) until the effect is removed with a remove curse spell or similar effect. A spellcaster receives a +2 bonus on her caster level check to remove a curse stored in a hand of the honest man. Removing a hand of the honest man while it holds a curse instantly transfers the curse to its wearer. A hand of the honest man can hold only one curse or effect at a time. If the wearer is targeted by another curse while the hand is currently storing a curse, the new curse takes effect normally. A hand of the honest man has no effect on curses already affecting a creature. The wearer of a hand of the honest man is riddled with guilt over any untruths she utters, and takes a -2 penalty on all Bluff checks while wearing the hand.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, remove curse</p><h3><b>Source: </b></h3>AP 80",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404250,
+    "modifiedTime": 1665949166694,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

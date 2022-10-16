@@ -3,7 +3,7 @@
   "name": "Poison Popcushion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This squishy, gel-filled sack is the size of a fist, and its exterior is covered with countless tiny metal studs. When set on the ground or somewhere else within line of sight, a poison popcushion can be targeted with a melee or ranged attack (hardness 0, AC 7). A successful attack causes the poison popcushion to explode, sending a spray of needles everywhere within a 10-foot-radius burst and dealing 1d4+1 points of piercing damage to creatures caught in the area each round for 1d3 rounds. A successful DC 13 Reflex save halves this damage. Additionally, a poison popcushion can be loaded with an injury poison before it is placed. Fully loading a poison popcushion takes 3 doses of poison (not included in the price). In addition to dealing damage, a loaded poison popcushion affects struck creatures with the poison stored within, though the Fortitude save DC to save against this poison is 4 lower than the poison's usual DC.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arrow eruptionAPG</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408564,
+    "modifiedTime": 1665949170758,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

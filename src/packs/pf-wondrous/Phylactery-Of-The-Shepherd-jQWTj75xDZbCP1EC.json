@@ -3,7 +3,7 @@
   "name": "Phylactery Of The Shepherd",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Three times per day on command, the phylactery's wearer can determine the current health and overall well-being of any one ally within 30 feet. This effect acts as the status spell. If the wearer has the ability to channel energy or lay on hands, he can as a swift action choose to apply the effects of that class feature to an ally he is currently evaluating so long as that ally is within 30 feet of him, but doing so ends the effect of the phylactery's status.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, status</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408516,
+    "modifiedTime": 1665949170726,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

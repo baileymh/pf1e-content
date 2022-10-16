@@ -3,7 +3,7 @@
   "name": "Fiery Nimbus Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rod functions as a +1 flaming burst light mace. Furthermore, when the rod confirms a critical hit, not only does it deal the extra damage from the flaming burst special ability, a nimbus of cold blue flames ignites the target for 1d4 rounds. This illuminates the target as the faerie fire spell. While the nimbus does not burn the target, it responds to melee attacks made against that foe. Each time an ignited foe takes damage from a melee attack, it takes and additional 1d10 fire damage.  Furthermore, once per day, as a free action, after hitting a foe with this rod, the wielder can surround the target of that attack with the nimbus, which has the same effect as the nimbus created by a confirmed critical hit.<br><p><b>Base Item:</b> +1 flaming burst light mace</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, flame blade, flame strike or fireball, fairy fire</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404120,
+    "modifiedTime": 1665949166600,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

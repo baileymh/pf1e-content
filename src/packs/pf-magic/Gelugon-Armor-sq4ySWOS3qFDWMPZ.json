@@ -3,7 +3,7 @@
   "name": "Gelugon Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +4 full plate is fashioned to make the wearer appear to be an ice devil, complete with insectile eyes. Frosty blue energy emanates from the armor's joints, and the helm's eyes intermittently surge with diabolical power. The armor has a long, spearlike tail that can be used to make a single primary natural attack per round as a standard action if the wearer makes no other attacks. This tail attack deals 1d10 points of damage plus 2d6 points of cold damage for a Medium wearer. The tail can also be used to make attacks of opportunity that count against the wearer's maximum number of attacks of opportunity per round.<br><p><b>Base Item:</b> +4 full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, resist energy, creator must be lawful evil</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373039,
+    "modifiedTime": 1665949139413,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Handy Charm Bracelet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This piece of jewelry is a platinum or gold chain festooned with tiny charms, objects that bear a resemblance to mundane items. When a charm is pulled from the bracelet, it transforms into a permanent, non-magical object. As long as at least one charm remains on the bracelet, it regenerates one charm per day. Removing a random charm is a swift action; removing a specific one is a move action that does not provoke an attack of opportunity. Either action requires a free hand to pluck loose the charm.  Bracelets come with six charms maximum, and always regenerate the same charms they had when they were first created. Possible charms include: a tiny mug (produces a frosty mug of decent quality ale), a scroll (produces a blank parchment scroll, a vial of ink, and a quill pen), a lantern (produces a lit standard lantern filled with lamp oil), a ladder (produces a 15 foot long wooden ladder), a coil of rope (produces a 50 foot length of rope with a grappling hook attached to one end), and a dagger (produces a steel dagger). The GM is free to improvise items, but they should have a market value of less than 25 gp, should not be masterwork, and should not be magical.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, shrink item</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405967,
+    "modifiedTime": 1665949168301,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

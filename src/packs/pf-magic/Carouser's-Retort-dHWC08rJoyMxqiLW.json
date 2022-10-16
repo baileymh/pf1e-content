@@ -3,7 +3,7 @@
   "name": "Carouser's Retort",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple but finely crafted +1 rapier has a hilt in the shape of a tankard, open on one end for the wielder's hand. Once per day, the wielder can use remove fear; if the wielder ever becomes frightened or panicked and this ability has not already been expended for the day, the weapon automatically activates this ability on the wielder's next turn. Once per day, the wielder can turn up to 8 gallons of water (fresh, salt, or contaminated) into weak beer that is safe to drink.<br><p><b>Base Item:</b> +1 rapier</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, purify food and drink, remove fear</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372505,
+    "modifiedTime": 1665949138961,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

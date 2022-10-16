@@ -3,7 +3,7 @@
   "name": "Hunter's Starknife",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Random patterns of brown rust, discolored metal, and dried blood tarnish the surface of this +2 woundingUE starknife. If this weapon is thrown and deals damage, it embeds itself in the target. The target continues to take bleed damage until the embedded weapon is removed. An embedded hunter's starknife emits a blue glow that imitates the effect of a faerie fire spell, affecting the weapon and the target as long as it is embedded. Removing this weapon requires a successful DC 15 Strength check (a full-round action). The creature takes an additional 1d4 points of damage when attempting this check, regardless of whether it succeeds or fails.<br><p><b>Base Item:</b> +2 wounding starknife</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, faerie fire</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372462,
+    "modifiedTime": 1665949138920,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

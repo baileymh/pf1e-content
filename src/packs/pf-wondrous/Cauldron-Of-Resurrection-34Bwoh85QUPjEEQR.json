@@ -3,7 +3,7 @@
   "name": "Cauldron Of Resurrection",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The mouth of this heavy, dark iron cauldron is shaped like a monstrous maw and is large enough to accommodate a single Medium creature. When the cauldron is filled with pure water and certain rare and sacred herbs, and a deceased creature is placed inside it, the cauldron can restore the creature to life as if with a raise dead or resurrection spell. The spell effect depends on the components used: raise dead costs 5,000 gp worth of materials, while resurrection costs 10,000 gp worth of materials. The cauldron is usable once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, resurrection</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403558,
+    "modifiedTime": 1665949166055,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

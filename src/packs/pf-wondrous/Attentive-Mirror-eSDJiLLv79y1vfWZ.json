@@ -3,7 +3,7 @@
   "name": "Attentive Mirror",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small, ornate mirror is mounted inside an enclosing case, such as a locket, small jewelry box, or even just a leather flap. To use an attentive mirror, the owner must spend 1 hour gazing into the mirror in a ritual to attune herself to it. At the end of this time, the owner can willingly give the mirror to another creature. Thereafter, the creature that has the mirror can use it as an emergency means of communication with the mirror's owner. Up to three times per day, the mirror's possessor can open it to alert the attuned owner. This functions as a mental alarm with a range of 100 miles. The White Witches of Irrisen frequently provide attentive mirrors to their loyal minions and monstrous allies so the witches can be notified when their agents have important news. Once alerted, an attuned witch can then send aid or cast Irriseni mirror sight to view the situation through the mirror and receive a minion's report directly.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Irriseni mirror sight (see page 73), status</p><h3><b>Source: </b></h3>AP 67",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407931,
+    "modifiedTime": 1665949170175,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

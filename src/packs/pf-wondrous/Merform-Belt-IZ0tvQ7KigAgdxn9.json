@@ -3,7 +3,7 @@
   "name": "Merform Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Once per day, the wearer of this belt can command it to transform her into the form of a merfolk. While in this form, the wearer can breathe water and transform her lower body into a merfolk fishtail. Her new form provides a +2 natural armor bonus and a swim speed of 30 feet, though while the wearer is in this form her land speed is reduced to 5 feet. The wearer can take this form for up to 12 hours, and can end the effect at any time with a command.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alter self, water breathing</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405432,
+    "modifiedTime": 1665949167802,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

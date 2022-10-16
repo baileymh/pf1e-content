@@ -3,7 +3,7 @@
   "name": "Wanderer's Scarf",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Dyed in somber shades of gray and tipped with treated shards of bone instead of blade-tips, this +1 bladed scarfISWG is predominantly used by wandering Varisian caravans in the nation of Ustalav. The wielder of a wanderer's scarf is affected by a continual hide from undead spell as long as he carries or wears it. In circumstances where the spell effect would normally end (such as when channeling positive energy), this effect is suspended for 24 hours. Intelligent undead can perceive the wielder by succeeding at a DC 10 Will saving throw. When used in combat, this weapon deals an additional 1d6 points of positive energy damage to any undead creature it strikes.<br><p><b>Base Item:</b> +1 bladed scarf</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, disrupt undead, hide from undead</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372261,
+    "modifiedTime": 1665949138698,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

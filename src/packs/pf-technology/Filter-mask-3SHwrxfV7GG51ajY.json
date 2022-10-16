@@ -3,7 +3,7 @@
   "name": "Filter mask",
   "type": "equipment",
   "img": "icons/magic/water/barrier-ice-shield.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 44</em></p><p><strong>Price</strong> 4,500 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 1 lb.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge/hour</p><h2 class=\"framing\">Description</h2><p>A filter mask is a clear plastic shield worn over the entire face. The mask has ionized filters and scrubbers that purify the air the user breathes in and give the mask an unintentionally fearsome look. While the mask has power, the wearer is completely immune to inhaled toxins or diseases. Even when the mask has no power, it grants the wearer a +3 resistance bonus on all saving throws made to resist airborne toxins and diseases.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 24; <strong>Cost</strong> 2,250 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387618,
+    "modifiedTime": 1665949151982,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

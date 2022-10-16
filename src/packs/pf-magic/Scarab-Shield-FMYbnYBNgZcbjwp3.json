@@ -3,7 +3,7 @@
   "name": "Scarab Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 light steel shield is fashioned in the shape of a scarab beetle-a creature that functions as a psychopomp for Pharasma, guiding the souls of the departed into the afterlife. Scarab shields are especially favored by archaeologists and tomb raiders for the protection they grant against guardians and vermin frequently found in ancient ruins and forgotten tombs.  Once per day on command, a scarab shield grants its wielder a +2 sacred bonus on saving throws against fear and death effects for 3 minutes. At any time while this bonus is in effect, the wielder can end the effect as a swift action for a burst of healing energy. The wielder loses the saving throw bonus, but is healed of 1d8+3 points of damage.  In addition, a scarab shield can protect its wielder from swarms. If a mindless swarm attempts to enter the wielder's space, the swarm must attempt a DC 11 Will save. If the save succeeds, the swarm can enter the wielder's space and attack the wielder normally. If the save fails, the swarm instinctively avoids the space occupied by the wielder, completely ignoring the wielder for 3 rounds. This effect ends if the wielder makes any attacks, but the wielder may use non-attack spells or otherwise act without ending the effect. This ability functions once per day.<br><p><b>Base Item:</b> +1 light steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blessing of courage and lifeAPG, sanctuary</p><h3><b>Source: </b></h3>AP 79",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371884,
+    "modifiedTime": 1665949138314,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

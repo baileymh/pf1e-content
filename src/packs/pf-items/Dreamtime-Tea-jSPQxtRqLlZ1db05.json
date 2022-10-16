@@ -3,7 +3,12 @@
   "name": "Dreamtime Tea",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.F5vGd6COb1I33XJk"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Rival Guide pg. 53</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>120 gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>2d12 minutes; unconscious, gain vivid dreams acting as the @Compendium[pf1.spells.d1wxnax51cecplm4]{Augury}&nbsp;spell, but with only a 60% chance of receiving a meaningful reply</p>\n<p><strong>Damage </strong>1d3 Wis damage</p>\n<p>This tea carries a complex aroma combining the unlikely mix of citrus and dung. Originally developed in Vudra from a mix of rare herbs and flowers, dreamtime tea is gaining popularity in many cities in the Inner Sea region, particularly among those who seek dreams as an escape from reality.</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.F5vGd6COb1I33XJk"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367657,
+    "modifiedTime": 1665949135495,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

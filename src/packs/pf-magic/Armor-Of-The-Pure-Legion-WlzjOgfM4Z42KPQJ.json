@@ -3,7 +3,7 @@
   "name": "Armor Of The Pure Legion",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The plates of this suit of +1 steel lamellar armorUC are etched with the complete Laws of Man from the secular nation of Rahadoum. Suits of armor of the Pure Legion are created for high-ranking members in the eponymous organization and grant protection against the two most common scourges of Rahadoum: divine magic and desert heat. Such armor grants its wearer spell resistance against divine spells equal to 5 + the wearer's base attack bonus. It also protects the wearer from heat dangers as if she were affected by a continuous endure elements spell. Additionally, once per day when the wearer of a suit of armor of the Pure Legion fails a Will save against a mind-effecting spell cast by a divine spellcaster, she can attempt another save as a free action on the following round to end the spell.<br><p><b>Base Item:</b> +1 steel lamellar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, endure elements, mind blank</p><h3><b>Source: </b></h3>Armor Masters Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372396,
+    "modifiedTime": 1665949138830,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

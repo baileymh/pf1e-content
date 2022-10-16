@@ -3,7 +3,7 @@
   "name": "One-Way Window",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When not in use, this magical device appears to be a simple wooden picture frame about 3 inches by 5 inches in size. When set against a solid surface, it becomes a window, allowing the user to see through to the other side. No visible evidence of the window appears on the opposite side of the surface. No items, light, sound, spells, or spell effects can pass through the window, and divination magic that allows the user to penetrate illusions or spot hidden things (such as true seeing) doesn't function. If there is no ambient light in the area being viewed, it appears as complete darkness to the viewer. The window can penetrate up to 1 foot of wood, 6 inches of stone, or 1 inch of metal, but even a thin layer of lead blocks the effect. If the surface to be looked through is too thick, the frame doesn't function. It can't be used to peer at mechanical structures behind thin veneers (such as the tumblers of a lock); it functions only when an open space lies beyond the barrier it is placed against.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, clairaudience/clairvoyance</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406692,
+    "modifiedTime": 1665949168951,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

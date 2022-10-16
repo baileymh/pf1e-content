@@ -3,7 +3,7 @@
   "name": "Headband Of Twisted Intellect",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This strange metal headband of vast intellect +2 is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.  The headband has two special indentations for ioun stones similar to those found in a wayfinder. When an ioun stone is inserted into one of the slots, the tentacles animate for a moment, adjusting themselves around the slot to accommodate the shape of the ioun stone. The wearer benefits from the ioun stone's effect as though the stone were orbiting her head.  The headband uses a more refined version of the same technology that powers a wayfinder. First, it coaxes two ioun stones to manifest their resonant powers simultaneously. Furthermore, the slotted ioun stones do not suppress the headband's own magical abilities. However, if the wearer is also carrying, wearing, or wielding a wayfinder or any similar item into which ioun stones can be inserted, the two items suppress one another's abilities, but both return to normal when one is set aside.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fox's cunning, creator must be an aboleth</p><h3><b>Source: </b></h3>AP 123",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406125,
+    "modifiedTime": 1665949168421,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

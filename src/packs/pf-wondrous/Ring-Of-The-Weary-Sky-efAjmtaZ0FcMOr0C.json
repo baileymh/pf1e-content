@@ -3,7 +3,7 @@
   "name": "Ring Of The Weary Sky",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ancient silver ring provides a measure of control over elemental creatures. The spirit of an ancient Jistkan elementalist still echoes within the ring, issuing a sense of smug arrogance. The Ring of the Weary Sky's special purpose is controlling or defeating elementals, and once per day the wearer can attempt to charm a creature with the elemental subtype (as charm monster, Will DC 15 negates).  Once per day, the ring can affect its wearer with resist energy. The ring uses this ability only when the wearer faces a hostile creature with the elemental subtype, making an educated guess about the most applicable energy type against which to ward its wearer. The ring is quick to provide this protection when the wearer tries but fails to charm an elemental creature, exuding a clear impression of patronizing disappointment.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, charm monster, resist energy</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407939,
+    "modifiedTime": 1665949170180,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Scabbard Of The Efreet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These black-and-red leather scabbards are produced in the distant Padishah Empire of Kelesh; in the Inner Sea region, they are predominantly found in Qadira. Each scabbard fits any bladed weapon, and has the bound essence of an efreeti within. Any weapon drawn from the scabbard gains the flaming weapon special ability for 5 rounds. Three times per day on command, the scabbard can impart the flaming burst (Ultimate Equipment 141) weapon special ability to a weapon drawn from it for 10 rounds.  Once per day, the wielder can summon a pyroclastic storm when drawing a weapon from the scabbard. Treat this as an ice storm spell that deals fire damage instead of cold damage. The storm is centered on the location of the wielder, but doesn't harm or otherwise affect her.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fireball, giant form I, scorching ray</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406030,
+    "modifiedTime": 1665949168347,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

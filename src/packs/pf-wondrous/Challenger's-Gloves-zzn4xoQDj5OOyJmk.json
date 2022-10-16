@@ -3,7 +3,7 @@
   "name": "Challenger's Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These supple, velvet gloves are the sort that might be thrown down in challenge for a duel or other single combat. By removing a glove and using it to make a melee or ranged touch attack against an opponent, the wearer of the other glove gains a +1 morale bonus on attack rolls against the target, and the target gains a -1 penalty on attack rolls against the wearer. Both of these effects last for 1 minute, but immediately end if anyone but the glove's wearer attacks the challenged opponent. Both gloves must be worn by the same creature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bane, bless</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410906,
+    "modifiedTime": 1665949172900,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

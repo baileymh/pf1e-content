@@ -3,7 +3,7 @@
   "name": "Necromancer's Beacon",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This gruesome lantern is made from bone and emerald-tinted glass. When lit, it shines a disgusting green dim light in a 60-foot radius. This light makes living creatures uncomfortable, but does them no harm.  A lit necromancer's beacon attracts undead creatures within 1,000 feet, whether they can see it or not. Sentient undead must succeed at a DC 20 Will save to avoid this effect, and mindless undead receive no saving throw. Any undead creature attracted by a necromancer's beacon must move as fast as it is able toward the lantern; once it comes within 60 feet of the lantern, the undead creature can act normally (unintelligent undead usually attempt to destroy the lantern). This effect is blocked by 1 foot of wood, 1 inch of stone, or a thin layer of lead. An intelligent undead that succeeds at its saving throw against a necromancer's beacon is forever immune to the effects of that particular necromancer's beacon.  Undead creatures take 1 point of positive energy damage every round they remain within the light shed by a necromancer's beacon. If the lantern is destroyed, all undead are immediately freed from the lantern's compulsion.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, control undead</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405623,
+    "modifiedTime": 1665949167917,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

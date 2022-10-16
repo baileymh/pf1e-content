@@ -3,7 +3,7 @@
   "name": "Ring Of Energy Resistance, Major",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Rings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy-acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring's resistance value from the damage dealt.   A minor ring of energy resistance grants 1 0 points of resistance. A major ring of energy resistance grants 20 points of resistance. A greater ring of energy resistance grants 30 points of resistance.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, resist energy</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404824,
+    "modifiedTime": 1665949167309,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

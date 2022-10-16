@@ -3,7 +3,7 @@
   "name": "Fortifying Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>On command, this semiprecious stone adheres to an object weighing not more than 100 pounds. As long as it is attached, the stone increases the object's hardness by 5, its break DC by 5, and its hit points by 20. Like temporary hit points, these additional hit points are lost first when the object the stone is protecting is damaged, and once they are exhausted, the fortifying stone is destroyed. However, unlike temporary hit points, they can be completely restored by repairing the fortifying stone via a single casting of a make whole spell. Any effect that breaks or destroys the protected object also destroys any attached fortifying stones.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, stoneskin</p><h3><b>Source: </b></h3>Pathfinder Society Field Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404177,
+    "modifiedTime": 1665949166641,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

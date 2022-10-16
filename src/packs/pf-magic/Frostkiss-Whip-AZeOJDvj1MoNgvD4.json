@@ -3,7 +3,7 @@
   "name": "Frostkiss Whip",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Ice covers the lash of this +1 frost vorpal whip. A frostkiss whip deals damage as though it were one size category larger (1d3 for a Small whip, 1d4 for a Medium whip, and so on). In addition, on command a frostkiss whip deals lethal damage instead of nonlethal damage, and it can deal damage even against creatures with armor bonuses greater than +1 or natural armor bonuses higher than +3.<br><p><b>Base Item:</b> +1 frost vorpal whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, chill metal or ice storm, horrid wilting, keen edge</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371796,
+    "modifiedTime": 1665949138246,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

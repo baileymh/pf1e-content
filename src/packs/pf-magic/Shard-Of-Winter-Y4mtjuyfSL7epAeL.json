@@ -3,7 +3,7 @@
   "name": "Shard Of Winter",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small knife has a bone handle and a blade that seems to be made of clear blue ice. Commonly found in the hands of an Irriseni winter witch, a shard of winter is a +1 frost dagger. Once per day, a witch can use a shard of winter to cast any one spell with the cold descriptor that the witch has stored in her familiar and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the witch, including casting time, duration, and other effects dependent on the witch's level. This spell can't be modified by metamagic feats or other abilities.<br><p><b>Base Item:</b> +1 frost dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, ice storm, telepathic bond, creator must be a winter witch</p><h3><b>Source: </b></h3>People Of The North",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372425,
+    "modifiedTime": 1665949138854,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

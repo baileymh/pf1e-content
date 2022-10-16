@@ -3,7 +3,7 @@
   "name": "Claw Of Orcus",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A claw of Orcus is a small gold pendant in the shape of a clenched claw. If a devoted worshiper of Orcus wears the pendant, he or she is granted a +4 enhancement bonus to his or her Strength.  Non-believers wearing a claw suffer 1d6 temporary Strength loss for as long as it remains around their neck. A non-worshipper must succeed at a DC 18 Will save or refuse to remove the claw, believing it is granting him great power.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, bull's strength, creator must be a worshipper of Orcus</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410377,
+    "modifiedTime": 1665949172409,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

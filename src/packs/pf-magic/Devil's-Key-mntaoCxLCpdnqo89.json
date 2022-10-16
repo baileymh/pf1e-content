@@ -3,7 +3,7 @@
   "name": "Devil's Key",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Forged with a wicked barbed end that resembles a key, this +2 redeemed longsword was once the unholy sword of a diabolist-before a party of adventurers retrieved it from his corpse and repurposed the weapon for good. The devil's key is designed to permanently slay evil outsiders by bringing the fight to their plane of origin so they can be killed outright. Once per day as a swift action after a successful attack against an evil outsider, the wielder can activate the sword to plane shift the wielder and the target of the attack to the creature's home plane. The targeted outsider can resist this effect with a successful DC 20 Will save. Once the target of this ability is slain by the wielder, the sword activates another plane shift as an immediate action that brings the wielder back to the exact spot it previously left.<br><p><b>Base Item:</b> +2 redeemed longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, consecrate, holy smite, plane shift, creator must be good</p><h3><b>Source: </b></h3>Champions Of Purity",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372918,
+    "modifiedTime": 1665949139317,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

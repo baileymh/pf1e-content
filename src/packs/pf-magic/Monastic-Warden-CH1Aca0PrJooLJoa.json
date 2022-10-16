@@ -3,7 +3,7 @@
   "name": "Monastic Warden",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 ki focus temple swordUE is often gifted to select students. A character making an attack with this blade can spend 1 ki point as a swift action to ignore any shield bonus to AC her target has for that attack. Three times per day, the wielder of the monastic warden can slash the air in her target's direction, causing a shimmering copy of the sword formed of white light to streak toward the target. The wielder must make a ranged touch attack against the target. A creature struck by the shimmering blade takes 4d8 points of force damage. If the target is struck while on the grounds of a site sacred to the wielder, the target instead takes 8d6 points of force damage and is dazed for 1 round. A successful DC 14 Will saving throw reduces the damage by half and negates the daze effect.<br><p><b>Base Item:</b> +1 ki focus temple sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, arrow of lawUM</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371820,
+    "modifiedTime": 1665949138264,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

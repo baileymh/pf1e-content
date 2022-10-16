@@ -3,7 +3,7 @@
   "name": "Book Of Extended Summoning, Standard",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the Extend Spell feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a metamagic rod for the purpose of combining multiple metamagic effects on a spell. A normal book of extended summoning can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash   and is destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Extend Spell, summon monster I</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406661,
+    "modifiedTime": 1665949168929,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

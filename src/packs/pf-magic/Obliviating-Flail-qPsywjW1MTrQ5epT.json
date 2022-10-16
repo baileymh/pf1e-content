@@ -3,7 +3,7 @@
   "name": "Obliviating Flail",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The head of this +1 heavy flail looks like a human skull with wicked spikes growing out of it. At will, the wielder can affect a creature struck by the obliviating flail with lesser confusion as a free action (a successful DC 11 Will saving throw negates this effect). If the struck opponent fails its save against the lesser confusion effect, the wielder of the obliviating flail is automatically affected by this effect as well (no saving throw). If the wielder uses the flail to perform a coup de grace and successfully kills her target, she gains 1d4 temporary hit points, which last for 1 minute per HD of the target slain.<br><p><b>Base Item:</b> +1 heavy flail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, death knell, lesser confusion</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373000,
+    "modifiedTime": 1665949139382,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Spy Eyes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>At first glance, spy eyes appear to be cat's-eye marbles. When activated, each comes to life and blinks, transforming into an eyeball. When pressed against an inanimate surface (such as a wall or article of clothing), the eyeball absorbs into it, leaving a magical sensor of the same size on the surface. Anyone holding an eye from a particular cluster of spy eyes can share the view from any other eye in the cluster as if that eye were her own, provided she is within 10 miles of that sensor. To recover a sensor, she can press a spy eye she holds from the same cluster against the one that's in sensor form to make the sensor emerge and return to marble form.  A single bag of spy eyes contains five marbles (meaning that up to four may be deployed at any given time). Spy eyes in sensor form can be detected via the normal means for detecting scrying.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, clairaudience/clairvoyance</p><h3><b>Source: </b></h3>AP 63",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403437,
+    "modifiedTime": 1665949165950,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

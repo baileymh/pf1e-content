@@ -3,7 +3,7 @@
   "name": "Gloves Of Pulverizing Disruption",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Three times per day, the wearer can use these thick leather gloves to make a melee touch attack against an undead creature, a construct, or a nonmagical object and deal 3d4 points of damage to it. When the wearer deals damage in this way, the gloves absorb part of the matter that makes up the target. This creates dust that is stored within the gloves for 24 hours. The next time the wearer attempts a dirty trick combat maneuver, the dust flies from the gloves, providing a +2 bonus on that attempt. If the wearer does not attempt a dirty trick combat maneuver before 24 hours elapses, the dust disappears.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, corrosive touch</p><h3><b>Source: </b></h3>Dirty Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409762,
+    "modifiedTime": 1665949171876,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

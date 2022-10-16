@@ -3,7 +3,7 @@
   "name": "Lockpick Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>With a command word, the bearer of this +2 light steel shield can cause a series of lockpicks and tiny tools to extend from the front of the shield and begin picking a lock or disabling a detected trap. The shield attempts a Disable Device check with a +10 total skill bonus. The shield is treated as using thieves' tools, and can't gain any additional bonuses on the check from spells, the aid another action, or other abilities. The shield performs the work on the wearer's behalf, freeing her to take other actions. She must still remain in contact with the target of the Disable Device attempt for the normal number of  rounds, but can move around the target, as long as she never breaks contact. The wearer is still the subject of any effects that result from the success or failure of the Disable Device check.  While picking a lock or disabling a device with the shield, the wearer loses her shield bonus to Armor Class, though the bonus does apply against any result of the Disable Device check that targets Armor Class (such as an attack from a trap triggered by the shield failing its check by 5 or more).<br><p><b>Base Item:</b> +2 light steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate objects</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372340,
+    "modifiedTime": 1665949138778,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

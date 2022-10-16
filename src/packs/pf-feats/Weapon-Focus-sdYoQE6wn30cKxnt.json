@@ -3,7 +3,7 @@
   "name": "Weapon Focus",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/axe-butchering.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Choose one type of weapon. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.</em><br /><br /><strong>Prerequisites</strong><br />Proficiency with selected weapon, base attack bonus +1.<br /><br /><strong>Benefits</strong><br />You gain a +1 bonus on all attack rolls you make using the selected weapon.<br /><br /><strong>Special</strong><br />You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.<br /><br /><strong>Combat Trick</strong><br />Once per round, you can spend 2 stamina points to gain your Weapon Focus bonus on attack rolls with a weapon with which you don't have Weapon Focus. This bonus lasts until the start of your next turn.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: add +1 manually to Attack Roll Bonus in the attack of the selected weapon.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358218,
+    "modifiedTime": 1665949126465,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

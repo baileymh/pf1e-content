@@ -3,7 +3,7 @@
   "name": "Infecting Spike",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An infecting spike is a large, corroded armor spike. When carefully placed against a suit of armor without armor spikes as a full-round action, an infecting spike attaches itself firmly to the armor, which instantly sprouts +2 armor spikes that immediately inflict the red ache disease on any creature damaged by the spikes (Fortitude DC 15 negates; the onset period does not apply). Any creature that successfully saves against the red ache can't be infected by the armor spikes again for 24 hours. The armor's wearer is immune to red ache and gains a +4 resistance bonus on saving throws against other diseases.  A suit of armor with an infecting spike attached slowly degrades, its joints rusting and seams tearing. Beginning 24 hours after the infecting spike is attached, the armor takes 1d4 points of damage each day. This damage bypasses the armor's hardness, and can be repaired or mended normally.  Removing an infecting spike requires 1 minute of scraping and twisting before it comes free with a ragged tearing sound. As soon as the infecting spike is removed, the armor gains the broken condition; if it already had the broken condition, the armor is instead reduced to 0 hit points.<br><p><b>Base Item:</b> +2 armor spike</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, contagion</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372213,
+    "modifiedTime": 1665949138642,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

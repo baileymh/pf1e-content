@@ -3,7 +3,7 @@
   "name": "Locket Of Soul Keeping",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This red coral locket contains a small black pearl that glows with an eerie greenish light when it is opened. The locket takes the soul (no raise dead is possible) of one creature killed and is activated by placing the open locket to the mouth of the creature as it draws its last breath. The locket allows the user to speak with dead with the creature thus possessed. Once per creature, the user can re-animate the creature killed for 24 hours by restoring the soul to the body. The creature can now be raised (assuming the body is still intact, and not too much time has expired). The creature raised serves the user of the amulet and does his bidding (stats as in life, with -2 on all rolls, and immune to mind-influencing spells). After 24 hours, the body crumbles into dust (unless raised) and the soul is freed to go to whatever god he serves (PCs should roll 3d6 six times at this point).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead, speak with dead, trap the soul</p><h3><b>Source: </b></h3>Sword of Air",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410460,
+    "modifiedTime": 1665949172472,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

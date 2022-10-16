@@ -3,7 +3,7 @@
   "name": "Cocoon Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ruffled silk cloak is incredibly durable despite its soft, delicate construction. Anytime the wearer falls asleep (whether the sleep is natural or brought on by a magical effect), the cloak immediately transforms into sticky strands that envelop the wearer's body, hardening into a solid silk cocoon. While wrapped in the cocoon the wearer gains a +4 enhancement bonus to natural armor and is protected from critical hits and sneak attacks as if subject to the light fortification armor ability (25% chance for normal damage on a critical hit). The cocoon opens and transforms back into a cloak once the wearer awakens.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, vermin shape I (Ultimate Magic)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407991,
+    "modifiedTime": 1665949170222,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Quasit Key",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A quasit key appears as a glass jar filled with preserving fluids in which a pickled quasit floats. Each quasit key is attuned to a specific location in the Abyss when created, and as long as it is carried (even if it's carried in an extradimensional space), the carrier can use plane shift to transport himself and up to eight other creatures that are joining hands to that location (the quasit key found in this adventure is keyed to area C1 of Aponavicius's lair). If used in the Abyss, the quasit key instead uses plane shift to transport its user back to wherever the key was last used to travel to its linked location. Until a quasit key is used to travel to its linked Abyssal location, it has nowhere to go from the Abyss itself and does not function while in the Abyss. A quasit key functions only twice per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, plane shift</p><h3><b>Source: </b></h3>AP 78",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407360,
+    "modifiedTime": 1665949169614,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

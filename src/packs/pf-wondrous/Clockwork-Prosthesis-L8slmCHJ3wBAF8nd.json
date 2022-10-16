@@ -3,7 +3,7 @@
   "name": "Clockwork Prosthesis",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Accidents are common in the City of Smog, and in a place where healing magic is distrusted at best and haphazard at worst, amputation is often the only remedy for a mangled hand or smashed leg. For those who can afford them, clockwork prostheses-miraculous metallic extremities fused with a small amount of primal magic-offer an elegant solution to missing limbs.  Once purchased, a clockwork prosthesis is attached to the area where a limb once was-a prosthesis can't be added in addition to an already existing limb. Only humanoid creatures can equip themselves with clockwork prostheses, which must be installed by a trained prosthesis merchant. As a clockwork prosthesis is installed (a process that takes no less than 1 hour), the bearer must succeed at a DC 18 Fortitude save or the prosthesis doesn't take hold. Either way, the bearer takes 2 points of Constitution damage from the surgery. Clockwork prostheses commonly come in two types-arms and legs.  Clockwork Arm: A clockwork arm allows its bearer to lift up to 1-1/2 times his maximum load over his head. A humanoid with two clockwork arms can lift up to twice his maximum load over his head. In addition, a clockwork arm allows its bearer to deal lethal damage rather than nonlethal damage with an  unarmed strike and provides a +10 bonus to its bearer's CMD against attempts to disarm a weapon held in that hand. For the appropriate price, a clockwork arm can be enchanted with any weapon special ability so long as the ability can be applied to unarmed attacks.  Clockwork Leg: A clockwork leg allows its bearer to lift up to 2-1/2 times his maximum load off the ground (instead of double). A humanoid with two clockwork legs can lift up to 3 times his maximum load off the ground and stagger around with it. In addition, each installed clockwork leg grants its bearer a +4 bonus to CMD against trip and bull rush attempts. The clockwork prostheses detailed here are only the most common types of clockwork prostheses. Other, more specialized clockwork prostheses capable of transforming into firearms, pinning opponents, and even channeling magical energy are also rumored to exist.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bull's strength, regenerate, creator must have 8 ranks in Craft (clockwork)</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405658,
+    "modifiedTime": 1665949167936,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

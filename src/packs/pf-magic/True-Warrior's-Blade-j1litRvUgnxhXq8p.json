@@ -3,7 +3,7 @@
   "name": "True Warrior's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +3 greatsword appears to be roughly forged and has scrawls of Hallit engraved about the hilt. The wielder gains extra power against arcane spellcasters, such as witches. The blade counts as a bane weapon against any creature that has the ability to cast arcane spells (spell-like abilities don't count, but a dragon's ability to cast as a sorcerer does, for example).<br><p><b>Base Item:</b> +3 greatsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, antimagic field, creator must be a Kellid</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372866,
+    "modifiedTime": 1665949139270,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

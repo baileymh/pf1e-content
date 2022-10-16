@@ -3,7 +3,7 @@
   "name": "Spell Winder, 6th Level",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This clockwork chronometer can be activated by winding a tiny key while casting a personal spell or a spell that can affect a single target. A spell cast this way has no immediate effect. Instead, when the wearer stops winding, the chronometer begins unwinding until it runs down, at which time the spell takes effect from the item. Each round the user spends winding the chronometer delays the spell for 1 minute, to a maximum of 10 minutes with 10 rounds of winding. The clockwork is  not precise enough for the user to know exactly when it will wind down; the GM secretly rolls d% to determine when it winds down and releases the spell (1-25 for 1 round early, 26-75 for the intended duration, or 76-00 for 1 round late). The spell affects the creature in possession of the item at the time the spell is triggered. If you cast a personal spell into the chronometer and someone other than you has the item when it triggers, the spell is wasted with no effect.  Spell winders have different maximum spell levels. The maximum spell level is also the maximum number of spell levels the spell winder can hold per day, so a 4th-level spell winder could delay one 4th-level spell, a 3rd-level spell plus a 1st-level spell, and so on. A 0-level spell counts as 1st-level spell for this purpose. If the spell is too high a level, would exceed the number of levels per day, or is cast while a spell is already in the chronometer, it can't be stored and its casting is wasted.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, contingency, creator must be a nagaji</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407309,
+    "modifiedTime": 1665949169563,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

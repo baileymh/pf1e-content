@@ -3,7 +3,7 @@
   "name": "Roc Rider Badge",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This giant-sized silver brooch is fashioned in the shape of a roc's head inscribed inside a circle. A roc rider badge automatically neutralizes the energy field around Ironcloud Keep (see page 20) in a 200-foot-radius sphere around the wearer, allowing the wearer and his mount (if any) to freely move through the field. In addition, the wearer gains a +2 competence bonus on Handle Animal and Ride checks dealing with aerial mounts. A roc rider badge also allows its wearer to improve the initial attitude of birds of all kinds, as if the wearer had the wild empathy ranger class feature. If the wearer already has the wild empathy class feature, the roc rider badge grants the wearer a +5 competence bonus on wild empathy checks against birds. A roc rider badge occupies the neck slot on Large or Huge creatures, but a Medium creature can wear the badge as a pectoral in the chest slot.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, antimagic field, charm animal</p><h3><b>Source: </b></h3>AP 96",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410364,
+    "modifiedTime": 1665949172399,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

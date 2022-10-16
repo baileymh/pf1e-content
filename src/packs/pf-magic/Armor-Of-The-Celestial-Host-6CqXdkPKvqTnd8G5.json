@@ -3,7 +3,7 @@
   "name": "Armor Of The Celestial Host",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bright, silver-and-gold +1 chainmail is so fine and light that it can be worn under normal clothing without betraying its presence. It has a maximum Dexterity bonus of +5, an armor check penalty of -2, and an arcane spell failure chance of 15%. It is considered light armor.  11th Level: The wearer can use fly on command once per day.  13th Level: The armor is +3 chainmail, and the maximum Dexterity bonus increases to +7.  15th Level: The armor is +4 chainmail, the maximum Dexterity bonus increases to +8, and the armor check penalty decreases to -1.  17th Level: The armor is +5 chainmail, and the wearer can activate the fly ability on command as a swift action.  19th Level: The armor causes the wearer to grow feathery white wings, granting her a constant fly speed of 60 feet with good maneuverability.<br><p><b>Base Item:</b> +1 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fly, creator must be good</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371731,
+    "modifiedTime": 1665949138190,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

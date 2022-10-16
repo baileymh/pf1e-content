@@ -3,7 +3,7 @@
   "name": "Grim Gloom Mail",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ugly +1 chainmail resists polishing and easily acquires bent links and other cosmetic damage from everyday use, though such blemishes never impair its function as armor. Once per day as a standard action, the wearer can afflict one target within 30 feet with bad luck, giving it a -2 penalty to Armor Class, on attack rolls, or on saving throws (wearer's choice) for 1 minute. In addition, once per day, the wearer can use protection from good.<br><p><b>Base Item:</b> +1 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bestow curse, protection from good, Curse subdomain or evil eye hex</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372482,
+    "modifiedTime": 1665949138936,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

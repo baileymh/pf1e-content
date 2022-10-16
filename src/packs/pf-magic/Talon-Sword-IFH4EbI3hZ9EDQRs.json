@@ -3,7 +3,7 @@
   "name": "Talon Sword",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Weapons like this alchemical silver +2 defending bastard sword are favored blades of the Eagle Knights. Easily recognized by its notched blades and golden quillons crafted like upswept eagle wings, its defending ability also protects the wielder's mount. Wealthier Eagle Knights who frequently skirmish on the western border against Chelish fiends sometimes have their swords crafted with the ability to cast dimensional anchor on the target as a free action upon a successful hit; these modified blades are called talonstrike swords.<br><p><b>Base Item:</b> +2 silver defending bastard sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor,shield or shield of faith, shield other</p><h3><b>Source: </b></h3>Andoran",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371947,
+    "modifiedTime": 1665949138359,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

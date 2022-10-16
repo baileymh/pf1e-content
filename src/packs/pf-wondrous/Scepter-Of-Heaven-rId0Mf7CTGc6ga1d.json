@@ -3,7 +3,7 @@
   "name": "Scepter Of Heaven",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate scepter of bronze and mithral has a flanged head like a golden-white sunburst. A scepter of heaven acts as a +1 evil outsider bane morningstar. The scepter has the following powers when wielded by a good-aligned creature.  • The wielder of a scepter of heaven gains a +2 sacred bonus on caster level checks made to dispel magic against with the evil descriptor or effects created by evil outsiders.  • The wielder can use the scepter to use bless weapon on command and at will as the spell.  • Once per day on command, if the wielder can shoot a spear of purity (Ultimate Magic) from the scepter.  If the wielder of a scepter of heaven wears a crown of heaven, the scepter's caster level increases to 15th (increasing its aura to strong) and, when used as a weapon, it gains the holy property. A good-aligned wielder may also use holy smite, holy sword, and holy word, as the spells, once per day each.  A scepter of heaven is of good alignment, and any evil creature attempting to wield one gains one negative level. The negative level remains as long as the rod is in hand and disappears when the rod is no longer held. This negative level cannot be overcome in any way (including restoration spells) while the rod is being held.<br><p><b>Base Item:</b> +1 evil outsider bane morningstar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Rod, bless weapon, dispel evil, holy smite, holy sword, holy word, spear of purity, creator must be good</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409665,
+    "modifiedTime": 1665949171806,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

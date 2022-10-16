@@ -3,7 +3,7 @@
   "name": "Shawl Of Life-Keeping",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical shawl is woven from silken, diaphanous material. Once per day, the wearer can speak a command word to transfer some of her life energy into the shawl (up to 10 hit points). If she is wearing the shawl and is reduced to -1 hit points or below, the shawl immediately heals her an amount equal to the number of hit points stored in the shawl. This healing cannot prevent the wearer from being killed. The life energy stored in the shawl lasts for 24 hours or until it heals the wearer, whichever comes first. If the shawl is destroyed, the stored life energy is lost.  While the shawl is storing a creature's life energy, it retains a connection to that creature. If another creature holds the shawl in its hand, the creature whose life energy is stored in the shawl takes a -2 penalty on Fortitude and Reflex saving throws against all effects from the current bearer of the shawl.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, stabilize</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408460,
+    "modifiedTime": 1665949170678,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

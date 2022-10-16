@@ -3,7 +3,7 @@
   "name": "Skin Harp",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small harp is made from a sprite's twisted, leathery corpse, its arms and legs arching up to hold the crossbar along the instrument's top. The strings are made from thin strips of twisted flesh flayed from the fey's torso and strung between their anchor points on the corpse and the crossbar. Though the corpse's chest cavity is clearly visible, all viscera have been removed.  A skin harp functions as a masterwork harp. In addition, once per day, it can be activated to cast either command undead or dominate person (Will DC 19 negates). With a successful DC 20 Perform (string instruments) check, the save DC for this effect increases by +2. When used in this manner, the harp animates and plays itself, the corpse freeing one hand from the crossbar in order to strum its flesh strings.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, command undead, dominate person</p><h3><b>Source: </b></h3>AP 63",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407245,
+    "modifiedTime": 1665949169519,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

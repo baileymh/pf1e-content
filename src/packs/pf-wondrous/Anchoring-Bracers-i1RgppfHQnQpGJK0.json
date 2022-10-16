@@ -3,7 +3,7 @@
   "name": "Anchoring Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These iron bracers are covered in hooks and small claws. They strap firmly to the wearer's forearms and can be used to make attacks as spiked gauntlets.  Three times per day, the bracers' wearer can telekinetically anchor herself to a foe within 190 feet as a full-round action. This requires a combat maneuver check, which doesn't provoke an attack of opportunity. The wearer gains a +2 circumstance bonus on this check for every size category by which her target is larger than she.  On a successful check, either the wearer or the target (whichever weighs less) moves to be adjacent to the other (moving to the closest free adjacent space). This movement does not provoke attacks of opportunity. For 1 minute, the wearer and target are kept adjacent by the power of the bracers. Each is able to move only by succeeding at an opposed Strength check, and always takes the other along even if successful.  Additionally, both the wearer and the target are unable to engage in dimensional travel for this duration, as if under the effect of a dimensional anchor spell. The wearer of the anchoring bracers can dismiss the anchoring effect before the end of its duration as a standard action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, telekinesis</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408447,
+    "modifiedTime": 1665949170668,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

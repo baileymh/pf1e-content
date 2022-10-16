@@ -3,7 +3,7 @@
   "name": "Altar Of Sarenrae",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar consists of a large, 6-foot-tall golden statue of Sarenrae as she is represented in her holy symbol. The altar is typically illuminated by a sacred brazier lit beneath the towering statue, causing it to cast a looming, solemn shadow on the ceiling overhead. Praying at the altar grants a +1 bonus on Fortitude saves and increases the benefits of any healing effects that target the worshiper by +1 caster level.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, magic circle against  evil, resistance, creator must worship Sarenrae</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408606,
+    "modifiedTime": 1665949170782,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

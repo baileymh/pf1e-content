@@ -3,7 +3,7 @@
   "name": "Stalker's Fang",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Shoanti craft this +1 keen klarUE from the skull of a horned spirestalker. Its enhancement bonus applies to attack rolls and damage rolls for attacks made with the blade, as well as to its shield bonus to AC. If the wielder confirms a critical hit against a creature that is denied its Dexterity bonus to AC, the target takes an additional 1d6 points of bleed damage.<br><p><b>Base Item:</b> +1 keen klar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, keen edge, creator must be a Shoanti</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371913,
+    "modifiedTime": 1665949138335,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

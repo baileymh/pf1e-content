@@ -3,7 +3,12 @@
   "name": "Toxic",
   "type": "feat",
   "img": "systems/pf1/icons/races/vishkanya.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.lvClnGgZipO1zTeG"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Vishkanya&nbsp;</p>\n<hr />\n<p>A number of times per day equal to his Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that he wields with his toxic saliva or blood (using blood requires the vishkanya to be injured when he uses this ability). Applying venom in this way is a swift action.<em>Vishkanya Venom</em>: Weapon-injury; <em>save</em> Fort DC 10 + 1/2 the vishkanya's Hit Dice + the vishkanya's Constitution modifier; <em>frequency</em> 1/round for 6 rounds; <em>effect</em> 1d2 Dex; <em>cure</em> 1 save.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.lvClnGgZipO1zTeG"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384270,
+    "modifiedTime": 1665949148595,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

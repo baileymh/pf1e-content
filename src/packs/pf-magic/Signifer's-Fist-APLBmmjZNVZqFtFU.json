@@ -3,7 +3,7 @@
   "name": "Signifer's Fist",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 light mace is forged of black iron and topped with what appears to be a clenched fist with spikes protruding from between the fingers. As a move action, the wielder can expend 1 point from his arcane pool (as per a magusUM), 1 point from his arcane reservoir (as per an arcanistACG), or one use of fervor (as per a warpriestACG) to make a single melee attack with the signifer's fist. Characters without any of these options can instead activate a signifer's fist in this way as a standard action once per day. If the attack deals damage to a creature, the signifer's fist gains the bane weapon special ability against that creature's type (or subtype if the creature is a humanoid or outsider) for 1 minute. This benefit doesn't apply if the target is immune to bleed, though the attack still deals damage normally.<br><p><b>Base Item:</b> +1 light mace</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, haste, summon monster I</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371792,
+    "modifiedTime": 1665949138241,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

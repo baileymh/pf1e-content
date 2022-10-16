@@ -3,7 +3,7 @@
   "name": "Prismatic Plate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This resplendent suit of +3 full plate shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of prismatic plate is struck by a prismatic spray, or when he passes through a prismatic sphere or prismatic wall, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection.  COLOR EFFECT  Red Resist fire 30  Orange Resist acid 30  Yellow Resist electricity 30  Green Immunity to poison  Blue Immunity to petrification  Indigo +8 resistance bonus on saving throws against mind-affecting effects  Violet Protected by dimensional anchor, as the spell<br><p><b>Base Item:</b> +3 full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dimensional anchor, mind blank, neutralize poison, resist energy, stone to flesh, and prismatic sphere, prismatic spray, or prismatic wall</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371661,
+    "modifiedTime": 1665949138111,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

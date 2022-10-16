@@ -3,7 +3,7 @@
   "name": "Silver Smite Bracelet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy silver bracelet is etched with icons of purity, fidelity, chastity, and honor, and glows with a soft white light whenever its owner prays. The wearer of this bracelet treats her paladin level as 4 higher than normal for the purpose of her smite evil class feature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, align weapon, creator must be a paladin</p><h3><b>Source: </b></h3>APG",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408550,
+    "modifiedTime": 1665949170748,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

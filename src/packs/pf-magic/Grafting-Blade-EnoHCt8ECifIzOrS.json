@@ -3,7 +3,7 @@
   "name": "Grafting Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This plain-looking +1 spring bladeUI is attached to a weather-beaten cedar grip. By speaking a command word, the wielder can magically merge the grip into a larger wood handle, such as a cane, club, staff, stylus, or oar, transforming the infused item into either a +1 shortspear, +1 spear, or +1 siangham (depending on the handle's size). The blade can even be affixed to magic items such as staves, rods, and wands so long as they are made of wood, but doing so renders their other magical properties nonfunctional until the grafting blade is removed.  Removing a grafting blade from an item it has merged with requires a full-round action, and leaves both items unharmed.<br><p><b>Base Item:</b> +1 spring blade</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, wood shape</p><h3><b>Source: </b></h3>Spymaster's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -212,6 +217,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -311,8 +317,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371869,
+    "modifiedTime": 1665949138304,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

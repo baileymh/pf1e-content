@@ -3,7 +3,7 @@
   "name": "Maiden's Promise",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each pair of these lockets is made from a piece of jewelry from Castle Korvosa's treasury that was split into two parts, each of which was fashioned into a necklace. When worn by two individuals, the lockets' magic enhances their devotion to each other. Many former Gray Maidens cling to these lockets, distributed among Queen Ileosa's forces during the final days of her reign, as a symbol of their sisterhood. When the wearers of linked maiden's promise lockets are within 30 feet of each other, each gains a +1 morale bonus on Will saves against any effect that would compromise her loyalty to the other. If one wearer becomes helpless, the other gains a +1 morale bonus on attack rolls against any creature threatening the helpless wearer. If one wearer dies, the other must succeed at a DC 16 Will save or suffer the effects of crushing despair for 1 minute.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, resistance, status</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404263,
+    "modifiedTime": 1665949166707,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

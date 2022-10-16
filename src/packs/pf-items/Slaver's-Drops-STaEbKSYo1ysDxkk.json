@@ -3,7 +3,12 @@
   "name": "Slaver's Drops",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Jq8X2OhIgi1BhAhg"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Rival Guide pg.53</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>minor, Fortitude DC 13</p>\n<p><strong>Price </strong>20 gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect </strong>3 hours;<strong> </strong>&nbsp;&ndash;3 on Will saves, +3 on Perception checks</p>\n<p><strong>Damage </strong>1d2 Str damage</p>\n<p><span id=\"ctl00_MainContent_DataListDrugs_ctl00_LabelName\" style=\"margin-top: 0px;\">Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.</span></p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Jq8X2OhIgi1BhAhg"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366869,
+    "modifiedTime": 1665949134777,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

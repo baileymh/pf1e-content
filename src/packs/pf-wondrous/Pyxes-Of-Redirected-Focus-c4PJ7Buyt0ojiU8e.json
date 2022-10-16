@@ -3,7 +3,7 @@
   "name": "Pyxes Of Redirected Focus",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This round metal container is just large enough to contain the wooden, coin-sized token inside. Each side of the token is inscribed with a different prayer. Once per day, a cleric (or other class with cleric domains) may activate the pyxes and may select any one of her prepared domain spells and replace it with the domain spell of that level from her other domain. For example, a cleric with the Fire and Luck domains could switch her 1st-level prepared burning hands domain spell to true strike. The pyxes has no effect on creatures with no domain spells or only one domain.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, prayer</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407799,
+    "modifiedTime": 1665949170061,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

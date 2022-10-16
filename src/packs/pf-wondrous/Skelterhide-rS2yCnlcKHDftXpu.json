@@ -3,7 +3,7 @@
   "name": "Skelterhide",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick hide cloak grants its wearer the divided mind of a skeltercat. While worn, the cloak imparts a +1 resistance bonus on Fortitude and Reflex saves and a +2 resistance bonus on Will saves. In addition, once per round, the wearer can reroll the percentile dice when determining her actions while confused and choose the desired result. Once the cloak is donned, the wearer cannot speak or write; she can communicate only in unintelligible growls. The wearer still understands language as normal.  If the wearer suffers from one or more permanent mental afflictions that alter her behavior, such as insanity or the effects of a helm of opposite alignment, for 15 minutes per day she can function as if unaffected by these conditions. This time does not need to be used all at once, but must be used in 1-minute increments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calm emotions, resistance, blindness/deafness</p><h3><b>Source: </b></h3>AP 117",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409679,
+    "modifiedTime": 1665949171816,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

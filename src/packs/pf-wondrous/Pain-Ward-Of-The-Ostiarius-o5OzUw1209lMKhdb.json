@@ -3,7 +3,7 @@
   "name": "Pain Ward Of The Ostiarius",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This twisted and charred hunk of metal resembles a blacksmith apprentice's failed work. It bears numerous sharp hooks and barbs. Rather than being suspended from a cord or chain, it grips directly onto the wearer's chest with a life of its own. When the item attaches, the user permanently loses 1 hit point and gains a +10 circumstance bonus to resist any attempts to steal the pain ward of the ostiarius and to the DC of other attempts to remove it (such as with Sleight of Hand). Once attached, this item can act as an unholy symbol for any evil deity and reshapes itself to match the symbol of an evil deity the wearer worships. If the unholy symbol is removed from the wearer, he takes 1d8 points of damage and 1 point of Constitution damage.  The pain ward of the ostiarius grants an evil wearer a +4 profane bonus on any saving throws against spells and abilities with the painUM descriptor. Once per day, the wearer can channel his pain into negative energy and inflict it on an unwilling victim. This is a touch attack that deals 1d8+5 points of negative energy damage and sickens the victim for 1d4 rounds. A successful DC 11 Fortitude saving throw halves the damage and negates the sicken effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, inflict light wounds, resistance, creator must be an evil worshiper of an evil deity</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409161,
+    "modifiedTime": 1665949171299,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

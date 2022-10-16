@@ -3,7 +3,7 @@
   "name": "Dust Of Emulation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A creature coated with this glittering golden dust can interact with any one item or object as if she had successfully used the Use Magic Device skill to emulate a class feature or race (if the exact result of the check matters, treat the character's result as a 25). If the user of the dust does not mentally select the intended item or object while coating herself with the dust, the magic of the dust applies to the first eligible object she encounters. She can apply the result of this automatic check when dealing with the item or object for 1 hour after exposure to the dust.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disguise self</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405628,
+    "modifiedTime": 1665949167922,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

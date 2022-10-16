@@ -3,7 +3,7 @@
   "name": "Clonepod",
   "type": "equipment",
   "img": "icons/commodities/materials/glass-orb-green.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 42</em></p><p><strong>Price</strong> 60,000 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 95 lbs.</p><p><strong>Capacity</strong> 200; <strong>Usage</strong> 20 charges</p><h2 class=\"framing\">Description</h2><p>A clonepod looks like a human-sized capsule with a blue window at head height and a bank of touchsensitive screens and buttons at chest height. A small slot situated below the window can accept genetic material (fingernails, hair clippings, skin samples, and so forth). When genetic material is placed in the slot, the clonepod immediately atomizes the sample and processes the genetic information. At this point, activating the clonepod causes its interior to flood with blue biotic fluid, which is then supersaturated with a combination of proteins, nanites, and other materials. Over the course of the next 12 hours, the clonepod works nonstop to produce an exact replica of the creature from which the genetic material was harvested, as the creature was when the sample was taken. A clonepod can only duplicate a Medium or smaller creature-attempts to clone a larger creature result in a hideous, partially formed monstrosity that heaves and gasps a few times before dying.</p><p></p><p> The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a neurocam (see page 50) is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.</p><p></p><p> Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a <em>clone</em> spell (including 2 negative levels or 2 points of Constitution drain)-provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a <em>simulacrum</em>).</p><p></p><p> If the clone's body and mind are not from the same source, all six ability scores are permanently reduced by 2 points.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 25; <strong>Cost</strong> 30,000 gp</p><p>Craft Technological Item, nanotech lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 200,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387867,
+    "modifiedTime": 1665949152210,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

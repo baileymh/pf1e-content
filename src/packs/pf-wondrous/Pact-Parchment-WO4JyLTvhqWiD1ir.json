@@ -3,7 +3,7 @@
   "name": "Pact Parchment",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Written and signed in blood, a pact parchment ensures the utter and undeniable fulfillment of the actions stated within.  Upon a pact parchment, you can inscribe a contract, defining a certain service or course of action by one or more creatures. If all listed creatures willingly (without magical influence, threats, and so on) sign this pact in blood, they are bound to fulfill this agreement. Henceforth everyone breaking the pact suffers a -4 penalty on attack rolls, saves, ability checks, and skill checks, until they either satisfy the pact's conditions (if still possible) or the parchment is destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, geas/quest</p><h3><b>Source: </b></h3>Cheliax Empire Of Devils",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407185,
+    "modifiedTime": 1665949169476,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rapier Of Battlefield Movement",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 rapier has elegant lines and a stylish basket hilt. The wielder of this weapon gains a +5 competence bonus on Acrobatics checks made to move through an enemy's threatened area or through its space. As a swift action after hitting with a melee attack using this weapon,  the wielder can spend 1 panache point to move 10 feet without provoking attacks of opportunity.<br><p><b>Base Item:</b> +2 rapier</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, freedom of movement, creator must have 10 ranks in Craft (weapons)</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372878,
+    "modifiedTime": 1665949139284,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

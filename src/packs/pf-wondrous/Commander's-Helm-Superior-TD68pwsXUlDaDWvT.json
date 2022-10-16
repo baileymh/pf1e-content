@@ -3,7 +3,7 @@
   "name": "Commander's Helm, Superior",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This broad helmet is marked with archaic dwarven military insignia. When each helm is created, it is attuned to one teamwork feat. The wearer gains that feat for as long as she wears the helm and meets its prerequisites. With a command word, the wearer can grant that feat to all allies that meet its prerequisites within 30 feet for 1 minute. The helm can be activated up to three times per day.  If the wearer is a dwarf, she can choose any teamwork feat she possesses to grant in this way. The helm can grant no more than one feat at a time; when a new feat is granted, all subjects lose any previously granted feat.  A lesser commander's helm can contain a feat with either a base attack bonus prerequisite no greater than +5 or a skill rank prerequisite no greater than 5. A greater commander's helm can contain a feat with a base attack bonus prerequisite no greater than +10 or a skill rank prerequisite no greater than 10. A superior commander's helm can contain any teamwork feat. The same restrictions apply to the feats that a dwarf wearer can grant when choosing from feats she possesses.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, the teamwork feat to be imbued, tactical acumenUC, creator must be a dwarf</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406745,
+    "modifiedTime": 1665949168993,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

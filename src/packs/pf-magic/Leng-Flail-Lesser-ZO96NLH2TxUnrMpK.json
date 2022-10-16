@@ -3,7 +3,7 @@
   "name": "Leng Flail, Lesser",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The immense and inscrutable Leng spiders are known to construct makeshift flails by linking nearby debris, such as rocks or skulls, with their own extruded web fibers. Although this  organic webbing typically degrades over time, skillful alchemy can preserve one of these weapons indefinitely.  A lesser Leng flail is a +1 heavy flail that allows its wielder to use spider climb at will. Much less common are greater Leng flails, which are +2 throwing heavy flails that have the same spider climb ability of the lesser flail. In addition, when the wielder of a greater Leng flail confirms a critical hit against a creature, the target suffers horrific hallucinations for 1d4 rounds, becoming confused (Will DC 19 negates). This is a mind-affecting effect.<br><p><b>Base Item:</b> +1 heavy flail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor; spider climb</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372443,
+    "modifiedTime": 1665949138874,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

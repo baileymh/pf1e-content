@@ -3,7 +3,7 @@
   "name": "Ring Of Pure Form",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Designed to keep the body from being affected by unfriendly spells that could alter their shape, this ring, composed of hard geometric shapes, grants a +10 bonus against transmutation spells and effects (such as a medusa or cockatrice's gaze).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, break enchantment</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406128,
+    "modifiedTime": 1665949168423,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

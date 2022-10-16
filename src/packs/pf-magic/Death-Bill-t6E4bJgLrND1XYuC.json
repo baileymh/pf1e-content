@@ -3,7 +3,7 @@
   "name": "Death Bill",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Death bills are greatly coveted by redcaps, and the loss of a death bill is considered a great shame punishable by exile or even death. A death bill is a +1 scythe that leaves particularly unsightly wounds in its victims' flesh-these wounds do not bleed, and have dry, flaking edges, almost as if the wound had been desiccated by desert winds. Three times per day, the wielder of a death bill can swing the weapon as a standard action to create a scythe-shaped arc of dust that sweeps out from the user in a 30-foot cone. All creatures in this area take 2d4 points of slashing damage plus an amount of additional damage equal to the user's Charisma modifier, and are staggered for 1 round by the pain of having moisture drawn from their bodies by the supernatural effect. A successful DC 13 Reflex save halves the damage and negates the staggered effect. Once per day as a swift action, as a death bill is used to reduce a foe to negative hit points with a melee attack, the user may cast a death knell on that victim (Will DC 13 negates).<br><p><b>Base Item:</b> +1 scythe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, death knell, inflict critical wounds</p><h3><b>Source: </b></h3>AP 64",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373041,
+    "modifiedTime": 1665949139414,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

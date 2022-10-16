@@ -3,7 +3,7 @@
   "name": "Prying Star",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Eight sharp points jut from the circumference of this eye-shaped +1 shuriken. Once thrown, as long as the target cannot see the user or detect her through other senses, the weapon is completely imperceptible to the target creature (except via true seeing). If a prying star strikes a target and would normally deal damage, it instead embeds itself in the target and functions as a magical sensor that can see 30 feet (normal vision only) in all directions. The sensor is invisible and has no discernible magical aura. If the attack misses or the damage is entirely negated by damage reduction, the target becomes aware of the attack as normal.  When the character who threw the prying star closes her eyes, she can view what the sensor can see, provided the sensor remains on the same plane of existence. The sensor remains active for 9 minutes, after which the prying star vanishes without a trace.<br><p><b>Base Item:</b> +1 shuriken</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, invisibility, magic aura, silence, vicarious view (see page 229)</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372286,
+    "modifiedTime": 1665949138723,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

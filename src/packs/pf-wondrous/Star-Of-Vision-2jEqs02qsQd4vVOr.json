@@ -3,7 +3,7 @@
   "name": "Star Of Vision",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When touched to an eye, this star-shaped gem affixes itself until willingly removed or pried from an unconscious wearer. On command, the wearer can share her vision of her surroundings with allies within 60 feet. This gives them the benefit of any special visual sense she has (such as darkvision or see invisibility) and even allows blind allies to see, assuming the wearer is not herself blind. This effect lasts for 1 minute, and once used, can't be activated again for 30 minutes. While the effect is active, an ally of the wearer can switch back and forth at will between sharing the wearer's vision and seeing through his own eyes.  12th Level: The shared senses effect lasts for 10 minutes. While sharing senses, the wearer automatically discovers the number and location of secret doors in a 60-foot cone in front of her, as though she had been studying the area for 2 rounds with detect secret doors. (This effect doesn't grant any of the other benefits of detect secret doors.)  14th Level: While sharing senses, the wearer gains the benefit of see invisibility.  16th Level: Once per day, when the wearer activates the star of vision, she gains the benefit of true seeing for the duration of the effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect secret doors, see invisibility, telepathic bond, true seeing</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403523,
+    "modifiedTime": 1665949166021,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

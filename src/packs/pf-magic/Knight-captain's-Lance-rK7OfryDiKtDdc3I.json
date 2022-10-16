@@ -3,7 +3,7 @@
   "name": "Knight-captain's Lance",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate +2 lance changes in color and style to match the armor of the wielder. A bright pennon flies from the end of the lance, mounted just behind the lance's point, and if the wielder has personal heraldry, the pennon displays that heraldry. This pennon can serve as a cavalier's banner. The weapon counts as alchemical silver for purposes of penetrating DR. Three times per day, when the wielder successfully damages a target with the knight-captain's lance, as a swift action she may grant all allies within 60 feet a +2 morale bonus on the next attack roll they make against the same target. The bonus lasts for 1 round.<br><p><b>Base Item:</b> +2 lance</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, divine favor</p><h3><b>Source: </b></h3>Knights Of The Inner Sea",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373013,
+    "modifiedTime": 1665949139394,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

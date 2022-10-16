@@ -3,7 +3,7 @@
   "name": "Proximity helmet",
   "type": "equipment",
   "img": "icons/equipment/head/helm-spangen-ridged.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #85: Fires of Creation pg. 61</em></p><p><strong>Price</strong> 4,000 gp</p><p><strong>Slot</strong> head; <strong>Weight</strong> 2 lbs.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge/hour</p><h2 class=\"framing\">Description</h2><p>This open-faced, blue polymer helmet includes a nylon strap and adjustable tinted visor capable of hiding all but the wearer's mouth and chin. The interior of the tinted faceplate provides a heads-up display when activated, with each charge providing enough power to function for 1 hour of continuous use. During this time, the helmet's external motion sensors pick up on sudden movements and subtle visual cues, granting the wearer a +5 competence bonus on Perception checks to notice moving targets within 60 feet. A secondary setting on the helmet adds an audible alarm that creates a loud chirping sound near the wearer's ear whenever a Small or larger corporeal creature approaches within 60 feet. Reduce this distance by 20 feet for each interposing closed door and by 20 feet for each substantial interposing wall. This noise is loud enough to waken the wearer from sleep, but not loud enough to awaken nearby sleepers.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 20; <strong>Cost</strong> 2,000 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -69,7 +69,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -82,6 +81,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -154,8 +154,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428388100,
+    "modifiedTime": 1665949152436,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

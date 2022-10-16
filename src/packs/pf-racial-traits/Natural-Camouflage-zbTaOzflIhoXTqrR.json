@@ -3,7 +3,7 @@
   "name": "Natural Camouflage",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/plant.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Ghoran&nbsp;<br /><strong>Replaced Trait(s):</strong> Natural Armor&nbsp;</p>\n<hr />\n<p>Some ghorans evolve by reseeding themselves in different locations. With each new seed, these ghorans take on some of the traits of the areas surrounding their new growth. Ghorans with this racial trait choose one terrain from the <%CLASSES%Ranger%%>ranger's favored terrain list<%END> other than planes, urban, or water. These ghorans gain a +4 racial bonus on Stealth checks when in their chosen terrain.<br /><br /> This replaces natural armor.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384931,
+    "modifiedTime": 1665949149267,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

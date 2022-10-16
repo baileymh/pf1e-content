@@ -3,7 +3,7 @@
   "name": "Skyrocket Crossbow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The stock and bow of this +1 distance hand crossbow are decorated with the golden head of an osprey, sea eagle, or other avian creature. Three times per day, a skyrocket crossbow can imbue one of two special abilities on its ammunition.  The first causes a bolt fired from the crossbow to explode in a dazzling burst of colored light when it hits a creature or object, or if it reaches its maximum range increment (600 feet). Creatures within a 10-foot radius of the target point are blinded for 1d4+1 rounds. A successful DC 13 Will save means a creature is dazzled for 1 minute instead. Sightless creatures, or those without line of sight to the target point, are unaffected.  The second ability causes a bolt fired from the crossbow to function as a screaming bolt (Pathfinder RPG Core Rulebook 475).<br><p><b>Base Item:</b> +1 distance hand crossbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, clairaudience/ clairvoyance, doom, flare burst (Advanced Player's Guide 223)</p><h3><b>Source: </b></h3>AP 59",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372222,
+    "modifiedTime": 1665949138648,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

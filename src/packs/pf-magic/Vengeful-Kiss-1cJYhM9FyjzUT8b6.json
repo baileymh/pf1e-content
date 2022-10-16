@@ -3,7 +3,7 @@
   "name": "Vengeful Kiss",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 deadlyUM whip is made of b raided black and yellow leather cords, and is as strong as a silk rope. The bearer of a vengeful kiss can activate the weapon as a standard action to make it stretch up to 50 feet long or retract to normal whip length (although it cannot be used to attack when greater than its normal length). Once per day, a creature wielding the whip can use invigorateAPG .<br><p><b>Base Item:</b> +1 deadly whip</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate rope, inflict light wounds, invigorateAPG</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371668,
+    "modifiedTime": 1665949138117,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

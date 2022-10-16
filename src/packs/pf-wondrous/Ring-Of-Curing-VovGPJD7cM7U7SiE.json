@@ -3,7 +3,7 @@
   "name": "Ring Of Curing",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple copper ring is a boon to those who spend their lives healing others. Whenever the wearer of a ring of curing casts a conjuration spell of the healing subschool, all maximums to the level-dependent healing provided by that spell increase by 2. For example, cure light wounds would provide a maximum healing of 1d8 + 7 (at 7th caster level), while heal would cure a maximum of 170 points of damage. This ring does not increase the wearer's actual caster level, nor the amount of level-dependent healing provided by any such spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, Heighten Spell, consecrate</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407155,
+    "modifiedTime": 1665949169448,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

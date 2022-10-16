@@ -3,7 +3,7 @@
   "name": "Mantle Of Spores",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This mantle grants the wearer a +4 resistance bonus on saving throws against disease. Once per day, the wearer can flourish the cape as a swift action to surround himself with a cloud of deadly spores. Creatures adjacent to the wearer take 1d6 points of damage from the spores, plus 1d3 points of damage per round for 3 rounds as the spores grow into fuzzy green mold. After these rounds the mold becomes harmless, and can be washed away with a minute of scrubbing. The spores can be destroyed by making a DC 15 Heal check on an affected creature, or by effects that remove diseases. The spores are a disease effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, contagion</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409190,
+    "modifiedTime": 1665949171318,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

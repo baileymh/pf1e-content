@@ -3,7 +3,7 @@
   "name": "Bathing Basin",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy bronze bowl, etched with outlines of waves, feels cool to the touch. Once per day as a standard action, the bowl can be commanded to grow in size and fill with 25 gallons of cool, fresh water. In its enlarged state, the basin can accommodate a Medium or smaller creature. The basin remains enlarged for 1 hour or until the user commands it to shrink. All water in the basin disappears when the item shrinks, and any creatures or objects that don't fit in the shrunken bowl are expelled into an adjacent square.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create water, shrink item</p><h3><b>Source: </b></h3>Inner Sea Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406079,
+    "modifiedTime": 1665949168386,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

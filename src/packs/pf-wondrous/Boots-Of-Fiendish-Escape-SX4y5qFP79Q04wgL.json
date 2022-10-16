@@ -3,7 +3,7 @@
   "name": "Boots Of Fiendish Escape",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pair of supple, leather-heeled boots can be worn comfortably whether the wearer has feet or hooves. The wearer can use fog cloud once per day by clicking the boot's heels together as a swift action. If the wearer is a tiefling, he can simultaneously teleport up to 1,000 feet as per dimension door.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Quicken Spell, dimension door, fog cloud, creator must be a tiefling</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406705,
+    "modifiedTime": 1665949168960,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

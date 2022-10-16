@@ -3,7 +3,7 @@
   "name": "Liquid persuasion",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Liquid persuasion</h3><p><strong>Source</strong> <em>Alchemy Manual pg. 9</em></p><p><strong>Price</strong> 120 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 11</p><p><strong>Onset</strong> 10 minutes; <strong>Frequency</strong> 1/minute for 5 minutes</p><p><strong>Effect</strong> 1 Wis damage, and for the duration of the poison, the next time the victim’s attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim’s attitude also shifts one additional step. For example, if the victim’s attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)</p><p><strong>Cure</strong> 1 save</p><h3 class=\"framing\">Alchemical Recipe<h3><p><strong>Recipe</strong> (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; <strong>Craft</strong> DC 11</p><p><strong>Time</strong> 1 day; <strong>Tools</strong> retort; <strong>Type</strong> poison</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366785,
+    "modifiedTime": 1665949134719,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

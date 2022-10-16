@@ -3,7 +3,7 @@
   "name": "Thanatotic Plate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jet-black +3 unrighteousUE full plate is made in the image of the armor worn by thanatotic titansB2 and grants the wearer a fragment of their immense power. The wearer of thanatotic plate gains SR 21 against divine spells. In addition, the wearer can speak a command word to gain the benefits of air walk, break enchantment, or spell turning once per day each. Once per week, the wearer can use greater planar ally to call upon a tarry demodandB3.  A newly created set of thanatotic plate always includes a thanatotic visage (see below); this is included in the price and weight. A set of thanatotic plate missing its visage has its price reduced by that of the visage.  A nonevil character who dons thanatotic plate immediately gains 4 negative levels; these negative levels can't be removed or ignored, but they disappear when the armor is removed.<br><p><b>Base Item:</b> +3 unrighteous full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, air walk, break enchantment, breath of life, greater planar ally, heal, spell turning, unholy aura</p><h3><b>Source: </b></h3>Book of the Damned",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372400,
+    "modifiedTime": 1665949138832,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

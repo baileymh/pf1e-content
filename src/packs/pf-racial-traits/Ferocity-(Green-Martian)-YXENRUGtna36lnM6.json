@@ -3,7 +3,12 @@
   "name": "Ferocity (Green Martian)",
   "type": "feat",
   "img": "systems/pf1/icons/races/lizardfolk.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.T6hXytdkRwdAtTfu"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Green Martian&nbsp;</p>\n<hr />\n<p>If the hit points of a green Martian fall below 0 but it is not yet dead, it can continue to fight. It it does, it is staggered, and loses 1 hit point each round. It still dies when its hit points reach a negative amount equal to its Constitution score.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.T6hXytdkRwdAtTfu"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383877,
+    "modifiedTime": 1665949148183,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

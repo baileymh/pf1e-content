@@ -3,7 +3,7 @@
   "name": "Cleats",
   "type": "equipment",
   "img": "icons/equipment/feet/boots-leather-engraved-brown.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 89</em>, <em>Adventurer's Armory pg. 19</em>, <em>Advanced Player's Guide pg. 185</em>, <em>Pathfinder #51: The Hungry Storm pg. 67</em><br/><strong>Price</strong>  5 gp; <strong>Weight</strong>  2 lbs.<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>Cleats reduce the penalty for walking over slick surfaces by 50%. For example, walking across ice normally costs 2 squares of movement (1 square plus a 1 square penalty) for every square of movement, but with cleats it costs only 1.5 squares for every square. Cleats cause damage to any type of finished flooring. They may supplement another outfit.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366827,
+    "modifiedTime": 1665949134746,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

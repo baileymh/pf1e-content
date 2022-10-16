@@ -3,7 +3,7 @@
   "name": "Screaming Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 longsword contains the hideous captured screams of a torture victim. The blade howls these blasphemies and profanities whenever it is drawn. This discordant noise grants the wielder a +5 competence bonus on Intimidate checks, but any creature can hear the howls with a Perception DC of -10, regardless of the wielder's Stealth.  The disturbing noise makes it difficult for nearby creatures to concentrate. Any creature other than the wielder within 60 feet attempting to cast a spell must succeed at a concentration check (DC = 15 + spell level) or the spell fails. Creatures within 60 feet take a -2 penalty on skill checks that require concentration and are unable to take 10 (unless they have an ability that enables them to take 10 while distracted or threatened). If the wielder is evil and has the bardic performance ability, she can use the screams as a masterwork instrument for either Perform (sing) or Perform (wind) and the DCs of her bardic performances that are fear effects increase by 1.  Silence and similar effects suppress all the blade's magical abilities except its enhancement bonus.<br><p><b>Base Item:</b> +2 longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, sound burst, creator must be evil and torture a sentient creature during creation</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372885,
+    "modifiedTime": 1665949139290,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

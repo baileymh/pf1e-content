@@ -3,7 +3,7 @@
   "name": "Banner Of Tactical Command",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brightly colored banner measures 2 feet by 4 feet in size, and is mounted on an 8-foot-long pole of spiraled gold and ivory. When the commander of an army engaged in mass combat displays this banner, the army under her command is treated as knowing one additional tactic. The granted tactic must be selected at the time of the banner's creation and cannot be changed. The army must be able to see the banner in a given phase of mass combat to receive the bonus; a banner is considered obscured in conditions of darkness, fog, and sandstorms. If the commander is killed or captured, the banner ceases to function, even if it remains visible in the commander's absence. A commander may have a number of banners in effect equal to her Charisma modifier; if more banners are displayed than her Charisma modifier allows, roll randomly each round to determine which banners' abilities are suppressed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, tactical insight</p><h3><b>Source: </b></h3>Quests and Campaigns",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409135,
+    "modifiedTime": 1665949171280,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

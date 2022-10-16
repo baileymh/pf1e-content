@@ -3,7 +3,7 @@
   "name": "Braid Of A Hundred Masters",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elaborate braid is made of strands of hair from a hundred martial arts masters. If the wearer has levels in monk, his fast movement and unarmed damage are treated as a monk of 3 levels higher. If the character is not a monk, he gains the fast movement and unarmed damage of a 3rd-level monk. This fast movement functions just like the monk's fast movement class feature. These bonuses do not stack with those granted by other items or effects. In addition, as a swift action three times per day, a character with the flurry of blows class feature can use the Braid of a Hundred Masters to apply 1-1/2 times his Strength bonus on damage rolls for successful attacks made with flurry of blows. This ability must be activated before the damage from the attack is rolled, though it may be activated after the attack roll is made and before the damage roll. Once this ability is activated, its effect lasts for 1 round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, longstrider, stone fist (Advanced Player's Guide 247)</p><h3><b>Source: </b></h3>PFS S3-13",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406035,
+    "modifiedTime": 1665949168350,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

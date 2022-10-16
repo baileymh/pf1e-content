@@ -3,7 +3,7 @@
   "name": "Robe Of Needles",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dark, hooded robe has six long, silvery, razor-sharp needles protruding from the bottom of its loose sleeves, three on each side. The wearer can launch one needle as a ranged touch attack. The needle counts as a thrown weapon with a range increment of 10 feet. If the needle hits, it embeds itself in the target's flesh, dealing 1 point of piercing damage and 1 point of bleed damage. A creature can pull out the needle as a full-round action, which ends the bleed effect. The needle is destroyed if an attack with it misses or when it is removed from a creature it was embedded in. The robe regrows all spent needles each morning.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408626,
+    "modifiedTime": 1665949170796,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

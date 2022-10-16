@@ -3,7 +3,7 @@
   "name": "False Coin",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The possessor activates this well-worn gold coin by rubbing it between her thumb and forefinger while willing it to function. The false coin can be activated only by creatures with the Psychic Sensitivity feat or the ability to cast psychic spells. Once activated, the coin maintains a link to the creature that activated it, and if passed along to someone else, it shares empathic cues about its new possessor with the creature that activated it. This empathic link gives the activator a +2 insight bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against the coin's current possessor. In addition, the possessor takes a -1 penalty on saving throws against spells with the emotion, fear, or scrying descriptors cast by the coin's activator. While activated, the coin appears nonmagical as though protected by magical aura (Will DC 11).  The link between the activator and the coin persists for 1 week, after which the coin loses all of its powers and becomes a mundane coin.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect thoughts, magic aura</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404724,
+    "modifiedTime": 1665949167223,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

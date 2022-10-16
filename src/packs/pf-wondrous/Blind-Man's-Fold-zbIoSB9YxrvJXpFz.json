@@ -3,7 +3,7 @@
   "name": "Blind Man's Fold",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Fashioned from a scrap of a blind beggar's clothing, a blind man's fold is often used by explorers who must traverse caves inhabited by invisible creatures, or those drawn to sources of light. A blind man's fold fully obscures normal vision while worn, but grants the effects of the Improved Blind-Fight feat (Advanced Player's Guide 162). Creatures which are unable to see normally gain no benefit from wearing a blind man's fold.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Improved Blind-Fight, darkness</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410512,
+    "modifiedTime": 1665949172511,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

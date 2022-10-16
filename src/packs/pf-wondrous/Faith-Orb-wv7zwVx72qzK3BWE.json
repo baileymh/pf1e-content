@@ -3,7 +3,7 @@
   "name": "Faith Orb",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brass orb is a bit larger than a human fist. It's covered with symbols of goodness and law and thick studs. If used as an improvised weapon, it deals 1d6 points of bludgeoning damage and serves as a good weapon for the purpose of overcoming damage reduction.  The faith orb is activated when a special stud is depressed, usually marked by a different color metal. Activating the orb is a standard action, though the orb may be thrown as a ranged touch attack (10-foot range increment) as part of the same action used to activate it. At the end of the action or when it hits its target, it triggers a flame strike centered on the orb. Creatures caught in the blast area suffer 9d6 damage as the spell (Reflex DC 17 half). The faith orb is consumed in the process.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, flame strike</p><h3><b>Source: </b></h3>PFS S5-13",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410356,
+    "modifiedTime": 1665949172394,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

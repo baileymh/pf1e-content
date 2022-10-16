@@ -3,7 +3,7 @@
   "name": "Frost-Thunder Hammer",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This oversized +2 warhammer is forged from blue steel and engraved with Abyssal runes that read, There are no screams for those who die the frozen death. A frost-thunder hammer is sized for giants; it is a two-handed weapon for Medium-sized creatures, who take a -2 penalty on attack rolls for wielding an oversized weapon.  Once per day as a ranged touch attack, the wielder of a frost-thunder hammer can slam the weapon against the ground to release a crackling bolt of ice that shoots across the ground toward a single target up to 100 feet away. On a successful hit, the ice immediately freezes around the target, trapping it within a 9-inch-thick solid block of pale blue ice. The ice blocks line of effect to the entrapped victim, who is helpless (but can still breathe) and takes 9 points of cold damage per round until freed. The ice has hardness 0 and 27 hit points; if the ice is broken, the creature is freed. A creature can break the ice as a full-round action with a successful DC 24 Strength check.<br><p><b>Base Item:</b> +2 warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, icy prisonUM</p><h3><b>Source: </b></h3>AP 69",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372498,
+    "modifiedTime": 1665949138956,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

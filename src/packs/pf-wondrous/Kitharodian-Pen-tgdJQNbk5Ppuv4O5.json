@@ -3,7 +3,7 @@
   "name": "Kitharodian Pen",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Kitharodian pen is an ink pen that produces its own ink and never needs to be refilled. The user or last person to touch the pen can speak a command word to cause it to begin taking dictation, recording all words audible from its square. The pen has a Perception modifier of +0 and can write in all languages but does not translate or enable its user to read what it has written. If held in hand, the user can relax while the pen writes, seeming to be taking the dictation, but the pen ceases to move of its own accord as long as the user intentionally attempts to control its movements. The pen writes as quickly as the words are spoken, but if multiple creatures speak over each other, each speaker must attempt a Charisma check each round and the pen transcribes only the words of the speaker with the highest result. A different command word causes the pen to cease writing. The pen transcribes for up to 1 hour per day in 10-minute increments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disguise self, unseen servant</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409843,
+    "modifiedTime": 1665949171924,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

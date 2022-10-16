@@ -3,7 +3,7 @@
   "name": "Seeking Lens",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This telescope is adjustable as a full-round action, allowing magnifications anywhere from x2 to x250. The user gains a +5 competence bonus on Knowledge (geography) and Perception checks when using the device to study planets, stars, and other celestial bodies.  As a full-round action, the user can press the two lenses together, compressing the device to a small assayer's lens small enough to occupy the eyes slot. In this form, the lens grants a +5 competence bonus on Appraise checks, Perception checks, and Survival checks to follow tracks. Once per week, after studying the possessions or tracks of a creature, the wearer may designate that creature as his quarry. This functions as the ranger's quarry ability. If the wearer already has the quarry ability, the lens instead allows him to designate a creature as his quarry even if it is not one of his favored enemies.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, clairaudience/clairvoyance, true</p><h3><b>Source: </b></h3>AP 131",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404729,
+    "modifiedTime": 1665949167227,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

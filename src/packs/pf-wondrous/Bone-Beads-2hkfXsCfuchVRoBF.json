@@ -3,7 +3,7 @@
   "name": "Bone Beads",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bracelet of tiny carved skulls allows its wearer to command up to 8 HD worth of mindless undead creatures as the command undead spell. It is a standard action to establish control over an undead creature, and a free action to relinquish control. If the wearer attempts to control more than 8 HD of undead, the new creatures fall under the wearer's control, and any previously controlled undead in excess of this amount become uncontrolled.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, command undead</p><h3><b>Source: </b></h3>AP 48",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403522,
+    "modifiedTime": 1665949166020,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

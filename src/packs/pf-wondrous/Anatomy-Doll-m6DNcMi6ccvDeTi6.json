@@ -3,7 +3,7 @@
   "name": "Anatomy Doll",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stuffed rag doll might resemble a child's toy if not for the vital organs depicted on its cloth. By dabbing the doll with a few drops of blood from a living creature (a standard action), the bearer can form a sympathetic link between the doll and the victim. If the chosen victim has spell resistance, the doll must beat the target's spell resistance to create the link. As a standard action, the bearer can twist or stab the doll; this gives the target the sickened condition for one round and deals 1 point of negative energy damage plus 1 point for each die of the doll bearer's sneak attack damage (if any). Each time the target is affected by the doll, it receives a DC 14 Will save to end the link. The doll's holder needs line of effect to the victim, but not line of sight. Once linked to a particular creature, an anatomy doll cannot be linked to another creature, but the bearer can re-establish a broken link by anointing it with more of the target's blood.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, bleed</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409029,
+    "modifiedTime": 1665949171203,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Bastard's Sting",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 adamantine bastard sword becomes a +5 unholy adamantine bastard sword in the hands of an antipaladin.  While wielded by an antipaladin, a bastard's sting deals 2d6 points of negative energy damage to all living creatures that start their turn adjacent to the wielder. The antipaladin also gains fast healing 5 as long as at least one living creature takes damage from this negative energy. This negative energy has no effect on undead. The sword also enables the antipaladin to use unholy blight at will on command at the class level of the antipaladin. Paladins take a -2 saving throw penalty against this effect.<br><p><b>Base Item:</b> +2 adamantine bastard sword|+5 unholy adamantine bastard sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, unholy aura, unholy blight, creator must be evil</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372338,
+    "modifiedTime": 1665949138777,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

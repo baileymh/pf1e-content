@@ -3,7 +3,7 @@
   "name": "Beast-Bond Brand",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sticky henna paste is used to stamp a rust-colored handprint onto the body of a familiar or animal companion, and a hoof, claw, or paw print from that creature onto its master. These brands demonstrate a bond of friendship and balance, not ownership and subservience. Applying the brand requires a full-round action each for master and companion. The brand enhances the share spells ability of druids, wizards, and other classes with animal companions or familiars, allowing these characters to cast spells with a range of personal or touch on the marked companion at a range of 30 feet, provided the character has line of effect to the creature. Each spell cast at range in this way drains one charge from the beast-bond brand for each spell level of the spell cast. A newly applied beast-bond brand has 10 charges. When all charges are consumed, the brand vanishes. For the purposes of teleportation spells and effects, the master may treat a marked companion as an object or a creature, whichever is more favorable (weight restrictions still apply).  A character may have only one creature marked in this way at any time. The brand lasts until all charges are expended or the master marks another companion in this way.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Reach Spell (Advanced Player's Guide), creator must have an animal companion or familiar</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408546,
+    "modifiedTime": 1665949170746,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

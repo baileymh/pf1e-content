@@ -3,7 +3,7 @@
   "name": "Spellstrike Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These black leather gloves are lined with soft black velveteen and have silver buckles that run from the wrist to the elbow. Three times per day, the gloves allow the wearer to treat a ranged magus spell as a spell with a range of touch, allowing him to deliver the spell with his spellstrike ability. The glove can only affect spells that normally affect one or more creatures at a range greater than touch (such as slow), not rays or other created effects. The altered spell only affects the creature attacked (any other targets normally allowed by the spell are lost).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be a magus</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409241,
+    "modifiedTime": 1665949171357,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

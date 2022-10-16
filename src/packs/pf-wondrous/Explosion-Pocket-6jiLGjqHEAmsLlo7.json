@@ -3,7 +3,7 @@
   "name": "Explosion Pocket",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An explosion pocket looks like a cloth pouch just large enough to contain a Small or Medium humanoid's hand. When placed against a shirt, vest, jacket, trousers, or similar piece of clothing, this ragged green patch attaches to the clothing, creating a loose pocket. The pocket functions as a normal pocket, but once per day the pocket's wearer can, as a standard action by speaking a command word while his hand is in the pocket, cause the pocket to create a single vial of alchemist's fire. If a vial of alchemist's fire is in the explosion pocket when it is commanded to create a vial of alchemist's fire, the pocket instead supercharges the existing vial within so that it inflicts double the normal fire damage a vial of alchemist's fire would normally inflict. An explosion pocket can be removed as a full-round action, allowing it to be placed on a different piece of clothing as the owner wishes. A vial of alchemist's fire created or supercharged by an explosion pocket reverts to a vial of inert bitter-tasting water 1 minute after it is created or supercharged.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, burning hands</p><h3><b>Source: </b></h3>Goblins Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404080,
+    "modifiedTime": 1665949166573,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

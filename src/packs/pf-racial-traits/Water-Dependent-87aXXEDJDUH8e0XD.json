@@ -3,7 +3,12 @@
   "name": "Water Dependent",
   "type": "feat",
   "img": "systems/pf1/icons/races/undine.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.FZik4DVLaz8VL00u"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Gillman&nbsp;</p>\n<hr />\n<p>A gillman's body requires constant submersion in fresh or salt water. Gillmen who spend more than 1 day without fully submerging themselves in water risk internal organ failure, painful cracking of the skin, and death within 4d6 hours. </p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.FZik4DVLaz8VL00u"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382651,
+    "modifiedTime": 1665949147099,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

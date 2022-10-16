@@ -3,7 +3,7 @@
   "name": "Hand of Abendego",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This nearly perfect pearl replica of a hand is attached to a gold chain and can be worn as an amulet. Once per day, the wearer can animate the hand as an immediate action. The hand attempts to grapple an adjacent foe of Medium size or smaller, using the wearer's CMB. If it succeeds, the hand deals 1d4 non-lethal damage every round it maintains a grapple. If the grapple attempt fails or the victim escapes the grapple, the hand ceases its activity. If any creature within reach of the amulet (including the wearer) attempts to steal anything, the hand activates and attempts to choke the creature. If the amulet is not currently worn, it uses the victim's own CMB and Strength to determine the attack bonus and damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, interposing hand</p><h3><b>Source: </b></h3>AP 27",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404754,
+    "modifiedTime": 1665949167249,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

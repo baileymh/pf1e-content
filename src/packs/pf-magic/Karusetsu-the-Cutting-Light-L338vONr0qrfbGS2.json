@@ -3,7 +3,7 @@
   "name": "Karusetsu, the Cutting Light",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This exquisitely detailed +3 nodachi (Ultimate Combat 133) comes sheathed in a black-lacquered scabbard with gold filigree. Its hilt is wrapped in red dragonhide, and a single golden feather hangs from the pommel. Karusetsu enables its wielder to execute a flourishing slash three times per day in the direction of a single distant opponent (i.e., one not already engaged in melee combat with the wielder) up to 60 feet away. This flourishing slash projects a plane of scintillating force across the intervening distance, functioning as a ranged attack with a thrown weapon using the wielder's highest base attack bonus. On a successful hit, the blade's cutting light deals 4d6+3 points of force damage to the target, with a threat range of 18-20 and a critical multiplier of x2. In addition, a creature struck by the cutting light must succeed at a DC 14 Reflex save or be blinded for 1d4 rounds.<br><p><b>Base Item:</b> +3 nodachi</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mage's sword, searing light</p><h3><b>Source: </b></h3>AP 54",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372194,
+    "modifiedTime": 1665949138628,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

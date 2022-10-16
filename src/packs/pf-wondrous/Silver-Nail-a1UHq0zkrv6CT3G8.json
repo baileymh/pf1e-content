@@ -3,7 +3,7 @@
   "name": "Silver Nail",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silver nail is finely engraved with hundreds of tiny runes that flash faintly blue under the light of the moon. The nail can be used to trap evil outsiders and incorporeal undead creatures to prevent their escape. To use a silver nail, the bearer must take a full-round action and succeed at a touch attack against a creature.  When used against a helpless or pinned evil outsider, the bearer can prevent that creature from escaping as per dimensional anchor.  The bearer can instead trap an incorporeal undead creature. If he succeeds at a touch attack, the nail prevents the incorporeal undead creature from moving into walls or other solid objects.  The effects of the silver nail last 1 minute, during which the nail remains inside the creature. When this duration ends, the nail falls out and is forever rendered powerless. If used against a creature that is neither an outsider nor an incorporeal undead creature, the silver nail has no effect, but is still expended.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dimensional anchor, plane shift</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407376,
+    "modifiedTime": 1665949169629,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Adyton",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.sw9Bue8kWv5bMbVb"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Book of the Damned pg. 183</em></p>\n<p><strong>Type</strong> contact;<strong> Addiction </strong>major, Fortitude DC 20</p>\n<p><strong>Price </strong>2000 gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the mindscape called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.</p>\n<p><strong>Damage </strong>1d4 Str damage</p>\n<p>The drug adyton is central to Mahathallah&rsquo;s worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.sw9Bue8kWv5bMbVb"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368126,
+    "modifiedTime": 1665949135869,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

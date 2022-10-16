@@ -3,7 +3,7 @@
   "name": "Detonator",
   "type": "equipment",
   "img": "icons/commodities/tech/detonator-radio.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 43</em></p><p><strong>Price</strong> 500 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 1 lb.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge</p><h2 class=\"framing\">Description</h2><p>A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet- though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a signal booster (see page 51).</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 23; <strong>Cost</strong> 250 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387726,
+    "modifiedTime": 1665949152082,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

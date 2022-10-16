@@ -3,7 +3,7 @@
   "name": "Howling Skull Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This suit of +3 studded leather armor is decorated with metal skulls. Once per day as a standard action, the wearer can command the skulls to unleash a cacophonous chorus of howls, causing all creatures within a 30-foot spread to make a DC 16 Will save to avoid becoming frightened for 1d4 rounds. The wearer can choose up to three targets (plus himself) in the area of effect to be exempt from the effect. The wearer of a suit of howling skull armor gains a +4 bonus on all saving throws against fear effects. Each time the wearer of howling skull armor succeeds at a saving throw against a fear effect created by someone other than himself, he gains a +2 bonus on Will saves for 1 round.<br><p><b>Base Item:</b> +3 studded leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fear</p><h3><b>Source: </b></h3>AP 59",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371889,
+    "modifiedTime": 1665949138317,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

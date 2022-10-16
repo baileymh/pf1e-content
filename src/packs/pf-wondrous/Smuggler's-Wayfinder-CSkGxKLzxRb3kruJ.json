@@ -3,7 +3,7 @@
   "name": "Smuggler's Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This time-weathered wayfinder lacks any notable features. Despite its routine appearance, a smuggler's wayfinder has an additional ability generally known only to the person using it. When a command word is spoken, the compass's interior is replaced with a small extradimensional space that can hold up to 10 pounds of material occupying no more than 1 cubic foot of space. This material must be able to fit through the 3-inch-diameter opening in the compass's face (such as a thin glass vial, coins, small jewelry, or a rolled-up piece of paper). While the extradimensional space is accessible, all other properties of the wayfinder cease to function, including any resonant ioun stone powers. While the extradimensional space is hidden, the smuggler's wayfinder emits an aura of faint evocation, as a standard wayfinder.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, light, magic aura, secret chest</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404663,
+    "modifiedTime": 1665949167173,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

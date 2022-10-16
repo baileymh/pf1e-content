@@ -3,7 +3,7 @@
   "name": "Figurine of Wondrous Power (emerald frog)",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This figurine of wondrous power appears as a small, innocuous frog carved of cloudy emerald. On command, it transforms into either a giant frog with the advanced template or 3 poisonous frogs-the user makes this choice at the time of activation. The frog (or frogs) can be animated up to 3 times per week, for a maximum total duration of 12 hours per week. If the advanced giant frog is slain, the emerald frog cannot be activated again for 1 full week. Each poisonous frog that is slain in combat reduces the total duration that the figurine can be activated for the week by 4 hours. Either the giant frog or the poisonous frogs can be used as combatants or as small, unintelligent servant-creatures, performing minor tasks or fetching small objects. The giant frog can be used by Small or smaller creatures as a makeshift mount, although it is not equipped with a saddle or similar equipment, and its slick hide imposes an additional -4 penalty on Ride attempts.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects</p><h3><b>Source: </b></h3>AP 34",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406704,
+    "modifiedTime": 1665949168960,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

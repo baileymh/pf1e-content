@@ -3,7 +3,7 @@
   "name": "Mariner's Eye Patch",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pirate's eye patch typically features at least one jewel set into a leather patch. Upon uttering a command word as a standard action, the eye patch allows the wearer to use the following abilities once per day each: comprehend languages, scorching ray, and see invisibility. The mariner's eye patch originally appeared on page 73 of Necromancer Games' Dead Man's Chest.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, comprehend languages, scorching ray, see invisibility</p><h3><b>Source: </b></h3>AP 59",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408446,
+    "modifiedTime": 1665949170668,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

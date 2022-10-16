@@ -3,7 +3,12 @@
   "name": "Harlot Sweets",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.vu40guH43JFfrtWf"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Rival Guide pg. 53</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 18</p>\n<p><strong>Price </strong>60&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect </strong>1 hour;<strong> </strong>&nbsp;+1d4 Cha and +1 Dex</p>\n<p><strong>Damage </strong>1d2 Int damage</p>\n<p>These amber-colored lozenges instill within the user a slightly increased agility and enhance both physical beauty and speech. So named for the fact that prostitutes often abuse the drug, harlot sweets are gaining popularity among certain circles in the aristocracy as well.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.vu40guH43JFfrtWf"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367666,
+    "modifiedTime": 1665949135499,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

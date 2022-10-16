@@ -3,7 +3,7 @@
   "name": "Hero's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The pommel of this ornate +2 longsword is made to look like a coiled golden dragon with six small diamond scales running down its back. When made, this sword holds 6 hero points. The wielder can use these points at any time, and they do not count against the wielder's maximum. As the hero points are used, the small diamonds on the dragon's back turn into coal. After the last hero point has been used, the hero's blade remains a +2 longsword.<br><p><b>Base Item:</b> +2 longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, heroic fortune</p><h3><b>Source: </b></h3>APG",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373059,
+    "modifiedTime": 1665949139430,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

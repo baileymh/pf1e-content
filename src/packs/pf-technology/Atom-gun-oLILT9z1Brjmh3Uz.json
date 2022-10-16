@@ -3,7 +3,7 @@
   "name": "Atom gun",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 144,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 24 lbs.</p><p><strong>Damage</strong> Special (small), Special (medium); <strong>Damage Type</strong> Special; <strong>Critical</strong> -</p><p><strong>Range</strong> 40-ft. cone; <strong>Capacity</strong> -; <strong>Usage</strong> -; <strong>Special</strong> Scatter, slow-firing, touch</p><h2 class=\"framing\">Description</h2><p>An atom gun is a cruel weapon that harnesses the devastating energies of a miniaturized nuclear reactor to create a focused cone of radiation that blasts and sickens those caught in the beam. An atom gun's range is relatively short, and the weapon can fire only scattering shots (<em>Pathfinder RPG Ultimate Combat</em> 137). The beams of radiation created when the wielder fires an atom gun do not fill the cone in a homogeneous area, and she must still make a ranged touch attack to irradiate a target. A creature struck by an atom gun attack suffers the effects of medium radiation (see page 55). The small core of radioactive material in an atom gun is powerful enough to keep the weapon charged for tens of thousands of years, but the weapon becomes incredibly hot when fired, dealing 1d6 points of damage to the user and subsequently beginning a cool-down protocol, during which the weapon cannot be fired for 1 minute.</p><p></p><p> An atom gun cannot be fired more than 3 times per day. A functional atom gun's power source is shielded well, and the gun itself is not a source of dangerous radioactivity. If an atom gun gains the broken condition, it begins to leak radiation and becomes a source of low radiation to all creatures that touch it. An atom gun that gains the destroyed condition becomes a source of high radiation to those in contact with it, a source of medium radiation to those within 10 feet of it, and a source of low radiation to those within 30 feet of it.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 35; <strong>Cost</strong> 72,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -207,6 +212,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -300,8 +306,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387881,
+    "modifiedTime": 1665949152219,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

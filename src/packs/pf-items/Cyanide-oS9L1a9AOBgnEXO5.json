@@ -3,7 +3,7 @@
   "name": "Cyanide",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Cyanide</h3><p><strong>Source</strong> <em>Heroes of the Darklands pg. 31</em></p><p><strong>Price</strong> 4,000 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 20</p><p><strong>Onset</strong> 1 minute; <strong>Frequency</strong> 1/round for 6 rounds</p><p><strong>Effect</strong> 1d4 Con damage, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain. Cyanide’s unique metal-extracting properties make it effective against elementals with the earth subtype, despite their natural immunity to other poisons.</p><p><strong>Cure</strong> 2 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>This potent toxin is used by both drow and duergar to extract gold from ore and to eliminate political enemies. Cyanide poisoning usually manifests as bright red flushing of the skin, even more noticeable in pallid creatures like derros and duergar.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367794,
+    "modifiedTime": 1665949135603,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

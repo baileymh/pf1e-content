@@ -3,7 +3,7 @@
   "name": "Bag Of Endless Holding",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This appears to be a common cloth sack about 2 feet by 4 feet in size. However, it opens into a nondimensional space far larger than its outside dimensions. It acts as a bag of holding (type I), but retrieving an item from the bag does not provoke an attack of opportunity.  12th Level: The bag's capacity and weight increase as a bag of holding (type II).  14th Level: The bag's capacity and weight increase as a bag of holding (type III).  15th Level: The bag's capacity and weight increase as a bag of holding (type IV).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, secret chest</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410414,
+    "modifiedTime": 1665949172434,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

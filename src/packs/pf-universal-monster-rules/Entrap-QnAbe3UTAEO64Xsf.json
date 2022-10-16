@@ -3,7 +3,7 @@
   "name": "Entrap",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature has an ability that restricts another creature&rsquo;s movement, usually with a physical attack such as ice, lava, mud, or webs. The target of an entrap attack must succeed at a Fortitude save or become entangled for the listed duration. If a target is already <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"WH3Hop5fUDUzVUVg\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">entangled</span></a> by this ability, a second entrap attack means the target must succeed at a Fortitude save or become <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"g84rPrlfDnkUopAa\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">helpless</span></a> for the listed duration. The save DCs are Constitution-based. A target made helpless by this ability is conscious but can take no physical actions (except attempting to break free) until the entrapping material is removed. The target can use spells with only verbal components or spell-like abilities if it succeeds at a DC 20 concentration check. An entangled creature can attempt a Strength check (at the same DC as the entrap saving throw DC) as a full-round action to break free; the DC for a helpless creature is 5 greater. Destroying the entrapping material frees the creature.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: entrap (DC 13, 1d10 minutes, hardness 5, hp 10);</p>\n<p><em>Location</em>: Location: Special Attacks and individual attacks.</p>\n<p><em>Usage:&nbsp;</em>Replace DC and duration</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -201,8 +206,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402480,
+    "modifiedTime": 1665949165218,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

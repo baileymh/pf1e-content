@@ -3,7 +3,7 @@
   "name": "Kyton Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rusty iron ring looks like a twisted chain. On command, the ring can produce a rusty, clanky length of iron chain (hardness 10, 5 hp, break DC 26). The ring can create no more than 100 feet of chain in this way. This total length can be split among many uses, but must be spent in 10-foot increments. When the ring's daily allotment of chain is renewed, any previously conjured chain rusts away. Once per day as a standard action, the user can shoot a chain from the ring as though it were a grappling hook, except the range increment is 50 feet. Whatever length of chain she shoots out counts against ring's daily allotment.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, major creation</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409145,
+    "modifiedTime": 1665949171287,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Investigator's Pipe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This long-stemmed, wooden pipe can burn any number of substances, but is primarily used for smoking tobacco. The pipe smoker can command a small, smoky servant to emerge from the pipe to do minor tasks. The servant can move or fetch small objects, and in general acts as an unseen servant, except that it is visible as a small, wispy cloud of gray smoke. Additionally, the servant is capable of clearing one 5-foot square of smoke or fog per round. The servant can be used for up to 1 hour per day; this time doesn't need to be continuous, but must be used in 10-minute increments.  An investigator gains some additional benefits while smoking the pipe. He can use inspiration on Survival checks to track or Perception checks to notice fine details without spending a use of inspiration. Additionally, once per day he can attempt a Knowledge check as if he had the eidetic recollection investigator talent.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, guidance, unseen servant</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407897,
+    "modifiedTime": 1665949170143,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

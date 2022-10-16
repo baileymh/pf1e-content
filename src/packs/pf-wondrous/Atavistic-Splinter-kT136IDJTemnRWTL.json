@@ -3,7 +3,7 @@
   "name": "Atavistic Splinter",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sheet of charred bark is 2 feet long, 10 inches wide, and 1 inch thick. The Atavistic Splinter imbues its owner with a primal authority over beasts, providing a +4 insight bonus on wild empathy checks.  Once each day, the owner can touch the Atavistic Splinter to a humanoid creature to force an animalistic transformation. Using this ability against an unwilling target requires a melee touch attack. A target touched by the Atavistic Splinter must succeed at a DC 16 Fortitude save or acquire the bestial simple template (see below) for 24 hours. After this period, the target must succeed at a DC 14 Fortitude save or retain the template for an additional 24 hours, except the Intelligence and Charisma ability score penalties from the template each increase to -4. Each day it retains the template, the target must attempt another Fortitude save; on each successive day, the Fortitude save DC decreases by 2, and the Intelligence and Charisma penalties increase by 2. These penalties can't reduce either ability score below 2. This effect can't be dispelled, but can be removed with break enchantment, limited wish, miracle, remove curse, or wish. If the target's Intelligence and Charisma scores both reach 2 as a result of this effect, the template becomes permanent and can't be removed except with miracle or wish. A target that succeeds at a saving throw against this effect can't be affected by the Atavistic Splinter for 1 year.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dominate animal, polymorph</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408584,
+    "modifiedTime": 1665949170766,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

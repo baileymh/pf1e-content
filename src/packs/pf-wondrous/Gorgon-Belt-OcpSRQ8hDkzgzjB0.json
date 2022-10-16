@@ -3,7 +3,7 @@
   "name": "Gorgon Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This belt grants its wearer a +4 enhancement bonus to Strength, and the ability to ignore difficult terrain while charging or making an overrun, bull rush, or trample attempt. Furthermore, once per day on command, its wearer can spew a 60-foot cone of poisonous green gas as a breath weapon. Any creature caught in the area of the gas can attempt a DC 18 Fortitude saving throw to resist its effect, but if the creature fails the saving throw, it is paralyzed for 1d4 rounds. At the end of its turn, a creature petrified by this breath weapon can attempt a new save to end the paralysis effect. Treat the enhancement bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, bull's strength, feather step (Advanced Player's Guide), poison</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406148,
+    "modifiedTime": 1665949168435,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

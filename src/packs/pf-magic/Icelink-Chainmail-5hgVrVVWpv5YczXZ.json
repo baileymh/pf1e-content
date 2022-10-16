@@ -3,7 +3,7 @@
   "name": "Icelink Chainmail",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a single block of ice birthed from the breath of the great white wyrm Sjohvor, the ice-carved rings of this exquisite suit of +2 chainmail never thaw. If grappled, the wearer can command the armor to release an icy blast against the grappler. The armor then glows with a pale blue radiance, deals 4d6 points of cold damage to the target, and causes the target to be staggered for 1 round. Once the armor discharges, this ability can't be used until the armor recharges 1 hour later.  Icelink chainmail is considered light armor and has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of -3. The armor weighs half as much as standard chainmail and floats in water.<br><p><b>Base Item:</b> +2 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, frigid touchUM, wall of ice</p><h3><b>Source: </b></h3>AP 69",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371729,
+    "modifiedTime": 1665949138187,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

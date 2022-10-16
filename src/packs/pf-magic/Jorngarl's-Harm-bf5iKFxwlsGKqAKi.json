@@ -3,7 +3,7 @@
   "name": "Jorngarl's Harm",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This Large +2 keen vorpal greataxe has an adamantine haft and a chipped, pitted guillotine blade instead of a curved axehead. Obviously made for a giant's hands, the axe laughs evilly whenever it kills. Like the final blades of Galt, any creature killed by it (whether from decapitation or simple damage) finds its soul trapped within the blade, and it cannot be raised from the dead while so trapped. Presumably the Gray Gardeners would know how to release a soul from the blade.<br><p><b>Base Item:</b> +2 keen vorpal greataxe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, circle of death, enervation, keen edge</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372476,
+    "modifiedTime": 1665949138930,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

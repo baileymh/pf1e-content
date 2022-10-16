@@ -3,7 +3,7 @@
   "name": "Key Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This short cloak is made of gold thread spun into a pattern of interlocking key shapes. The cloak grants the wearer a +1 shield bonus to AC. As a move action, the wearer can activate the cloak, which instantly produces enough keys to wrap the wearer in a dome-shaped shield of hardened metal, protecting the wearer as if he were carrying a tower shield with which he is proficient. While using this ability, the wearer can take no other actions (other than adjusting which direction the effective tower shield is considered to be facing) and is immobile. The wearer can remain in this form indefinitely, but resting in this form is equivalent to resting in heavy armor. The dome of keys can be dismissed as a swift action, and it automatically vanishes if the cloak is removed.  Once per day, the cloak can also create a single special skeleton key as a standard action. This skeleton key can be tried on any one lock that uses a key, even if you aren't trained in the Disable Device skill. You use the key's Disable Device bonus of +15 rather than your own; you cannot take 10 when using a skeleton key. You can only attempt to open a particular lock with the skeleton key once. If the roll fails, the key is unable to open or close that lock. The key lasts for 1 hour and can be used on only a single lock during that time.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, knock, stoneskin</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407756,
+    "modifiedTime": 1665949170027,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

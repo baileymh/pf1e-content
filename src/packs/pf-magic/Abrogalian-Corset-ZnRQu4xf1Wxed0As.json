@@ -3,7 +3,7 @@
   "name": "Abrogalian Corset",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Devised by Her Infernal Majestrix, Abrogail I, this +3 studded leather armor is lavishly adorned with a bound swarm of hellwasps. Once ranking among the most spectacular pieces of clothing in Cheliax, the discomfort caused by during the creation of this corset is as legendary as the protection it offers.  The wasps bound to the corset prevent the first 20 points of damage you take each day (resetting at midnight). Once the wasps have prevented 20 points of damage for the day, they angrily animate and swarm around you, and you must make a DC 18 Fortitude save or be nauseated for 1 round.  After 1 round of activity, the swarm then returns to the corset and goes dormant, and this ability to prevent damage does not function until it recovers at midnight.  The swarm cannot be targeted separately from the armor and cannot be killed unless the armor is destroyed (not just broken).<br><p><b>Base Item:</b> +3 studded leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, lesser planar ally, summon swarm, caster level 9th</p><h3><b>Source: </b></h3>Cheliax Empire Of Devils",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372453,
+    "modifiedTime": 1665949138910,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

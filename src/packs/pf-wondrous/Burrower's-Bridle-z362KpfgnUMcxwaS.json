@@ -3,7 +3,7 @@
   "name": "Burrower's Bridle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This metal-studded bridle can be attached to any creature with a burrowing speed that is made friendly or helpless. The bridle grants anyone who mounts the bridled creature a +4 competence bonus on Ride, Handle Animal, and wild empathy checks to control the bridled creature. An equipped burrower's bridle allows the user to calm and train (with Handle Animal or wild empathy) any creatures with a burrow speed and an Intelligence score of less than 3-not just animals or magical beasts. The bridle also allows a creature riding a burrowing creature to accompany it underground while it burrows, but does not grant the ability to breathe underground.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm monster, passwall</p><h3><b>Source: </b></h3>People Of The Sands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410481,
+    "modifiedTime": 1665949172485,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

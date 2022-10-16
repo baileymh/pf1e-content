@@ -3,7 +3,7 @@
   "name": "Bag Of Holding Type V",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This appears to be a rugged leather sack about 4 feet by 6 feet in size. It functions exactly the same as other types of bags of holding, but weighs more and has greater weight and volume limits, as shown on the table below.   Bag Bag Weight Contents Limit Contents Volume Limit Market Price  Type V 100 lbs. 2,500 lbs. 450 cubic ft. 12,500 gp  Type VI 150 lbs. 4,000 lbs. 800 cubic ft. 15,000 gp  Because of the larger volume of a giant-sized bag of holding, retrieving a specific item from it is always a full-round action.  Type V and Type VI bags of holding are most commonly found in use by giants and other Large creatures, but giants of Huge size or larger sometimes use even greater bags of holding.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, secret chest</p><h3><b>Source: </b></h3>AP 93",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403384,
+    "modifiedTime": 1665949165913,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

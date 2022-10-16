@@ -3,7 +3,7 @@
   "name": "Equestrian Plate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Shined to a mirror finish, this suit of +2 full plate is decorated with gold inlay. As a move action when the wearer is mounted, the plates of the armor expand and reposition to protect the wearer's mount. In this form, the armor becomes a suit of +2 banded mail for the wearer and a suit of +1 banded mail barding worn by the mount. A second move action merges it back into +2 full plate. Equestrian plate cannot transform and protect a mount more than one size larger than its wearer or a creature that cannot wear barding. It can create exotic barding, however, such as for a griffon or dragon.  If extra enhancements or spells are placed upon equestrian plate in full plate form, they affect only the wearer's armor when the suit is split. Effects on the barding are suppressed when it is merged into the armor. If either suit of armor is broken while separated, the other half immediately gains the broken condition as well. Destroying one suit destroys the other as well.  Full plate 50 lbs. Banded mail 35 lbs. Barding 70 lbs.<br><p><b>Base Item:</b> +2 full plate|+2 banded mail|+1 banded mail barding</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fabricate</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372295,
+    "modifiedTime": 1665949138727,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

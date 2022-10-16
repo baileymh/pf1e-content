@@ -3,7 +3,7 @@
   "name": "Blade Of The Ice Stalker",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1 frost keen short sword. On a confirmed critical hit, an ice shard breaks off into the wound and inflicts numbing cold. For the next 5 rounds, the victim takes 2 points of cold damage and is staggered for that round if he takes this damage. This is a bleed effect. The shard can be removed as a standard action with a successful DC 15 Heal check or with the application of any magical healing, and is destroyed instantly if the victim takes at least 5 points of fire damage from any attack. The shard lasts for only 1 round when inflicted on a creature with the fire subtype. A blade of the ice stalker can implant an ice shard once per minute.<br><p><b>Base Item:</b> +1 frost keen short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, chill metal, keen edge</p><h3><b>Source: </b></h3>Seers Of The Drowned City",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371822,
+    "modifiedTime": 1665949138266,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

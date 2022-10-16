@@ -3,7 +3,7 @@
   "name": "Split",
   "type": "feat",
   "img": "icons/commodities/materials/slime-red.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The creature splits into two identical copies of itself if subject to certain attacks or effects. Each copy has half the original&rsquo;s current hit points (rounded down). A creature reduced below the listed hit points cannot be further split and can be killed normally.</p>&nbsp;<p><em>Format</em>: split (piercing and slashing, 10 hp)</p><p><em>Location</em>: Defensive Abilities.</p>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402466,
+    "modifiedTime": 1665949165207,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

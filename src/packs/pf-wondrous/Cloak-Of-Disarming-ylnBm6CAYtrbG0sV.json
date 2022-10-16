@@ -3,7 +3,7 @@
   "name": "Cloak Of Disarming",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cloak is well crafted and stylish. As a swift action, the wearer can direct the cloak to attempt a combat maneuver check to disarm a creature within 5 feet, using the wearer's CMB. This disarm combat maneuver does not provoke attacks of opportunity. If the attempt fails, the wearer doesn't risk losing the cloak. The wearer can spend 1 panache point before making the disarm attempt to gain a +5 competence bonus on the combat maneuver check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Improved Disarm, pilfering handUC, creator must be a panache user</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410464,
+    "modifiedTime": 1665949172475,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

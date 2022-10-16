@@ -3,7 +3,7 @@
   "name": "Praenomen",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Praenomen is a two-part amulet, comprising an oval plate that covers the wearer's chest and a counterweight that hangs down the wearer's back, joined by chains. The front plate is inscribed with the cartouche of the pharaoh who is the Praenomen's master; the counterweight is shaped like a cobra to honor Wadjet, protector of Osirion and Osirion's pharaohs. The Praenomen was traditionally worn by a pharaoh's royal envoy to signify that the envoy acted in the pharaoh's name and was under her protection. It grants its benefits only to loyal subjects of its master-the pharaoh whose cartouche is inscribed upon it.  The Praenomen grants its wearer a +4 bonus on Diplomacy and Intimidate checks. Once per day, the wearer can impose a geas on another creature, compelling the target to undertake a mission for the Praenomen's master. The Praenomen also shields its wearer and other faithful subjects of the pharaoh from the pharaoh's enemies. Its wearer gains a +2 deflection bonus to Armor Class, and three times per day, the wearer can activate the Praenomen to grant the benefits of heroism to all loyal subjects of its master within 30 feet.  The Praenomen can be rededicated to a new master by replacing the front plate and engraving the name of its new master on the cartouche, requiring a successful DC 21 Craft (jewelry) check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, eagle's splendor, geas/quest, heroism, shield of faith</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408560,
+    "modifiedTime": 1665949170756,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

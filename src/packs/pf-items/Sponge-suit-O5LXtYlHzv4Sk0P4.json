@@ -3,7 +3,7 @@
   "name": "Sponge suit",
   "type": "equipment",
   "img": "icons/equipment/chest/breastplate-scale-leather.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Blood of the Sea pg. 19</em><br/><strong>Price</strong> 30 gp; <strong>Weight</strong> 2 lbs. (or 10 lbs.)<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>Outwardly, this suit of clothing appears to be an ordinary traveler's outfit, albeit cut from thicker-thannormal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.<br/><br/> It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.<br/><br/> When worn, a sponge suit doubles the amount of time a water-dependent creature can spend on dry land before it begins to take damage or suffer other negative effects. When the sponges dry, wearers must submerge themselves in water or resaturate the suit, or else they suffer the consequences of being on dry land.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366740,
+    "modifiedTime": 1665949134686,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

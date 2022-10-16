@@ -3,7 +3,7 @@
   "name": "Ruby Sapphire Of Osh-Maru",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fist-sized uncut gem looks like a human heart. One half is ruby-red with blue flecks; the other is sapphire-blue with red flecks. Five times per day when the gem is held in one hand, a spellcaster can use this item as an additional focus component when casting a spell that deals electricity or fire damage, converting up to half the spell's electricity damage to fire damage or vice versa, as if using the Elemental Spell metamagic feat. Unlike the feat, this does not alter the casting time or spell level of the spell.  In addition, when held, the gem provides the bearer resistance 20 against electricity and fire. At will as a free action, the bearer can command the Ruby Sapphire of Osh-Maru to glow as brightly as a torch with either blue or red flame, manipulate this light as if it were dancing lights, or snuff this light.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Elemental SpellAPG, resist energy</p><h3><b>Source: </b></h3>AP 95",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408335,
+    "modifiedTime": 1665949170592,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

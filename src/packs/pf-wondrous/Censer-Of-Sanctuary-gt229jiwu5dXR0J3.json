@@ -3,7 +3,7 @@
   "name": "Censer Of Sanctuary",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When a block of incense is placed inside this censer and ignited, the bearer gains the benefits of a heightened 2nd-level sanctuary spell for as long as the incense burns (1 hour per stick of incense) or until the bearer breaks the effect by attacking. Placing the incense is a move action, and igniting it is a standard action. If incense of meditation is burned instead of normal incense, the sanctuary effect is heightened to 7th level.   While lighting the censer, the bearer can expend one use of mythic power to grant the benefits of the censer's sanctuary to all allies within a 20-foot-radius emanation of the censer for 10 minutes. Allies who attack break the sanctuary effect only for themselves. The incense extinguishes 1 round after the bearer ceases to use. If incense of meditation is extinguished before 8 hours of burning, the remainder becomes normal incense.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Heighten Spell, Mythic Crafter, sanctuary</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408384,
+    "modifiedTime": 1665949170622,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Demonclaw",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Demonclaw is a +3 anarchic lawful outsider bane thundering greatsword. Demonclaw is a CN intelligent weapon with Int 11, Wis 12, Cha 16, Ego 21; can communicate by speech and telepathy; knows the languages Abyssal and Common. Demonclaw is a proud chaotic weapon, and as such either selects or rejects a bearer based on their alignment (it only accepts a chaotic bearer). The sword appears as a greatsword made of rune encrusted superior quality metal, with a hilt made from the hand of a demon, withered and dried from age. It has the primary powers of granting the wielder a spell turning ability vs. lawful outsiders only; grants the bearer use of the Improved Initiative feat; allows the bearer to rage as a barbarian of equivalent level (no rage powers gained), and has the extraordinary power of true seeing (at will). Its special purpose is to slay lawful outsiders, and each successful hit on a lawful outsider reduces the creature's natural AC by 1 point permanently. The only drawback to wielding Demonclaw is that once grasped, it bonds to the left hand of the bearer and cannot be removed by any means short of a limited wish, wish, or miracle. It also compels (DC 21 Will save to avoid) the bearer to attack immediately any lawful outsider he encounters.<br><p><b>Base Item:</b> +3 anarchic lawful outsider bane thundering greatsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/deafness, chaos hammer, protection from law, true seeing</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372484,
+    "modifiedTime": 1665949138938,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

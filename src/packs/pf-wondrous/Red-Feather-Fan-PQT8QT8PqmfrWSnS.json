@@ -3,7 +3,7 @@
   "name": "Red Feather Fan",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fan is made of copper fashioned into a dozen small feathers mounted on a ring-shaped bone handle. Once per day, the bearer can hold it and speak a command word to counterspell a darkness effect (as if using daylight) or counterspell a light effect (as if using deeper darkness). If activated in an area of overlapping light and darkness effects, the fan randomly counterspells one of them, leaving the other intact.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight, deeper darkness</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406194,
+    "modifiedTime": 1665949168469,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

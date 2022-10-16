@@ -3,7 +3,7 @@
   "name": "Somnigrip",
   "type": "consumable",
   "img": "icons/tools/laboratory/bowl-mixing.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Somnigrip</h1><b>Source</b> <i>Elemental Master's Handbook pg. 31</i><br/><b>Price</b> 45 gp; <b>Weight</b> 3 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This tacky paste is peppered with flakes of glass created using materials from the Elemental Planes, and this glass effectively limits underground movement. When you throw somnigrip at a creature (this requires a ranged touch attack with a range increment of 10 feet) and strike your target, the creature must succeed at a DC 20 Strength check each round. If the creature succeeds, it can burrow or use earth glide (if it has that ability) at half its burrow speed that round. If it fails, the creature cannot burrow or use earth glide at all that round, although it can still move using its other speeds as normal. Somnigrip dissolves and stops affecting a creature's movement after 1 minute. Crafting this item requires a successful DC 20 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 20</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365788,
+    "modifiedTime": 1665949133742,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Necklace of Lovelies",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This repugnant and cruel magic item consists of a chain of cold iron on which dangle six tiny, cold iron cages, each of which contains a living but miniaturized pixie. While the pixies are free to shriek and yell and cry, the item prevents them from taking any action that would directly free them from their cage and suppresses all of their supernatural and spell-like abilities. As a swift action, the wearer of a necklace of lovelies can redirect hit point damage inflicted on him from any single attack or effect that damages him onto one of the pixies on the necklace-doing so automatically kills the poor pixie in a tiny explosion of blood. Once all of the necklace's pixies are dead or released, the necklace becomes nonmagical. The magic of a necklace of lovelies can also be released by breaking open one of the tiny pixie cages (hardness 10; hp 10; Break DC 20). If the cage contains a living pixie, the grateful fey quickly escapes and returns to normal size-in so doing, the wash of energy allows the pixie to bestow luck upon the creature who broke that particular cage if the pixie so chooses (most pixies are grateful enough to a rescuer to automatically grant this boon). An instant after the luck is bestowed, the grateful pixie vanishes (presumably back to the area in which he or she was first imprisoned in the necklace during its creation). The luck granted by this effect can be used at any point once during the next 7 days as a swift action whenever a d20 is rolled-it allows the lucky soul to roll 2d20 and pick which result he wishes to accept.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imprisonment, shield other, 6 willing or helpless pixies</p><h3><b>Source: </b></h3>AP 36",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406005,
+    "modifiedTime": 1665949168329,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

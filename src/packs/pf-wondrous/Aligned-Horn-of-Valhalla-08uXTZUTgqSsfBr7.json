@@ -3,7 +3,7 @@
   "name": "Aligned Horn of Valhalla",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This horn of Valhalla is crafted for service to a cause, whether lofty or profane. Though not intelligent, it has an alignment as determined by the Intelligent Item Alignment table on page 533 of the Pathfinder RPG Core Rulebook, and summons barbarians of that alignment. A character who sounds the horn but is more than one step away from the horn's alignment is attacked by the summoned barbarians. The horn's minions also turn against an owner who gives them an order in strong opposition to their ethos, such as ordering lawful good barbarians to attack helpless villagers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster VI</p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403379,
+    "modifiedTime": 1665949165910,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

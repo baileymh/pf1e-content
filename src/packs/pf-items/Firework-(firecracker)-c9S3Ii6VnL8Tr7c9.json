@@ -3,7 +3,7 @@
   "name": "Firework (firecracker)",
   "type": "consumable",
   "img": "systems/pf1/icons/spells/explosion-red-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Firework (firecracker)</h1><b>Source</b> <i>Alchemy Manual pg. 29</i><br/><b>Price</b> 10 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>These small paper or cloth cylinders or spheres are filled with a tiny charge of black powder. One round after lighting a firecracker in an adjacent square, the firework detonates with a loud bang, dealing 1d2+1 points of nonlethal damage to any creatures in the square and deafening them for 1d4 rounds (Fortitude DC 11 halves damage and duration of deafness). The bang also causes unintelligent animals within 20 feet of it to become frightened for 1d3 rounds; an animal can overcome this effect with a successful DC 11 Will save or if an adjacent ally calms the animal with a successful DC 11 Handle Animal check (an immediate action).</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (1 black powder + 1 saltpeter)/calcination; <b>Craft</b> 20<br/><b>Time</b> 10 minutes; <b>Tools</b> crucible; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367309,
+    "modifiedTime": 1665949135163,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

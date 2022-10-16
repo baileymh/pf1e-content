@@ -3,7 +3,7 @@
   "name": "Ikarikurusai, the Raging Cyclone",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Ikarikurusai is an ornate +3 shock sansetsukon (Ultimate Combat 134) that automatically resizes itself to match the size of its wielder. The chains joining the segments of this three-section staff crackle with arcs of electricity, and while held in at least one hand, the weapon acts as a lightning rod, drawing away incoming electrical attacks and granting its wielder electricity resistance 10. Upon striking a successful critical hit, Ikarikurusai explodes with electricity. In addition to the electricity damage from the shock ability, the target of the attack is struck by a stroke of lightning, which then arcs to other targets, as chain lightning. The bolt deals 5d6 points of electricity damage to the primary target (Reflex DC 19 for half damage). After it strikes, the lightning can arc to up to five secondary targets within 30 feet of the primary target. The secondary bolts each strike one target and deal as much damage as the primary bolt (Reflex DC 17 for half damage). The chain lightning effect only triggers on the first critical hit confirmed in a round, regardless of how many critical hits are made by the weapon that round.<br><p><b>Base Item:</b> +3 shock sansetsukon</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, call lightning or lightning bolt, chain lightning, resist energy</p><h3><b>Source: </b></h3>AP 54",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371662,
+    "modifiedTime": 1665949138112,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

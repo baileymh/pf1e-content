@@ -3,7 +3,7 @@
   "name": "Kiss of barbatos",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Kiss of barbatos</h3><p><strong>Source</strong> <em>Magnimar, City of Monuments pg. 45</em></p><p><strong>Price</strong> 7,500 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact, ingested; <strong>Save</strong> Fortitude DC 23</p><p><strong>Onset</strong> 1d6 days; <strong>Frequency</strong> 1/day</p><p><strong>Effect</strong> fatigued, 1d2 Str drain, and 1 Con drain</p><p><strong>Cure</strong> 3 consecutive saves</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367656,
+    "modifiedTime": 1665949135494,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

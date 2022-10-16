@@ -3,7 +3,7 @@
   "name": "Burdenstone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This smooth lodestone is gray and streaked with veins of glossy obsidian. As a ranged touch attack, the bearer can throw it at an opponent within 30 feet. If it strikes a target in metal armor, the burdenstone attaches itself to the target for 2d6 rounds.   An attached burdenstone increases the target's load by one step. If a target's load is already heavy, the target is knocked prone, its movement is reduced to 10 feet, and it cannot run. An attached burdenstone also prevents the target from flying. A target may not be affected by more than one burdenstone at a time.  A successful DC 20 Strength check made as a full-round action can remove the stone from a target before the duration elapses. Once a burdenstone has been removed or the duration expires, it becomes an ordinary magnetic stone.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, burdened thoughts (Pathfinder Player Companion: Giant Hunter's Handbook 26)</p><h3><b>Source: </b></h3>Dirty Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406851,
+    "modifiedTime": 1665949169091,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

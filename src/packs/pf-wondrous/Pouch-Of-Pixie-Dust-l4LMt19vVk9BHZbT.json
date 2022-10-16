@@ -3,7 +3,7 @@
   "name": "Pouch Of Pixie Dust",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This delicate pouch contains sparkling dust of various iridescent colors. The owner can withdraw the dust and use it as an unlimited supply of normal colorful powder. She always withdraws powder of the color she desires.  4th Level: Once per day, the owner can imbue the pixie dust she draws from the pouch with fey power to reveal the unseen. This functions as faerie fire with a 1-minute duration, but she must throw the powder as a thrown weapon with a range increment of 10 feet against an AC of 5 to hit the correct grid intersection. On a miss, treat the dust as a splash weapon to determine the center of the effect.  6th Level: The owner can use the faerie fire ability three times per day.  8th Level: The owner can use the faerie fire ability at will.  10th Level: The owner can increase the power of the pixie dust once per day, producing a glitterdust effect (Will DC 13 negates the blindness) for 3 rounds. She must throw the powder as a thrown weapon with a range increment of 10 feet against an AC of 5 to hit the correct grid intersection. On a miss, treat the  dust as a splash weapon to determine the center of the effect.  13th Level: The owner can use the glitterdust ability three times per day.  15th Level: The owner can sprinkle the pixie dust on herself or an adjacent willing target once per day, granting the target the ability to fly (as the fly spell) for 5 minutes.  18th Level: The owner can use the fly ability three times per day, and she can also throw the pixie dust to grant fly to a non-adjacent target. To hit a willing non-adjacent target with the pixie dust, she must throw the dust as a thrown weapon with a range increment of 10 feet and hit an AC of 5 + any modifiers that add to both the target's flat-footed and touch AC, such as deflection bonuses and cover bonuses. On a miss, treat the dust as a splash weapon; if there are creatures in the resulting square, randomly determine which creature in that square is targeted by the fly effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, faerie fire, fly, glitterdust</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408620,
+    "modifiedTime": 1665949170792,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

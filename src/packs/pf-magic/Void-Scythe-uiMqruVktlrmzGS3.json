@@ -3,7 +3,7 @@
   "name": "Void Scythe",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Instead of a blade, a swathe of absolute darkness inimical to life tips this scythe. It functions as a +1 brilliant energy scythe, except the blade is formed of negative energy and gives off no light whatsoever. The wielder can channel negative energy directly into the scythe to charge it with life-destroying energy for 1 round per die of channeling. For example, channeling negative energy for 5d6 points of damage fuels the scythe for 5 rounds. While so charged, the void scythe bestows one negative level with each hit. One day after being struck, subjects must succeed at a DC 16 Fortitude save for each negative level or the negative levels become permanent.  Black energy utterly consumes any creature that is slain by the void scythe, leaving no body behind but leaving the creature's equipment unharmed. A victim of the void scythe can be restored only by true resurrection or carefully worded miracle or wish.<br><p><b>Base Item:</b> +1 brilliant energy scythe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, disintegrate, enervation</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373067,
+    "modifiedTime": 1665949139436,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

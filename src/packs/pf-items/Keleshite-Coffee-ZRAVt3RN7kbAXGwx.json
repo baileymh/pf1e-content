@@ -3,7 +3,12 @@
   "name": "Keleshite Coffee",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.VifDdwKvSD0p5LPP"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Potions and Poisons pg. 27</em></p>\n<p><strong>Type</strong> ingested; <strong>Addiction</strong> minor, Fortitude DC 12</p>\n<p><strong>Price</strong> 5 gp;&nbsp;<strong>Weight&nbsp;</strong>0</p>\n<p><strong>Effect</strong> 8 hours; user ignores the effects of the fatigued condition</p>\n<p><strong>Effect </strong>after 8 hours; the user becomes exhausted, and he becomes fatigued only after 8 hours of rest (instead of 1)</p>\n<p><strong>Damage</strong> 1 Wis damage</p>\n<p>This particularly strong coffee is popular throughout the Padishah Empire of Kelesh, though it also has aficionados in Absalom, Oppara, and beyond. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.VifDdwKvSD0p5LPP"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367242,
+    "modifiedTime": 1665949135109,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

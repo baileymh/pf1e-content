@@ -3,7 +3,7 @@
   "name": "Crown of Ash",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This crown gives a +4 competence bonus on Charisma checks and Charisma-based skill checks when dealing with creatures of the fey type. When dealing with creatures associated with fey but not fey themselves, such as gnomes, the wearer gains a +2 competence bonus on these checks. The wearer can speak, read, and understand Sylvan, If the wearer of the crown of ash is not a fey, he gains low-light vision, a +4 bonus on saves against enchantment spells, and DR 5/cold iron.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, comprehend languages, eagle's splendor</p><h3><b>Source: </b></h3>AP 34",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407865,
+    "modifiedTime": 1665949170117,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

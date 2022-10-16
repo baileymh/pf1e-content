@@ -3,7 +3,7 @@
   "name": "Dragon Blood [Mythic]",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_17.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The mythic dragon&rsquo;s blood and other fluids are infused with acid, cold, electricity, or fire, matching the dragon&rsquo;s <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"pQMisEKPQrTWyLh0\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">breath weapon</span></a> energy type. Every time the dragon is damaged by a piercing or slashing weapon, the attacking creature takes energy damage according to Table 6&ndash;6: Dragon Blood Damage (or double damage if the attack is a critical hit). Using a reach weapon does not endanger the attacker in this way. If the dragon has the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"xS4u83CQ0ssI6i5I\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">swallow whole</span></a>&nbsp;ability, it adds this damage to its swallow whole damage.</p>\n<p>&nbsp;</p>\n<h2>Table 6-6: Dragon Blood Damage</h2>\n<table class=\"inner\">\n<thead>\n<tr>\n<td scope=\"col\"><strong>Dragon Size</strong></td>\n<td scope=\"col\"><strong>Points of Energy Damage</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Medium or smaller</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>1d8</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>2d6</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>2d8</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p><em>Format</em>: dragon blood (2d6 fire)</p>\n<p><em>Location</em>: Defensive Abilities.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -111,6 +116,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -217,8 +222,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402592,
+    "modifiedTime": 1665949165298,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

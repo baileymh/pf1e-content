@@ -3,7 +3,7 @@
   "name": "Autograpnel",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 4,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 10 lbs.</p><p><strong>Damage</strong> 1d6+6 (small), 1d8+6 (medium); <strong>Damage Type</strong> P; <strong>Critical</strong> x3</p><p><strong>Range</strong> 30 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong> Grapple, slow-firing</p><h2 class=\"framing\">Description</h2><p>An autograpnel looks like a rifle with a small adamantine spike protruding from its barrel. When fired, an autograpnel launches the spike with a muffled bang. The spike trails an incredibly strong and thin metal cable behind it. An instant after the spike punches into a solid target, tiny spurs lance out of it, anchoring the spike in place. An autograpnel's cord is long enough to allow the grapnel to reach its maximum range of 300 feet, and the internal retraction motors are strong enough to hold up to 500 pounds of weight. If the grapnel misses its target, it can be rewound into the gun as a standard action; reattaching the grapnel to the gun barrel is a move action.</p><p></p><p> An autograpnel strikes with an effective Strength score of 22 for the purposes of determining damage. If it strikes a creature, it remains lodged in the target and connected to the rifle and its wielder by the metal cord. This cord has AC 12, hardness 10, and 20 hp. A successful DC 32 Strength check is required to snap the cord. If the wielder retracts the cord while it's attached to a creature, the autograpnel attempts a pull combat maneuver check with a CMB of +16. If used against objects, an autograpnel can pull an item that weighs 25 pounds or less back to the user as a full-round action, or it can pull a heavier object that weighs no more than 100 pounds back to the user at a speed of 20 feet.</p><p></p><p> When attached to a solid object, the gun's retraction rate can be set to maintain a taut line while the gun is attached to a harness worn to aid climbing checks.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 20; <strong>Cost</strong> 2,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -209,6 +214,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -302,8 +308,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387832,
+    "modifiedTime": 1665949152181,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

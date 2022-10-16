@@ -3,7 +3,7 @@
   "name": "Howling Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These bracers are made of heavy iron and have a pattern of howling wolves engraved upon them. Once per day on command, the wearer can clash the bracers together rhythmically. This causes the wolves etched into the bracers to come to life and let out a chorus of howls, with the effect of crushing despair (DC 16). Additionally, for every two creatures under the effect of the wearer's raging song when this ability is used, the DC increases by 1, up to a maximum increase of 5.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, crushing despair, creator must have the raging song class feature</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409086,
+    "modifiedTime": 1665949171248,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

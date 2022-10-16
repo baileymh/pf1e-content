@@ -3,7 +3,7 @@
   "name": "Pirate clothes (fancy)",
   "type": "equipment",
   "img": "icons/equipment/head/hat-tricorn-pirate-black.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pirates of the Inner Sea pg. 21</em><br/><strong>Price</strong> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  1 sp (basic), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>  30 gp (fancy); <strong>Weight</strong> 2 lbs. (basic), 6 lbs. (fancy)</p><h2 class=\"framing\">Description</h2><p>Pirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done up with brass buttons, tall leather boots, ruffled collars, and plumed hats. Sailors in warmer climates may instead go shirtless and wear nothing but loose pantaloons.</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366231,
+    "modifiedTime": 1665949134177,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

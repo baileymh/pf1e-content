@@ -3,7 +3,7 @@
   "name": "Frightshade",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Frightshade</h3><p><strong>Source</strong> <em>Antihero's Handbook pg. 29</em></p><p><strong>Price</strong> 100 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> inhaled; <strong>Save</strong> Fortitude DC 14</p><p><strong>Frequency</strong> 1/round for 4 rounds</p><p><strong>Effect</strong> This plant’s pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is shaken until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)</p><p><strong>Cure</strong> 1 save</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367150,
+    "modifiedTime": 1665949135046,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

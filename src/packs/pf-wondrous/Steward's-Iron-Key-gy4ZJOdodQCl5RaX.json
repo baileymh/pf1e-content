@@ -3,7 +3,7 @@
   "name": "Steward's Iron Key",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple iron key looks like something a castellan or majordomo would carry on her key ring. When held in hand, the bearer can use open/close at will. Once per day the bearer can speak a command word to use either arcane lock or knock.  Though Alseta's church may use more elaborate keys for important ceremonies, the goddess's humble nature means most magical keys crafted by her followers are nondescript items such as this one.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane lock, knock, open/close</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408388,
+    "modifiedTime": 1665949170625,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Shark Tooth Amulet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet is crafted of a single massive petrified shark tooth suspended on kelp twine and grants its wearer combat potency while underwater. While wearing this amulet, its wearer can use melee weapons normally, taking no penalty to attack and dealing full damage with such attacks. This amulet also allows the wearer to make thrown range weapon attacks underwater, though such attacks take a -2 penalty on attack rolls and their range increment is halved.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, touch of the sea (Advanced Player's Guide), the crafter must be an undine or have the water subtype</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410531,
+    "modifiedTime": 1665949172526,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

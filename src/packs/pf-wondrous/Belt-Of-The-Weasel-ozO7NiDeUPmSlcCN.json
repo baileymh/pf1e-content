@@ -3,7 +3,7 @@
   "name": "Belt Of The Weasel",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This surprisingly soft belt has an absurdly large buckle, made even more absurd by the fact that it's crafted in the shape of a smiling weasel's face. It grants its wearer a +2 enhancement bonus to Dexterity, and the ability to move at half normal speed while prone. Treat the enhancement bonus to Dexterity as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not take a penalty on melee attack rolls or to AC against melee attacks while prone. Additionally, the wearer gains the compression ability (Bestiary 2 295).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape I</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409206,
+    "modifiedTime": 1665949171331,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

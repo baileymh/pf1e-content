@@ -3,7 +3,7 @@
   "name": "Ring Of Transposition",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command word to exchange places with the creature wearing the bonded ring, which must be within 800 feet, as though using a dimension door spell against a willing target. In the process, the ring of transposition trades places with the ring on the other creature's hand, and the bond between the rings is broken.   The bonding property of the ring of transposition can be used as often as desired, breaking any existing bond each time it is used. An existing bond can be broken by a successful dispel check against the caster level of the ring.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, dimension door</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404175,
+    "modifiedTime": 1665949166639,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

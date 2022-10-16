@@ -3,7 +3,7 @@
   "name": "Backbiter's Focus",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small darkwood rod is adorned with a carving of a figure whose own weapon is curled backward as if to strike the figure.  Three times per day, the user can speak the rod's command word to curse a single manufactured weapon within 30 feet.  If the weapon is magical, it can attempt a DC 16 Will save to avoid the curse. Whenever the cursed weapon damages a creature, it deals half as much damage to its wielder as well; only the weapon's base damage and the wielder's Strength bonus are factored into this damage-bonus damage from a magic weapon's special abilities, from its wielder's class features and feats, or from other effects are not factored into the damage dealt to the wielder. This is a curse effect that lasts for 7 rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, bestow curse</p><h3><b>Source: </b></h3>The Harrow Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409797,
+    "modifiedTime": 1665949171896,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

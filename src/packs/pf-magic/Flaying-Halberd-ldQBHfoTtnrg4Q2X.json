@@ -3,7 +3,7 @@
   "name": "Flaying Halberd",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A flaying halberd is a +1 halberd that can be used to slice off large swaths of a creature's skin. In combat, a character can denote a maximum of one attack per round to be a flaying strike. This attack deals normal damage, but the resulting wound is particularly painful as skin is torn away from the target's body. This causes an additional 1d6 points of bleed damage, and as long as a victim suffers from this bleed damage, it is staggered. A successful DC 15 Fortitude save made at the time the flaying strike occurs negates the bleed damage and staggered condition. The bleed effect can be stopped by a successful DC 15 Heal check or any spell that cures hit point damage. A flaying strike that results in a critical hit also deals 1d4 points of Charisma damage (no save) to the victim. Creatures immune to ability damage and critical hits are immune to flaying strikes.<br><p><b>Base Item:</b> +1 halberd</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, inflict critical wounds</p><h3><b>Source: </b></h3>AP 64",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372902,
+    "modifiedTime": 1665949139306,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

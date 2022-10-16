@@ -3,7 +3,7 @@
   "name": "Stake Of The Righteous",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Cooled in baths of holy water after its forging, this +1 silver stake (see the Advanced Player's Guide) is often used by devout warriors to slay vampires. When driven through a helpless vampire's heart, the stake emits a constant hallow effect centered on the slain vampire (whoever placed the stake can choose to fix a spell effect to the stake as a full-round action; otherwise follow the rules in the hallow spell description in the Core Rulebook).  Once a stake of the righteous has been driven into a vampire's heart, only creatures that share the original slayer's alignment can easily remove it. Other creatures may attempt to remove the stake by making a DC 14 Charisma check; a creature that fails this check takes 2d6 points of damage as holy energy courses through the weapon, and it cannot attempt to remove the stake again for 24 hours.<br><p><b>Base Item:</b> +1 silver stake</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, hallow</p><h3><b>Source: </b></h3>Blood Of The Night",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371723,
+    "modifiedTime": 1665949138180,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

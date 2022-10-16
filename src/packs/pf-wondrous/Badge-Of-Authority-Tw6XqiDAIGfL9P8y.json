@@ -3,7 +3,7 @@
   "name": "Badge Of Authority",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>As a standard action, the wielder of this solid metal badge can transform its appearance into that of any badge or symbol of authority she legitimately holds. Once per day, the wielder can present the badge as a standard action to reduce the base speed of up to three creatures within 30 feet, as per hobble* (Fortitude DC 11 negates). If the wielder uses an Intimidate check to force a creature to act friendly and that creature recognizes her as a legitimate authority, its attitude doesn't change to unfriendly after 1d6x10 minutes, and it doesn't report her to local authorities.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cause fear, silent image</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406775,
+    "modifiedTime": 1665949169025,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

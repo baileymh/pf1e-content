@@ -3,7 +3,7 @@
   "name": "Mythic Power (Mythic)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_13.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>The mythic monster can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. Each day, it can expend a number of uses of mythic power equal to its mythic rank. This amount is its maximum amount of mythic power. If an ability allows it to regain mythic power, it can never gain more than this amount. The monster automatically has the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"IGggewZDHnhqzMlG\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">surge</span></a> ability and can use this mythic power to activate it. It may have other abilities that rely on mythic power. (See the Mythic Rules for more information.)</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: mythic power (3/day, surge +1d6)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace charges</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 3,
           "maxFormula": "",
@@ -102,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +169,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -200,8 +205,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402602,
+    "modifiedTime": 1665949165308,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

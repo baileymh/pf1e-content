@@ -3,7 +3,7 @@
   "name": "Necrograft Leg",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A single necrograft leg allows its host to travel overland for 1-1/2 times longer than normal before needing to attempt Constitution checks to continue running or to avoid nonlethal damage from a forced march. A humanoid with two necrograft legs can travel overland twice as longer than normal before needing to attempt these same checks. In addition, each necrograft leg grants its host a +2 bonus to CMD against bull rush and overrun attempts and provides a 50% chance to ignore caltrops.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead, regenerate, creator must have 8 ranks in Heal</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403380,
+    "modifiedTime": 1665949165911,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Luminous Lockpicks",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This set of fine, masterwork thieves' tools glimmer when exposed to light. When held in hand, they glow with light visible only to the individual holding them. This light allows the holder to work in all manners of darkness, including magical darkness, unimpeded and without attracting the attention of other creatures. This light does not provide enough illumination to see anything beyond a single lock or similar device on which the tools are used. As they glow, the tools vary their color, indicating favorable or unfavorable positioning within a device. These guiding lights grant a +5 circumstance bonus on Disable Device checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, knock</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404077,
+    "modifiedTime": 1665949166569,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

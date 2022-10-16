@@ -3,7 +3,7 @@
   "name": "Hearth Mantle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The inside of this long, thick shawl is cool muslin, while the outside is decorated with a flame-like rune. Hearth mantles a re f avored b y t he faithful of Erastil, particularly those among his worshipers who rely upon the hunt for their livelihood. With a hearth mantle, one never has to worry about building a campfire in the wild.  A hearth mantle's wearer gains a +2 competence bonus on saving throws against fire-based effects; the mantle itself is immune to fire damage. Once per day, the wearer can cause the leather exterior of the mantle to smolder for 1 minute. While smoldering, the hearth mantle sheds light as a torch.  If the user takes a full-round action to carefully spread a hearth mantle on the ground with its exterior facing up, a campfire ignites on the mantle's fire rune. This campfire burns for 8 hours and requires no fuel. Any creature that sleeps within 20 feet of the mantle for the full duration of the campfire recovers a number of hit points equal to twice its character level, as if it had undergone complete bed rest for a full 24 hours. The campfire is automatically extinguished if the hearth mantle is picked up, but can also be extinguished through normal means.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, nap stack, produce flame</p><h3><b>Source: </b></h3>AP 87",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406048,
+    "modifiedTime": 1665949168363,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

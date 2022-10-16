@@ -3,7 +3,7 @@
   "name": "Smear Of Seeing",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This oily black paste is kept in a glass jar about the size of a human's fist. When rubbed onto an opaque surface as a standard action, an application of smear of seeing allows others to see through it for 10 minutes or until it is thoroughly diluted with universal solvent, after which the smear loses its potency. Anyone on the side of the surface on which the smear was applied can see through that surface as though it were a clear glass window. This does not enable creatures to hear through the surface. Creatures on the other side of a surface affected with smear of seeing cannot see the effect, but may detect it via detect magic or other effects as normal.   Smear of seeing can be used on plaster, stone, wooden, or similar surfaces up to 10 feet thick. Smear of seeing has no effect on metal or harder materials, regardless of thickness.   One application of smear of seeing is enough to cover a 1-foot-radius area; multiple applications can be used to increase the affected surface area. One jar of smear of seeing contains enough paste for five applications.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane eye, see through stone (Pathfinder Player Companion: Dwarves of Golarion 25)</p><h3><b>Source: </b></h3>Dungeoneers Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405209,
+    "modifiedTime": 1665949167719,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

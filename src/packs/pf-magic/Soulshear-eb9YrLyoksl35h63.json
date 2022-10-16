@@ -3,7 +3,7 @@
   "name": "Soulshear",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Forged by Staunton Vhane with the aid of several Templars of the Ivory Labyrinth, this intelligent +2 transformativeUE glaive is infused with ababau's sentience and eagerness for murder. Soulshear is capable of hiding its evil nature with misdirection, and if its wielder's alignment isn't chaotic evil, it delights in infiltrating enemy forces to create personality conflicts with its wielder, manipulating his downfall through acts of conspiracy, betrayal, and murder. Even without dominating those who carry it, Soulshear can occasionally summon a babau demon to clandestinely carry out its will. These summonings often result in unexplained murders, or even the death of Soulshear's owner so the glaive can pass to further victims or be returned to the devoted cultists of Baphomet.  Soulshear can use misdirection on itself three times per day, typically selecting an unaligned magic item carried by its wielder to hide its evil. Once per day, it can cast summon monster V, but only to summon a babau demon.<br><p><b>Base Item:</b> +2 transformative glaive</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, major creation, planar binding</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372719,
+    "modifiedTime": 1665949139212,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

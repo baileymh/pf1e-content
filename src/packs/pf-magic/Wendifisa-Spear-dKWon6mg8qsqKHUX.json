@@ -3,7 +3,7 @@
   "name": "Wendifisa Spear",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Adorned with bone fetishes, feathers, leaves, and gnarled branches, each of which carries its own significance, this +1 shortspear is often found in the hands of the tribal Mwangi who serve the powerful spirits known as wendifa- the juju oracles. Each wendifisa spear (literally spear of those who serve the wendifa) is created alongside a specially crafted onyx gem. If this gem is within 100 feet of the wielder and the wielder's hit points are reduced below 0, the gem shatters. When the gem shatters, the wielder of the wendifisa spear is immediately slain, and animates 1 round later as a juju zombie (Pathfinder RPG Bestiary 2 291). If the gem is held by anyone other than the spear's wielder when the wielder is slain (and the gem shatters), the creature holding the gem gains 1d8 temporary hit points, a +2 enhancement bonus to Strength, and a +1 bonus to its effective caster level. These bonuses last 1 hour. After the onyx shatters, the weapon is treated as a +1 shortspear.<br><p><b>Base Item:</b> +1 shortspear</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate dead, death knell, onyx worth at least 1,000 gp, creator must be an evil oracle</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372506,
+    "modifiedTime": 1665949138962,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

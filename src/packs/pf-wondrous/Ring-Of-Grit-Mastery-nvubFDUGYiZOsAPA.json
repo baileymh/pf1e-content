@@ -3,7 +3,7 @@
   "name": "Ring Of Grit Mastery",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring is made out of fused firearm bullets, making it a chunky but overall impressive ring. Twice per day, as a free action, when the wearer regains grit, she can choose to store it in the ring of grit mastery instead of regaining the grit point. She can store up to 2 grit points within the ring in this way. She can spend the grit points stored in the ring either of the following ways.   Once per day, without the need to take an action to do so, the wearer can spend 1 grit point stored in the ring to grant herself a +2 insight bonus to initiative.   Once per day, as a standard action, the wearer of the ring can spend 2 grit points stored within the ring to activate a bullet shield as the spell (Ultimate Combat).   Any grit points stored in the ring disappear at the start of each day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, anticipate peril, bullet shield, creator must have the grit class feature</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409153,
+    "modifiedTime": 1665949171293,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

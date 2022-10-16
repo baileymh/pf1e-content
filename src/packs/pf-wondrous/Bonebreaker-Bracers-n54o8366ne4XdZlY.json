@@ -3,7 +3,7 @@
   "name": "Bonebreaker Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These thick brass and leather bracers allow the wearer to tear through bone and muscle like paper. Once per day, as part of a melee attack, the wearer can activate the bracers to inflict a horrific injury on an opponent. If the attack hits, the target must make a DC 14 Will save. If the save fails, the bracers reduce the target's Strength, Dexterity, or Constitution (wearer's choice) by -6. This penalty cannot reduce the target's ability score below 1. The injury heals over time, reducing the penalty by 1 for each day that passes since the time of the injury, and is immediately removed by heal, regenerate, restoration, or any magic that can break a curse.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409097,
+    "modifiedTime": 1665949171257,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

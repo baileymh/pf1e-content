@@ -3,7 +3,7 @@
   "name": "Rift-Rending Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When worn by a kineticist, these bracers develop finely inscribed patterns on their once-plain surfaces that reflect the wearer's elemental connection. As a full-round action, a kineticist wearing the bracers can accept 3 points of burn to tear open a brief rift between her current location and the Material Plane, Ethereal Plane, or an Elemental Plane; this behaves as per plane shift, but the rift is able to transport only her. By accepting an additional point of burn, she can allow up to 8 willing creatures to travel with her. When traveling to or from the plane that corresponds to her elemental focus, the total burn cost required to activate the bracers is reduced by 1.  Rift-rending bracers must be worn for 24 hours before a kineticist can activate them.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, plane shift</p><h3><b>Source: </b></h3>Planes Of Power",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407735,
+    "modifiedTime": 1665949170010,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

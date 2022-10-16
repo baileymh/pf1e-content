@@ -3,7 +3,7 @@
   "name": "Id rifle",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 50,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Weight</strong> 5 lbs.</p><p><strong>Damage</strong> Special (small), Special (medium); <strong>Damage Type</strong> Special; <strong>Critical</strong> x2</p><p><strong>Range</strong> 50 ft.; <strong>Capacity</strong> 1 nanite canister; <strong>Usage</strong> 1 charge; <strong>Special</strong> Slow-firing, touch</p><h2 class=\"framing\">Description</h2><p>An id rifle looks like a sleek, low-caliber rifle made of burnished skymetal. It fires a tiny barb of solid nanites with a range increment of 50 feet. Although this barb does minimal damage on a hit, any creature damaged by an id rifle barb must succeed at a DC 16 Fortitude saving throw or have its central nervous system flooded with nanites that swiftly overwhelm the creature's brain, reducing its mind to the instinctive level of an animal. The victim takes 1d4 points of Intelligence damage each round, but the total amount of damage taken can never equal the victim's actual Intelligence score. Each round after the first, the victim can resist the Intelligence damage by succeeding at a DC 16 Fortitude saving throw, at which point the damage ceases. The recurring Intelligence damage automatically ends after 6 rounds. A victim already suffering from the effects of an id rifle who is affected by an additional shot has the save DC increased by 2 per additional shot.</p><p></p><p> An id rifle has a microphone built into its stock. During any round in which a creature takes Intelligence damage from an id rifle, as a move action the wielder of that rifle can speak a short command into the microphone. Any applicable target within 50 feet of the wielder must then succeed at a DC 16 Will save to resist following the command, as if under the effect of a <em>suggestion</em> spell. A victim follows only the latest suggestion spoken into the microphone, and abandons any previous suggestion if it fails a saving throw against a new suggestion. A victim continues to follow the suggestion for up to 5 hours after succumbing to its effects.</p><p></p><p> The effects created by an id rifle are mind-affecting effects.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 32; <strong>Cost</strong> 25,000 gp</p><p>Craft Technological Arms and Armor, nanotech lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -189,6 +194,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -282,8 +288,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387925,
+    "modifiedTime": 1665949152255,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Masterful Gray Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These dark-gray leather gloves are extremely supple and are popular among the worshipers of Norgorber. They grant a +10 bonus on Sleight of Hands checks to take something from a creature unnoticed.  Additionally, three times per day, when a creature notices the wearer's Sleight of Hand check to take something from it, the wearer can cause the object to become invisible as an immediate action, allowing the wearer to disavow the theft.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, invisibility</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406751,
+    "modifiedTime": 1665949168997,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

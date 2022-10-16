@@ -3,7 +3,7 @@
   "name": "Hardness",
   "type": "feat",
   "img": "icons/commodities/stone/paver-brick-brown.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>When a creature with hardness takes damage, subtract its hardness from the damage. Only damage in excess of its hardness is subtracted from its hit points. A creature with hardness doesn&rsquo;t further reduce damage from energy attacks, ranged attacks, or other types of attacks as objects typically do. Adamantine weapons bypass hardness of 20 or less.</p>&nbsp;<p><em>Format</em>: hardness 10</p><p><em>Location</em>: Defensive Abilities.</p>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402472,
+    "modifiedTime": 1665949165213,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

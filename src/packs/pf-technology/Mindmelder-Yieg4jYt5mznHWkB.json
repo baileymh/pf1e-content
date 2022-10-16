@@ -3,7 +3,7 @@
   "name": "Mindmelder",
   "type": "equipment",
   "img": "icons/equipment/head/greathelm-slotted-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Pathfinder #90: The Divinity Drive pg. 61</em></p><p><strong>Price</strong> 30,000 gp</p><p><strong>Slot</strong> head; <strong>Weight</strong> 3 lbs.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1/hour</p><h2 class=\"framing\">Description</h2><p>A mindmelder resembles a bulky helm designed to cover the skull, ears, and eyes of the wearer. When worn, it projects the user's thoughts into a virtual reality created from the user's mind, memories, and personality. As long as the user wears the mindmelder, his actual physical body is helpless and can take no actions. While in this virtual world, the user can rest and relax, gaining the benefits of such relaxation at a rapidly increased rate, as if under the effects of a <em>nap stack</em><sup>APG</sup> spell. A creature may enjoy the benefits granted by this effect without that spell's normal once-per-week limitation. A mindmelder can also be used to enter established virtual realities stored in a computer within 60 feet, as detailed in Part 3 of this adventure.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 32; <strong>Cost</strong> 15,000 gp</p><p>Craft Technological Item<sup>TG</sup>, production lab<sup>TG</sup></p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387788,
+    "modifiedTime": 1665949152142,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

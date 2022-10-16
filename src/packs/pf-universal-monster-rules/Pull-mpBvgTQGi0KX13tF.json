@@ -3,7 +3,7 @@
   "name": "Pull",
   "type": "feat",
   "img": "icons/commodities/biological/tentacle-purple-white.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>A creature with this ability can choose to attempt a free combat maneuver check with a successful attack. If successful, this check pulls a creature closer. The distance pulled is set by this ability. The type of attack that causes the pull and the distance pulled are included in the creature&rsquo;s description. This ability works only on creatures of a size equal to or smaller than the pulling creature. Creatures pulled in this way do not provoke attacks of opportunity and stop if the pull would move them into a solid object or creature.</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: pull (tentacle, 5 feet)</p>\n<p><em>Location</em>: Special Attacks and individual attacks.</p>\n<p><em>Usage:</em> Replace range.</p>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +109,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +171,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -204,8 +209,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402548,
+    "modifiedTime": 1665949165266,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

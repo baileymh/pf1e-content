@@ -3,7 +3,12 @@
   "name": "Hush",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.qkjDxTf3Sh27hs4G"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Potions and Poisons pg. 26</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>200&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>1d6 hours; the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%</p>\n<p><strong>Damage </strong>1d4 Wis damage</p>\n<p>This slate-gray powder is often mixed into alcohol and consumed by those working in the noisy testing ranges at Alkenstar's Gunworks. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -128,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -199,12 +210,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.qkjDxTf3Sh27hs4G"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368120,
+    "modifiedTime": 1665949135864,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

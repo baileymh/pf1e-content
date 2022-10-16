@@ -3,7 +3,7 @@
   "name": "Necklace Of Air Adaptation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This necklace grants an aquatic wearer the ability to breathe air, and renders it amphibious as per the universal monster rule, allowing it to survive on land indefinitely. The necklace also gives the wearer a base speed of 30 feet (or a +10 enhancement bonus to its base speed, if the wearer's speed is already at least 30 feet).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, air breathing (Pathfinder RPG Monster Codex 189), expeditious retreat</p><h3><b>Source: </b></h3>AP 122",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404231,
+    "modifiedTime": 1665949166681,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

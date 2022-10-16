@@ -3,7 +3,7 @@
   "name": "Glorious Flame Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This richly colored, burnished brass ring appears to be crimson red, sunset orange, or golden yellow depending on how it is held. Clerics of Sarenrae prize glorious flame rings as facets through which they may channel their deity's divine will. Once per day, the wearer may speak the ring's command word to create a 5-foot-radius burst of flame centered on herself. This burst of flame deals 1d6 points of damage to any adjacent creatures (Reflex DC 14 halves), though the wearer is safe from this effect.  If the wearer is capable of channeling positive energy, she may as a standard action expend one use of channeled energy to activate the ring's burst of flame, even if she has already spoken the ring's command word for the day. If the wearer also has the Selective Channeling feat, she may select a number of allies equal to her Charisma modifier to exclude from the burst of flame; these allies are not affected by the flame. This effect is otherwise identical to creating the ring's burst of flame by speaking the command word.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, Selective Channeling, elemental aura (fire), creator  must be able to channel positive energy</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407227,
+    "modifiedTime": 1665949169508,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Coldwarp Key",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This flanged iron rod is much heavier than it looks, and grants the wielder a portion of the skill of a master coldwarper. The wielder gains a +5 competence bonus on Craft checks involving metal. A coldwarp key has three charges, which are renewed at midnight every night and can be expended to create a variety of effects. Expending one charge from a coldwarp key allows the wielder to use fabricate (as the spell) to affect metal only. If the wielder is in a natural underground environment, she can expend two charges from a coldwarp key to draw raw metal ore from the surrounding stone and shape it to her liking. This ability acts as the major creation spell, except the wielder can create only base metals and the duration is instantaneous.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, fabricate, major creation</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407162,
+    "modifiedTime": 1665949169457,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

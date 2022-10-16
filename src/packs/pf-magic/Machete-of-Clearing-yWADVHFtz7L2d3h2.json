@@ -3,7 +3,7 @@
   "name": "Machete of Clearing",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This broad, heavy knife is used to chop through thick undergrowth in the jungle. Once per day on command, this +1 short sword can cast defoliate (see above) to clear vegetation either in a line 60 feet long or in a 10-foot radius spread. Explorers used to fighting the jungle's dangerous inhabitants sometimes commission machetes of clearing with either the animal bane or plant bane special abilities. Moderate conjuration; CL 8th.<br><p><b>Base Item:</b> +1 short sword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, defoliate (plus summon monster I for animal or plant bane)</p><h3><b>Source: </b></h3>Sargava",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373315,
+    "modifiedTime": 1665949139718,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

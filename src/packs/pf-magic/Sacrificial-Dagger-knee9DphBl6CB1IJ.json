@@ -3,7 +3,7 @@
   "name": "Sacrificial Dagger",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The serrated blade of this +1 dagger is set in a hilt made of human bone carved in the shape of a scorpion's tail. Once per day when the wielder delivers a coup de grace with the sacrificial dagger and the target dies as a result of the attack, the dagger traps the dead creature's life energy for 10 minutes per Hit Die of the creature. A dark mist visibly seeps from the dagger during this time, and anyone wielding the dagger gains the benefits of death knell. Determine the number of temporary hit points granted when the target dies. The temporary hit points stem from the dagger, so if another creature wields the dagger, that creature gains the remaining temporary hit points (if any) and the previous wielder loses them.  If, while the death knell effect is active, the wielder casts a spell that requires sacrificing a creature, she can expend the life energy stored in the dagger. For the purpose of fulfilling the spell's requirements, the life energy counts as the creature did when it was alive (including Hit Dice and whether or not it was sentient). Expending the trapped life energy ends the death knell effect immediately, before the casting of the sacrificial spell is complete, so the death knell effect doesn't increase the wielder's caster level for that spell. Sacrificing  another creature dissipates the life energy of any previous sacrifice already held in the dagger.<br><p><b>Base Item:</b> +1 dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Items and Armor, death knell</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372889,
+    "modifiedTime": 1665949139293,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

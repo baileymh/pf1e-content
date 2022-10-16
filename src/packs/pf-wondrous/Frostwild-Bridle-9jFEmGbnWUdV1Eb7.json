@@ -3,7 +3,7 @@
   "name": "Frostwild Bridle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When this bridle of crystal-studded white leather is placed on a horse or similar mount, the animal's eyes emit a bright azure glow and its hair glistens with magical frost. A frostwild bridle provides cold resistance 20 to its wearer. Also, three times per day on the rider's command, the animal wearing a frostwild bridle can breathe a 60-foot cone of frost that deals 9d6 points of cold damage to all creatures in the area. A successful DC 17 Reflex save halves the damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cone of cold, resist energy</p><h3><b>Source: </b></h3>Heroes Of The Wild",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404257,
+    "modifiedTime": 1665949166700,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

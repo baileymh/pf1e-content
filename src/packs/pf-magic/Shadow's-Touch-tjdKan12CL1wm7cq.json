@@ -3,7 +3,7 @@
   "name": "Shadow's Touch",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Amazingly light, this ebon +2 keen dagger fades into near intangibility at its tip. It ignores bonuses to AC provided by deflection and force effects, and deals 2 points of Strength damage on a confirmed critical hit. By expending one use of mythic power while attacking, the wielder can strike a force effect and disintegrate it as a touch attack. This effect also automatically dispels force effects that can be dispelled whether or not they're subject to disintegrate.  As a standard action, the wielder can expend a use of mythic power while slashing at the air to open up a rift to the Shadow Plane. This functions as shadow walk, except that a maximum number of creatures equal to double the wielder's tier can pass through before the rift closes.<br><p><b>Base Item:</b> +2 keen dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Mythic Creator, shadow walk, shadow weaponUM</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373049,
+    "modifiedTime": 1665949139424,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

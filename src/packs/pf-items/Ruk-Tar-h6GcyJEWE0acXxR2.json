@@ -3,7 +3,12 @@
   "name": "Ruk Tar",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.2XYSPCdGsWeOmMhy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Potions and Poisons pg. 27</em></p>\n<p><strong>Type</strong> injury;<strong> Addiction </strong>moderate, Fortitude DC 25</p>\n<p><strong>Price </strong>55 gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>1 hour; +2 alchemical bonus to Strength and immunity to pain effects</p>\n<p><strong>Effect</strong> after 1 hour; the user gains the exhausted condition</p>\n<p><strong>Damage </strong>1d4 Int damage</p>\n<p>Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user's abilities to ensure victory.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.2XYSPCdGsWeOmMhy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367601,
+    "modifiedTime": 1665949135449,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

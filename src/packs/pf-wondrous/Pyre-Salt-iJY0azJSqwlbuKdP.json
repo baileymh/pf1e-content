@@ -3,7 +3,7 @@
   "name": "Pyre Salt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Said to be crafted from witches' tears and the ashes of burned heretics, pyre salt is composed of glistening black-and-white granules and smells of smoke. It typically comes in a narrow glass vial containing one use. When pyre salt is cast into any magical or mundane flame whose area is at least 10 feet by 10 feet, the fire in that area deals double the normal amount of damage to any objects or creatures in that space for 1 round. Pyre salt cannot be activated by fire spells or effects cast onto it.  Additionally, any objects or creatures destroyed by the affected fire prove exceptionally difficult to restore. Anyone who casts mending, make whole, or a similar spell on an object destroyed by the fire must first succeed at a DC 20 caster level check or the spell fails. By the same token, anyone who casts raise dead, resurrection, or a similar spell on a creature killed by the fire must also succeed at a DC 20 caster level check or the spell fails.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, death knell, pyrotechnics</p><h3><b>Source: </b></h3>Path Of The Hellknight",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408458,
+    "modifiedTime": 1665949170676,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

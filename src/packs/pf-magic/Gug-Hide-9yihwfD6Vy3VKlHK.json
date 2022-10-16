@@ -3,7 +3,7 @@
   "name": "Gug Hide",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This grotesque suit of +1 hide armor is stitched together from the hides of gugs from the underworld of the Dreamlands and the nightmare realm of Leng. The wearer of a suit of gug hide gains the benefits of Leng's basic infusion when in an underground environment. Once per day as a standard action, the wearer can cause his arms to each split into two arms at the elbow, each bearing a furred hand like that of a horrid subterranean gug. The wearer must designate one hand as his primary hand; all others are considered off hands. He can use any of his hands for other purposes that require free hands. A user who has Two Weapon Fighting is treated as if he had Multi-Weapon Fighting while these extra arms are activated. This ability lasts for 10 minutes and has no effect if the wearer already has more than two arms.<br><p><b>Base Item:</b> +1 hide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, alter self, limited wish</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371784,
+    "modifiedTime": 1665949138236,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

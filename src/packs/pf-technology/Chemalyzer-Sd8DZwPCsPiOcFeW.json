@@ -3,7 +3,7 @@
   "name": "Chemalyzer",
   "type": "equipment",
   "img": "icons/tools/smithing/furnace-fire-metal-orange.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 40</em></p><p><strong>Price</strong> 2,500 gp</p><p><strong>Slot</strong> none; <strong>Weight</strong> 8 lbs.</p><p><strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge</p><h2 class=\"framing\">Description</h2><p>A chemalyzer is a handheld unit with an extendable wand tipped with a sampling nozzle. It grants a +5 competence bonus on all Craft (alchemy) or Knowledge (engineering) checks to identify an unknown pharmaceutical, poison, chemical, or substance. It cannot aid in the identification of magical effects or items like potions.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 25; <strong>Cost</strong> 1,250 gp</p><p>Craft Technological Item, production lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 10,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387767,
+    "modifiedTime": 1665949152117,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

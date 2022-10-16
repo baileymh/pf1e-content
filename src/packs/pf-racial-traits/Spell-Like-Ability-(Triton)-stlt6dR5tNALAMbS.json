@@ -3,7 +3,12 @@
   "name": "Spell-Like Ability (Triton)",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/trident.PNG",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.KQsRHnrNbAiwdBDE"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Triton&nbsp;</p>\n<hr />\n<p>Tritons can cast <em>summon nature's ally II</em> once per day to summon either a Small water elemental or 1d3 dolphins only.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.KQsRHnrNbAiwdBDE"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384789,
+    "modifiedTime": 1665949149150,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

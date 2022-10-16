@@ -3,7 +3,7 @@
   "name": "Ring Of Culturemeld",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornately carved ironwood ring is sometimes gifted to half-elves leaving their elven communities so as to ease transition into human culture. A ring of culturemeld slightly alters the wearer's words to be more appropriate to the listener's culture and expectations, granting the wearer a +5 competence bonus on language-based Diplomacy checks. If worn by a half-elf, a ring of culturemeld grants the wearer the ability to speak and understand an additional language dependent on the local area. If the wearer spends 1 day in a settlement the size of a village or larger, the ring becomes attuned to any dominant language spoken there other than Common (such as Hallit, Skald, or Vudrani). After the ring is attuned, the wearer gains that language as a bonus language (if she didn't already know it), though she can only speak and understand it. After 4 more days of attunement, the wearer gains the ability to read the language as well, though not the ability to write that language, and gains a +5 competence bonus on opposed Sense Motive checks against speakers of the attuned language. These benefits expire once the wearer has been out of contact with people who speak the attuned language for longer than 1 day or when the ring becomes attuned to a new language.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, comprehend languages</p><h3><b>Source: </b></h3>Bastards Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406054,
+    "modifiedTime": 1665949168365,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

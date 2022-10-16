@@ -3,7 +3,7 @@
   "name": "Pugwampi Braid",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This braid, crafted from strips of pugwampi pelts, is 1 inch in diameter and 12 inches long. It can be carried in the hand like a riding crop or worn as an adornment.  Once per day with a command word, the owner of the braid can create a 5-foot-radius aura around the braid for 1 minute. Creatures other than the owner within the aura must roll twice and use the lower result whenever a situation calls for a d20 roll. This is a mind-affecting effect that does not work on humanoids with the gnoll subtype, animals, or gremlins. A creature under the effect of a luck bonus is immune to the aura.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408415,
+    "modifiedTime": 1665949170644,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

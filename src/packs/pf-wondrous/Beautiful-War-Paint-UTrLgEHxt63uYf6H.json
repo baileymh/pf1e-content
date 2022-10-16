@@ -3,7 +3,7 @@
   "name": "Beautiful War Paint",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This pot of multicolored makeup was created by warpriests of Shelyn who wanted to be beautiful as well as deadly in battle. It can be used as conventional makeup, stage makeup, or war paint.  It can be applied quickly for a lesser effect, but its true power is revealed when it's applied with great care. If the wearer applies the makeup as a full-round action, she gains the effects of bless and expeditious retreat. If the wearer applies the makeup over the course of 10 minutes, she gains the effects of good hope and haste. Applying the makeup provokes attacks of opportunity. The finished makeup has no effect until the wearer activates it as a swift action, at which time its magic lasts either 5 minutes or 5 rounds, depending on the duration of the activated spells (thereafter, the makeup lasts as long as high-quality nonmagical makeup). The magic of the makeup fades after 24 hours if not activated.  The makeup uses only the head magic item slot when applied (the pot does not use a magic item slot). The pot contains enough makeup for three uses.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, good hope, haste</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406796,
+    "modifiedTime": 1665949169043,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Stampede Drum",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This masterwork drum is made from mammoth hide. A Kellid with ranks in Perform (percussion) can cause the drum to activate in one of two modes: rousing or quelling. Activation requires a successful DC 15 Perform (percussion) check. The two modes have the following effects.  Quelling: Animals and humanoids that can hear the drum from within 30 feet are subject to calm emotions (DC 13)  for as long as they remain in the area and the drummer continues to succeed at a DC 15 Perform (percussion) check each round.  Rousing: Animals and humanoids that can hear the stampede drum from within 30 feet are subject to rage (DC 13) for as long as they remain in the area and the drummer continues to succeed at a DC 15 Perform (percussion) check each round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calm emotions, rage, creator must be a Kellid</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406042,
+    "modifiedTime": 1665949168356,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

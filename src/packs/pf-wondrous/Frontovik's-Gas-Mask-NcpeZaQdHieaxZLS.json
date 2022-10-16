@@ -3,7 +3,7 @@
   "name": "Frontovik's Gas Mask",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A frontovik's gas mask has the appearance of a typical Zelinsky-Kummant gas mask used by the Russian army: a rubberized cloth bag worn over the face, with two thick glass eyepieces and a rectangular filter canister (see page 67). Named for the frontovik, the typical combat-hardened veteran of the front line, a frontovik's gas mask allows its wearer to breathe freely, even underwater or in a vacuum, as well as making its wearer immune to harmful gases and vapors, including inhaled diseases, poisons, and magic spells such as cloudkill and stinking cloud. In addition, the wearer can see through magical and normal clouds, fogs, mists, and similar effects that grant concealment, but only so long as the wearer is within the area of such concealment. A frontovik's gas mask does not grant any other kind of vision (such as darkvision or low-light vision). Wearing a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, darkvision, fog cloud, life bubbleAPG</p><h3><b>Source: </b></h3>AP 71",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406087,
+    "modifiedTime": 1665949168393,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

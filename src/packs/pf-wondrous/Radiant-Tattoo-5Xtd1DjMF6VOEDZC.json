@@ -3,7 +3,7 @@
   "name": "Radiant Tattoo",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tattoo typically takes the form of a colorful sunburst. The bearer can activate the tattoo with a command word, causing it to flare brilliantly. A single, adjacent foe is blinded for 1d4 rounds. If it succeeds at a DC 15 Reflex save, it is dazzled for 1d4 rounds instead. If the target has light blindness, light sensitivity, or is otherwise vulnerable  to bright light, it is instead blinded for 2d4 rounds or dazzled for 2d4 rounds on a successful save. If the bearer activates the tattoo while more than one foe is adjacent, she may choose which foe is affected. The tattoo vanishes once it has been activated.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Inscribe Magical Tattoo (Inner Sea Magic 16), daylight</p><h3><b>Source: </b></h3>Dirty Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404014,
+    "modifiedTime": 1665949166527,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

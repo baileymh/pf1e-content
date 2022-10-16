@@ -3,7 +3,7 @@
   "name": "Sihedron Brand (service) +2",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dark image of the Sihedron surrounded by arcane runes seems to move, like water trapped beneath two panes of glass. When gained, the brand melds with the largest existing tattoo on your body (or the one with the highest caster level if you have other magical tattoos), otherwise it moves every 1d4 days to a randomly determined location elsewhere on your body.  A character marked with the lesser version of this arcane tattoo receives a +2 profane bonus on attack and damage rolls against creatures brought to the Material Plane via a conjuration (summoning) effect, and gains a +2 profane bonus to AC against attacks from such creatures. Lesser versions of this mark exist, which grant +1 profane bonuses on attack and damage rolls and to AC against summoned creatures instead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Inscribe Magic TattooISM, summon monster I</p><h3><b>Source: </b></h3>PFS S4-20",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404154,
+    "modifiedTime": 1665949166622,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

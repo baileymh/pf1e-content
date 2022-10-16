@@ -3,7 +3,7 @@
   "name": "Rod Of Giant Summoning",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This iron rod has long metal flanges, like a mace, which widen as they expand from the handle. The wielder can use the rod up to three times per day to augment her casting of a conjuration (summoning) spell, causing all of her summoned creatures to gain the giant simple template. The lesser rod can be used with spells of 3rd level or lower, the standard rod can be used with spells of 6th level or lower, and the greater rod can be used with spells of 9th level or lower.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, Augment Summoning, summon monster III or summon nature's ally III</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407942,
+    "modifiedTime": 1665949170182,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

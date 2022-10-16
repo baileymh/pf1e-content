@@ -3,7 +3,7 @@
   "name": "Chastising Baton",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This short metal rod is etched with the outlines of various weapons and is usually owned by strong-armed rulers who keep a tight rein on their nation's military. A chastising baton adds 1 to the saving throw DC of any compulsion spell cast by the wielder and adds the painUM descriptor to the spell. Creatures that succeed at a Will  save against a compulsion spell cast by the wielder are racked with pain, taking 1d6 points of nonlethal damage and becoming sickened for 1 round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, pain strikeAPG</p><h3><b>Source: </b></h3>Heroes Of The High Court",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408344,
+    "modifiedTime": 1665949170597,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Rod Of Delumination",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silvery rod is spoon-sized and utterly featureless. A creature holding a rod of delumination can extinguish any ability, item, or spell effect that is acting as a light source simply by pointing one end of the rod at the light and uttering a command word.  Sources of magical light receive a DC 15 Will saving throw to negate this effect and have a Will save bonus equal to half their caster level; if the original caster of the effect is still within the spell's range, the spell can use its caster's Will save bonus instead. If a light source succeeds at its saving throw against a rod of delumination, the same rod cannot affect it again for 24 hours. No other properties of an affected creature, item, or spell are altered other than its ability to shed light; a torch continues to burn, a lantern continues to consume oil, and so on.  The bearer can, if she chooses, utter a second command word to reignite any light source the rod has previously extinguished, provided that the light source's normal duration hasn't expired.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, Snuffing Spell (see page 25)</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406616,
+    "modifiedTime": 1665949168903,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

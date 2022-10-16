@@ -3,7 +3,7 @@
   "name": "Mask, Signifier",
   "type": "equipment",
   "img": "icons/equipment/head/mask-carved-bird-grey-pink.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Adventurer's Guide pg. 97</em><br/><strong>Price</strong> 75 gp; <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Clothing</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2><p>The menacing, eyeless masks of the Hellknight signifers were first created by members of the Order of the Gate, and are semitransparent when viewed from the inside. This alchemical treating of the material obscures the face of the wearer as a full helm does but allows the wearer to see as if through a smoky pane of glass. When wearing a signifer mask, the wearer is always treated as averting her gaze when dealing with gaze attacks, and she gains a +8 circumstance bonus on saving throws against vision-based effects. However, the obscuring nature of the mask means that the wearer also takes a -4 penalty on vision-based Perception checks while wearing the mask, and all opponents are treated as having concealment (20% miss chance).<br/><br/> A character with the Hellknight signifer prestige class can see through the mask as normal, but she can also adjust her mask as a standard action to function as detailed above. Signifer masks are often magically enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask class feature (see page 93).</p>",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "clothing",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "mask",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -109,8 +109,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367605,
+    "modifiedTime": 1665949135454,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Gloves Of Shaping",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These soft leather gloves are constantly encrusted with clay between the fingers and allow the reshaping of otherwise durable materials. The wearer can shape objects with hardness 8 or lower (stone, wood, leather, and so on) as if it were soft clay. While it's possible to rapidly make crude shapes (shaping roughly 1 cubic foot of material per round), creating fine detail or moving parts requires additional time and an appropriate Craft check, at the GM's discretion.   Materials with more than 8 points of hardness are still affected, though not so dramatically. The wearer may treat these materials as having half as much hardness when attempting to damage or reshape them. For instance, a steel bar normally has 10 points of hardness, but the wearer of the gloves may treat it as having hardness 5, and shape it with woodworking tools.   The gloves only affect shaping materials with the wearer's hands or handheld tools, and only when the wearer desires to do so.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, soften earth and stone, stone shape, transmute rock to mud</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404056,
+    "modifiedTime": 1665949166556,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

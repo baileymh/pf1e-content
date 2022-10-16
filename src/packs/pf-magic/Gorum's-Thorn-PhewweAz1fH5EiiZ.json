@@ -3,7 +3,7 @@
   "name": "Gorum's Thorn",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This forge-blackened +1 keen greatsword is festooned with religious iconography depicting glorious images of the Lord in Iron. If Gorum is the wielder's patron, Gorum's Thorn gains an additional ability: when the wielder confirms a critical hit against any creature with the giant subtype, he can attempt to trip that target as a free action without provoking an attack of opportunity and ignoring any size restrictions related to the target. If the trip attempt fails by 10 or more, the wielder is not knocked prone.<br><p><b>Base Item:</b> +1 keen greatsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, keen edge, righteous might</p><h3><b>Source: </b></h3>AP 92",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372274,
+    "modifiedTime": 1665949138711,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

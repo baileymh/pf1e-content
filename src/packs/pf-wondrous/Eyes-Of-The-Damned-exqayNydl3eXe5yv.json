@@ -3,7 +3,7 @@
   "name": "Eyes Of The Damned",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These two clear crystal lenses fit directly over the wearer's eyes. When the wearer activates the lenses by speaking a prayer to Asmodeus as a standard action, her eyes appear to be replaced by orbs of impenetrable blackness. She gains a gaze attack until the beginning of her next turn. The wearer can choose a creature within 30 feet on which to gaze as part of the action of activating the lenses. The target creature must succeed at a DC 14 Will save or be affected as per vision of HellUM for 5 minutes, except that the effect is a phantasm, rather than glamer, and it follows the affected creature rather than affecting an area. An affected creature continues to see the terrifying hellscape for the duration, regardless of the creature's location.  As with vision of Hell, devils and all lawful evil creatures are immune to the effect caused by this item. The eyes of the damned can be activated up to three times per day. Both lenses must be worn by the same wearer for the magic item to take effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, vision of HellUM</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407958,
+    "modifiedTime": 1665949170192,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

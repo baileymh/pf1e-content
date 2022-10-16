@@ -3,7 +3,7 @@
   "name": "Ring Of Elemental Command",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>All four kinds of rings of elemental command are very powerful. Each appears to be nothing more than a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly slaying an elemental of the appropriate type or exposure to a sacred material of the appropriate element), but each has certain other powers as well as the following common properties.  Elementals of the plane to which the ring is attuned can't attack the wearer, or even approach within 5 feet of her. If the wearer desires, she may forgo this protection and instead attempt to charm the elemental (as charm monster, Will DC 17 negates). If the charm attempt fails, however, absolute protection is lost and no further attempt at charming can be made.  Creatures from the plane to which the ring is attuned that attack the wearer take a -1 penalty on their attack rolls. The ring wearer makes applicable saving throws against the extraplanar creature's attacks with a +2 resistance bonus. She gains a +4 morale bonus on all attack rolls against such creatures. Any weapons he uses bypasses the damage reduction of such creatures, regardless of any qualities the weapon may or may not have.  The wearer of the ring is able to converse with creatures from the plane to which her ring is attuned. These creatures recognize that she wears the ring, and show a healthy respect for the wearer if their alignments are similar. If alignments are opposed, creatures fear the wearer if she is strong. If she is weak, they hate and desire to slay her.  The possessor of a ring of elemental command takes a saving throw penalty as follows.  ELEMENT SAVING THROW PENALTY  Air -2 against earth-based effects  Earth -2 against air- or electricity-based effects  Fire -2 against water- or cold-based effects  Water -2 against fire-based effects  In addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.  RING OF ELEMENTAL COMMAND (AIR)  • Wind wall (unlimited use)  • Feather fall (unlimited use, wearer only)  • Resist energy (electricity) (unlimited use, wearer only)  • Gust of wind (twice per day)  • Air walk (once per day, wearer only)  • Chain lightning (once per week)  This ring appears to be a ring of feather falling until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.  RING OF ELEMENTAL COMMAND (EARTH)  • Soften earth and stone (unlimited use)  • Meld into stone (unlimited use, wearer only)  • Stone shape (twice per day)  • Wall of stone (once per day)  • Stoneskin (once per week, wearer only)  • Passwall (twice per week)  This ring appears to be a ring of meld into stone (allowing the wearer to cast meld into stone at will) until the established condition is met.  RING OF ELEMENTAL COMMAND (FIRE)  • Resist energy (fire) (as a major ring of energy resistance [fire])  • Burning hands (unlimited use)  • Flaming sphere (twice per day)  • Pyrotechnics (twice per day)  • Wall of fire (once per day)  • Flame strike (twice per week)  This ring appears to be a major ring of energy resistance (fire) until the established condition is met.  RING OF ELEMENTAL COMMAND (WATER)  • Create water (unlimited use)  • Water breathing (unlimited use)  • Water walk (unlimited use)  • Wall of ice (once per day)  • Ice storm (twice per week)  • Control water (twice per week)  This ring appears to be a ring of water walking until the established condition is met.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, summon monster VI, all appropriate spells</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404596,
+    "modifiedTime": 1665949167128,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

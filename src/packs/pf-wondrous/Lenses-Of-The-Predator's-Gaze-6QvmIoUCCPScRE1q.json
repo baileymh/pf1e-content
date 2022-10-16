@@ -3,7 +3,7 @@
   "name": "Lenses Of The Predator's Gaze",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These amber lenses are shaped to look like the eyes of a cat. As a standard action, the wearer can use these lenses to target a single creature that he can see. When he does, as long as the target is not already the subject of the wearer's studied target class feature, the wearer gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that creature, along with a +1 bonus on weapon attack rolls and damage rolls against it as if he had the studied target class feature.   If the wearer has the studied target class feature, he can instead use the magic of these lenses as a free action when designating the subject of his studied target to increase his effective slayer level by 5 for the purposes of the studied target class feature.  The wearer can gain these effects for up to 10 rounds per day, but the rounds don't need to be consecutive.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must have the studied target class feature</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404067,
+    "modifiedTime": 1665949166564,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

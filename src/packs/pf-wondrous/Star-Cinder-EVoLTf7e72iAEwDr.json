@@ -3,7 +3,7 @@
   "name": "Star Cinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tiny flake of dark, extraordinarily dense material is hung on a simple wire chain and seems to absorb the light around it. When activated, streaks of alien color play across its surface. Once per day, the wearer of a star cinder can choose one energy type (acid, cold, electricity, fire, or sonic). Creatures within 60 feet of the wearer with resistance or immunity to the selected energy type have that resistance or immunity suppressed for 12 rounds. Creatures with the elemental subtype are unaffected.  An affected creature of the outsider type must succeed at a DC 17 Will save each round it remains within the area of effect or be forced to return to its home plane (as per the dismissal spell). Even if the outsider succeeds at its save, it is sickened for as long as it remains in the area of effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, antimagic field, dismissal, resist energy</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404764,
+    "modifiedTime": 1665949167258,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Headhunter Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The forms of numerous animals, magical beast, and other famous creatures appear in relief on every inch of this iron wayfinder's surface, creating a maze of lions, hawks, dragons, and elephants. Though a headhunter wayfinder looks like a normal compass, it doesn't point toward true north as one would expect. Rather, if a piece of hair, a drop of blood, or some other organic matter from an individual creature is placed in the socket normally reserved for an ioun stone, the wayfinder's needle points out this creature as though it were the subject of a locate creature spell with a radius of 680 feet from the wayfinder's wielder. This effect has no set duration, and functions as long as a specimen of the target creature is held within the wayfinder and the creature is within range. If the target creature isn't in range, the headhunter wayfinder's needle slowly spins clockwise. As with the locate creature spell, running water and spells such as mislead, nondetection, and polymorph fool or otherwise block the effect. A headhunter wayfinder can't hold an ioun stone and doesn't provide resonant powers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, light, locate creature</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407333,
+    "modifiedTime": 1665949169588,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

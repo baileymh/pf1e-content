@@ -3,7 +3,7 @@
   "name": "Assassin's Dust",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This fine dust causes bare skin that it comes in contact with to burn and tingle. When sprinkled on a corpse or an inanimate skeleton, it causes the dead flesh and bones to disintegrate into a fine brown powder similar to that left by a disintegrate spell. Assassin's dust comes in a small vial suitable for treating eight Small corpses, four Medium corpses, or one Large corpse. A skeletal corpse counts as half a corpse of its size. This dust has no effect on living or undead creatures.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disintegrate</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409702,
+    "modifiedTime": 1665949171832,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

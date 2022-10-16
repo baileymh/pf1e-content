@@ -3,7 +3,7 @@
   "name": "Black Powder Bravado",
   "type": "feat",
   "img": "icons/weapons/swords/swords-short.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p class=\"description\"><em>You are particularly successful when using deeds.</p></em>\n<p>&nbsp;</p>\n<p><strong>Benefits</strong></p>\n<p>Once per day, when you perform a deed that requires an attack roll and you miss with that roll, you can reroll it. You must take the second result even if it is worse.</p>",
       "chat": "",
@@ -52,6 +52,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 1,
           "maxFormula": "1",
@@ -106,6 +111,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -167,7 +173,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -200,8 +205,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428392696,
+    "modifiedTime": 1665949156126,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

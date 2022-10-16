@@ -3,7 +3,7 @@
   "name": "Deck Of Slivering Fate",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The 54 cards in this +1 limningUE harrow deck have more violent imagery than a standard harrow deck, and each card has a thin metallic frill around its edges. When the wielder uses a card from this deck with the Deadly Dealer feat (see page 15), the metallic frills become taut and sharp. When they are used in this way, the cards deal slashing damage instead of piercing, and the bonus damage from the Arcane Strike feat is doubled.<br><p><b>Base Item:</b> +1 limning harrow deck</p><h3><b>Requirements</b></h3><p>Craft Magical Arms and Armor, Craft Wondrous Item, Deadly Dealer, magic missile</p><h3><b>Source: </b></h3>The Harrow Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410445,
+    "modifiedTime": 1665949172460,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Alchemist's Atlatl",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wooden atlatl resembles a handheld, lever-controlled catapult. One end sports a shaft covered in carvings of alchemical formulae, and the other is a roughly carved bowl. The user can place an alchemical splash weapon, such as a flask of acid or alchemist's fire, in the bowl. This is a move action that provokes an attack of opportunity. When the splash weapon is launched from the atlatl, its range is doubled. Magic items (including an alchemist's bombs) aren't affected by an alchemist's atlatl.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, longshotUC</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408971,
+    "modifiedTime": 1665949171163,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

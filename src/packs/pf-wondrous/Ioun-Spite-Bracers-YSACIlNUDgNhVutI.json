@@ -3,7 +3,7 @@
   "name": "Ioun Spite Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These bracers find particular use by Aspis agents who often tangle with the Pathfinder Society. As a standard action, a creature wearing these bracers can attempt a stealAPG combat maneuver check to nab any orbiting ioun stone within 30 feet, though the ioun stone's owner receives a +4 circumstance bonus to her CMD. If the bracers' wearer succeeds, the stolen ioun stone embeds itself in one of the bracers' four available slots (each bracer has two). Embedded ioun stones provide their bonuses to the wearer and can be removed with a move action. As a standard action, the wearer can temporarily drain the power of any ioun stone that is embedded in the bracers and isn't dull gray, and can then channel that power to cast magic missile as a spell-like ability, firing three missiles at a target or targets up to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic missile, telekinesis</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407299,
+    "modifiedTime": 1665949169552,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

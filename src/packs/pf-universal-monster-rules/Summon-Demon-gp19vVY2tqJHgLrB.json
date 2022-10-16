@@ -3,7 +3,7 @@
   "name": "Summon Demon",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_25.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>Three times per day as a swift action, a demon lord can summon any demon or combination of demons whose total combined CR is 20 or lower. This otherwise works like the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"eJ14u2Ayls8Lt0Af\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">summon</span></a>&nbsp;universal monster rule with a 100% chance of success, and counts as a 9th-level spell effect.</p>",
       "chat": "",
@@ -44,6 +44,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 3,
           "maxFormula": "",
@@ -100,6 +105,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -161,7 +167,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
@@ -202,8 +207,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402521,
+    "modifiedTime": 1665949165252,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

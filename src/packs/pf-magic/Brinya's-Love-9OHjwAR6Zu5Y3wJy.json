@@ -3,7 +3,7 @@
   "name": "Brinya's Love",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The fire-blackened blade of this hopeknife bears the inscription my love in stark silver and glows with light equivalent to a light spell when drawn. Brinya's Love is a +1 dagger infused with the soul of the fallen hero Rodrik Grath and the tears of his fiancee Brinya Kelver. Once per day on command, the wielder can grant the weapon the ghost touch weapon special ability for 1 minute. During this time, Brinya's Love sheds light equivalent to a daylight spell and the wielder gains a +3 sacred bonus to his CMD against disarm and sunder attempts directed at the hopeknife.<br><p><b>Base Item:</b> +1 dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blade of bright victoryUM, daylight</p><h3><b>Source: </b></h3>AP 91",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371774,
+    "modifiedTime": 1665949138226,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

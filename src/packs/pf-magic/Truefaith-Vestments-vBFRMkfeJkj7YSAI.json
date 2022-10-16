@@ -3,7 +3,7 @@
   "name": "Truefaith Vestments",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Worn by enforcers and acolytes of the living god Razmir, this +1 chain shirt appears as a fine hooded robe made of silk of a color appropriate to the wearer's rank within the church as if it had the glamered special ability (it appears white when worn by anyone who doesn't follow Razmir). Used primarily as a means of appearing to be protected by the false god's power, the armor is treated as a +3 breastplate against attacks made by any enemy who has not seen through the illusion. Unlike with standard glamered armor, any creature that successfully hits the target with a melee weapon is considered to have interacted with the illusion, and can see the armor's true form with a successful DC 16 Will save.<br><p><b>Base Item:</b> +1 chain shirt</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disguise self</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373072,
+    "modifiedTime": 1665949139440,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

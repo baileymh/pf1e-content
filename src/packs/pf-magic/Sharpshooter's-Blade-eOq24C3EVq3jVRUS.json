@@ -3,7 +3,7 @@
   "name": "Sharpshooter's Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bloodstained, skull-bedecked bayonet (Advanced Player's Guide 176) has thin blood gutters running along both sides of its 14-inch blade. When attached to a magic crossbow or firearm, a sharpshooter's blade gains the enhancement bonus and other weapon special abilities of the ranged weapon it is attached to, and feats, spells, and abilities that enhance or improve attacks with the ranged weapon can be used with the sharpshooter's blade, provided these would work with a weapon of the bayonet's type (a two-handed piercing melee weapon). These bonuses and benefits don't stack with bonuses or benefits of the same type or from the same source. For example, a character with both Weapon Focus (bayonet) and Weapon Focus (heavy crossbow) would only gain the benefits of one of those feats when attacking with a sharpshooter's blade attached to a heavy crossbow. Use-activated abilities of the ranged weapon can be triggered through the sharpshooter's blade but count toward the usage limitations of the ranged weapon.  When not attached to a magic crossbow or firearm, a sharpshooter's blade has no enhancement bonus, but is still of masterwork quality and counts as magic for the purpose of overcoming damage reduction.<br><p><b>Base Item:</b> bayonet</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, greater magic weapon, versatile weapon (Advanced Player's Guide 254)</p><h3><b>Source: </b></h3>AP 57",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372714,
+    "modifiedTime": 1665949139208,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

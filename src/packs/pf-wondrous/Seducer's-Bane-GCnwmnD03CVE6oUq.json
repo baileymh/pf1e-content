@@ -3,7 +3,7 @@
   "name": "Seducer's Bane",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This slender silver bracelet is worked in an intertwined design of three flowers. A DC 20 Knowledge (nature) check identifies the flowers as acacia, apocynum, and bilberry, symbolizing concealment, treachery, and falsehood.  The bracelet grants the wearer a +5 competence bonus on Sense Motive checks, and a +5 resistance bonus on Will saves against enchantment effects. If the wearer makes a successful Will save against an enchantment, the caster of that spell incorrectly senses the effect has succeeded. Additionally, the bracelet's wearer knows an enchantment targeted him and the enchantment's source. Seducer's bane creates an aura on its wearer, visible to detect magic, matching the failed enchantment spell or effect, and lasting as long as the intended enchantment's duration. However, if the bracelet's wearer attacks the caster or its allies, or otherwise acts in a way that's contradictory to the failed spell's effect, the caster of that spell immediately realizes the enchantment was ineffective.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect magic, magic aura, resistance, creator must have 3 ranks in Sense Motive</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404842,
+    "modifiedTime": 1665949167335,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

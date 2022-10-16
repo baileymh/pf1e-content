@@ -3,7 +3,7 @@
   "name": "Starsong Mail",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 chainmail is usually a metallic midnight blue and may sport a badge in the shape of a butterfly, moth, or starknife. Once per day, the wearer can use expeditious retreat. If the armor's wearer sleeps in or next to the armor, the armor automatically casts dream feast* once per night on the wearer or the last creature who wore it.<br><p><b>Base Item:</b> +1 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dream feast*, expeditious retreat</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372982,
+    "modifiedTime": 1665949139367,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

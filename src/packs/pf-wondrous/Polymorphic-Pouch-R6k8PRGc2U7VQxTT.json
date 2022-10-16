@@ -3,7 +3,7 @@
   "name": "Polymorphic Pouch",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This leather pouch is usually decorated with a druidic motif. Within is an extradimensional space that can hold 4 cubic feet or 40 pounds worth of items and otherwise functions as a small bag of holding. If the bearer uses a polymorph effect or wild shape to transform into an animal, dragon, elemental, magical beast, plant, or vermin, the pouch never merges with her body. It automatically relocates to an easily-accessible place on her body (such as on a belt or a cord around her neck), allowing her to access the pouch and items within it while she is transformed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, polymorph, secret chest</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406620,
+    "modifiedTime": 1665949168905,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Mitre Of The Hierophant",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ostentatious hat functions only for a wearer who can cast divine spells. The wearer gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. Once per day on command, the wearer can ask a single question of her patron deity, as if by using commune. Once per week on command, the wearer can touch a creature, atoning it for past misdeeds as if using an atonement spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, atonement, commune, guidance</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404233,
+    "modifiedTime": 1665949166682,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

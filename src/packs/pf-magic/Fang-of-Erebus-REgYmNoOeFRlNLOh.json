@@ -3,7 +3,7 @@
   "name": "Fang of Erebus",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 shortspear gleams as if newly polished and shimmers with threads of inlaid gold dust. Strangely light for its size, the shortspear has a range increment of 30 feet. Once per day, the wielder may entreat Mammon as the shortspear deals damage as part of a ranged attack. Doing so causes the area within 30 feet of the creature struck to be a!ected as per the spell deeper darkness. This darkness lingers at the point where the target was damaged, not moving with the target. In addition, the gold dust embedded in the shortspear sparkles if the spearhead is touched to an object or treasure valued at 1,000 gp or more. The wielder can determine if an object is worth 1,000 gp or more, 10,000 gp or more, or 100,000 gp or more just by observing the level of this scintillation. Once per day, the spear can also be laid on the ground and commanded to point to the most valuable object within 30 feet.<br><p><b>Base Item:</b> +1 shortspear</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, deeper darkness, identify</p><h3><b>Source: </b></h3>AP 30",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372306,
+    "modifiedTime": 1665949138735,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

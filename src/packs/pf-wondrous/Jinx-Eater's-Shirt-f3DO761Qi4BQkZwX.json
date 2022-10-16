@@ -3,7 +3,7 @@
   "name": "Jinx Eater's Shirt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This shirt is stitched with dozens of symbols meant to attract bad luck, including bloodshot eyes and tengu skulls. Whenever an ally within 60 feet is subject to a curse, hex, jinx, or effect that would force her to roll multiple times for the same check and take the worse result, a tengu wearer  can attempt to eat the effect as an immediate action. The wearer of the shirt attempts a caster level check with a DC of 11 + the effect originator's caster level (or HD for an ability that has no caster level). If the attempt is successful, the wearer suffers the effect instead of the original target, and the wearer gains a number of temporary hit points equal to the effect's caster level or the target's HD, whichever is lower. These temporary hit points last for 1 minute. A jinx eater's shirt can successfully redirect an effect originating from a given creature only once each day, but otherwise it has no limitation on usage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, remove curse, creator must be a tengu</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407961,
+    "modifiedTime": 1665949170194,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

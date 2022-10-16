@@ -3,7 +3,7 @@
   "name": "Dragon's Tail",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 dragonbane guisarme seems to vibrate with a low hum. On a successful hit, the target must succeed at a DC 20 Fortitude save or become staggered for 1 round. If the target is of the dragon type and the dragon fails its save, the creature is stunned for 1 round and staggered for 2 rounds thereafter. It is staggered for 1 round even on a successful save.<br><p><b>Base Item:</b> +2 dragonbane guisarme</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, resonating wordUM, summon monster I</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372203,
+    "modifiedTime": 1665949138634,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ranseur Of The Gargoyle",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A ranseur of the gargoyle appears to have a head crafted of obsidian, but is in fact as hard and resilient as steel. This weapon functions as a +1 ranseur that grants a +4 bonus on disarm checks rather than the typical +2 bonus a ranseur grants. Up to 5 times per day as a swift action, the wielder of a ranseur of the gargoyle can cause its skin to harden for 1 round, gaining a +2 enhancement bonus to its natural armor score.<br><p><b>Base Item:</b> +1 ranseur</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, barkskin</p><h3><b>Source: </b></h3>AP 73",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372935,
+    "modifiedTime": 1665949139332,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

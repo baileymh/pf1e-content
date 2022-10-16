@@ -3,7 +3,7 @@
   "name": "Leviathan's Terror",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 ominousUE harpoonUE is carved from a bleached whale bone and bound with the spirit of an ancient beast that  rumbles with a low, mournful call each time the barbed tip strikes. Holding the weapon fills the wielder with the nerve to face even the most imposing foes, granting her a +2 morale bonus on saving throws against the frightful presence universal monster ability. She does not take the usual -4 penalty to use the Intimidate skill on a target larger than her as long as she carries the leviathan's terror on her person.  Three times per day, the wielder of a leviathan's terror can call on the spirit in the weapon to enlarge her musculature, drain the color from her skin, and turn her exhalations to rolling fog for a 1-minute period. During this time, once as a standard action, she can attempt an Intimidate check to demoralize all enemies that are at least one size category larger than her within a 30-foot radius. During this period, the wielder also gains a +1 size bonus on combat maneuver checks and to CMD and is treated as one size category larger for the purposes of determining the effects of attacks and abilities that limit their use on larger creatures (such as tripping creatures of a larger size category or for determining what creatures can be targeted by the grab ability), although her actual size category does not change.<br><p><b>Base Item:</b> +2 ominous harpoon</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, enlarge person, scare</p><h3><b>Source: </b></h3>Seers Of The Drowned City",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372758,
+    "modifiedTime": 1665949139242,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

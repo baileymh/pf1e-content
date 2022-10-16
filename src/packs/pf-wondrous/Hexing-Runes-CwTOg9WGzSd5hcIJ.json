@@ -3,7 +3,7 @@
   "name": "Hexing Runes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These runes may be carved from wood or cast in silver and are worn on a leather cord. When a witch prepares her spells, she may also choose to use the hexing runes to augment one hex she can use. The save DC of this hex increases by 1 for 24 hours. Additionally, once per day when she speaks the command word, the wearer gains the benefits of the ward hex as if cast by an 8th level witch.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Spell Focus (abjuration), resistance, creator must be able to use the ward hexAPG</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404697,
+    "modifiedTime": 1665949167199,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

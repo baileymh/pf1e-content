@@ -3,7 +3,7 @@
   "name": "Polychrome Cover",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This multicolored tarp is made from intricately woven cloth that gives its exterior the texture of stonework. It covers a 10-foot-by- 10-foot area and can be placed vertically, magically supporting its own weight. A polychrome cover magically takes on the same coloration of nearby stone, imitating any terrain it's in contact with. The coloration of the cover is an illusion effect that can be disbelieved (Will DC 16). Those who successfully disbelieve the effect instead see the cover's true coloration.  When a polychrome cover is crafted, the maker designates any number of creatures present at its creation to be immune to the cover's illusory effect. The crafter can instead exclude a specific race from the item's illusion. Most polychrome covers are set to exclude svirfneblin.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hallucinatory terrain</p><h3><b>Source: </b></h3>Heroes Of The Darklands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404781,
+    "modifiedTime": 1665949167272,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

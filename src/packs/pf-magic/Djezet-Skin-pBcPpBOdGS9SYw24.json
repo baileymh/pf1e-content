@@ -3,7 +3,7 @@
   "name": "Djezet Skin",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When unattended, djezet skin appears as a curiously smooth sphere of rust-red metal. When it's held and a command word is spoken, the armor oozes across the wearer's body like a second skin. The armor can be removed as a free action by stepping out of it, causing it to pool on the floor. Djezet skin acts as a suit of +1 leather, except it is made of metal (and thus druids cannot wear it) and has no armor check penalty and a 0% chance of arcane spell failure. Additionally, the wearer of djezet skin gains a +5 circumstance bonus on Diplomacy checks to make requests of creatures with an attitude of friendly or helpful.<br><p><b>Base Item:</b> +1 leather</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, charm person</p><h3><b>Source: </b></h3>Armor Masters Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372965,
+    "modifiedTime": 1665949139356,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

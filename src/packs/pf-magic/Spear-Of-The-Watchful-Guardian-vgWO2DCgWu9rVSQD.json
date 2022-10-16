@@ -3,7 +3,7 @@
   "name": "Spear Of The Watchful Guardian",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magically strengthened bronze-tipped +1 spear enables its wielder to better face a variety of foes. Originally created by priests of Nethys for use by their temple guards, a spear of the watchful guardian also grants its wielder arcane aid to strike true. Once per day as a standard action, the wielder of a spear of the watchful guardian can alter the physical properties of the weapon, allowing it to bypass damage reduction of one of the following types: bludgeoning, cold iron, silver, or slashing. This change lasts for 5 minutes.  In addition, if the wielder of a spear of the watchful guardian fails an attack roll, as an immediate action once per day, she can retroactively add a +1 competence bonus on that roll. If this bonus is enough to make the failure a success, the attack roll succeeds.  Finally, a spear of the watchful guardian sharpens the senses of its wielder, granting her a +2 insight bonus on Perception checks.<br><p><b>Base Item:</b> +1 spear</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, timely inspirationAPG, versatile weaponAPG</p><h3><b>Source: </b></h3>AP 79",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373091,
+    "modifiedTime": 1665949139454,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

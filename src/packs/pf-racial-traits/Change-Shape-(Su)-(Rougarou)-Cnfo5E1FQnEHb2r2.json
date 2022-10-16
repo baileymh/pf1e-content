@@ -3,7 +3,12 @@
   "name": "Change Shape (Su) (Rougarou)",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/animal.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.jQbW7bPICoOX6Lny"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Rougarou&nbsp;</p>\n<hr />\n<p>A rougarou can change shape once per day into a wolf as a standard action, as <em>beast shape I</em>. A rougarou can revert to its true form as a swift action.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.jQbW7bPICoOX6Lny"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382752,
+    "modifiedTime": 1665949147185,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

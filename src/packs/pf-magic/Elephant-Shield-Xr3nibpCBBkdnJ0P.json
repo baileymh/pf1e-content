@@ -3,7 +3,7 @@
   "name": "Elephant Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 leather maduUE is designed in the form of a bull elephant's head, complete with imposing ivory tusks. The shield provides a +3 circumstance bonus on combat maneuver checks made to bull rush opponents. If used as a weapon, the elephant shield grants a +1 enhancement bonus on attack rolls and damage rolls and deals damage as if it were one size category larger than it is. Once per day, the bearer of the elephant shield can have the trunk of the shield lash out, allowing the wielder to attempt a grapple combat maneuver check against a foe as a swift action. This combat maneuver doesn't provoke attacks of opportunity.<br><p><b>Base Item:</b> +2 leather madu</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, beast shape I, force punchUC</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372422,
+    "modifiedTime": 1665949138850,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Gravitic Force Rod",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy leaden rod is carved with a series of glyphs that resemble Terran writing. It has a single activation stud at its base. A creature can activate the rod by pressing the stud or by placing the rod on the ground. Once activated, the rod creates a field of intensified gravity within a 100-foot radius. Creatures within the area weigh twice as much as normal, can move only at half speed, can jump only half as far as normal,  and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, reverse gravity</p><h3><b>Source: </b></h3>Magic Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404269,
+    "modifiedTime": 1665949166711,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

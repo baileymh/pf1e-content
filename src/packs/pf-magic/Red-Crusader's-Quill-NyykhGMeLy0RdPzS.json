@@ -3,7 +3,7 @@
   "name": "Red Crusader's Quill",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an arcane mark on the creature. Once per month, the wielder can instead inscribe a mark of justice; this mark ends immediately if the wielder inscribes another mark of justice with the Red Crusader's quill.<br><p><b>Base Item:</b> +3 rapier</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, arcane mark, mark of justice, creator must worship Arazni</p><h3><b>Source: </b></h3>AP 141",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372252,
+    "modifiedTime": 1665949138690,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

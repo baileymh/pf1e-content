@@ -3,7 +3,7 @@
   "name": "Ki Crystal",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Created by the masters within the Kusari-Gama faction, this thumbnail-sized crystal stores a single point of ki. Any person with the ki pool ability may expend the stored ki as if using his own ki. Once the ki is expended, the crystal shatters. In Minkai, the Kusari-Gama monks sometimes craft ki crystals into the hilts of powerful weapons. In Vudra, such crystals are often embedded in small animal statuettes or in shrines venerating a favored deity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>ki pool, Kusari-Gama 40 TPA</p><h3><b>Source: </b></h3>Faction Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408439,
+    "modifiedTime": 1665949170663,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

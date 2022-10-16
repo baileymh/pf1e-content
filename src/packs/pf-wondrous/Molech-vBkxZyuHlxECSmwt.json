@@ -3,7 +3,7 @@
   "name": "Molech",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This statue takes the form of a bull or a bull-headed humanoid. A hatch in the idol's chest or side allows access to a hollow inside the statue-this hatch can be opened only from the outside. This hollow is typically large enough to accommodate one Medium creature, though larger idols might accommodate more. One round after a creature is placed inside, the idol's interior blazes with hellfire, which deals 6d6 points of damage per round to any creature inside. Half the damage is fire damage, but the other half results directly from unholy power and is therefore not subject to reduction by resistance to fire-based attacks. Pipes inside the idol amplify the screams of those within, making them sound like the bellows of an enraged bull. A creature inside the idol can break out through the locked door by succeeding at a DC 30 Strength check, or by dealing enough damage (hardness 15; hp 90; immune to fire damage). If a creature dies within the idol, all lawful evil creatures within 100 feet gain the benefits of the spell bless for 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless, produce flame, unholy blight</p><h3><b>Source: </b></h3>AP 105",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410261,
+    "modifiedTime": 1665949172329,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

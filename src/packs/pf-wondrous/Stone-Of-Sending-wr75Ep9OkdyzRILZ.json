@@ -3,7 +3,7 @@
   "name": "Stone Of Sending",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This paired item is created from a single geode divided into two halves. Any individual who concentrates upon one of the halves can use it to send a mental message to the individual possessing the other half as though she had cast a sending spell. The sender must spend a full round concentrating upon his half of the stone to deliver the message. The message can be longer than for a sending spell, but no longer than 100 words. If the receiving stone is unattended when a message comes through, the gems on its inner surface glow faintly until the geode is touched, releasing the message to its new possessor. If a message comes to an unattended stone that already holds a message, the new message erases and replaces the first message. A stored message lasts for 24 hours before dissipating naturally.  Each half of a stone of sending can be used once per day to initiate contact with the other.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sending</p><h3><b>Source: </b></h3>PFS S2-22",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410352,
+    "modifiedTime": 1665949172391,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

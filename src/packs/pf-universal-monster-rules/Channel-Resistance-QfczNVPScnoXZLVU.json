@@ -3,7 +3,38 @@
   "name": "Channel Resistance",
   "type": "feat",
   "img": "systems/pf1/icons/spells/air-burst-sky-2.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "bards": {
+        "bardAnim": "a1",
+        "bardSelf": true,
+        "bardTarget": true
+      },
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "spellVar": "a1",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>A creature with this special quality (usually an undead) is less easily affected by <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.class-abilities\" data-id=\"kXXz1lO4i7CibHJ9\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">channel energy</span></a>. A creature with channel resistance adds its listed bonus on saves to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.feats\" data-id=\"CjLNTqNGz4zU4zpp\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">command undead</span></a> feat).</p>\n<p>&nbsp;</p>\n<p><em>Format</em>: channel resistance +4</p>\n<p><em>Location</em>: Defensive Abilities.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: adjust Context note to channel resistance bonus.</p>",
       "chat": "",
@@ -48,6 +79,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -169,7 +206,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -203,38 +239,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "animName": "",
-      "animTint": "#ffffff",
-      "animType": "t1",
-      "auraOpacity": 0.75,
-      "bards": {
-        "bardAnim": "a1",
-        "bardSelf": true,
-        "bardTarget": true
-      },
-      "color": "n1",
-      "ctaOption": false,
-      "dtvar": "dt1",
-      "explodeColor": "",
-      "explodeLoop": "1",
-      "explodeRadius": "0",
-      "explodeVariant": "ev1",
-      "explosion": false,
-      "hmAnim": "a1",
-      "killAnim": false,
-      "override": false,
-      "selfRadius": "5",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "spellVar": "a1",
-      "teleDist": 30,
-      "uaStrikeType": "physical"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402479,
+    "modifiedTime": 1665949165217,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

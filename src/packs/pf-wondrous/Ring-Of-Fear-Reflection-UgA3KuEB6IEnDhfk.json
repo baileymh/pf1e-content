@@ -3,7 +3,7 @@
   "name": "Ring Of Fear Reflection",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple silver ring has a fear rune etched into its hammered apex. The ring provides a morale bonus versus fear effects. This bonus starts at +0 and can advance no higher than +5.   Every time the wearer succeeds at a Will save versus a fear affect, the ring's bonus increases by +1. Should the wearer fail a Will save versus fear, the ring's bonus immediately falls to +0.   If the bonus is +5 and the wearer is affected by a fear effect and succeeds at her Will save, the ring automatically reflects the fear effect back to its source. If the source is a creature not immune to fear, it must succeed at a Will save at the DC made by the ring's wearer or be affected by the fear effect. Only the source of an area fear effect is targeted by such a reflected spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, fear, remove fear, resistance</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406804,
+    "modifiedTime": 1665949169049,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

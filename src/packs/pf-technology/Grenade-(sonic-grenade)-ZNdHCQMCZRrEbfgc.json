@@ -3,7 +3,66 @@
   "name": "Grenade (sonic grenade)",
   "type": "consumable",
   "img": "icons/weapons/thrown/bomb-fuse-black-pink.webp",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "bards": {
+        "bardAnim": "a1",
+        "bardTarget": true,
+        "bardTargetAnim": "a1",
+        "bardTargetColor": "a1",
+        "bardSelf": true,
+        "marker": true,
+        "markerColor": "a1",
+        "markerColorTarget": "a1"
+      },
+      "spellVar": "a1",
+      "hmAnim": "a1",
+      "color": "n1",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "uaStrikeType": "physical",
+      "dtvar": "dt1",
+      "divineSmite": {
+        "dsEnable": false,
+        "dsSelf": true,
+        "dsSelfDelay": 0,
+        "dsSelfColor": "a1",
+        "dsTarget": true,
+        "dsTargetDelay": 1250,
+        "dsTargetColor": "a1"
+      },
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "allSounds": {
+        "explosion": {
+          "audioExplodeEnabled": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        },
+        "item": {
+          "enableAudio": false,
+          "file": "",
+          "delay": 100,
+          "volume": 25
+        }
+      },
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false,
+      "teleDist": 30
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 46</em></p>\n<p><strong>Price</strong> 1,000 gp</p>\n<p><strong>Slot</strong> none; <strong>Weight</strong> 1 lb.</p>\n<p><strong>Capacity</strong> -; <strong>Usage</strong> disposable</p>\n<h2 class=\"framing\">Description</h2>\n<p>A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher (see page 24). Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-footradius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.</p>\n<p>&nbsp;</p>\n<p>The type of damage dealt by grenades varies widely and depends upon the nature of the specific grenade. The different types of grenades and the damage types they deal (along with any additional effects their damage deals) are listed below.</p>\n<ul>\n<li><strong>Arc Grenade</strong>: Deals 5d6 points of electricity damage.</li>\n<li><strong>Atom Grenade</strong>: Creates a 20-foot-radius area of medium radiation that persists for 24 hours.</li>\n<li><strong>Bang Grenade</strong>: Deals no damage but staggers creatures for 1 round and deafens them for 1d4 rounds (DC 15 Fortitude save negates).</li>\n<li><strong>Bio Grenade</strong>: Infects creatures who fail a DC 15 Fortitude save with bubonic plague (no onset).</li>\n<li><strong>Concussion Grenade</strong>: Deals 5d6 points of bludgeoning damage.</li>\n<li><strong>EMP Grenade</strong>: Deals 5d6 points of electricity damage to robots and electronic-based gear, half damage to cyborgs and androids, and no damage to other creatures.</li>\n<li><strong>Flash Grenade</strong>: Blinds creatures for 1d4 rounds (DC 15 Fortitude save negates).</li>\n<li><strong>Flechette Grenade</strong>: Deals 5d6 points of piercing damage.</li>\n<li><strong>Fragmentation Grenade</strong>: Deals 5d6 points of slashing damage.</li>\n<li><strong>Gravity Grenade</strong>: Deals 5d6 points of force damage. Creatures damaged by a gravity grenade are automatically subjected to a trip attack (grenade's CMB = +15).</li>\n<li><strong>Inferno Grenade</strong>: Deals 5d6 points of fire damage.</li>\n<li><strong>Plasma Grenade</strong>: Deals 4d6 points of fire damage and 4d6 points of electricity damage.</li>\n<li><strong>Soft Grenade</strong>: Deals 5d6 points of nonlethal damage.</li>\n<li><strong>Sonic Grenade</strong>: Deals 5d6 points of sonic damage; creatures who fail a DC 15 Fortitude save are also deafened for 1d4 rounds.</li>\n<li><strong>Zero Grenade</strong>: Deals 5d6 points of cold damage.</li>\n</ul>\n<h2 class=\"framing\">Construction</h2>\n<p><strong>Craft</strong> DC 20 (arc grenade), DC 20 (atom grenade), DC 20 (bang grenade), DC 20 (bio grenade), DC 20 (concussion grenade), DC 20 (EMP grenade), DC 20 (flash grenade), DC 20 (flechette grenade), DC 20 (fragmentation grenade), DC 20 (gravity grenade), DC 20 (inferno grenade), DC 20 (plasma grenade), DC 20 (soft grenade), DC 20 (sonic grenade), DC 20 (zero grenade)</p>\n<p><strong>Cost</strong> 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)</p>\n<p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -70,6 +129,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -138,6 +202,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -265,66 +330,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "bards": {
-        "bardAnim": "a1",
-        "bardTarget": true,
-        "bardTargetAnim": "a1",
-        "bardTargetColor": "a1",
-        "bardSelf": true,
-        "marker": true,
-        "markerColor": "a1",
-        "markerColorTarget": "a1"
-      },
-      "spellVar": "a1",
-      "hmAnim": "a1",
-      "color": "n1",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "uaStrikeType": "physical",
-      "dtvar": "dt1",
-      "divineSmite": {
-        "dsEnable": false,
-        "dsSelf": true,
-        "dsSelfDelay": 0,
-        "dsSelfColor": "a1",
-        "dsTarget": true,
-        "dsTargetDelay": 1250,
-        "dsTargetColor": "a1"
-      },
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "allSounds": {
-        "explosion": {
-          "audioExplodeEnabled": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        },
-        "item": {
-          "enableAudio": false,
-          "file": "",
-          "delay": 100,
-          "volume": 25
-        }
-      },
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false,
-      "teleDist": 30
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387797,
+    "modifiedTime": 1665949152147,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

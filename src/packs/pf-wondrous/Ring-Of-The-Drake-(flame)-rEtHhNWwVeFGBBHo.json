@@ -3,7 +3,7 @@
   "name": "Ring Of The Drake (flame)",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a red stone in the shape of a dragon with glowing wings, this ring grants its wearer fire resistance 5. The ring has a sulfuric smell that lingers when it protects its wearer.  11th Level: The ring grants fire resistance 10.  14th Level: The ring grants fire resistance 20.   17th Level: The ring grants fire resistance 30. The wearer increases her land speed by 5 feet. Once per day, the ring's wearer can make a primary bite attack as a swift action. If she does not already possess a bite attack, her teeth elongate into draconic fangs as part of the swift action, granting a bite attack that deals 1d6 points of damage for a Medium wearer (1d4 for a Small wearer).  20th Level: The ring's wearer can transform into a flame drake once per day. This functions as transforming into a red dragon via form of the dragon II, except that the wearer's fire breath weapon damages a 20-foot-radius spread within 180 feet of her.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, form of the dragon II, haste, resist energy</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409663,
+    "modifiedTime": 1665949171804,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

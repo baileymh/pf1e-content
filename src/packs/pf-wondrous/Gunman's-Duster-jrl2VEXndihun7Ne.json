@@ -3,7 +3,7 @@
   "name": "Gunman's Duster",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the Amateur Gunslinger feat (see Ultimate Combat), she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Amateur Gunslinger or creator must be a gunslinger, bullet shield</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408535,
+    "modifiedTime": 1665949170737,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

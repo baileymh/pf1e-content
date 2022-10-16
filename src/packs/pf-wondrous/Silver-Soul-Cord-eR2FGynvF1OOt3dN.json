@@ -3,7 +3,7 @@
   "name": "Silver Soul Cord",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This shimmering metallic belt is composed of dozens of looped silver cords tied together in elaborate braids and knots. As a standard action, the wearer can touch his animal companion to attach an invisible, incorporeal cord to it that, if it can be seen by anyone, appears to be superficially tied to the silver soul cord. This forms a deeper bond between the wearer and the animal companion. It can be attached to only one animal companion at a time. If the animal companion is killed or the link is broken while the cord is attached in this manner (though very few things can destroy the incorporeal cord), the wearer and the animal companion each gain a negative level and the silver soul cord cannot be reattached to any creature for 24 hours. The cord can extend for a length of up to 1 mile, but if the attached animal companion moves farther away from the wearer than this, the cord automatically detaches and the bond ends, though it is not considered to be broken and therefore does impart any negative levels. The wearer can remove the cord as a standard action.  While the silver cord is attached, the wearer gains an empathic link with an animal companion as if it were a familiar (per the wizard arcane bond class feature). Additionally, as a standard action, the wearer can sacrifice his own hit points to heal the animal companion through this bond. The creature regains 1 hit point for every 1 hit point the wearer sacrifices. The wearer can sacrifice a maximum number of hit points per turn equal to his Hit Dice, and can't sacrifice hit points if doing so would reduce him to 0 hit points or fewer.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shield other, vampiric touch</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407930,
+    "modifiedTime": 1665949170174,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

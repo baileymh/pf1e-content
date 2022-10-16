@@ -3,7 +3,7 @@
   "name": "Draddeth Edge",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 defiantUE transformativeUE warhammer houses the mind of a cunning schemer and brilliant military tactician. The weapon has a deep sense of patriotism for the nation of Molthune, and it seeks to help its owner rise through the ranks of that militant nation. The weapon never willingly reveals its name until it feels its job as a military tutor is nearing completion.  The Draddeth Edge enjoys listening to military strategies, and empathically communicates its feelings on tactics to its owner. It evaluates its owner's underlings and despises incompetent or untrustworthy comrades, generals, and commanders, urging its owner to dismiss them from service. When dealing with a well-meaning but tactically inept owner, The Draddeth Edge attempts to exert its ego during military matters.  The weapon has a +12 bonus on Profession (soldier) checks, and a +7 bonus on Sense Motive checks. It can cast magic aura on itself at will (Will DC 13 disbelieves) and teleport on itself once per day. The Draddeth Edge can read and understand Common and Varisian.  Owners who think too highly of Molthune's rival nations (especially Nirmathas), or who frequently argue with the weapon, find The Draddeth Edge missing at critical moments. The warhammer uses a combination of its transformative, magic aura, and teleport abilities to evade service to these potential owners, and to leave its current owner when it feels its purpose is complete.<br><p><b>Base Item:</b> +1 defiant transformative warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, magic aura, major creation, summon monster I, teleport, creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371980,
+    "modifiedTime": 1665949138384,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

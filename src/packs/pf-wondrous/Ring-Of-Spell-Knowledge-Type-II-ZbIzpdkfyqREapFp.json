@@ -3,7 +3,7 @@
   "name": "Ring Of Spell Knowledge Type II",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring comes in four types: ring of spell knowledge I, ring of spell knowledge II, ring of spell knowledge III, and ring of spell knowledge IV. All of them are useful only to spontaneous arcane spellcasters. Through study, the wearer can gain the knowledge of a single spell in addition to those allotted by her class and level. A ring of spell knowledge I can hold 1st-level spells only, a ring of spell knowledge II 1st- or 2nd-level spells, a ring of spell knowledge III spells of 3rd level or lower, and a ring of spell knowledge IV up to 4th-level spells.  A ring of spell knowledge is only a storage space; the wearer must still encounter a written, active, or cast version of the spell and succeed at a DC 20 Spellcraft check to teach the spell to the ring. Thereafter, the arcane spellcaster may cast the spell as though she knew the spell and it appeared on her class' spell list.  Arcane spells that do not appear on the wearer's class list are treated as one level higher for all purposes (storage and casting).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, creator must be able to cast spells of the spell level to be granted</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407350,
+    "modifiedTime": 1665949169604,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

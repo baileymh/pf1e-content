@@ -3,7 +3,7 @@
   "name": "Arcane Battery",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An arcane battery is a fist-sized lead container-typically a sphere, pyramid, or cylinder-that stores magically treated saltwater. When affixed to the head of a magical staff with the attached lashings, an arcane battery increases the maximum number of charges the staff can hold to 11 (instead of 10). An attached arcane battery also allows the wielder of a staff to imbue a staff with up to two charges per day. In order to do so, the wielder must expend two prepared spells or spell slots that meet the prerequisites for recharging a staff. A staff may only have a single arcane battery attached to it, and an arcane battery must be adjoined to a staff for 24 hours before its powers are attuned to the staff. If an arcane battery is removed from a staff by the staff's wielder, it must be reattached and remain so for 24 hours before it's attuned again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imbue with spell ability</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409736,
+    "modifiedTime": 1665949171857,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

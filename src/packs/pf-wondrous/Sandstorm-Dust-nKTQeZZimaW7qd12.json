@@ -3,7 +3,7 @@
   "name": "Sandstorm Dust",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate sack made of dyed leather contains a mixture of swirling atmospheric energies from the Plane of Air and gritty elemental dust from the Plane of Earth. As a standard action, the owner can blow a handful of sandstorm dust at a single creature of size Large or smaller within 10 feet. If the target fails at a DC 19 Reflex save, the sandstorm dust catches on the creature and grows to the size of a small sandstorm. At the beginning of the target's turn for the next 1d6+1 rounds, the creature is swept violently upward, thrown back to the ground, and then dropped in a random adjacent empty square, taking 1d6 points of damage from the impact. While the target lands on its feet each time, this does not prevent it from being dropped off a cliff or onto a dangerous patch of terrain. The affected creature can attempt to arrest itself as a move action with a successful DC 25 Acrobatics check or DC 19 Reflex save; success means that the creature is not flung into the air that round.  If the creature succeeds at two consecutive Acrobatics checks or Reflex saves in this way, the sandstorm dissipates and the effect ends.  A newly created bag of sandstorm dust contains enough dust for three uses.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sirocco</p><h3><b>Source: </b></h3>Blood Of The Elements",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409115,
+    "modifiedTime": 1665949171268,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

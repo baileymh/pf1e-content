@@ -3,7 +3,7 @@
   "name": "Chest of Preparedness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Created by the Prophets of Kalistrade, this chest is approximately 2 feet wide and 1 foot long. On creation, the maker chooses 10 nonmagical items worth under 100 gp that could fit within the chest's dimensions. They can be specially created items for the chest (such as a silvered dagger) or a standard item (such as 50 feet of silk rope). Thereafter, when the box is closed, the owner need only speak the name of one of the the items, and it appears within the chest, ready to be removed and used. A given item only appears once per day, and disappears after 24 hours. Prophets use these chests to keep backups of important tools, and to hide weapons in case of emergency.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, minor creation</p><h3><b>Source: </b></h3>Faction Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406813,
+    "modifiedTime": 1665949169057,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

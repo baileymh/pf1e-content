@@ -3,7 +3,7 @@
   "name": "Deck Of The Hellwasp's Sting",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This seemingly ordinary deck of 54 playing cards is held in an ornate wooden box with a simple clasp, decorated with wasp-themed art. The clergy of Calistria sometimes gifts decks of this kind to its more devout and covert spies.  As a move action, the owner of a deck of the hellwasp's sting can draw a card from the deck and speak a command word to transform that card into a thrown weapon (treat as a +1 flaming dart). Alternatively, the user can draw and activate a card covertly as a standard action, using Sleight of Hand to palm it and treat it as a hidden weapon for a subsequent attack. A card is always destroyed after being thrown, even if it doesn't hit the target. If the thrower uses the Arcane Strike feat with this attack, the feat's bonus damage doubles.  In addition, as long as there are at least 20 cards remaining in the deck, the entire deck can be sacrificed by  speaking a command word and tossing the cards into the air as a full-round action. The cards transform into a swarm of burning, poisonous paper with the same statistics as a hellwasp swarm (Pathfinder RPG Bestiary 3 146), except the swarm doesn't gain the inhabit ability, and all damage dealt by its swarm attack is fire damage. The character who activated the ability can control the swarm as if it were summoned by the summon swarm spell for up to 10 rounds, at which point the swarm dissipates.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Arcane Strike, Craft Wondrous Item, flame arrow, summon swarm</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409070,
+    "modifiedTime": 1665949171235,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

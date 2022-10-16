@@ -3,7 +3,7 @@
   "name": "Ghoul Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>No matter how vigorous the attempt to clean it, this amulet is perpetually bloodied. Once per day, if the wearer eats a pound of flesh from a creature of its own race, the amulet grants the wearer a +2 enhancement bonus to Strength for 24 hours. If the wearer goes 24 hours without consuming such flesh, however, this bonus to Strength ends and the wearer takes 2 points of Strength damage. Every day the wearer doesn't eat such flesh, he takes 2 additional points of Strength damage. This damage can be healed normally. Eating such flesh again temporarily negates the Strength damage from this effect and restores the bonus to Strength, but all damage that hasn't been healed returns if the amulet is removed or a cannibalistic meal is missed. Removing the Ghoul Stone prevents further Strength damage, but does not negate any previous damage. A creature reduced to 0 Strength by the amulet dies and rises 24 hours later as a ghoul, or possibly a ghast (10% chance).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, undead anatomyUM</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406684,
+    "modifiedTime": 1665949168945,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

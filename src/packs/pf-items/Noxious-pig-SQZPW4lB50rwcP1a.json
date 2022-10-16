@@ -3,7 +3,7 @@
   "name": "Noxious pig",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Noxious pig</h1><b>Source</b> <a class=\"external-link\" href=\"http://paizo.com/products/btpy9aub?Pathfinder-Adventure-Path-91-Battle-of-Bloodmarch-Hill\" target=\"_blank\"><i>Pathfinder #91: Battle of Bloodmarch Hills pg. 72</i></a><br/><b>Price</b> 150 gp; <b>Weight</b> 25 lbs.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>Giant alchemists make these items by manipulating the controlled decomposition of a dead hog. This greater splash weapon deals no damage, but those within its primary area of effect-the target and those within 5 feet of the target or those within 5 feet of the intersection-must succeed at a DC 20 Fortitude save or be nauseated for 1d4 rounds.</p><h2 class=\"title\">Greater Splash Weapon</h2><p>This splash weapon works in some ways like a normal splash weapon (<i>Pathfinder RPG Core Rulebook</i> 202), but its effects cover a larger area. Like a normal splash weapon, a greater splash weapon requires no weapon proficiency, and you throw it by making a ranged touch attack. A hit deals direct hit damage to the target and to creatures and objects in squares within 5 feet of that target. It then deals splash damage to all creatures within 10 feet of the target. If the target takes up more than a 5-foot square, you can chose one of its squares as the center of the effect. The direct damage affects the squares normally, so a Large or larger creature could take both the direct damage and the splash damage depending on the square you choose. The splash damage for a greater splash weapon is 5 points of the appropriate damage type for the weapon.<br/><br/> Like a normal splash weapon, you can also choose to target a specific grid intersection (treating it as a ranged attack against AC 5). If it hits, the greater splash weapon deals direct damage to creatures and objects in squares within 5 feet of the targeted intersection, and splash damage to creatures within 10 feet of the targeted intersection. As with a normal splash weapon, you cannot target a grid intersection occupied by a creature.<br/><br/> Greater splash weapons can be thrown as if they were a rock using the rock throwing universal monster rule (<i>Pathfinder RPG Bestiary</i> 303), and caught with rock catching (<i>Bestiary</i> 303), though the DC to catch a greater splash weapon is 10 higher than normal due to its fragile and volatile nature. If a creature fails its Reflex saving throw to catch a greater splash weapon, the weapon automatically breaks, treating the creature attempting to catch it as the splash weapon's target.<br/><br/> A greater splash weapon can be used only by Large or larger creatures, though it can be used as ammunition in a catapult or trebuchet. When used as ammunition in one of these siege engines, use the range for the engine rather than the greater splash weapon's range.<h2 class=\"framing\">Construction</h2><b>Craft (Alchemy)</b> DC 35</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366866,
+    "modifiedTime": 1665949134775,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

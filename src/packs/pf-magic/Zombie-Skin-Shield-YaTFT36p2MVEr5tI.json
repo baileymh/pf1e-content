@@ -3,7 +3,7 @@
   "name": "Zombie Skin Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 light steel shield is wrapped in a layer of gray skin. Once per day, the wearer can animate the skin as a human zombie under her control, as if she had created it with animate dead, for a period of 5 minutes. When the time expires, the zombie returns to the shield. If the zombie is destroyed or cannot reach the shield by the time it expires, placing the shield on a Medium humanoid corpse for 1 hour recreates the shield's skin.<br><p><b>Base Item:</b> +1 light steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, animate dead</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372438,
+    "modifiedTime": 1665949138870,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

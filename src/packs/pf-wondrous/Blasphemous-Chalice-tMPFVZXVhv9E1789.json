@@ -3,7 +3,7 @@
   "name": "Blasphemous Chalice",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Contrary to the name, a blasphemous chalice takes the form of an enchanted box, usually sumptuously decorated, with a lump of unidentifiable tissue inside. This tissue seems to somehow be alive and bleeds a watery, greenish-black blood.  To benefit from the chalice's power, a character must bite the tissue and drink the blood as a full-round action. The alien blood twists and rearranges the character's organs. For the next hour, when the affected creature is hit by a critical hit or a sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. A blasphemous chalice produces enough blood for a single use per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shield of fortificationAPG</p><h3><b>Source: </b></h3>AP 139",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409818,
+    "modifiedTime": 1665949171909,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

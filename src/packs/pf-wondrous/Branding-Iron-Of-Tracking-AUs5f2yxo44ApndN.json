@@ -3,7 +3,7 @@
   "name": "Branding Iron Of Tracking",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This 2-foot-long metal rod has a unique sigil on the end. When the sigil is heated in a fire, it can be used to brand a creature or object. Anytime after the branding, a creature can hold the branding iron of  tracking and know the direction to the nearest brand, as if using locate object for branded objects or locate creature for branded creatures. The branding iron of tracking only tracks the brand itself, so cutting or scraping off the brand can fool the item.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, brandAPG, locate creature, locate object</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404283,
+    "modifiedTime": 1665949166723,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

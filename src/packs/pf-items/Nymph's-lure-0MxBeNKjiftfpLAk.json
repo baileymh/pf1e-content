@@ -3,7 +3,7 @@
   "name": "Nymph's lure",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" title=\"PFS Legal\" style=\"margin:3px 3px 0px 3px;\"> Nymph's lure</h3><p><strong>Source</strong> <em>Ultimate Wilderness pg. 144</em></p><p><strong>Price</strong> 250 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> ingested; <strong>Save</strong> Fortitude DC 15</p><p><strong>Onset</strong> 1d4 hours; <strong>Frequency</strong> 1/hour for 8 hours</p><p><strong>Effect</strong> 1d2 Str and Wis damage. Additionally, as long as a creature is afflicted with nymph’s lure, its sweat exudes powerful pheromones that might attract wild creatures. The DCs of Perception and Survival checks to locate or track the creature using scent are reduced by 10. Additionally, when rolling to determine whether the afflicted creature has a random encounter, roll twice and if either roll would result in a random encounter, one occurs.</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Created from the concentrated pulp of the sweet-tasting pulapaya fruit (a large, bright-red, ovular delicacy with a hard rind and watery interior), nymph’s lure is used for a variety of hunting purposes in remote tropical regions. It is used in a rite of passage in certain hunter-gatherer societies, where young men and women are given a dose of the poison and sent into the wild to hunt game and prove their worth, but it is also used as a punishment in some places, with the condemned being given several doses of the poison and then forced into the wild without any weapons or equipment.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365684,
+    "modifiedTime": 1665949133664,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

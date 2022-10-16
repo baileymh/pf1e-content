@@ -3,7 +3,7 @@
   "name": "Bell Of Obedience",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Bell of Obedience is a 4-foot-tall bell cast from high-tin bronze that's capable of transmitting a powerful compulsion to those who hear it. To function, the bell must be suspended from a yoke and sounded either with a mallet or a clapper. All creatures within 1,000 feet of the bell other than the user must succeed at a DC 20 Will save or be affected by a compulsion effect (determined by the yoke's composition) for 1 hour.  Material Effect  Bronze Good hope  Iron Rage  Oak Calm emotions  Stone Crushing despair  In most conditions, the bell is audible to a range of 1 mile, though it has no effects on listeners farther than 1,000 feet away. Humanoids with the human subtype are particularly vulnerable to the compulsion effect, and take a -2 penalty on saving throws to resist the effects.  Normally, the compulsion doesn't impart any special instructions, so those affected by rage might participate in wanton acts of violence, and those affected by good hope might simply become more cheerful. If the user succeeds at a DC 25 Perform (percussion) check when activating the bell, he can transmit simple secondary instructions with the compulsion, such as directing enraged listeners to hate a particular object or inspiring the hopeful to attribute their positive emotions to a particular cause.  The bell can transmit a compulsion once every 8 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Widen Spell, calm emotions, crushing despair, good hope, rage</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409655,
+    "modifiedTime": 1665949171799,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

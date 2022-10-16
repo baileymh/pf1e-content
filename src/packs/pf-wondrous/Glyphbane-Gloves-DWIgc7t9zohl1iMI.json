@@ -3,7 +3,7 @@
   "name": "Glyphbane Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These dark-brown, leather gloves are etched over their entire surface with arcane insignia. The wearer gains a +5 competence bonus on Disable Device checks made to disable magical traps. Once per day, if the wearer's check to disarm a glyph, rune, or similar writing-based magical trap exceeds the DC by 10 or more, she can change the trigger condition of the trap instead of disabling it. The new trigger condition must be one allowed by the magical trap; for example, a glyph of warding cannot be set according to class, HD, or level, even when manipulated by the gloves.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dispel magic, find traps</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404722,
+    "modifiedTime": 1665949167220,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

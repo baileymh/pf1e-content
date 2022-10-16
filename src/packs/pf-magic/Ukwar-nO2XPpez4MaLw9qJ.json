@@ -3,7 +3,7 @@
   "name": "Ukwar",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Ukwar is a +1 conductiveUE battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a fext, Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.  As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast rage once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast rage on her wielder at another time with a successful DC 20 Diplomacy or Intelligenceimidate check (a standard action).  Ukwar's special purpose is to lift Scarwall's curse, and as long as her wielder is engaged in this quest and is within Scarwall, the weapon functions as a +1 conductiveUE undead-bane battleaxe. If Scarwall's curse is lifted, Ukwar's spirit leaves the axe behind, and this weapon returns to being an unintelligent +1 conductiveUE battleaxe.  Ukwar is a unique weapon created through a nonstandard method, but a character who wishes to create an identical weapon can do so using the guidelines below.<br><p><b>Base Item:</b> +1 conductive battleaxe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, rage, spectral hand, summon monster I</p><h3><b>Source: </b></h3>Curse Of The Crimson Throne Chapter Appendix",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372929,
+    "modifiedTime": 1665949139326,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Luminous Facet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This glass cone is welded to a brass base and contains a faint crimson-and-violet fire that burns in the shape of a blooming flower, but sheds no discernible light.   By speaking the item's command word, a creature can ignite the flame within a luminous facet, which then sheds light as a torch. Speaking the item's command word again immediately quenches the flame back to its original dimness. A creature need not be holding a luminous facet in order to activate or deactivate it in this way, but it must be within 60 feet of the item. Multiple luminous facets can be crafted to share the same command word, allowing a creature to ignite or extinguish numerous facets within range with a single utterance.   The flat base of a luminous facet makes it easy to attach to walls or ceilings using alchemical cement or sovereign glue.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, continual flame, prestidigitation</p><h3><b>Source: </b></h3>Dungeoneers Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406243,
+    "modifiedTime": 1665949168504,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

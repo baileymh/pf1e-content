@@ -3,7 +3,7 @@
   "name": "Meltdown Safe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This iron safe is only 6 inches wide by 6 inches tall, but it opens into an extrtadimensional space-its inside is larger than its outside dimensions, as a type 1 bag of holding. The intricate lock on the door is of superior quality (Disable Device DC 40) and has a powerful security feature: if any attempt to pick the lock is unsuccessful, the inner space floods with magic fire and the contents begin taking 5d6 points of fire damage per round. After 10 rounds of extreme heat, the safe fully consumes itself and is reduced to a pile of ash. If the door is opened through  any means during these 10 rounds, blasts of searing hot fire spew forth in a 15-foot cone that deals 5d6 points of fire damage (Reflex DC 23 half) for the remaining rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fire trap, secret chest</p><h3><b>Source: </b></h3>Inner Sea Temples",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406204,
+    "modifiedTime": 1665949168476,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

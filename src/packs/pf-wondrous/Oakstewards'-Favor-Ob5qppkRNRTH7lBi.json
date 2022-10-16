@@ -3,7 +3,7 @@
   "name": "Oakstewards' Favor",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This palm-sized wooden badge is covered in intricate Druidic script that bears the hallmark of the Oakstewards of Sevenarches. Occasionally given as a gift to those who aid the druids, an Oakstewards' favor gives the wearer a +4 competence bonus on Handle Animal checks and increases the DC of any enchantment spells the wearer casts against animals by 2.  If the token of favor is broken apart and added to boiling water, it becomes a nourishing porridge that feeds up to eight Medium creatures. This meal cures all ongoing sickness and nausea effects, and provides the benefits of neutralize poison and remove disease. In addition, for 24 hours after eating the porridge, subjects gain a +2 luck bonus on Will saves against fear.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm animal, heroes' feast, neutralize  poison, remove disease</p><h3><b>Source: </b></h3>People Of The River",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406143,
+    "modifiedTime": 1665949168429,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

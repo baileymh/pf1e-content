@@ -3,7 +3,7 @@
   "name": "Norgir's Ruin",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Norgir's Ruin is an intelligent +2 dwarf bane warhammer. It has spent the past several generations in the possession of the same enemies it was once crafted to defeat. In that time, the weapon has gone somewhat insane, warped to thirst for the death of non-duergar dwarves and eager to please the line of duergar rulers of Tar Vermilon. Restoring it to its original purpose is possible only by seeking out a living descendant of Vald Norgir and securing an atonement spell from that dwarf to absolve the magic warhammer of its madness. Doing so re-aligns its special purpose to oppose duergar, changes its alignment to lawful good, and raises its Wisdom score up to 14.<br><p><b>Base Item:</b> +2 dwarf bane warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dispel magic, earthquake, invisibility purge, summon monster I</p><h3><b>Source: </b></h3>Dungeons Of Golarion",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372479,
+    "modifiedTime": 1665949138933,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

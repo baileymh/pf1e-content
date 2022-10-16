@@ -3,7 +3,7 @@
   "name": "Scavenger 's Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jagged, egg-shaped stone emits a faint red glow when not in direct sunlight. By rubbing a scavenger's stone against a damaged (but not destroyed) construct or object as a full-round action, you repair 1d6 points of damage to the object or construct. If this brings a broken object's hit points above half its maximum hit points, it loses the broken condition. As a standard action, you can smash a scavenger's stone against a destroyed object or damaged construct.  Doing so immediately repairs the object to full functionality or heals a damaged construct of 10d6 points of damage. Destroyed magic items can be repaired in this manner if their caster level is no higher than 3rd-more powerful destroyed magical items cannot be repaired by a scavenger's stone. A newly-created scavenger's stone has 50 charges-smashing a stone against an object uses up 10 charges.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, make whole</p><h3><b>Source: </b></h3>Goblins Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406658,
+    "modifiedTime": 1665949168926,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

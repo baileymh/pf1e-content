@@ -3,7 +3,7 @@
   "name": "Leng's tears",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Leng's tears</h3><p><strong>Source</strong> <em>Adventurer's Armory 2 pg. 18</em></p><p><strong>Price</strong> 1,500 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 18</p><p><strong>Onset</strong> 1 round; <strong>Frequency</strong> 1/10 minutes for 1 hour</p><p><strong>Effect</strong> 1d2 Wisdom damage and paralyzed for 10 minutes</p><p><strong>Cure</strong> 1 save</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Made from the distilled tears and sweat of denizens of Leng (<em>Pathfinder RPG Bestiary 2</em> 82), this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature’s paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366497,
+    "modifiedTime": 1665949134388,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

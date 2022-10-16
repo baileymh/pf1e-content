@@ -3,7 +3,7 @@
   "name": "Barbed Pentacle Of Asmodeus",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This iron disk hangs from an iron chain, and is inscribed with an inverted pentagram and decorated around its outer edge with tiny metal barbs. When worn, it provides a +1 deflection bonus to AC.  If Asmodeus is the wearer's patron, the pentacle counts as an unholy symbol. By holding it and speaking a command word, the wearer can use charm person once per day.  If the wearer squeezes the pentacle so its barbs draw her blood (dealing 1 point of damage), the wearer can use that blood as ink, writing with a quill or even a finger for up to 1 hour. The blood-ink dries instantly on writing surfaces so it never smudges, and if it's used as part of a magical spell the wearer casts that requires or is augmented by writing (such as magic circle against evil or sepia snake sigil), the DC of that spell increases by 1.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed, charm person, shield of faith</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408532,
+    "modifiedTime": 1665949170736,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

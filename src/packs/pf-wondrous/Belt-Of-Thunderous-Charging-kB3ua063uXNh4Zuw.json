@@ -3,7 +3,7 @@
   "name": "Belt Of Thunderous Charging",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An engraving of a charging rhinoceros decorates this thick leather belt. The belt grants its wearer a +2 enhancement bonus to Strength. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.   The belt magnifies the wearer's momentum whenever she charges, granting her a +2 bonus on bull rush and overrun maneuvers. Furthermore, when the wearer makes a charge attack, her melee weapons and natural weapons deal damage as if they were one size category larger than they actually are.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bull's strength, lead blades (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408559,
+    "modifiedTime": 1665949170755,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

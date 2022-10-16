@@ -3,7 +3,7 @@
   "name": "Gallows Rope",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This grisly, knotted rope is tied into a noose, and at first glance appears to be nothing more than a gruesome memento of a hanging. While the noose is worn tightly around the neck, any time the wearer is reduced below 0 hit points he gains DR 10/- and fast healing 5 until he regains consciousness. While the wearer is unconscious, his breathing stops and he appears dead. If the wearer would be killed due to hit point loss while wearing the noose, he can expend any number of uses of mythic power to heal 10 hit points per use spent. This doesn't require an action. If that healing would bring him above the threshold for death, the wearer doesn't die.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, mythic regenerate</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409752,
+    "modifiedTime": 1665949171867,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

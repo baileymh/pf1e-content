@@ -3,7 +3,7 @@
   "name": "Rod Of Escape",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Wrought from cold iron, this rod allows its wielder to escape from even the tightest of bonds or grasps. If an opponent grapples the wielder of this rod, the ends of the rod extend, flailing about in an attempt to free the user. The rod's wielder gains a +5 bonus to CMD when attempting to evade or break out of a grapple; additionally, the holder cannot be pinned while wielding the rod.   The rod's wielder gains a +5 competence bonus on Escape Artist checks when restrained by nonmagical and inanimate means, such as ropes or manacles. The rod's owner does not need to be holding the rod to gains this bonus; it must merely be on the owner's person.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, bull's strength, cat's grace, shatter</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406068,
+    "modifiedTime": 1665949168379,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

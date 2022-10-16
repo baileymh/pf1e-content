@@ -3,7 +3,12 @@
   "name": "Dwarven Fire Ale",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.o6rFpjtC7Wr2IGmU"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>GameMastery Guide pg. 237</em></p>\n<p><strong>Type</strong> ingested;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>50&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>1d4 rounds; @Compendium[pf1.spells.8u1xa5javcxc6szk]{Rage} as per the spell</p>\n<p><strong>Effect</strong> 1 hour; cold resistance 5</p>\n<p><strong>Damage </strong>1d2 Con damage</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.o6rFpjtC7Wr2IGmU"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366672,
+    "modifiedTime": 1665949134636,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

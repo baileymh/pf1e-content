@@ -3,7 +3,7 @@
   "name": "Plumed Mantle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple woolen cloak is trimmed across the shoulders with the feathers of eagles and other raptors, and permits the user to fly (as the spell) for a total of 30 minutes each day. These 30 minutes need not be consecutive, but each use of this ability that lasts for fewer than 5 minutes reduces the daily limit by 5 minutes. While flying under the power of the plumed mantle, the wearer has a +2 bonus on Fly checks, in addition to any bonuses from speed or maneuverability.  In addition to its powers of flight, the plumed mantle protects its wearer with a continuous feather fall effect, and makes him appear as a golden eagle to viewers on the ground. The wearer can suppress either effect by force of will as a free action.  While at a height greater than 40 feet, the wearer of the plumed mantle receives a +2 competence bonus on Perception checks involving vision or sight.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, feather fall, fly, minor image</p><h3><b>Source: </b></h3>AP 34",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404300,
+    "modifiedTime": 1665949166736,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

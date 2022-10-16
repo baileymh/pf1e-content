@@ -3,7 +3,7 @@
   "name": "Phoenix Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brilliant golden +2 fire resistant full plate is decorated with an ornate feather motif curling across its surface and seems to radiate warmth. Once per day, the wearer can invoke the name of the phoenix that blessed the armor and bring the might of that phoenix against the wearer's foe. Activating the armor causes it to ignite, wreathing the wearer in red-gold flames as if under the effects of fire shield. In addition, great golden wings unfold out of the back of the armor, allowing the wearer to fly as per the spell. Both of these effects last for 9 rounds.<br><p><b>Base Item:</b> +2 fire resistant full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fire shield, fly</p><h3><b>Source: </b></h3>Champions Of Purity",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372784,
+    "modifiedTime": 1665949139264,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

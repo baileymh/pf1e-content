@@ -3,7 +3,7 @@
   "name": "Gore Worms (Horrific)",
   "type": "feat",
   "img": "icons/environment/creatures/bug-worm-pincer-pink.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Type&nbsp;</strong>disease (inhaled);&nbsp;<strong>Save</strong>&nbsp;Fortitude DC 20;</p>\n<p><strong>Frequency&nbsp;</strong>1/day</p>\n<p><strong>Effect&nbsp;</strong>&ndash;2 penalty on attack rolls, damage rolls, and Fortitude saves for 1 day</p>\n<p><strong>Cure&nbsp;</strong>magic only</p>\n<hr />\n<p>These parasites derive their name from their habit of devouring their hosts from the inside, leaving them as putrid sacs of blood and worms. Gore worms release their microscopic eggs in sporelike clouds that make their way into the bloodstream when inhaled. Eventually, the eggs anchor themselves within a host&rsquo;s body and grow until they reach nearly 2 inches in length. Adults burrow out through the host&rsquo;s skin and release their eggs into the air. The worms cannot survive outside of a host for more than a few hours, though they can inhabit corpses as easily as living creatures.</p>\n<hr />\n<p><strong>STAGES</strong></p>\n<hr />\n<p><strong>Carrier&nbsp;</strong>The gore worm eggs travel throughout the creature&rsquo;s body via its circulatory system. The affected creature doesn&rsquo;t suffer any particular symptoms at this stage.</p>\n<p><strong>Early&nbsp;</strong>The affected creature develops swelling, blisterlike growths that ooze blood and are incredibly painful when touched. Whenever the creature takes bludgeoning, piercing, or slashing damage, it takes 1d6 additional points of nonlethal damage. Additionally, if the creature is wearing armor, then whenever it takes a standard action, it takes 1d6 points of nonlethal damage, or 2d6 points if wearing heavy armor.</p>\n<p><strong>Moderate&nbsp;</strong>The gore worms hatch. The affected creature can feel them writhing and moving beneath its skin, and others can even see the worms moving occasionally. The affected creature is constantly&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"0AJZKIpP3lS3FVKa\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">sickened</span></a>. Furthermore, whenever it takes more than a single standard or move action in a round, the worms roil angrily, causing the host to become&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"1fkE2juoZHXjU90M\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">nauseated</span></a>&nbsp;for 1d4 rounds afterward. Finally, magical healing greatly agitates the worms, and whenever the affected creature is the target of a spell with the healing subschool, the worms whip into a frenzy, dealing 2 points of Constitution damage.</p>\n<p><strong>Severe&nbsp;</strong>The gore worms burrow holes through the affected creature&rsquo;s skin and extend portions of their bodies out into the air, giving the appearance that the affected creature&rsquo;s body has been covered in dozens of tiny gaping mouths with serpentine tongues. The affected creature is constantly&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"6LpiJdKskDFD4zLC\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">staggered</span></a>&nbsp;and&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"I1cKXhfBaFIrL9Ix\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">exhausted</span></a>.</p>\n<p><strong>Terminal&nbsp;</strong>The gore worms begin devouring the affected creature&rsquo;s internal organs. The affected creature is constantly <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"1fkE2juoZHXjU90M\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">nauseated</span></a>. If it fails a saving throw against the disease&rsquo;s progress at this stage, it&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf1.conditions\" data-id=\"khxmbfoDQ3LD0de5\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">dies</span></a>. Even if it succeeds, it takes 10d10 points of damage and 2 points of Constitution drain, in addition to the disease&rsquo;s normal effects.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428376397,
+    "modifiedTime": 1665949141204,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

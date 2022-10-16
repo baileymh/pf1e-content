@@ -3,7 +3,7 @@
   "name": "Boots Of The Vengeful Behir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These heavy boots are made of blue leather. Three times per day, when the wearer speaks the command word, he can attempt a bull rush the following round as if one size category larger than normal. If the target of the bull rush is a dragon, the wearer is treated as if two size categories larger than normal. This bull rush attempt does not provoke attacks of opportunity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, enlarge person</p><h3><b>Source: </b></h3>Dragonslayer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409111,
+    "modifiedTime": 1665949171265,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

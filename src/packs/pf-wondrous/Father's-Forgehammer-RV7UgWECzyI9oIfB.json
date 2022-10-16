@@ -3,7 +3,7 @@
   "name": "Father's Forgehammer",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This iron blacksmith's hammer bears designs of Torag's holy symbol; it is not designed for combat, but the bearer can use it as a Medium light hammer. Once per day, the bearer can strike the hammer hard against a weapon to target that weapon with magic weapon. The owner gains a +2 competence bonus on all smithing (armorsmithing, blacksmithing, weaponsmithing, and so on) skill checks made when crafting with the forgehammer.  If Torag is the owner's patron, once per day the owner can strike the hammer against another character's armor or shield to cast shield other on that character. If the owner can craft magic weapons or armor and uses the forgehammer during the crafting, the total time to craft the item is decreased by 25% (minimum 1 day). This does not reduce the cost to create the item. A particular forgehammer can aid in only one item's crafting at a time.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic weapon, shield other, creator must  have 5 ranks in Craft (armor) or Craft (weapons)</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406639,
+    "modifiedTime": 1665949168914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

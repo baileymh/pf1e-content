@@ -3,7 +3,7 @@
   "name": "Tunnel Defender Stoneplate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Even bulkier than its nonmagical cousins, this set of +3 stoneplateUE is crafted from stones of widely differing colors, and is often allocated to Ninth Battalion soldiers assigned to the deepest and most dangerous of the Darklands' tunnels. Once per day, the wearer can call forth a wall of stone that fills up to nine contiguous 5-foot squares. Unlike with the standard spell, the wall must be a straight line, and the wielder must choose to occupy one 5-foot section of the wall, as the armor merges with the wall around it. While the wall of stone is in effect, the wearer gains a +2 circumstance bonus to AC, but can move only within the wall. The wearer can dismiss the wall as a standard action; otherwise, it dissipates in 10 rounds. As a full-round action, the wielder can make the wall permanent by allowing himself to be consumed by the stone. In this case, the wearer can be restored to life only by a miracle or wish.<br><p><b>Base Item:</b> +3 stoneplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, meld into stone, wall of stone, creator must be a dwarf</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371901,
+    "modifiedTime": 1665949138325,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

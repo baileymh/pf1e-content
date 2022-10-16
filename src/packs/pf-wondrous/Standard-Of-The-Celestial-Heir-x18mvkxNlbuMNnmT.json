@@ -3,7 +3,7 @@
   "name": "Standard Of The Celestial Heir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A command word causes this bright white flag to change its emblem to match the deity worshiped by the bearer. Creatures loyal to that deity gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and charm effects as long as they can see the standard, which must be held by an ally within 60 feet. This bonus is increased by 1 if the bearer has the Flagbearer feat (The Inner Sea World Guide 286).  As long as the standard of the celestial heir is held by an aasimar bearer, evil foes within 60 feet that see the standard are dazzled while in the area and must succeed at a DC 14 Will saving throw or become shaken for as long as they remain in the area. Once a foe succeeds at her save against the standard, she is immune to being shaken by that standard for 1 day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, archon's auraUM, bless, creator must be an aasimar</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410360,
+    "modifiedTime": 1665949172396,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

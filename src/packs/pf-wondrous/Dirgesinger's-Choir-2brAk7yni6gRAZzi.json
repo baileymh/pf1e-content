@@ -3,7 +3,7 @@
   "name": "Dirgesinger's Choir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Equal parts grisly and lovely, this unusual harp-like musical instrument is crafted from a corpse, with a bone frame, skin stretched around the soundbox for percussion, and strings of twisted hair. When played, it can summon forth a soul bound to it. Initially, the soul is that of the person whose corpse was used to make the instrument. The spirit manifests in an adjacent square as a translucent, intangible image of the person as he was in life. The image cannot attack or be attacked in any way. It is clearly distressed by the musician's playing; it wails an eerie, pained accompaniment that nonetheless enhances the music's quality, granting a +4 circumstance bonus on Performance checks made with the instrument and (if the performer is a bard) adding 1 to the DC of a dirge of doom, frightening tune, or deadly performance played on the instrument.  If an undead is within 30 feet, the musician can command the bound soul to seize it as a standard action. The undead must attempt a DC 20 Will save. If it's successful, the image dissipates for 1 day; if it fails, the soul rides the undead for 1d4+1 rounds, acting as control undead cast by the musician. If the musician has the bardic performance ability, she can continue playing and spend a round of bardic performance as a free action each round to prevent that round from counting toward the duration of this effect. The soul dissipates for 1 day after the effect ends.  Crafting the instrument destroys the original body; that creature cannot be brought back to life via raise dead. As long as the instrument exists, resurrection and true resurrection can  revive the creature only if they're cast on the instrument itself; doing so destroys the instrument. The instrument cannot be affected by spells that target corpses, such as animate dead or decompose corpseUM.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, control undead, ghost sound, creator must be evil</p><h3><b>Source: </b></h3>Champions Of Corruption",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403515,
+    "modifiedTime": 1665949166016,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

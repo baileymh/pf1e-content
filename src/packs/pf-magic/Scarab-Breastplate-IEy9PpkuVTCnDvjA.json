@@ -3,7 +3,7 @@
   "name": "Scarab Breastplate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +3 breastplate is crafted from the carapace of a giant scarab beetle, enchanted to be as hard and reflective as polished steel. The wearer suffers only half damage from vermin swarms and gains a +2 resistance bonus on saving throws against the extraordinary abilities of vermin swarms.  In addition, once per day on command, the wearer can transform the scarab breastplate into a swarm of scarab beetles that skitter from her chest to attack creatures nearby. This swarm has statistics identical to an army ant swarm (Bestiary 16) and attacks any creatures within its space. The wearer can command the swarm to move (including changing the shape of the swarm) as a move action, but the swarm must remain adjacent to her. If the swarm is reduced to 0 hit points, if the wearer is forced to move away from the swarm, or if the wearer commands it to return to her as a move action, the swarm crawls back onto the wearer's torso and returns to armor form. While the swarm is active, the wearer is not considered to be wearing the scarab breastplate (except for purposes of commanding the swarm) and gains no defensive benefits from it.  A druid of 6th level wearing a scarab breastplate can use her wild shape ability to duplicate vermin shape I (Ultimate Magic). At 8th level, she can also use it to duplicate vermin shape II (Ultimate Magic).<br><p><b>Base Item:</b> +3 breastplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, creeping doom, spell turning, vermin shape II</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371946,
+    "modifiedTime": 1665949138358,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

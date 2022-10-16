@@ -3,7 +3,7 @@
   "name": "Cranial Bomb",
   "type": "equipment",
   "img": "icons/commodities/tech/sensor-yellow.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 35</em></p><p><strong>Price</strong> 4,500 gp</p><p><strong>Slot</strong> head; <strong>Weight</strong> 1/2 lb.</p><p><strong>Install</strong> DC 25; <strong>Implantation</strong> 1</p><h2 class=\"framing\">Description</h2><p>A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's (see page 43) signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by <em>breath of life</em> or <em>raise dead</em>. If detonated outside a body, the bomb instead creates a small explosion, dealing the damage detailed above in a 5-foot-radius burst (Reflex DC 13 half).</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 20; <strong>Cost</strong> 2,250 gp</p><p>Craft Cybertech, cybernetics lab</p>",
       "chat": "",
@@ -78,6 +78,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -133,6 +138,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -172,7 +178,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -185,6 +190,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -257,8 +263,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387625,
+    "modifiedTime": 1665949151989,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

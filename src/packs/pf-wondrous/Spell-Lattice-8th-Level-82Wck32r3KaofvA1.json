@@ -3,7 +3,7 @@
   "name": "Spell Lattice, 8th-Level",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A spell lattice is a block of transparent crystal, internally etched with a three-dimensional representation of a spell. This spell is chosen when the item is created (the contained spell determines the school of the lattice's aura). When a spell lattice is wielded by a spontaneous spellcaster who has the spell contained within it on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells known. When an arcanist holds a spell lattice, as long as she has the contained spell on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells currently prepared.  A spellcaster who uses a spellbook or formula book can copy the spell from a spell lattice as if it were a scroll. Doing so expends the spell from the spell lattice.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Scribe Scroll, creator must be able to cast the spell placed in the spell lattice</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404173,
+    "modifiedTime": 1665949166635,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Hollis's Lucky Rock",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone of good luck is weathered and resembles nothing so much as a hard piece of shale. The stone can cast good hope once per day, and its bearer gains a +2 insight bonus on saving throws against fear effects and effects with the emotion descriptor (Pathfinder RPG Ultimate Magic 137). The stone is very chatty, making friendly observations about its bearer and offering unsolicited advice about the bearer's current situation. The stone speaks with a slight drawl and uses simple words, but its advice is usually quite sound. Around obvious followers of Zon-Kuthon, the stone is instead silent and shudders slightly.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divine favor, good hope</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407265,
+    "modifiedTime": 1665949169529,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

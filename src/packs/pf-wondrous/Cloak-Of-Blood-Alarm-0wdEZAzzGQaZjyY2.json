@@ -3,7 +3,7 @@
   "name": "Cloak Of Blood Alarm",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This leather cloak looks tattered and stained no matter how carefully it is cleaned and repaired. Once per day, when a ratfolk wearer bleeds upon the cloak (generally when he takes hit point damage), the cloak mentally alerts the wearer's nearest ratfolk ally within 10 miles, telling her the approximate distance and direction to the wearer. It also alerts the wearer to the approximate distance and direction of that ally.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, locate creature, status, creator must be a ratfolk</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403422,
+    "modifiedTime": 1665949165936,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

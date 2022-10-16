@@ -3,7 +3,7 @@
   "name": "Blade Of The Open Road, Greater",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Blades of the open road are longswords specifically crafted to strike against the Aspis Consortium. A lesser blade of the open road is a +1 longsword with a Glyph of the Open Road stamped into its hilt. A blade of the open road is a +1 Aspis bane longsword. Against agents of the Aspis Consortium and creatures directly employed by the Aspis Consortium, the weapon's enhancement bonus is 2 higher than its actual bonus, and the weapon deals an extra 2d6 points of damage. A greater blade of the open road has all of the properties of a blade of the open road and gains the ominousUE and heartseekerUE weapon special abilities against Aspis Consortium agents and the Consortium's employees. Any wayfinder the wielder carries grants a +2 circumstance bonus on all Survival checks, not just checks to avoid becoming lost. A blade of the open road and greater blade of the open road increase this bonus to +4 or +6, respectively. Between scenarios, the wielder can enhance a lesser blade of the open road to become a blade of the open road and later into a greater blade of the open road by paying the difference in price between the two items.<br><p><b>Base Item:</b> +1 ominous heartseeker Aspis bane longsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, death knell, summon monster I</p><h3><b>Source: </b></h3>PFS S6-16",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371686,
+    "modifiedTime": 1665949138134,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

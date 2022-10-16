@@ -3,7 +3,7 @@
   "name": "Demonic Sm Ith's Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Used by the drow smiths of house Caldrana, these worked black leather gloves are stitched with red symbols dedicated to Flauros, the demon lord of fire and volcanoes.  Whenever the wearer makes a melee touch attack, she deals 1d6 points of fire damage. If the wearer wields a weapon or makes an attack with an unarmed strike, that attack gains the flaming weapon special ability.  When demonic smith's gloves are used during the construction of armor or weapons, they grant their wearer a +4 competence bonus on the relevant Craft checks. If the wearer rolls a natural 1 while benefiting from this bonus, she draws the ire of Flauros, causing the gloves to become nonmagical until the wearer crafts at least five masterwork items and then destroys them in the name of the demon lord.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate, fireball</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407870,
+    "modifiedTime": 1665949170122,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

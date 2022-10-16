@@ -3,7 +3,7 @@
   "name": "Charm of Fate",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This talisman made of bone, claws, and beads protects its wearer from bad luck, evil spirits, and foul magic. The first time each day that the wearer fails a saving throw, the charm of fate causes the wearer to instead successfully save if the roll was missed by 5 or less. If the saving throw was missed by 6 or more, the charm's daily use is expended to no effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, remove curse</p><h3><b>Source: </b></h3>AP 39",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408601,
+    "modifiedTime": 1665949170779,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

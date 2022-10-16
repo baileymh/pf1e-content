@@ -3,7 +3,7 @@
   "name": "Bracers Of Might",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These golden bracers are sculpted to depict a pair of mighty stags rearing up in triumph. They grant a +4 bonus on all Strength ability checks and Strength-based skill checks. As a swift action up to three times per day, the wearer can call upon the power of these bracers to gain a +4 sacred bonus to Strength for 1 round. The wearer can expend one use of mythic power to treat one Strength ability check or Strength-based skill check as if he rolled a natural 20.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Mythic Crafter, bull's strength</p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407772,
+    "modifiedTime": 1665949170036,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

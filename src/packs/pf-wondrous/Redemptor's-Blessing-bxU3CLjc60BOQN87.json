@@ -3,7 +3,7 @@
   "name": "Redemptor's Blessing",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This soothing holy symbol is carved from a single chunk of soapstone, and its graceful curves draw the eye. When used to channel positive energy to heal living creatures, it also calms nearby creatures.  Any creature healed by the positive energy channeled by a user of a redemptor's blessing must attempt a DC 13 Will save  or become affected by a calm emotions spell. This effect lasts as long as the user continues to brandish the holy symbol and maintain concentration or until anyone takes an aggressive action against a calmed creature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, calm emotions, ability to channel positive energy</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407790,
+    "modifiedTime": 1665949170054,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

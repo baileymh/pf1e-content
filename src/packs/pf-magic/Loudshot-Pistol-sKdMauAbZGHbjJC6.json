@@ -3,7 +3,7 @@
   "name": "Loudshot Pistol",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brass-colored +1 double-barreled pistol has a dark oaken grip and ornate musical motifs etched into the entire surface. Three times per day, when the wielder fires a loudshot pistol at a creature within 20 feet, she can command the pistol to emit a sonic boom at the creature, permanently deafening it if it fails a DC 13 Fortitude save. If the wielder fires both barrels of this pistol in the same round she commands it to deafen a creature, the DC of the Fortitude save increases to 15. If the wielder is a gunslinger with the pistolwhip deed, she can also command a loudshot pistol to deafen the creature she is pistol-whipping. This counts toward the total number of times per day she can use this ability with the pistol.<br><p><b>Base Item:</b> +1 double-barreled pistol</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, blindness/deafness, crafter must be a gunslinger with the pistol-whip deed</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373034,
+    "modifiedTime": 1665949139409,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Hamatulatsu Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Made of exquisite crimson silk, this variant monk's robe is embroidered with golden pentagrams and other fiendish symbols. If the wearer is evil and has levels in monk, her AC bonus and unarmed damage are treated as if she were a monk of 5 levels higher (maximum 20).  If the wearer is evil but not a monk, she gains the AC bonus and unarmed damage of a 5th-level monk (although she doesn't add her Wisdom bonus to her AC). This AC bonus otherwise functions just like the monk's AC bonus.  If the robe is donned by a character with the Hamatulatsu feat (Pathfinder Campaign Setting: The Inner Sea World Guide 287), the duration of the sickened effect increases to 2 rounds. If the wearer doesn't have the Hamatulatsu feat, she gains this feat while wearing the robes, but gains no further benefits to that ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, HamatulatsuISWG, righteous might or  transformation, unholy blight</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407376,
+    "modifiedTime": 1665949169630,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Anointed Holy Symbol",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This hollow holy symbol includes a reservoir meant to contain a dose of holy water. When the reservoir is filled on the home plane of its corresponding deity with a dose of holy water as a full-round action, the symbol becomes charged with additional power. Each time a filled anointed holy symbol is used to channel energy, the user can use the standard form of channel energy or use variant channeling (Pathfinder RPG Ultimate Magic 29) based on one aspect of her deity's portfolio, selected each time the anointed holy symbol is used. The user cannot apply more than one variant channeling ability to her channeled energy at one time. An anointed holy symbol remains charged for 3 days, after which time the holy water within is consumed and the reservoir is empty again.  Anointed unholy symbols also exist for evil deities; they must be filled with unholy water to function but otherwise operate just as an anointed holy symbol.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, consecrate</p><h3><b>Source: </b></h3>Planar Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408449,
+    "modifiedTime": 1665949170671,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

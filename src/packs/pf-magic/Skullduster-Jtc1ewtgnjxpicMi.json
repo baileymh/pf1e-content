@@ -3,7 +3,7 @@
   "name": "Skullduster",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 disruption morningstar's metal head resembles the face of a half-orc. The weapon can cast remove paralysis three times per day. Skullduster rarely speaks, and then usually only to utter grim predictions. The weapon craves the destruction of undead creatures, and it uses death ward at will so long as its owner diligently pursues this goal. If Skullduster's owner ever parleys with an undead creature, the weapon withholds any further aid, grumbles constantly in Orc about treachery, and seeks a new owner.<br><p><b>Base Item:</b> +2 disruption morningstar</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, death ward, heal, remove paralysis</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371974,
+    "modifiedTime": 1665949138380,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

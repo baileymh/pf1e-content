@@ -3,7 +3,7 @@
   "name": "Doubleshot Pepperbox",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 thundering pepperbox (Pathfinder RPG Ultimate Combat 138) bears a fire-breathing dragon motif, and its wooden grip is ornately carved. Unlike a normal pepperbox, each of the six barrels of a doubleshot pepperbox can be fired either independently in tandem, firing two barrels with the same action like a double-barreled pistol. If two barrels are shot at once, they must both be fired at the same target, and the wielder takes a -4 penalty on each shot.<br><p><b>Base Item:</b> +1 thundering pepperbox</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Rapid Shot, blindness/deafness, haste</p><h3><b>Source: </b></h3>AP 60",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372877,
+    "modifiedTime": 1665949139283,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

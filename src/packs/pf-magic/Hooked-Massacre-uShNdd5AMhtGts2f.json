@@ -3,7 +3,7 @@
   "name": "Hooked Massacre",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This viciously barbed +1 spiked chain consists of a jagged hook at the end of a length of rusty chain. It twitches of its own accord, as if it had some semblance of cruel intelligence. As the wielder swings it, the chain contracts and expands with a seemingly endless supply of new links. As a free action, the wielder can cause the chain to expand, giving the weapon reach for 1 round. The weapon doesn't threaten adjacent squares when it's expanded. The wielder can't reverse this change manually; he must wait for it to expire.  If the wielder of a hooked massacre uses it for a dragAPG or repositionAPG combat maneuver that brings the target adjacent to him, he can make an attack against the target at his highest base attack bonus as an immediate action.<br><p><b>Base Item:</b> +1 spiked chain</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Combat Expertise, Improved DragAPG, Improved RepositionAPG, haste</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373060,
+    "modifiedTime": 1665949139431,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

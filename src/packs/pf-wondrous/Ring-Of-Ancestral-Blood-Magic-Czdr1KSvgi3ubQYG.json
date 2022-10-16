@@ -3,7 +3,7 @@
   "name": "Ring Of Ancestral Blood Magic",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>While the wearer is bloodraging, he can cast a bonus spell gained from his bloodrager bloodline without expending a spell slot. He can do this three times per day, and must expend a number of rounds of bloodrage equal to the level of the spell to be cast. The wearer must meet all the other requirements for spellcasting.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Endurance, Extend Spell, Forge Ring, creator must have the bloodrage class feature</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404699,
+    "modifiedTime": 1665949167201,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

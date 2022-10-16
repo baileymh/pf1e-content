@@ -3,7 +3,7 @@
   "name": "Infernal Cord, Greater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item functions as an infernal cord, but it grants a +4 enhancement bonus to Constitution, and the fast healing effect increases to fast healing 4. Treat the Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.  The wearer can be detected as though she were an evil cleric, not just an evil creature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bear's endurance, greater infernal  healingISWG</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407406,
+    "modifiedTime": 1665949169656,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

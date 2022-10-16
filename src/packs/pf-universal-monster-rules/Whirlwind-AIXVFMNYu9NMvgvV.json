@@ -3,7 +3,7 @@
   "name": "Whirlwind",
   "type": "feat",
   "img": "systems/pf1/icons/spells/wind-sky-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<div>\n<p>Some creatures can transform themselves into whirlwinds and remain in that form for up to 1 round for every 2 HD they have. If the creature has a fly speed, it can continue to fly at that same speed while in whirlwind form, otherwise it gains a fly speed equal to its base land speed (average maneuverability) while in whirlwind form.</p>\n<p>The whirlwind is always 5 feet wide at its base, but its height and width at the top vary from creature to creature (minimum 10 feet high). A whirlwind&rsquo;s width at its peak is always equal to half of its height. The creature controls the exact height, but it must be at least 10 feet high. The whirlwind form does not provoke attacks of opportunity, even if the creature enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the whirlwind moves into or through a creature&rsquo;s space. A creature in whirlwind form cannot make its normal attacks and does not threaten the area around it.</p>\n<br />\n<p>Creatures one or more size categories smaller than the whirlwind might take damage when caught in the whirlwind (generally damage equal to the monster&rsquo;s slam attack for a creature of its size) and may be lifted into the air. An affected creature must succeed on a Reflex save (DC 10 + half monster&rsquo;s HD + the monster&rsquo;s Strength modifier) when it comes into contact with the whirlwind or take damage as if it were hit by the whirlwind creature&rsquo;s slam attack. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking the indicated damage each round.</p>\n<p>A creature that can fly is allowed a Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful.</p>\n<br />\n<p>Creatures trapped in the whirlwind cannot move except to go where the whirlwind carries them or to escape the whirlwind. Trapped creatures can otherwise act normally, but must succeed on a concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a &ndash;4 penalty to Dexterity and a &ndash;2 penalty on attack rolls. The whirlwind can have only as many creatures trapped inside at one time as will fit inside the whirlwind&rsquo;s volume. The whirlwind can eject any carried creatures whenever it wishes as a free action, depositing them in its space.</p>\n<p>If the whirlwind&rsquo;s base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the creature and has a diameter equal to half the whirlwind&rsquo;s height. The cloud obscures all vision, including <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"8fmwM9qvaBhaehjC\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">darkvision</span></a>, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment. Those caught in the cloud of debris must succeed on a concentration check (DC 15 + spell level) to cast a spell.</p>\n<br />\n<p><em>Format</em>: whirlwind (3/day, 10&ndash;30 ft. high, 1d6+6 damage, DC 15)</p>\n<p><em>Location</em>: Special Attacks.</p>\n<p><em>Usage:</em> Replace damage and DC</p>\n</div>",
       "chat": "",
@@ -48,6 +48,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -111,6 +116,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -217,8 +222,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402434,
+    "modifiedTime": 1665949165185,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

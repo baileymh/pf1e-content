@@ -3,7 +3,7 @@
   "name": "Neurocam",
   "type": "equipment",
   "img": "icons/equipment/head/helm-barbute-horned-glowing.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 50</em></p><p><strong>Price</strong> 36,000 gp</p><p><strong>Slot</strong> head; <strong>Weight</strong> 2 lbs.</p><p><strong>Capacity</strong> 1; <strong>Usage</strong> disposable</p><h2 class=\"framing\">Description</h2><p>A neurocam consists of a strange helmet covered in flashing lights and adjustable straps with an intricate blinder that covers the eyes. This device is used to make a duplicate of a creature's mind, copying and storing all the knowledge, memories, and personality of a living creature. A neurocam can be adjusted to fit the head of any creature of size Tiny to Large. A neurocam interfaces with the subject's brain via a modulated beam of light that is transmitted through the optic nerves and several fine sensors that must press against the user's skull. Storing a person's mind takes 10 minutes of uninterrupted use; any interruption scrambles the pattern and ruins the neurocam. This process does not harm the target. An unwilling subject can attempt a DC 20 Will saving throw to resist a neurocam; if the subject is successful, the neurocam's contents are scrambled and the device is ruined.</p><p></p><p> A neurocam can store only one personality. Once used, it cannot store another even after the contents are uploaded elsewhere. A personality stored in a neurocam is effectively put into stasis-the mind does not age, nor does it gain new experiences or knowledge. It's cut off from the world, and though it experiences strange dreams, it isn't aware of the passage of time. If the neurocam is destroyed, the stored personality vanishes; however, loss of power does not harm a stored personality.</p><p></p><p> A stored personality can be uploaded only once. It can be uploaded into a blank clone in a clonepod, as detailed on page 42. Additional processes to upload a stored personality into a robot or an AI core exist but are complex and often drive the stored personality insane.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 18,000 gp</p><p>Craft Technological Item, cybernetics lab</p>",
       "chat": "",
@@ -69,7 +69,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -82,6 +81,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -154,8 +154,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387718,
+    "modifiedTime": 1665949152076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

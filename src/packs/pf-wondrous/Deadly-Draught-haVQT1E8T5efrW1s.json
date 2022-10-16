@@ -3,7 +3,7 @@
   "name": "Deadly Draught",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This vial has a narrow, pinched spout and is sealed with gray wax. Casting a targeted spell (up to 3rd level) into the vial activates it and causes it to glow a soft red. A creature can then break the spout (destroying the vial) and imbibe the liquid therein as a standard action. Doing so infuses the drinker's blood with the spell cast on the vial, but the spell does not affect the drinker (the spell instead acts as though it had been affected by contingency). The next time a creature feeds on the drinker's blood, the infused spell immediately targets the attacking creature; if the spell allows a saving throw, the creature takes a -2 penalty on the save. The infused spell fades after it is triggered or 24 hours have passed, whichever comes first.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, contingency</p><h3><b>Source: </b></h3>Blood Of The Night",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408421,
+    "modifiedTime": 1665949170651,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

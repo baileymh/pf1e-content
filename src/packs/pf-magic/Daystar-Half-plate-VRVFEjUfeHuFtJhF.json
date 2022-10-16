@@ -3,7 +3,7 @@
   "name": "Daystar Half-plate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This glowing +1 half-plate is decorated with various images of the sun and depictions of nature. At will, the wearer can command the armor to shine with a daylight spell for 10 minutes. Once per day, the wearer can command it to shine as per the sunburst spell. The sunburst is centered on the wearer and the wearer is immune to its effects.<br><p><b>Base Item:</b> +1 half-plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, daylight, sunburst</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372378,
+    "modifiedTime": 1665949138806,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

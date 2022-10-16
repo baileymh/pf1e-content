@@ -3,7 +3,7 @@
   "name": "Clockwork Key",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A clockwork key has two uses, but one functions only if Abadar is your patron. Constructs avoid attacking the bearer of the clockwork key, directing their attacks toward other targets if possible, unless they are directly threatened by the bearer or are ordered by their creator to attack. If there are no targets other than a clockwork key's bearer, a construct will act and attack as normal. If Abadar is your patron, you can use the clockwork key as an improvised weapon that deals 1d2 points of damage. If you strike a construct with a clockwork key, it takes 1d4 points of damage and must make a DC 12 Will save. If the construct fails, it is paralyzed for 1d4 rounds.  Once the key has successfully paralyzed a construct, it is destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Construct, Craft Wondrous Item, shatter</p><h3><b>Source: </b></h3>Faiths Of Balance",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407293,
+    "modifiedTime": 1665949169546,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

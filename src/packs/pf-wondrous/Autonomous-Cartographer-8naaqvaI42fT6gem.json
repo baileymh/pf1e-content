@@ -3,7 +3,7 @@
   "name": "Autonomous Cartographer",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Upon command, this item draws your surroundings, out to the limits of your normal vision, rendering them as if depicted by a competent but unexceptional artist. It does not record any details you cannot see. The autonomous cartographer creates the map as needed to fit upon a 1-foot-by-4-foot parchment or scroll contained within the item. A second command erases the scroll, allowing you to use it again. You may insert or remove a scroll as a full-round action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, erase, prestidigitation</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404211,
+    "modifiedTime": 1665949166666,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

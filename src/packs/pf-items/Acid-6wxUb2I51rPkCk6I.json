@@ -3,7 +3,7 @@
   "name": "Acid",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/minor-green.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Acid</h1><b>Source</b> <a class=\"external-link\" href=\"http://paizo.com/products/btpy959n?Pathfinder-Player-Companion-Alchemy-Manual\" target=\"_blank\"><i>Alchemy Manual pg. 30</i></a>, <a href=\"http://paizo.com/products/btpy8tmc?Pathfinder-Roleplaying-Game-Ultimate-Equipment\" target=\"_blank\"><i>Ultimate Equipment pg. 107</i></a>, <a href=\"http://paizo.com/pathfinderRPG/v5748btpy88yj\" target=\"_blank\"><i>PRPG Core Rulebook pg. 158</i></a><br/><b>Price</b> 10 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>You can throw a flask of acid as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (10 brimstone + 8 salt + 1 saltpeter)/distilation; <b>Craft</b> 15<br/><b>Time</b> 1 day; <b>Tools</b> retort; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -142,6 +147,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -236,8 +242,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365865,
+    "modifiedTime": 1665949133812,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Karyukai Tea Set",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This tea set includes an array of utensils, painted with pictures of willows and flowers, used in traditional tea ceremonies: a small teapot, three bowls of various sizes and shapes, six cups, bamboo utensils (a ladle, a scoop, and a whisk), and several smaller containers, all stored in a wooden box. Once per day, a user can spend 1 hour performing a tea ceremony with the tea set. At the end of this time, the user must make a Diplomacy check. The tea used in the ceremony must be green tea of exceptional quality (worth a minimum of 10 gp per dose) or the user takes a -4 penalty on her Diplomacy roll to perform the ceremony. Up to six creatures (including the user) can drink the tea brewed during the ceremony. The tea's aroma arouses a sense of serenity in those who drink it, as they receive an impression of the sights, sounds, and smells of a blooming willow grove at sunset. The result of the user's Diplomacy check determines the effects of the tea on those who drink it.  10 or less: No effect.  11-15: The drinker gains a +4 morale bonus on saving throws against poison and fear effects for 12 hours.  16-20: As above, and the drinker receives the benefits of neutralize poison and remove disease.  21-25: As above, and the drinker receives the benefits of heroism.  26 or more: As above, but the drinker receives the benefits of greater heroism instead of heroism.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, greater heroism, heroes' feast, heroism</p><h3><b>Source: </b></h3>AP 53",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409740,
+    "modifiedTime": 1665949171859,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

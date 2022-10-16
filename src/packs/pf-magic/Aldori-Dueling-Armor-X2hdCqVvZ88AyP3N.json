@@ -3,7 +3,7 @@
   "name": "Aldori Dueling Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These +2 armored coatsUE are traditionally worn by the Aldori swordlords of Brevoy. The wearer of this armor gains a +2 enhancement bonus on initiative checks and a +2 circumstance bonus on attacks of opportunity if the attacks are made with an Aldori dueling swordISWG. Once per day when the wearer of Aldori dueling armor is the target of a melee attack, she can make an attack with an Aldori dueling sword as an  immediate action. If the result of her attack roll is higher than that of her attacker, the wearer of Aldori dueling armor parries the attack and takes no damage.<br><p><b>Base Item:</b> +2 armored coat</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, cat's grace, symbol of strikingUC</p><h3><b>Source: </b></h3>Armor Masters Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372401,
+    "modifiedTime": 1665949138833,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

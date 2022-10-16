@@ -3,7 +3,7 @@
   "name": "X-laser",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 40,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 10 lbs.</p><p><strong>Damage</strong> 6d4 (small), 5d6 (medium); <strong>Damage Type</strong> F; <strong>Critical</strong> x4</p><p><strong>Range</strong> 200 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 5 charges; <strong>Special</strong> Touch</p><h2 class=\"framing\">Description</h2><p>An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser's beam functions as a laser rifle's beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon's maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon's discharge rather than significantly altering an object's structural integrity beyond the damage the laser blast deals as part of the attack.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 33; <strong>Cost</strong> 20,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -180,7 +186,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -191,6 +196,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -284,8 +290,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387781,
+    "modifiedTime": 1665949152135,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

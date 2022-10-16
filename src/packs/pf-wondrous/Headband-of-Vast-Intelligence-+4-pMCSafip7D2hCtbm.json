@@ -3,7 +3,7 @@
   "name": "Headband of Vast Intelligence +4",
   "type": "equipment",
   "img": "systems/pf1/icons/items/equipment/belt-gems.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2>Description</h2>\n<p>This intricate gold headband is decorated with several small blue and deep purple gemstones. The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer's total Hit Dice. These ranks do not stack with the ranks a creature already possesses. These skills are chosen when the headband is created. If no skill is listed, the headband is assumed to grant skill ranks in randomly determined Knowledge skills.</p>\n<p><strong>Base Item:</strong></p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Wondrous Item, fox's cunning</p>\n<h3><strong>Source: </strong></h3>\n<p>Ultimate Equipment</p>\n<p><strong>Usage:</strong></p>\n<p>On the Changes tab select the 2 skills you want the bonus in and ensure it doesn't give you more ranks than Hit Dice.</p>",
       "chat": "",
@@ -106,7 +106,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -119,6 +118,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": null,
       "type": ""
@@ -145,8 +145,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409232,
+    "modifiedTime": 1665949171350,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

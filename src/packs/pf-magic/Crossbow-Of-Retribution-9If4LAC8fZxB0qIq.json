@@ -3,7 +3,7 @@
   "name": "Crossbow Of Retribution",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 human bane seeking repeating heavy crossbow is carved from whalebone decorated with green and gold lacquer, with fittings, lever, and bow of gilded steel. On a successful hit against any creature who has just struck the wielder with an attack within the previous round-whether with a melee, ranged, or natural weapon, or a spell that requires an attack roll-ammunition fired from a crossbow of retribution wracks the target with shooting pains that impose a -4 penalty on attack rolls, skills checks, and ability checks for 7 rounds. On a successful DC 14 Fortitude save, the penalty only lasts for 1 round. A target who worships the same god as the wielder takes a -2 penalty on its saving throw.<br><p><b>Base Item:</b> +1 human bane seeking repeating heavy crossbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, retribution (Pathfinder RPG Advanced Player's Guide 239), summon monster I, true seeing</p><h3><b>Source: </b></h3>AP 60",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371772,
+    "modifiedTime": 1665949138225,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

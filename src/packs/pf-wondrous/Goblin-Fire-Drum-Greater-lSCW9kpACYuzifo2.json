@@ -3,7 +3,7 @@
   "name": "Goblin Fire Drum, Greater",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A successful DC 12 Perform (percussion) check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the player deal an additional 1 point of fire damage (or 2 points for the greater version). All unattended flammable alchemical objects such as tindertwigs, flasks of oil or alchemist's fire, and fireworks within this range have a 10% chance of spontaneously igniting or exploding (as appropriate to the item) when the drum activates. This chance increases by 5% each round and is checked at the start of the performer's turn as long as the playing continues. A greater goblin fire drum has all the above abilities and can create pyrotechnics once per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, pyrotechnics, spark (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408978,
+    "modifiedTime": 1665949171167,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

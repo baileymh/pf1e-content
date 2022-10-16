@@ -3,7 +3,7 @@
   "name": "Smuggler's Collapsible Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Appearing to be nothing more than a ratty wool robe with a hood, this garment is an invaluable tool for spies, thieves, and smugglers. On command, the wearer and non-living objects up to her maximum load are sucked into an extradimensional space within the robe, leaving the robe to collapse where the wearer was standing. The robe appears to be merely a pile of discarded clothes, and does not detect as magical or function so long as the wearer is within the extradimensional space.   While inside the extradimensional space, the wearer cannot take most actions, but can breathe comfortably for up to 24 hours. The wearer can see the area around the robe, though special senses such as darkvision or blindsense do not function. The wearer may leave the extradimensional space with a thought as a free action-the only action he can make while inside the extradimensional space. He reappears wearing the robe once more. However, if there is not enough room for the wearer to reappear (for example, if the robe was placed inside a small box) then the wearer cannot leave the extradimensional space.   If the robe is destroyed or its magic suppressed while the wearer is within the extradimensional space, or if he spends 24 hours within it, he and all objects inside reappear instantaneously in the robe's space, and the wearer is dazed for one round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, secret chest, magic aura, arcane eye</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409885,
+    "modifiedTime": 1665949171949,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Sinner's Wage",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A sinner's wage is a round golden coin with two blank faces. When placed among nonmagical currency, it adopts the size, shape, and any embellishments (such as an engraving or stamp) of the majority of the other coins.  When included as payment for any service that compromises the recipient's morals (such as a bribe for a lawful city guard to look the other way, or a contribution to a good politician to pass dubious legislation), a sinner's wage makes the offered payment more tempting. The giver of the sinner's wage gains a +2 profane bonus on Charisma checks and Bluff, Diplomacy, and Intimidate checks to convince the recipient to perform the service in question. Thus, the item can be used to pay off a guard as well as convince an outsider to perform a service with a planar binding spell (in the latter case, the +2 profane bonus stacks with the bonus normally granted for offering a reward to the outsider).  In addition, a sinner's wage can be used as an optional focus component when the owner casts any charm or compulsion spell of 5th level or lower. When a creature is subject to a spell incorporating this focus, it takes a -2 penalty on all rolls to resist acting against its nature (whether a Will saving throw or a Charisma check). Using the sinner's wage in this fashion temporarily drains the magic from the coin, rendering it unusable for any purpose for a period of 1 week.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm monster</p><h3><b>Source: </b></h3>Champions Of Corruption",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409107,
+    "modifiedTime": 1665949171263,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

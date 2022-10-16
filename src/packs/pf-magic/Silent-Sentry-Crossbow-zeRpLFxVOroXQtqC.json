@@ -3,7 +3,7 @@
   "name": "Silent Sentry Crossbow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Popular with assassins and vigilantes due to its ease of concealment and lack of need for ammunition, this durable +2 endless ammunitionUE light crossbow is crafted from wood blackened over an alchemically treated fire. When used in conjunction with the Stealth skill, the silent sentry crossbow reduces the penalty imposed by sniping by 5.  Three times per day, the wielder can fire two invisible magical bolts that deal no damage. These bolts must each be fired at a solid surface, into which they embed themselves. As long as both bolts have an unobstructed line between them, no longer than 180 feet, they create an invisible 1-inch-wide line between themselves. The wearer is mentally alerted anytime a visible Tiny or larger creature passes through this line, and gains a vision of the creature's appearance. Creatures that can see invisible objects can see the line, and if they recognize it for what it is, they can duck under it or leap over it, thus avoiding detection. The bolts last for 6 hours before they dissipate.<br><p><b>Base Item:</b> +2 endless ammunition light crossbow</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, alarm, minor creation, silence</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373333,
+    "modifiedTime": 1665949139734,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

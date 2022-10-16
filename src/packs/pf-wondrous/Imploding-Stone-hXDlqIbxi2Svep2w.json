@@ -3,7 +3,7 @@
   "name": "Imploding Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When activated, this black pebble acts as a limited gravitational singularity. Once the command word is spoken, the pebble delays for 1 round, then pulls all stone or earth within a 5-foot-diameter sphere toward it with irresistible force. This causes small tunnels to collapse inward, creating localized cave-ins. Imploding stones do not affect living creatures, though any creature in the same square as an activated imploding stone is caught in the bury zone of the collapse (Core Rulebook 415). Imploding stones are destroyed when used. Activating an imploding stone is a standard action that doesn't provoke attacks of opportunity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, move earth</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408418,
+    "modifiedTime": 1665949170645,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

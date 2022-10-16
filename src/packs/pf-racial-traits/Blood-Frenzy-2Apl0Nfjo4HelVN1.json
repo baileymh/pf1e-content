@@ -3,7 +3,12 @@
   "name": "Blood Frenzy",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/construct.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.x5zYRQtWQZ6V4xsf"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Sahuagin&nbsp;</p>\n<hr />\n<p>Once per day, whenever a sahuagin takes damage, it can fly into a frenzy for 1 minute; gaining a +2 racial bonus to Constitution and Strength but a -2 penalty to AC.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.x5zYRQtWQZ6V4xsf"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382530,
+    "modifiedTime": 1665949146992,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

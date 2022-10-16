@@ -3,7 +3,12 @@
   "name": "Inspiration Dust",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.GT7SQspQLE7H7J22"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>Potions and Poisons pg. 26</em></p>\n<p><strong>Type</strong> inhaled;<strong> Addiction </strong>moderate, Fortitude DC 22</p>\n<p><strong>Price </strong>75&nbsp;gp; <strong>Weight </strong>0 lbs</p>\n<p><strong>Effect&nbsp;</strong>4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks</p>\n<p><strong>Effect&nbsp;</strong>after 4 hours; for 24 hours, the user takes a &ndash;4 penalty on Sense Motive checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth</p>\n<p><strong>Damage </strong>1d4 Wis damage</p>\n<p>The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.GT7SQspQLE7H7J22"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365816,
+    "modifiedTime": 1665949133768,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Beaker Of Plentiful Poisons",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This flared and stoppered flask of tempered glass can store up to 5 doses of poison, all of which can be different types. The owner can craft up to 5 doses of poison simultaneously using the beaker. She must still attempt separate Craft (alchemy) checks for each dose of poison to ensure successful crafting, but she can make progress on all five poisons simultaneously (making checks for the week's or day's progress at the same time).  The user can also add already-completed doses of poison to the beaker. All poisons remain separate and unmixed as long as they remain within the beaker, and the user can decant any of the poisons (including incomplete poisons) by naming the poison she wishes to pour forth.  9th Level: When crafting a poison within the beaker, the crafter uses the poison's gp value instead of its sp value when determining her progress.  11th Level: Once per day, the owner of a beaker of plentiful poisons can produce 1 additional dose of any completed poison stored in the flask. The additional dose loses its efficacy 1 minute after being decanted. The market price of the duplicated poison can't exceed an amount equal to 20 gp x the beaker's caster level; any unused value is lost. A creature must have had the beaker of plentiful poisons in its possession for at least 24 hours to create poisons in this way.  13th Level: The beaker can create 2 doses of poison per day, with a total market price up to 40 gp x the beaker's caster level.  15th Level: The beaker can create 3 doses of poison per day, with a total market price of up to 60 gp x the beaker's caster level.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, minor creation, poison</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407411,
+    "modifiedTime": 1665949169659,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

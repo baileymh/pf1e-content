@@ -3,7 +3,7 @@
   "name": "Scepter Of The Arclords",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Scepter of the Arclords is a powerful device capable of harvesting all the ambient magic from a large area and focusing it into a single powerful effect. Once per day the wielder can command the Scepter of the Arclords to duplicate any spell of 3rd level or lower. This automatically succeeds, but there is a 10% chance the wielder also gains a random minor spellblight (Pathfinder RPG Ultimate Magic 94).  Additionally, once per week the wielder can command the item to create any magic effect he desires. Roll d% to determine the effect of this command.  d% Effect  01 The wielder gains a major spellblight (Ultimate Magic 94). The GM may determine the spellblight randomly, or may design a custom spellblight based on the magic effect the wielder commanded the scepter to create. The DC to remove this spellblight (using the normal rules for eliminating spellblights) is 35 (or 40, if the target still has the Scepter of the Arclords in his possession), and isn't reduced with the passage of time.  02-05 The Scepter creates a permanently magic-dead area (Pathfinder Campaign Setting: Inner Sea Magic 12) with a radius of d% x 100 feet.  06-10 The Scepter creates a permanent area of primal magic (Inner Sea Magic 12) with a radius of d% x 100 feet.  11-80 The wielder's command is fulfilled with a limited wish. If a limited wish can't fulfill the command, the scepter comes as close to fulfilling it as a limited wish can (GM's discretion).  81-100 The wielder's command is fulfilled with a wish. If a wish can't fulfill the command, the scepter comes as close to fulfilling it as a wish can (GM's discretion). Additionally, one random creature of the outsider type learns the wielder has the scepter and just used it to gain a wish; the nature of the wish and the location of the wielder aren't revealed. The GM secretly determines which outsider gains this knowledge.  The eye-like spheres on the Scepter sometimes swivel of their own accord, and although the Scepter isn't intelligent, it's capable of sliding on its own at a speed of 5 feet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, limited wish, wish</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407874,
+    "modifiedTime": 1665949170124,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

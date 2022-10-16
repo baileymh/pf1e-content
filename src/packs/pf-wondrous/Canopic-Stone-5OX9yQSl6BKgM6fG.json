@@ -3,7 +3,7 @@
   "name": "Canopic Stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A spellcaster must prepare a canopic stone, a talisman that typically takes the form of a ceramic totem or amulet bound in silver. Upon creating this object, the bearer can summon a vilkacis once per day. The stone grants no control over the vilkacis, but the creature will not attack or attempt to possess the stone's bearer. Upon being summoned, the vilkacis turns its attention to the nearest creature other than the summoner, attempting to possess the creature's body and go on a murderous rampage. Using a canopic stone to summon a vilkacis is considered an evil act.  Although many vilkacis are purposefully created and employed by evil spellcasters, some manifest spontaneously. These beings wander and rampage as they please, but still are bound to a talisman similar to a canopic stone. This spontaneously created artifact can be utilized by those who discover it and discern its importance in the same way as can a canopic stone created specifically to summon and control a vilkacis, and typically takes the form of the dead werewolf 's skull, the silver weapon that killed the werewolf, or a talisman it bore in life.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create undead, rage</p><h3><b>Source: </b></h3>AP 45",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403699,
+    "modifiedTime": 1665949166161,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Grenade launcher",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 8,000 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 8 lbs.</p><p><strong>Damage</strong> Varies (small), Varies (medium); <strong>Damage Type</strong> Varies; <strong>Critical</strong> -</p><p><strong>Range</strong> 100 ft.; <strong>Capacity</strong> 20 (5 grenades); <strong>Usage</strong> 1 grenade and 1 charge; <strong>Special</strong> Slow-firing</p><h2 class=\"framing\">Description</h2><p>A grenade launcher is a bulky weapon that can fire any grenade a great distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the wielder's next turn. A grenade launcher requires charges to fire, but unless the weapon is also loaded with a grenade, any charges that are consumed are wasted. A grenade launcher can hold up to 5 grenades at a time. Loading a single grenade into a grenade launcher is a move action.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 4,000 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -139,6 +144,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -189,6 +194,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -282,8 +288,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387634,
+    "modifiedTime": 1665949151995,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

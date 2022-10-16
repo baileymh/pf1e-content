@@ -3,7 +3,7 @@
   "name": "Crown Of Horns",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These curled, spiral, or hooked horns must be affixed to holes drilled into the bare skull of the recipient, who must be not only shaved but also scalped to allow the crown of horns to take root-this deals 1d4 points each of Charisma and Intelligence damage to the recipient. Once the crown has been implanted, the recipient gains a gore attack as a secondary natural attack that deals 1d4 points of damage if it's a Medium creature, or 1d3 if it's a Small creature. This gore attack deals double damage on a charge attack. The crown of horns is considered a chaotic and evil weapon for the purpose of overcoming damage reduction. In addition, when the recipient confirms a critical hit against a good-aligned target with the crown of horns, that creature is infused with the disruptive power of chaos; until the end of its next turn, whenever the target would roll a d20, it must roll twice and take the less favorable result.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape II, protection from law</p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406021,
+    "modifiedTime": 1665949168340,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

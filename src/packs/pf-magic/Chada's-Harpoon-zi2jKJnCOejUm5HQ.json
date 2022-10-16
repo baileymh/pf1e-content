@@ -3,7 +3,7 @@
   "name": "Chada's Harpoon",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 keen returning spear is adorned with feathers and fur, as well as with a bright steel chain that trails down from the top of its haft. On a critical hit, Chada's harpoon lodges into the target's flesh or armor, and the wielder can choose to pull the target toward him, reeling the victim in by use of the magically extended chain. This functions as the pull universal monster ability (Pathfinder RPG Bestiary 303) with the following exceptions. Compare the initial attack roll (instead of a new CMB check) to the target's CMD to determine success. Success pulls the target 20 feet closer to the wielder. The wielder can make additional attack rolls each round (instead of new CMB checks) to pull the victim closer. Unlike the normal pull ability, Chada's harpoon can pull creatures of any size. Once the target is pulled adjacent to the wielder, the bull rush ends.<br><p><b>Base Item:</b> +2 keen returning spear</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, keen edge, telekinesis</p><h3><b>Source: </b></h3>AP 34",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373335,
+    "modifiedTime": 1665949139736,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

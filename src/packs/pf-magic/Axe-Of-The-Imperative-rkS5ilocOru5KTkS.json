@@ -3,7 +3,7 @@
   "name": "Axe Of The Imperative",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An axe of the imperative is a +1 battleaxe that cuts through willpower and resolve as surely as it hews flesh and bone. On a successful hit against a creature, the wielder can utter a short command as an immediate action to prohibit the struck creature from a specific course of action. This command must consist five words or fewer, such as, Never attack me again! or Never cast an enchantment spell! or Don't set foot in Sothis! Once the imperative is uttered, the wound caused by the hit glows with faint golden light, as does the blade of the axe. This glow persists even after the damage is healed. The imperative lasts until one of two things occurs. It ends if the wielder utters another imperative (only one imperative can be in effect at a time), or if the target creature attempts an action that would break the imperative. When the target takes that action, it takes damage as if struck with a successful critical hit by the wielder of the axe of the imperative. A successful DC 15 Fortitude save negates this damage. When this occurs, the wielder immediately knows that the target broke the imperative. A lingering imperative can be removed without harming the target as if it were a curse effect. The imperative is a sonic language-dependent effect.<br><p><b>Base Item:</b> 1 battleaxe</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, mark of justice</p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373020,
+    "modifiedTime": 1665949139399,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

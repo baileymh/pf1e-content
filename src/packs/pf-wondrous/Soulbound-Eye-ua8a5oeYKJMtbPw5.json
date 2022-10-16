@@ -3,7 +3,7 @@
   "name": "Soulbound Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Appearing at first like an expensive, masochistic adornment, this almond-sized star ruby is set in a gold clasp, one side of which is festooned with several long spikes. A soulbound eye is not an item that most creatures would voluntarily wear- they are instead crafted by powerful creatures who wish to use another creature as a sort of remote-viewing slave. A soulbound eye must be attached to a willing or helpless creature by pressing the spike-covered surface to the creature's brow-the gem swiftly and painfully embeds itself in the victim's forehead, immediately activating to forge a shared link between the wearer and the creature who placed the item on its head (the master).   Once implanted, the soulbound eye allows the master to observe the world around the wearer through the wearer's senses. It also allows for telepathic communication between the wearer and the master. Neither of these features function across planar boundaries.   The soulbound eye's wearer is not compelled to obey its master's telepathic commands, but the master can use the soulbound eye as a conduit for hold monster, modify memory, pain strike (Advanced Player's Guide), and suggestion spells, treating the wearer as the target of the spell no matter the distance between master and wearer. The victim is allowed any normal saving throws or spell resistance against spells cast through the soulbound eye.   An implanted soulbound eye functions like a cursed item once it is in place-it can only be removed if the curse is first lifted via an effect like remove curse or break enchantment. Once removed, a soulbound eye crumbles to fragments.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, scrying</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409894,
+    "modifiedTime": 1665949171956,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

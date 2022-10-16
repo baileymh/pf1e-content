@@ -3,7 +3,7 @@
   "name": "Horrific Appearance",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_12.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>All qlippoth have such horrific and mind-rending shapes that those who gaze upon them suffer all manner of ill effects. A qlippoth can present itself as a standard action to assault the senses of all living creatures within 30 feet. The exact effects caused by a qlippoth&rsquo;s horrific appearance vary by the type of qlippoth. A successful Will save (DC 10 + 1/2 the qlippoth&rsquo;s Hit Dice+ the qlippoth&rsquo;s Charisma modifier): reduces or negates the effect.</p>\n<p>This ability is a mind-affecting <a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-image: none; background-color: initial; padding: 0px; color: #ff6400; border: none;\" draggable=\"false\" data-pack=\"pf-content.pf-universal-monster-rules\" data-id=\"QAVtt2JtZwWPVk4j\"><span style=\"box-sizing: border-box; user-select: text; text-decoration-line: underline;\">Gaze</span></a> attack.</p>\n<p>&nbsp;</p>\n<p><em>Location:&nbsp;</em>Special Abilities</p>\n<p><em>Usage:</em> Effect varies by Qlippoth, replace context notes.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -44,6 +44,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -100,6 +105,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -161,7 +167,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -211,8 +216,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428402468,
+    "modifiedTime": 1665949165209,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

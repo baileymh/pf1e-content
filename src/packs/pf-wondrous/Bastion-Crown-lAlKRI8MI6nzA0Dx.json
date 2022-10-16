@@ -3,7 +3,7 @@
   "name": "Bastion Crown",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Often worn by paranoid rulers, this simple iron crown is thick and heavy. The wearer is immune to ninja, rogue, and slayer talents that add effects to a sneak attack, such as bleeding attack or crippling strike, though the wearer takes the extra damage from sneak attacks as normal. In addition, the wearer gains a +4 insight bonus on saving throws against death effects and an assassin's death attack ability. Finally, the wearer can cast neutralize poison on himself once per day, using the caster level of the item for any caster level check required.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, death ward, neutralize poison, stoneskin</p><h3><b>Source: </b></h3>Heroes Of The High Court",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408625,
+    "modifiedTime": 1665949170796,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

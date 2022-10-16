@@ -3,7 +3,12 @@
   "name": "Speak with Sharks (1 RP) (Adaro)",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/abberation.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.cRVN353CDqfRDEv4"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Adaro&nbsp;</p>\n<hr />\n<p>Adaros can communicate telepathically with sharks to a distance of 100 feet. This communication is limited to simple concepts, such as \"attack,\" \"come,\" and \"defend.\"</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.cRVN353CDqfRDEv4"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428382740,
+    "modifiedTime": 1665949147173,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

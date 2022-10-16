@@ -3,7 +3,7 @@
   "name": "Turn Undead",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_08.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Calling upon higher powers, you cause undead to flee from the might of your unleashed divine energy.</em><br /><br /><strong>Prerequisites</strong><br />Channel positive energy class feature.<br /><br /><strong>Benefits</strong><br />You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if panicked. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: link this feat to Channel Energy charges.</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "3 + @abilities.cha.mod",
@@ -107,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": true,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -220,8 +225,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356174,
+    "modifiedTime": 1665949124447,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

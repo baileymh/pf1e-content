@@ -3,7 +3,7 @@
   "name": "Nightbane Quiver",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black silk quiver bears a silver star-and-moon motif. It can transform up to 20 arrows per day into tangible beams of light. When drawn from the quiver, these arrows produce light as the daylight spell for 5 rounds, after which they disappear. Arrows enhanced in this way prove particularly deadly to light-sensitive and shadowy creatures-an arrow altered by a nightbane quiver bypasses the DR of any creature with light sensitivity and counts as a force effect against shadows and wraiths. Arrows gain these benefits only when shot by the current owner of the quiver. Arrows placed in this quiver retain any magical effect already placed on them.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410480,
+    "modifiedTime": 1665949172484,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

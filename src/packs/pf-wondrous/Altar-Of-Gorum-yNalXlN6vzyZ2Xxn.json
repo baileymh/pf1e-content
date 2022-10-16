@@ -3,7 +3,7 @@
   "name": "Altar Of Gorum",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar is an iron platform and frame designed to support a heavy suit of spiked armor and weapons, typically mounted in the shape of a massively imposing, 8-foot-tall warrior. Praying at the altar grants a +4 morale bonus on saves against fear effects, and any non-masterwork iron or steel weapon the worshiper wields is treated as if it were masterwork.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, magic circle against law, masterwork  transformationUM, remove fear, creator must worship Gorum</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410448,
+    "modifiedTime": 1665949172463,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

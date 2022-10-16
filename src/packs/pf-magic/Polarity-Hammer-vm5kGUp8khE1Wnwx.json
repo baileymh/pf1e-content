@@ -3,7 +3,7 @@
   "name": "Polarity Hammer",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1/+1 meteor hammer is always made of ferrous metals, and has weighted spheres on either end of its sturdy dark chain. A wielder can use the magic within a polarity hammer to attract or repel metal objects. In meteor mode, a wielder gains a +2 bonus on all drag and reposition combat maneuvers against any opponent wearing metal armor, carrying a metal shield, or made of metal (like an iron golem). In addition, if the wielder makes a successful trip attempt against such an opponent, she can push her enemy 5 feet away rather than pulling it forward.  In fortress mode, the wielder can use a move action to pick up any unattended metal object within her reach and deposit the item in any other square within her reach. Items so affected cannot exceed the size of a one-handed weapon equal to the wielder's size category. In this mode, the +1 shield bonus to Armor Class normally granted from wielding a meteor hammer increases to +3, but only against opponents wearing metal armor, carrying metal shields, or made of metal (as above).<br><p><b>Base Item:</b> +1/+1 meteor hammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, force punch, shield</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373096,
+    "modifiedTime": 1665949139456,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

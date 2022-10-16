@@ -3,7 +3,7 @@
   "name": "Weapon Material Mastery",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/bar-silver.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can perform impressive deeds with weapons made from peculiar materials.</em><br/><br/><b>Prerequisites</b><br/>Base attack bonus +7, weapon training class feature with a melee weapon.<br/><br/><b>Benefits</b><br/>While wielding an appropriate melee weapon, you gain the following special abilities, based on which special material the weapon is primarily constructed of (if any).<br/><br/> Adamantine<br/> Your critical hits ignore the target's DR.<br/><br/> Alchemical Silver, Mithral, or Silversheen<br/> When you successfully deal damage to a creature that is under the effects of an illusion or polymorph effect (such as disguise self or the change shape special ability), its wound fizzles and boils loudly, revealing the presence of such effects. If the effect is a racial ability, anyone that sees you attack the creature gains a +4 bonus on Knowledge checks to identify the creature. In addition, you immediately receive a Will save to disbelieve any illusion effect on the creature that allows disbelief.<br/><br/> Cold Iron<br/> When you score a critical hit against a target benefiting from spells that grant temporary hit points or bonuses to AC, ability scores, attack rolls, damage rolls, or saving throws, you must immediately attempt a special dispel check (1d20 + your base attack bonus) as a targeted dispel as per the dispel magic spell, but targeting only those spells. Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.<br/><br/> Elysium Bronze<br/> When you damage a magical beast or monstrous humanoid, the creature must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose access to a randomly selected supernatural or spell-like ability (if any). Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.<br/><br/> Fire-Forged Steel or Frost-Forged Steel<br/> When your weapon is exposed to 10 points or more of energy damage (fire for fire-forged steel or cold for frost-forged steel), the weapon adds +1d6 points of energy damage to its attacks instead of +1d4 points of energy damage. Additionally, the duration of this effect increases by 1 round for every 5 points of the appropriate type of energy damage to which the weapon is exposed beyond 10.<br/><br/> Greenwood or Living Steel<br/> When you score a critical hit, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose its fast healing and regeneration (if any) for 1d3 rounds.<br/><br/> Viridium<br/> You add your Strength modifier and the weapon's enhancement bonus (if any) to the Fortitude DC to determine if a foe struck by the weapon contracts leprosy.<br/><br/> Whipwood<br/> The weapon gains the trip special weapon feature, and you gain a +2 bonus on trip combat maneuvers made with it.<br/><br/> Wyroot<br/> Once per turn, you can absorb life points from the weapon as a free action instead of a swift action. You can never absorb life points from wyroot weapons or equipment more than once per turn.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356886,
+    "modifiedTime": 1665949125176,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

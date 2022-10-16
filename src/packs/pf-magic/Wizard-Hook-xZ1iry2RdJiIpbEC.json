@@ -3,7 +3,7 @@
   "name": "Wizard Hook",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A wizard hook is a +1 hook hand (Pirates of the Inner Sea 19) and a useful item for any arcane spellcaster. Although a wizard hook does not allow for fine manipulation, it is infused with magic that bolsters somatic components-you can use a hand stump outfitted with a wizard hook to fulfill any somatic components for casting arcane spells. A wizard hook also grants proficiency in its use as a weapon. You can make touch attacks with spells using a wizard hook, either by making a normal attack with the hook (in which case it deals normal hook hand damage plus the spell effect), or by making a touch attack with the hook (in which case you gain a +4 bonus on the attack roll and the save DC of the spell increases by +1, but you do not do hook hand damage).<br><p><b>Base Item:</b> +1 hook hand</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, spectral hand</p><h3><b>Source: </b></h3>AP 59",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373303,
+    "modifiedTime": 1665949139710,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

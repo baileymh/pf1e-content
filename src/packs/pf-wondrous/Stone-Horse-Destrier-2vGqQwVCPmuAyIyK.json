@@ -3,7 +3,7 @@
   "name": "Stone Horse, Destrier",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item is a roughly hewn statue of a horse, carved from some type of hard stone. A command word brings the steed to life, enabling it to carry a burden and even to attack as if it were a real horse of the appropriate kind. A stone horse is combat-trained.   A stone horse can carry 1,000 pounds tirelessly and never needs to rest or eat. Damage dealt to it can be repaired either by feeding it gems (1 hp for every 50 gp value of the gem) or by casting stone to flesh, then using healing spells until it reaches its maximum hit points, at which time it automatically returns to its stone form.   There are two sorts of stone horses.   Courser: This item has the statistics of a horse with hardness 10.   Destrier: This item has the statistics of a heavy horse with hardness 10.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects, flesh to stone</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403545,
+    "modifiedTime": 1665949166045,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Cape Of Effulgent Escape",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This shining white cloak is trimmed with golden sunbursts and continuously radiates light (as per the light spell, but only in a 10-foot radius). Twice per day, the wearer can command the cape to erupt in a burst of light, blinding all creatures other than the wearer within 20 feet for 1d4 rounds (Reflex DC 14 negates). After triggering this burst, the wearer becomes invisible (as the invisibility spell, with a duration of 1 minute) and the cape's light is extinguished as long as the wearer is invisible.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, daylight, invisibility</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408581,
+    "modifiedTime": 1665949170764,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

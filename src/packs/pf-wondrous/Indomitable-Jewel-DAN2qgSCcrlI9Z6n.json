@@ -3,7 +3,7 @@
   "name": "Indomitable Jewel",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Set in a burnished copper pendant, the colors of this black opal shift with the wearer's mood. While the wearer is dazed, nauseated, paralyzed, or stunned because of a mind-affecting effect, at the start of his turn he can take 2 points of ability damage to Intelligence, Wisdom, and Charisma to still take a standard action that turn (in place of the move action in the case of nauseated). He can make this choice even if otherwise prevented from taking actions. If affected by multiple such conditions, the wearer must take the ability damage for each in order to take his standard action. Ability damage caused by the jewel can't be prevented or reduced, and it must be healed naturally. In addition, the indomitable jewel renders the wearer immune to sleep caused by mind-affecting effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, freedom of movement, thought shield I</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404707,
+    "modifiedTime": 1665949167208,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

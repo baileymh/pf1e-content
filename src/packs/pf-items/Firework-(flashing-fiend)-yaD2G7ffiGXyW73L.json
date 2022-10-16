@@ -3,7 +3,7 @@
   "name": "Firework (flashing fiend)",
   "type": "consumable",
   "img": "systems/pf1/icons/spells/explosion-red-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Firework (flashing fiend)</h1><b>Source</b> <i>Ships of the Inner Sea pg. 29</i><br/><b>Price</b> 100 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>When lit, this small conical firework emits bright white sparks that illuminate the area as a candle. It can be thrown to target an intersection as a splash weapon. One round later, it begins to emit pulses of extremely bright light for 1d6 rounds. Any creature that begins its turn within 15 feet of the firework must succeed at a DC 12 Reflex saving throw or be blinded for 1d4 rounds.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 30</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368235,
+    "modifiedTime": 1665949135951,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

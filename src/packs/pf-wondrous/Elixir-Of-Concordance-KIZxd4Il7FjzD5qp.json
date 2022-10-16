@@ -3,7 +3,7 @@
   "name": "Elixir Of Concordance",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This elixir is barely an ounce of blue-gold bubbling liquid. For 1 minute after drinking this elixir, a blue-gold aura surrounds the imbiber, shining light as per a candle. Each arcane spell cast by the imbiber during this time gains a +1 enhancement bonus to the DC of saving throws against the spell, and the spell can be cast as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. The imbiber can choose which metamagic feat to apply each time she casts a spell and can use different metamagic feats throughout the duration of the elixir's effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane concordanceAPG</p><h3><b>Source: </b></h3>AP 125",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405560,
+    "modifiedTime": 1665949167889,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

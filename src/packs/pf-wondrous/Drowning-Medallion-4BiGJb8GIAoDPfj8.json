@@ -3,7 +3,7 @@
   "name": "Drowning Medallion",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Often crafted by the people of Riverton and sold to traveling river-goers, this small stone disk is etched with the symbol of waves and affixed to a silver chain. If the wearer falls unconscious from drowning while wearing a drowning medallion, she can remain unconscious for up to 10 minutes before she must start attempting Constitution checks to avoid asphyxiation. One round after emerging from the substance that caused the wearer to drown (usually water), the wearer regains consciousness at 0 hit points and the medallion crumbles to dust.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, air bubble (Pathfinder RPG Ultimate  Combat 222)</p><h3><b>Source: </b></h3>People Of The River",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403638,
+    "modifiedTime": 1665949166114,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

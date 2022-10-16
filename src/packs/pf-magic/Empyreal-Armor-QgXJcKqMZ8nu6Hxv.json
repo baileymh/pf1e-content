@@ -3,7 +3,7 @@
   "name": "Empyreal Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Legend tells that the first suits of empyreal armor were forged from the battered, cast-off breastplates worn by solars in battle. These suits were gifted to powerful mortal heroes and have since changed hands many times.  Empyreal armor is made of steel forged so that it reflects a golden sheen in the sunlight. This armor functions as a suit of +3 moderate fortification full plate. In addition, three times per day, its wearer can activate a fire shield (warm shield only) that lasts for 13 rounds. Any creature attacking the wearer with its body or a handheld weapon while the fire shield effect is active deals normal damage but takes 1d6+13 points of damage in return. Half this damage is fire damage, but the other half results directly from divine power and is therefore not subject to energy resistance.<br><p><b>Base Item:</b> +3 moderate fortification full plate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, fire shield, limited wish or miracle</p><h3><b>Source: </b></h3>Chronicle Of The Righteous",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372298,
+    "modifiedTime": 1665949138729,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

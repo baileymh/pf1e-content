@@ -3,7 +3,7 @@
   "name": "Radiant Panel",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small glass cube bears shallow indents carved into each side. Pressing an indentation as a standard action creates a thin sheet of hard light that is 5 feet wide. The sheet covers one edge of a 5-foot square, chosen at activation. While active, the sheet blocks attacks as if it is a solid wall, granting total cover against attacks and spells that pass through this edge. The sheet has hardness 10 and 30 hp. Force effects bypass this sheet, acting normally. The edge chosen can even be a horizontal one, creating a platform that can hold 500 pounds of weight.  Once active, the cube anchors itself in place, preventing the sheet from moving. Moving the cube while it is active requires a successful DC 22 Strength check. If the cube moves or if more than 500 pounds of weight is added to the sheet, the sheet shatters, requiring another activation to create a new sheet.  Light sheets created by the cube remain for 1 minute and a cube can create up to 5 sheets per day. A sheet can be dismissed as a standard action, expending the full use of that sheet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, floating disk</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404621,
+    "modifiedTime": 1665949167142,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

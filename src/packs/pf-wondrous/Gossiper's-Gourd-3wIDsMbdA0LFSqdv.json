@@ -3,7 +3,7 @@
   "name": "Gossiper's Gourd",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This drinking gourd has a slender neck capped with a tethered cork, as well as a leather strap so it can be hung from a belt or pack. Once per day, the gossiper's gourd can be filled with water from a village well or other local water source, becoming attuned to that source as long as the gourd is full of water. The bearer gains a +2 insight bonus on any Knowledge (local) checks she attempts within a 1-mile radius of the water source, and can speak and understand (though not read or write) the dominant local language in that area. These effects persist as long as the attuned gourd is full.  By drinking all the local water from a gossiper's gourd, the imbiber gains a +5 insight bonus on all Bluff, Diplomacy, Knowledge (local), and Sense Motive checks within a 1-mile radius of the water source for 1 hour. In addition, during that hour, the user can plant an idea or suspicion in the mind of one local person within  30 feet by whispering the idea into the empty gourd. This effect functions as sow thought, except the target must be from the local area. A successful DC 12 Will save negates the effect.  A gossiper's gourd can't become attuned to a water source more than once per day. For example, if the owner fills the gourd from a well at the beginning of the day, then drinks the water, she must wait until the beginning of the next day to benefit from the gourd again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, share languageAPG, sow thoughtARG, creator must have at least 5 ranks in Knowledge (local)</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403624,
+    "modifiedTime": 1665949166102,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

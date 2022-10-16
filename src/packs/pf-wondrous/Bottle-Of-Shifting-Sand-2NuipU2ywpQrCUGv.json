@@ -3,7 +3,7 @@
   "name": "Bottle Of Shifting Sand",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornate glass bottle is filled with loose sand. A bottle of shifting sand can be thrown as a splash weapon targeting a specific grid intersection (Pathfinder RPG Core Rulebook 202). Treat this attack as a ranged touch attack with a range increment of 10 feet. If thrown on an earthen or sandy surface, the bottle breaks, creating an area of churning, shifting sand in a 20-foot spread that obliterates tracks and is considered difficult terrain. Acrobatics checks in the area take a -5 penalty. Creatures entering or beginning their turn in the affected area must succeed at a DC 14 Reflex save each round or become entangled until the beginning of their next turn. If they attempt to move while entangled, they must succeed at a second Reflex save or fall prone. At the end of 5 rounds, the sand disappears, leaving no aftereffects.  If a bottle of shifting sand is thrown at a creature, a direct hit instead throws up a cloud of whirling sand that surrounds the creature. This cloud of sand provides concealment to the target and any creatures in adjacent squares for 1 round, but has no effect on the surrounding terrain.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, shifting sandAPG</p><h3><b>Source: </b></h3>AP 81",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403507,
+    "modifiedTime": 1665949166011,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

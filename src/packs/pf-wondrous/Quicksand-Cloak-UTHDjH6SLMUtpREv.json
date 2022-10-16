@@ -3,7 +3,7 @@
   "name": "Quicksand Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The exterior of the cloak is an extradimensional space filled with water and sand. Each time a creature of the wearer's size or smaller attempts to grapple the wearer, it must succeed at a DC 15 Reflex save or fail at the attempt and be engulfed by quicksand (Pathfinder RPG Core Rulebook 427). Every round it's trapped in the extradimensional space, the trapped creature must make a Swim check (DC 15) to climb out, landing prone adjacent to the wearer. Crawling out doesn't provoke an attack of opportunity from the wearer, but does provoke from others. A creature that fails its Swim check by 5 or more submerges and begins to drown. A creature that succeeds at the initial save grapples the wearer normally, and doesn't need to save again unless the wearer escapes and the creature tries to grapple the wearer again.   A quicksand cloak left on the ground behaves as a patch of quicksand filling one 5-foot square, and swimming out works the same. Others may use aid another to help a creature trapped in the cloak, as though the creature were grappled.   A quicksand cloak of any size can contain only one creature at a time; a creature attempting to grapple the wearer while the cloak already contains a body is not affected by the cloak.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create water, shifting sandAPG</p><h3><b>Source: </b></h3>Tears At Bitter Manor",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406794,
+    "modifiedTime": 1665949169041,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

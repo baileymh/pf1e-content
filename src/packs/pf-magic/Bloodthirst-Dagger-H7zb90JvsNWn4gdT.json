@@ -3,7 +3,7 @@
   "name": "Bloodthirst Dagger",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The blade of this +2 wounding dagger is brightly polished. Even when drenched in a victim's blood, it appears clean and dry moments later, as though it has been newly cleaned.  A bloodthirst dagger rewards its wielder most when used relentlessly against a single target. When attacking a creature that is still bleeding from the bloodthirst dagger's wounding property, the dagger deals an additional +1 point of damage against the target for each bleeding wound the creature possesses (maximum +10). Whenever the wielder of bloodthirst confirms a critical hit with the weapon, she can choose to deal 1d6 points of additional damage for each still-bleeding wound the target possesses (maximum +5d6 damage). This additional damage is not multiplied by the critical hit, but is in addition to the damage normally added for bleeding wounds. Dealing this damage immediately heals all bleeding wounds possessed by the wielder.<br><p><b>Base Item:</b> +2 wounding dagger</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, bleed, inflict serious wounds</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371925,
+    "modifiedTime": 1665949138342,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

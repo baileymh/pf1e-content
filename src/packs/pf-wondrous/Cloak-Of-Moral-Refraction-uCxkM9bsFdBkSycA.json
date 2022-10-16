@@ -3,7 +3,7 @@
   "name": "Cloak Of Moral Refraction",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The cloak of moral refraction has long been a tool of the riftwardens-mystics who charge themselves with maintaining cosmic balance and closing extraplanar portals throughout the multiverse. The shimmering fabric of this light silver-and-red cloak never dirties or wrinkles, and when laid out flat, the cloak reflects light nearly as well as a mirror.  A fully charged cloak of moral refraction has 3 charges-charges used are automatically renewed at a rate of 1 charge per day at dawn. The wearer may use the cloak to expend these charges and create the following effects.  • 1 charge: Dispel an ongoing spell with an alignment descriptor, as the third function of dispel chaos/evil/good/law.  • 2 charges: Ready an action to counter a spell or spell-like ability with an alignment descriptor. The effect is automatically countered, and no caster level check is required. The charges are expended only after countering a spell or spell-like ability. If you ready this action but it is not triggered, the charges are not expended.  • 3 charges: As an immediate action, counter a spell or spell-like ability cast by an outsider with an alignment subtype. The effect is automatically countered, and no caster level check is required. In addition, the outsider must succeed at a DC 20 Will save or be banished back to its home plane,  as banishment. An outsider with more than 26 Hit Dice is unaffected by the banishment effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item; banishment; dispel chaos, evil, good, and law; dispel magic; creator must be neutral</p><h3><b>Source: </b></h3>Champions Of Balance",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409868,
+    "modifiedTime": 1665949171939,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

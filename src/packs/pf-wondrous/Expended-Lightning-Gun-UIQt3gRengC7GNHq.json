@@ -3,7 +3,7 @@
   "name": "Expended Lightning Gun",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This device is made of a strange metallic alloy. A bellows or tapered accordion structure protrudes from the box, with handles and controls at the wide end and a bright metal disk or lens at the other. The controls seem to have been designed for operation by large creatures with only two fingers, though the smaller but more agile hands of humanoids can manipulate them after some practice.  As a standard action, the operator can hold the device in front of herself with two hands and use the controls to unleash a blast that deals 10d12 points of electricity damage on a successful ranged touch attack against a single target within 120 feet. The lightning blast sets fire to combustibles and damages objects that it strikes. It can melt metals that have a low melting point, such as lead, gold, copper, silver, or bronze.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, chain lightning</p><h3><b>Source: </b></h3>AP 113",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406788,
+    "modifiedTime": 1665949169034,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

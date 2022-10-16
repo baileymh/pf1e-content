@@ -3,7 +3,7 @@
   "name": "Firework (skyrocket)",
   "type": "consumable",
   "img": "systems/pf1/icons/spells/explosion-orange-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Firework (skyrocket)</h1><b>Source</b> <i>Ultimate Equipment pg. 107</i>, <i>Adventurer's Armory pg. 19</i><br/><b>Price</b> 50 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>When lit, this footlong wooden tube begins to shake and emit a handful of white sparks, shedding light as a torch. One round later it takes flight, moving at a speed of 90 feet for 1d6 rounds before loudly exploding in a burst of light and sound, dealing 2d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 halves). Anyone who takes damage from the explosion is either blinded or deafened (50% chance of either) for 1 round. Crafting this item is a DC 25 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 25</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -143,6 +148,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -235,8 +241,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365960,
+    "modifiedTime": 1665949133873,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

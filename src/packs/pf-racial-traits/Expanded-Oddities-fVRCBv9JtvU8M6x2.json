@@ -3,7 +3,7 @@
   "name": "Expanded Oddities",
   "type": "feat",
   "img": "systems/pf1/icons/races/tiefling.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Ganzi&nbsp;<br /><strong>Replaced Trait(s):</strong> Base Statistics&nbsp;</p>\n<hr />\n<p>Due to the Maelstrom's entropic influence on their compositions, ganzis each have an unusual but defining feature�referred to as an oddity�that sets them apart from other races and even from other members of their own race. These oddities vary wildly from ganzi to ganzi, and they can manifest as physical features, such as feathers, scales, or a tail, or as more subtle magical abilities. At the GM's discretion, players with ganzi characters can roll 1d20 to randomly determine what form their characters' oddities take using the list below. <br />&emsp;<b>1�3: Amorphous Limbs (Su)</b>: The influence of the Maelstrom manifests in the ganzi's ability to transform one of her limbs at will, often into a natural weapon such as a massive clawed arm. Every 1d4 rounds as a swift action, a ganzi can transform one of her limbs into a natural melee weapon that deals 1d6 points of damage. The transformation lasts until the beginning of the ganzi's next turn. The damage dealt by this natural weapon can be lethal or nonlethal, at the ganzi's discretion, and she chooses whether the damage type is bludgeoning, piercing, or slashing. <br />&emsp;<b>4�6: Ink (Ex)</b>: As a standard action, the ganzi can spit a stream of opaque, black ink from her mouth to a distance of up to 20 feet. The ganzi can target either a creature or a square on the ground, each with different effects, as detailed below. The ganzi can use this ability once per day, plus one additional time per day for every 4 Hit Dice she has.<br />&emsp; <i>Creature</i>: The ganzi shoots a stream of ink into a creature's eyes as a ranged touch attack with a range of 30 feet. If the ganzi hits, the target must succeed at a Fortitude saving throw (DC = 10 + half the ganzi's Hit Dice + the ganzi's Constitution modifier) or be blinded for 1d4 rounds.<br />&emsp; <i>Ground</i>: The ganzi spits the ink into a single square on the ground within 30 feet, which becomes slippery for 1d6 rounds. Any creatures entering the square must succeed at a Reflex save (DC = 10 + half the ganzi's Hit Dice + the ganzi's Constitution modifier) or fall prone. <br />&emsp;<b>7�10: Racing Mind (Ex)</b>: A ganzi whose lineage is linked to hunduns might inherit an aspect of the outsiders' chaotic minds. The ganzi's churning vortex of thoughts bolsters it against mental attacks, granting the ganzi a +2 bonus on Will saves against mind-affecting effects. <br />&emsp;<b>11�13: Spell-Like Ability (Sp)</b>: Ganzis whose chaotic influences rise from sources other than the Maelstrom or its inhabitants often manifest an oddity that duplicates the effects of a specific spell. Such a ganzi gains one of the following spell-like abilities, which can be used once per day with a caster level equal to the ganzi's HD: <%SPELLS%acid arrow%%><i>acid arrow</i><%END>, <%SPELLS%gust of wind%%><i>gust of wind</i><%END>, <%SPELLS%mirror image%%><i>mirror image</i><%END>, <%SPELLS%resist energy%%><i>resist energy</i><%END>, <%SPELLS%scorching ray%%><i>scorching ray</i><%END>, <%SPELLS%see invisibility%%><i>see invisibility</i><%END>, or <%SPELLS%warp wood%%><i>warp wood</i><%END>. <br />&emsp;<b>14�16: Uncanny Aura (Su)</b>: Some ganzis have an unsettling aura of chaos that rattles hostile creatures that venture too close. Once per day as a standard action, such a ganzi can activate an uncanny aura; enemies within 30 feet must succeed at a Will saving throw (DC = 10 + half the ganzi's Hit Dice + the ganzi's Charisma modifier) or become frightened until the beginning of the ganzi's next turn. The aura remains for a number of rounds equal to the ganzi's Charisma modifier (minimum 1 round). Once a creature has been affected by an uncanny aura, whether it failed its save or not, it cannot be affected again for 24 hours. <br />&emsp;<b>17�18: Vestigial Wings (Ex)</b>: The ganzi has a pair of small, vestigial wings, likely but not limited to resembling those of a flying creature or some manner of construct. Though these appendages do not grant flight, these ganzis can use their wings to stabilize themselves when they're thrown off balance. Such ganzis gain a +1 bonus on Reflex saving throws and a +2 bonus on Acrobatics checks to balance. <br />&emsp;<b>19�20: Void Touch (Su)</b>: A ganzi whose lineage is influenced strongly by voidworms might exhibit the ability to inflict chaos on others' minds. Three times per day when such a ganzi hits a creature with a melee attack, the ganzi can deliver a burst of chaos to that creature as a free action. The target must succeed at a Will save (DC = 10 + half the ganzi's Hit Dice + the ganzi's Constitution modifier) or be confused for 1 round.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428384278,
+    "modifiedTime": 1665949148602,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

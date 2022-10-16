@@ -3,7 +3,7 @@
   "name": "Familiar's Soulstone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A familiar's soulstone looks like an unpolished, rough red gem the size of a fist. The bearer can use the familiar's soulstone to perform an hour-long ritual that binds the soul of his familiar, animal companion, or bonded mount to the soulstone. Once this bond is established, the only way to sever it is to destroy the gem.  If the bonded creature dies while on the same plane as its familiar's soulstone, its soul is siphoned into the gem, where it's preserved for 24 hours. Within this period, holding the gem to the body of the deceased bonded creature for 1 full minute restores that creature to life, as raise dead. The gem is destroyed in the process. A witch's familiar brought back to life using a familiar's soulstone retains all of its stored spells. If the soul isn't extracted from the gem within 24 hours, the gem crumbles to dust, automatically releasing the soul to the Great Beyond.  A creature can have only one familiar's soulstone bound  to it at a time, and a familiar's soulstone can be bound only to a single creature.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, raise dead</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409668,
+    "modifiedTime": 1665949171808,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

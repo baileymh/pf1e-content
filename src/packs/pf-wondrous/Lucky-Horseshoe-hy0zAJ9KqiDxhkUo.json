@@ -3,7 +3,7 @@
   "name": "Lucky Horseshoe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Although it appears to be a simple horseshoe, a lucky horseshoe focuses and channels the mystical energies of good fortune. As long as a lucky horseshoe's owner carries it on her person, she gains a +1 luck bonus on saving throws. Once per day, she can invoke the lucky horseshoe's power to gain a +4 luck bonus on a single saving throw. She must declare that she is using this ability before the roll is made.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divine favor</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408445,
+    "modifiedTime": 1665949170667,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

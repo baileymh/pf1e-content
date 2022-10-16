@@ -3,7 +3,7 @@
   "name": "Triple-Stinging Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This highly decorative +1 dagger sports a rose carved onto its pommel and a yellow-and-black-striped hilt. Upon examination, the blade seems to be dented at regular intervals. These dents are actually retractable thorns. If you use a triple-stinging blade to successfully damage a creature, you can make a free combat maneuver against the target. If you fail, nothing happens. If you succeed, you thrust the blade deep enough into the target to cause the thorns to spring forth, dealing an additional 1d4 points of damage. The thorns retract immediately after dealing this damage.  Once per day, as a free action, if Calistria is your patron and you whisper her name, you can increase the enhancement bonus of the triple-stinging blade to +2. This bonus lasts for 1 round. If Calistria is not your patron and you speak her name while holding the triple-stinging blade, thorns sprout from the handle instead and inject with you with poison equivalent to Medium spider venom (see pages 559-560 of the Pathfinder RPG Core Rulebook).<br><p><b>Base Item:</b> +1 dagger</p><h3><b>Requirements</b></h3><p>Craft Weapon, spike growth</p><h3><b>Source: </b></h3>Faiths Of Balance",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372892,
+    "modifiedTime": 1665949139296,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

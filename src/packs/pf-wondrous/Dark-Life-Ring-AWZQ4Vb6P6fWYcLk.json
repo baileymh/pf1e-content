@@ -3,7 +3,7 @@
   "name": "Dark Life Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Mortal blacksmiths residing in the Gebbite city of Graydirge created the first dark life rings. Too often had these living unfortunates suffered collateral damage from the negative energy effects used daily in the streets of the undead-ruled city, so they forged these rings in hopes of mitigating at least some of the harm their unliving rulers carelessly inflicted upon them. Before the Blood Lords at Mechitar could punish the insolent smiths of Graydirge, the dark life rings and their imitators made their way into the wider world.  A dark life ring grants its wearer a +2 profane bonus on Will saving throws against channeled negative energy and inflict spells (any spell with inflict in its name). In addition, anytime the wearer takes damage from channeled negative energy or an inflict spell, she subtracts 5 from the damage taken (calculated after the wearer has rolled her Will save against the effect), to a minimum of 0 points of damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, death ward</p><h3><b>Source: </b></h3>Champions Of Corruption",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404284,
+    "modifiedTime": 1665949166724,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

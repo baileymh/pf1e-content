@@ -3,7 +3,7 @@
   "name": "Belkzen Battle Standard",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ragged flag is marked with the emblem of an orc clan. Creatures loyal to the clan represented by the flag's emblem gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and charm effects as long as they can see the standard, which must be held by an ally within 60 feet. This bonus is increased by 1 if the bearer has the Flagbearer feat (The Inner Sea World Guide 286). If the bearer is an orc, the bonuses from the flag are increased by 1 (for a total of +3 if the bearer also has the Flagbearer feat) for orc allies loyal to the clan whose emblem is represented.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless, creator must be an orc</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409664,
+    "modifiedTime": 1665949171805,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

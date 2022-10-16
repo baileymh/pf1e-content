@@ -3,7 +3,7 @@
   "name": "Ghoulbane Belt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Due to the toxic nature of many environments found within the Darklands, this belt is designed to protect its wearer from exotic diseases, paralyzing attacks, and poisonous molds. The wearer gains a +2 bonus on saving throws to resist disease, paralysis, and poison. This bonus increases to +4 on saving throws to resist such effects caused by molds or slimes. Additionally, the wearer can cast a single spell from the following list as a spell-like ability once per day: neutralize poison, remove disease, or remove paralysis. Activating this ability is a purely mental action that can be taken even while paralyzed or otherwise helpless. The chosen spell affects only the belt's wearer.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, neutralize poison, remove disease, remove paralysis</p><h3><b>Source: </b></h3>Heroes Of The Darklands",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404740,
+    "modifiedTime": 1665949167235,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

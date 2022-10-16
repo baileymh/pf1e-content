@@ -3,7 +3,7 @@
   "name": "Clamor Box",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This delicate tin music box can produce a great volume of noise at a specific time determined by its owner. Four command words determine what sorts of sounds it is to play (battle, fire, massacre, or riot), and a fifth determines the delay (anywhere from 1 round to 20 minutes) until the box begins to produce the desired sound. The noise from the box is as loud as 40 people. The sound persists for 2d6 rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, ghost sound</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406209,
+    "modifiedTime": 1665949168480,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

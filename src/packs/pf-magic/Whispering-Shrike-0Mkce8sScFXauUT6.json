@@ -3,7 +3,7 @@
   "name": "Whispering Shrike",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Whispering Shrike is a +1 wakizashi (Ultimate Combat 134) of incredibly beautiful design. The sword is etched with images of seven shrikes perched on a coiling branch that runs the length of the blade. Once per day, Whispering Shrike can be used to cast shield other on any creature touched by the blade while you wield it. The blade's tsuka (hilt) has not weathered the passage of time as well as the blade itself, and until the pommel is repaired (a process requiring 600 gp, a day's work, and a DC 20 Craft [weapons] check), attacks with the weapon take a -2 penalty due to the loose grip. A DC 20 Perception check (an automatic success once repair is underway) reveals a secret compartment in the hilt just large enough to hold a small item such as a flask or rolled piece of paper. This compartment currently holds an important letter-see page 22 for details on this find.<br><p><b>Base Item:</b> +1 wakizashi</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, shield other</p><h3><b>Source: </b></h3>AP 49",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371639,
+    "modifiedTime": 1665949138017,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Slow Speed (Triton)",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/trident.PNG",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.A86mJCkJ28Wb0aXK"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Race:</strong> Triton&nbsp;</p>\n<hr />\n<p>Tritons are ungainly out of the water and have a base speed of only 5 feet.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.A86mJCkJ28Wb0aXK"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428383724,
+    "modifiedTime": 1665949148065,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

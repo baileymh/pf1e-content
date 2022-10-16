@@ -3,7 +3,7 @@
   "name": "Rocket launcher",
   "type": "weapon",
   "img": "icons/weapons/guns/gun-worn-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Technology Guide pg. 21</em></p><h2 class=\"framing\">Statistics</h2><p><strong>Cost</strong> 10,800 gp</p><p><strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (heavy weaponry); <strong>Weight</strong> 10 lbs.</p><p><strong>Damage</strong> 8d6 (small), 12d6 (medium); <strong>Damage Type</strong> B and F; <strong>Critical</strong> -</p><p><strong>Range</strong> 120 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 (disposable); <strong>Special</strong> Slow-firing, touch</p><h2 class=\"framing\">Description</h2><p>A newly created rocket launcher contains its entire load of rockets and energy charges. It cannot be reloaded, and once its final rocket is fired, the weapon is useless. Rockets fired from a rocket launcher can target a single target or a grid intersection. A creature that takes a direct hit from a rocket cannot attempt a saving throw to reduce the damage taken. When a rocket strikes its target, it explodes in a 30-foot-radius burst that deals fire and bludgeoning damage to all creatures within that area of effect-a successful DC 15 Reflex save halves the damage for all but the target. Some rocket launchers carry alternate loads, replacing the fire damage with electricity or cold damage, and there are rumors of rocket launchers capable of doing even more damage, firing gravity-based weapons or using radioactive payloads.</p><h2 class=\"framing\">Construction</h2><p><strong>Craft</strong> DC 28; <strong>Cost</strong> 5,400 gp</p><p>Craft Technological Arms and Armor, military lab</p>",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -142,6 +147,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -181,7 +187,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -192,6 +197,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -285,8 +291,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428387663,
+    "modifiedTime": 1665949152032,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

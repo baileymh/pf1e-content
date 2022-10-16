@@ -3,7 +3,7 @@
   "name": "Sallowflesh",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This necrograft weaves strips of rotted skin across the bearer's body in a grisly process of scarification. The dense, undead hide provides a +2 enhancement bonus to its host's natural armor bonus, and causes undead creatures to perceive the host as one of their own- skeletons, zombies, and other mindless undead ignore a character implanted with sallowflesh unless attacked first. Intelligent undead may also be fooled by this effect, but can recognize the host as a living creature with a successful DC 11 Will save; on a failed save, the undead assumes the host to be another intelligent undead. Undead attacked by the host, or that witness the host channel positive energy, can immediately see through this effect. Sallowflesh has no effect on living creatures' perceptions.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate dead, hide from undead, creator must have 5 ranks in Heal</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405979,
+    "modifiedTime": 1665949168311,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Ring Of Resumption",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This adamantine ring contains a moving, notched golden circle that whirs with healing energy when activated. Once per day when the wearer takes hit point damage by any means, she can activate the ring as an immediate action. This immediately allows a living wearer to regain 5 hit points per round and recover from an equal amount of nonlethal damage. The wearer regenerates a total number of hit points equal only to the damage taken when the ring was activated, and only a single attack (or another single instance) can activate the ring. If the wearer sustains damage from multiple sources simultaneously, she must pick which source activates the ring. When either all of this damage is healed or the wearer's hit points reach her hit point maximum (whichever comes first), the hit point regeneration ceases.  In addition, the wearer is immune to bleed damage while the ring's regeneration is active. If the wearer lost a limb, an organ, or any other body part as a result of the effect she used to activate the ring, the ring regenerates it as per regenerate. As with the spell, if the severed members are not present and touching the creature, this regenerate effect takes 2d10 rounds (this may cause the regenerate effect affecting a lost limb or organ to last longer than the hit point regeneration).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, regenerate</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404588,
+    "modifiedTime": 1665949167120,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

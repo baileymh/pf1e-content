@@ -3,7 +3,7 @@
   "name": "Lantern Of Auras",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the detect magic spell. It will reveal all auras detect magic reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area.  Roughly 45% of these lanterns have the command word etched on the bottom of the lantern. Casting identify on a lantern of auras reveals the command word.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect magic, light</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407777,
+    "modifiedTime": 1665949170042,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

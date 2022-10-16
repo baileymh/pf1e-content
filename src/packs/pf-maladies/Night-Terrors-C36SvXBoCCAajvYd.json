@@ -3,7 +3,12 @@
   "name": "Night Terrors",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_03.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Q3pwwKdgAkcqLBrv"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source</strong> <em>Horror Adventures pg. 185</em></p><p><strong>Type</strong> lesser madness; <strong>Save</strong> DC 16</p><p><strong>Onset</strong> 1 day</p><p><strong>Effect</strong> Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up fatigued (see below).</p><p><strong>Dormancy Effect</strong> None</p><p><h3 class=\"framing\">Description</h3>A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an exhausted character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors.</p>",
       "chat": "",
@@ -63,7 +68,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,12 +99,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Q3pwwKdgAkcqLBrv"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428376417,
+    "modifiedTime": 1665949141226,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

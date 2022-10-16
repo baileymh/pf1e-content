@@ -3,7 +3,7 @@
   "name": "Assassin's Sight",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black telescopic sight is made of lusterless metal and features a thick glass lens. It can be mounted on the stock of a light or heavy crossbow, but not a hand crossbow. An assassin's sight allows the wielder to make ranged sneak attacks from greater distances than normal. This sight has two settings: 0-30 feet and 30-60 feet. A character using a crossbow equipped with an assassin's sight can make sneak attacks against foes within the selected range. For example, by setting the range to 30-60 feet, a character can make sneak attacks against creatures only if they are between 30 and 60 feet of the wielder; attacks against targets closer than 30 feet or farther than 60 feet would not count as sneak attacks, even if they met all the other requirements for making a sneak attack. Setting the range on an assassin's sight is a full-round action that provokes attacks of opportunity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, locate weaknessUC, true strike</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407843,
+    "modifiedTime": 1665949170095,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

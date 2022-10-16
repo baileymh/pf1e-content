@@ -3,7 +3,7 @@
   "name": "Consecrated Salts",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-teal.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\">Consecrated Salts</h1><b>Source</b> <a class=\"external-link\" href=\"https://paizo.com/products/btq01ws3\" target=\"_blank\"><i>Pathfinder #139: The Dead Road pg. 63</i></a><br/><b>Price</b> 300 gp; <b>Weight</b> 1/2 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>The powdered salts in this stoppered glass sphere contains reagents blessed by a cleric or another divine authority. You can throw a sphere of consecrated salts as a splash weapon with a range increment of 10 feet. Consecrated salts deal damage to evil outsiders, haunts, and undead as if they were a flask of <a href=\"EquipmentMiscDisplay.aspx?ItemName=Holy water\" style=\"text-decoration:underline\">holy water</a>. Additionally, if a haunt or rejuvenating undead such as a <a href=\"MonsterDisplay.aspx?ItemName=Ghost\" style=\"text-decoration:underline\">ghost</a> is reduced to 0 hp within 1 minute of being damaged by consecrated salts, its reset time (in the case of a haunt) or rejuvenation is delayed by 1 day. This delay can also be achieved by sprinkling consecrated salts on the earthly remains of a ghost or the affected area of a haunt. Crafting this item requires a successful DC 30 Craft (alchemy) check.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 30</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428368078,
+    "modifiedTime": 1665949135839,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

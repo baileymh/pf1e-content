@@ -3,7 +3,7 @@
   "name": "Deadened Shadows Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Colored a muted gray, this cloak would be nondescript were it not for a single clasp of silver, stylized as a trio of skulls and inlaid with three large blue pearls. By pressing the first pearl as a move action, the wearer causes the illumination level in a 30-foot radius to decrease by one step toward dim light, from bright light to normal light or from normal light to dim light. While active, the cloak also deadens the sounds the wearer makes (as sculpt sound). This prevents the wearer from communicating verbally, casting spells with verbal components, speaking command words, and so on. Pressing this pearl again suppresses this effect. This effect lasts for 15 minutes and can be used at will.  The second pearl also requires a move action to activate, and can be activated only while the first pearl is active. Activating the second pearl transports the wearer to the edge of the Material Plane where it borders the Shadow Plane. This functions as shadow walk, but only the wearer of the cloak is affected. This ability can be used once per week. While recharging, the second pearl changes color to a gleaming white. Once recharged, it returns to its former dark blue coloration.  The final pearl must be removed from the clasp and dropped as a move action. This breaks the jewel, causing wisps of shadowy vapor to engulf the wearer, granting him the benefits of shadow bodyOA for the following 15 minutes. Once destroyed, the third pearl can't be used again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, darkness, sculpt sound, shadow bodyOA, shadow walk</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410312,
+    "modifiedTime": 1665949172364,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Bondbreaker's Boots",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These leather boots bear a knife motif worked into their durable blue leather. Three times per day, the wearer can speak a command word as a swift action, causing a serrated knife to fly from the boots and instantly slice through any nonmagical bond currently restraining the wearer. The knife conjured from bondbreaker's boots can cut through brambles, ropes, tanglefoot bags, vines, webs, or any other similar nonmagical item restraining the wearer, but cannot help when the owner is actively restrained by a creature. Bondbreaker's boots also cannot free the wearer if manacles or chains restrain her.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, unseen servant</p><h3><b>Source: </b></h3>Champions Of Purity",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "feet",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404595,
+    "modifiedTime": 1665949167128,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

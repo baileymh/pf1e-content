@@ -3,7 +3,7 @@
   "name": "Singing Bell Of Striking",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple bowl-shaped bell made of either cold iron or silver is played by rubbing a leather mallet along its rim, creating a ringing sound. By playing the bell while meditating or resting to regain ki, the bearer may attune his ki points to the instrument. Once attuned, the bearer's ki strikes count as cold iron (if the bell is cold iron) or silver (if the bell is silver) instead of magic for the purpose of overcoming damage reduction. This lasts until the next time the bearer rests or meditates to regain ki points. A creature can only be attuned to one singing bell at a time, and a singing bell can only be attuned to one person at a time. Only creatures whose ki strikes normally act as magic weapons can use a singing bell of striking.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, versatile weapon (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407935,
+    "modifiedTime": 1665949170177,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

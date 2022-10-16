@@ -3,7 +3,29 @@
   "name": "Winter's Strike",
   "type": "feat",
   "img": "systems/pf1/icons/spells/ice-sky-3.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "ec1",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  },
+  "system": {
     "description": {
       "value": "<em>Your attacks afflict your foes with the relentless fatigue of a winter storm.</em><br/><br/><b>Prerequisites</b><br/>Nature Magic or the ability to cast druid or ranger spells; Vital Strike, Knowledge (nature) 5 ranks.<br/><br/><b>Benefits</b><br/>A number of times per day equal to your Wisdom modifier (minimum 1), when you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), your strike saps the strength of your opponent. The creature hit must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom modifier) or become fatigued for a number of rounds equal to your Wisdom modifier (minimum 1). You can choose to use this ability as a free action after you hit the target with the attack. This is a supernatural ability.<br/><br/><b>Combat Trick</b><br/>When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent.",
       "chat": "",
@@ -51,6 +73,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 2,
           "maxFormula": "max(1, @abilities.wis.mod)",
@@ -107,6 +134,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +196,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -208,29 +235,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "animName": "",
-      "animTint": "#ffffff",
-      "animType": "t1",
-      "auraOpacity": 0.75,
-      "color": "n1",
-      "ctaOption": false,
-      "dtvar": "dt1",
-      "explodeColor": "ec1",
-      "explodeLoop": "1",
-      "explodeRadius": "0",
-      "explodeVariant": "ev1",
-      "explosion": false,
-      "hmAnim": "a1",
-      "killAnim": false,
-      "override": false,
-      "selfRadius": "5",
-      "teleDist": 30,
-      "uaStrikeType": "physical"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355063,
+    "modifiedTime": 1665949123288,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

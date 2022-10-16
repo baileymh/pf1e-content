@@ -3,7 +3,7 @@
   "name": "Purging Falcata",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>First constructed for use during Taldor's great purge of the Sarenite Cult of the Dawnflower, this +2 falcataAPG is inscribed with various religious slurs. While purging falcatas are typically attuned against followers of the Dawnflower, variants of this blade have been keyed to all variety of deities. The attuned religion is chosen when the weapon is created, and can't be changed later. When a purging falcata is used against members of the attuned religion, its enhancement bonus is +4 instead of +2. It also deals an additional 2d6 points of damage to followers of the designated religion. This additional damage is not multiplied on a critical hit. If the wielder of the purging falcata possesses the challenge class feature, when issuing a challenge, he doesn't take the -2 penalty to Armor Class against attacks made by followers of the deity attuned to the blade. If the target of the challenge follows the faith to which the blade is attuned, the wielder deals an additional 3d6 points of damage instead of the normal 2d6.<br><p><b>Base Item:</b> +2 falcata</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, weapon of aweAPG, creator must use the weapon to slay a member of the attuned religion</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371665,
+    "modifiedTime": 1665949138115,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

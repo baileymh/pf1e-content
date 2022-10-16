@@ -3,7 +3,7 @@
   "name": "Noxious aromatic (flask)",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Noxious aromatic (flask)</h1><b>Source</b> <i>Animal Archive pg. 13</i><br/><b>Price</b> 15 gp; <b>Weight</b> 1 lb.<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This glass container of foul-smelling oil shatters easily upon impact. You can throw a vial of noxious aromatic as a splash weapon with a range increment of 10 feet. If a creature with the scent sense is standing in the square of impact, it must succeed at a DC 14 Fortitude save or be nauseated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Fortitude save or be sickened for 1 round. Creatures without the scent ability are not affected by noxious aromatic.</p><h2 class=\"framing\">Construction</h2><p><b>Craft (Alchemy)</b> DC 20</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -233,8 +239,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428365835,
+    "modifiedTime": 1665949133784,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

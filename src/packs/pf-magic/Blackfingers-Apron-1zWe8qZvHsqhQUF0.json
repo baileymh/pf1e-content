@@ -3,7 +3,7 @@
   "name": "Blackfingers Apron",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 bitterUE leather armor looks much like a blacksmith's apron or an alchemist's smock, and has many small pockets suitable for holding extracts, potions, or poisons. Once per day, the wearer can use negate aromaAPG (lasting 1 hour). This effect suspends the armor's bitter special ability if used on the wearer. Once per day, the wearer can pull a tanglefoot bag from one of the apron's pockets, although the bag crumbles into dust if it is not used within 1 minute.<br><p><b>Base Item:</b> +1 bitter leather armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, negate aromaAPG , stinking cloud, web</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371675,
+    "modifiedTime": 1665949138124,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

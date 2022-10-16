@@ -3,7 +3,7 @@
   "name": "Stone-Eater Armor",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This suit of +1 stoneplateUE bears a horned gorgon's head on each shoulder and the screaming face of a medusa on its breastplate. The first suits of stone-eater armor found in the Inner Sea region were brought by explorers from faraway Casmaron, along with wild tales of a lost city destroyed by a powerful medusa.  Whenever the wearer of stone-eater armor is subject to a petrifying effect, such as that caused by a flesh to stone spell, the effect is negated and the stone-eater armor's enhancement bonus increases by 1 for 1 minute as the armor grows thicker and bulkier, covering more of the wearer's body without hindering her movement.<br><p><b>Base Item:</b> +1 stoneplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, stone to flesh</p><h3><b>Source: </b></h3>Armor Masters Handbook",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372739,
+    "modifiedTime": 1665949139229,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

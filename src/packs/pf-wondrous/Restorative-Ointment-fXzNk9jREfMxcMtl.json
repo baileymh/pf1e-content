@@ -3,7 +3,7 @@
   "name": "Restorative Ointment",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A jar of this unguent is 3 inches in diameter and 1 inch deep, and contains 5 applications. Placed upon a poisoned wound or swallowed, the ointment detoxifies any poison (as neutralize poison with a +5 bonus on the check). Applied to a diseased area, it removes the disease (as remove disease with a +5 bonus on the check). Rubbed on a wound, the ointment cures 1d8+5 points of damage (as cure light wounds).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, neutralize poison, remove disease</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407990,
+    "modifiedTime": 1665949170221,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

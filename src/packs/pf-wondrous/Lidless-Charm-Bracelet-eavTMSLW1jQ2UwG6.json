@@ -3,7 +3,7 @@
   "name": "Lidless Charm Bracelet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bronze, serpentine bracelet has five dangling charms, each depicting an open and staring eye. Once per day as a standard action, the wearer can touch the bracelet to a creature with a gaze attack (requiring a successful touch attack for unwilling creatures) and become immune to natural gaze attacks from all creatures of that kind for the following 24 hours. The wearer could, for example, touch the bracelet to a basilisk to gain immunity to the gaze attacks of all basilisks, but would not be immune to the gaze of a medusa. This ability does not grant immunity to gaze attacks from spells or magic items such as eyes of doom. For the duration of this immunity, the charms on the bracelet each appear to be closed eyes.  When the wearer fails a save against a gaze attack, she can expend a charm from the bracelet as an immediate action to reroll that saving throw, but must take the second result even if it is worse. An expended charm crumbles to dust. When the last charm is expended, the lidless charm bracelet loses all magical properties.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, blindness/deafness, lock gazeUC</p><h3><b>Source: </b></h3>AP 116",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407936,
+    "modifiedTime": 1665949170178,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

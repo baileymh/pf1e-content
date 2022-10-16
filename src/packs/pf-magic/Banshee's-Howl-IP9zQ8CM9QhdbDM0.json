@@ -3,7 +3,7 @@
   "name": "Banshee's Howl",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jet-black +3 rapier weeps quietly when wielded in combat. A creature critically hit by banshee's howl must succeed at a DC 16 Will save or be affected by crushing despair for 1 minute. Each time an affected creature fails this save, the effect's duration increases by 1 minute. As a free action upon confirming a critical hit with a banshee's howl, the wielder can twist the blade in the wound. Doing so causes the weapon's blade to release a ghostly female elven form that rises up to unleash a devastating cry, functioning as a wail of the banshee (Fort DC 23 negates). The wielder and her allies gain no special protection against this effect, and the creature struck by the critical hit takes a -4 penalty on its saving throw against it. Once a banshee's howl has used this ability, it can never do so again, but it does retain its other abilities. A banshee's howl whose wail of the banshee ability has been expended is still worth 32,320 gp. The first banshee's howl was only recently discovered, but the creation process has since been reproduced. Rumors have spread of female Lantern Bearers spontaneously transforming into such weapons upon death to continue the fight, though their truth is uncertain.<br><p><b>Base Item:</b> +3 rapier</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, crushing despair, wail of the banshee</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371949,
+    "modifiedTime": 1665949138360,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

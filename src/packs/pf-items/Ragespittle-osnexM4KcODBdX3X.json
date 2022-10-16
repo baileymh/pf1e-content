@@ -3,7 +3,7 @@
   "name": "Ragespittle",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-9.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h3>Ragespittle</h3><p><strong>Source</strong> <em>Agents of Evil pg. 22</em></p><p><strong>Price</strong> 1,000 gp; <strong>Weight</strong> 0</p><p><strong>Type</strong> contact; <strong>Save</strong> Fortitude DC 17</p><p><strong>Onset</strong> 1 minute; <strong>Frequency</strong> 1/minute for 6 minutes</p><p><strong>Effect</strong> 1d2 Dex, see text</p><p><strong>Cure</strong> 2 saves</p><h4 class=\"framing\"><strong>Description</strong><h4><p>Imported from Casmaron, the substance also known as Rovagug’s spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle’s rage effect for their duration, but not the poison’s ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim’s system.</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -127,6 +132,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -198,8 +204,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367811,
+    "modifiedTime": 1665949135615,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

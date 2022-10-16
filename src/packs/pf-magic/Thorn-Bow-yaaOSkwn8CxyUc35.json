@@ -3,7 +3,7 @@
   "name": "Thorn Bow",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +2 lesser designatingUE composite longbow (+3 Str) has a bowstring that resembles a thorny vine. Once per day as a standard action, the wielder can prick her finger on the vine and  fire an arrow at a creature or square to cause the arrow to become a wall of thorns centered on the struck creature or object. When the wielder is targeting a square, treat that as a ranged attack against AC 5. The wielder can choose how the wall of thorns is oriented.<br><p><b>Base Item:</b> +2 lesser designating composite longbow (+3 Str)</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, instant enemyAPG, wall of thorns</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373316,
+    "modifiedTime": 1665949139719,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

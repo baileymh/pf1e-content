@@ -3,7 +3,7 @@
   "name": "Mutineer's Bane Earring",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magic earring grows warm whenever a ship's crew begins muttering of mutiny, granting the wearer of a mutineer's bane earring a +5 bonus on all Sense Motive checks made while on a ship under such conditions of poor morale.  A mutineer's bane earring has additional effects if worn by a commodore or admiral. If worn by a commodore, that commodore's squadron gains a +3 bonus on morale checks in fleet battles. If worn by an admiral, all squadrons in the admiral's fleet gain a +1 bonus on morale checks in fleet battles.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect thoughts</p><h3><b>Source: </b></h3>AP 59",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403550,
+    "modifiedTime": 1665949166048,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

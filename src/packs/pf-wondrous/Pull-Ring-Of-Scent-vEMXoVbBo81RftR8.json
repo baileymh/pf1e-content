@@ -3,7 +3,7 @@
   "name": "Pull-Ring Of Scent",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This dull brass ring is typically placed in the nose or muzzle, or elsewhere on the head of an animal, and is used to attach a lead rope or bridle. The wearer (and its rider, if any) gives off no scent and cannot be tracked or located by scent. In addition, it gains the scent ability within 30 feet; if the wearer already possesses scent, the range for this sense increases by 30 feet (to a maximum of 60 feet).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape I</p><h3><b>Source: </b></h3>Animal Archive",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410266,
+    "modifiedTime": 1665949172332,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "School Of Eyes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the entire flask, 1d4 rounds later he is stunned for 1 round as 1d4+1 floating fish with large eyes for heads crawl out of his flesh. Once these eye-fish free themselves, they hover near the drinker, always staying in the drinker's square, and otherwise function as the eyes from a prying eyes spell, except they are Tiny rather than Fine. As long as the drinker has at least three of the fish in his square, he gains a +10 competence bonus on sight-based Perception checks. Every 1d6 x 10 minutes, 1d4+1 more eye-fish crawl out of his flesh, stunning him for 1 round each time. Each flask can produce up to 1d4+10 fish total; once this many have appeared, no more are created. The fish remain until they are destroyed or until 10 hours pass from the time the flask was used.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, prying eyes</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404060,
+    "modifiedTime": 1665949166559,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

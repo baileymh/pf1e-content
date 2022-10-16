@@ -3,7 +3,7 @@
   "name": "Grave Salt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell consecrate. Applying the salt takes 1 round per dose. A single dose is sufficient to form a 5-foot radius circle, with each additional dose increasing the circle's radius by 5 feet. The area within the circle remains consecrated for 1 hour per dose, though any corporeal creature can spend a standard action to break the circle and end the effect prematurely. A newly created pouch of grave salt holds 5 doses.   Grave salt can also be used directly against restless spirits. A single dose can be hurled up to 15 feet as a ranged touch attack. An incorporeal undead creature struck by the salt must make a DC 14 Will save or take 1d4 points of Charisma damage. Strong winds and other effects that penalize ranged attacks make it impossible to employ the salt in this manner.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, consecrate</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409699,
+    "modifiedTime": 1665949171830,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

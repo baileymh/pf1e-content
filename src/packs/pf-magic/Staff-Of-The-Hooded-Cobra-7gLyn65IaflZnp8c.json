@@ -3,7 +3,7 @@
   "name": "Staff Of The Hooded Cobra",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Carved from a single piece of darkwood and topped by the head of a hooded cobra, this staff functions as a +3 defending darkwood quarterstaff. Additionally, once per day when the wielder hits a creature with the staff, she can cause the carved cobra head to bite her target. The attack deals an additional 1d6 points of damage and injects the target with a virulent poison (injury; save Fort DC 20; frequency 1/round for 6 rounds; effect 1d2 Str and 1d2 Con damage; cure 2 consecutive saves).<br><p><b>Base Item:</b> +3 defending darkwood quarterstaff</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, poison, shield of faith</p><h3><b>Source: </b></h3>AP 84",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371755,
+    "modifiedTime": 1665949138211,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

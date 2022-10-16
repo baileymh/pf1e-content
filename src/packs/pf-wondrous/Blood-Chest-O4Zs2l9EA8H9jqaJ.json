@@ -3,7 +3,7 @@
   "name": "Blood Chest",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A blood chest is a medium-sized chest of red iron with a volume of 4 cubic feet. The metal sculpture of a monstrous fanged face surrounds the inset superior quality lock, making it impossible to reach the lock without putting a hand in the mouth. The chest is additionally sealed by a permanent arcane lock, and is protected by powerful magic that makes the chest as resilient as a wall of force.  The chest is attuned to a particular owner, which can be changed by speaking a command word while the chest is open. Any key can be used in the lock, but whenever a key is inserted, the fanged mouth closes on the hand holding it (or on the device holding it, if some contraption is used to insert the key) and deals 1 point of damage. If the bitten hand is that of the owner attuned to the chest, the chest opens. If the hand belongs to anyone else, or no hand is present to bite, or the hand is not damaged by the bite, the chest doesn't open. If the lock is picked with a successful DC 50 Disable Device check, the teeth don't close.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane lock, vampiric hunger (Pathfinder Player Companion: Faiths of Corruption 29), wall of force</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406116,
+    "modifiedTime": 1665949168416,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Hypnotic Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wayfinder has a mother-of-pearl casing with perfect swirls of pink and green patterns covering the face of the device. It hangs on an 8-inch-long silver fob chain that makes it twirl slightly when held aloft. In addition to the standard functions of a wayfinder (including the ability to create light), a hypnotic wayfinder can be used once per day to mesmerize weak-minded creatures that can see it. When dangled by its fob and swung gently in a pendulumlike motion, the hypnotic wayfinder seems to change colors as light plays off its pearlescent exterior. This replicates the effects of hypnotic pattern (Will DC 13 negates), centered on the hypnotic wayfinder, but creates no visible light aside from the illusory color-shifts on the wayfinder itself. The wayfinder's wielder is immune to this effect, as are sightless creatures. While the effect is active, the wielder must remain stationary or the effect immediately ends. Otherwise, the effect lasts as long as the wielder swings the wayfinder at the end of its fob (a standard action) and for 2 rounds thereafter.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, hypnotic pattern, light</p><h3><b>Source: </b></h3>Pathfinder Society Primer",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404761,
+    "modifiedTime": 1665949167256,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

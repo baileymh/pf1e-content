@@ -3,7 +3,7 @@
   "name": "Numerian Resistance Plate",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Numerians who oppose the Technic League have developed many forms of protection from the tyrannical organization's technology-infused weaponry. This +2 breastplate is made of scrap metal from one of the alien ruins that pepper the landscape, remnants of the crashed spaceship now known as Silver Mount. Specifically designed to provide additional defense against beam weapons, Numerian resistance plate grants its wearer a +4 bonus to touch AC against ray attacks. Three times per day, when a ray attack targeting the plate's wearer misses by 4 or less, the wearer can deflect the ray back at its source as an immediate action. The ray uses the original attack roll to determine whether it hits its new target.<br><p><b>Base Item:</b> +2 breastplate</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, deflectionAPG, shield</p><h3><b>Source: </b></h3>Inner Sea Combat",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372207,
+    "modifiedTime": 1665949138637,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

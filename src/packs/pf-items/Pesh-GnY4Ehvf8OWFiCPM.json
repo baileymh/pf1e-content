@@ -3,7 +3,12 @@
   "name": "Pesh",
   "type": "consumable",
   "img": "systems/pf1/icons/items/potions/unique-8.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.tia4vry7oDTT4bmN"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Source&nbsp;</strong><em>GameMastery Guide pg. 237</em></p>\n<p><strong>Type</strong> ingested or inhaled;<strong> Addiction </strong>moderate, Fortitude DC 20</p>\n<p><strong>Price </strong>15 gp;&nbsp;<strong>Weight </strong>0 lbs</p>\n<p><strong>Effect </strong>1 hour;<strong>&nbsp;</strong>+1d2 alchemical bonus to Strength, &ndash;2 penalty on saves against illusions and mind-affecting effects</p>\n<p><strong>Effect</strong> after 1 hour; 1d2 hours of fatigue</p>\n<p><strong>Damage </strong>1d2 Con and 1d2 Wis damage&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -70,6 +75,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "single",
           "value": 0,
           "maxFormula": "",
@@ -129,6 +139,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -200,12 +211,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.tia4vry7oDTT4bmN"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428366374,
+    "modifiedTime": 1665949134293,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

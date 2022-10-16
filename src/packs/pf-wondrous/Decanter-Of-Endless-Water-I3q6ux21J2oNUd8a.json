@@ -3,7 +3,7 @@
   "name": "Decanter Of Endless Water",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>If the stopper is removed from this ordinary-looking flask and a command word spoken, an amount of fresh or salt water pours out. Separate command words determine the type of water as well as the volume and velocity.  • Stream pours out 1 gallon per round.  • Fountain produces a 5-foot-long stream at 5 gallons per round.  • Geyser produces a 20-foot-long, 1-foot-wide stream at 30 gallons per round.  The geyser effect exerts considerable pressure, requiring the holder to make a DC 12 Strength check to avoid being knocked down each round the effect is maintained. In addition, the powerful force of the geyser deals 1d4 points of damage per round to a creature that is subjected to it. The geyser can only affect one target per round, but the user can direct the beam of water without needing to make an attack role to strike the target since the geyser's constant flow allows for ample opportunity to aim. Creatures with the fire subtype take 2d4 points of damage per round from the geyser rather than 1d4. The command word must be spoken to stop it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, control water</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405383,
+    "modifiedTime": 1665949167784,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

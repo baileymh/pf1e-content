@@ -3,7 +3,7 @@
   "name": "Hide Of The Dragonrider",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from the scaled hide of a black dragon and lined with wolliped fur for warmth, this suit of +1 bolstering (Ultimate Equipment) black dragonhide armor was designed to protect and aid dragonriders of the Dragon Legion in their battles against the evil dragons of the Drakelands. Hide of the dragonrider grants its wearer a +5 competence bonus on Ride checks, and the wearer does not take an armor penalty from the armor on Ride checks. In addition, when mounted, the wearer can transfer some or all of the armor's armor bonus (including its enhancement bonus) to his mount as a bonus that stacks with all others. As a free action at the start of his turn, the wearer chooses how to allocate the armor's armor bonus, and that allocation lasts until the wearer's next turn. Once per day, the wearer can imbue hide of the dragonrider with resistance against one type of energy, as the energy resistance armor special ability. This resistance lasts for 10 minutes. Hide of the dragonrider functions as a cold weather outfit, granting its wearer a +5 circumstance bonus on Fortitude saves against the effects of cold weather.<br><p><b>Base Item:</b> +1 bolstering black dragonhide armor</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, heroism, resist energy, shield or shield of faith, creator must have 5 ranks in the Ride skill</p><h3><b>Source: </b></h3>AP 70",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372883,
+    "modifiedTime": 1665949139288,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

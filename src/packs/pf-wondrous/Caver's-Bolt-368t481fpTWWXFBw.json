@@ -3,7 +3,7 @@
   "name": "Caver's Bolt",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Unable to use levitate like noble drow, common drow sometimes rely on these magical bolts to keep pace on climbs to the surface world or when delving deep caves.  A caver's bolt resembles a weighty, iron-banded crossbow bolt with a steel tip, capped with prongs and hooks. It resizes itself to fit any Small or Medium crossbow, and can be used as a nonmagical grappling arrowUE. The bearer loads the bolt into a crossbow, chooses a solid surface within weapon range, and speaks a command word to launch the bolt and embed it in the surface. The launched bolt trails a ghostly purple chain of force connected to the crossbow. Anyone holding the crossbow can speak a command word to retract the chain at a rate of 30 feet per round, pulling the user toward the embedded bolt. The force chain can support 500 pounds (hardness 10, 10 hp, break DC 28). Once the chain is fully retracted, the bolt can be used again. If the force chain is severed or broken, the caver's bolt ceases to function for 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, force hook chargeUM</p><h3><b>Source: </b></h3>Monster Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403560,
+    "modifiedTime": 1665949166056,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

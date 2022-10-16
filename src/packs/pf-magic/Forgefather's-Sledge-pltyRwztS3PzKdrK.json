@@ -3,7 +3,7 @@
   "name": "Forgefather's Sledge",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This hefty +1 warhammer is crafted to resemble a dwarven face and is decorated with lavish gems. By speaking a command word, the wielder can transform the Forgefather's sledge into a blacksmithing hammer of any size suitable for the wielder's size and strength or back into its weapon form. The weapon grants the wielder fire resistance 1. If the wielder places the Forgefather's sledge in a Small or larger fire (such as a campfire, forge, or woodburning stove) for at least 1 minute, the hammer's head glows bright red from the heat for 1d4 minutes, though the handle remains cool to the touch. If used in combat during this time, the hammer deals 1 point of fire damage to creatures struck in addition to the regular damage dealt.<br><p><b>Base Item:</b> +1 warhammer</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, resist energy (fire), shrink item</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372985,
+    "modifiedTime": 1665949139370,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

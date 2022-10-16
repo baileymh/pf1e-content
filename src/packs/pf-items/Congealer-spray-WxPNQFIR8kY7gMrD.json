@@ -3,7 +3,7 @@
   "name": "Congealer spray",
   "type": "consumable",
   "img": "icons/commodities/tech/metal-insert.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<h1 class=\"title\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> Congealer spray</h1><b>Source</b> <i>Alchemy Manual pg. 23</i><br/><b>Price</b> 15 gp; <b>Weight</b> -<br/><b>Category</b> Alchemical Weapons<h2 class=\"framing\">Description</h2><p>This volatile liquid is usually dispensed from a spray atomizer, which disperses the liquid in a 15-foot cone. Congealer spray causes the surface of an ooze creature to stiffen into a leathery material. Ooze and plant creatures in the affected area become staggered for 1d4 rounds (Fortitude DC 15 negates). If an affected creature has the split defensive ability (<i>Bestiary 2</i> 302), it cannot benefit from that ability until the effects of the congealer spray wear off, regardless of whether the creature succeeded at its saving throw.</p><h2 class=\"framing\">Alchemical Recipe</h2><p><b>Recipe</b> (4 realgar + 5 salt + 5 urea)/distillation; <b>Craft</b> 20<br/><b>Time</b> 10 minutes; <b>Tools</b> retort; <b>Type</b> alchemical weapon</p>",
       "chat": "",
@@ -70,6 +70,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -141,6 +146,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -234,8 +240,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428367158,
+    "modifiedTime": 1665949135052,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Orgone Accumulator",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cold-iron-lined wooden cabinet is the size of a large upright chest, with just enough room inside for a Medium-sized creature to sit comfortably on a small wooden seat. The cabinet is constructed of alternating layers of cold iron sheets and slats of cypress wood insulated with sheep's wool, and is specially crafted to attract and focus atmospheric energy to recharge the internal reservoirs of characters capable of casting psychic magic.  Activating an orgone accumulator requires spending hours inside it while meditating. The creature must remain conscious, taking no actions other than meditating. A creature inside the box that remains in this state automatically gains a +2 bonus on saving throws to recover from curses, diseases, and poisons. An orgone accumulator can also be used in conjunction with the faith healing occult skill unlock. If the  subject of the faith healing is within the orgone accumulator, the creature attempting the Heal check for faith healing gains a +2 circumstance bonus on the check.  In addition, a creature can concentrate while within the box to gain the benefits of restorative spells. Each of these spells lists a number of hours a user must remain meditating inside the box. At the end of that time, the user must attempt a Wisdom check with the listed DC to gain the benefits of the spell. A creature with the Psychic Sensitivity feat or levels in an occult class gains a +2 bonus on this Wisdom check.  • Lesser restoration (2 hours, DC 14)  • Remove blindness/deafness (3 hours, DC 16)  • Restoration (4 hours, DC 18, can't remove a permanent negative level)  A user with a ki pool can also focus in order to regain ki points instead of reproducing a restorative spell, much as if he were using a ki mat (Pathfinder RPG Ultimate Equipment 307). He must succeed at a Wisdom check with a DC of 10 plus his current number of ki points (note that ability checks, like skill checks, do not automatically succeed on a natural 20). A user that succeeds at this check regains 1 ki point.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lesser restoration, remove blindness/ deafness, restoration</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405610,
+    "modifiedTime": 1665949167911,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

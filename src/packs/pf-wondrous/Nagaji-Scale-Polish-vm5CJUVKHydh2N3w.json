@@ -3,7 +3,7 @@
   "name": "Nagaji Scale Polish",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small clay urn contains a scintillating paste which works like imbue with spell ability, except the spell effect is not limited to cleric spells. Any caster may casts spells into the jar. The creature that applies the paste to its scales (a standard action) gains the ability to cast the imbued spells (assuming it has enough Hit Dice and the requisite ability scores). Only a reptilian creature (such as a dragon or a humanoid with the reptilian subtype) can use the polish to cast spells.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imbue with spell ability or mnemonic enhancer</p><h3><b>Source: </b></h3>Advanced Race Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410295,
+    "modifiedTime": 1665949172353,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

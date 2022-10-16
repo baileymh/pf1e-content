@@ -3,7 +3,7 @@
   "name": "Eldritch Scholar's Monocle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This lens, mounted in a round electrum frame, fits snugly over the wearer's eye. Upon donning the monocle, the user sees a swirl of arcane sigils through the lens, but the sensation quickly fades. The monocle allows the user to decipher magical inscriptions, as per read magic.  Once worn for 24 consecutive hours, an eldritch scholar's monocle also protects the user from anything dangerous to read  or view. While wearing the monocle, whenever the user triggers a curse effect, an effect that causes sanity loss, or a magic trap (such as explosive runes or sepia snake sigil) simply by reading or viewing an object, the monocle's glass starts shaking, pulling the wearer's attention away from the dangerous details in the object. This allows the wearer to roll any saving throw against such an effect twice and take the better result. This effect functions only once per day. For the remainder of the day, everything viewed through the lens appears blurred and distorted, and the read magic effect no longer functions.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, augury, read magic</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404797,
+    "modifiedTime": 1665949167284,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

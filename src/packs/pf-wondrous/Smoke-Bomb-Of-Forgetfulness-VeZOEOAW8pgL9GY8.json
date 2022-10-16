@@ -3,7 +3,7 @@
   "name": "Smoke Bomb Of Forgetfulness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Killers use smoke bombs of forgetfulness to conceal their identities and cover their escapes in the event of failed assassination attempts. The smoke bomb can be thrown to the ground as a standard action, destroying the item and creating a cloud of smoke with a 15-foot radius. This acts like the smoke from a smokestick, and can be thrown at the user's feet or as a ranged touch attack with a range of 20 feet.  Any creature in the smoke cloud that isn't aware of the smoke bomb's nature must succeed at a DC 16 Will save or have its memory altered as though its sight had been obscured during the previous 2 rounds. This can cause it to forget the appearance of any creatures with which it had interacted or battled with during that time. From the point the smoke bomb is thrown, it functions as normal smoke, giving the user time to escape but no longer protecting its identity from creatures that leave the smoke and can see the user.  A creature that is already aware of the abilities of a smoke bomb of forgetfulness and suspects this smoke bomb is one automatically succeeds at the save. The memory alteration is a mind-affecting effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, modify memory</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407143,
+    "modifiedTime": 1665949169441,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

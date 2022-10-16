@@ -3,7 +3,7 @@
   "name": "Soothsayer's Raiment",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/hellknight-leather.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 chainmail is attuned to a particular oracular mystery and contains a revelation associated with that mystery (see the oracle class description in the Advanced Player's Guide). Its design and coloration are typically suggestive of its related mystery. While wearing the armor, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the armor; for example, a soothsayer's raiment (battlecry) is only usable by an oracle of battle. If the wearer already has that revelation and the revelation grants an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. This ability has no effect if the armor is worn by a non-oracle.  For divination spells with a percentage-based chance of success (such as augury and divination), the wearer's chance increases by +5.<br><p><b>Base Item:</b> +1 chainmail</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, augury, creator must be an oracle with the desired revelation</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "mediumArmor",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428371914,
+    "modifiedTime": 1665949138336,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

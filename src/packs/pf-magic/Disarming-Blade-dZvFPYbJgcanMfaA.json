@@ -3,7 +3,7 @@
   "name": "Disarming Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2>Description</h2>\n<p>This +1 dueling rapier ends duels quickly and decisively by depriving the wielder&rsquo;s opponent of her weapon. Following a successful disarm attempt with the weapon, the wielder can move the disarmed weapon 5 feet in any direction as a swift action.<br /><br /><strong>Dueling</strong></p>\n<p>This special ability can only be placed on melee weapons. A dueling weapon (which must be a weapon that can be used with the Weapon Finesse feat) gives the wielder a +4 enhancement bonus on initiative checks, provided the weapon is drawn and in hand when the Initiative check is made.</p>\n<p>It provides a +2 bonus on disarm checks and feint checks, a +2 bonus to CMD to resist disarm attempts, and a +2 to the DC to perform a feint against the wielder.</p>\n<p><strong>Base Item:</strong> +1 dueling rapier</p>\n<h3><strong>Requirements</strong></h3>\n<p>Craft Magic Arms and Armor, cat&rsquo;s grace, mage hand</p>\n<h3><strong>Source: </strong></h3>\n<p>Ultimate Equipment pg. 153</p>",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": 1,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -212,6 +217,7 @@
     },
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -311,8 +317,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372511,
+    "modifiedTime": 1665949138977,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

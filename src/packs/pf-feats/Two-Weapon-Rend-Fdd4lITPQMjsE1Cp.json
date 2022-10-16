@@ -3,7 +3,7 @@
   "name": "Two-Weapon Rend",
   "type": "feat",
   "img": "systems/pf1/icons/feats/combat-expertise.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.</em><br /><br /><strong>Prerequisites</strong><br />Dex 17, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.<br /><br /><strong>Benefits</strong><br />If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round.<br /><br /><strong>Combat Trick</strong><br />You can spend 5 stamina points to use this feat's benefit a second time in a single round.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: create the \"Two-Weapon Rend\" Damage conditional modifier as Non-critical Damge Bonus Formula. Formula is \"1d10 + floor(1.5*@abilities.str.mod)\"</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352664,
+    "modifiedTime": 1665949120727,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

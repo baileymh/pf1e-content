@@ -3,7 +3,923 @@
   "name": "Alchemical Weapons",
   "type": "npc",
   "img": "icons/tools/laboratory/vials-blue-pink.webp",
-  "data": {
+  "items": [
+    {
+      "_id": "RfVeZbpJJGlYePXe",
+      "name": "Acid",
+      "type": "consumable",
+      "sort": 9300000,
+      "flags": {},
+      "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 103</em>, <em>Advanced Player's Guide pg. 184</em><br/><strong>Price</strong> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 100 gp (adamantine), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 20 gp (cold iron), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 5 gp (silver); <strong>Weight</strong> 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC 25",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0.5
+        },
+        "price": 100,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "weaponBlanchAdamantine",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Tools"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "JIZD8t7nzs5mJE2w",
+      "name": "Weapon Blanch (Cold Iron)",
+      "type": "consumable",
+      "sort": 9500000,
+      "flags": {},
+      "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Pathfinder Society Field Guide pg. 48</em><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time (see the <em>Advanced Player's Guide </em>for other forms of weapon blanch).",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0.5
+        },
+        "price": 200,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "weaponBlanchGhostSalt",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Tools"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "misc",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "k5QaXN1Ogr182HeN",
+      "name": "Weapon Blanch (Silver)",
+      "type": "consumable",
+      "sort": 9700000,
+      "flags": {},
+      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Inner Sea Intrigue pg. 50</em><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen at the time of the antidote's creation. Drinking the antidote grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the antidote has no effect against other poisons. An antidote's price is half that of the poison it counteracts. An antidote has no effect against a magical poison. The Craft (alchemy) DC to create an antidote is equal to the save DC of the poison. ",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antidote",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "Xp6TAZCho5sN6i3n",
+      "name": "Antiplague",
+      "type": "consumable",
+      "sort": 9800000,
+      "flags": {},
+      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 101</em>, <em>Advanced Player's Guide pg. 184</em>, <em>Adventurer's Armory pg. 19</em><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC 25",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 50,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antiplague",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "CYW97vAJsCcn2Qoe",
+      "name": "Antitoxin",
+      "type": "consumable",
+      "sort": 9900000,
+      "flags": {},
+      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Alchemy Manual pg. 30</em>, <em>PRPG Core Rulebook pg. 158</em>, <em>Ultimate Equipment pg. 101</em><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.<h2 class=\"framing\">Alchemical Recipe</h2><strong>Recipe</strong> (7 gold + 17 myrrh + 23 urea)/ceration; <strong>Craft</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> crucible; <strong>Type</strong> alchemical remedy",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 50,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antitoxin",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "134i1Kob2W4KGvF1",
+      "name": "Antivenom",
+      "type": "consumable",
+      "sort": 10000000,
+      "flags": {},
+      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Source</strong> <em>Ultimate Wilderness pg. 143</em><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\">Description</h2>While antitoxin, as presented in the <em>Pathfinder RPG Core Rulebook</em>, presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.<br/><br/> <strong>Antivenom Effects</strong>: A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.<br/><br/> <strong>Crafting Antivenom</strong>: To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested. Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom. Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.<br/><br/> <strong>Purchasing Antivenom</strong>: Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC varies",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "quantity": 1,
+        "weight": {
+          "value": 0
+        },
+        "price": 0,
+        "size": "med",
+        "equipped": true,
+        "resizing": false,
+        "identified": true,
+        "hp": {
+          "max": 10,
+          "value": 10
+        },
+        "broken": false,
+        "hardness": 0,
+        "carried": true,
+        "unidentified": {
+          "price": 0,
+          "name": ""
+        },
+        "identifiedName": "",
+        "cl": 0,
+        "aura": {
+          "custom": false,
+          "school": ""
+        },
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "pricePerUse": 0,
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "antivenom",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {
+            "Category": "Alchemical Remedies"
+          }
+        },
+        "scriptCalls": [],
+        "consumableType": "potion",
+        "showInQuickbar": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "flags": {
+    "pf1": {
+      "sellMultiplier": null
+    },
+    "core": {
+      "sheetClass": "PF1.ActorSheetPFNPCLoot"
+    }
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1015,7 +1931,7 @@
       "cp": 0
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1023,26 +1939,10 @@
     },
     "name": "Alchemist",
     "displayName": 0,
-    "img": "icons/tools/laboratory/vials-blue-pink.webp",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "SMqwdnasdUiwonSl",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
@@ -1053,16 +1953,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1070,886 +1967,50 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "icons/tools/laboratory/vials-blue-pink.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "RfVeZbpJJGlYePXe",
-      "name": "Acid",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 103</em>, <em>Advanced Player's Guide pg. 184</em><br/><strong>Price</strong> <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 100 gp (adamantine), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 20 gp (cold iron), <img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/> 5 gp (silver); <strong>Weight</strong> 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC 25",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0.5
-        },
-        "price": 100,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "weaponBlanchAdamantine",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Tools"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 9300000,
-      "flags": {},
-      "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "JIZD8t7nzs5mJE2w",
-      "name": "Weapon Blanch (Cold Iron)",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Pathfinder Society Field Guide pg. 48</em><br/><strong>Price</strong> 200 gp; <strong>Weight</strong> 1/2 lb.<br/><strong>Category</strong> Alchemical Tools</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time (see the <em>Advanced Player's Guide </em>for other forms of weapon blanch).",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0.5
-        },
-        "price": 200,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "weaponBlanchGhostSalt",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Tools"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "misc",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 9500000,
-      "flags": {},
-      "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "k5QaXN1Ogr182HeN",
-      "name": "Weapon Blanch (Silver)",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Inner Sea Intrigue pg. 50</em><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>Generally stored in a glass vial, an antidote is formulated to counteract a specific poison chosen at the time of the antidote's creation. Drinking the antidote grants a +10 alchemical bonus on saving throws against that poison for 4 hours. If the imbiber succeeds at a saving throw with this bonus, she is automatically cured even if she would not normally be cured by successful saving throws or the number required to cure her has not been met yet. However, the antidote has no effect against other poisons. An antidote's price is half that of the poison it counteracts. An antidote has no effect against a magical poison. The Craft (alchemy) DC to create an antidote is equal to the save DC of the poison. ",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antidote",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Remedies"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 9700000,
-      "flags": {},
-      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "Xp6TAZCho5sN6i3n",
-      "name": "Antiplague",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Equipment pg. 101</em>, <em>Advanced Player's Guide pg. 184</em>, <em>Adventurer's Armory pg. 19</em><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC 25",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 50,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antiplague",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Remedies"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 9800000,
-      "flags": {},
-      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "CYW97vAJsCcn2Qoe",
-      "name": "Antitoxin",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Alchemy Manual pg. 30</em>, <em>PRPG Core Rulebook pg. 158</em>, <em>Ultimate Equipment pg. 101</em><br/><strong>Price</strong> 50 gp; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\"><img src=\"modules/pf-content/assets/PathfinderSocietySymbol.gif\" style=\"margin:3px 3px 0px 3px;\" title=\"PFS Legal\"/>Description</h2>This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.<h2 class=\"framing\">Alchemical Recipe</h2><strong>Recipe</strong> (7 gold + 17 myrrh + 23 urea)/ceration; <strong>Craft</strong> 25<br/><strong>Time</strong> 10 minutes; <strong>Tools</strong> crucible; <strong>Type</strong> alchemical remedy",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 50,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antitoxin",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Remedies"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 9900000,
-      "flags": {},
-      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "134i1Kob2W4KGvF1",
-      "name": "Antivenom",
-      "type": "consumable",
-      "data": {
-        "description": {
-          "value": "<p><strong>Source</strong> <em>Ultimate Wilderness pg. 143</em><br/><strong>Price</strong> varies; <strong>Weight</strong> -<br/><strong>Category</strong> Alchemical Remedies</p><h2 class=\"framing\">Description</h2>While antitoxin, as presented in the <em>Pathfinder RPG Core Rulebook</em>, presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.<br/><br/> <strong>Antivenom Effects</strong>: A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.<br/><br/> <strong>Crafting Antivenom</strong>: To create a dose of antivenom, a living creature must first be exposed to a half dose of the poison in question. The creature suffers the poison's effects normally, except the saving throw DC to resist the poison is reduced by 2. In order to be able to produce antivenom, the creature must succeed at the necessary saving throws to be cured of the poison. If the poison's duration expires without the creature being cured, no antivenom can be harvested. Once the creature has resisted the poison's effects, a viable sample of the creature's blood can be extracted with a successful DC 20 Craft (alchemy) or Heal check. This blood must then be refined to extract the natural antibodies that combat the poison in a process that takes 1 hour and requires a successful Craft (alchemy) check (DC = 5 + the poison's saving throw DC). Success yields 1 dose of antivenom. Antivenom can also be harvested in the same fashion from a creature that has been afflicted by a full dose of poison, rather than a creature deliberately given a half dose for this purpose. Regardless of how much poison the creature is exposed to, the antibodies in its system can be harvested only for 24 hours after it has recovered from the poison.<br/><br/> <strong>Purchasing Antivenom</strong>: Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.<h2 class=\"framing\">Construction</h2><strong>Craft (Alchemy)</strong> DC varies",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "quantity": 1,
-        "weight": {
-          "value": 0
-        },
-        "price": 0,
-        "size": "med",
-        "equipped": true,
-        "resizing": false,
-        "identified": true,
-        "hp": {
-          "max": 10,
-          "value": 10
-        },
-        "broken": false,
-        "hardness": 0,
-        "carried": true,
-        "unidentified": {
-          "price": 0,
-          "name": ""
-        },
-        "identifiedName": "",
-        "cl": 0,
-        "aura": {
-          "custom": false,
-          "school": ""
-        },
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "pricePerUse": 0,
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "antivenom",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {
-            "Category": "Alchemical Remedies"
-          }
-        },
-        "scriptCalls": [],
-        "consumableType": "potion",
-        "showInQuickbar": false,
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        }
-      },
-      "sort": 10000000,
-      "flags": {},
-      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    }
-  ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1": {
-      "sellMultiplier": null
-    },
-    "core": {
-      "sheetClass": "PF1.ActorSheetPFNPCLoot"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428377043,
+    "modifiedTime": 1665949144400,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

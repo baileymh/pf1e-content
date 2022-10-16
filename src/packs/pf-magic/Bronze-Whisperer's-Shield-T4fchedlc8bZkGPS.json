@@ -3,7 +3,7 @@
   "name": "Bronze Whisperer's Shield",
   "type": "equipment",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +1 light steel shield is decorated with bronze gears and vaguely resembles a feminine metal mask with a rune on its forehead. As a standard action, the wearer can command it to noisily transform into a buckler or back into its light shield form. Once per day, the wearer can use it to deliver a shocking grasp.<br><p><b>Base Item:</b> +1 light steel shield</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, minor creation, shocking grasp</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -74,7 +74,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightShield",
@@ -87,6 +86,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -163,8 +163,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372337,
+    "modifiedTime": 1665949138776,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

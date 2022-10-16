@@ -3,7 +3,7 @@
   "name": "Akitonian Blade",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This delicate-looking +1 billUE imparts to its wielder the grace and agility of one born in the low gravity of the red planet Akiton. When holding the blade, the wielder triples the result of any Acrobatics checks to determine how far she can jump. In addition, a successful DC 15 Acrobatics check allows the wielder to negate any damage from the first 30 feet of falling damage and converts any damage from the second 30 feet to nonlethal damage.<br><p><b>Base Item:</b> +1 bill</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, feather fall, longstrider</p><h3><b>Source: </b></h3>Melee Tactics Toolbox",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428372360,
+    "modifiedTime": 1665949138793,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

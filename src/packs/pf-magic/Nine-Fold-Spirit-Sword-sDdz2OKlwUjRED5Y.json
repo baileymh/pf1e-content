@@ -3,7 +3,7 @@
   "name": "Nine-Fold Spirit Sword",
   "type": "weapon",
   "img": "systems/pf1/icons/items/weapons/estoc.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This broad-bladed +1 ghost touch nine-ring broadsword (Ultimate Combat 131, or use longsword) is crafted of silvery-gray steel, with nine golden rings threaded through its spine that glow with magical power. Streamers of blue and purple silk hang from the sword's pommel.  The nine-fold spirit sword has 9 charges, represented by its nine rings. As a swift action, the wielder can discharge the energy in these rings to create one of three effects.  By expending 1 charge, the wielder can add the undead bane special ability to the sword for 1 minute.  By expending 2 charges, the wielder can attempt to banish a creature possessing another creature (such as a ghost possessing a creature with its malevolence ability) with a successful hit on the possessed creature. The possessing creature must succeed at a DC 17 Will save or be driven out of the body of the creature it is possessing.  By expending 3 charges, the wielder can attempt to destroy a single undead creature with a successful hit. The creature must succeed at a DC 17 Will save or be utterly destroyed. Spell resistance does not apply against either the banishing or destruction effect.  Each ring holds 1 charge; when a charge is expended, one ring stops glowing. The sword recharges 1 charge per week.<br><p><b>Base Item:</b> +1 ghost touch nine-ring broadsword</p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, dispel evil, disrupting weapon, plane shift, summon monster I</p><h3><b>Source: </b></h3>AP 51",
       "chat": "",
@@ -82,6 +82,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": "",
@@ -144,6 +149,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -183,7 +189,6 @@
     "masterwork": true,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -194,6 +199,7 @@
     "properties": {},
     "showInQuickbar": false,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -293,8 +299,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428373025,
+    "modifiedTime": 1665949139405,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }
