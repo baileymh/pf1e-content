@@ -3,7 +3,7 @@
   "name": "Thaumaturgic Powder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silver powder typically comes in a fist-sized leather bag. When poured on the ground, the dust animates over the course of 1 round to scribble silver thaumaturgic script and symbols in a circular pattern with a 20-foot radius. This circle acts as the perfectly scribed special diagram of a magic circle against chaos, evil, good, or law and bars extradimensional movement as if the user had attached dimensional anchor to the magic circle. The scribed circle lasts 24 hours. A bag of thaumaturgic powder can be used only once.  An extraplanar creature of the appropriate alignment that is called or summoned into the circle can attempt to break through the circle once during the circle's duration, just as if trying to break free from a lesser planar binding spell with either its spell resistance or a DC 26 Charisma check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Extend Spell, dimensional anchor, magic circle against evil</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404209,
+    "modifiedTime": 1665949166664,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

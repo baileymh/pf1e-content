@@ -3,7 +3,7 @@
   "name": "Suzerain Scepter",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore, once per day, and on command, the wielder can affect up to seven living creatures with good hope, as the spell. If the wielder of a suzerain scepter has the Leadership feat, she may attract double the normal number of followers for her Leadership score; however, if the rod is out of the wielder's possession for more than 1 week these extra followers leave. In addition, a suzerain scepter radiates a continuous bless effect that affects any cohort, follower, animal companion, familiar, special mount, or creature charmed or summoned by the wielder (but not called creatures or those under dominate or other compulsion effects). Whenever the wielder creates an effect that provides a morale bonus to such creatures (not including the scepter's bless effect), that bonus increases by 1.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, Leadership, bless, good hope, greater command, the creator must have the Leadership feat</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408448,
+    "modifiedTime": 1665949170669,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

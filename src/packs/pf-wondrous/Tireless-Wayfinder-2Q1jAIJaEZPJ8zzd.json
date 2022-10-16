@@ -3,7 +3,7 @@
   "name": "Tireless Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Tireless wayfinders have burnished copper cases and silver inner workings. In addition to the usual functions of a wayfinder (including the ability to create light), the bearer of a tireless wayfinder halves the Strength and Dexterity penalties for being fatigued or exhausted, and gains a +2 resistance bonus on all saving throws made against effects that cause fatigue or exhaustion. The tireless wayfinder must be in a creature's possession for 1 full week before these benefits apply, and they are lost if it leaves the creature's possession for more than 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, light, lesser restoration</p><h3><b>Source: </b></h3>Pathfinder Society Field Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403510,
+    "modifiedTime": 1665949166013,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

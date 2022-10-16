@@ -3,7 +3,7 @@
   "name": "Xorn Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brown and gray robe is always dirty, and the chest and the back of each shoulder is decorated with a gem-like eye pattern. The wearer gains a +5 bonus on Perception checks, and can use earth glide to pass through up to 20 feet of natural or worked stone per day. The distance traveled with earth glide does not need to be consecutive, but it must be used in 5-foot increments. The wearer is able to safely chew, swallow, digest, and derive nutrition from gems, precious metals, and metallic ore, with 100 gp worth of these materials sustaining him for 1 full day. If the wearer removes the robe after such a meal, he is sickened until 24 hours have passed since the last meal of this kind. Wearing the robe again immediately negates this penalty.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, passwall, purify food and drink</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404061,
+    "modifiedTime": 1665949166560,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

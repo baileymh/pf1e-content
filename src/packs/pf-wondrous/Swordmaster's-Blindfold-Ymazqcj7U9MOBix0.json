@@ -3,7 +3,7 @@
   "name": "Swordmaster's Blindfold",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black band of silk grants its wearer spectacular senses within a limited range. Some believe these items were made to grant lesser swordmasters the illusion of skill. When the wearer places the blindfold over her eyes, she becomes blinded, but gains blindsight (Bestiary 298) within the reach of her melee weapon, or 5 feet if the wearer is not wielding a melee weapon. Furthermore, the wearer is under the effect of a constant locate weakness (Ultimate Combat 236) spell, but only when making melee attacks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, blindness, locate weakness</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407314,
+    "modifiedTime": 1665949169567,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

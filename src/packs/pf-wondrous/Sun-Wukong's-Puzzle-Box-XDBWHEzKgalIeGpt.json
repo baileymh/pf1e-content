@@ -3,7 +3,7 @@
   "name": "Sun Wukong's Puzzle Box",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The plainly lacquered exterior of this wooden puzzle box cunningly hides the devious clockwork mechanism inside. To those unversed in its abilities, Sun Wukong's puzzle box seems to be little more than a frustratingly impossible child's toy that is adorned with the holy symbol of the Monkey King.  Once per day as a standard action, the user can unlock Sun Wukong's puzzle box to create two simultaneous effects. First, a shower of golden sparks envelops the user, causing her to become invisible and immediately teleporting her exactly 20 feet in a direction of her choice. Second, a monkey swarm (Pathfinder RPG Bestiary 2 212) bursts from the same square the user left.  Although the monkey swarm isn't under the control of the user, the monkeys keep at least 20 feet from the user at all times and attempt to surround as many of her opponents as possible. This effect otherwise acts as mad monkeys with a CMB of +12. Both the invisibility effect and the monkey swarm last for 10 rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dimension door, invisibility, mad monkeysUM, creator must be chaotic</p><h3><b>Source: </b></h3>Daughters Of Fury",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407220,
+    "modifiedTime": 1665949169499,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Unbalanced Scales",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A set of unbalanced scales permits an unscrupulous merchant to conduct transactions with inaccurate weight results, but still pass inspections by commerce officials when necessary. The unbalanced scales normally provide an accurate measurement of weight, but by means of a command word, the user can cause the set of scales to provide a reading that is off (either lighter or heavier, as desired) by as much as 25%.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, prestidigitation</p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407925,
+    "modifiedTime": 1665949170168,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "lavender and green ellipsoid ioun stone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These crystalline stones always float in the air and must be within 3 feet of their owner to be of any use. When a character first acquires a stone, she must hold it and then release it, whereupon it takes up a circling orbit 1d3 feet from her head. Thereafter, a stone must be grasped or netted to separate it from its owner. The owner may voluntarily seize and stow a stone (to keep it safe while she is sleeping, for example), but she loses the benefits of the stone during that time. Ioun stones have AC 24, 10 hit points, and hardness 5.  Absorbs spells of 8th level or lower. After absorbing 50 spell levels, the stone burns out and turns dull gray, forever useless. Lavender-and-green stone works like a rod of absorption, but absorbing a spell requires a readied action, and these stones cannot be used to empower spells.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, creator must be 12th level</p><h3><b>Source: </b></h3>PFRPG Core",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404191,
+    "modifiedTime": 1665949166651,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

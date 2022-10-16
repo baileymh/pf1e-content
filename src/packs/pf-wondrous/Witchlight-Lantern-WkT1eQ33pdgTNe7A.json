@@ -3,7 +3,7 @@
   "name": "Witchlight Lantern",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This black, skull-shaped, wrought-iron lantern has no container for oil or space for a candle. When held in the user's hand, the lantern automatically glows with green light when it comes within 60 feet of a magic aura (not including its own), providing dim light as per a candle if the strongest aura in range is faint, normal light as per a hooded lantern if the strongest aura in range is moderate, or bright light within 30 feet and dim light for the next 30 feet if the strongest aura in range is strong. No matter the amount of light, this counts as a 2nd-level light spell for the purpose of determining interactions with light and darkness magic.  If the lantern comes within 60 feet of an overwhelming aura, the light flares up and blinds all creatures in a 30-foot radius from the lantern for 1d4 rounds; a successful DC 16 Reflex save reduces this condition to dazzled. This counts as a 4th-level light spell. After flaring up, the witchlight lantern loses its ability to shine light for 1 hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane sight, daylight</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407206,
+    "modifiedTime": 1665949169490,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

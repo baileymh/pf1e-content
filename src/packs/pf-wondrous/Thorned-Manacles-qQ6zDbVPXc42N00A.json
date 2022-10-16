@@ -3,7 +3,7 @@
   "name": "Thorned Manacles",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When placed on a helpless, two-armed creature of size Tiny to Huge, these barbed manacles transform to match the creature's size and prevent the captive from utilizing any extradimensional magic, as dimensional anchor (no save). Removing the manacles-whether as an escape attempt or by the owner- requires a successful DC 30 Strength check or a successful DC 37 Escape Artist check; regardless of whether such an attempt succeeds, the manacles deal 2d6+7 points of piercing damage to the victim. The manacles have hardness 12 and 20 hit points.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dimensional anchor, thorn bodyAPG</p><h3><b>Source: </b></h3>Demon Hunter's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409613,
+    "modifiedTime": 1665949171769,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

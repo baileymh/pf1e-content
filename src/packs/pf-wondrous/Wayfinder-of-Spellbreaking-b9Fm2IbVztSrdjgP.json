@@ -3,7 +3,7 @@
   "name": "Wayfinder of Spellbreaking",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>With an exterior crafted of blackened iron, the wayfinder of spellbreaking has no ornamentation. In addition to the usual functions of a wayfinder (including the ability to create light), a wayfinder of spellbreaking can be used once per day to create a dispel magic effect on a creature or object. The wayfinder of spellbreaking must be touched to the object-targeting an unwilling creature requires a successful melee touch attack.  If the user has detect magic active or can otherwise observe magical auras, he can target a specific aura; otherwise, the wayfinder of spellbreaking targets the effect with the highest caster level.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, dispel magic, light</p><h3><b>Source: </b></h3>Pathfinder Society Field Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407746,
+    "modifiedTime": 1665949170022,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

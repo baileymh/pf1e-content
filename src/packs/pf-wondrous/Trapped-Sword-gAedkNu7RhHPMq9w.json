@@ -3,7 +3,7 @@
   "name": "Trapped Sword",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This longsword glows and has an aura, making it appear valuable. Its grip is hollow and can be filled with a dose of poison (bought separately, and requiring a full-round action to refill and rearm). Once the sword is grasped, its mechanical trap engages: Small needles in the grip deliver the poison. Detecting the trap requires a successful DC 30 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 28 Disable Device check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Learn Ranger Trap, light, magic aura</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408339,
+    "modifiedTime": 1665949170594,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Vest Of The Vengeful Tracker",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This green-and-brown vest has pockets sewn along its length, each with a tiny lodestone button. The wearer feels a surge of heroism when she tracks down prey. She gains a +1 morale bonus on the first attack and damage rolls made with weapons against creatures she has successfully tracked within the previous 24 hours. If her target is flat-footed, this bonus increases to +2. If her target is also her favored enemy, she gains a +4 bonus on critical hit confirmation rolls against the target.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, commune with nature</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405990,
+    "modifiedTime": 1665949168318,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

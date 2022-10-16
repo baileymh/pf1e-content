@@ -3,7 +3,7 @@
   "name": "Vest Of Eldritch Preservation",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Woven of aranea silk, this vest grants potent protection against spells that would warp the wearer's mind or body. Its wearer gains a +2 bonus on saving throws against curses, enchantments, and transmutations.  11th Level: Once per day, the wearer can remove the shaken or sickened condition from himself or an ally with a touch. This is a standard action, or a swift action if he cures himself. In addition, the wearer can't be compelled to keep a cursed item. This doesn't prevent the cursed item's effects, but does allow the wearer to freely discard the item.  13th Level: Once per day as an immediate action, the wearer can use break enchantment against an effect that has just taken hold of him, even if the effect causes him to lose consciousness or control of his actions. Only a single effect can be targeted by this use of break enchantment. This protection can be recharged by casting break enchantment on the vest.  15th Level: The conditions the wearer can remove with a touch now also include cursed (as remove curse), dazed, and frightened.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, break enchantment</p><h3><b>Source: </b></h3>Pathfinder Unchained",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407230,
+    "modifiedTime": 1665949169510,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

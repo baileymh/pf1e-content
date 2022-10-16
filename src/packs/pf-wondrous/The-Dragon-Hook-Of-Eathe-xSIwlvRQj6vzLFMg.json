@@ -3,7 +3,7 @@
   "name": "The Dragon Hook Of Eathe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical +1 grappling hook has a 50 ft. golden rope attached. It can be used as a weapon (10 ft. reach), dealing 1d6+1 damage if swung on a rope as an attack. It can also be used to trip an opponent if thrown. Should an opponent be tripped, the hooks close tight around the creature hit (like a claw). The hook itself is shaped like a dragon's head with spines forming the hooks. If used for climbing, it aids climbing by pulling the climber up its 50 ft. of rope (+15 to all Climb checks). If used for descent, two quick pulls (perhaps an accident the first time), causes the dragon hook to release its grip and fall, allowing its owner to retrieve it.<br><p><b>Base Item:</b> +1 grappling hook</p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects, animate rope</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410391,
+    "modifiedTime": 1665949172420,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

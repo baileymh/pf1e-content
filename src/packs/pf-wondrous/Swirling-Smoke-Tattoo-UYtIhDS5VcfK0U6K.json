@@ -3,7 +3,7 @@
   "name": "Swirling Smoke Tattoo",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple tattoo emits a constant haze of odorless, shadowy smoke around the limbs of its bearer that she can animate with a thought, hiding herself behind a screen of smoke. If the tattoo is visible when the bearer is hit by a melee or ranged attack or when the bearer fails a Reflex save, the wearer can activate the tattoo to shroud herself in mist as an immediate action. This imposes a 20% miss chance on attacks made against the bearer. On a failed Reflex save, it grants the ability to reroll the Reflex save and gain a +4 bonus. The bearer can use this ability three times per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Inscribe Magical Tattoo (Inner Sea Magic 16), blur</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -107,8 +107,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406801,
+    "modifiedTime": 1665949169046,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

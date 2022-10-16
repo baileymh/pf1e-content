@@ -3,7 +3,7 @@
   "name": "Summoner's Robe",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A summoner's robe is a finely crafted garment of silk the same color as the endless sky of the Astral Plane. Once per day when casting a summon monster or summon nature's ally spell, the wearer can have the robe absorb one of the creatures summoned rather than have it appear within the spell's range. When this occurs, the robe gains a defensive aura and takes on visual aspects of the absorbed creature (such as becoming red and spiked if absorbing a demon, or manifesting flame patterns if absorbing a fire elemental). The creature does not exist outside its effect as a defensive aura of the robe as detailed below, and cannot be damaged or targeted by most spells. It is still a magical effect, and any spell or ability that could dispel or disrupt a creature summoned by summon monster can dispel or disrupt the defensive aura. The defensive aura is also dispelled if the robe enters an area a summoned creature could not enter, or at the end of the duration of the spell that summoned the absorbed creature. If the wearer takes an amount of damage equal to or greater than 5 hit points per level of the spell that summoned the absorbed creature, the defensive aura ends.  As long as the robe has a defensive aura, its wearer gains some of the absorbed creature's defenses and powers. These abilities are determined as if the wearer were using a transmutation (polymorph) spell to assume the absorbed creature's form. Unlike a normal polymorph effect, it does not grant her the appearance of the creature (or any bonus to Disguise), any movement type, natural attacks (or proficiency with them), or size change. The wearer does not change form, gain any ability score modifiers, have her gear meld into her body, or lose any abilities based on her form. She is considered to be under the effects of a polymorph spell, and cannot be under the effects of another polymorph spell or size-altering magic for the duration of the defensive aura. The abilities the defensive aura grants are otherwise determined by the type of creature absorbed. If the creature is an elemental, the wearer gains the abilities listed in elemental body III; if it's  a plant, the wearer gains the abilities listed in plant shape II; if it's an undead, the wearer gains the abilities listed in undead anatomy IIIUM. If the creature is of any other creature type, the wearer gains the abilities it possesses listed in beast shape IV.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon monster IX or summon nature's ally IX</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404110,
+    "modifiedTime": 1665949166595,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

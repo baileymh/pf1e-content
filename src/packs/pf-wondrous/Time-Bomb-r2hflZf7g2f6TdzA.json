@@ -3,7 +3,7 @@
   "name": "Time Bomb",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A time bomb consists of an 6-inch-tall hourglass in an obsidian frame etched with tiny runes. To activate it, the user must uncap one end and place an amount of ground sulfur sand inside. The hourglass can hold as little as 1 minute's worth of sand to as much as 1 hour's worth. Once the sand is inside and the time bomb is recapped, the magic is activated. If left undisturbed, after the sand has run down, the time bomb explodes as a fireball spell dealing 5d6 points of fire damage (Reflex DC 14 half). If an activated time bomb is broken, tipped over, or otherwise disturbed before its sand drains completely and it detonates, the magic is ruined. If it is disarmed in this manner without being damaged, the item can thereafter function as a normal hourglass.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, fireball</p><h3><b>Source: </b></h3>Ultimate Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409648,
+    "modifiedTime": 1665949171795,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

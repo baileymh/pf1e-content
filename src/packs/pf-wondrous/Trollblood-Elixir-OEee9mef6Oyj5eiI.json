@@ -3,7 +3,7 @@
   "name": "Trollblood Elixir",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rancid, bubbling tonic is mud-colored and reeks of sweat, gore, and decay. Upon drinking a dose of trollblood elixir, the imbiber gains fast healing 5. This fast healing is even capable of reattaching a severed limb that is pressed against its stump for 1 round, as long as the limb has been severed for no more than 1 hour and is essentially intact. The effects of trollblood elixir last 1 minute; during this time, the imbiber is nauseated. Each round, the imbiber can choose to prematurely end the elixir's effects by succeeding at a DC 10 Fortitude save as a full-round action. Trollblood elixir does not affect objects or nonliving creatures such as constructs and undead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, regenerate</p><h3><b>Source: </b></h3>Giant Hunters Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406120,
+    "modifiedTime": 1665949168418,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

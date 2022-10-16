@@ -3,7 +3,7 @@
   "name": "Symbol Of Sanguine Protection",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This silver holy symbol rests just over the wearer's heart, imbuing his blood with divine power. After wearing the amulet for 24 hours, the wearer can shed his own blood as a standard action, dealing 1d6 points of damage to himself, to collect an amount of divinely empowered blood that functions as a flask of holy water. The wearer can collect his blood this way once per day, but the individual vials lose their potency after just 1 week.   Undead creatures and evil outsiders that successfully use a blood drain attack on the wearer take 4d6 points of positive energy damage and are sickened for 1d4 rounds unless they make a DC 16 Will save. Any benefit the creature might gain from drinking the wearer's blood is negated due to the power of this symbol.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bless water</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406685,
+    "modifiedTime": 1665949168946,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

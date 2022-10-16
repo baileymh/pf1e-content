@@ -3,7 +3,7 @@
   "name": "Winter Wolf Headband",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted of pale bone or silver, this headband features a snarling wolf's head centered on the wearer's forehead. The wearer gains cold resistance 10. Once per day, the wearer may transform into a Large white-furred wolf for 11 minutes. In addition, once per day the wearer may breathe a 30-foot cone of cold that deals 7d6 points of cold damage (Reflex DC 16 for half). The wearer may use this breath weapon even when transformed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, beast shape II, dragon's breath (Advanced Player's Guide), resist energy</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406741,
+    "modifiedTime": 1665949168990,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

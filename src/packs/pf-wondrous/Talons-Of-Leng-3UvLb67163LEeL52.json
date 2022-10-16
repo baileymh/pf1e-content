@@ -3,7 +3,7 @@
   "name": "Talons Of Leng",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Finely laid gold filigree lines these ornately worked talons. Once donned, the talons of Leng grant the wearer a natural claw attack with each hand that deal 1d4 points of damage for a Medium wearer, or 1d3 points of damage for a Small wearer. These claw attacks have a +3 enhancement bonus on attack and damage rolls. On a critical hit, the target must succeed at a DC 20 Will save or become permanently confused as per the insanity spell. This is a mind-affecting effect. The wearer of the talons of Leng is immune to effects that grant the confused condition. For as long as she wears the talons, however, her Wisdom is reduced by 2, as alien voices constantly whisper through her head. The talons of Leng do not interfere with spellcasting, the use of handheld items, or wielding weapons.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Magic Arms and Armor, Craft Wondrous Item, greater magic fang, insanity</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403590,
+    "modifiedTime": 1665949166076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

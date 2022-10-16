@@ -3,7 +3,7 @@
   "name": "Vial Of Efficacious Medicine",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This bulbous bottle is crafted of smoked glass and causes any liquid contained within to take on a significantly darker cast and twinkle with motes of beautiful white light. A vial of efficacious medicine can hold a single dose of an alchemical remedy, such as antitoxin or antiplague. Loading a remedy into the vial is a standard action that provokes attacks of opportunity. When an alchemical remedy is imbibed or applied from the vial, any alchemical bonus it grants on saving throws or checks or to AC or CMD increases by 2. Treat this increase as an enhancement bonus. In addition, the user is healed of 1d8+5 points of damage. A vial of efficacious medicine can be used up to three times per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, cure light wounds, polypurpose panacea (Pathfinder RPG Ultimate Magic 232)</p><h3><b>Source: </b></h3>Alchemy Manual",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408506,
+    "modifiedTime": 1665949170716,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

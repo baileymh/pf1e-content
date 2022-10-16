@@ -3,7 +3,7 @@
   "name": "Thundering Collar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Made of twisted copper wire braided into a torc with red-stained dog paws at its ends, a thundering collar is so  named after Cayden Cailean's faithful red mastiff, Thunder. A thundering collar allows the wearer to issue a rumbling growl that sounds like rolling thunder three times per day. Creatures within 15 feet must succeed at a DC 12 Will save to attack (as if affected by sanctuary). The wielder can bestow the effect on one adjacent ally as well. This effect lasts for 3 rounds or until the wearer or its ally attacks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, ghost sound, sanctuary</p><h3><b>Source: </b></h3>Inner Sea Temples ",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404814,
+    "modifiedTime": 1665949167298,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

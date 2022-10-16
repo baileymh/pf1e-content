@@ -3,7 +3,7 @@
   "name": "Style-Stealing Vambrace",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This plain silver-and-steel bracelet grants the keen weapon special ability to any piercing or slashing weapon wielded by the wearer. Each time the wearer confirms a critical hit with such a weapon, however, she must succeed at a DC 17 Fortitude save or the bracelet severs her hand, dealing 1d6 points of Dexterity drain and 2d6 points of bleed damage. The style-stealing vambrace and the severed hand immediately teleport to the item's creator if he is on the same plane, or else drop to the ground if he is not.  Once per day, a creature holding the severed hand can speak the bracelet's command word to gain access to one combat feat known by the previous wearer for 24 hours, as if it were a bonus feat. The creature must meet all of the usual prerequisites for the feat.  The wearer's hand can be restored instantly with a regenerate spell, or with a restoration spell or regeneration (such as that granted by a ring of regeneration) if the severed hand is held against the stump. Restoring the wearer's hand removes the Dexterity drain. The style-stealing vambrace cannot be removed from the severed hand it holds or be reused until its victim dies or the hand is reattached.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bestow curse, gentle repose, keen edge</p><h3><b>Source: </b></h3>Black Markets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409756,
+    "modifiedTime": 1665949171869,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

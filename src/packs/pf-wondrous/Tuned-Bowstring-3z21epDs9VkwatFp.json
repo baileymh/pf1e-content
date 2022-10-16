@@ -3,7 +3,7 @@
   "name": "Tuned Bowstring",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This faintly glowing bowstring is twined from the hair of a lillend. When strung on a bow, a tuned bowstring also functions as a masterwork stringed instrument, granting the wielder an enhancement bonus on Performance (string) checks equal to the bow's enhancement bonus (if any). A tuned bowstring produces a perfect note with every arrow fired by its wielder, allowing a character with the bardic performance class feature to maintain a performance in combat without expending rounds of bardic performance as long as she fires at least one arrow each round. Activating a bardic performance or switching to a different performance still costs a round of bardic performance.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, exquisite accompanimentUM, creator must have the bardic performance class feature</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403627,
+    "modifiedTime": 1665949166105,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

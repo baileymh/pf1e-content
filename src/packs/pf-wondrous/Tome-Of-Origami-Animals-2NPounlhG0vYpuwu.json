@@ -3,7 +3,7 @@
   "name": "Tome Of Origami Animals",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This massive, metal-bound tome is filled with thin pages of beaten copper, each of which is indented with arcane sigils indicating precise folding points for the creation of various origami creatures. Once one or more pages are torn out and folded, the copper sheets magically expand to create a pleated origami approximation of the desired creature. Once created, each origami creature is imbued with a semblance of life, just as if animated with animate objects, and obeys the commands of its creator.  The user can fold pages to craft a fantastic variety of Small, Medium, and Large animated constructs. Crafting a Small creature uses up one page, crafting a Medium creature uses two, and crafting a Large creature uses four. Each construct crafted by the book is built with the default number of Construction Points (CP) and hit points for its size, though all origami animations gain the basic metal Construction Point quality for free. Constructs of other metals or stone cannot be built with the book, though additional CP can be otherwise added to the creation at the expense of one page per point. This follows all rules for creating animated objects, and origami animals can never select the same CP ability more than once.  The book contains instructions for making innumerable variations of fantastic creatures, limited only by the user's ingenuity and imagination. For example, the user may fold a Medium gorilla-like animal with two pages, then tear out an additional three pages to construct it with additional attack, grab, and constrict abilities, for a total of five pages.  Crafting an origami animal requires a full-round action. Each one lasts for 1 hour before crumbling into useless copper shards. Tomes of origami animals have 50 pages when created, though most have 2d20+10 intact pages when found.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate objects</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403506,
+    "modifiedTime": 1665949166010,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

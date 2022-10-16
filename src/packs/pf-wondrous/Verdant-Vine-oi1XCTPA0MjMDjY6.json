@@ -3,7 +3,7 @@
   "name": "Verdant Vine",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell entangle, as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage.   A DC 20 Strength check, made as a standard action, allows an affected creature to break free and end the effect. Failing the check causes the vines to constrict, dealing 1d4 points of damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, entangle, plant growth</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409186,
+    "modifiedTime": 1665949171316,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Survivor's Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring's stone as a standard action once per day to use dimension door but only while the ring's mislead effect is active.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, death ward, dimension door, mislead</p><h3><b>Source: </b></h3>Inner Sea Intrigue",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406229,
+    "modifiedTime": 1665949168495,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

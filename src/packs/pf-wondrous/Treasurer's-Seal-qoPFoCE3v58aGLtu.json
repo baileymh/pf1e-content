@@ -3,7 +3,7 @@
   "name": "Treasurer's Seal",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Six inches in diameter, one side of this porcelain seal shows a many-keyholed padlock, while the other displays a lightning bolt superimposed on an open hand. The padlock side is used to lock and alarm doors, chests, and other portals. The bearer may speak a command word to activate it when holding it against a lockable item. If the padlock side of the seal is touching the item, it bestows an alarm (mental alarm) and arcane lock on the target item. If the lightning bolt side of the seal is touching the item, it casts fire trap on the lock (the seal must be held to the lock for 10 minutes to use this ability).  A creature carrying the seal can speak a command word to suspend its effects on an item for 1 minute. This ability is usable at will, but only works on effects created by that specific seal.  The seal can be used at will but can only maintain effects on three items at any given time. Using it on a fourth item automatically negates the oldest effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, arcane lock, fire trap</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409635,
+    "modifiedTime": 1665949171785,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

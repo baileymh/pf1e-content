@@ -3,7 +3,7 @@
   "name": "Stunstone",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This naturally occurring, glowing purple crystal can be thrown as a ranged attack with a range increment of 20 feet. When it strikes a target or hard surface (or is struck hard), the crystal shatters in a burst of sound and light. Every creature in a 10-foot-radius spread is outlined in faerie fire, takes 1d8 points of sonic damage, and must make a DC 13 Fortitude save or be stunned for 1 round.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, Craft (alchemy) 5 ranks, faerie fire, sound burst</p><h3><b>Source: </b></h3>AP 39",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407289,
+    "modifiedTime": 1665949169543,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

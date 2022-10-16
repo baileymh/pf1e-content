@@ -3,7 +3,7 @@
   "name": "Wax Of Defiance",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This waxy amber substance is typically stored in a lidded container that holds 10 applications. One application is enough to plug both of a creature's ears-applying the wax is a standard action. Once applied, the wax imparts a -2 penalty on Perception checks, but imparts a +4 resistance bonus on all saving throws against charm or language-dependant compulsion effects, like charm monster, command, and suggestion. If placed in the ears of a willing or helpless creature currently under a charm or language-dependant compulsion effect, the dose immediately allows the creature to make a new saving throw against the original effect to throw off the charm or compulsion effect (although without the normal +4 bonus granted by the wax if used when a creature is first targeted by such an effect). A single dose of wax of defiance lasts for 1 hour once applied.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, break enchantment, silence</p><h3><b>Source: </b></h3>AP 62",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406580,
+    "modifiedTime": 1665949168891,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

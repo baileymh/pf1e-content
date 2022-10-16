@@ -3,7 +3,7 @@
   "name": "Thunder Strap",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sturdy leather strap seems worn and weathered, but is as strong as steel. When wrapped around the grip of a melee weapon for 24 hours, the strap's magic becomes active. Once per day, the wielder of a melee weapon so wrapped can hold the weapon aloft for 1 minute to change local weather conditions to create a thunderstorm. This acts as control weather, except only thunderstorms can be created. Additionally, the wielder can cast call lightning storm once per day. If used outside, this spell is cast as if the local conditions are stormy.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, call lightning storm, control weather</p><h3><b>Source: </b></h3>Heroes Of The Wild",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410304,
+    "modifiedTime": 1665949172359,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Swarm Bullet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small brass cylinder is inscribed with a symbol of a honeycomb, and a faint buzzing sound can be heard from within. A swarm bullet can be loaded into a weapon with the scatter weapon quality, such as a blunderbussUE, as though it were ammunition. When fired, the weapon produces a wasp swarm that immediately moves to attack the nearest living target in a 15-foot cone. The wasp swarm acts on the shooter's turn each round, pursuing the closest living creature for 3 rounds or until it's destroyed. Should the weapon misfire while loaded with a swarm bullet, the swarm instead angrily emerges from the weapon and pursues the wielder.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, vomit swarmAPG</p><h3><b>Source: </b></h3>Ranged Tactics Toolbox",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408003,
+    "modifiedTime": 1665949170231,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Whispering Shell",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This striped conch shell appears to be nothing more than a piece of flotsam idly picked up by a beachcomber. Once per day when held to the lips, the conch shell absorbs a whispered message of 25 words or fewer and stores the spoken words indefinitely. When pressed to the ear and prompted by the command word, the shell repeats its message as a whisper that cannot be heard by anyone except the creature holding the conch shell. A whispering shell can only hold one such message at a time, but can replay its message as often as a creature issues the command to do so.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, whispering wind</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404152,
+    "modifiedTime": 1665949166621,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

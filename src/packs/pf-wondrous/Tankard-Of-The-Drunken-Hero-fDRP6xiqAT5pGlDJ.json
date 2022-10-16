@@ -3,7 +3,7 @@
   "name": "Tankard Of The Drunken Hero",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple battered tankard is usually made of copper or tin. Its handle is not attached at the bottom so the bearer can hook it on his belt for easy carrying. The bearer gains a +1 resistance bonus on Fortitude and Will saves.  Once per day, the bearer can fill the tankard with wine, ale, or other alcohol and drink from it to gain the benefits of a remove fear spell.  If Cayden Cailean is the bearer's patron, the tankard counts as a holy symbol. Once per day, the bearer can drink an alcoholic beverage from the tankard to gain the benefits of heroism. Once per day, the tankard automatically unties ropes that bind the bearer or unlocks locks that hinder him. This occurs about 5 minutes after the tying or unlocking and affects only bindings directly on the bearer's person (for example, it won't unlock a door to the bearer's prison cell, but will unlock the bearer's manacles). This power is subtle enough that it is unnoticeable unless someone checks the bindings to make sure they are secure-ropes loosen but still appear to be tightly bound, manacles unlock and loosen but do not automatically fall off. The tankard can untie or unlock only bindings with an Escape Artist or Disable Device DC of 25 or lower, though more powerful tankards may exist.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, animate rope, heroism, knock, remove  fear, resistance</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407977,
+    "modifiedTime": 1665949170209,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

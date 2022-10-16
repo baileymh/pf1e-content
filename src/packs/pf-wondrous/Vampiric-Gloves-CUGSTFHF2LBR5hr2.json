@@ -3,7 +3,7 @@
   "name": "Vampiric Gloves",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These pale, elegant-looking leather gloves have blood-red stitching on the fingers-which bears a startling resemblance to blood-encrusted fingernails. Three times per day, the wearer can use vampiric touch and bleed. If the wearer uses vampiric touch and holds the charge, the charge dissipates if the gloves are removed.   Though vampiric touch is normally a touch attack, the wearer may instead use that ability as a ranged touch attack with a range of 30 feet, but only against a dying target or a target suffering from a bleed effect. When using vampiric touch in this way, the wearer may hold the charge on a missed ranged touch attack.   If the wearer is suffering from a bleed effect, he may expend one use of vampiric touch to end the bleed effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, bleed, vampiric touch</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "hands",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404665,
+    "modifiedTime": 1665949167174,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

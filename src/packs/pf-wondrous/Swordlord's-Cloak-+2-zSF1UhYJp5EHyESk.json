@@ -3,7 +3,7 @@
   "name": "Swordlord's Cloak +2",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This exotic, fur-trimmed cloak is decorated with golden filigree. In addition to offering magical protection, the cloak guides a skilled wearer's blade to block attacks. Such cloaks are often commissioned by Aldori Academy graduates when they attain swordlord status. A swordlord's cloak acts as a cloak of resistance. In addition, whenever the wearer is benefiting from the defensive parry class feature, he receives an insight bonus to his AC equal to the cloak's resistance bonus.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, anticipate perilUM, resistance</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410505,
+    "modifiedTime": 1665949172501,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

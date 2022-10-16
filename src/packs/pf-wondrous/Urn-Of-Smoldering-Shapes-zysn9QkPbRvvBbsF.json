@@ -3,7 +3,7 @@
   "name": "Urn Of Smoldering Shapes",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This stone urn is decorated with carvings of vaguely humanoid creatures, and contains ash and chunks of coal. While the lid is removed, faint weeping and cries of anguish echo from within the urn.  As a standard action, a creature holding the urn can grab some ash from the urn and toss it at an unoccupied space within 30 feet. The ash scatters in the air, but the particles quickly ignite, grow into smoldering embers, and gain momentum, coalescing in the target space as a vaguely humanoid shape. The urn produces 7 doses of ash per day. Throwing a pinch of ash uses 1 dose and creates a Small shape (AC 6, 10 hp) that is reminiscent of a cluster of cowering human children. The Small shape doesn't provide cover, but the square counts as difficult terrain. Throwing a small handful of ash uses 2 doses and creates a Medium shape (AC 5, 15 hp) that resembles a cluster of crestfallen adult humans. The Medium shape provides cover and prevents passage through the square. Throwing a large handful of ash uses 4 doses and creates a Large shape (AC 4, 25 hp) that resembles a sobbing angel. The Large shape provides cover and prevents passage through a 10-foot-square area.  If the smoldering shape is reduced to 0 hit points or fewer, it explodes, dealing fire damage in a 10-foot-radius spread depending on the size: 2d6 points for Small, 4d6 points for Medium, or 8d6 points for Large. Any creature in the area that succeeds at a DC 16 Reflex save takes half the normal damage. For 1 round, the area of the explosion is filled with dark, acrid smoke (as per obscuring mist). The smoldering shapes are immune to fire and cold, but if a smoldering shape would be dealt any amount of cold damage, the shape becomes inert and can no longer explode.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, wall of fire</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410904,
+    "modifiedTime": 1665949172899,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

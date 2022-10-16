@@ -3,7 +3,7 @@
   "name": "Wayfinder Of Hidden Strength",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wayfinder is made of heat-treated bronze that seems to warp and shimmer in the light. It contains a single slot to store an ioun stone (Pathfinder RPG Ultimate Equipment 305), and the wayfinder's construction allows the bearer to overtax the ioun stone's magical properties once per day to create a special, short-term resonance effect based on the stone's shape. This process suppresses any other resonance effects the ioun stone might grant for 24 hours. The ioun stone is especially fragile during this time, crumbling to pieces if removed from the wayfinder of hidden strength before the 24-hour period has ended. Ellipsoid: As an immediate action, the bearer can roll 1d6 after failing a saving throw against a spell or spell-like ability and add the result to the saving throw retroactively; if the bonus is high enough to turn the failure into a success, the save is successful. The bearer instead rolls 1d8+1 if the slotted ioun stone costs between 10,000 and 30,000 gp, or 1d10+2 if the ioun stone costs more than 30,000 gp.  Prism: As a free action before attempting any d20 roll, the bearer can roll two dice and choose which result to use.  Rhomboid: As a swift action, the bearer gains a number of temporary hit points equal to the slotted ioun stone's market price divided by 1,000 (maximum 25 temporary hit points). These temporary hit points last 1 hour.  Sphere: As an immediate action, the bearer can roll 2d4 after failing a skill check and add the result to the check retroactively; if the bonus is high enough to turn the failure into a success, the check is successful. The bearer instead rolls 3d4 if the slotted ioun stone costs between 10,000 gp and 30,000 gp, or 4d4 if the ioun stone costs more than 30,000 gp.  Spindle: As a full-round action, the bearer can restore 1d4 points of ability damage to one of her ability scores. If the slotted ioun stone costs more than 15,000 gp, she instead restores 1d6 points of ability damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gallant inspirationAPG, light</p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403623,
+    "modifiedTime": 1665949166101,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

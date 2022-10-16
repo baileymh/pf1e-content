@@ -3,7 +3,7 @@
   "name": "Yithian Thought Ring",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each yithian thought ring is attuned to a particular type or category of creature, and this decision is made at the item's creation. This can go beyond simple creature types-a yithian thought ring can be made to function for very specific conditions. For example, the one in this adventure is keyed into minds that have been exposed to Xhamen-Dor, which is how Kaklatath was able to reach out across great distances to the PCs. A yithian wearing one of these devices can also use its mind swap and amnesia abilities at the same range.  Once a yithian thought ring has been created with a particular parameter, it can be attuned again, but this process requires partially dismantling the original device and rebuilding it. This process takes 1d4 days and costs an additional 5,000 gp in materials.  A yithian thought ring can be used only by yithians.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, telepathic bond, creator must be a yithian</p><h3><b>Source: </b></h3>AP 113",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408005,
+    "modifiedTime": 1665949170233,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

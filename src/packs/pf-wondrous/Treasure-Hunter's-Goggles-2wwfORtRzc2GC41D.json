@@ -3,7 +3,7 @@
   "name": "Treasure Hunter's Goggles",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These sturdy but plain goggles help the wearer locate secret doors and coins and identify treasure. While wearing these goggles, the wearer can use detect secret doors at will. The goggles do not aid in determining how secret doors are opened.   Once per day on command, the wearer gains the ability to locate object as per the spell, but only to detect 100 or more coins in a small area, such as a backpack, chest, pouch, or sack.   Three times per day, the wearer may use identify.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, detect secret doors, identify, locate object</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428403552,
+    "modifiedTime": 1665949166049,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -1,0 +1,66 @@
+{
+  "name": "Regeneration",
+  "type": "buff",
+  "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A creature with this ability is difficult to kill. Creatures with regeneration heal damage at a fixed rate, as with fast healing, but they cannot die as long as their regeneration is still functioning (although creatures with regeneration still fall unconscious when their hit points are below 0). Certain attack forms, typically fire and acid, cause a creature’s regeneration to stop functioning on the round following the attack. During this round, the creature does not heal any damage and can die normally. The creature’s descriptive text describes the types of damage that cause the regeneration to cease functioning.</p><p>Attack forms that don’t deal hit point damage are not healed by regeneration. Regeneration also does not restore hit points lost from starvation, thirst, or suffocation. Regenerating creatures can regrow lost portions of their bodies and can reattach severed limbs or body parts if they are brought together within 1 hour of severing. Severed parts that are not reattached wither and die normally.</p><p>A creature must have a Constitution score to have the regeneration ability.</p><p><em>Format</em>: regeneration 5 (fire, acid); <em>Location</em>: hp.</p><p><strong>Usage:</strong></p><p>Default value: regeneration 5</p><p>Set Level to value of regeneration, or replace Regeneration with dice roll. </p><p>Requires <strong>Koboldworks - Regeneration Module</strong>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {
+        "regen": true
+      },
+      "dictionary": {
+        "regen": "@item.level"
+      }
+    },
+    "scriptCalls": [],
+    "buffType": "temp",
+    "active": false,
+    "level": 5,
+    "duration": {
+      "value": "",
+      "units": "",
+      "start": 148827857400
+    },
+    "hideFromToken": false,
+    "identifiedName": "Regeneration"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.9nehuydqsULUv1kD"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665949880399,
+    "modifiedTime": 1665950868191,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "MGtEb7YnNwafTXdd"
+}

@@ -3,7 +3,7 @@
   "name": "Vanishing Wayfinder",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual functions of a wayfinder (including the ability to create light), as a standard action the holder of a vanishing wayfinder can press a hidden catch to become invisible (as the spell invisibility) for as long as she concentrates, up to a maximum duration of 5 minutes per day. These minutes need not be consecutive, but each activation counts as a minimum use of 1 minute, even if the user becomes visible because of an attack action or some other event before that minute is up.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, invisibility, light</p><h3><b>Source: </b></h3>Pathfinder Society Field Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408599,
+    "modifiedTime": 1665949170779,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

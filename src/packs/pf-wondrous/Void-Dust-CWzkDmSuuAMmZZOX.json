@@ -3,7 +3,7 @@
   "name": "Void Dust",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Infused with the essence of destruction, a pinch of void dust unmakes force effects. If sprinkled on or thrown at a force effect, it acts as a dispel magic, unless the force effect is immune to dispel magic, in which case it acts like disintegrate. Void dust can be sprinkled on an adjacent force effect or thrown up to 10 feet. No attack roll is required. A single pinch affects only a single force effect. A found container holds three pinches.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, disintegrate</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404670,
+    "modifiedTime": 1665949167181,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

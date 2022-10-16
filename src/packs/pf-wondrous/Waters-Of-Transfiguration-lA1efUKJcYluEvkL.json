@@ -3,7 +3,7 @@
   "name": "Waters Of Transfiguration",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small lacquered box made from exotic and colorful woods contains five vials and a single dropper. The vials are labeled glass, iron, paper, stone, and wood, and each contains a magical fluid that permanently transforms solid objects it touches into that material. Administering the fluid requires the included dropper, is a standard action, and provokes an attack of opportunity (similar to drinking a potion, and the attacker can strike at the dropper instead of the bearer). For example, using the vial marked paper on a lock transforms the lock into paper, with all of the various properties of paper (hardness, hit points, flammability, and so on). If the target object has a volume of one cubic foot or less, the transformation occurs instantly. Larger objects slowly transform at a rate of 1 hour per cubic foot of material (maximum 10 cubic feet affected). Each vial contains 5 applications of that particular fluid. Magical and attended objects may resist this transformation with a successful DC 17 Fortitude save.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, fabricate</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408623,
+    "modifiedTime": 1665949170794,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

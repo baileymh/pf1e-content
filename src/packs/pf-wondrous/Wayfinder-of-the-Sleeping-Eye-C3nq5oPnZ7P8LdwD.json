@@ -3,7 +3,7 @@
   "name": "Wayfinder of the Sleeping Eye",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This exquisitely crafted wayfinder bears the design of a halfclosed eye in platinum and mithral. The eye is a socket for an ioun stone; when filled, you may activate the wayfinder when you sleep or meditate to create a mobile illusory image of yourself that is partly real. You control the image as if it were your own body and perceive things through it as if it had all of your normal senses plus darkvision with a range of 60 feet. You do not need to maintain line of sight to the image. The image is visible but transparent, and it cannot perform any action that an unseen servant is unable to perform. The image has 40% of your hit points at the time it was created. Its AC is 10 + your size modifier + your Dexterity modifier. It uses your current Will saving throw bonus but automatically fails Fortitude and Reflex saves. It is destroyed if brought to 0 hit points, which deals you 2d4 points of Charisma damage. It can be dispelled, and cannot enter areas warded against summoned creatures, your alignment, illusions, or incorporeal creatures. You may end this ability as a free action, and it ends automatically if you are awakened, your body is attacked, or 8 hours pass; ending the image in this manner does not deal you Charisma damage. Using this ability drains energy from the slotted ioun stone, rendering it dull gray and powerless for 24 hours. A dull gray ioun stone cannot power the projection ability of this wayfinder. The wayfinder can still have synergistic powers granted by an ioun stone, though they do not function while the slotted stone is powerless.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, arcane eye, shadow conjuration</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404639,
+    "modifiedTime": 1665949167155,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

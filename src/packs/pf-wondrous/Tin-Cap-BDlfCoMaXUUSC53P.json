@@ -3,7 +3,7 @@
   "name": "Tin Cap",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple tin headpiece is a lesser replica of the powerful stannum crown. A tin cap feeds on its wearer's paranoia, granting her a +4 insight bonus on saving throws against mind-affecting effects and divinations that gather information about her. Donning a tin cap saps the mind of the wearer, imposing a -2 penalty to her Intelligence, Wisdom, and Charisma. The increased paranoia causes the wearer to always attempt saving throws, even against harmless effects. Removing the tin cap removes both the benefits and drawbacks until it is donned again.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mind blank</p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404600,
+    "modifiedTime": 1665949167131,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

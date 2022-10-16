@@ -3,7 +3,7 @@
   "name": "Voidlight Lantern",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ornately designed lantern is crafted from volcanic glass. When lit, the lantern's magic creates an area of darkness in a 20-foot radius and lowers the illumination level by one step for an additional 20 feet beyond that area (bright light becomes normal light, normal light becomes dim light, and dim light becomes darkness). If used in an area of darkness, a voidlight lantern creates an area of supernatural darkness (as per deeper darkness) in a 20-foot radius instead.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, deeper darkness</p><h3><b>Source: </b></h3>Blood Of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404807,
+    "modifiedTime": 1665949167292,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

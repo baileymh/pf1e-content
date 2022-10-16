@@ -3,7 +3,7 @@
   "name": "Warden Ring",
   "type": "equipment",
   "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This plain-looking steel band bypasses the shielding on Level 14C of Rappan Athuk, allowing the wearer to teleport normally and use any planar traveling abilities. The ring does not grant the ability to teleport or summon aid by itself.  There is a more powerful version of the ring, the greater warden ring, which controls the lesser rings.  The greater warden ring can suspend the powers of any warden ring as long as the wearer of the greater warden ring desires, as a move-equivalent action that does not provoke attacks of opportunity. The greater warden ring is a singular item; it is a minor artifact.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Forge Ring, limited wish</p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406719,
+    "modifiedTime": 1665949168969,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

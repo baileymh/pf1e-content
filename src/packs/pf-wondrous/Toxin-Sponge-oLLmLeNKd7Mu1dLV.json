@@ -3,7 +3,7 @@
   "name": "Toxin Sponge",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rough, ridged sponge is chalky black in color, and is used to absorb poisonous gases from the surrounding air. When the command word is spoken, a toxin sponge can absorb a 10- foot cube of inhaled poison, removing the gas from that area and concentrating it in the sponge, which turns a pale green when filled. The sponge must be in the affected area of the poison gas in order to absorb it, and once it is absorbed, the duration of the poison effect (if any) is effectively paused. A toxin sponge can absorb either nonmagical poisons or magical poisons (and the poisonous effects of magical gases and mists) with a caster level of 9th or lower.   A toxin sponge can absorb only one poison at a time; an absorbed poison dissipates harmlessly after 24 hours. Alternatively, a creature can squeeze the filled sponge as a standard action before 24 hours have passed to release the noxious gas back into the air centered on the user. A creature may unknowingly activate a poison-filled toxin sponge during the course of regular bathing. Released poison takes up the same area it did when it was absorbed and lasts for the remaining duration of the poison when it was initially absorbed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, absorb toxicityUC</p><h3><b>Source: </b></h3>Dungeoneers Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409174,
+    "modifiedTime": 1665949171307,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

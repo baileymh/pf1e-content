@@ -1,0 +1,88 @@
+{
+  "name": "Darkvision 60'",
+  "type": "buff",
+  "img": "icons/creatures/eyes/humanoid-single-blind.webp",
+  "system": {
+    "description": {
+      "value": "<p>Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black-and-white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise—invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "5zKh7D3b3myvRtSK",
+        "name": "darkvision-60-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.dv\": state ? 60 : 0});",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value * 10",
+      "units": "minute",
+      "start": 148682297856
+    },
+    "hideFromToken": false,
+    "conditionals": [],
+    "identifiedName": "Darkvision 60'",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.k4GJ2gLaDno6q0by"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665267713028,
+    "modifiedTime": 1665949822699,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "EXl28IFj2KFuQNTj"
+}

@@ -3,7 +3,7 @@
   "name": "Whispering Amulet",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A whispering amulet looks like a bejeweled glabrezu head to the person who owns it, but to anyone else appears to be a relatively unremarkable necklace. As long as it is worn, a whispering amulet masks the wearer's alignment as if by undetectable alignment. Once per day by grasping the amulet in one hand and whispering, as a standard action, the wearer may send a single message of no more than 25 words to another creature as if via sending-the message arrives at the intended target in the form of a soft whisper in the left ear, and the recipient can opt to whisper a return message to the wearer of the amulet. A single glabrezu is linked to each whispering amulet, and any message sent or received via the amulet can be heard by the demon as well. Finally, by grasping the amulet and whispering the glabrezu's name, the wearer can make a single wish. This destroys the whispering amulet, and as the wish itself is granted by the glabrezu, it likely has unexpected and unintended consequences. If the glabrezu has already used its wish ability during that month, the attempt to wish fails and the amulet is not destroyed- there's a 5% chance that this occurs if the GM doesn't already know for sure if the glabrezu's wish is available.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, sending, undetectable alignment, wish</p><h3><b>Source: </b></h3>Demons Revisited",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404201,
+    "modifiedTime": 1665949166658,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Watchful Tankard",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Images of a dwarf and human drinking together decorate the sides of this 1-foot-tall granite stein, which is capped off with a rough-hewn orb of the same material. When the user speaks the command word and places a watchful tankard on a solid surface, such as a cavern ceiling or wooden table, the stein adheres to the surface (with the equivalent of an 18 Strength score). The last creature to drink from the stein can attempt Perception checks from the stein's location, as well as from its own, as long as it is within 60 feet of the watchful tankard. Any permanent vision-based bonuses (such as darkvision, low-light vision, or permanent arcane sight) are also usable through the watchful tankard but are limited to a range of 30 feet. It is possible to attempt Perception checks from the stein's point of view only while it is adhered to a solid surface in this way. Grabbing the handle and repeating the command word frees the watchful tankard from this location.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Alertness, Craft Wondrous Item, alarm</p><h3><b>Source: </b></h3>Inner Sea Temples ",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404827,
+    "modifiedTime": 1665949167311,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

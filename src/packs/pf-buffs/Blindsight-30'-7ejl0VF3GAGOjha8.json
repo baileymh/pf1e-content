@@ -1,0 +1,88 @@
+{
+  "name": "Blindsight 30'",
+  "type": "buff",
+  "img": "icons/creatures/mammals/bat-movement-flying-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>This ability is similar to Blindsense, but is far more discerning. Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or Echolocation, a Creature with blindsight maneuvers and fights as well as a sighted Creature. Invisibility, Darkness, and most kinds of Concealment are irrelevant, though the Creature must have line of effect to a Creature or object to discern that Creature or object. The ability's range is specified in the creature's Descriptive Text. The Creature usually does not need to make Perception checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the Creature need do nothing to use it. Some forms of blindsight, however, must be triggered as a free Action. If so, this is noted in the creature's Description. If a Creature must trigger its blindsight ability, the Creature gains the benefits of blindsight only during its turn.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "5zKh7D3b3myvRtSK",
+        "name": "blindsight-30-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.bs\": state ? 30 : 0});\n",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value * 10",
+      "units": "minute",
+      "start": 148682297856
+    },
+    "hideFromToken": false,
+    "conditionals": [],
+    "identifiedName": "Blindsight 30'",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.k4GJ2gLaDno6q0by"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665267713028,
+    "modifiedTime": 1665949821803,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "7ejl0VF3GAGOjha8"
+}

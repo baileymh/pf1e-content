@@ -1,0 +1,88 @@
+{
+  "name": "Low-Light Vision",
+  "type": "buff",
+  "img": "icons/creatures/eyes/humanoid-single-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A creature with low-light vision can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of dim light. It retains the ability to distinguish color and detail under these conditions.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "5zKh7D3b3myvRtSK",
+        "name": "lowlight-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.ll.enabled\": state});",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value * 10",
+      "units": "minute",
+      "start": 148827857400
+    },
+    "hideFromToken": false,
+    "conditionals": [],
+    "identifiedName": "Low-Light Vision",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.k4GJ2gLaDno6q0by"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665267713028,
+    "modifiedTime": 1665950925069,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ZdWzYw9c7zJJPwvz"
+}

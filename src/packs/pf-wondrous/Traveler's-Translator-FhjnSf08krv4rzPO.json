@@ -3,7 +3,7 @@
   "name": "Traveler's Translator",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This single earring consists of a prismatic crystal set into a platinum bezel. A traveler's translator provides its owner a basic and limited ability to communicate with intelligent creatures that speak unfamiliar languages.  When created, a traveler's translator is imprinted with a single base language chosen by its creator (typically Common), and is capable of learning one additional language. When its owner speaks the command word, the traveler's translator begins listening to all spoken conversations and speech within 30 feet.  After 1 minute of exposure to a language other than its base language, the translator learns the new language. Thereafter, the item automatically translates speech of the newly learned language into the translator's base language, telepathically imparting the translated words to its owner. A traveler's translator can store only one learned language at a time and can learn only one language per day-speaking the command word again after at least 24 hours causes the translator to erase the previously learned language (but not its base language) to make room for a new language.  As a standard action, the owner of the stone can designate a single creature within 30 feet. When the owner speaks aloud to that creature in the translator's base language, the traveler's translator telepathically transmits the owner's meaning to the target, using the learned language. A traveler's translator does not grant its owner the ability to read or write in either the base or the learned language.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, share languageAPG</p><h3><b>Source: </b></h3>People Of The Stars",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404812,
+    "modifiedTime": 1665949167297,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

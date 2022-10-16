@@ -1,0 +1,82 @@
+{
+  "name": "See Invisibility",
+  "type": "buff",
+  "img": "systems/pf1/icons/skills/blue_35.jpg",
+  "system": {
+    "description": {
+      "value": "<p>You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.</p><p>It does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, concealed, or otherwise hard to see.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "l04MC23KuIGITYca",
+        "name": "see-invis-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.si\": state });",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value",
+      "units": "minute",
+      "start": 148682297856
+    },
+    "hideFromToken": false,
+    "identifiedName": "See Invisibility",
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Actor.94VblZOUUnfRifHN.Item.SbkbLSMtZb7P69HM"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1663528846111,
+    "modifiedTime": 1665949826956,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "vlrfNnPMIvLJ2joc"
+}

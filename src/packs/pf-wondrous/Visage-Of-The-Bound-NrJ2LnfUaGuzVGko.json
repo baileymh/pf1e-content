@@ -3,7 +3,7 @@
   "name": "Visage Of The Bound",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from gold and lacquer, these elaborate masks resemble various outsiders. Once per day when the wearer casts a summon monster spell, he may choose to house the summoned outsider within the visage of the bound rather than conjuring it onto the Material Plane. For the spell's duration, the wearer can use of any of the bound outsider's spell-like abilities as if they were his own. A visage of the bound has no effect on outsiders already summoned or on summoning spells cast by other creatures. Removing the mask immediately releases a bound outsider.  The wearer cannot use the bound outsider's spell-like abilities to summon other creatures, and a summoner cannot activate a visage of the bound while his eidolon is summoned. Effects that extend the duration of a summon monster spell (such a the Extend Spell metamagic feat or the conjurer's summoner's charm class ability) have no effect on the duration of a spell contained by a visage of the bound. Outsiders who are opposed to one or more axes of the wearer's alignment cannot be housed within a visage of the bound.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, imbue with spell ability, summon monster V</p><h3><b>Source: </b></h3>Monster Summoner's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406111,
+    "modifiedTime": 1665949168412,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

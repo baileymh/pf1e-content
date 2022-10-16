@@ -3,7 +3,7 @@
   "name": "Volatile Vaporizer 3rd-level",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This lime green pill is inedible but turns a potion into a cloud of mist that can be shared by multiple creatures. When placed inside a potion flask, the potion bubbles and froths itself into a pungent 10-foot-radius cloud. Any creature within the cloud when it appears gains the full effect of the potion. The cloud has no effect on creatures that cannot breathe. A creature may automatically resist the effects of the potion cloud by momentarily holding its breath. Using the pill destroys it and the potion. Each pill can only be used on potions of a particular spell level; using it on a potion of a different spell level has no effect (neither the potion nor the pill are consumed). The vaporizer also works on alchemist infusions, but not mutagens, extracts, or magical oils.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alchemical allocation (Advanced Player's Guide)</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405644,
+    "modifiedTime": 1665949167929,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

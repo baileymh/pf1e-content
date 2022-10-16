@@ -3,7 +3,7 @@
   "name": "Tremor Bar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This mithral crowbar can coax stone to shift aside with alarming ease. Five times per day, when a kobold wielder pries at a section of stone and speaks a command word, the touched rock reshapes as if with stone shape.  Additionally, once per day a kobold wielder can throw the crowbar like a thrown splash weapon at a spot of earth, metal, or stone to unleash an earthquake on the spot where the crowbar lands.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, earthquake, stone shape, creator must be a kobold</p><h3><b>Source: </b></h3>Inner Sea Races",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404788,
+    "modifiedTime": 1665949167277,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

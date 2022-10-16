@@ -3,7 +3,7 @@
   "name": "Talisman, Lesser Hamsa",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each of these amulets is imbued with magic that allows it to protect its wearer against a very specific danger. A talisman triggers automatically as soon as the listed condition is fulfilled. Although talismans occupy the neck slot, up to three talismans can be worn on one cord or chain. Wearing multiple talismans in this way offers a greater variety of protection, but a wearer can benefit from only one talisman's effect at a time. If another talisman would be triggered while its wearer is under the effect of another talisman, that talisman is not triggered and can still be used later.  A lesser talisman carries only enough magical energy to protect its wearer once, after which it crumbles to dust.  Hamsa Talisman: A stern eye adorns the palm of this hand-shaped clay talisman. When the wearer fails a saving throw against a witch's hex, a spell or spell-like ability with the curseUM descriptor, or a hag's supernatural ability, he can attempt a second saving throw. If he succeeds at the second saving throw, the creature that targeted him must succeed at a saving throw using the same DC or suffer the effect. The talisman has no effect on spells and effects that don't allow a saving throw. Strong abjuration; CL 13th; remove curse, spell turning.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item,  remove curse, spell turning</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406114,
+    "modifiedTime": 1665949168414,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

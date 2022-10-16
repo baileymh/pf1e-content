@@ -1,0 +1,88 @@
+{
+  "name": "Scent",
+  "type": "buff",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>This special quality allows a Creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can Identify familiar odors just as humans do familiar sights.</p><p>The Creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or Troglodyte Stench, can be detected at triple normal range.</p><p>When a Creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The Creature can take a move Action to note the direction of the scent. When the Creature is within 5 feet of the source, it pinpoints the source's location.</p><p>A Creature with the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Survival skill. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "5zKh7D3b3myvRtSK",
+        "name": "scent-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.sc\": state});\n\n",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value * 10",
+      "units": "minute",
+      "start": 148827857400
+    },
+    "hideFromToken": false,
+    "conditionals": [],
+    "identifiedName": "Scent",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.k4GJ2gLaDno6q0by"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665267713028,
+    "modifiedTime": 1665950840987,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "Lm0EtJClkkrfqCUQ"
+}

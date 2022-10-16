@@ -3,7 +3,7 @@
   "name": "Wyvern Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy cloak is made of blue scaled leather and has a pointed hem that hangs near the ground. The cloak provides the wearer a +4 resistance bonus on Will saves, a continuous feather fall effect (as the spell), and the ability to use fly once per day. At will as a swift action, the wearer can form the hem into a stinger, granting her a sting natural weapon. This sting deals 1d6 points of damage plus poison (as the spell; DC 16). Reverting the stinger to its normal, inconspicuous shape is a free action.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, feather fall, fly, poison, resistance, creator must be at least caster level 12</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404728,
+    "modifiedTime": 1665949167226,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

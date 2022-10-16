@@ -3,7 +3,7 @@
   "name": "Versatile Vest",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sturdy vest stays dry and spotless in the worst of conditions. You can secure up to six objects (weighing up to 1 pound each) to the vest by holding them to it and speaking a command word. You can retrieve any of these items as a move action. In addition, the vest has four large pockets, each capable of holding as much as 1/2 cubic foot in volume or 5 pounds in weight, and weighing only 1 pound when full. When closed, the pockets are proof against water and the elements. The first pocket contains 1 day's worth of trail rations, a quart of water in a waterskin, two candles, and a tindertwig. The vest recreates these items if the first pocket is left empty for 3 days.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, create food and water, prestidigitation, secret chest</p><h3><b>Source: </b></h3>Seekers of Secrets",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407787,
+    "modifiedTime": 1665949170051,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Zonzon Doll Of Forgiveness",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This rag doll, created in the likeness of a specific creature chosen at the time of crafting, must be loved to activate its powers. This love takes the form of time spent caring for the doll, keeping it on one's person, and preventing any harm from coming to it. In order to use the accumulated power within a Zonzon doll of forgiveness, the owner must give the doll to the creature that it resembles. Depending on how long the doll's owner took care of it, the doll may bestow up to three cumulative effects. Each benefit lasts 24 hours unless otherwise noted. If the doll is gifted after 1 day of care, it grants the owner a +5 sacred bonus on Diplomacy checks against the creature that the doll resembles (hereafter referred to as the target creature). If the doll is gifted after 1 week of care, the owner can use the Diplomacy skill to shift the target creature's attitude closer to helpful by up to three steps (exceeding the normal two-step limitation) and takes no penalty for failing a Diplomacy check by 5 or more. Finally, if the doll is gifted after 1 month of care, the recipient of the Zonzon doll may activate the doll within 24 hours to gain the benefit of an atonement spell. After the doll has been gifted and the duration of the effect expires, a Zonzon doll reverts to a normal rag doll with no magical powers.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, atonement, eagle's splendor</p><h3><b>Source: </b></h3>Inner Sea Gods",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409790,
+    "modifiedTime": 1665949171894,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

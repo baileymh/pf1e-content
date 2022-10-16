@@ -3,7 +3,7 @@
   "name": "Trapped Beverage",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This brightly labeled bottle or waterskin could appear to contain any number of different beverages, from absinthe to wine. However, it's actually a magical trap, and when the bottle is opened, a spider swarm (Pathfinder RPG Bestiary 258) pours out. The swarm stays in the area for 3 rounds, then disappears. Detecting that the bottle is trapped requires a successful DC 25 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 25 Disable Device check. After being triggered, the trapped beverage remains a mundane bottle or wineskin.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, summon swarm</p><h3><b>Source: </b></h3>Kobolds Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406187,
+    "modifiedTime": 1665949168463,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

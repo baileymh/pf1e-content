@@ -1,0 +1,88 @@
+{
+  "name": "Blindsense 30'",
+  "type": "buff",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Blindsense lets a creature notice things it cannot see, but without the precision of blindsight. The creature with blindsense usually does not need to make Perception checks to notice and locate creatures within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent that cannot be seen has total concealment (50% miss chance) against a creature with blindsense, and the blindsensing creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "noStr": false,
+      "noDex": false,
+      "oneInt": false,
+      "oneWis": false,
+      "oneCha": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [
+      {
+        "_id": "5zKh7D3b3myvRtSK",
+        "name": "blindsense-30-toggle",
+        "img": "icons/svg/dice-target.svg",
+        "type": "script",
+        "value": "actor.update({ \"system.traits.senses.bse\": state ? 30 : 0});\n\n",
+        "category": "toggle",
+        "hidden": false
+      }
+    ],
+    "buffType": "temp",
+    "active": false,
+    "level": null,
+    "duration": {
+      "value": "@details.level.value * 10",
+      "units": "minute",
+      "start": 148682297856
+    },
+    "hideFromToken": false,
+    "conditionals": [],
+    "identifiedName": "Blindsense 30'",
+    "range": {
+      "maxIncrements": 1
+    },
+    "size": "med"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "IPeKQhMz2Odi77tR": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.k4GJ2gLaDno6q0by"
+    },
+    "exportSource": {
+      "world": "03irongodspub",
+      "system": "pf1",
+      "coreVersion": "10.288",
+      "systemVersion": "0.82.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665267713028,
+    "modifiedTime": 1665949818554,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "57bf3joJk7JEpZCZ"
+}

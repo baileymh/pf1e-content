@@ -3,7 +3,7 @@
   "name": "Throne Of The Sky-Father",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This altar takes the form of a throne sized for a Large humanoid. It's carved from mountain stone, and its surface is inscribed with prayers to Gozreh in Thassilonian and to Ioz'om in Giant. The Throne of the Sky-Father projects a magic circle against law that affects creatures within 50 feet of the throne. A character within this area can speak a prayer to Gozreh to gain a temporary blessing from the altar (treat this as speaking a command word to activate a magic item). Praying at the altar grants a +4 resistance bonus on saving throws against weather effects and a +2 circumstance bonus on Acrobatics, Climb,  and Fly checks. This blessing ends after 24 hours (or earlier, if dispelled or ended by the actions of the worshiper). The altar can provide its blessing only once per creature per day.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, control winds, guidance, magic circle against law, stone shape, creator must worship Gozreh</p><h3><b>Source: </b></h3>AP 92",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409850,
+    "modifiedTime": 1665949171928,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

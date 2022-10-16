@@ -3,7 +3,7 @@
   "name": "Swallowtail Bracers",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>These delicate sliver bracers are decorated with blue butterflies. While worn, swallowtail bracers grant the wearer a +1 luck bonus on all saving throws, ability checks, and skill checks. If the wearer worships Desna, the bracers grant an additional boon: Once per day, by speaking a command word and the name and/or title of the intended recipient, the wearer may cast dream. Such a wearer is also immune to nightmare, and when the wearer is targeted by that spell, the effects reflect back upon the caster.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, divine favor, dream, creator must worship Desna</p><h3><b>Source: </b></h3>AP 75",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "wrists",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407832,
+    "modifiedTime": 1665949170084,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

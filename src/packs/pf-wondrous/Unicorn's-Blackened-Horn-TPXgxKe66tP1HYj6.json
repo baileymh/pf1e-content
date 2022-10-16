@@ -3,7 +3,7 @@
   "name": "Unicorn's Blackened Horn",
   "type": "equipment",
   "img": "systems/pf1/icons/items/weapons/sword-cane.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This long ivory horn is twisted, elegant, and shining, but marring its beautiful length are black, diseased lines of corruption. This item is an intact unicorn's horn that has been horribly tainted by evil forces.  The wielder of the unicorn's blackened horn can be healed by positive energy as well as negative energy, regardless of her creature type, as long as she holds the horn. When holding the horn, a spellcaster can also use its corrupted innocence to shape both positive and negative energy. If the wielder prepares spells, a prepared cure spell (any spell with cure in its name) can be spontaneously converted as it is cast into any inflict spell (any spell with inflict in its name) of the same level or lower, and vice versa, even if the cure or inflict spell is not normally on her spell list. When others attempt to use Spellcraft or Knowledge (arcana) to identify a spell cast in this way, the spell appears to be the cure or inflict spell that is being converted (not the spell actually being cast) unless the identifier exceeds the Spellcraft or Knowledge (arcana) DC by 10. In this case, the identifier correctly identifies the spell. Analyze dweomer, greater arcane sight, and similar spells of the same or higher spell level that automatically identify spells reveal the converted spell for what it is.  Furthermore, if the spellcaster is able to spontaneously cast either cure or inflict spells (for an example, see the cleric's spontaneous casting ability), then she can spontaneously cast both cure and inflict spells while wielding the unicorn's blackened horn. If the wielder can channel energy using a class feature, twice per day she can channel the opposite type of energy that she normally channels.  The unicorn's horn imposes 1 permanent negative level on any good creature that is attempting to wield it. The negative level remains as long as the horn is held in hand and disappears when the horn is no longer held. This negative level cannot be overcome in any way (including by restoration spells) while the horn is held.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Rod, harm, heal, creator must be evil-aligned and able to channel energy</p><h3><b>Source: </b></h3>Healer's Handbook",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406755,
+    "modifiedTime": 1665949169002,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

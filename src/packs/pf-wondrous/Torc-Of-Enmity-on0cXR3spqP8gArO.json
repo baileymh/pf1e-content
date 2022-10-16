@@ -3,7 +3,7 @@
   "name": "Torc Of Enmity",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large neck ring is made of twisted bronze, capped at each end with tiny skulls facing each other. Each torc of enmity is attuned to a designated creature type (or subtype) as the bane weapon special ability (Pathfinder RPG Core Rulebook 469) and focuses the wearer's hatred toward creatures of that type. Each time the wearer of a torc of enmity confirms a critical hit against a creature of the type to which the torc is attuned, she gains a cumulative +1 morale bonus on attack rolls against that creature type (maximum +4 bonus) and 1d8 temporary hit points (maximum 20 temporary hit points) for 5 rounds.  Alternatively, if the wearer is an inquisitor or has the bane class feature, she can instead choose to gain 1 additional round of her bane class ability. If the wearer has the rage class feature, she can instead regain one use of a rage power that has been exhausted (a power that is available either once per rage or once per day). The wearer can gain only one benefit per round from the torc, even if she confirms multiple critical hits in a single round. These benefits must be used within 1 hour of their accrual; if not used by that time, they are lost as the wearer's hatred subsides.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, rage, righteous vigorAPG, summon monster I</p><h3><b>Source: </b></h3>AP 94",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409192,
+    "modifiedTime": 1665949171321,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

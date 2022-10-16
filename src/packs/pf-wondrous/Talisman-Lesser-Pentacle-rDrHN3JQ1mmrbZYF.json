@@ -3,7 +3,7 @@
   "name": "Talisman, Lesser Pentacle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each of these amulets is imbued with magic that allows it to protect its wearer against a very specific danger. A talisman triggers automatically as soon as the listed condition is fulfilled. Although talismans occupy the neck slot, up to three talismans can be worn on one cord or chain. Wearing multiple talismans in this way offers a greater variety of protection, but a wearer can benefit from only one talisman's effect at a time. If another talisman would be triggered while its wearer is under the effect of another talisman, that talisman is not triggered and can still be used later.  A lesser talisman carries only enough magical energy to protect its wearer once, after which it crumbles to dust.  Pentacle Talisman: The five-pointed star carved on this round silver talisman glows blue whenever an evil creature targets the wearer with magic jar, possessionOA, or a similar effect, or with a charm or compulsion spell or effect that allows the creature to exercise control over the wearer (such as suggestion, but not sleep). If the spell or effect allows a saving throw and the wearer fails it, he receives a second saving throw. If he succeeds at the second saving throw, the wearer is also protected by protection from evil for 5 rounds. Faint abjuration; CL 1st; protection from evil.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item,   protection from evil</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409661,
+    "modifiedTime": 1665949171802,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

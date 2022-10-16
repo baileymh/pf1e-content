@@ -3,7 +3,7 @@
   "name": "Witchmarket Coin",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This magical silver coin opens a portal to the First World. Any time a character holds the coin in her hand while expressing a fervent desire or wish of any sort, the magical coin activates, whether or not the bearer intended it to. At some point in the next 24 hours, a portal to the First World appears in that character's immediate vicinity. Such portals are only half-visible, and form in seemingly random places-in the middle of a field, in a doorway, in the back of a closet, and so on. This portal always leads to a random location in the Witchmarket on the First World.  When the portal first appears, the triggering character must succeed at a DC 20 Reflex save or accidentally stumble through. Other creatures in the vicinity can spot the portal with a successful DC 15 Perception check, and can pass through as well. The portal allows passage both ways, and remains open for 10 minutes. The coin cannot generate more than one portal to the First World in a single 24-hour period.  On the First World, a Witchmarket coin allows its bearer and any designated companions to travel to the Material Plane, as if via plane shift, simply by expressing a deliberate wish to do so. The effect always transports the creatures to the last location in which the coin opened a portal to the First World.  A Witchmarket coin works only once for any given person, though someone who's already triggered the portal can still pass through portals created by other users.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, plane shift</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428410498,
+    "modifiedTime": 1665949172497,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

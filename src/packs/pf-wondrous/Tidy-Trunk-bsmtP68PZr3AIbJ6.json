@@ -3,7 +3,7 @@
   "name": "Tidy Trunk",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small-sized trunk is bound in polished metal and lined with velvet fabric. While the trunk is latched, items contained within are kept free of mold, moths, water damage, and other undesirable effects of long-term storage, though perishable items still eventually decay. If the trunk is kept latched for at least 8 hours, the items inside are neatly cleaned. The trunk folds and presses clothing, polishes crystalline and metal tableware, removes stains from items, and so on. Items are not repaired of any preexisting damage; they're simply kept clean and organized.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Items, prestidigitation</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407786,
+    "modifiedTime": 1665949170050,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

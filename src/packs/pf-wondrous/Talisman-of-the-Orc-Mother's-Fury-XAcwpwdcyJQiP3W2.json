@@ -3,7 +3,7 @@
   "name": "Talisman of the Orc Mother's Fury",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small statuette-carved from the tusk of a dire boar, chunks of twisted metal, or some manner of dark stone-is a simplistic depiction of a pregnant deity, fiend, or orc. Dark stains mark the face of the crude icon, typically smears of a fallen orc's blood. A simple strand of leather affixes the amulet around the neck. The figurine allows the wearer to act normally for a single round after being reduced to less than 0 hit points, as though he had the orc ferocity half-orc racial ability. A wearer with orc blood is instead treated as though he had the Diehard feat. If the wearer is of orc blood and already has the Diehard feat, he may act normally for an additional round after being reduced to below 0 hit points. Whenever the wearer of the talisman is reduced to less than 0 hit points, the amulet weeps tears of blood. Should the wearer be slain, the talisman screams and shatters.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>creator must be female and possess orc blood, Craft Wondrous Item, cure moderate wounds</p><h3><b>Source: </b></h3>AP 27",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407219,
+    "modifiedTime": 1665949169498,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

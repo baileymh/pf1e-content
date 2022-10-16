@@ -3,7 +3,7 @@
   "name": "Vest Of Surgery",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This emerald vest has four prominent and bulging pockets along its front. The wearer is always treated as if using a healer's kit when making Heal checks (Core Rulebook 161). Once per day, the wearer can make a DC 20 Heal check as if attempting to treat deadly wounds. If the check is successful, it cures 1d4 points of ability damage instead of hit point damage.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, lesser restoration, creator must have 5 ranks in Heal</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "chest",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409799,
+    "modifiedTime": 1665949171897,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

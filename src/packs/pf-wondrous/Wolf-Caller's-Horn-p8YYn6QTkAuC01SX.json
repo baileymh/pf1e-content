@@ -3,7 +3,7 @@
   "name": "Wolf Caller's Horn",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The user can sound this ornate silver horn as a normal signal horn. Once per day as a standard action, the user can make the horn emit an eerie, canine howl. The sound entices up to four wolves within 200 feet to answer the howl. This includes dire wolves, winter wolves, wolves, worgs, and dogs, as well as any creatures capable of turning into wolves with the change shape ability (such as barghests, vampires, or werewolves). If there are more than four such creatures within the area, those that are closest to the user are affected first.  The subjects can't take any actions other than to howl, making them effectively dazed for 1 round. A successful DC 17 Will save negates this effect. The horn affects werewolves in any form, though werewolves who are aware of their condition receive a +5 bonus on the saving throw while in humanoid form.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, mass dazeUM, mass suggestion</p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409224,
+    "modifiedTime": 1665949171342,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

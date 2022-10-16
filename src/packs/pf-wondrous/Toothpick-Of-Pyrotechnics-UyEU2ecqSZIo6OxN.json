@@ -3,7 +3,7 @@
   "name": "Toothpick Of Pyrotechnics",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wooden toothpick is useful for creating flashy diversions on stage or in a fight. Breaking the toothpick causes a  blinding flash and a dark cloud of smoke to appear. Creatures other than the user within 20 feet must succeed at a DC 13 Fortitude save or be blinded for 1d4+1 rounds. The cloud of smoke spreads 20 feet in all directions, obscures all sight (including darkvision), and lasts for 3 rounds.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, pyrotechnics</p><h3><b>Source: </b></h3>Advanced Class Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428406819,
+    "modifiedTime": 1665949169062,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

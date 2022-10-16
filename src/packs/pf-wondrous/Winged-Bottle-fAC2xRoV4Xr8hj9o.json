@@ -3,7 +3,7 @@
   "name": "Winged Bottle",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sky-blue glass bottle sports a sculpture of a silver eagle wrapped around the top of the glass. A winged bottle can be filled with the contents of an alchemical splash weapon as a standard action that provokes attacks of opportunity. Three times per day, on command, the bottle sprouts crystalline wings and takes flight. The owner can move the winged bottle to any space within 130 feet as a move action; if given no direction, the bottle floats in place. While flying, the bottle is able to drop its contents as a splash weapon with an attack bonus equal to 3 + the owner's Dexterity modifier. The owner must have line of sight to the bottle in order to direct it. Three rounds after being activated, a winged bottle loses the power of flight and drifts safely to ground.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, spiritual weapon</p><h3><b>Source: </b></h3>Alchemy Manual",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407976,
+    "modifiedTime": 1665949170208,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

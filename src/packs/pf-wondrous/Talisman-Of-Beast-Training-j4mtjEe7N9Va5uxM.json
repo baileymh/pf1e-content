@@ -3,7 +3,7 @@
   "name": "Talisman Of Beast Training",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This talisman is worn lashed around the neck and is made of flexible bark woven into a mesmerizing pattern. While wearing a talisman of beast training, a wearer finds that animals become much more patient with her and amenable to training. As such, failed Handle Animal checks made during downtime periods- including those made to rear animals and teach them new tricks-may be treated as if they were successful. The talisman can turn 10 failed checks into successes this way. Once the tenth failed check has been converted to a success, the talisman falls apart and becomes useless.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, charm animal</p><h3><b>Source: </b></h3>Quests and Campaigns",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428408502,
+    "modifiedTime": 1665949170715,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

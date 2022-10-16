@@ -3,7 +3,7 @@
   "name": "Wayfinder Of Many Paths",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Wayfinder of Many Paths behaves like a normal wayfinder (Pathfinder Campaign Setting: The Inner Sea World Guide 299), allowing it to shine (as the light spell) on command and granting its user a +2 circumstance bonus on Survival checks to avoid getting lost. It has a small indentation designed to hold a single ioun stone, and when an ioun stone is placed within, the owner of the wayfinder gains the stone's normal benefits as if it were orbiting his head.  Once per day on command, a Wayfinder of Many Paths with an implanted ioun stone can be used to create a 5- to 20-foot-diameter gateway, similar to the spell gate. The exact destination depends on the type of ioun stone slotted into the wayfinder; ioun stones of the same type always lead to the same location. The gateway remains open for up to 18 rounds, but the user can drain the socketed ioun stone, rendering it dull gray and powerless, to keep the gateway open for up to 18 additional rounds. If fitted with an ioun stone while in that stone's attuned location, a Wayfinder of Many Paths can open a gateway back to the location in which it was last used, allowing its user to make a return trip after 24 hours.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, gate, know direction, light</p><h3><b>Source: </b></h3>Lost Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405554,
+    "modifiedTime": 1665949167886,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

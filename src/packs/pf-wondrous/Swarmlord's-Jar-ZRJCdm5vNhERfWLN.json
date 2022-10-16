@@ -3,7 +3,7 @@
   "name": "Swarmlord's Jar",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small, lidded jar contains a sizable deformed insect that twitches and wriggles as if constantly undergoing a particularly painful death. A swarmlord's jar has a lid, but the lid is fused to the rest of the jar and cannot be opened. While a swarmlord's jar is carried openly in one hand, it grants a +2 luck bonus on all saving throws attempted against the attacks of swarms, and reduces swarm damage taken by the target by 5 points. These effects do not stack if more than one jar is carried.   A swarmlord's jar can be thrown to shatter at any point within 30 feet. If the jar shatters in a square that isn't currently occupied by an existing swarm, it creates a locust swarm (Pathfinder RPG Bestiary 4 183) that follows the thrower's mental commands; these commands may be issued as a free action. If the jar shatters in a square occupied by a swarm, the swarm must succeed at a DC 15 Will save or become controlled by the thrower. Issuing mental commands to a swarm (whether it's a freshly created locust swarm or a controlled swarm) is a move action, but once the swarm has been issued orders, it continues to follow those orders until it's destroyed or the magic of the swarmlord's jar ends. A locust swarm created by this item lasts for 1 minute if not destroyed earlier. Likewise, control granted by the jar lasts for 1 minute. Used against a worm that walks, a swarmlord's jar merely deals 6d6 points of damage on a successful touch attack as it shatters (Will DC 15 half).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item; summon swarm</p><h3><b>Source: </b></h3>AP 75",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428407339,
+    "modifiedTime": 1665949169594,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

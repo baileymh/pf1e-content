@@ -3,7 +3,7 @@
   "name": "Traveler's Any-Tool",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This implement at first seems to be nothing but a 12-inch iron bar lined with small plates and spikes. It can be folded, twisted, hinged, and bent, to form almost any known tool. Hammers, shovels, even a block and tackle (without rope) are possible. It can duplicate any tool the wielder can clearly visualize that contains only limited moving parts, such as a pair of scissors, but not a handloom. It cannot be used to replace missing or broken parts of machines or vehicles unless a mundane tool would have done the job just as well.  The any-tool counts as a set of masterwork artisan's tools for most Craft or Profession skills (although very specialist crafts such as alchemy still require their own unique toolset). It is an ineffective weapon, always counting as an improvised weapon and never granting any masterwork bonus on attack rolls.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, major creation</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428404794,
+    "modifiedTime": 1665949167282,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

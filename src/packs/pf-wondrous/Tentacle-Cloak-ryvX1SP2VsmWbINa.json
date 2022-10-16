@@ -3,7 +3,7 @@
   "name": "Tentacle Cloak",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Subtle, indefinable shapes ripple and flow when this deep blue cloak moves, seemingly devouring any light falling upon it. Once per day at the wearer's command, two large gray tentacles emerge from the cloak near the shoulders. Each tentacle can make a natural attack that deals 1d6 points of bludgeoning damage, assuming the wear is Medium (the damage of the tentacles scales by size of the wearer as a tentacle natural attack; Bestiary 302). The tentacles have 10-foot reach and the grab monster special ability (Bestiary 301). In addition, the wearer gains a +4 competence bonus on grapple maneuver checks with the tentacles. The tentacles last for 1 minute.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, polymorph self</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409712,
+    "modifiedTime": 1665949171840,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

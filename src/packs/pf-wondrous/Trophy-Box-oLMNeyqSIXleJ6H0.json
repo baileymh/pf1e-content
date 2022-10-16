@@ -3,7 +3,7 @@
   "name": "Trophy Box",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A trophy box is a 1-foot-wide clay box used to trap and release beasts too dangerous to confront directly. As soon as the trophy box is placed and the first command word is spoken, the trap is rigged to trigger whenever a Medium or larger animal comes within 20 feet of the box. The target must succeed at a DC 17 Will save or be drawn into an extradimensional space within the box, where it is held in a state of suspended animation for up to 24 hours. A trophy box can hold only one such victim at a time. The first command word can be used once per day. If the second command word is spoken, any animal trapped within the trophy box appears adjacent to the box either immediately or when a Tiny or larger creature (other than the user) comes within 20 feet (user's choice). A creature within 20 feet that speaks the password (set when the box is first activated) does not trigger the box. If the user is within 50 feet of the released animal, she can control it for 1 minute after its release as the dominate animal spell. Otherwise, the released animal attacks the nearest creature for 1 minute, after which its normal instincts take over.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, alarm, dominate animal, secret chest</p><h3><b>Source: </b></h3>Magical Marketplace",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428409175,
+    "modifiedTime": 1665949171308,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

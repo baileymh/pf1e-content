@@ -3,7 +3,7 @@
   "name": "Wasp Nest Of Swarming",
   "type": "equipment",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This is a hand-sized replica of a wasp's nest, crafted out of paper. It is extremely fragile and comes in a snug rigid case. If the nest is placed on the floor or ground, each time a creature passes through that square there is a 50% chance that it kicks or steps on the nest, triggering it. The nest may instead be thrown (range increment 10 feet), triggering when it strikes a hard surface or a creature. When triggered, the nest creates a wasp swarm that attacks the nearest creature and follows it until it is dead, the swarm is killed, or the swarm is unable to reach the target, at which point the swarm attacks the next nearest creature. If the swarm can't find any targets, it waits in place until another creature appears. The swarm dissipates 9 minutes after being released.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p>Craft Wondrous Item, insect plague</p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "wondrous",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428405304,
+    "modifiedTime": 1665949167744,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }
