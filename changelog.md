@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.3.0
+## 0.3.3
 ### Changelog
 * Migrate module for pf1 82.2 and foundry 10.287
 * Add Buffs (with script calls) for new Senses implimentation (thanks @Folken#9051)
@@ -9,7 +9,7 @@
 * Fix double penalty for Combat Expertise buff
 * Fix cost of Dusty Rose Cracked Ioun Stone
 
-## 0.2.9
+## 0.3.2
 ### Changelog
 * Migrate module for pf1 81.3 and foundry 9.269
 * Actually include updates to companions and features, eidolons, and evolutions (Thanks @websterguy#1136)
