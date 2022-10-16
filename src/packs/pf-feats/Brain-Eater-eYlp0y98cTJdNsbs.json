@@ -3,7 +3,7 @@
   "name": "Brain Eater",
   "type": "feat",
   "img": "systems/pf1/icons/skills/beast_04.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You gain some of the skills and knowledge of a consumed foe by eating its brain.</em><br/><br/><b>Prerequisites</b><br/>Ghoul, Int 17.<br/><br/><b>Benefits</b><br/>If you eat a portion of the brain of a creature with Intelligence 3 or higher, you gain a +2 insight bonus on all skill checks and Will saving throws for 1 hour. Eating a brain is a full-round action, and the target must be dead or helpless. If the target is living, you may attempt to eat its brain as a coup de grace attack on the target, but you gain the insight bonus only if your attempt results in the victim's death.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356196,
+    "modifiedTime": 1665949124467,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

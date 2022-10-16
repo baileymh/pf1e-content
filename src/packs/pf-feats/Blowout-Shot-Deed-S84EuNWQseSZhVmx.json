@@ -3,7 +3,7 @@
   "name": "Blowout Shot Deed",
   "type": "feat",
   "img": "systems/pf1/icons/skills/weapon_36.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>By using a specially prepared mix of reagents, you can create concussive blasts with your firearm.</em><br/><br/><b>Prerequisites</b><br/>Craft (alchemy) 3 ranks, grit class feature or Amateur Gunslinger feat.<br/><br/><b>Benefits</b><br/>Spend 1 grit point to retrieve a specially prepared dose of black powder from your person. The next time you use the firearm you've loaded with this special black powder, the concussive blast knocks you back 5 feet from the direction at which you were aiming. If there is no available space behind you, you brace yourself against the obstacle and do not move from your square. Any creatures within the first range increment of the firearm struck by this attack take damage as normal and must succeed at a Reflex save (DC = 10 + 1/2 your gunslinger level + your Int modifier) or be pushed back 10 feet. Creatures within two range increments are pushed back 5 feet, while creatures farther away than this are unaffected by the concussive blast.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354492,
+    "modifiedTime": 1665949122657,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

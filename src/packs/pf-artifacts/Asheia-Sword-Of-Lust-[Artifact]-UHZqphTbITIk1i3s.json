@@ -3,7 +3,7 @@
   "name": "Asheia, Sword Of Lust [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This beautiful blade is a +5 flaming longsword. While bearing the weapon, the wielder is immune to all enchantment effects. Any creature that casts an enchantment spell upon Asheia's wielder is led to believe its spell or effect worked as normal and that the sword's bearer is under its control, allowing the wielder to deceive his opponent if he so chooses (and doesn't give his enemy a reason to believe its magic failed). Whenever Asheia strikes an opponent, the target must succeed at a DC 20 Will save or fall under the effects of a charm monster spell. Only one creature can be charmed in this way at a time. If another creature becomes  charmed by the sword, the first is freed from this effect. If the sword instead scores a critical hit, the target must succeed at a DC 25 Will save or be affected by a dominate monster spell.<br><p><b>Base Item:</b> +5 flaming longsword</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264904,
+    "modifiedTime": 1665949036066,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

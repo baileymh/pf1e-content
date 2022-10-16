@@ -3,7 +3,7 @@
   "name": "Combat Expertise",
   "type": "buff",
   "img": "systems/pf1/icons/feats/combat-expertise.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p class=\"stat-block-1\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">You can choose to take a &ndash;1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by &ndash;1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.</p>",
       "chat": "",
@@ -20,16 +20,6 @@
         "priority": 0,
         "value": -1,
         "target": "attack"
-      },
-      {
-        "_id": "i4jv6hg8",
-        "formula": "-(1 + (floor(@attributes.bab.total / 4)))",
-        "operator": "add",
-        "subTarget": "cmb",
-        "modifier": "untyped",
-        "priority": 0,
-        "value": -1,
-        "target": "misc"
       },
       {
         "_id": "xz31va10",
@@ -61,9 +51,9 @@
     "scriptCalls": [],
     "buffType": "temp",
     "active": true,
-    "level": "",
+    "level": null,
     "duration": {
-      "value": null,
+      "value": "",
       "units": ""
     },
     "hideFromToken": false,
@@ -74,13 +64,22 @@
     "range": {
       "maxIncrements": 1
     },
-    "size": "med"
+    "size": "med",
+    "identifiedName": "Combat Expertise"
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266030,
+    "modifiedTime": 1665950691311,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

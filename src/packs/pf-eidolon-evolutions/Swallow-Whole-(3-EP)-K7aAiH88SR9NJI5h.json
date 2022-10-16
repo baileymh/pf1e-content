@@ -3,7 +3,12 @@
   "name": "Swallow Whole (3 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_22.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.kAOLuh4QuKNxIDFr"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon gains the swallow whole ability, giving it the ability to consume its foes.</p>\n<p>If the eidolon begins its turn with a creature grappled using its bite attack (see the grab evolution), it can attempt a combat maneuver check to swallow the creature. The creature can be up to one size category smaller than the eidolon. Swallowed creatures take damage equal to the eidolon's bite damage each round plus 1d6 points of bludgeoning damage.</p>\n<p>A swallowed creature keeps the grappled condition, but can attempt to cut its way free with a light slashing or piercing weapon. The amount of damage needed to cut free is equal to 1/10 the eidolon's total hit points. The eidolon's AC against these attacks is equal to 10 + 1/2 its natural armor bonus. If a swallowed creature cuts its way out, the eidolon loses this ability until it heals this damage.</p>\n<p>Alternatively, the swallowed creature can attempt to escape the grapple as normal. Success indicates that it has returned to the eidolon's mouth, where it can attempt to escape or be swallowed again.</p>\n<p><strong>Requirements</strong></p>\n<p>The eidolon must possess the grab evolution, tied to a bite attack, to take this evolution.</p>\n<p>The summoner must be at least 9th level before selecting this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +114,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +176,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -205,12 +215,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.kAOLuh4QuKNxIDFr"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321293,
+    "modifiedTime": 1665949091457,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

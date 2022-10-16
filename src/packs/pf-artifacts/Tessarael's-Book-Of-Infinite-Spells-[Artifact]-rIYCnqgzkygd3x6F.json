@@ -3,7 +3,7 @@
   "name": "Tessarael's Book Of Infinite Spells [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This narrow volume is bound in green leather with silver inlay shaped in the forms of letters from the elven alphabet. It gives off a moist, earthy smell, like a forest after a light rain.  Unlike a standard book of infinite spells, Tessarael's book contains only spells of levels 0 through 4th, and only has 18 pages remaining. The nature of each page is determined by a d% roll, with results of 01-60 designating an arcane spell and 61-100 indicating a divine spell. To determine the level of the spell, roll another d% and consult the following table.  d% Spell Level  01-05 0-level  06-45 1st-level  46-75 2nd-level  76-90 3rd-level  91-100 4th-level  To determine the exact spell on a page, either consult Tables 5-27 through 5-31 or 5-37 through 5-41 in the GameMastery Guide or simply determine it randomly by another means.  In all other ways (spells per day, effects on user, chance of page turning, and method of destruction), this book is equivalent to a standard book of infinite spells.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Fangwood Keep",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265189,
+    "modifiedTime": 1665949036606,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

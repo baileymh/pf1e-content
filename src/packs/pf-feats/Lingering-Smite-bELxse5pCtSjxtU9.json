@@ -3,7 +3,7 @@
   "name": "Lingering Smite",
   "type": "feat",
   "img": "systems/pf1/icons/skills/light_09.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can channel your divine energy through a melee weapon to cause lingering damage to undead creatures.</em><br/><br/><b>Prerequisites</b><br/>Channel Smite, channel energy 3d6.<br/><br/><b>Benefits</b><br/>When you use Channel Smite against a living creature (if you channel negative energy) or an undead creature (if you channel positive energy), you can damage your target slowly over a longer duration, rather than inflicting the normal effects of Channel Smite. Instead of the normal effects of successfully hitting with Channel Smite, you may choose the following effect. Starting on your target's next turn, it takes 1d8 points of damage each round at the beginning of its turn. This effect lasts for a number of rounds equal to the number of damage dice you use to roll your channel energy ability. Your target can attempt a Will save each round, as if saving against your channeled energy, to negate the damage dealt to it by this feat on that round. If your initial attack misses, the use of channel energy is still expended with no effect. Multiple uses of Lingering Smite (including those from multiple sources) do not stack, and instead reset the duration of the effect.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355646,
+    "modifiedTime": 1665949123874,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

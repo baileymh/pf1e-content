@@ -3,7 +3,7 @@
   "name": "Throne Of Blasphemy [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>By sitting on the throne of blasphemy and intoning profane blasphemies (a full-round action) with hands soaked in the blood of a good-aligned sentient being, a creature gains the ability to poison the minds of those nearby for 24 hours. Every round the seated creature speaks (a standard action), all creatures with Intelligence scores of 3 or higher within 100 feet must succeed at a Will save or be compelled to listen, becoming vulnerable to its blasphemies. The save DC is equal to 10 + the seated creature's Charisma modifier + 1/2 its Hit Dice. Deafened creatures, or those immune to sonic mind-affecting effects, are not considered to be listening.  The seated creature can then use its speech to affect listeners as if by the following spells: confusion (as a 4th-level spell), crushing despair (as a 4th-level spell), enthrall, modify memory, or suggestion (as a 3rd-level spell). The seated creature can affect multiple victims with different spell effects in the same round. The DC to resist these spells is equal to the original DC from above + the mimicked spell's level. Victims still receive saving throws against these effects, but if they fail their saves, they are not aware that the throne is working its power on them.  Any victim that succeeds at its saving throw against a particular spell effect is immune to that effect for the next 24 hours. However, it can still be affected by the throne's other spell effects. These are sonic mind-affecting effects.  A creature that gains the power to poison other creatures' minds from the throne maintains this ability for 24 hours even if it moves off the throne. If another creature sits on the throne and gains this power, any other creature that gained the ability this way immediately loses it.  The throne imposes 2 permanent negative levels on nonevil creatures that sit upon it and use its blasphemous power.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Hell Unleashed",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264732,
+    "modifiedTime": 1665949035939,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

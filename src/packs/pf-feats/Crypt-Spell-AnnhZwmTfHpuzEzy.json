@@ -3,7 +3,7 @@
   "name": "Crypt Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_04.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can infuse your magic with the unswayable power of the Boneyard, sending foes to face ineluctable judgment.</em><br/><br/><b>Benefits</b><br/>You can enhance any spell that inflicts hit point damage to become a crypt spell. A creature that dies within 1 round of being damaged by a crypt spell is considered to have been killed by a death effect for the purpose of being returned to life. An undead creature damaged by a crypt spell gains the sickened condition for a number of rounds equal to the spell's original spell level; this duration is halved if the undead creature succeeds at its saving throw against the spell. If the spell does not allow a save, the target can attempt a Will save to negate the sickened effect. A crypt spell gains the death descriptor.<br/><br/> A crypt spell uses a spell slot 1 level higher than the spell's normal spell level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352022,
+    "modifiedTime": 1665949120082,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

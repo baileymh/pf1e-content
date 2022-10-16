@@ -3,7 +3,7 @@
   "name": "Photosynthetic Healing",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_27.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can heal yourself using sunlight.</em><br/><br/><b>Prerequisites</b><br/>Con 15, change shape ability, leshy subtype.<br/><br/><b>Benefits</b><br/>You can temporarily draw energy from the sun to heal your wounds. Once per day while you are using change shape to assume a plant form, you can activate this ability as a free action to gain fast healing 1 for a number of rounds equal to your Hit Dice, as long as you are in an area of bright, natural sunlight.<br/><br/> When you rest in plant form in bright, natural sunlight, you are healed of twice the normal amount of hit point damage and ability score damage.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357443,
+    "modifiedTime": 1665949125718,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

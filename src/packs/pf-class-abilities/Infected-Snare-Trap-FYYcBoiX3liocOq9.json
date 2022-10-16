@@ -3,7 +3,7 @@
   "name": "Infected Snare Trap",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/longbow.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Ranger Trap</strong><br/><br/><p><b>Effect </b>A ranger can add this only to a snare trap. The snare is made of diseased materials, which contain an aggressive blight that saps the energy and bodily health from the target creature. When initially caught in the snare, the trapped creature must succeed at a Fortitude saving throw or immediately take 2 points of Constitution damage. Each subsequent hour, the creature must succeed at a Fortitude saving throw or take 2 points of Constitution damage. This effect lasts for 12 hours or until the creature makes two successful saving throws in a row, whichever comes first. This is a poison effect.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269318,
+    "modifiedTime": 1665949041594,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

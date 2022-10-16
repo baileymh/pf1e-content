@@ -3,7 +3,7 @@
   "name": "Haunt Scavenger",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/undead.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can use spiritual essence to craft magic items.</em><br/><br/><b>Prerequisites</b><br/>Any one item creation feat or Craft (alchemy) 3 ranks.<br/><br/><b>Benefits</b><br/>You can harvest the ectoplasmic remains of haunts, incorporeal undead, or the like to craft magic items. Whenever you encounter a recently neutralized haunt, the remains of an incorporeal undead creature, or the remains of a creature that has the ability to possess another creature using a racial spell-like ability or supernatural ability (such as a ghost or a shadow demon), you can attempt to extract material components from those remains that are suitable for crafting magic items. You must have access to an alchemist's lab (Pathfinder RPG Ultimate Equipment 76) in order to extract components from a haunt or creature, and you must begin extracting these components within 10 minutes of the haunt or creature's death or destruction. After 10 minutes, the components have degraded too much to be of any use to you. <br/><br/> Harvesting components with this feat can take several hours. Performing at least 1 minute of work extracting components from a haunt or creature prevents its material components from degrading further for 24 hours, allowing you to safely suspend and resume harvesting these components without fear of subsequent degradation. This ectoplasmic residue is portable once the extraction work begins, provided you have a vial to contain the source residue (the actual amount of residue is never much, physically, but the value of the components you can extract from the residue increases with the power of the original haunt or creature). <br/><br/> Each hour, attempt a Craft (alchemy) or a Knowledge (religion) check to successfully handle the residue and extract useful material. The DC for this check is equal to 15 + the CR of the haunt or creature being harvested. If you succeed at the check, you harvest 50 gp worth of components. If you fail the check by 4 or less, you can attempt to harvest those components again. If you fail the check by 5 or more, the residue spoils and you cannot scavenge any more from that particular source. A single source can yield an amount of components up to a maximum value of 50 gp per point of CR before it is depleted. <br/><br/> Material components harvested with Haunt Scavenger can be used in place of the material components of enchantment or necromancy spells and extracts, provided they are of equal or greater value compared to the spell's normal material components. Additionally, they can be used in place of actual gold to fund the construction of a magic item with an enchantment or necromancy aura.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353858,
+    "modifiedTime": 1665949121983,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Greater Vital Strike",
   "type": "feat",
   "img": "systems/pf1/icons/feats/greater-vital-strike.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can make a single attack that deals incredible damage.</em><br /><br /><strong>Prerequisites</strong><br />Improved Vital Strike, Vital Strike, base attack bonus +16.<br /><br /><strong>Benefits</strong><br />When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.<br /><br /><strong>Combat Trick</strong><br />When using the Vital Strike combat trick, you can spend 4 stamina points instead of 2 to reroll four damage dice.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: add a damage to Non-critical Damage Bonus Formula conditional modifier to your weapons with formula being&nbsp; 3 times the damage dice of the weapon.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353261,
+    "modifiedTime": 1665949121350,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

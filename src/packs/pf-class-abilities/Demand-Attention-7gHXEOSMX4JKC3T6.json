@@ -3,7 +3,7 @@
   "name": "Demand Attention",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Rogue Talent</strong><br/><br/><p>The first time each round that you deal sneak attack damage to an opponent, you can forgo sneak attack damage to distract the creature. The target must succeed at a Will save (DC = 10 + the number of sneak attack dice sacrificed + your Charisma modifier) or become distracted until the start of your next turn. Distracted opponents are entirely focused on you, and pay little attention to their surroundings; they are not considered to be observing other characters within 30 feet, allowing them to attempt Stealth checks to hide. A distracted opponent automatically fails Perception checks against creatures more than 30 feet away.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268114,
+    "modifiedTime": 1665949040181,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

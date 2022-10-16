@@ -3,7 +3,7 @@
   "name": "Cubic Spiral [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The cubic spiral regulates the environment around it when directed by a knowledgeable operator. Shallow gouges on one side of the block serve as a bed in which up to 20 tiny clusters of cubic minerals blossom and grow. Plucking a cluster is a standard action, and plucked clusters regrow on the relic in 1 month. Plucked clusters have no powers of their own, but inserting a cluster into one of the six holes in the cubic spiral as a standard action activates one of the artifact's functions. Once a user activates a function of the cubic spiral, the function remains active until complete (if a limitation is specified below), until the user commands the artifact to cease its function, or until the user is no longer within 1,000 feet. Except for the diminution function, the cubic spiral can engage in only one function at a time.  Diminution (front facing, smallest hole): The cubic spiral shrinks to any size between its full size and 1 foot in height, as commanded. The weight of the artifact decreases proportionally with its height; at its smallest size, it weighs 150 pounds.  Drill (front facing, middle hole): This function activates only if the cubic spiral is at its smallest size. The cubic spiral spins and pushes its way relentlessly in an indicated direction, boring an 18-inch-diameter hole into solid objects at a rate of 10 feet per round. The cubic spiral can bore through any material with a hardness of less than 20. Creatures can move easily out of the way of the spinning artifact, but those that don't take 20d6 points of slashing damage (no save). The user indicates a maximum distance when this function is activated, up to 1,000 feet. Once it has reached this distance, or if it cannot proceed to the full distance, the cubic spiral returns to the user through the borehole.  Slide (front facing, largest hole): The cubic spiral slides rapidly in an indicated direction at a speed of 100 feet per round. This movement need not be along the ground, as the artifact can slide through the air or across water. The cubic spiral deals 20d6 points of bludgeoning damage to creatures and objects in its path (Reflex DC 20 negates). If it's not at its full size, reduce the damage dealt by 1d6 for each foot smaller than its full size. The user indicates a maximum distance when this function is activated, up to 1,000 feet. The cubic spiral's slide stops at the end of this distance or if it encounters a wall or other impassable object. If airborne at the end of its slide, it falls but takes no damage regardless of the distance fallen.  Temperature Regulation (rear facing, smallest hole): The cubic spiral radiates waves of heat or cold to adjust the temperature within 1,000 feet. The user indicates a temperature between -20° F and 140° F, and the artifact maintains that temperature within the area.  Tornado (rear facing, middle hole): The cubic spiral spins quickly in place, creating an effect like a stationary tornado (Pathfinder RPG Core Rulebook 439) within 100 feet and creating severe winds within 1,000 feet.  Vacuum (rear facing, largest hole): The cubic spiral destroys all air adjacent to it each round. Creatures adjacent to the artifact can't speak, use breath weapons, cast spells with verbal components, or do anything else that requires breathing. If the cubic spiral is in a sealed chamber, air-breathing creatures in the chamber eventually suffocate.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 120",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264673,
+    "modifiedTime": 1665949035900,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

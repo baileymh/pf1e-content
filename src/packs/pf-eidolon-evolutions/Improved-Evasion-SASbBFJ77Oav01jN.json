@@ -3,7 +3,12 @@
   "name": "Improved Evasion",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_06.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.KMxHg0xuKE3doAcx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When subjected to an attack that allows a Reflex saving throw for half damage, an eidolon takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</p>",
       "chat": "",
@@ -69,7 +74,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -101,12 +105,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.KMxHg0xuKE3doAcx"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321316,
+    "modifiedTime": 1665949091473,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

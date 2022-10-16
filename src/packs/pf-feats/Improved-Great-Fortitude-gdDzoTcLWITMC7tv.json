@@ -3,7 +3,7 @@
   "name": "Improved Great Fortitude",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-great-fortitude.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can draw upon an inner reserve to resist diseases, poisons, and other grievous harm.</em><br/><br/><b>Prerequisites</b><br/>Great Fortitude.<br/><br/><b>Benefits</b><br/>Once per day, you may reroll a Fortitude save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "1",
@@ -105,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356337,
+    "modifiedTime": 1665949124612,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

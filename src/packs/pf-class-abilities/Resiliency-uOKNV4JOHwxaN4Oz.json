@@ -3,7 +3,7 @@
   "name": "Resiliency",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Rogue Talent</strong><br/><br/><p>Once per day, a rogue with this ability can gain a number of temporary hit points equal to the rogue's level. Activating this ability is an immediate action that can only be performed when she is brought to below 0 hit points. This ability can be used to prevent her from dying. These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss of these temporary hit points, she falls unconscious and is dying as normal.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277066,
+    "modifiedTime": 1665949049833,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

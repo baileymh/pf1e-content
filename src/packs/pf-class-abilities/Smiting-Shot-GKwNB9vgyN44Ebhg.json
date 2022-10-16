@@ -3,7 +3,7 @@
   "name": "Smiting Shot",
   "type": "feat",
   "img": "systems/pf1/icons/spells/protect-royal-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Holy Gun Deed</strong><br/><br/><p>A holy gun can spend 1 grit point to make a smiting shot with a firearm attack as a standard action. If the target is evil, the holy gun adds her Charisma bonus and her paladin level to the damage of the firearm attack. If the target of the smiting shot is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage increases to the Charisma modifier plus 2 points of damage per level the paladin possess. Regardless of the target, smiting shot automatically bypasses any DR the creature might have. This ability replaces smite evil.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269379,
+    "modifiedTime": 1665949041645,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

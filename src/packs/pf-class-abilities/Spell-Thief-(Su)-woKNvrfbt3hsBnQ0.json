@@ -3,7 +3,7 @@
   "name": "Spell Thief (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Arcanist Exploit - Greater</strong><br/><br/><p>The arcanist can steal a spell affecting one creature by expending 1 point from her arcane reservoir. If the creature is unwilling, she must succeed at a melee touch attack to steal the spell; the target can attempt a Will saving throw to negate the effect. The arcanist can specify a spell affecting the target to steal, but if she's incorrect or doesn't know what spells are affecting the target, the spell stolen is determined randomly from all those affecting the target. If successful, the spell effect transfers to the arcanist, affecting her for the remaining duration. Unless the effect normally allows for a new saving throw during its duration (such as at the end of each round), this ability doesn't grant the arcanist a saving throw against it. The arcanist cannot use this ability to steal a spell with a range of personal or a duration of permanent. The arcanist must have the spell tinkerer exploit to select this exploit.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277254,
+    "modifiedTime": 1665949050029,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,30 @@
   "name": "Maximum Attacks",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_23.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.NK6uUChnbFGLuMnq"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>This indicates the maximum number of natural attacks that the eidolon is allowed to possess at the given level.</p>\n<p>If the eidolon is at its maximum, it cannot take evolutions that grant additional natural attacks.</p>\n<p>This does not include attacks made with weapons.</p>",
       "chat": "",
@@ -48,6 +71,11 @@
         "uses": {
           "autoDeductCharges": false,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 1,
           "maxFormula": "3 + floor((@classes.eidolon.level + 1) / 5)",
@@ -102,6 +130,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -167,7 +196,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -201,30 +229,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "scene-packer": {
-      "sourceId": "Item.NK6uUChnbFGLuMnq"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321394,
+    "modifiedTime": 1665949091527,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

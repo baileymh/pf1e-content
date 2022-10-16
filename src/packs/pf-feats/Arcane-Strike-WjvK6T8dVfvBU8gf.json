@@ -3,7 +3,7 @@
   "name": "Arcane Strike",
   "type": "feat",
   "img": "systems/pf1/icons/feats/arcane-strike.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You draw upon your arcane power to enhance your weapons with magical energy.</em><br /><br /><strong>Prerequisites</strong><br />Ability to cast arcane spells.<br /><br /><strong>Benefits</strong><br />As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming damage reduction. For every five caster levels you possess, this bonus increases by +1, to a maximum of +5 at 20th level.<br /><br /><strong>Combat Trick</strong><br />You can spend any number of stamina points to increase the duration of this feat's effects by 1 round for each stamina point spent.</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -104,6 +109,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -164,7 +170,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -198,8 +203,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355066,
+    "modifiedTime": 1665949123290,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

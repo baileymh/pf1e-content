@@ -3,7 +3,7 @@
   "name": "Plague Vector",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>The effects of the alchemist's plague bomb operate as normal except for the following changes. The chosen disease's save DC is equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Any creatures affected by the chosen disease become vectors for it, spreading the disease to any creatures they come in physical contact with for a number of days equal to the alchemist's Intelligence modifier (minimum 1). The save DC to avoid contracting the disease from the vector is the same as the DC used for this discovery. An alchemist must be at least 14th level and must have the plague bomb discovery to select this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428273973,
+    "modifiedTime": 1665949046634,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

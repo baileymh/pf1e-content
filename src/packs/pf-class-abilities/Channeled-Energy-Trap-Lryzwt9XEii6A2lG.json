@@ -3,7 +3,7 @@
   "name": "Channeled Energy Trap",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/longbow.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Ranger Trap</strong><br/><br/><p><b>Effect </b>This trap creates a positive or negative energy effect designed to harm either undead or living creatures, respectively. The target takes a number of points of damage equal to 1d8 + the ranger's level from either positive energy or negative energy (Will save for half). If this is an extraordinary trap, the ranger must supply a vial of holy water (positive energy) or unholy water (negative energy).</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428270472,
+    "modifiedTime": 1665949042882,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

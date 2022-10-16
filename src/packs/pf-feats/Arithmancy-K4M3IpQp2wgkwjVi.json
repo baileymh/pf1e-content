@@ -3,7 +3,7 @@
   "name": "Arithmancy",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_41.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You are able to unravel the hidden meanings behind words by translating them into numerical equations. You can apply this insight to empower your magical effects.</em><br /><br /><strong>Prerequisites</strong><br />Int 13, Spell Focus (divination), Spellcraft 3 ranks.<br /><br /><strong>Benefits</strong><br />Immediately before casting a spell, as a swift action, you can attempt to augment a spell's casting using Arithmancy. To do so, determine the digital root of the name of the spell you are casting.<br />To find the digital root of a spell name, first assign a numerical value to each letter of the name, per the Letter Values table. Once you have a string of digits, sum them.</p>\n<table class=\"inner\">\n<tbody>\n<tr>\n<td><strong>Numerical Value</strong></td>\n<td><strong>Associated Letters</strong></td>\n</tr>\n<tr>\n<td>1</td>\n<td>a, j, s</td>\n</tr>\n<tr>\n<td>2</td>\n<td>b, k, t</td>\n</tr>\n<tr>\n<td>3</td>\n<td>c, l, u</td>\n</tr>\n<tr>\n<td>4</td>\n<td>d, m, v</td>\n</tr>\n<tr>\n<td>5</td>\n<td>e, n, w</td>\n</tr>\n<tr>\n<td>6</td>\n<td>f, o, x</td>\n</tr>\n<tr>\n<td>7</td>\n<td>g, p, y</td>\n</tr>\n<tr>\n<td>8</td>\n<td>h, q, z</td>\n</tr>\n<tr>\n<td>9</td>\n<td>i, r</td>\n</tr>\n</tbody>\n</table>\n<p><br />If the result has more than one digit, sum those digits. Repeat this process until you arrive at a single number, called the digital root.<br />Once you've translated the name of the spell into a single digital root, attempt a Spellcraft check with a DC equal to 10 + the spell level + the digital root. If your check succeeds, the spell is cast at +1 caster level. If your check fails, the spell is cast at -1 caster level. If you do not cast the spell you intended to augment with arithmancy, the spell is expended with no effect, though you retain the action you would have spent to cast it. Metamagic effects are not included in a spell's name when determining the spell's digital root, but they increase the spell's level as normal when determining the DC of the Spellcraft check.</p>\n<p><br />You can use this ability a number of times per day equal to the number of caster levels you possess.</p>\n<p><br />For example, Ezren wants to use Arithmancy to cast an augmented fireball. First, he translates the spell name into numbers. Fireball translates to 6, 9, 9, 5, 2, 1, 3, 3. Then he calculates the digital root. In this case, 6 + 9 + 9 + 5 + 2 + 1 + 3 + 3 = 38, 3 + 8 = 11, and 1 + 1 = 2. Therefore, the digital root of fireball is 2. He then attempts a Spellcraft check against a DC of 15 (10 + 3 [fireball's spell level] + 2 [fireball's digital root]). If his check succeeds, he can cast the fireball this round at +1 caster level. If he fails, he can cast the spell at -1 caster level this round. He may also choose not to cast fireball and perform another action, though he expends the spell.</p>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353365,
+    "modifiedTime": 1665949121429,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

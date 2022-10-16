@@ -3,7 +3,7 @@
   "name": "Black Iron Axe [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When a mythic creature uses this +6 keen vorpal greataxe forged from a dull black alloy to decapitate his foes, the axe's head glows with dozens of mysterious runes. The wielder of a black iron axe can claim any heads he decapitates with the artifact, and use them as batteries for mythic power. The axe's wielder can place a single use of mythic power into the head as a full-round action for later use. A decapitated head rots and become useless in 1d6 days. Only the creature that placed the use of mythic power in a head can use the power stored within it, and she must be in physical contact with the head to do so. Each head weighs 10 pounds.<br><p><b>Base Item:</b> +6 keen vorpal greataxe</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264855,
+    "modifiedTime": 1665949036034,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

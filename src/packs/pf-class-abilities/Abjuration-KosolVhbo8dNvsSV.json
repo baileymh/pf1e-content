@@ -3,7 +3,7 @@
   "name": "Abjuration",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/book-purple.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Occultist Implement</strong><br/><br/><p>Abjuration implements are objects associated with protection and wards.</p><p><b>Implements: </b>Amulet, armor, bell, bracers, brooch, cloak, holy symbol, shield.</p><p><b>Resonant Power: </b>Each time the occultist invests mental focus into an abjuration implement, the implement grants the following resonant power. The implement's bearer gains the benefits of this power until the occultist refreshes his focus.</p><p><i>Warding Talisman (Su): </i>The implement wards against adverse effects. Whoever wears (or holds, for bells) the implement gains a +1 resistance bonus on saving throws for every 2 points of mental focus invested in the implement, to a maximum bonus of 1 + 1 for every 4 occultist levels you possess.</p><p><b>Base Focus Power: </b>All occultists who learn to use abjuration implements gain the following focus power.</p><p><i>Mind Barrier (Sp): </i>As a swift action, you can expend 1 point of mental focus to create a shield of mental energy around you that protects you from harm. The shield prevents a total of 2 points of damage per occultist level you possess. It lasts until the start of your next turn or until exhausted. For example, if you are 5th level, the mind barrier protects you from 10 points of damage; if you are hit by an attack that would deal 12 points of damage, the mind barrier is exhausted and you take 2 points of damage. You can activate this ability as an immediate action, but doing so costs 2 points of mental focus instead of 1.</p><p><b>Focus Powers: </b>In addition to gaining the base focus power, occultists who learn to use abjuration implements can select from the following focus powers when choosing the powers gained from their focus powers class feature.</p><p><i>Aegis (Su): </i>As a standard action, you can expend 1 point of mental focus and touch a suit of armor or a shield to grant it an enhancement bonus. The bonus is equal to 1 + 1 for every 6 occultist levels you possess (to a maximum bonus of +4 at 18th level). Enhancement bonuses gained via this ability stack with those of the armor or shield, to a maximum total enhancement bonus of +5. You can also imbue the armor or shield with any one armor or shield special ability that has an equivalent enhancement bonus less than or equal to your maximum bonus granted by this ability by reducing the granted enhancement bonus by the appropriate amount. The item must have an enhancement bonus of at least +1 (from the item itself or from aegis) to gain an armor or shield special ability. In either case, these bonuses last for 1 minute.</p><p><i>Energy Shield (Sp): </i>As a swift action, you can expend 1 point of mental focus to surround yourself with a shield that protects you from energy damage. Whenever you take acid, cold, electricity, or fire damage, the shield absorbs the damage (as protection from energy). The energy shield can absorb up to 5 points of energy damage per occultist level you possess. This shield lasts for 1 minute or until its power is exhausted. Its effect doesn't stack with itself, with protection from energy, or with resist energy. You can activate the energy shield as an immediate action by expending 2 points of mental focus instead of 1. You must be at least 3rd level to select this focus power.</p><p><i>Globe of Negation (Sp): </i>As a standard action, you can expend 3 points of mental focus to create a stationary globe of negation. This globe is 10 feet in diameter and cancels any spell effect that is cast into or through its area. This functions as globe of invulnerability, but it affects spells of any level. The globe can negate a total number of spell levels equal to your occultist level, after which the globe collapses. Spells that exceed the number of remaining levels remove all remaining levels, but are weakened; any creatures targeted by such spells receive a +4 circumstance bonus on any saving throws against the spells' effects. The globe lasts for a number of rounds equal to your occultist level. It has no effect on spells originating within the globe-only on those that enter its area as or after they are cast. You must be at least 11th level to select this focus power.</p><p><i>Loci Sentry (Sp): </i>As a standard action, you can expend 1 point of mental focus to set a ward about an area. This area has a maximum radius of 10 feet + 5 feet per occultist level you possess. Whenever a creature enters the area, a sentry manifested by your psyche appears and strikes out at the intruder. The affected creature must succeed at a Will save or be dazed for 1 round. You are immediately aware of the sentry's activation. The sentry lasts for up to 1 hour per occultist level you possess, or until triggered. When you set the sentry, you can set any number of specif ic creatures to be immune to the sentry and thus avoid triggering it.</p><p><i>Planar Ward (Sp): </i>As a standard action, you can expend 2 points of mental focus to surround yourself with a planar ward. Creatures not native to the plane that you are currently on take a -4 penalty on attacks against you, and you receive a +4 circumstance bonus on saving throws against the spells, spell-like abilities, and supernatural abilities of such creatures. This ward lasts for 1 minute.</p><p><i>Unraveling (Sp): </i>As a standard action, you can expend 1 point of mental focus to unravel a magical effect. This functions as a targeted dispel magic spell, but you must be adjacent to the effect to unravel it. If the effect is created by psychic magic, you receive a +5 bonus on your caster level check to unravel it. If the effect targets an object in your possession, you automatically succeed at the check. You must be at least 5th level to select this focus power.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428270385,
+    "modifiedTime": 1665949042805,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

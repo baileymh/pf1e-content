@@ -3,7 +3,7 @@
   "name": "Vesper's Rapier [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Despite its best-known name, Vesper's Rapier is not necessarily a rapier. This weapon is a +3 keen speed sword, with the type of sword varying from wielder to wielder. Upon being taken up by a new owner, the weapon transforms into any type of sword of the wielder's choosing, mundane or exotic. From that point on, the weapon always transforms into that type of sword whenever it is held by that individual. While bearing Vesper's Rapier, the wielder gains a +4 bonus on Bluff and Diplomacy checks made to influence humanoids, and can use the rapier like a compass to point in the direction of the closest collection of gems, silver, or drinkable water as a standard action at will.  The sword also grants the wielder the ability to either slip or tighten the bonds of the physical world, granting her the ability to cast dimension door, dimensional lock, or greater teleport. These powers have limits, though, as they can drain the sword's magical abilities for the day-dimensional lock and greater teleport can be used once per day and drain the sword immediately after their use; dimension door can be used at will, but drains the sword after 3 uses, though the wielder can continue to use dimension door even if the sword is drained (this is the only effect that functions even when the sword is drained). If the sword becomes drained, it loses all of its magical properties (aside from dimension door), including its +3 enhancement bonus, skill bonuses, and the keen and speed special abilities. All of these properties are restored every day at midnight.<br><p><b>Base Item:</b> +3 keen speed sword</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264851,
+    "modifiedTime": 1665949036030,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

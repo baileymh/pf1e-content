@@ -3,7 +3,7 @@
   "name": "Soul Portrait [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A soul portrait is a painting imbued with immense magical power attached to a solid wooden frame. The exact image presented on each soul portrait varies, and has a magical effect only if it depicts the likeness of its current owner. The owner doesn't need to be depicted alone, and additional figures painted in the background don't interfere with the effect.  The owner of a soul portrait doesn't appear to age and no  longer takes the penalties associated with aging, but she still gains the appropriate mental bonuses. As the owner would normally age, the portrait appears to age instead. The owner of a soul portrait does not die of old age. If someone benefitting from this effect ceases to be the portrait's owner, she immediately gains all associated physical penalties from her current age, and her appearance changes appropriately; if the owner is past her maximum age, she withers and dies instantly.  When scrutinized by magical means (such as aura sightACG, detect evil, detect magic, or discern lies), the owner gains the benefits of a special misdirection with no saving throw allowed for the would-be investigator. For the purposes of the misdirection, the soul portrait provides results as the owner would have when she first acquired the portrait. Unlike a normal misdirection, this effect is not limited to spells that detect her aura. Whenever it would be beneficial to her, the owner counts as her younger self for any spell or effect that gathers information. For instance, if she denies committing a crime she perpetrated after she commissioned the portrait, all forms of truth magic would reveal her denial as being true. Even spells like detect thoughts would reveal the thoughts of her younger self.  When the portrait's owner would take ability damage, ability drain, or negative levels, she takes no adverse effects until they would be fatal (though she continues to accrue them in the portrait), and her image on the soul portrait twists in horrific agony as if suffering for its owner. Whenever any of the accrued maladies would be fatal (such as a number of negative levels equal to the owner's Hit Dice), the owner immediately dies. The soul portrait can be healed of ability damage, ability drain, and negative levels to reduce the accrued maladies by any effects that would normally heal these maladies.  When the owner of a soul portrait dies, her soul is pulled into the canvas and her likeness becomes a character in the background, leaving space for a new portrait. A creature can claim ownership over a soul portrait by commissioning an artist to paint her likeness over the original image. The new owner must be present and willing while the artist paints, and the artist must succeed at a DC 25 Craft (painting) check to create a sufficient likeness for the artifact to accept the new owner. Once this happens, if the previous owner is still alive, she ceases to be the soul portrait's owner and ages as described above. The portrait can't be cut, burned, or otherwise damaged, except as described in the destruction requirements below.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265121,
+    "modifiedTime": 1665949036380,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

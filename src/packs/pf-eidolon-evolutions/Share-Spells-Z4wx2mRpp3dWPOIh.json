@@ -3,7 +3,12 @@
   "name": "Share Spells",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.yYF0azvMLNSRc2QJ"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The summoner may cast a spell with a target of &ldquo;you&rdquo; on his eidolon (as a spell with a range of touch) instead of on himself. A summoner may cast spells on his eidolon even if the spells normally do not affect creatures of the eidolon's type (outsider). </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">Spells cast in this way must come from the summoner spell list. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">This ability does not allow the eidolon to share abilities that are not spells, even if they function like spells.</span></p>",
       "chat": "",
@@ -64,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -96,12 +100,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.yYF0azvMLNSRc2QJ"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321334,
+    "modifiedTime": 1665949091487,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Oculus of Abaddon [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>An oculus of Abaddon is a potent artifact rumored to have been created by one of the Four Horsemen of the Apocalypse as a way to reward those who work as their agents on the Material Plane. More likely, these items were crafted by a powerful pre- Earthfall race that has long since moved on, leaving behind these dangerous artifacts to tempt mortals into serving the needs of the Horsemen. An oculus of Abaddon appears as a sphere of clear crystal that contains a pinpoint of flickering red light at its center. When held, the oculus feels warm to the touch and fills the holder with a sudden desire to pluck out an eye and place the oculus within the socket-this causes 1d8 points of damage, 1 point of bleed damage, and 2 points of Constitution damage. Once placed in an eye socket, the oculus can only be removed by ripping it free (causing the same amount of damage as the initial plucking). An oculus placed in an empty eye socket immediately heals all damage caused by plucking the previous eye out. Once placed, an oculus allows its new owner to utilize its powers, as listed below. • Darkvision to a range of 120 feet (constant) • True seeing once per day as a free action • Greater scrying three times per day • Planar binding once per week (only to summon natives of Abaddon, such as daemons or soul eaters) • Familiar farsight at will (if the user has a familiar or an animal companion, he may use clairaudience/clairvoyance to observe the world through his familiar, despite any intervening distance as long as he and the familiar are on the same plane) The oculus of Abaddon's greatest power, though, is its haunting beckon. This ability is usable once per year, and allows the user to manipulate the minds of a huge number of targets, provided that the end goal of the manipulation is a tragic or otherwise horrific fate for those being manipulated. This functions as mass charm monster, but with a range of 1 mile, and establishes a telepathic link between the caster and all minds in that area. The effects are still language-dependant despite this telepathy-creatures without the ability to understand language (typically, creatures with an Intelligence score of 2 or lower) are unaffected. All other creatures are automatically affected unless they have 6 or more HD, in which case they gain a DC 22 Will save to resist the effects. Spell resistance applies regardless of HD. The oculus of Abaddon is powerfully neutral evil and possesses a limited and hateful intellect of its own. While not capable of communicating directly with its owner, it refuses to activate its powers for any user who is not neutral evil.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 33",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "eyes",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264943,
+    "modifiedTime": 1665949036095,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

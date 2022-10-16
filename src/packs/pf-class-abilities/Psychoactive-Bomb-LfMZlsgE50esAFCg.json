@@ -3,7 +3,7 @@
   "name": "Psychoactive Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>Psychoactive bombs are mixed with neurotoxic extracts that heighten certain sensations. A creature struck by a psychoactive bomb takes a -1 penalty on saving throws against charm, emotion, fear, and pain effects, and the DC for Intimidate checks against the victim decreases by 2. This effect lasts for 1 hour per alchemist level. These penalties do not stack, and a creature can only be affected by a single psychoactive bomb at a time. A psychoactive bomb deals 1d6 fewer hit points of damage than normal. An alchemist must be at least 6th level before selecting this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428270457,
+    "modifiedTime": 1665949042871,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

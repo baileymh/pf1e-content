@@ -3,7 +3,7 @@
   "name": "Rag Doll Mutagen (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Mutagen</strong><br/><br/><p>When the alchemist imbibes a mutagen, his body and bones become rubbery and easy to contort. The alchemist gains a bonus equal to his class level on Escape Artist checks, can squeeze through places as if he were one size category smaller, and can make a Reflex save (DC equal to 15 + 1 for every 10 feet fallen) to take half damage from falling. At 10th level, all falling damage is considered nonlethal damage, and the alchemist can squeeze through places as if he were two size categories smaller than his size while under the effects of this mutagen.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428276552,
+    "modifiedTime": 1665949049323,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

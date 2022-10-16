@@ -3,7 +3,7 @@
   "name": "Anathema",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/pipe.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Investigator Talents</strong><br/><br/><p>When an investigator creates or prepares a poison, including poisons derived from racial or class abilities, he can spend one use of inspiration to create an anathema instead. Anathemas count as poisons, but they can affect creatures that are normally immune to poison, as they exploit vulnerabilities in their very nature rather than their biology. When an anathema is created, select a creature type (and subtype, if applicable) from the ranger favored enemy list; the anathema functions only against this chosen type. The investigator also chooses one of the following special abilities for the anathema to affect: damage reduction (except DR/-), energy resistance (one type chosen by the investigator), fast healing, movement speed, or spell resistance.</p><p>The method of delivery (contact, ingested, inhaled, or injury) and the DC of the anathema's save are identical to those of the poison used to make the anathema. If the target fails its save against the anathema (even if the enemy is normally immune to effects that require a specific save, such as undead's immunity to effects that require a Fortitude save), the value of the chosen ability is lowered by 5 (minimum 0) for 1 round per investigator level.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272822,
+    "modifiedTime": 1665949045394,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

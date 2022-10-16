@@ -3,7 +3,7 @@
   "name": "The Waning Bolero (Dance)",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lute.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Bard - Masterpieces</strong><br/><br/><p>Your deliberate dancing causes your foes' steps to fall in time to your own.</p><p>Prerequisite: Perform (dance) 10 ranks.</p><p>Cost: Feat or 4th-level bard spell known.</p><p>Effect: You enact a series of graceful, measured steps that your enemies cannot help but mimic. When you complete the performance, any foe within 60 feet that can see you is slowed (as per the slow spell) for as long as you continue the performance. A Will saving throw negates this effect.</p><p>Each round you continue the performance, each slowed creature within 60 feet (whether slowed by this masterpiece or by another effect) must succeed at another Will saving throw or its penalty on attack rolls, AC, and Reflex saves increases by 1 as the slow dance movements overtake it. This increased penalty lasts as long as you continue the performance. A creature that succeeds at this Will saving throw merely avoids increasing the penalty for that round; success does not remove the effect that slowed it.</p><p>Use: 1 bardic performance round per round.</p><p>Action: 1 full round.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269868,
+    "modifiedTime": 1665949042228,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

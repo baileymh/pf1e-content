@@ -3,7 +3,7 @@
   "name": "Sleeper Hold",
   "type": "feat",
   "img": "systems/pf1/icons/feats/athletic.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>By maintaining a grapple hold on your opponent, you can cause it to lose consciousness.</em><br/><br/><b>Prerequisites</b><br/>Greater Grapple, base attack bonus +8.<br/><br/><b>Benefits</b><br/>You must declare that you are using this feat before you make a combat maneuver check to maintain a grapple (thus a failed check to maintain the grapple ruins the attempt). If you maintain a grapple for a number of consecutive rounds equal to your opponent's Constitution bonus (minimum 1 round), you can attempt to knock out your opponent. The victim must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Str modifier) or else it falls unconscious for 1d4 rounds. Each successive round you attempt this, the target takes a cumulative -1 penalty on its saving throw. When you use this feat, you take an additional -2 penalty to your AC. Creatures that are immune to bleed damage, stunning, or critical hits are immune to this ability.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355467,
+    "modifiedTime": 1665949123724,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

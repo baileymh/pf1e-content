@@ -3,7 +3,7 @@
   "name": "Sabotage Magic Item",
   "type": "feat",
   "img": "icons/commodities/metal/barstock-broken-steel.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can cause magic items to suffer mishaps.</em><br/><br/><b>Prerequisites</b><br/>Magical Aptitude, Disable Device 5 ranks, Use Magic Device 5 ranks.<br/><br/><b>Benefits</b><br/>You can attempt a Use Magic Device check to sabotage a magic item rather than to activate it, with the same DC as activating it blindly. If you succeed at the check, you define a condition under which the magic item will suffer a mishap, either dealing 2d6 points of damage to the creature attempting to use the magic item and failing to perform its desired function or else affecting the wrong target. The condition must be either an audible or a visual trigger, as defined by the magic mouth spell. If you fail the check, you suffer a mishap instead, just as if you had failed to activate the item blindly by 10 or more.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355003,
+    "modifiedTime": 1665949123231,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

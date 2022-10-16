@@ -3,7 +3,7 @@
   "name": "Synchrony Device [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Synchrony Device is a large, spherical mass of intertwining, spinning rings, each covered in complex runes and sigils. Designed by the Spindle Solution prior to Earthfall as a weapon of mass destruction, the device currently rests in a secure research facility known as the Compass. For more information on the device's location, see page 50.  Activating the Synchrony Device involves manipulating the confusing, and often unlabeled, controls on the control dais beneath the device while attempting a variety of Knowledge and Disable Device checks, all of which have a minimum DC of 35. When doing so, the user sets the device's target, selecting any location eligible as the target of a greater teleport spell, and the plane to which the device is to be attuned from the following options: Negative Energy Plane, Plane of Air, Plane of Earth, Plane of Fire, Plane of Water, and Positive Energy Plane.  When it detonates, the device creates a 500-mile-radius burst, the effects of which depend on which plane it was attuned to when activated (as detailed below). The effects of the device are instantaneous unless otherwise noted.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 126",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264636,
+    "modifiedTime": 1665949035874,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

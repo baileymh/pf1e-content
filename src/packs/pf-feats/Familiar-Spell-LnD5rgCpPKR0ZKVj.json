@@ -3,7 +3,7 @@
   "name": "Familiar Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_18.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can imbue your familiar with a spell.</em><br /><br /><strong>Prerequisites</strong><br />Spellcaster with familiar class feature.<br /><br /><strong>Benefits</strong><br />You can transfer a prepared spell to your familiar, allowing the familiar to cast that spell at a later time. Variables that rely on caster level function according to your caster level, not your familiar's Hit Dice, though your familiar's Intelligence may influence how precisely it can follow your instructions on how to use these spells.<br /><br />Your familiar must be able to speak to cast spells with a verbal component (the ability to speak with its master or creatures of its kind is insufficient). Your familiar must be carrying any material or focus components necessary, unless the materials cost less than 1 gp and the spell is prepared with Eschew Materials. Attack rolls use your familiar's ability scores. A familiar spell counts against the number of spells you may prepare for as long as your familiar retains the spell. Once your familiar casts a retained spell, you can prepare a new spell in that slot the next time you prepare spells.<br /><br />A familiar spell uses up a spell slot 3 levels higher than the spell's actual level. Your familiar can store a number of spell levels (including this modifier) equal to your caster level, but no spell's adjusted level can exceed half your caster level.<br /><br /><strong>Special</strong><br />If you are a spontaneous caster, you must select a specific spell with which to imbue your familiar; you cannot imbue your familiar with an open spell slot.</p>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353773,
+    "modifiedTime": 1665949121914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Improved Damage (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/weapon_06.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.HG4ro59BD2EQoWUk"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>One of the eidolon's natural attacks is particularly deadly.</p>\n<p>Select one natural attack form and increase the damage die type by one step. This evolution can be selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it applies to a different natural attack.</p>\n<p><strong>Usage</strong></p>\n<p>For the selected attack, edit the damage formula to be</p>\n<p>sizeRoll(1, X, @size + 1, 4) rather than sizeRoll(1, X, @size, 4)</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.HG4ro59BD2EQoWUk"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321339,
+    "modifiedTime": 1665949091490,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Enchantment",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/book-purple.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Occultist Implement</strong><br/><br/><p>Enchantment implements allow the occultist to befuddle the mind and charm his foes.</p><p><b>Implements: </b>Censer, crown, helm, musical instrument, necklace.</p><p><b>Resonant Power: </b>Each time the occultist invests mental focus into an enchantment implement, the implement grants the following resonant power. The implement's bearer gains the benefits of this power until the occultist refreshes his focus.</p><p><i>Glorious Presence (Su): </i>The implement invokes the presence of those who have worn it in the past. The implement's wearer gains a +1 competence bonus on all Charisma-based skill checks and ability checks for every 2 points of mental focus invested in the implement, to a maximum bonus of 1 + 1 for every 4 occultist levels you possess.</p><p><b>Base Focus Power: </b>All occultists who learn to use enchantment implements gain the following focus power.</p><p><i>Cloud Mind (Su): </i>As a standard action, you can expend 1 point of mental focus to cloud the mind of one foe within 30 feet. That foe is dazed for 1 round if the number of Hit Dice it possesses is less than or equal to or your occultist level. If it has more Hit Dice than your occultist level, it is staggered for 1 round instead. The foe can attempt a Will saving throw to negate the effect. Whether or not it succeeds at the save, the target is then immune to this effect for 1 day. This is a mind-affecting effect.</p><p><b>Focus Powers: </b>In addition to gaining the base focus power, occultists who learn to use enchantment implements can select from the following focus powers when choosing the powers gained from their focus powers class feature.</p><p><i>Binding Pattern (Sp): </i>As a standard action, you can expend 1 point of mental focus to create a binding pattern of psychic energy that causes a living creature to become paralyzed. The target must be within 30 feet of you, and it can attempt a Will saving throw to negate the effect. If it fails the save, it is paralyzed for 1 round for every 2 occultist levels you possess. At the end of each of its turns, it can attempt another Will save to end the paralyzed effect and instead be staggered for the remaining duration. This is a mind-affecting compulsion effect. You must be at least 7th level to select this focus power.</p><p><i>Forced Alliance (Sp): </i>As a standard action, you can alter a living creature's mind, causing it to see you as a friend and ally. If the creature is the same creature type as you, this power requires you to expend 1 point of mental focus; if it's is not, you must expend 2 points instead. The creature can attempt a Will save to negate this effect. If it fails the saving throw, the creature treats you as an ally and doesn't attempt to harm you (although your allies are not protected). You can call on the creature to aid you directly, but while doing so the creature can attempt a new Will save at the end of each round to end the effect. This effect otherwise lasts 1 round per occultist level you possess. This is a mind-affecting charm effect. You must be at least 5th level to select this focus power.</p><p><i>Inspired Assault (Sp): </i>As a standard action, you can inspire a living creature with a touch by expending 1 point of mental focus. The creature receives a morale bonus on attack rolls equal to 1 + 1 for every 6 occultist levels you possess (to a maximum bonus of +4 at 18th level). This bonus also applies on saving throws against fear effects. This bonus lasts for 1 minute.</p><p><i>Mental Discord (Sp): </i>As a standard action, you can expend 1 point of mental focus to disrupt the mind of one living creature within 30 feet. The creature can attempt a Will saving throw to negate the effect. If it fails the save, the creature can't concentrate on any spell effects and must succeed at a concentration check to cast any spell (DC = 15 + double the spell level). The affected creature takes a -4 penalty on this check if the spell includes a thought component. The creature takes a -2 penalty on all Will saving throws while under this effect. This effect lasts for 1 round per occultist level you possess.</p><p><i>Mind Slumber (Sp): </i>By expending 1 point of mental focus as a standard action, you can lull a living creature into a deep mental slumber, forcing it to view the world as a dream. The target must be within 30 feet of you, and it can attempt a Will saving throw to negate the effect. If it fails the save, the creature falls asleep, although it still perceives the world around it as a dream. This doesn't cause the creature to fall prone, but it does drop whatever it is holding. The creature can't take any actions while in this state, but it isn't helpless- it perceives danger as part of its dream. The creature remains asleep for a number of rounds equal to your occultist level or until it takes any amount of damage, which immediately wakes it. At the end of each of its turns, it receives another Will saving throw to end the effect. The creature can be manipulated or examined without waking it, but it can't be moved from its square without waking it. This is a mindaffecting compulsion effect. Regardless of whether it succeeds at the save, the target is then immune to this effect for 24 hours. You must be at least 3rd level to select this focus power.</p><p><i>Obey (Sp): </i>As a standard action, you can issue a command to one living creature by expending 1 point of mental focus. This functions as command. The target must be within 30 feet and capable of understanding your order. The target can attempt a Will save to negate this effect. If the creature is the same creature type as you, it takes a -2 penalty on this saving throw.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428271695,
+    "modifiedTime": 1665949044192,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

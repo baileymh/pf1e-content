@@ -3,7 +3,12 @@
   "name": "Alignment Smite (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/light_04.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.tGNbzL5T8vtuJ6W9"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Choose a single alignment component that opposes one of the summoner's own.&nbsp;</p>\n<p>Once per day as a swift action, the eidolon chooses one target within sight. If this target's alignment matches that chosen for this ability, the eidolon deals an additional +1d6 points of damage with one of its natural weapons. This attack is treated as good-aligned for the purposes of overcoming damage reduction. The alignment smite persists until the target is dead or the eidolon is dismissed.</p>\n<p>At 10th level, the summoner may spend 1 additional evolution point to allow the eidolon a second daily use of this ability.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 5th level before selecting this evolution. Evil or true neutral summoners cannot select this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -110,6 +120,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -176,7 +187,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -224,12 +234,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.tGNbzL5T8vtuJ6W9"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321288,
+    "modifiedTime": 1665949091453,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

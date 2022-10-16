@@ -3,7 +3,30 @@
   "name": "Eidolon Feats",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blood_07.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.Sf8nj2xULzL5EFRH"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>This is the total number of feats possessed by an eidolon: [[ceil((round((@classes.eidolon.level - 1) * .75) + 1) / 2)]]. Eidolons can select any feat that they qualify for, but they must possess the appropriate appendages to use some feats. Eidolon feats are set once chosen, even if the creature changes when the summoner gains a new level.</p>\n<p>If, due to changes, the eidolon no longer qualifies for a feat, the feat has no effect until the eidolon once again qualifies for the feat.</p>",
       "chat": "",
@@ -30,12 +53,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -70,7 +88,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -127,100 +144,34 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
+    "attack": {},
     "size": "med",
-    "identifiedName": "Eidolon Feats"
+    "identifiedName": "Eidolon Feats",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-companion-features.w8QhU9qZ4VXxO4Ij"
-    },
-    "pf1": {},
-    "scene-packer": {
-      "sourceId": "Item.Sf8nj2xULzL5EFRH"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321289,
+    "modifiedTime": 1665949091454,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

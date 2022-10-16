@@ -3,7 +3,7 @@
   "name": "Dazzling Display",
   "type": "feat",
   "img": "systems/pf1/icons/feats/dazzling-display.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your skill with your favored weapon can frighten enemies.</em><br/><br/><b>Prerequisites</b><br/>Weapon Focus, proficiency with the selected weapon.<br/><br/><b>Benefits</b><br/>While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display.<br/><br/><b>Combat Trick</b><br/>When wielding a melee weapon with which you have Weapon Focus, you can make a single melee attack as a standard action against a foe. If the attack hits, you can select any number of foes within 30 feet who saw the attack, including that foe. Spend 2 stamina points per foe you have selected, then attempt an Intimidate check to demoralize those foes.",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -105,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -166,7 +172,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -209,8 +214,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355622,
+    "modifiedTime": 1665949123855,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

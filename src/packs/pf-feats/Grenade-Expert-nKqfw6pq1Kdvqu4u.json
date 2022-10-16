@@ -3,7 +3,7 @@
   "name": "Grenade Expert",
   "type": "feat",
   "img": "systems/pf1/icons/skills/mech_15.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You are skilled at both manufacturing and using alchemical grenades.</em><br/><br/><b>Prerequisites</b><br/>Throw Anything.<br/><br/><b>Benefits</b><br/>When you light an alchemical grenade (such as a fuse grenade, pellet grenade, or sting grenade) you select how many rounds later the grenade explodes (minimum 1 round, maximum 3 rounds). In addition, you gain a +4 bonus on Craft (alchemy) checks to craft grenades.<br/><br/><b>Normal</b><br/>Alchemical grenades explode 1d3 rounds after the fuse is lit.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357510,
+    "modifiedTime": 1665949125777,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

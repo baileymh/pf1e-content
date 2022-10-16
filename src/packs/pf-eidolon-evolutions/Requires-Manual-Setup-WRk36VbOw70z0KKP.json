@@ -3,7 +3,12 @@
   "name": "Requires Manual Setup",
   "type": "feat",
   "img": "systems/pf1/icons/misc/hazard-sign.svg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Qy0VeVAdeG8c1tef"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Skills</strong></p>\n<p>At first level, select 4 additional class skills (if the eidolon has a fly speed, it gains Fly for free) through editting the Class.</p>\n<p><strong>Evolution Points</strong></p>\n<p>If you are using an Unchained Summoner, use @Compendium[pf-content.pf-eidolon-evolutions.B2McodEGU4IGjGqi]{Evolution Pool (Unchained)}.</p>\n<p>If you are using a Chained Summoner, use @Compendium[pf-content.pf-eidolon-evolutions.gQahVj8GpA8Yvguq]{Evolution Pool (Chained)} for tracking evolution points.</p>",
       "chat": "",
@@ -56,7 +61,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -89,12 +93,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.Qy0VeVAdeG8c1tef"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321325,
+    "modifiedTime": 1665949091481,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

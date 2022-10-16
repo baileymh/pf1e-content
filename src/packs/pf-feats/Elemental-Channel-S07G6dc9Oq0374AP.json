@@ -3,7 +3,7 @@
   "name": "Elemental Channel",
   "type": "feat",
   "img": "systems/pf1/icons/feats/elemental-channel.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Choose one elemental subtype, such as air, earth, fire, or water. You can channel your divine energy to harm or heal outsiders that possess your chosen elemental subtype.</em><br /><br /><strong>Prerequisites</strong><br />Channel energy class feature.<br /><br /><strong>Benefits</strong><br />Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of your chosen elemental subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of your elemental subtype, your channel energy has no affect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.<br /><br /><strong>Special</strong><br />You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new elemental subtype.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>:&nbsp;<span style=\"color: #191813; font-size: 13px;\">link this feat to Channel Energy charges. Change damage type to negative if you channel negative energy. Copy this feature and change Action Type to Healing if you plan to heal.</span></p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "3 + @abilities.cha.mod",
@@ -115,6 +120,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -176,7 +182,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -236,8 +241,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354488,
+    "modifiedTime": 1665949122653,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

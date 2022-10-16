@@ -3,7 +3,7 @@
   "name": "Survival",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Unchained Rogue Skill Unlock</strong><br/><br/><p>With sufficient ranks in Survival, you earn the following.</p><p><b>5 Ranks: </b>You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1 point for every 5 ranks you possess in Survival.</p><p><b>10 Ranks: </b>You can track creatures that leave no tracks, including flying and swimming creatures and creatures using trackless step or pass without trace, taking a -20 penalty on your Survival check.</p><p><b>15 Ranks: </b>Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants you cold resistance or fire resistance 5 for 24 hours. You can share this with one ally for every 5 by which you exceeded the check.</p><p><b>20 Ranks: </b>You take only a -10 penalty when tracking creatures that leave no tracks.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268155,
+    "modifiedTime": 1665949040212,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Bleed (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blood_03.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.4v1EYCBbvCiIu3GR"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon gains the ability to inflict bleeding wounds. Select one type of attack. Attacks of that type deal 1d6 points of bleed damage.</p>\n<p>This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a different attack. The bleed effect doesn't stack.</p>\n<p><strong>Usage</strong></p>\n<p>Add a conditional modifier to the attack of choice for 1d6 bleed.&nbsp;</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.4v1EYCBbvCiIu3GR"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321292,
+    "modifiedTime": 1665949091456,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

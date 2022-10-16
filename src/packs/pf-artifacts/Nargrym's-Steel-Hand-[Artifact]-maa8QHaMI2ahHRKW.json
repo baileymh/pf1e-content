@@ -3,7 +3,7 @@
   "name": "Nargrym's Steel Hand [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Forged from solid steel, this magically animated prosthetic hand is elaborately sculpted down to the finest detail. Nargrym's steel hand can be used to replace the normal hand of a humanoid creature-it can't be worn in addition to an already existing hand. When attached to the wrist stump of a living humanoid creature, Nargrym's steel hand magically forms a permanent bond to the wearer's flesh and nerves. Once the hand has bonded to the wearer's wrist, the wearer gains full control over the hand as if it were part of his own body. The hand has a full range of motion and functions as a normal hand. While worn, Nargrym's steel hand grants its wearer a +2 enhancement bonus to Strength (treat this as a temporary ability bonus for the first 24 hours the hand is worn) and a +5 bonus to CMD against disarm attempts. In addition, the wearer can wield weapons of one size category larger than the wearer's size without penalty and without altering the weapon's designation as a light, one-handed, or two-handed weapon. For example, a Medium creature wearing Nargrym's steel hand could wield a Large longspear as a two-handed weapon without penalty. However, whenever the wearer of the hand is within line of sight of a creature with the giant subtype, he must succeed at DC 15 Will save or be compelled to attack the giant, as suggestion. Once bonded to a wearer, Nargrym's steel hand cannot be removed except by the wearer or after the wearer's death.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 93",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265149,
+    "modifiedTime": 1665949036469,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

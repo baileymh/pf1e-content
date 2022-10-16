@@ -3,7 +3,7 @@
   "name": "Call Fire",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>As a standard action, you can stretch out your hand toward any visible fire source within 60 feet and beckon it toward you. This causes a ribbon-thin streak of fire to approach you in a straight line through the air. Any creature directly in the fire ribbon's path takes 1d4 points of fire damage; a successful Reflex save (DC = 10 + half your class level + your Wisdom modifier) negates this damage. When the ribbon of fire reaches your hand, it either extinguishes or lights a flammable object of your choice that you're holding. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272722,
+    "modifiedTime": 1665949045312,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Redirect Attack",
   "type": "feat",
   "img": "systems/pf1/icons/misc/divert.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>When you dodge an attack, you can deflect it toward another opponent.</em><br/><br/><b>Prerequisites</b><br/>Dex 15, Int 15, Dodge.<br/><br/><b>Benefits</b><br/>Once per turn, when an opponent only you threaten fails an attack against you, you can redirect the attack to target another foe. The new target must be adjacent to you and within reach of the opponent that missed you. Attempt a combat maneuver check; if the result exceeds both the Combat Maneuver Defense of the opponent who missed you and the Armor Class of the new target, the attack strikes and deals its normal damage.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354340,
+    "modifiedTime": 1665949122511,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

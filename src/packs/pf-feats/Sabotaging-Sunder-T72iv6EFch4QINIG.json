@@ -3,7 +3,7 @@
   "name": "Sabotaging Sunder",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your can quickly sabotage a foe's worn or carried equipment.</em><br/><br/><b>Prerequisites</b><br/>Str 13, Improved Sunder, Power Attack, Disable Device 7 ranks.<br/><br/><b>Benefits</b><br/>As a standard action, you can sabotage an item worn by a foe with a special sunder combat maneuver. You use this maneuver in melee to sabotage an item that is neither held nor hidden in a bag, pack, or other container. You must have at least one hand free to perform this combat maneuver, and doing so provokes an attack of opportunity from the creature against whom you are performing the maneuver, even though you have the Improved Sunder feat.<br/><br/> When attempting the combat maneuver check, use your ranks in Disable Device in place of your base attack bonus and your Dexterity modifier in place of your Strength modifier. Any bonuses on combat maneuver checks specifically to sunder (such as the bonus granted by Improved Sunder) also apply to this maneuver, and any bonuses your target gains to CMD against sundering attempts also protect her from this maneuver. If you succeed at the check, instead of dealing damage, you sabotage the chosen item, causing it to gain the broken condition. If the item was already broken, you instead destroy the item or cause it to fall off. Items immune to sunder are also immune to this special combat maneuver, and this still can't destroy or remove an item such as an artifact that can normally be destroyed or removed only by specific means.<br/><br/><b>Normal</b><br/>A successful sunder attempt deals weapon damage to the sundered item.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354550,
+    "modifiedTime": 1665949122719,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

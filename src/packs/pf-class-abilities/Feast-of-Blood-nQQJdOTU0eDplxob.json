@@ -3,7 +3,7 @@
   "name": "Feast of Blood",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/greataxe.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Rage Power - Defensive</strong><br/><br/><p>While raging, the barbarian may feast on the organs of her foes and absorb their power. After successfully ripping out a creature's vital organ, the barbarian may eat the organ within 1 minute of extracting it as a full-round action that provokes attacks of opportunity. Once the organ is consumed, the barbarian recovers a number of hit points equal to the Hit Dice of the organ's owner. In addition, the barbarian gains any energy immunities or resistances the victim had, though the effectiveness of these resistances is halved (for instance, a barbarian who eats the heart of a creature with resist cold 10 would gain resist cold 5; energy immunities are reduced to resist energy 20). This energy resistance lasts for a number of rounds equal to half the Hit Dice of the creature whose organ was consumed. A barbarian must have the bloody fist rage power to select this rage power. A barbarian must be at least 14th level to select this rage power.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428275783,
+    "modifiedTime": 1665949048505,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

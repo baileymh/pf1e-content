@@ -3,7 +3,7 @@
   "name": "Nahyndrian Chisel [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large chisel appears to be made of deep purple crystal- it is, in fact, carved from the heart of a single enormous Nahyndrian crystal. Imbued with devastating magic, the Nahyndrian chisel may be used three times per day to target a creature or object with a mage's disjunction. Activating this ability requires the user to make a successful touch attack against the target. A Nahyndrian chisel can be used as an improvised weapon in combat-when so utilized, it has a +3 enhancement bonus on attack rolls and damage rolls, deals 1d4 points of piercing damage on a hit, and automatically bypasses any damage reduction (including DR/epic or DR/-).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 78",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264850,
+    "modifiedTime": 1665949036028,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

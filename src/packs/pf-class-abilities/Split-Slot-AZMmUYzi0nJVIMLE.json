@@ -3,7 +3,7 @@
   "name": "Split Slot",
   "type": "feat",
   "img": "systems/pf1/icons/spells/beam-magenta-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Wizard Arcane Discovery</strong><br/><br/><p>Once per day when you prepare spells, you may treat any one of your open spell slots as if it were two spell slots that were two spell levels lower. For example, a 9th-level wizard can split a 5th-level slot into two 3rd-level slots, preparing fireball and lightning bolt in those 3rd-level slots. For all purposes, the two lower-level slots are treated as that lower level (so the split 5th-level slot used for a fireball has a DC as if it were in a normal 3rd-level slot). Splitting a 2nd-level slot lets you prepare two additional cantrips (which you can cast over and over, just like normally prepared cantrips). This discovery has no effect on cantrips or 1st-level spells. You may select this discovery multiple times; each time you select it, you may split another spell slot when you prepare spells. You cannot split a slot that you created by splitting a higher-level slot. You must be at least 5th level to select this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268648,
+    "modifiedTime": 1665949040842,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

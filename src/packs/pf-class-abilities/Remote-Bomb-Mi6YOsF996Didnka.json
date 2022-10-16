@@ -3,7 +3,7 @@
   "name": "Remote Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>The alchemist can spend two uses of his daily bombs to create a special bomb that is manually detonated. When the bomb is created, the alchemist also creates a catalyst distillate, which requires no extra time or cost. A remote bomb is inert unless triggered by this distillate. The bomb is detonated as a standard action when the distillate fumes are exposed to the rest of the bomb. An alchemist must be within 60 feet of the bomb for the distillate to successfully trigger the bomb. A catalyst distillate can detonate a bomb even if the bomb has already been hurled at a target. Triggering the distillate outside of the 60-foot range or after 1 hour has no effect.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428270524,
+    "modifiedTime": 1665949042925,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

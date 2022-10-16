@@ -3,7 +3,12 @@
   "name": "Poison (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/beast_03.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.n1B2b4DgnHNzvZbn"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned.</p>\n<p><strong>Eidolon poison: </strong><em>type</em> poison (injury); <em>save</em> Fort negates; <em>frequency</em> 1/round for 4 rounds; <em>effect</em> 1d4 Str damage; <em>cure</em> 1 save. The save DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier.</p>\n<p>For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 7th level before selecting this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +113,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -202,12 +212,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.n1B2b4DgnHNzvZbn"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321268,
+    "modifiedTime": 1665949091440,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

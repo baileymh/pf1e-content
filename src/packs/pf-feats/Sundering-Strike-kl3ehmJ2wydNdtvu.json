@@ -3,7 +3,7 @@
   "name": "Sundering Strike",
   "type": "feat",
   "img": "systems/pf1/icons/skills/weapon_04.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your critical hits can sunder your foes' weapons.</em><br/><br/><b>Prerequisites</b><br/>Str 13, Improved Sunder, Power Attack, base attack bonus +9.<br/><br/><b>Benefits</b><br/>Whenever you score a critical hit with a melee attack, you can sunder your opponent's weapon, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may deal damage to your opponent's weapon as if from the sunder combat maneuver (roll normal damage to the weapon separately). This does not provoke an attack of opportunity.<br/><br/><b>Normal</b><br/>You must perform a sunder combat maneuver to sunder an opponent's weapon.<br/><br/><b>Special</b><br/>You can only apply the effects of one of the following feats to a given critical hit: Bull Rush Strike, Disarming Strike, Repositioning Strike, Sundering Strike, or Tripping Strike. You may choose to use this feat after you make your confirmation roll.<br/><br/><b>Combat Trick</b><br/>When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to sunder the target's weapon anyway. When you do, reroll the confirmation roll and use it to determine if the sunder attempt exceeds the opponent's CMD. This reroll is used only for the sunder combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356934,
+    "modifiedTime": 1665949125232,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

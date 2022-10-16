@@ -3,7 +3,7 @@
   "name": "Arcane Weapon (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Arcanist Exploit</strong><br/><br/><p>As a standard action, the arcanist can expend 1 point from her arcane reservoir to enhance her weapon. The weapon is treated as magic for the purposes of overcoming damage reduction. At 5th level, the weapon gains a +1 enhancement bonus, which increases by 1 for every 4 levels beyond 5th (to a maximum of +4 at 17th level). These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5. An arcanist can also use this exploit to add one of the following weapon special abilities: dancing, defending, distance, flaming, flaming burst, frost, icy burst, keen, shock, shocking burst, speed, spell storing, and throwing. Adding these special abilities replaces an amount of enhancement bonus equal to the ability's cost. Duplicate special abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added to it before any other weapon special abilities can be added. The benefits are decided upon when the exploit is used, and they cannot be changed unless the exploit is used again. These benefits only apply to weapons wielded by the arcanist; if another creature attempts to wield the weapon, it loses these benefits, though they resume if the arcanist regains possession of the weapon. The arcanist cannot have more than one use of this ability active at a time. This effect lasts for a number of minutes equal to the arcanist's Charisma modifier (minimum 1).</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269795,
+    "modifiedTime": 1665949042170,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Disassemble Magic Item",
   "type": "feat",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can take apart and reassemble magic items.</em><br/><br/><b>Prerequisites</b><br/>Any item creation feat, Aspis Consortium 20 TPA.<br/><br/><b>Benefits</b><br/>You can break a magic item down into component pieces. These pieces are nonmagical and may have little resemblance to the original item other than being of the same material (a magical sword may be three recognizable metal pieces or simply a collection of metal scraps). Disassembling a magic item takes 1 hour per 1,000 gp of the item's price and requires you to concentrate as if crafting an item. You can only use this feat on items your item creation feat would let you craft (for example, if you have Craft Wondrous Item, you can disassemble wondrous items but not magic weapons or armor).<br/><br/>You may reassemble a dismantled item as long as all the pieces are present; this takes the same amount of time as taking it apart did. There is a 10% chance the reconstruction fails and the item is permanently destroyed.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358052,
+    "modifiedTime": 1665949126323,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

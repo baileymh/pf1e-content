@@ -3,7 +3,7 @@
   "name": "Prohibition",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>As a standard action, you can command a creature within 30 feet to refrain from committing a particular action (including any referenced in the spell forbid actionUM). If the creature performs the named action before the beginning of your next turn, it takes 1d6 points of damage + 1 point for every 2 cleric levels you possess and the effect ends. This is a language-dependent effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p><p>If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428274713,
+    "modifiedTime": 1665949047380,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

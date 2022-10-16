@@ -3,7 +3,7 @@
   "name": "Prone Shooter",
   "type": "feat",
   "img": "icons/weapons/crossbows/crossbow-simple-purple.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Take a reduced penalty to your AC against melee attacks while prone</em><br/><br/><b>Prerequisites</b><br/>Base attack bonus +1.<br/><br/><b>Benefits</b><br/>If you have been prone since the end of your last turn, the penalty to your Armor Class against melee attacks made against you is reduced to -2. In addition, the bonus to your Armor Class against ranged attacks made against you is increased to +6.<br/><br/><b>Combat Trick</b><br/>As long as you have at least 1 stamina point in your stamina pool, you gain the bonuses from this feat even if you haven't been prone since the end of your last turn.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352788,
+    "modifiedTime": 1665949120842,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

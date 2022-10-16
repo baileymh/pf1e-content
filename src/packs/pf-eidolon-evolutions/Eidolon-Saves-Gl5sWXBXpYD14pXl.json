@@ -3,7 +3,30 @@
   "name": "Eidolon Saves",
   "type": "feat",
   "img": "systems/pf1/icons/feats/greater-shield-focus.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.lV3oXnYIl6qG6o18"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"color: #191813;\">These are the eidolon's base saving throw bonuses. An eidolon possesses two good saving throws and one bad saving throw, determined by the creature's base form.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"color: #191813; font-size: 13px;\">Good Saves:&nbsp;</strong><span style=\"color: #191813;\"><span style=\"font-size: 13px;\">[[@classes.eidolon.level &gt; 17 ? 9 : @classes.eidolon.level &gt; 14 ? 8 : @classes.eidolon.level &gt; 12 ? 7 : @classes.eidolon.level &gt; 9 ? 6 : @classes.eidolon.level &gt; 6 ? 5 : @classes.eidolon.level &gt; 4 ? 4 : @classes.eidolon.level &gt; 1 ? 3 : 2]]</span></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Bad Save</strong>: [[(floor((@classes.eidolon.level + 1) / 4))]]</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>",
       "chat": "",
@@ -30,12 +53,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -70,7 +88,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -127,101 +144,34 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
-    "conditionals": [],
+    "attack": {},
     "identifiedName": "Eidolon Saves",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-eidolon-evolutions.Gl5sWXBXpYD14pXl"
-    },
-    "pf1": {},
-    "scene-packer": {
-      "sourceId": "Item.lV3oXnYIl6qG6o18"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321278,
+    "modifiedTime": 1665949091446,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

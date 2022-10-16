@@ -3,7 +3,7 @@
   "name": "Sistrum Of Bastet [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Sistrum of Bastet is a powerful artifact that, when used properly, allows a bard to use her bardic performance ability to enhance the spells of a divine spellcaster or conceal her true motives. Once per day, when the wielder uses the Sistrum of Bastet as part of a bardic performance, she can inspire a divine spellcaster within range of the performance and bolster the effects of any spells that spellcaster casts. Thereafter, for the duration of the performance, whenever the designated divine caster chooses to cast a spell, the bard can expend 1 or more rounds of bardic performance as an immediate action to enhance her allied divine spellcaster's spell as if that individual had prepared it with the Heighten Spell Metamagic Feat. The number of levels by which the divine spell is heightened is determined by the number of rounds of bardic performance sacrificed. For example, if the sistrum's player sacrifices 2 rounds of bardic performance, the divine caster's spell level increases by 2. A spell's level can never increase beyond 9th level, and can't be higher than the divine caster can cast.  Second, a bard wielding the Sistrum of Bastet can conceal the activity of casting a bard spell by masking it in a performance. As a swift action, the bard can combine her casting time for a spell with a Perform check. Observers must succeed at a Perception or Sense Motive check opposed by the user's Perform check to realize she is also casting a spell. This uses 1 round of her bardic performance ability, regardless of the spell's casting time. In addition, a bard using the Sistrum of Bastet can select a number of creatures equal to her level. The bard can deliver secret messages to these individuals without needing to use the Bluff skill. The bard still must be able to speak to deliver the message.  Finally, when the wielder gains a bard level and is able to learn a new spell in place of one she already knows, she can choose a spell from the cleric spell list. This spell must be of the same level as the spell that she is replacing, and the bard casts that spell as a divine spell. If the Sistrum of Bastet ever leaves her possession for longer than 24 hours, any divine spells added in this way are lost unless she can reclaim the instrument.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264662,
+    "modifiedTime": 1665949035891,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

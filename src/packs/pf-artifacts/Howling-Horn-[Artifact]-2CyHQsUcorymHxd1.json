@@ -3,7 +3,7 @@
   "name": "Howling Horn [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Shaped from Kazavon's horns into a deadly musical instrument, the Howling Horn grants the bearer a +4 enhancement bonus to Dexterity and Charisma. Sounding the Howling Horn forces all nonevil creatures within 40 feet to make a successful DC 25 Fortitude save or be deafened for 2d6 rounds. A user who succeeds at a DC 20 Perform (wind instruments) check while using the horn summons forth the roar of Kazavon, a blast that affects creatures in a 40-foot cone, dealing 20d6 points of sonic damage and deafening them for 4d6 rounds (a successful DC 25 Fortitude save reduces the damage by half and negates the deafening). Unattended crystalline objects take double damage. Nonevil creatures within 10 feet of the horn when the roar is sounded must succeed at an additional DC 25 Will save or be affected as per the spell insanity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264600,
+    "modifiedTime": 1665949035846,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

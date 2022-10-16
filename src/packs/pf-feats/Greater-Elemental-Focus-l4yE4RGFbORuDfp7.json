@@ -3,7 +3,7 @@
   "name": "Greater Elemental Focus",
   "type": "feat",
   "img": "systems/pf1/icons/spells/lightning-orange-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Choose an energy type to which you have already applied the Elemental Focus feat. Any spells you cast of this energy type are very hard to resist.</em><br/><br/><b>Prerequisites</b><br/>Elemental Focus.<br/><br/><b>Benefits</b><br/>Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select. This bonus stacks with the bonus from Elemental Focus.<br/><br/><b>Special</b><br/>You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new energy type to which you have already applied the Elemental Focus feat.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357354,
+    "modifiedTime": 1665949125646,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

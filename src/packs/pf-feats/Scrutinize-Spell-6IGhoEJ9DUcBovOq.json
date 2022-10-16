@@ -3,7 +3,7 @@
   "name": "Scrutinize Spell",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/note-sealed.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can quickly size up spellcasters to gain an advantage when counterspelling their spells.</em><br/><br/><b>Prerequisites</b><br/>Spellcraft 1 rank.<br/><br/><b>Benefits</b><br/>When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is--specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.<br/><br/> Once you have identified the target's class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class's spell list. Additionally, after you have determined the target's spellcasting class, you can attempt an Intimidate check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest).",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351341,
+    "modifiedTime": 1665949119459,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

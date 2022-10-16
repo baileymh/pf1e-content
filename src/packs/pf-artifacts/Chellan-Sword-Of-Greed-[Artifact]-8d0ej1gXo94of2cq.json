@@ -3,7 +3,7 @@
   "name": "Chellan, Sword Of Greed [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A blade of magically hardened gold tempered to incredible durability, Chellan is a +5 keen scimitar that functions as an adamantine weapon for purposes of overcoming damage reduction and bypassing hardness. The ornate sword is incredibly dense, causing it to deal 1d8 points of damage as though it were a Large scimitar, but it can only be properly wielded by characters with a Strength of 18 or higher-all other characters must either wield it as a two-handed weapon or take a -2 penalty on attack rolls with the weapon. Whenever Chellan strikes a foe, the target must succeed at a DC 20 Fortitude save or be affected by the spell slow. If the sword instead scores a critical hit, the target must make a DC 25 Fortitude save or be turned into a crystalline statue, as if by flesh to stone. Characters turned to crystal by Chellan appear to be made of ruby, diamond, or some other valuable gem, but are in fact merely colored quartz of little value.<br><p><b>Base Item:</b> +5 keen scimitar</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264671,
+    "modifiedTime": 1665949035897,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Grease Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>When the alchemist creates a bomb, he can choose to have it create a grease slick upon detonation. When a grease bomb detonates, it coats an area equal to the bomb's splash radius in grease (as the grease spell) for 1 round per level. The DC of the Reflex save to avoid falling after a failed Acrobatics check is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier. A grease bomb can't affect items or armor. An alchemist must be at least 6th level before selecting this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428267079,
+    "modifiedTime": 1665949038528,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

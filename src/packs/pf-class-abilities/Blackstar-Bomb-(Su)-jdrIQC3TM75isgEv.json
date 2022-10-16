@@ -3,7 +3,7 @@
   "name": "Blackstar Bomb (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>This bomb crushes the target like a void bomb, then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a void bomb. All other creatures within 5 feet of the target are subject to a bull rush. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square. An alchemist must have the void bomb discovery to create blackstar bombs.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428274750,
+    "modifiedTime": 1665949047415,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

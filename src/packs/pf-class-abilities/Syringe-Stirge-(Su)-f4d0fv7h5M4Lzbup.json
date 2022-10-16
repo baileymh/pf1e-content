@@ -3,7 +3,7 @@
   "name": "Syringe Stirge (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>As a full-round action, you can expend two daily uses of bombs to create a syringe stirge, a tiny construct primed with a bomb (if you have multiple types of bombs, you must select which type the syringe stirge carries when created). Undirected, they take no actions except to flock around you in your square and follow you as best they can. They can be attacked normally, but gain cover while occupying your square. As a swift action, you can order one of your syringe stirges to attack an enemy it can see. Once ordered to attack that enemy, the syringe stirge will continue to attack every round, attempting to attach and deliver its payload.</p><p>A syringe stirge has all of the statistics of a stirge but lacks the blood drain ability. If it ends its turn attached to an opponent, it injects your bomb into the opponent's bloodstream, dealing damage as a direct hit plus the alchemist's Intelligence modifier (as the Throw Anything feat-this injection is a direct attack and doesn't deal splash damage. A syringe stirge dies immediately after injecting its bomb. A syringe stirge lasts for 1 minute per alchemist level or until destroyed; if it has not attached to an enemy before the end of its life span it and its bomb payload fall inert. An alchemist must be at least 6th level before selecting this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428274016,
+    "modifiedTime": 1665949046677,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

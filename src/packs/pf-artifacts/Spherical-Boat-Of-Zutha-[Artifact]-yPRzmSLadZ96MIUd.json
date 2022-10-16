@@ -3,7 +3,7 @@
   "name": "Spherical Boat Of Zutha [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The bearer of the Spherical Boat of Zutha can hear a faint ticking sound and see the waves, boat, and clouds engraved upon it moving slowly, as if animated by miniature clockwork mechanisms. When the bearer speaks a command word as a standard action, the sphere quickly unfolds, its many parts twisting, turning, and growing to form a ship as large as a small manor in the space of a single round, in the same manner as a folding boat. While expanding, the ship destroys any nonmagical barriers of hardness 10 or less. If barriers of greater hardness constrain it, the ship returns to its spherical form.  The ship has the statistics presented below. The bearer of the Spherical Boat of Zutha can mentally steer the ship while aboard it. If the ship loses all its hit points, it returns to its spherical form and cannot be commanded to unfold for 1 month; after this time, the ship is restored to its maximum hit points.  A second command word causes the ship to fold itself again to a small sphere. When the ship returns to its spherical form, whether due to hit point damage or its spoken command word, everything inside the ship (including its cargo and all creatures other than the bearer) enters an extradimensional space shaped like the ship. The bearer is safely ejected during this shrinking, occupying the same space as the small sphere. Creatures trapped inside the ship don't need food or drink and do not age, but every month the ship consumes the life energy of one random creature stored inside it, killing the creature instantly.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 137",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265249,
+    "modifiedTime": 1665949036818,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

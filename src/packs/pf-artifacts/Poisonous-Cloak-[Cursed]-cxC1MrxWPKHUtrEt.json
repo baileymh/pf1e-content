@@ -3,7 +3,7 @@
   "name": "Poisonous Cloak [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cloak is usually made of wool, although it can be made of leather. A detect poison spell can reveal the presence of poison in the cloak's fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.   Once donned, a poisonous cloak can be removed only with a remove curse spell; doing this destroys the magical property of the cloak. If a neutralize poison spell is then used, it is possible to revive a dead victim with a raise dead or resurrection spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265056,
+    "modifiedTime": 1665949036258,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

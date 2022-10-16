@@ -3,7 +3,7 @@
   "name": "Shield of the Liege",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/horseshoe.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cavalier/Samurai Order Abilitiy</strong><br/><br/><p>At 15th level, an order of the lion cavalier can protect those around him. Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC. In addition, as an immediate action, the cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally reach or attack the cavalier. The cavalier loses any cover or concealment bonuses when subject to the redirected attack.</p>",
       "chat": "",
@@ -72,7 +72,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -104,8 +103,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269245,
+    "modifiedTime": 1665949041528,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

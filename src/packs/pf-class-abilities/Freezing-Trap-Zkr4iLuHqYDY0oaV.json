@@ -3,7 +3,7 @@
   "name": "Freezing Trap",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/longbow.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Ranger Trap</strong><br/><br/><p><b>Effect </b>The trap creates a burst of ice that damages and encases the triggering creature. The creature takes 1d3 points of cold damage + 1/4 the ranger's level and is entangled and stuck to the ground, similar to the effect of a tanglefoot bag. A successful Reflex save halves the damage and means the creature is not stuck to the floor by the ice. The ice is 1 inch thick per 2 Hit Dice of the ranger (minimum 1), has hardness 0 and 3 hit points per inch of thickness, and melts in 2d4 rounds.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272909,
+    "modifiedTime": 1665949045469,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

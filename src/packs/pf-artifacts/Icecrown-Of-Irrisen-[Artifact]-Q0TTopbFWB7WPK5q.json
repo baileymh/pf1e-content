@@ -3,7 +3,7 @@
   "name": "Icecrown Of Irrisen [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This jagged crown is composed of ice that never melts regardless of the ambient temperature. The Icecrown of Irrisen is the royal regalia of the queen of Irrisen, was crafted by Baba Yaga specifically for that role, and has been worn by all of Baba Yaga's daughters who have served as monarchs of that realm. When placed on the head, the Icecrown merges with the wearer so that icicles seem to grow directly from her head. Once in place, the crown can be removed only by Baba Yaga or upon the death of the wearer or the destruction of the crown. The Icecrown of Irrisen deals 3d6 points of cold damage per round to any creature touching or wearing it as it absorbs body heat (or 6d6 points of cold damage per round to a creature with the fire subtype).   The Icecrown of Irrisen grants its wearer the following abilities: fire resistance 20, spell resistance 32, and a +4 enhancement bonus to Intelligence and Charisma (with ranks in Knowledge [local] and Sense Motive, as a headband of vast intelligence). The wearer doesn't take penalties to Strength, Dexterity, and Constitution from being of middle age or older (Pathfinder RPG Core Rulebook 169), and retains a youthful appearance, always appearing to be the same age as when she first put on the crown. Once per day, the wearer can summon three elder ice elementals that remain for 1 hour and follow her commands. In addition, the Icecrown gives its wearer the following abilities:   Constant-tongues   At will-frigid touchUM, ice crystal teleportUM, Irriseni mirror sight*, unseen servant   3/day-control weather, dominate monster (creatures with the cold subtype only), ice spears*   1/day-overwhelming presenceUM, polar midnightUM   Finally, the Icecrown of Irrisen gives its wearer the ability to shape the ice that forms the Royal Palace in Whitethrone, allowing her to create or destroy walls, doors, windows, and even furnishings and decorations at will.   * See Pathfinder Adventure Path #67 72-73.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 72",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264854,
+    "modifiedTime": 1665949036032,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

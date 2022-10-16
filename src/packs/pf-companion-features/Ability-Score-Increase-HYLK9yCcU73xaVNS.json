@@ -3,7 +3,12 @@
   "name": "Ability Score Increase",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_19.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.5mTQwTOwM6bU3rYG"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The animal companion adds +1 to one of its ability scores for every 4 hit dice it gains. Current ability increases allowed: [[ceil(((round(@classes.animalCompanion.level * .75) + 1) / 4)]]</span></p>",
       "chat": "",
@@ -20,8 +25,7 @@
       "value": 0,
       "maxFormula": "",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "max": 0
+      "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
     "effectNotes": [],
@@ -30,12 +34,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -70,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -89,80 +87,33 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
-    "size": "med"
+    "attack": {},
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.5mTQwTOwM6bU3rYG"
-    },
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-companion-features.HYLK9yCcU73xaVNS"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428318257,
+    "modifiedTime": 1665949088597,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

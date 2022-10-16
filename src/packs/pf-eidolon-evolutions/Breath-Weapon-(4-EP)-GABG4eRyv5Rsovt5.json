@@ -3,7 +3,12 @@
   "name": "Breath Weapon (4 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/ice_11.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.oE88ScZFNsJtx9ZG"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon learns to exhale a cone or line of magical energy, gaining a breath weapon. Select either acid, cold, electricity, or fire. The eidolon can breathe a 30-foot cone (or 60-foot line) that deals 1d6 points of damage of the selected type per HD it possesses. Those caught in the breath weapon can attempt a Reflex save for half damage.</p>\n<p>The DC is equal to 10 + 1/2 the eidolon's HD + the eidolon's Constitution modifier. The eidolon can use this ability once per day. The eidolon can use this ability 1 additional time per day by spending an additional 1 evolution point (maximum 3/day).</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 9th level before selecting this evolution.</p>\n<p><strong>Usage</strong></p>\n<p>Replace damage type.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 1,
           "maxFormula": "",
@@ -112,6 +122,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +184,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -224,12 +234,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.oE88ScZFNsJtx9ZG"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321276,
+    "modifiedTime": 1665949091445,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

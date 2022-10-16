@@ -3,7 +3,7 @@
   "name": "Ring Of Nine Facets [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The gem set within this remarkably ancient ring is distinctly cut to exhibit nine perfect facets, each of a different hue. Each day at sunrise, the gem rotates to display a different facet. The active facet determines the ring's power for that day. Each day, roll 1d10 on the Ring of Nine Facets Powers table to determine which facet-and thus which power-is active.  The wearer of the ring can, with a great deal of mental exertion, attempt to change the active facet away from one she does not desire. The gem can only be turned in a particular order that shifts the active facet to the next highest facet, and each facet is a particular number of steps away from one another (see the Ring of Nine Facets Powers table). To change the facet, the wearer must succeed at a Wisdom check as a full-round action, and the wearer takes nonlethal damage, regardless of success. The DC of the Wisdom check to turn the gem is 15 + 5 per 1-step increase, while the nonlethal damage dealt equals 1d6 per 1-step increase. For example, if the facet of the day were yellow, the wearer could attempt a DC 20 Wisdom check and take 1d6 points of nonlethal damage to shift it to copper, or attempt a DC 25 Wisdom check and take 2d6 points of nonlethal damage to shift it to green. The ring's facets cannot be shifted backwards (thus, yellow cannot turn directly to white; it must shift through all seven other colors to reach white). The ring's facet can only be changed once per day.  Any nongood creature that wears the Ring of Nine Facets immediately takes 2d6 points of nonlethal damage and another 2d6 points of nonlethal damage every minute it continues to wear the ring.   1d10/Step Facet Color Active Facet Power  1 Green Wearer is immune to disease  2 Indigo Wearer needs no air to survive  3 Orange Wearer gains a +5 natural armor bonus  4 Violet Wearer gains low-light vision  5 Red Wearer gains fast healing 1  6 Blue Wearer can use fly at will  7 White Wearer gains cold resistance 30  8 Yellow Wearer gains freedom of movement  9 Copper Wearer gains a +5 resistance bonus on saving throws  10* Roll again.  * This step does not count as a facet for the purposes of adjusting the ring's daily ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265233,
+    "modifiedTime": 1665949036806,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

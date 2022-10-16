@@ -3,7 +3,7 @@
   "name": "Mounted Archery",
   "type": "feat",
   "img": "systems/pf1/icons/feats/mounted-archery.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You are skilled at making ranged attacks while mounted.</em><br/><br/><b>Prerequisites</b><br/>Ride 1 rank, Mounted Combat.<br/><br/><b>Benefits</b><br/>The penalty you take when using a ranged weapon while mounted is halved: -2 instead of -4 if your mount is taking a double move, and -4 instead of -8 if your mount is running.<br/><br/><b>Combat Trick</b><br/>When making an attack using a ranged weapon while mounted, you can spend 1 or 2 stamina points to reduce the penalties on the attack roll by double the number of stamina points you spent.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -96,8 +95,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358724,
+    "modifiedTime": 1665949126914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Aura of Repetition",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>At 8th level, you can emit a 30-foot aura of repetition for a number of rounds per day equal to your cleric level. All enemies within this aura must make a Will save each round or repeat their action from the previous round (if possible). Creatures that attacked on the previous round attack again on the following round, although they may change their target. Creatures that moved the previous round must take the same move action again, although they may change their route. Creatures that drank a potion must do so again, even they can only drink from an empty bottle. Actions that cannot be repeated are wasted. These rounds do not need to be consecutive.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428271092,
+    "modifiedTime": 1665949043556,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

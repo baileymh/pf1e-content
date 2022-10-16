@@ -3,7 +3,7 @@
   "name": "Bludgeoning Trap",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/longbow.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Ranger Trap</strong><br/><br/><p><b>Effect </b>The trap bludgeons the creature that triggers it. The trap makes an attack with a bonus equal to the ranger's character level + his Wisdom bonus. The triggering creature is denied its Dexterity bonus to AC if it was unaware of the trap. If the trap hits, it deals 1d6 points of bludgeoning damage for every 4 levels the ranger possesses (minimum 1d6). If it's an extraordinary trap, the ranger must provide an object suitable for dealing lethal bludgeoning damage, such as a large branch or heavy stone.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428267535,
+    "modifiedTime": 1665949039232,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

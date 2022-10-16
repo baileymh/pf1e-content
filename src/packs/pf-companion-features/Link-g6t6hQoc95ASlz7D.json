@@ -3,7 +3,30 @@
   "name": "Link",
   "type": "feat",
   "img": "systems/pf1/icons/feats/quick-draw.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.EdFvI2UTFONcats7"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">A druid can handle her animal companion as a free action, or push it as a move action, even if she doesn't have any ranks in the Handle Animal skill. The druid gains a +4 circumstance bonus on all wild empathy checks and Handle Animal checks made regarding an animal companion.&nbsp;</span></p>",
       "chat": "",
@@ -20,8 +43,7 @@
       "value": 0,
       "maxFormula": "",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "max": 0
+      "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
     "effectNotes": [],
@@ -30,12 +52,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [
       {
@@ -76,7 +93,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -95,101 +111,34 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
-    "conditionals": [],
+    "attack": {},
     "identifiedName": "Link",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "pf1": {},
-    "scene-packer": {
-      "sourceId": "Item.EdFvI2UTFONcats7"
-    },
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-companion-features.g6t6hQoc95ASlz7D"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428318265,
+    "modifiedTime": 1665949088604,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

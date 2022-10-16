@@ -3,7 +3,7 @@
   "name": "Mounted Combat",
   "type": "feat",
   "img": "systems/pf1/icons/feats/mounted-combat.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You are adept at guiding your mount through combat.</em><br/><br/><b>Prerequisites</b><br/>Ride 1 rank.<br/><br/><b>Benefits</b><br/>Once per round when your mount is hit in combat, you may attempt a Ride check (as an immediate action) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll.<br/><br/><b>Combat Trick</b><br/>Once you have already used this feat, you can spend 5 stamina points to use it an additional time during the same round. You can use this trick as many times in a round as you like, as long as you spend 5 stamina points per use.",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -105,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358285,
+    "modifiedTime": 1665949126512,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

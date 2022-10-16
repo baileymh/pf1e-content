@@ -3,7 +3,7 @@
   "name": "Girdle Of Opposite Gender [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>When this magical belt is put on, the wearer must immediately make a DC 20 Fortitude saving throw or be transformed into a person of the opposite gender. The character's abilities, mind, and spirit remain unaffected; only the character's sex changes. If the character's saving throw is a natural 1, the item actually removes all gender from the wearer, giving him an androgynous, neutered appearance. The change is permanent unless undone with curse-removing magic. Once its magic takes effect, the belt can be removed without effort. A creature can only be affected by a particular girdle once, though other girdles of this type can cause further transformations.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "belt",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264771,
+    "modifiedTime": 1665949035961,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

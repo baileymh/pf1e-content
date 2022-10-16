@@ -3,7 +3,7 @@
   "name": "Orb Of Dragonkin [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Each of the Orbs of Dragonkin holds power over a specific race of lesser draconic creatures with the dragon type (except for true dragons). The bearer of an Orb of Dragonkin can, as a standard action, dominate a creature of the orb's particular variety within 200 feet (as dominate monster), with the targeted creature being forced to make a DC 23 Will save to resist. Spell resistance is not useful against this effect. Each Orb of Dragonkin grants the wielder the AC and saving throw bonuses of the draconic creature the orb is associated with. These values replace whatever values the character would otherwise have, whether better or worse. These values cannot be modified by any means short of ridding the character of the orb. The owner of an orb knows if there are draconic creatures of the type the orb is related to within 10 miles at all times. Each Orb of Dragonkin also has an individual power that can be invoked once per round at caster level 10th.  • KongamatoB3 Orb: Sound burst (Fortitude DC 13 partial)  • Dragon Turtle Orb: Control water  • Drake Orb: Expeditious retreat  • Faerie DragonB3 Orb: Stinking cloud (Fortitude DC 14 negates)  • GorynychB3 Orb: Scorching ray  • JabberwockB2 Orb: Confusion (Will DC 16 negates)  • Linnorm Orb: Bestow curse (Will DC 16 negates)  • Pseudodragon Orb: Deep slumber (Will DC 14 negates)  • Spine DragonISWG Orb: Telekinesis  • TatzlwyrmB3 Orb: Ray of exhaustion (Fortitude DC 14 partial)  • Wyvern Orb: Poison (Fortitude DC 16 negates)<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264889,
+    "modifiedTime": 1665949036056,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

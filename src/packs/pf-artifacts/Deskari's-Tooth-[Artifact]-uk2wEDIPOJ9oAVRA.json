@@ -3,7 +3,7 @@
   "name": "Deskari's Tooth [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_22.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A gift to Areelu from Deskari himself, Deskari's Tooth is a +6 anarchic unholy dagger that automatically casts soul bind whenever it is used to slay a foe, provided no soul is currently stored in the blade. A soul of any power can be stored in the blade in this manner, but only one soul at a time. If the dagger's wielder is slain while a soul is contained in Deskari's Tooth, the soul is instantly consumed and the effect or attack that would normally have slain the wielder is instead negated. If Deskari's Tooth is used to perform a coup de grace on a lawful good creature, it can be used to cast lesser planar binding. If the lawful good creature has more than 11 Hit Dice, the dagger can instead be used to cast planar binding, and if the creature has more than 17 Hit Dice, it can instead be used to cast greater planar binding.<br><p><b>Base Item:</b> +6 anarchic unholy dagger</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 78",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "weapon",
     "equipmentSubtype": "lightArmor",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265217,
+    "modifiedTime": 1665949036724,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Burning Magic (Volcano)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_09.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Oracle Volcano Mystery Power</strong><br/><br/><p>Whenever a creature fails a saving throw against one of your spells that deals fire damage, that creature catches on fire, taking 1 point of fire damage per spell level at the beginning of its turn. The fire lasts for 1d4 rounds, but it can be extinguished as a move action if the creature succeeds at a Reflex save (using the original spell's DC). Dousing the creature with water as a standard action grants a +2 bonus on this save, while immersing the creature in water extinguishes the fire. Spells that don't grant a saving throw don't cause a creature to catch on fire.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277122,
+    "modifiedTime": 1665949049876,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

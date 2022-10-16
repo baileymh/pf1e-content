@@ -3,7 +3,7 @@
   "name": "Glabrezu Claw [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This gruesome artifact looks like the mummified, hollowed-out arm of a glabrezu. This graft contains an imprisoned parasitic demon that can be satiated only by mythic power. To use the artifact, the user must place his own naked arm into the hollow graft, which then permanently bonds itself to his flesh and muscle. If placed upon the arm of a non-mythic character, the graft instead devours the limb, dealing 5d6 points of damage and amputating the arm.   Once attached, the glabrezu claw surrounds its wearer with a field of force. This provides a deflection bonus to AC equal to the wearer's mythic tier. The wearer also gains immunity to electricity and poison. In addition, the wearer can feed the glabrezu claw some of his mythic power in order to activate spell-like abilities. All these spell-like abilities have a caster level equivalent to the graft wearer's total class levels plus his mythic tier.   The graft wearer can expend one use of mythic power to gain telepathy with a range of 100 feet for 2 hours (Bestiary 300) or cast any of the following spells: chaos hammer, confusion, dispel magic, mirror image, reverse gravity, or true seeing.   By expending two uses, he can cast greater teleport (self plus 50 pounds of objects only), veil (self only), or unholy blight.   By expending three uses, he can cast power word stun or summon (level 4, either 1 glabrezu 30% or 1d2 vrocks 70%; Bestiary 300).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265182,
+    "modifiedTime": 1665949036557,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

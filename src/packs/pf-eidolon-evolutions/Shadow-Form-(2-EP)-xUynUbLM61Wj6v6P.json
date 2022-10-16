@@ -3,7 +3,12 @@
   "name": "Shadow Form (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/shadow_17.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.MreTpqcZaHEngxm2"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the <em>ghost touch </em>weapon property.</p>\n<p>The eidolon's melee attacks deal only half damage to corporeal creatures.</p>",
       "chat": "",
@@ -69,7 +74,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -101,12 +105,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.MreTpqcZaHEngxm2"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321387,
+    "modifiedTime": 1665949091522,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Winter Collector [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Winter collectors are always located in areas of severe cold, and are typically surrounded by thick snow or ice. A winter collector siphons a portion of the ambient cold weather and condenses it into concentrated cold energy, which the collector then beams like a signal across worlds to the winter receiver in the Royal Palace in Whitethrone. This energy then radiates out to the borders of Irrisen, keeping the weather in a perpetual wintry state. In addition, a winter collector functions as a permanent gate, allowing instant travel from the collector's location to the Royal Palace (but not in the other direction), even if the collector is located on the Material Plane.   A winter collector radiates an aura o f cold out to 50 feet. This aura deals 6d6 points of cold damage each round to creatures in this area. Creatures within 10 feet of the winter collector take 12d6 points of cold damage each round. Half of this cold damage is not subject to being reduced by resistance or immunity to cold-based effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 72",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265253,
+    "modifiedTime": 1665949036827,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

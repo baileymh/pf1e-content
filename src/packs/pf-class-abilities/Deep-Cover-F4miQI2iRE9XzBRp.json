@@ -3,7 +3,7 @@
   "name": "Deep Cover",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>When you prepare your spells, you can also choose one cover identity-whether that of a real person or a fictitious one. You can assume the disguise of your cover identity in half the normal amount of time. When targeted by a spell or effect that would compromise your chosen disguise (such as detect evil, detect thoughts, or zone of truth), as an immediate action you can force the creature using the ability to attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). If the creature fails, it gains false information in keeping with your cover identity. You can use this false information ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269296,
+    "modifiedTime": 1665949041573,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

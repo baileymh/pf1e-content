@@ -3,7 +3,7 @@
   "name": "Calming Touch",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>You can touch a creature as a standard action to heal it of 1d6 points of nonlethal damage + 1 point per cleric level. This touch also removes the fatigued, shaken, and sickened conditions (but has no effect on more severe conditions). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272201,
+    "modifiedTime": 1665949044757,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

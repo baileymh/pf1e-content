@@ -3,7 +3,7 @@
   "name": "Enlarge Person",
   "type": "buff",
   "img": "systems/pf1/icons/feats/athletic.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>Gains a +2 size bonus to Strength, -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.</p>\n<p><strong>Usage:</strong> Set target's size to next increment to affect attack roll and AC penalty.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -50,20 +50,20 @@
     },
     "scriptCalls": [
       {
-        "_id": "4mp73kfhnntfc7yv",
-        "category": "toggle",
-        "hidden": true,
-        "img": "icons/svg/dice-target.svg",
+        "_id": "7Inw9itF8VyH0zcP",
         "name": "Toggle Size",
+        "img": "icons/svg/dice-target.svg",
         "type": "script",
-        "value": "if (state) {\n  await actor.update({'data.traits.size': 'lg'});\n}\nelse {\n  await actor.update({'data.traits.size': 'med'});\n}"
+        "value": "if (state) {\n  await actor.update({'data.traits.size': 'lg'});\n}\nelse {\n  await actor.update({'data.traits.size': 'med'});\n}",
+        "category": "toggle",
+        "hidden": false
       }
     ],
     "buffType": "temp",
     "active": false,
-    "level": "",
+    "level": null,
     "duration": {
-      "value": null,
+      "value": "",
       "units": ""
     },
     "hideFromToken": false,
@@ -80,8 +80,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266029,
+    "modifiedTime": 1665951046093,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

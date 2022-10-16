@@ -3,7 +3,7 @@
   "name": "Flensing Strike",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blood_05.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your slashing sneak attacks tend to slice away swaths of skin and natural armor.</em><br/><br/><b>Prerequisites</b><br/>Sneak attack +3d6, bleeding sneak attack rogue trick or bleed universal monster ability.<br/><br/><b>Benefits</b><br/>When you successfully inflict sneak attack damage on a foe with a slashing weapon, your attack doesn't go particularly deep, but you do carve away a significant portion of skin and flesh. If this sneak attack inflicts bleed damage, the victim of the sneak attack is sickened by the pain and has its natural armor bonus (if any) reduced by a number of points equal to the number of sneak attack dice you possess. These penalties persist as long as the bleed damage persists. Multiple strikes on the same foe do not stack the bleed damage, but the penalty to natural armor does stack, to a maximum penalty equal to the target's normal full natural armor score.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356928,
+    "modifiedTime": 1665949125226,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

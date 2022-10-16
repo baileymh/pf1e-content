@@ -3,7 +3,7 @@
   "name": "Healing Potion",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/magic-red.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can infuse a healing spell into a potion that produces a different effect.</em><br /><br /><strong>Prerequisites</strong><br />Brew Potion, ability to cast cure serious wounds.<br /><br /><strong>Benefits</strong><br />When you brew a potion, you can add the effects of one of the following spells to the potion's effects: cure light wounds, cure moderate wounds, or cure serious wounds. When imbibed, the potion has the effect of both the chosen cure spell and the spell used to brew the potion. When brewing the potion, you must expend both spells as though you were creating two separate potions. Due to the intricacies of making such a carefully blended potion, you must use particularly fine and rare ingredients, meaning you must pay twice the cost of creating each potion separately. The combined spell levels of the cure spell and the other spell used in the potion must be level 3 or less (for example, you could combine cure light wounds with a 2nd-level spell to create a healing potion, or cure moderate wounds with a 1st-level spell, or cure serious wounds with a 0-level spell).<br /><br /><strong>Versatile Brewing</strong><br />The above feat allows potion brewers to concoct unusual variations in their potions, altering the potions' effects in strange and useful ways. This feat functions similarly to metamagic feats, though it affects the creation of potions instead of the normal casting of spells. Level limits for potions apply to their level after the application of any relevant metamagic feats (if the feat affects the component spell's level).</p>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355127,
+    "modifiedTime": 1665949123340,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

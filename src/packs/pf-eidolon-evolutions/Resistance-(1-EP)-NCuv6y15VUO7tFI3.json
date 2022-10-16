@@ -3,7 +3,12 @@
   "name": "Resistance (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_20.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.e5KkUpIxh7fiBvSL"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon's form takes on a resiliency to one particular energy type, which is usually reflected in its physical body (ashen hide for fire, icy breath for cold, and so on). Pick one energy type (acid, cold, electricity, fire, or sonic).</p>\n<p>The eidolon gains resist 5 against that energy type. This resistance increases by 5 for every 5 levels the summoner possesses, to a maximum of 15 at 10th level.</p>\n<p>This evolution can be selected more than once. Its effects do not stack. Each time an eidolon selects this evolution, it applies to a different energy type.</p>\n<p><strong>Usage</strong></p>\n<p>Add SR to Eidolon character sheet.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.e5KkUpIxh7fiBvSL"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321305,
+    "modifiedTime": 1665949091464,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

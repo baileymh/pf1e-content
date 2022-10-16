@@ -3,7 +3,7 @@
   "name": "Baba Yaga's Mortar And Pestle [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This wooden mortar for grinding is 4 feet tall and 14 inches in diameter, and can hold up to 4 cubic feet of dry goods. Its pestle is about 8 feet long and carved of the same dense wood. It can be used as a weapon, functioning as a +1 quarterstaff. On command, the mortar and pestle shrink down small enough to fit in a belt pouch and weigh only 3 pounds. The mortar must be empty to shrink.  The mortar and pestle can be commanded to grind any object placed inside; each round, the object takes 3d6 points of damage that bypasses hardness. Any object reduced to 0 hit points in this manner is ground into powder. Magic items can attempt a DC 19 Fortitude save each round to avoid taking damage. Artifacts can't be destroyed in the mortar and pestle.  The mortar is large enough to hold a single Medium creature, but it can enlarge to hold up to four Medium creatures or one Large creature. The mortar can be commanded to fly at a speed of 30 feet as overland flight, for up to 8 hours per day. Using the pestle to steer the mortar grants a +10 bonus on Fly checks. Twice per day, the mortar can create a single-use phase door that closes behind the mortar. Baba Yaga can summon her mortar and pestle to fly to her from anywhere on the same planet, regardless of the commands of any creatures inside it.  With the exception of using the pestle as a weapon, the mortar and pestle must be together to use the their abilities.<br><p><b>Base Item:</b> +1 quarterstaff</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 72",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264581,
+    "modifiedTime": 1665949035829,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

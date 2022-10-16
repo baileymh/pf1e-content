@@ -3,7 +3,12 @@
   "name": "Sacred Armor",
   "type": "feat",
   "img": "systems/pf1/icons/feats/arcane-armor-mastery.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.saWbq2V02ZTAr21j"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>At 7th level, the warpriest gains the ability to enhance his armor with divine power as a swift action. This power grants the armor a +1 enhancement bonus. For every 3 levels beyond 7th, this bonus increases by 1 (to a maximum of +5 at 19th level). The warpriest can use this ability a number of minutes per day equal to his warpriest level. This duration must be used in 1-minute increments, but they don’t need to be consecutive.<br><br>These bonuses stack with any existing bonuses the armor might have, to a maximum of +5. The warpriest can enhance armor any of the following armor special abilities:&nbsp;energy resistance&nbsp;(normal, improved, and greater),&nbsp;fortification&nbsp;(heavy, light, or moderate),&nbsp;glamered, and&nbsp;spell resistance&nbsp;(13, 15, 17, and 19). Adding any of these special abilities replaces an amount of bonus equal to the special ability’s base cost (see Table 15–4 on page 463 of the&nbsp;Core Rulebook). For this purpose,&nbsp;glamered&nbsp;counts as a +1 bonus,&nbsp;energy resistance&nbsp;counts as +2,&nbsp;improved energy resistance&nbsp;counts as +4, and&nbsp;greater energy resistance&nbsp;counts as +5. Duplicate abilities do not stack. The armor must have at least a +1 enhancement bonus before any other special abilities can be added.<br><br>The enhancement bonus and armor special abilities are determined the first time the ability is used each day and cannot be changed until the next day. These bonuses apply only while the warpriest is wearing the armor, and end immediately if the armor is removed or leaves the warpriest’s possession. This ability can be ended as a free action at the start of the warpriest’s turn. This ability cannot be applied to a shield.<br><br>When the warpriest uses this ability, he can also use his sacred weapon ability as a free action by expending one use of his fervor.</p>",
       "chat": "",
@@ -44,6 +49,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 7,
           "maxFormula": "@classes.warpriest.level"
@@ -97,6 +107,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -161,7 +172,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -195,12 +205,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.saWbq2V02ZTAr21j"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272847,
+    "modifiedTime": 1665949045415,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

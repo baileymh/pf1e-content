@@ -3,7 +3,7 @@
   "name": "Surcease Of Sorrows [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Surcease of Sorrows is a +4 adamantine impact repositioning heavy mace that resembles a simple, key-shaped walking stick of bone. A gift from Asmodeus to the fledgling usher Barzahk-and subsequently purged of a devastating curse by Pharasma-the humble-seeming weapon is a beloved sign of the usher's station.  Surcease of Sorrows can function as a chime of opening with unlimited charges. Three times per day, it can be used to dismiss any sort of magical barrier or wall. This functions as greater dispel magic, but affecting only abjuration spells and spells whose names contain wall of, and it uses an attack roll with the weapon in place of a caster level check. If the spell to be broken is affecting a specific creature, the result of the attack roll to dispel it must equal or exceed the target spell DC or the creature's AC, whichever is higher.<br><p><b>Base Item:</b> +4 adamantine impact repositioning heavy mace</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 143",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265170,
+    "modifiedTime": 1665949036533,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

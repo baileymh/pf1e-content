@@ -3,7 +3,7 @@
   "name": "Vision-Clouding Strike",
   "type": "feat",
   "img": "systems/pf1/icons/spells/enchant-magenta-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Magus Arcana</strong><br/><br/><p>The magus can expend 1 or more points from his arcane pool as a swift action to empower his weapon with shadowy energy that dissipates within 1 minute. A creature struck with the weapon must succeed at a Will save (DC = 1/2 the magus's level + his Intelligence modifier) or treat the magus as being in an area of dim light for 1d4 rounds, plus 1 additional round for each arcane pool point expended. True seeing penetrates this effect, but darkvision and similar darkness-penetrating effects do not. The magus must be at least 9th level before selecting this arcana.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428273944,
+    "modifiedTime": 1665949046606,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

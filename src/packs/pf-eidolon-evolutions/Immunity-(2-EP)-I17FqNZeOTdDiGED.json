@@ -3,7 +3,12 @@
   "name": "Immunity (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/nature_07.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.vsPJlXYnc2XxxVZR"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon's body becomes extremely resilient to one energy type, gaining immunity to that type.</p>\n<p>Pick one energy type: acid, cold, electricity, fire, or sonic. The eidolon gains immunity to that energy type. This evolution can be selected more than once. Its effects do not stack. Each time it applies to a different energy type.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 7th level before selecting this evolution.</p>\n<p><strong>Usage</strong></p>\n<p>Add selected Immunity to the eidolon sheet.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.vsPJlXYnc2XxxVZR"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321283,
+    "modifiedTime": 1665949091449,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

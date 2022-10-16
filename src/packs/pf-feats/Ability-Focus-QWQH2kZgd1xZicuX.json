@@ -3,7 +3,12 @@
   "name": "Ability Focus",
   "type": "feat",
   "img": "systems/pf1/icons/feats/skill-focus.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.CRMpZsZo3pTHrF6X"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><em>One of this creature's special attacks is particularly difficult to resist.</em><br /><br /><strong>Prerequisites</strong><br />Special attack.<br /><br /><strong>Benefits</strong><br />Choose one of the creature's special attacks. Add +2 to the DC for all saving throws against the special attack on which the creature focuses.</p>\n<p><strong>Special<br /></strong>A creature can gain this feat multiple times. Its effects do not stack. Each time the creature takes the feat, it applies to a different special attack.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong></p>\n<p>Rename ability to include the name of the special attack affected. Add a note / increase the DC by +2 for the special attack.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -93,12 +97,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.CRMpZsZo3pTHrF6X"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354393,
+    "modifiedTime": 1665949122559,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Lingering Breath",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_14.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your powerful draconic breath coats the battlefield.</em><br/><br/><b>Prerequisites</b><br/>Dragon disciple level 3rd.<br/><br/><b>Benefits</b><br/>A creature that fails its save against your breath weapon is covered in a clinging effect that deals a number of points of damage equal to 1d6 x-- the number of times per day you can use your breath weapon. This lingering damage is of the same energy type as your breath weapon. The lingering breath effect remains for a number of rounds equal to your dragon disciple level, but in each subsequent round, a creature can spend a standard action to attempt another save against your breath weapon DC to remove the effect.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355463,
+    "modifiedTime": 1665949123721,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

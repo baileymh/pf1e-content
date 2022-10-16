@@ -3,7 +3,7 @@
   "name": "Thorncrown Of Iomedae [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Thorncrown of Iomedae functions as a major crown of blasting that grants the wearer a deflection bonus to her Armor Class equal to her Charisma modifier. In the hands of a paladin, the Thorncrown reveals its true powers, bursting into flames and spinning above the wearer's head in a halo of divine power. Paladins of any faith who wear the Thorncrown have their class abilities enhanced for as long as they wear it, gaining three additional mercies (from levels they have access to but have not selected), healing the maximum amount possible every time they use lay on hands, and gaining a number of additional uses of smite evil equal to their Charisma modifier. Additionally, if a paladin wearing the Thorncrown is slain, she may choose to instantly be restored to full hit points for a number of minutes equal to her Charisma modifier. She may act as normal for this period, but at the end of this time she dies and cannot be restored by any means short of a miracle cast by a cleric of her faith.  The Thorncrown of Iomedae bestows two negative levels on any evil creature that wears it. These negative levels remain as long as the Thorncrown is held or worn-though they never result in actual level loss, they cannot be overcome in any way (including restoration spells) while the creature possesses the Thorncrown. Additionally, paladins who either break their code of conduct while wearing the Thorncrown or do not have access to their class features when they don the artifact must succeed at a DC 30 Will save or instantly be disintegrated. Those slain by the Thorncrown cannot be brought back to life by clerics with good or lawful components to their alignment-their spells simply fail-though clerics of other alignments can restore a paladin as normal. Even those who succeed at this save are treated as though they were evil creatures and gain negative levels. Paladins who receive atonement can wear the Thorncrown again without fear of ill effects.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265262,
+    "modifiedTime": 1665949036852,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

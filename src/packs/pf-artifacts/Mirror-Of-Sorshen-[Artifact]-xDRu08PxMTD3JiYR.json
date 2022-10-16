@@ -3,7 +3,7 @@
   "name": "Mirror Of Sorshen [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Whenever an intelligent creature looks in this beautiful mirror, the mirror shows an image of a person, creature, or item that the observer finds irresistible-most often one that the observer finds sensually arousing. The specific image shown varies from person to person, even when more than one person looks into the mirror at the same time. The mirror's effect functions as a gaze attack that affects everyone who sees the surface of the mirror, which the bearer can actively direct at a target as a standard action. Unless an observer succeeds at a DC 27 Will save, she is fascinated, staring blankly at the mirror for as long as it remains in view and for 2d4 minutes thereafter, during which she continues to stare in the direction she last saw the mirror. Unlike the normal fascinated condition, the effect created by the mirror is not automatically broken by an obvious threat; instead, a fascinated creature receives a new saving throw for each such threat, with a +6 circumstance bonus. At the GM's discretion, a truly innocent creature or a character who  has renounced all worldly pleasures may be immune to the mirror's fascination effect.  While a creature is fascinated by the Mirror of Sorshen, the artifact's bearer can speak a command word to compel her service for 30 days (as per dominate monster with no saving throw). There is no limit to the number of such thralls a bearer can have. The domination effect ends for a victim after 30 days, but if the victim sees the mirror again at any point before this duration expires, it is automatically extended for an additional 30 days from the moment it caught sight of the mirror anew.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 137",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265241,
+    "modifiedTime": 1665949036811,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

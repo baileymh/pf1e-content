@@ -3,7 +3,7 @@
   "name": "Everdawn Pool [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The runelords of Thassilon had a long tradition of placing power into pools, liquefying and containing raw magic to harness for  a multitude of goals. Their runewells are perhaps the most notorious of these artifacts, though others, like the Runeforge, exist. But they learned this technique from the artifacts of those who preceded them. The Everdawn Pool is one such artifact. Unlike magical pools created by the runelords, it needs no well as a container-it is a 30-foot-diameter sphere of roiling, churning blood in which brief glimpses of limbs and faces (not all of them humanoid) constantly form and dissolve.  Records of where Sorshen first discovered the Everdawn Pool have been lost, if indeed they ever existed in the first place, along with any hint of who or what may have created this potent font of magical power (although certain obscure sources hint at Leng and the creatures known as the scarlet walkers that dwell in that nightmare realm). What seems certain is that she-and later, other runelords-were able to reverse engineer some of the Everdawn Pool's properties and build pools of power of their own. In many cases, these pools even surpassed the Everdawn Pool. Certainly, the power of Karzoug's Runewell of Greed exceeds that of the Everdawn Pool, as would, one would guess, the runewells created by those more powerful than him (Xanderghul, Alaznist, and Sorshen). Yet the Everdawn Pool remains the first. It provided a legacy that helped shape all of Thassilon, and was a significant part of what gave Sorshen the boost in power to claim and keep the role of Runelord of Lust for the duration of that ancient empire.  The Everdawn Pool requires specially prepared blood to function. A single drop of blood and one 12-hour ritual performed by any character capable of casting 9th-level spells who succeeds at a DC 30 Spellcraft check is enough to awaken the pool and grant it 1 charge. Additional charges can be stored in the Everdawn Pool by performing this ritual multiple times, but only one such ritual can be performed at any one time (effectively limiting the Everdawn Pool's capacity to be recharged to a rate of no more than 2 charges per day). The pool can store up to 25 charges at a time, but when the PCs start Part 3 of Crown of Fangs, Queen Ileosa has used most of what she stored within and the Everdawn Pool has only 10 charges stored within it.  A creature that spends 10 minutes bathing in the blood of the Everdawn Pool becomes infused with its power for 1 week, during which time the creature is immune to bleed effects and modifies its total hit points with its Charisma modifier rather than its Constitution modifier. While immersed, a creature has no need to eat, drink, or breathe, and can see into every chamber of the Sunken Queen as if using an unlimited number of clairaudience/clairvoyance sensors. The creature can still observe only one location at a time, but can switch locations as a move action. As a side effect, a creature that has been so infused can use teleport effects within the Sunken Queen without restriction. The Everdawn Pool must have at least 1 charge stored to grant these boons to those that bathe within its waters, but granting these boons does not deplete its charges.  Once a creature is infused with the Everdawn Pool's power, it can spend the pool's charges to use the following abilities, as long as the creature is fully immersed in the pool at the time.  Blood Simulacrum: A creature infused with the Everdawn Pool's power can spend 2 of the pool's charges to create a blood simulacrum of itself. This creation takes 12 hours to complete and functions the same as that created by the spell simulacrum, save that the simulacrum's creator can choose at the time of creation to grant a blood simulacrum the redirection ability (see the False Ileosa statistics on page 363). Up to seven blood simulacra can exist at any one time, but only one can have the redirection ability at a time.  Create Life: Once per day, a creature can use the Everdawn Pool to manifest a living creature to serve as a loyal minion-the type of creature created is determined by the combined power of the user's soul and personality, but as a general rule the pool creates a minion whose CR is 3 lower than the creator's CR. In Ileosa's case, life created using this power manifests as a taniniver (Pathfinder RPG Bestiary 4 258). Creatures created by other NPCs (or even PCs) should be selected and customized as needed by the GM to represent the source. Only one life can be created by the Everdawn Pool at a time, and as long as the created life lives, it remains loyal to its creator unless it's subjected to mind control effects. Creating life costs 5 charges but requires only a standard action.  Eternal Youth: The ritual to gain eternal youth requires blood samples from numerous mortals to be mixed into the Everdawn Pool. Once this step is completed, a creature must immerse itself in the Everdawn Pool, soaking in the pool's power. At the end of each day, the pool expends 1 charge. Once the user has spent 100 charges in this manner, and as long as all 100 charges were spent within the span of a single year, all of those creatures that provided blood samples drop dead, and for each donor that dies, the user ceases to age for 1 year. Ileosa has infused the Everdawn Pool with blood harvested from thousands of Korvosans, so if she completes this ritual, she'll remain young for thousands of years-more than enough time to repeat the ritual as she needs to extend her effective immortality. This adventure assumes that she is only 10 days (and thus 10 charges) away from completing her ritual when the PCs begin Part 3 of Chapter 6-see page 388 for more details. Note that using this function of the Everdawn Pool is an evil act and may have alignment repercussions for the user.  Manifest Magic: At a cost of 20 charges, a creature can activate the Everdawn Pool as a standard action to cast wish, but only in that spell's capacity to duplicate an existing spell. Sorshen often used this ability to cast necromancy or transmutation spells, magic her specialization normally forbade her from using. The pool currently doesn't have enough charges remaining for Ileosa to use this ability.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Curse Of The Crimson Throne Chapter Appendix",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265239,
+    "modifiedTime": 1665949036810,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

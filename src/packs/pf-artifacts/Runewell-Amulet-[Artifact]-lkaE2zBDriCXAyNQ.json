@@ -3,7 +3,7 @@
   "name": "Runewell Amulet [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This amulet of gold and red crystal grants the wearer a +5 enhancement bonus to her natural armor. In addition, the wearer becomes attuned to both the runewell of greed and the soul lens that controls it-allowing t he wearer to benefit from the fragmentary souls gathered and absorbed by the runewell. As long as the runewell functions, the wearer does not age and has no need for food or water. In addition, she can fly at a speed of 60 feet with perfect maneuverability and gains fast healing 10. If the runewell amulet is removed, the wearer loses all of these abilities. While this does mean the wearer begins aging normally and must eat and drink, she does not suffer any ill effect from the years that passed or the meals she missed while she wore the amulet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>RotRL-AE-Appendix",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265137,
+    "modifiedTime": 1665949036424,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

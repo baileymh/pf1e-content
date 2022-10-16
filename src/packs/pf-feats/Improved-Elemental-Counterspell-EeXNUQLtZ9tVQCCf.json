@@ -3,7 +3,7 @@
   "name": "Improved Elemental Counterspell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_22.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can charge your kinetic blast with disruptive elemental energy that tears apart elemental spells.</em><br/><br/><b>Prerequisites</b><br/>Two basic blast wild talents from two different elements, expanded element class feature, kinetic blast class feature.<br/><br/><b>Benefits</b><br/>You can use a readied kinetic blast to counterspell any spell of equal or lower level, provided that the target spell has any of the following descriptors: air, cold, darkness, earth, electricity, fire, force, light, or water.<br/><br/><b>Normal</b><br/>A readied kinetic blast can be used to counterspell spells that share its descriptor.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352581,
+    "modifiedTime": 1665949120675,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

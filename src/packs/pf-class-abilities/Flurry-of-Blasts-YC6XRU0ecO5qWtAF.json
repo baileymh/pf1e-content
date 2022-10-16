@@ -3,7 +3,7 @@
   "name": "Flurry of Blasts",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_28.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Kineticist Wild Talent - Infusion</strong><br/><br/><p>Element universal; Type form infusion; Level 3; Burn 2</p><p>Prerequisite extended range</p><p>Associated Blasts any</p><p>Saving Throw none</p><p>Instead of a single kinetic blast, you shoot two kinetic blasts at targets within 120 feet that each deal damage as if your kineticist level were 1st (effects or abilities that increase your kinetic blast's damage don't apply). At 10th level, you can shoot three blasts with flurry of blasts; this increases to four blasts at 16th level and to five blasts at 20th level. If you are under the effect of haste or similar magic that increases your number of attacks in a fullattack action, the number of kinetic blasts in your flurry of blasts increases by 1.</p><p>No two targets can be more than 30 feet apart. You must assign the targets of all your blasts before rolling any of the attacks. Any blast beyond the first that hits the same target adds 1d6 points of damage; bonuses and penalties to damage don't apply. If you are using a substance infusion that requires a saving throw, a target attempts its save only once (even if it was hit multiple times), but it takes a penalty on the save equal to the number of times it was hit beyond the first. If you are using a substance infusion that requires a caster level check or combat maneuver check, you roll the check only once against each target, but you gain a bonus on the check equal to the number of times that target was hit beyond the first. If you are using the pushing substance infusion, the maximum distance of the push increases by 5 feet for each time the target was hit beyond the first.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272808,
+    "modifiedTime": 1665949045379,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,1637 @@
   "name": "Wysp, Air",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
-  "data": {
+  "items": [
+    {
+      "_id": "cV7yHt8i5YCV0ZTd",
+      "name": "Outsider (Air, Elemental)",
+      "type": "class",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_40.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "<p>An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence.</p>\n<h2><span id=\"Features\">Features</span></h2>\n<p>An outsider has the following features.</p>\n<ul>\n<li>d10 Hit Dice.</li>\n<li>Base attack bonus equal to total Hit Dice (fast progression).</li>\n<li>Two good saving throws, usually&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Reflex\" rel=\"nofollow\">Reflex</a>&nbsp;and Will.</li>\n<li>Skill points equal to 6 + Int modifier (minimum 1) per Hit Die. The following are class skills for outsiders: <a href=\"https://www.d20pfsrd.com/skills/bluff\" rel=\"nofollow\">Bluff</a>, <a href=\"https://www.d20pfsrd.com/skills/craft\" rel=\"nofollow\">Craft</a>, <a href=\"https://www.d20pfsrd.com/skills/knowledge\" rel=\"nofollow\">Knowledge</a>&nbsp;(planes), <a href=\"https://www.d20pfsrd.com/skills/perception\" rel=\"nofollow\">Perception</a>, <a href=\"https://www.d20pfsrd.com/skills/sense-motive\" rel=\"nofollow\">Sense Motive</a>, and <a href=\"https://www.d20pfsrd.com/skills/stealth\" rel=\"nofollow\">Stealth</a>. Due to their varied nature, outsiders also receive 4 additional class skills determined by the creature’s theme.</li>\n</ul>\n<h2><span id=\"Traits\">Traits</span></h2>\n<p>An outsider possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Darkvision 60 feet.</li>\n<li>Unlike most living creatures, an outsider does not have a dual nature—its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/raise-dead\" rel=\"nofollow\">raise dead</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/reincarnate\" rel=\"nofollow\">reincarnate</a>,&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/resurrection\" rel=\"nofollow\">resurrection</a>,&nbsp;don’t work on an outsider. It takes a different magical effect, such as&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/l/limited-wish\" rel=\"nofollow\">limited wish</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/w/wish\" rel=\"nofollow\">wish</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/m/miracle\" rel=\"nofollow\">miracle</a>,&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/t/true-resurrection\" rel=\"nofollow\">true resurrection</a>&nbsp;to restore it to life. An outsider with the native subtype can be raised, reincarnated, or resurrected just as other living creatures can be.</li>\n<li>Proficient with all simple and martial weapons and any weapons mentioned in its entry.</li>\n<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.</li>\n<li>Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). Native outsiders breathe, eat, and sleep.</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "links": "",
+        "tag": "outsider",
+        "useCustomTag": true,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "classType": "racial",
+        "level": 3,
+        "hd": 10,
+        "hp": 16,
+        "bab": "high",
+        "skillsPerLevel": 6,
+        "savingThrows": {
+          "fort": {
+            "value": "low"
+          },
+          "ref": {
+            "value": "high"
+          },
+          "will": {
+            "value": "high"
+          }
+        },
+        "fc": {
+          "hp": {
+            "value": 0
+          },
+          "skill": {
+            "value": 0
+          },
+          "alt": {
+            "value": 0,
+            "notes": ""
+          }
+        },
+        "classSkills": {
+          "acr": false,
+          "apr": false,
+          "art": false,
+          "blf": true,
+          "clm": false,
+          "crf": true,
+          "dip": false,
+          "dev": false,
+          "dis": false,
+          "esc": false,
+          "fly": false,
+          "han": false,
+          "hea": false,
+          "int": false,
+          "kar": false,
+          "kdu": false,
+          "ken": false,
+          "kge": false,
+          "khi": false,
+          "klo": false,
+          "kna": false,
+          "kno": false,
+          "kpl": true,
+          "kre": false,
+          "lin": false,
+          "lor": false,
+          "per": true,
+          "prf": false,
+          "pro": false,
+          "rid": false,
+          "sen": true,
+          "slt": false,
+          "spl": false,
+          "ste": true,
+          "sur": false,
+          "swm": false,
+          "umd": false
+        },
+        "levels": 1,
+        "damage": {
+          "parts": []
+        },
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "MOAVQaT3iiaEbU1H",
+      "name": "Race: Outsider",
+      "type": "race",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_40.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "sbc | As the statblock did not include a race, a custom one was generated.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "creatureType": "outsider",
+        "size": "med",
+        "subTypes": [
+          [
+            "air"
+          ],
+          [
+            "elemental"
+          ]
+        ],
+        "range": {
+          "maxIncrements": 1
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "0hSlIogLBsEtUlOb",
+      "name": "Sense: Darkvision 60ft.",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/shadow_12.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black-and-white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise—invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "senseDarkvision60ft",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "racial",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "ex",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "HcxwvMYu3S0zz6tx",
+      "name": "Aura: Resonance",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/spells/runes-blue-3.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [
+          {
+            "_id": "16fyzk9x8cymsqul",
+            "name": "Use",
+            "img": "systems/pf1/icons/spells/runes-blue-3.jpg",
+            "description": "",
+            "tag": "auraResonance",
+            "activation": {
+              "cost": null,
+              "type": "passive"
+            },
+            "unchainedAction": {
+              "activation": {
+                "cost": null,
+                "type": "passive"
+              }
+            },
+            "duration": {
+              "value": null,
+              "units": "perm"
+            },
+            "target": {
+              "value": "centered on self"
+            },
+            "range": {
+              "value": "30",
+              "units": "ft",
+              "maxIncrements": 1,
+              "minValue": null,
+              "minUnits": ""
+            },
+            "uses": {
+              "autoDeductCharges": true,
+              "autoDeductChargesCost": "1",
+              "self": {
+                "value": 0,
+                "maxFormula": "",
+                "per": null
+              },
+              "per": null,
+              "value": 0,
+              "maxFormula": "",
+              "max": 0
+            },
+            "measureTemplate": {
+              "type": "circle",
+              "size": "30",
+              "overrideColor": false,
+              "customColor": "",
+              "overrideTexture": false,
+              "customTexture": ""
+            },
+            "attackName": "",
+            "actionType": null,
+            "attackBonus": "",
+            "critConfirmBonus": "",
+            "damage": {
+              "parts": [],
+              "critParts": [],
+              "nonCritParts": []
+            },
+            "attackParts": [],
+            "formulaicAttacks": {
+              "count": {
+                "formula": "",
+                "value": null
+              },
+              "bonus": {
+                "formula": ""
+              },
+              "label": null
+            },
+            "formula": "",
+            "ability": {
+              "attack": null,
+              "damage": null,
+              "damageMult": 1,
+              "critRange": 20,
+              "critMult": 2
+            },
+            "save": {
+              "dc": "",
+              "type": "will",
+              "description": ""
+            },
+            "effectNotes": [],
+            "attackNotes": [],
+            "soundEffect": "",
+            "powerAttack": {
+              "multiplier": "",
+              "damageBonus": 2,
+              "critMultiplier": 1
+            },
+            "naturalAttack": {
+              "primaryAttack": true,
+              "secondary": {
+                "attackBonus": "-5",
+                "damageMult": 0.5
+              }
+            },
+            "nonlethal": false,
+            "usesAmmo": false,
+            "spellEffect": "",
+            "spellArea": "",
+            "conditionals": [],
+            "enh": {
+              "value": null
+            }
+          }
+        ],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "auraResonance",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "racial",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": null,
+          "type": "passive"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": null,
+            "type": "passive"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "perm"
+        },
+        "target": {
+          "value": "centered on self"
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "30",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": "",
+          "type": "will",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "dnJRPTrj4ifE4IZz",
+      "name": "Flyby Attack",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "sbc | As Flyby Attack could not be found in any compendium, a placeholder was generated.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "flybyAttack",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "feat",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "vWiTqHC4Y3Xn1Pme",
+      "name": "Weapon Finesse",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/feats/weapon-finesse.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "\n                <i>You are trained in using your agility in melee combat, as opposed to brute strength.</i>\n                <br />\n                <br />\n                \n                <p><b>Benefits</b></p>\n                <p><p class=\"stat-block-1\"> With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.</p></p>\n                \n            <br />\n                <p><b>Special</b></p>\n                <p><p class=\"stat-block-1\"> Natural weapons are considered light weapons.</p></p>\n                \n            \n            ",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [
+          [
+            "Combat"
+          ],
+          [
+            "Weapon"
+          ]
+        ],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noStr": false,
+          "noDex": false,
+          "oneInt": false,
+          "oneWis": false,
+          "oneCha": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "weaponFinesse",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "feat",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": "",
+          "long": null
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "0",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": "",
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "recharge": {
+          "value": null,
+          "charged": false,
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "Te8guvpfvuuEB0s6",
+      "name": "Special Quality: Living Battery",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "sbc | Placeholder for Special Qualities, which in most statblocks are listed under SQ in the statistics block, but described in the Special Abilities. Remove duplicates as needed!",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "specialQualityLivingBattery",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "F77mXOaXusfG1P3E",
+      "name": "Special Quality: Servitor",
+      "type": "feat",
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "sbc | Placeholder for Special Qualities, which in most statblocks are listed under SQ in the statistics block, but described in the Special Abilities. Remove duplicates as needed!",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "changes": [],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": [],
+          "charges": []
+        },
+        "tag": "specialQualityServitor",
+        "useCustomTag": false,
+        "armorProf": {
+          "value": [],
+          "custom": ""
+        },
+        "weaponProf": {
+          "value": [],
+          "custom": ""
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "featType": "misc",
+        "associations": {
+          "classes": []
+        },
+        "showInQuickbar": false,
+        "abilityType": "none",
+        "crOffset": "",
+        "disabled": false,
+        "classSkills": {},
+        "nonlethal": false,
+        "activation": {
+          "cost": 1,
+          "type": ""
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": ""
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "",
+        "actionType": null,
+        "attackBonus": "",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": null,
+          "damage": null,
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "CnVxj3hRYMHgPpc9",
+      "name": "Tendrils",
+      "type": "attack",
+      "flags": {},
+      "img": "icons/svg/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "actions": [
+          {
+            "_id": "dw91pc4fb3bji58d",
+            "name": "Attack",
+            "img": "icons/svg/mystery-man.svg",
+            "description": "",
+            "tag": "tendrils",
+            "activation": {
+              "cost": 1,
+              "type": "attack"
+            },
+            "unchainedAction": {
+              "activation": {
+                "cost": 1,
+                "type": "attack"
+              }
+            },
+            "duration": {
+              "value": null,
+              "units": "inst"
+            },
+            "target": {
+              "value": ""
+            },
+            "range": {
+              "value": null,
+              "units": "melee",
+              "maxIncrements": 1,
+              "minValue": null,
+              "minUnits": ""
+            },
+            "uses": {
+              "autoDeductCharges": true,
+              "autoDeductChargesCost": "1",
+              "self": {
+                "value": 0,
+                "maxFormula": "",
+                "per": null
+              },
+              "per": null,
+              "value": 0,
+              "maxFormula": "",
+              "max": 0
+            },
+            "measureTemplate": {
+              "type": "",
+              "size": "",
+              "overrideColor": false,
+              "customColor": "",
+              "overrideTexture": false,
+              "customTexture": ""
+            },
+            "attackName": "Tendrils",
+            "actionType": "mwak",
+            "attackBonus": "6",
+            "critConfirmBonus": "",
+            "damage": {
+              "parts": [
+                [
+                  "1d3+2",
+                  {
+                    "values": [],
+                    "custom": ""
+                  }
+                ]
+              ],
+              "critParts": [],
+              "nonCritParts": []
+            },
+            "attackParts": [
+              [
+                "0",
+                "Tendrils: 1"
+              ]
+            ],
+            "formulaicAttacks": {
+              "count": {
+                "formula": "",
+                "value": null
+              },
+              "bonus": {
+                "formula": ""
+              },
+              "label": null
+            },
+            "formula": "",
+            "ability": {
+              "attack": "str",
+              "damage": "str",
+              "damageMult": 1,
+              "critRange": 20,
+              "critMult": 2
+            },
+            "save": {
+              "dc": 0,
+              "type": "",
+              "description": ""
+            },
+            "effectNotes": [],
+            "attackNotes": [
+              "2 tendrils +11 (1d3+2)"
+            ],
+            "soundEffect": "",
+            "powerAttack": {
+              "multiplier": "",
+              "damageBonus": 2,
+              "critMultiplier": 1
+            },
+            "naturalAttack": {
+              "primaryAttack": true,
+              "secondary": {
+                "attackBonus": "-5",
+                "damageMult": 0.5
+              }
+            },
+            "nonlethal": false,
+            "usesAmmo": false,
+            "spellEffect": "",
+            "spellArea": "",
+            "conditionals": [],
+            "enh": {
+              "value": null
+            }
+          }
+        ],
+        "uses": {
+          "per": null,
+          "value": 0,
+          "maxFormula": "",
+          "autoDeductCharges": true,
+          "autoDeductChargesCost": "1",
+          "max": 0
+        },
+        "attackNotes": [],
+        "effectNotes": [],
+        "links": {
+          "children": [],
+          "charges": [],
+          "ammunition": []
+        },
+        "tag": "tendrils",
+        "useCustomTag": false,
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "masterwork": false,
+        "enh": null,
+        "proficient": true,
+        "held": "normal",
+        "showInQuickbar": true,
+        "broken": false,
+        "ammoType": "",
+        "attackType": "weapon",
+        "weaponGroups": {
+          "value": [],
+          "custom": ""
+        },
+        "primaryAttack": false,
+        "activation": {
+          "cost": 1,
+          "type": "attack"
+        },
+        "unchainedAction": {
+          "activation": {
+            "cost": 1,
+            "type": "attack"
+          }
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": null,
+          "units": "melee",
+          "maxIncrements": 1,
+          "minValue": null,
+          "minUnits": ""
+        },
+        "measureTemplate": {
+          "type": "",
+          "size": "",
+          "overrideColor": false,
+          "customColor": "",
+          "overrideTexture": false,
+          "customTexture": ""
+        },
+        "attackName": "Tendrils",
+        "actionType": "mwak",
+        "attackBonus": "6",
+        "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "1d3+2",
+              ""
+            ]
+          ],
+          "critParts": [],
+          "nonCritParts": []
+        },
+        "attackParts": [
+          [
+            "0",
+            "Tendrils: 1"
+          ]
+        ],
+        "formulaicAttacks": {
+          "count": {
+            "formula": "",
+            "value": null
+          },
+          "bonus": {
+            "formula": ""
+          },
+          "label": null
+        },
+        "formula": "",
+        "ability": {
+          "attack": "str",
+          "damage": "str",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "save": {
+          "dc": 0,
+          "type": "",
+          "description": ""
+        },
+        "soundEffect": "",
+        "nonlethal": false,
+        "conditionals": [],
+        "attack": {
+          "parts": []
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "a2Tf3RBjAcjM6Aa5",
+      "name": "sbc | Conversion Buff",
+      "type": "buff",
+      "sort": 100000,
+      "flags": {},
+      "img": "systems/pf1/icons/skills/yellow_36.jpg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<h2>sbc | Conversion Buff</h2>\n                        This Buff was created by <strong>sbc</strong> to compensate for differences between the input and the values FoundryVTT calculates automatically.\n                        <br><br>\n                        Especially when the pathfinder system gets upgraded, entries in compendiums get updated or foundry changes in some way, this buff may become outdated.\n                        <br><br>\n                        For most mooks the conversion should more or less work, but for important NPCs or creatures it is adviced to double check the conversion manually.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "tags": [],
+        "changes": [
+          {
+            "_id": "pxygrnm7",
+            "formula": "4",
+            "operator": "add",
+            "subTarget": "cmb",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": 4,
+            "target": "misc"
+          },
+          {
+            "_id": "8xk9rcr4",
+            "formula": "2",
+            "operator": "add",
+            "subTarget": "fort",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": 2,
+            "target": "savingThrows"
+          },
+          {
+            "_id": "w5uoqrdu",
+            "formula": "-2",
+            "operator": "add",
+            "subTarget": "will",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": -2,
+            "target": "savingThrows"
+          },
+          {
+            "_id": "zgzxgdf5",
+            "formula": "-8",
+            "operator": "add",
+            "subTarget": "skill.fly",
+            "modifier": "untypedPerm",
+            "priority": 0,
+            "value": -8,
+            "target": "skill"
+          }
+        ],
+        "changeFlags": {
+          "loseDexToAC": false,
+          "noEncumbrance": false,
+          "mediumArmorFullSpeed": false,
+          "heavyArmorFullSpeed": false,
+          "noDex": false,
+          "noStr": false,
+          "oneCha": false,
+          "oneInt": false,
+          "oneWis": false
+        },
+        "contextNotes": [],
+        "links": {
+          "children": []
+        },
+        "tag": "sbcConversionBuff",
+        "useCustomTag": true,
+        "flags": {
+          "boolean": {},
+          "dictionary": {}
+        },
+        "scriptCalls": [],
+        "buffType": "perm",
+        "active": true,
+        "level": 0,
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "hideFromToken": true,
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "range": {
+          "maxIncrements": 1
+        },
+        "size": "med"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -1523,7 +3153,7 @@
       "reach": 10
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf1": {
         "lowLightVision": false
@@ -1531,26 +3161,10 @@
     },
     "name": "Air Wysp",
     "displayName": 20,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 0.6,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 60,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "J66lqvvdzfkWEB0g",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
@@ -1561,16 +3175,13 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
     "alpha": 1,
     "light": {
-      "alpha": 0.5,
-      "angle": 0,
+      "alpha": 1,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -1578,1557 +3189,51 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
+        "type": null,
         "reverse": false
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
-    }
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "tint": null,
+      "scaleX": 0.6,
+      "scaleY": 0.6,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 60,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "cV7yHt8i5YCV0ZTd",
-      "name": "Outsider (Air, Elemental)",
-      "type": "class",
-      "data": {
-        "description": {
-          "value": "<p>An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence.</p>\n<h2><span id=\"Features\">Features</span></h2>\n<p>An outsider has the following features.</p>\n<ul>\n<li>d10 Hit Dice.</li>\n<li>Base attack bonus equal to total Hit Dice (fast progression).</li>\n<li>Two good saving throws, usually&nbsp;<a href=\"https://www.d20pfsrd.com/gamemastering/combat#TOC-Reflex\" rel=\"nofollow\">Reflex</a>&nbsp;and Will.</li>\n<li>Skill points equal to 6 + Int modifier (minimum 1) per Hit Die. The following are class skills for outsiders: <a href=\"https://www.d20pfsrd.com/skills/bluff\" rel=\"nofollow\">Bluff</a>, <a href=\"https://www.d20pfsrd.com/skills/craft\" rel=\"nofollow\">Craft</a>, <a href=\"https://www.d20pfsrd.com/skills/knowledge\" rel=\"nofollow\">Knowledge</a>&nbsp;(planes), <a href=\"https://www.d20pfsrd.com/skills/perception\" rel=\"nofollow\">Perception</a>, <a href=\"https://www.d20pfsrd.com/skills/sense-motive\" rel=\"nofollow\">Sense Motive</a>, and <a href=\"https://www.d20pfsrd.com/skills/stealth\" rel=\"nofollow\">Stealth</a>. Due to their varied nature, outsiders also receive 4 additional class skills determined by the creature’s theme.</li>\n</ul>\n<h2><span id=\"Traits\">Traits</span></h2>\n<p>An outsider possesses the following traits (unless otherwise noted in a creature’s entry).</p>\n<ul>\n<li>Darkvision 60 feet.</li>\n<li>Unlike most living creatures, an outsider does not have a dual nature—its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/raise-dead\" rel=\"nofollow\">raise dead</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/reincarnate\" rel=\"nofollow\">reincarnate</a>,&nbsp;and&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/r/resurrection\" rel=\"nofollow\">resurrection</a>,&nbsp;don’t work on an outsider. It takes a different magical effect, such as&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/l/limited-wish\" rel=\"nofollow\">limited wish</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/w/wish\" rel=\"nofollow\">wish</a>,&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/m/miracle\" rel=\"nofollow\">miracle</a>,&nbsp;or&nbsp;<a href=\"https://www.d20pfsrd.com/magic/all-spells/t/true-resurrection\" rel=\"nofollow\">true resurrection</a>&nbsp;to restore it to life. An outsider with the native subtype can be raised, reincarnated, or resurrected just as other living creatures can be.</li>\n<li>Proficient with all simple and martial weapons and any weapons mentioned in its entry.</li>\n<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.</li>\n<li>Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). Native outsiders breathe, eat, and sleep.</li>\n</ul>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false,
-          "noStr": false,
-          "noDex": false,
-          "oneInt": false,
-          "oneWis": false,
-          "oneCha": false
-        },
-        "links": "",
-        "tag": "outsider",
-        "useCustomTag": true,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "classType": "racial",
-        "level": 3,
-        "hd": 10,
-        "hp": 16,
-        "bab": "high",
-        "skillsPerLevel": 6,
-        "savingThrows": {
-          "fort": {
-            "value": "low"
-          },
-          "ref": {
-            "value": "high"
-          },
-          "will": {
-            "value": "high"
-          }
-        },
-        "fc": {
-          "hp": {
-            "value": 0
-          },
-          "skill": {
-            "value": 0
-          },
-          "alt": {
-            "value": 0,
-            "notes": ""
-          }
-        },
-        "classSkills": {
-          "acr": false,
-          "apr": false,
-          "art": false,
-          "blf": true,
-          "clm": false,
-          "crf": true,
-          "dip": false,
-          "dev": false,
-          "dis": false,
-          "esc": false,
-          "fly": false,
-          "han": false,
-          "hea": false,
-          "int": false,
-          "kar": false,
-          "kdu": false,
-          "ken": false,
-          "kge": false,
-          "khi": false,
-          "klo": false,
-          "kna": false,
-          "kno": false,
-          "kpl": true,
-          "kre": false,
-          "lin": false,
-          "lor": false,
-          "per": true,
-          "prf": false,
-          "pro": false,
-          "rid": false,
-          "sen": true,
-          "slt": false,
-          "spl": false,
-          "ste": true,
-          "sur": false,
-          "swm": false,
-          "umd": false
-        },
-        "levels": 1,
-        "damage": {
-          "parts": []
-        },
-        "range": {
-          "maxIncrements": 1
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_40.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "MOAVQaT3iiaEbU1H",
-      "name": "Race: Outsider",
-      "type": "race",
-      "data": {
-        "description": {
-          "value": "sbc | As the statblock did not include a race, a custom one was generated.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "creatureType": "outsider",
-        "size": "med",
-        "subTypes": [
-          [
-            "air"
-          ],
-          [
-            "elemental"
-          ]
-        ],
-        "range": {
-          "maxIncrements": 1
-        }
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_40.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "0hSlIogLBsEtUlOb",
-      "name": "Sense: Darkvision 60ft.",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black-and-white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise—invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "senseDarkvision60ft",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "racial",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "ex",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/shadow_12.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "HcxwvMYu3S0zz6tx",
-      "name": "Aura: Resonance",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [
-          {
-            "_id": "16fyzk9x8cymsqul",
-            "name": "Use",
-            "img": "systems/pf1/icons/spells/runes-blue-3.jpg",
-            "description": "",
-            "tag": "auraResonance",
-            "activation": {
-              "cost": null,
-              "type": "passive"
-            },
-            "unchainedAction": {
-              "activation": {
-                "cost": null,
-                "type": "passive"
-              }
-            },
-            "duration": {
-              "value": null,
-              "units": "perm"
-            },
-            "target": {
-              "value": "centered on self"
-            },
-            "range": {
-              "value": "30",
-              "units": "ft",
-              "maxIncrements": 1,
-              "minValue": null,
-              "minUnits": ""
-            },
-            "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
-              "per": null,
-              "value": 0,
-              "maxFormula": "",
-              "max": 0
-            },
-            "measureTemplate": {
-              "type": "circle",
-              "size": "30",
-              "overrideColor": false,
-              "customColor": "",
-              "overrideTexture": false,
-              "customTexture": ""
-            },
-            "attackName": "",
-            "actionType": null,
-            "attackBonus": "",
-            "critConfirmBonus": "",
-            "damage": {
-              "parts": [],
-              "critParts": [],
-              "nonCritParts": []
-            },
-            "attackParts": [],
-            "formulaicAttacks": {
-              "count": {
-                "formula": "",
-                "value": null
-              },
-              "bonus": {
-                "formula": ""
-              },
-              "label": null
-            },
-            "formula": "",
-            "ability": {
-              "attack": null,
-              "damage": null,
-              "damageMult": 1,
-              "critRange": 20,
-              "critMult": 2
-            },
-            "save": {
-              "dc": "",
-              "type": "will",
-              "description": ""
-            },
-            "effectNotes": [],
-            "attackNotes": [],
-            "soundEffect": "",
-            "powerAttack": {
-              "multiplier": "",
-              "damageBonus": 2,
-              "critMultiplier": 1
-            },
-            "naturalAttack": {
-              "secondary": {
-                "attackBonus": "-5",
-                "damageMult": 0.5
-              }
-            },
-            "nonlethal": false,
-            "usesAmmo": false,
-            "spellEffect": "",
-            "spellArea": "",
-            "conditionals": [],
-            "enh": {
-              "value": null
-            }
-          }
-        ],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "auraResonance",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "racial",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "none",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": null,
-          "type": "passive"
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": null,
-            "type": "passive"
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": "perm"
-        },
-        "target": {
-          "value": "centered on self"
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "circle",
-          "size": "30",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": "",
-          "type": "will",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/spells/runes-blue-3.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "dnJRPTrj4ifE4IZz",
-      "name": "Flyby Attack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "sbc | As Flyby Attack could not be found in any compendium, a placeholder was generated.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "flybyAttack",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "feat",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "none",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_36.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "vWiTqHC4Y3Xn1Pme",
-      "name": "Weapon Finesse",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "\n                <i>You are trained in using your agility in melee combat, as opposed to brute strength.</i>\n                <br />\n                <br />\n                \n                <p><b>Benefits</b></p>\n                <p><p class=\"stat-block-1\"> With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.</p></p>\n                \n            <br />\n                <p><b>Special</b></p>\n                <p><p class=\"stat-block-1\"> Natural weapons are considered light weapons.</p></p>\n                \n            \n            ",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [
-          [
-            "Combat"
-          ],
-          [
-            "Weapon"
-          ]
-        ],
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false,
-          "noStr": false,
-          "noDex": false,
-          "oneInt": false,
-          "oneWis": false,
-          "oneCha": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "weaponFinesse",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "feat",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "none",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": "",
-          "long": null
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "0",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": "",
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "recharge": {
-          "value": null,
-          "charged": false,
-          "_deprecated": true
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        },
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/feats/weapon-finesse.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "Te8guvpfvuuEB0s6",
-      "name": "Special Quality: Living Battery",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "sbc | Placeholder for Special Qualities, which in most statblocks are listed under SQ in the statistics block, but described in the Special Abilities. Remove duplicates as needed!",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "specialQualityLivingBattery",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "misc",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "none",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_36.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "F77mXOaXusfG1P3E",
-      "name": "Special Quality: Servitor",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "sbc | Placeholder for Special Qualities, which in most statblocks are listed under SQ in the statistics block, but described in the Special Abilities. Remove duplicates as needed!",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "changes": [],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": [],
-          "charges": []
-        },
-        "tag": "specialQualityServitor",
-        "useCustomTag": false,
-        "armorProf": {
-          "value": [],
-          "custom": ""
-        },
-        "weaponProf": {
-          "value": [],
-          "custom": ""
-        },
-        "languages": {
-          "value": [],
-          "custom": ""
-        },
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "featType": "misc",
-        "associations": {
-          "classes": []
-        },
-        "showInQuickbar": false,
-        "nonlethal": false,
-        "abilityType": "none",
-        "crOffset": "",
-        "disabled": false,
-        "classSkills": {},
-        "activation": {
-          "cost": 1,
-          "type": ""
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": ""
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "",
-        "actionType": null,
-        "attackBonus": "",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": null,
-          "damage": null,
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_36.jpg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "CnVxj3hRYMHgPpc9",
-      "name": "Tendrils",
-      "type": "attack",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "actions": [
-          {
-            "_id": "dw91pc4fb3bji58d",
-            "name": "Attack",
-            "img": "icons/svg/mystery-man.svg",
-            "description": "",
-            "tag": "tendrils",
-            "activation": {
-              "cost": 1,
-              "type": "attack"
-            },
-            "unchainedAction": {
-              "activation": {
-                "cost": 1,
-                "type": "attack"
-              }
-            },
-            "duration": {
-              "value": null,
-              "units": "inst"
-            },
-            "target": {
-              "value": ""
-            },
-            "range": {
-              "value": null,
-              "units": "melee",
-              "maxIncrements": 1,
-              "minValue": null,
-              "minUnits": ""
-            },
-            "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
-              "per": null,
-              "value": 0,
-              "maxFormula": "",
-              "max": 0
-            },
-            "measureTemplate": {
-              "type": "",
-              "size": "",
-              "overrideColor": false,
-              "customColor": "",
-              "overrideTexture": false,
-              "customTexture": ""
-            },
-            "attackName": "Tendrils",
-            "actionType": "mwak",
-            "attackBonus": "6",
-            "critConfirmBonus": "",
-            "damage": {
-              "parts": [
-                [
-                  "1d3+2",
-                  {
-                    "values": [],
-                    "custom": ""
-                  }
-                ]
-              ],
-              "critParts": [],
-              "nonCritParts": []
-            },
-            "attackParts": [
-              [
-                "0",
-                "Tendrils: 1"
-              ]
-            ],
-            "formulaicAttacks": {
-              "count": {
-                "formula": "",
-                "value": null
-              },
-              "bonus": {
-                "formula": ""
-              },
-              "label": null
-            },
-            "formula": "",
-            "ability": {
-              "attack": "str",
-              "damage": "str",
-              "damageMult": 1,
-              "critRange": 20,
-              "critMult": 2
-            },
-            "save": {
-              "dc": 0,
-              "type": "",
-              "description": ""
-            },
-            "effectNotes": [],
-            "attackNotes": [
-              "2 tendrils +11 (1d3+2)"
-            ],
-            "soundEffect": "",
-            "powerAttack": {
-              "multiplier": "",
-              "damageBonus": 2,
-              "critMultiplier": 1
-            },
-            "naturalAttack": {
-              "secondary": {
-                "attackBonus": "-5",
-                "damageMult": 0.5
-              }
-            },
-            "nonlethal": false,
-            "usesAmmo": false,
-            "spellEffect": "",
-            "spellArea": "",
-            "conditionals": [],
-            "enh": {
-              "value": null
-            }
-          }
-        ],
-        "uses": {
-          "per": null,
-          "value": 0,
-          "maxFormula": "",
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
-          "max": 0
-        },
-        "attackNotes": [],
-        "effectNotes": [],
-        "links": {
-          "children": [],
-          "charges": [],
-          "ammunition": []
-        },
-        "tag": "tendrils",
-        "useCustomTag": false,
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "masterwork": false,
-        "enh": null,
-        "proficient": true,
-        "primaryAttack": false,
-        "held": "normal",
-        "showInQuickbar": true,
-        "broken": false,
-        "ammoType": "",
-        "attackType": "weapon",
-        "weaponGroups": {
-          "value": [],
-          "custom": ""
-        },
-        "activation": {
-          "cost": 1,
-          "type": "attack"
-        },
-        "unchainedAction": {
-          "activation": {
-            "cost": 1,
-            "type": "attack"
-          }
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": ""
-        },
-        "range": {
-          "value": null,
-          "units": "melee",
-          "maxIncrements": 1,
-          "minValue": null,
-          "minUnits": ""
-        },
-        "measureTemplate": {
-          "type": "",
-          "size": "",
-          "overrideColor": false,
-          "customColor": "",
-          "overrideTexture": false,
-          "customTexture": ""
-        },
-        "attackName": "Tendrils",
-        "actionType": "mwak",
-        "attackBonus": "6",
-        "critConfirmBonus": "",
-        "damage": {
-          "parts": [
-            [
-              "1d3+2",
-              ""
-            ]
-          ],
-          "critParts": [],
-          "nonCritParts": []
-        },
-        "attackParts": [
-          [
-            "0",
-            "Tendrils: 1"
-          ]
-        ],
-        "formulaicAttacks": {
-          "count": {
-            "formula": "",
-            "value": null
-          },
-          "bonus": {
-            "formula": ""
-          },
-          "label": null
-        },
-        "formula": "",
-        "ability": {
-          "attack": "str",
-          "damage": "str",
-          "damageMult": 1,
-          "critRange": 20,
-          "critMult": 2
-        },
-        "save": {
-          "dc": 0,
-          "type": "",
-          "description": ""
-        },
-        "soundEffect": "",
-        "nonlethal": false,
-        "conditionals": [],
-        "attack": {
-          "parts": []
-        },
-        "size": "med"
-      },
-      "flags": {},
-      "img": "icons/svg/mystery-man.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "a2Tf3RBjAcjM6Aa5",
-      "name": "sbc | Conversion Buff",
-      "type": "buff",
-      "data": {
-        "description": {
-          "value": "<h2>sbc | Conversion Buff</h2>\n                        This Buff was created by <strong>sbc</strong> to compensate for differences between the input and the values FoundryVTT calculates automatically.\n                        <br><br>\n                        Especially when the pathfinder system gets upgraded, entries in compendiums get updated or foundry changes in some way, this buff may become outdated.\n                        <br><br>\n                        For most mooks the conversion should more or less work, but for important NPCs or creatures it is adviced to double check the conversion manually.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "tags": [],
-        "changes": [
-          {
-            "_id": "pxygrnm7",
-            "formula": "4",
-            "operator": "add",
-            "subTarget": "cmb",
-            "modifier": "untypedPerm",
-            "priority": 0,
-            "value": 4,
-            "target": "misc"
-          },
-          {
-            "_id": "8xk9rcr4",
-            "formula": "2",
-            "operator": "add",
-            "subTarget": "fort",
-            "modifier": "untypedPerm",
-            "priority": 0,
-            "value": 2,
-            "target": "savingThrows"
-          },
-          {
-            "_id": "w5uoqrdu",
-            "formula": "-2",
-            "operator": "add",
-            "subTarget": "will",
-            "modifier": "untypedPerm",
-            "priority": 0,
-            "value": -2,
-            "target": "savingThrows"
-          },
-          {
-            "_id": "zgzxgdf5",
-            "formula": "-8",
-            "operator": "add",
-            "subTarget": "skill.fly",
-            "modifier": "untypedPerm",
-            "priority": 0,
-            "value": -8,
-            "target": "skill"
-          }
-        ],
-        "changeFlags": {
-          "loseDexToAC": false,
-          "noEncumbrance": false,
-          "mediumArmorFullSpeed": false,
-          "heavyArmorFullSpeed": false,
-          "noDex": false,
-          "noStr": false,
-          "oneCha": false,
-          "oneInt": false,
-          "oneWis": false
-        },
-        "contextNotes": [],
-        "links": {
-          "children": []
-        },
-        "tag": "sbcConversionBuff",
-        "useCustomTag": true,
-        "flags": {
-          "boolean": {},
-          "dictionary": {}
-        },
-        "scriptCalls": [],
-        "buffType": "perm",
-        "active": true,
-        "level": 0,
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "hideFromToken": true,
-        "uses": {
-          "value": 0,
-          "max": 0
-        },
-        "range": {
-          "maxIncrements": 1
-        },
-        "size": "med"
-      },
-      "sort": 100000,
-      "flags": {},
-      "img": "systems/pf1/icons/skills/yellow_36.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    }
-  ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428322951,
+    "modifiedTime": 1665949106798,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

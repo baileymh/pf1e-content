@@ -3,7 +3,7 @@
   "name": "Torc Of Kostchtchie [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This golden collar contains a piece of the demon lord Kostchtchie's mortal soul, entrapped within by the witch Baba Yaga. The torc grants its wearer immunity to cold and the ability to command frost giants at will. This ability functions as dominate monster, but affects only frost giants, who take a -10 penalty on their saves. In addition, the wearer can cast giant form II three times per day. Anyone who wears the torc for 1 week also gains the ability to summon an aspect of Kostchtchie's dark hunger once per day. This aspect takes the form of a wendigo (Bestiary 2) who faithfully serves the wearer of the torc for 1 hour. Using the torc in this way alerts Kostchtchie to the torc's whereabouts.  In addition, anytime one of the Torc of Kostchtchie's powers is used, there is a cumulative 5% chance the wearer goes berserk (gaining all the benefits and drawbacks of the barbarian's rage ability), attacking the nearest non-giant creature until unconscious or dead, or until no living non-giant remains within 30 feet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265122,
+    "modifiedTime": 1665949036381,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

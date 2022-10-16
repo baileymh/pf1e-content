@@ -3,7 +3,7 @@
   "name": "Stole Of The Inheritor [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Iomedae often grants the use of the Stole of the Inheritor to her champions in times of great need. When draped across the shoulders, the stole grants DR 5/good, and it grants the use of heal as a quickened spell-like ability once per day. Once per day, a good-aligned wearer of the Stole of the Inheritor can cast holy word. In addition, as long as it is worn, the user can use detect evil and detect chaos at all times. A divine spellcaster who worships Iomedae gains a +2 sacred bonus on all saving throws while wearing the stole. The stole's greatest power, though, is allowing its wearer to use plane shift on himself and any allies within 120 feet as an immediate action; the stole immediately returns to Iomedae's shoulders when this effect is used.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 77",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265078,
+    "modifiedTime": 1665949036292,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

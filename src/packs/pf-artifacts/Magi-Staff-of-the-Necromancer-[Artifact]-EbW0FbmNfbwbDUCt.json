@@ -3,7 +3,7 @@
   "name": "Magi Staff of the Necromancer [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This long staff of smooth, pale bone is bent in a swaying shape, like a crone's back, and is carved with ancient symbols of death and spirits, with the writing standing out in stark black from a thick paste of human ash rubbed into it. Any good creature who holds or carries the staff gains two permanent negative levels (similar to holding an unholy weapon). The staff's powers (and the equivalent staff of the magi powers they replace) are: • detect undead (detect magic, 0 charges) • disrupt undead (enlarge person, 0 charges) • spectral hand (knock, 1 charge) • vampiric touch (lightning bolt, 1 charge) • animate dead (wall of fire, 1 charge) • finger of death (plane shift, 2 charges) • energy drain (monster summoning IX, 2 charges) The staff otherwise has the normal powers and abilities of a staff of the magi. If broken in a retributive strike, the bearer has a 25% chance to be transported to the Negative Energy Plane, a 50% chance to be transported to a random plane, and a 25% chance to be utterly destroyed. Rumor has it that the staff contains a hollow space to hold a lich's phylactery, though arcane scholars point out that no sane lich would keep his life essence in a magic item that explodes when broken.<br><p><b>Base Item:</b> quarterstaff</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264738,
+    "modifiedTime": 1665949035942,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

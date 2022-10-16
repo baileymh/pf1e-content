@@ -3,7 +3,7 @@
   "name": "Healing Touch (Ex)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery</strong><br/><br/><p>The alchemist gains the ability to heal other creatures. As a standard action, he may touch a creature and apply 1 round's effect of his spontaneous healing discovery to that creature; this counts toward his spontaneous healing limit for the day. The alchemist's daily limit for hit points healed by spontaneous healing increases to 5 x his alchemist level. This ability only functions if the target is the same type of creature (humanoid, undead, and so on) as the alchemist. An alchemist must be at least 6th level and must have the spontaneous healing discovery or class ability before selecting this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428272690,
+    "modifiedTime": 1665949045284,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

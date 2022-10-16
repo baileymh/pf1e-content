@@ -3,7 +3,7 @@
   "name": "Rahadoumi Exorcist",
   "type": "feat",
   "img": "systems/pf1/icons/spells/explosion-sky-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can stagger incorporeal and possessed creatures through sheer force of will.</em><br/><br/><b>Prerequisites</b><br/>Iron Will, can't have a patron deity.<br/><br/><b>Benefits</b><br/>As a full-round action, you can recite the Laws of Man with such force and dedication that you stagger those creatures that prey upon the bodies, minds, and souls of mortals. When you use this ability, you must target one creature within 30 feet to which you have line of sight. A successful Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates the effects of this feat. An incorporeal undead creature that fails its save against this effect is staggered. If you target a possessed creature, the possessing entity must succeed at a Will save to resist being staggered for 1 round. If it is staggered, the creature it possesses can immediately attempt a new saving throw to end the possession effect (possession effects that don't allow saving throws to resist them cannot be ended by Rahadoumi Exorcist, but the feat can still stagger a possessed creature). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357338,
+    "modifiedTime": 1665949125637,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

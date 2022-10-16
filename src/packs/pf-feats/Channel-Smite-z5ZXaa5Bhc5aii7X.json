@@ -3,7 +3,7 @@
   "name": "Channel Smite",
   "type": "feat",
   "img": "systems/pf1/icons/feats/channel-smite.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can channel your divine energy through a melee weapon you wield.</em><br /><br /><strong>Prerequisites</strong><br />Channel energy class feature.<br /><br /><strong>Benefits</strong><br />Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.<br /><br /><strong>Combat Trick</strong><br />When making an attack using this feat, you can spend a number of stamina points up to the number of dice in your channel energy. For each stamina point you spend in this way, add an additional 1d6 points of positive or negative energy damage to your Channel Smite attack. This damage is also halved if the target succeeds at its Will save against the Channel Smite attack.</p>\n<p>&nbsp;</p>\n<p><strong>Usage:</strong> link this feat to Channel Energy charges.</p>",
       "chat": "",
@@ -54,6 +54,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "3 + @abilities.cha.mod",
@@ -118,6 +123,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -179,7 +185,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -239,8 +244,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358959,
+    "modifiedTime": 1665949127163,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

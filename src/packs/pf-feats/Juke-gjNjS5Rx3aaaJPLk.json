@@ -3,7 +3,7 @@
   "name": "Juke",
   "type": "feat",
   "img": "systems/pf1/icons/skills/armor_01.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can avoid a charge, leaving your opponent vulnerable to attacks by you or your allies.</em><br/><br/><b>Prerequisites</b><br/>Dex 13, Dodge, Mobility, Sidestep.<br/><br/><b>Benefits</b><br/>When an opponent charges you, you gain a +4 dodge bonus to your AC. If the charger's attack roll misses you and his movement ends while he is adjacent to you, you can switch places with the opponent as an immediate action, and he is considered to be flanked by you until the end of your next turn. You can't use the benefits of Juke if you ready an action to set a weapon with the brace special quality against a charging foe.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356664,
+    "modifiedTime": 1665949124978,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

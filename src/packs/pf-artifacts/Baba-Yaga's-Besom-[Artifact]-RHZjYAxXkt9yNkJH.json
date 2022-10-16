@@ -3,7 +3,7 @@
   "name": "Baba Yaga's Besom [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The handle of this simple straw broom, or besom, is capped with a small skull with long white hair. On command, the broom sweeps away any tracks or traces of passage, as pass without trace, and wards its user with nondetection. The broom can be used in this capacity for a total of 8 hours each day. By sweeping the broom in a circular motion, the user can also learn the location of both secret doors and simple natural traps at will, as detect secret doors and detect snares and pits.  Baba Yaga's besom can also be used up to three times per day to open locks, doors, lids, shackles, chains, and the like by knocking it against the item to be opened. The wielder must succeed at a caster level check using the broom's caster level of 20th, with a DC equal to the Disable Device DC of the lock or binding. Each knock opens only one form of locking, so if a chest is chained, locked, and under an arcane lock, it takes all three uses of the broom to open it. The broom automatically dispels a hold portal spell or arcane lock with a caster level lower than 20th.  Lastly, Baba Yaga's besom can be used as a weapon, functioning as a +4 dancing club. On a successful attack, a creature struck by the broom is blinded for 1 round.  The broom may have other powers known only to Baba Yaga.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 72",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264863,
+    "modifiedTime": 1665949036038,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

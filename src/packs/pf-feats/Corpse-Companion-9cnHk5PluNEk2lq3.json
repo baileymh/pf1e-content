@@ -3,7 +3,7 @@
   "name": "Corpse Companion",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_32.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You have an undead animal companion.</em><br/><br/><b>Prerequisites</b><br/>Animal companion class feature, ghoul.<br/><br/><b>Benefits</b><br/>Your animal companion's type changes to undead, but its Hit Dice, base attack bonus, saving throws, skills, and tricks are retained from the base creature. The creature loses its Constitution score and its Charisma score becomes 12. If your companion is destroyed, your new companion is undead as well, using these same modifications.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351910,
+    "modifiedTime": 1665949120007,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

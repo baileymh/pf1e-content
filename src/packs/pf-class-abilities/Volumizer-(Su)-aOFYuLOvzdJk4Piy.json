@@ -3,7 +3,7 @@
   "name": "Volumizer (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Extract</strong><br/><br/><p>The alchemist can use an extract slot of any level to create a reactive tablet that purifies water and doubles its volume. This works like purify food and drink for a maximum volume of water equal to 1 gallon for each level the alchemist has x the level of the extract slot the alchemist used to create the tablet. Additionally, if the alchemist has a receptacle of sufficient volume to gather the water, the tablet doubles the volume of pure water. The water volume increases over the course of 1 minute, but the effect stops before it can create significant water pressure on a container that's not large enough to hold the entire volume. An unused tablet remains usable until the next time the alchemist recovers extract slots.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428273308,
+    "modifiedTime": 1665949045922,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

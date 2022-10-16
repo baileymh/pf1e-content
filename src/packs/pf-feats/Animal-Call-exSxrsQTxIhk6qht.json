@@ -3,7 +3,7 @@
   "name": "Animal Call",
   "type": "feat",
   "img": "systems/pf1/icons/skills/emerald_05.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You've learn how to replicate a number of animal calls native to wilderness environments.</em><br/><br/><b>Prerequisites</b><br/>Bluff 1 rank, Knowledge (nature) 1 rank.<br/><br/><b>Benefits</b><br/>Pick one of the ranger's favored terrains. You can use your Bluff skill to mimic the calls of animals native to that terrain. Creatures with ranks in Knowledge (nature) can use that skill in place of Sense Motive to detect your mimicry and realize that the sound is false.<br/><br/><b>Special</b><br/>You can take this feat multiple times. Each time you do, select an additional favored terrain to which this feat applies.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356220,
+    "modifiedTime": 1665949124488,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

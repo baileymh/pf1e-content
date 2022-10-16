@@ -3,7 +3,7 @@
   "name": "Poisoner",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_07.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Vigilante Talent</strong><br/><br/><p>The vigilante gains the alchemist's poison use class feature. At 6th level, when he has 5 doses of a single kind of poison, he can synthesize a dose of that poison once per day at no cost. This process takes 1 minute. It doesn't expend the 5 doses of poison, but the doses must be in the vigilante's possession to perform the synthesis. The poison produced requires careful storage and special skill to use. It becomes inert if it leaves the vigilante's possession and can't be sold. The vigilante can maintain only 1 dose of synthesized poison for every 5 doses of that poison in his possession.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428267007,
+    "modifiedTime": 1665949038472,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

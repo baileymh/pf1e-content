@@ -3,7 +3,7 @@
   "name": "Reprisal [Artifact]",
   "type": "weapon",
   "img": "systems/pf1/assets/icons/items/weapons/rapier.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2><p>Reprisal is a beautiful and startlingly well-balanced mithral-bladed rapier. Originally, Reprisal bore greater enhancements against evil outsiders, but it&rsquo;s magic has faded. Still, when the blade strikes deep into the flesh of such a foe, it momentarily wakens once again.</p>\n<p>Reprisal is an unusually well-balanced and responsive +2 rapier. Reprisal&rsquo;s wielder can apply her Dexterity modifier to damage rolls with the weapon in place of her Strength modifier&mdash;this bonus is not increased if Reprisal is wielded two-handed, but is halved if the rapier is wielded in an off-hand.</p>\n<p>If Reprisal confirms a critical hit against an evil outsider, the rapier gains the evil-outsider bane special ability and is treated as silver, cold iron, and good for the purposes of overcoming damage reduction for the next minute. Subsequent critical hits extend this duration by 1 minute per blow. As long as this effect persists, Reprisal&rsquo;s wielder gains a +2 sacred bonus on all saving throws against attacks from evil outsiders.</p>\n<p>These effects end prematurely if Reprisal is sheathed, disarmed, or is otherwise no longer wielded.</p><br><p><b>Base Item:</b> +2 rapier</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 99",
       "chat": "",
@@ -77,6 +77,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -140,6 +145,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -178,7 +184,6 @@
     "masterwork": true,
     "enh": 2,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "weaponGroups": {
       "value": [],
@@ -207,6 +212,7 @@
     },
     "showInQuickbar": true,
     "ammoType": "",
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -255,8 +261,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264653,
+    "modifiedTime": 1665949035884,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,29 @@
   "name": "Improved Natural Attack",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_23.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "ec1",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><em>Attacks made by one of this creature's natural attacks leave vicious wounds.</em><br /><br /><strong>Prerequisites</strong><br />Natural weapon, base attack bonus +4.<br /><br /><strong>Benefits</strong><br />Choose one of the creature's natural attack forms (not an unarmed strike). The damage for this natural attack increases by one step on the following list, as if the creature's size had increased by one category. Damage dice increase as follows: 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6.<br /><br />A weapon or attack that deals 1d10 points of damage increases as follows: 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.</p>\n<p>&nbsp;</p>\n<p><strong>Usage:</strong> adjust manually chosen natural attack.</p>",
       "chat": "",
@@ -60,7 +82,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,29 +115,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "animName": "",
-      "animTint": "#ffffff",
-      "animType": "t1",
-      "auraOpacity": 0.75,
-      "color": "n1",
-      "ctaOption": false,
-      "dtvar": "dt1",
-      "explodeColor": "ec1",
-      "explodeLoop": "1",
-      "explodeRadius": "0",
-      "explodeVariant": "ev1",
-      "explosion": false,
-      "hmAnim": "a1",
-      "killAnim": false,
-      "override": false,
-      "selfRadius": "5",
-      "teleDist": 30,
-      "uaStrikeType": "physical"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358902,
+    "modifiedTime": 1665949127079,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

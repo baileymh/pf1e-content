@@ -3,7 +3,7 @@
   "name": "Fateful Channel",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/dice.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your faith not only heals the body, it tugs the strands of fate.</em><br/><br/><b>Prerequisites</b><br/>Channel positive energy 3d6, worshiper of Pharasma.<br/><br/><b>Benefits</b><br/>When you channel positive energy to heal living creatures, you grant each creature you heal the ability to roll twice and take the better result on a single attack roll, skill check, or saving throw of their choice within a number of rounds equal to your Charisma bonus (minimum 1). Multiple uses of this ability do not stack, but they do reset the effect's duration. A creature can only benefit from one instance of this channel effect at a time.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357993,
+    "modifiedTime": 1665949126263,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

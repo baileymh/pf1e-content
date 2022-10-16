@@ -3,7 +3,7 @@
   "name": "Deconstruct Spell",
   "type": "feat",
   "img": "systems/pf1/icons/spells/slice-orange-1.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You deconstruct a spell into its constituent glyphs, storing them to replenish your crystalline dust.</em><br/><br/><b>Prerequisites</b><br/>Improved Counterspell or ability to cast dispel magic or greater dispel magic, aphorite, crystalline dust racial trait.<br/><br/><b>Benefits</b><br/>Once per day when you successfully counterspell or dispel a spell, you can instead deconstruct the spell to regain a number of rounds of your crystalline dust racial trait equal to half the level of the spell. You can't use this feat to gain more than your maximum number of rounds of your crystalline dust racial trait.",
       "chat": "",
@@ -66,7 +66,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -98,8 +97,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357551,
+    "modifiedTime": 1665949125810,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

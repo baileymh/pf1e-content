@@ -3,7 +3,7 @@
   "name": "Craft Ooze",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can use alchemy to create dangerous ooze creatures.</em><br/><br/><b>Prerequisites</b><br/>Brew Potion, Craft Wondrous Item, Craft (alchemy) 3 ranks, caster level 5th.<br/><br/><b>Benefits</b><br/>You can create living oozes as though they were magical items. Creating an ooze creature takes 1 day for each 500 gp in its construction cost. To create an ooze, you must have access to an oozing vat (see below), you must use up raw materials worth the construction cost of the ooze, and you must succeed at a Craft (alchemy) check (DC 10 + 2 x the ooze's CR). A failed check ruins the materials used, while a check that fails by 5 or more also results in an ooze that attacks its creator for 1d4 rounds before dissipating into useless waste material. A newly created ooze has average hit points for its Hit Dice. Oozes created with this feat are mindless and uncontrolled, and even normally intelligent oozes like slithering trackers that are created this way have no Intelligence score--nor any loyalty to their creator.<br/><br/> While ooze creatures cannot normally be purchased in traditional marketplaces, GMs who wish to include such an option in their games--perhaps with oozes sold as black market commodities-- need only double the construction cost of a specific ooze creature in order to figure out a fair market price.<br/><br/> The following table lists some of the most commonly crafted oozes and their creation requirements. At the GM's discretion, other types of ooze creatures can be created with this feat. Creatures from Pathfinder RPG Bestiary 2, 3, or 4 are marked with a matching superscript.<br/><br/> <table class='inner'><tr><td><b>Ooze</b></td><td><b>Construction Cost</b></td><td><b>Craft DC</b></td></tr> <tr><td>Gelatinous cube</td><td>1,600 gp</td><td>16</td></tr> <tr><td>Gray ooze</td><td>3,600 gp</td><td>18</td></tr> <tr><td>Slithering tracker</td><td>3,600 gp</td><td>18</td></tr> <tr><td>Ochre jelly</td><td>4,900 gp</td><td>20</td></tr> <tr><td>Black pudding</td><td>8,100 gp</td><td>24</td></tr> <tr><td>Magma ooze</td><td>8,100 gp</td><td>24</td></tr> <tr><td>Deathtrap ooze</td><td>8,100 gp</td><td>26</td></tr> <tr><td>Carnivorous crystal</td><td>16,900 gp</td><td>32</td></tr></table>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355102,
+    "modifiedTime": 1665949123319,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

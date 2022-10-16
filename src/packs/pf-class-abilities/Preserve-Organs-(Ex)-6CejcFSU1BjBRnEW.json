@@ -3,7 +3,7 @@
   "name": "Preserve Organs (Ex)",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery</strong><br/><br/><p>The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as fortification armor). An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428267726,
+    "modifiedTime": 1665949039614,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Crown Of The Simurgh [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A crown of the simurgh grants the wearer the protection of the simurgh (Bestiary 3) who created it. The crown only works for a single creature for whom the crown was specifically crafted. A simurgh can create one crown of the simurgh every 500 years.  While wearing a crown of the simurgh, the wearer is constantly affected by the spell protection from evil. Once per day, the wearer of this crown can spend a full-round action concentrating to mentally contact the simurgh who created the crown. If the simurgh allows this connection to be made, the wearer instantly knows the distance and direction of the simurgh and can communicate with it as per the spell sending. Should the simurgh be on the same plane and both parties wish it, the crown's wearer can teleport to the simurgh's location. Ten minutes after teleporting to the simurgh's side, however, the crown's wearer teleports back to wherever he was before teleporting (or the nearest safe square), whether he wishes to or not.  As a final effort or in a time of great need, the wearer can take a full-round action to hold the crown to the sun and call out to the simurgh that created it. This summons the simurgh as per the spell summon monster IX. The simurgh remains for 1 minute, and follows the wearer's commands. At the end of this time, the simurgh vanishes and the crown is destroyed.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265107,
+    "modifiedTime": 1665949036366,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

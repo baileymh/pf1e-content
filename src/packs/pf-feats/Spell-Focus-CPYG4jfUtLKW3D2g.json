@@ -3,7 +3,38 @@
   "name": "Spell Focus",
   "type": "feat",
   "img": "systems/pf1/icons/spells/beam-blue-1.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "animName": "",
+      "animTint": "#ffffff",
+      "animType": "t1",
+      "auraOpacity": 0.75,
+      "bards": {
+        "bardAnim": "a1",
+        "bardSelf": true,
+        "bardTarget": true
+      },
+      "color": "n1",
+      "ctaOption": false,
+      "dtvar": "dt1",
+      "explodeColor": "",
+      "explodeLoop": "1",
+      "explodeRadius": "0",
+      "explodeVariant": "ev1",
+      "explosion": false,
+      "hmAnim": "a1",
+      "killAnim": false,
+      "override": false,
+      "selfRadius": "5",
+      "spellOptions": {
+        "spellLoops": 1
+      },
+      "spellVar": "a1",
+      "teleDist": 30,
+      "uaStrikeType": "physical"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><em>Choose a school of magic. Any spells you cast of that school are more difficult to resist.</em><br /><br /><strong>Benefits</strong><br />Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.<br /><br /><strong>Special</strong><br />You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: add manually +1 to spell DC of the selected school.</p>",
       "chat": "",
@@ -63,7 +94,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,38 +127,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "animName": "",
-      "animTint": "#ffffff",
-      "animType": "t1",
-      "auraOpacity": 0.75,
-      "bards": {
-        "bardAnim": "a1",
-        "bardSelf": true,
-        "bardTarget": true
-      },
-      "color": "n1",
-      "ctaOption": false,
-      "dtvar": "dt1",
-      "explodeColor": "",
-      "explodeLoop": "1",
-      "explodeRadius": "0",
-      "explodeVariant": "ev1",
-      "explosion": false,
-      "hmAnim": "a1",
-      "killAnim": false,
-      "override": false,
-      "selfRadius": "5",
-      "spellOptions": {
-        "spellLoops": 1
-      },
-      "spellVar": "a1",
-      "teleDist": 30,
-      "uaStrikeType": "physical"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352130,
+    "modifiedTime": 1665949120179,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

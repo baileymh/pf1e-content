@@ -3,7 +3,7 @@
   "name": "Screaming Spear Of The Sun [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +4 wounding throwing longspear has a 2-foot-long iron spearhead covered with over 30 cruel flesh barbs. On a critical hit, the barbs lodge in the victim's flesh and can be removed only by tearing the blade free. Yanking the blade free is a full-round action that requires a successful Strength check with a DC equal to the attack roll that struck the critical hit, and deals 3d6 points of damage to the victim.  In the hands of a mythic creature, the spear gains the returning special ability, and when thrown seemingly comes alive, screaming wickedly as it flies. When it hits a creature, it radiates fear (as the spell) in a 60-foot-radius burst surrounding the creature struck.  Each use of mythic power the wielder expends when throwing the spear increases the spear's throwing range by 100 feet.<br><p><b>Base Item:</b> +4 wounding throwing longspear</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265251,
+    "modifiedTime": 1665949036819,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

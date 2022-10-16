@@ -3,7 +3,7 @@
   "name": "Rusting Touch",
   "type": "feat",
   "img": "systems/pf1/icons/spells/leaf-jade-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Druid Domain Power</strong><br/><br/><p>You can cause an opponent's metal armor or weapon to become dry and brittle as it magically corrodes and rusts. You make a melee touch attack against a creature wearing metal armor or wielding a metal weapon. If you hit, choose a metal weapon, suit of metal armor, or metal shield carried or worn by that creature. The object takes an amount of hit point damage equal to 1d6 + half your druid level. If the item is not magical, or if your caster level is greater than the item's caster level, this damage bypasses the item's hardness. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428273901,
+    "modifiedTime": 1665949046569,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

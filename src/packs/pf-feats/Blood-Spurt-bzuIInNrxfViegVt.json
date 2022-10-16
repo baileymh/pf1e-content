@@ -3,7 +3,7 @@
   "name": "Blood Spurt",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blood_05.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>When cut in combat, you spray your blood into the faces of your foes.</em><br/><br/><b>Prerequisites</b><br/>Base attack bonus +2, susceptibility to bleed damage.<br/><br/><b>Benefits</b><br/>Whenever a creature adjacent to you hits you with a melee attack that deals bleed damage, that creature must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Constitution modifier) or become blinded for 1d4 rounds as your blood sprays it in the face. Additionally, if you have a special ability that deals bleed damage (such as a rogue's bleeding strike rogue talent), as a standard action, you can deal 1 point of bleed damage to yourself to spray blood in the face of an adjacent creature of your choice, causing the same effect. The creature only needs to attempt the saving throw for the first of its attacks that deals bleed damage.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355694,
+    "modifiedTime": 1665949123915,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

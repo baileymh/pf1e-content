@@ -3,7 +3,7 @@
   "name": "Flesh-Eating Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>The alchemist can create bombs that devour living matter. The alchemist's bomb deals damage one die step higher than normal (regular bombs deal d8s, concussive bombs deal 1d6, and so on), but they have no effect on inorganic matter. In addition, a creature with at least a +1 armor bonus to AC is less likely to be harmed; such creatures in the bomb's splash radius take no damage on a successful Reflex save, and the target of a direct hit can attempt a Reflex save against the bomb's save DC to take only half damage.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277157,
+    "modifiedTime": 1665949049914,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

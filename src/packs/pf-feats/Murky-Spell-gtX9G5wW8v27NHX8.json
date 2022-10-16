@@ -3,7 +3,7 @@
   "name": "Murky Spell",
   "type": "feat",
   "img": "systems/pf1/icons/spells/fog-blue-1.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can call upon murky sediments in the water to transform a mist spell underwater.</em><br/><br/><b>Benefits</b><br/>You can apply Murky Spell only to a mist or fog spell that normally doesn't work underwater, such as cloudkill, fog cloud, mind fog, obscuring mist, or solid fog. When cast underwater, a murky spell clouds the water with sediments, producing roughly the same effects as the normal spell would above water except as follows. Due to the dilution, a murky spell has only one-tenth of the duration of a normal spell (generally 1 minute per level, though mind fog lasts 3 minutes), but this reduction doesn't affect the duration of secondary effects like mind fog's mental penalties. Abilities that see through mist and fog can't see through a murky spell unless they also specifically see through murky water (like the mistsight universal monster rule). Instead of wind, currents can disperse a murky spell; any current with a speed of at least 10 feet disperses a murky spell in 1 round. A murky spell has no effect above the water. A murky spell uses up a slot the same spell level as the spell's actual level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356678,
+    "modifiedTime": 1665949124987,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

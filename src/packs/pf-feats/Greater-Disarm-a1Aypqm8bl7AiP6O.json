@@ -3,7 +3,7 @@
   "name": "Greater Disarm",
   "type": "feat",
   "img": "systems/pf1/icons/feats/greater-disarm.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can knock weapons far from an enemy's grasp.</em><br/><br/><b>Prerequisites</b><br/>Combat Expertise, Improved Disarm, base attack bonus +6, Int 13.<br/><br/><b>Benefits</b><br/>You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.<br/><br/><b>Normal</b><br/>Disarmed weapons and gear land at the feet of the disarmed creature.<br/><br/><b>Combat Trick</b><br/>You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. When you successfully disarm a foe, you can spend 5 stamina points to select where the weapon lands by choosing a square within 15 feet of the disarmed foe. If you choose a square in your space and have at least one hand free, you can grab the weapon as part of the disarm attempt.",
       "chat": "",
@@ -68,7 +68,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -102,8 +101,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355556,
+    "modifiedTime": 1665949123804,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

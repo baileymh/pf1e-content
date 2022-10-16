@@ -3,7 +3,7 @@
   "name": "Consecrate Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/light_08.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You infuse spells with heavenly power, drastically increasing their effectiveness against would-be heralds of evil.</em><br/><br/><b>Prerequisites</b><br/>Aasimar, able to prepare or cast consecrate.<br/><br/><b>Benefits</b><br/>A consecrated spell is treated as a maximized spell against evil creatures and creatures with the evil subtype. Against all other creatures, this feat does not modify the spell in any way (for example, a consecrated fireball acts as a normal fireball against neutral or good creatures). This feat does not stack with Maximize Spell. A consecrated spell uses up a spell slot two levels higher than the spell's actual level.",
       "chat": "",
@@ -69,7 +69,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355725,
+    "modifiedTime": 1665949123946,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Planar Invasion Shield [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/weapon_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This shield behaves in all ways as an absorbing shield until its owner attempts to use its disintegration power in combat. Once he does, it instead causes one or more monsters to pour forth from the shield and attack the nearest creature each round (including the shield-bearer) for 1d6 rounds before retreating by the safest possible route. If there is no such path for them to escape, the monsters fight to the death. To determine the nature and number of the monsters, roll 2d4 to determine the level of the summon monster spell and roll 1d3 to determine the number of creatures that appear. Monsters conjured by this shield remain until killed, act as normal for their kind, and are treated as summoned creatures with a permanent duration.   Once its curse activates, the shield calls forth monsters three times per day, approximately every 8 hours. If the monsters cannot emerge directly from the shield and survive (for example, because it's buried or underwater), they instead appear at the nearest safe location within 50 feet. Successful curse-breaking magic cast on the shield restores it to its previous guise as an absorbing shield and allows its wearer to abandon it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "shield",
     "equipmentSubtype": "lightArmor",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264953,
+    "modifiedTime": 1665949036102,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Evocation",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/book-purple.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Occultist Implement</strong><br/><br/><p>Implements focused on evocation grant the ability to create and direct energy to protect and to destroy.</p><p><b>Implements: </b>Gloves, rod, staff, wand.</p><p><b>Resonant Power: </b>Each time the occultist invests mental focus into an evocation implement, the implement grants the following resonant power. The implement's bearer gains the benefits of this power until the occultist refreshes his focus.</p><p><i>Intense Focus (Su): </i>The implement channels and enhances the effects of damaging evocations. A spellcaster who bears the implement can add the implement as an additional focus component for any of his damaging evocation spells that have an instantaneous duration or focus powers with an instantaneous duration. If he does so, the spell or focus power deals 1 additional point of damage of the same type to each creature for every 2 points of mental focus invested in the implement, to a maximum of 1 + 1 for every 2 occultist levels you possess.</p><p><b>Base Focus Power: </b>All occultists who learn to use evocation implements gain the following focus power.</p><p><i>Energy Ray (Sp): </i>As a standard action that provokes attacks of opportunity, you can expend 1 point of mental focus to unleash a ray of pure energy as a ranged touch attack. This ray has a range of 30 feet. The ray deals an amount of energy damage equal to 1d6 points + 1d6 points for every 2 occultist levels you possess beyond 1st (2d6 at 3rd level, 3d6 at 5th, and so on, to a maximum of 10d6 at 19th level). When you unleash an energy ray, you must decide what type of damage it deals (acid, cold, electricity, or fire).</p><p><b>Focus Powers: </b>In addition to gaining the base focus power, occultists who learn to use evocation implements can select from the following focus powers when choosing the powers gained from their focus powers class feature.</p><p><i>Energy Blast (Sp): </i>As a standard action that provokes attacks of opportunity, you can expend 2 points of mental focus to unleash a blast of energy. This blast has a range of 100 feet, and deals 5d6 points of energy damage, plus an additional 1d6 points for every 2 occultist levels you possess beyond 5th (6d6 at 7th, 7d6 at 9th, and so on, to a maximum of 12d6 at 19th level). The blast deals damage to each creature in a 20-foot-radius burst, but each affected creature can attempt a Reflex save to halve the damage. When you unleash an energy blast, you must decide what type of damage it deals (acid, cold, electricity, or fire). You must be at least 5th level to select this focus power.</p><p><i>Energy Ward (Sp): </i>As a standard action, you can expend 1 point of mental focus to surround yourself in a swirling ward of energy. When you activate this power, you must select acid, cold, electricity, or fire. You gain resistance 10 against that energy type, and whenever a creature hits you with a melee weapon or natural weapon, that creature takes 1d6 points of energy damage of the chosen type. Attacks made with melee weapons with reach don't cause the attacker to take this damage. At 13th and 19th levels, the resistance granted by this ward increases by 5, to a maximum of resistance 20 at 19th level. The energy ward lasts for 1 round per occultist level. You must be at least 7th level to select this focus power.</p><p><i>Light Matrix (Sp): </i>As a standard action, you can expend 1 point of mental focus to create a glowing orb of swirling lights that obeys your commands. This orb illuminates the area like the light spell. The orb can be commanded to hover over your shoulder, moving with you. As a move action, you can direct it to move up to 30 feet away from you. If the light matrix is ever more than 30 feet away from you, it returns to hover over your shoulder. If you are at least 5th level, you can direct the light matrix to make a melee touch attack against one foe within 30 feet. If the attack hits, the target must succeed at a Fortitude save or be blinded for 1d4 rounds by a flash of light. If the attack hits, regardless of whether the target succeeds at the save, the light matrix immediately ends. The light matrix otherwise has a duration of 1 hour per occultist level you possess. You can't have more than one light matrix in existence at one time. If you use this power again, any previous light matrices immediately end.</p><p><i>Radiance (Sp): </i>As a standard action, you can touch a weapon to cause it to glow with light by expending 1 point of mental focus. The weapon produces light like a torch. For the purpose of darkness spells and abilities, this effect counts as a light spell of level 0, plus 1 additional spell level for every 2 occultist levels you possess. This light lasts for 1 minute per occultist level you possess. In addition, whenever the weapon scores a critical hit against a foe, the wielder can choose to end the effect, causing the foe to be surrounded by the radiance for 1d4 rounds. While illuminated in this way, the target can't benefit from concealment or invisibility, nor can it attempt Stealth checks to avoid being seen. All attack rolls made against an illuminated foe receive a +2 circumstance bonus.</p><p><i>Shape Mastery (Su): </i>As part of casting an evocation spell with an area of effect, you can expend a number of points of mental focus up to your Intelligence modifier to exclude an equal number of squares from the area.</p><p><i>Wall of Power (Sp): </i>By expending 1 point of mental focus as a standard action, you can create a wall of pure energy with a length of up to 5 feet per occultist level you possess. This wall is 10 feet high and 1 foot thick. It doesn't block passage, line of sight, or line of effect, but does deal damage to anyone passing through it. The wall deals 2d6 points of energy damage + 1 point of energy damage per occultist level you possess. You must select acid, cold, electricity, or fire when you create the wall to determine the type of damage it deals. The wall must be straight, and can't pass through a creature's space when created. The wall lasts for 1 round per occultist level you possess. You must be at least 9th level to select this focus power.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428267141,
+    "modifiedTime": 1665949038632,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

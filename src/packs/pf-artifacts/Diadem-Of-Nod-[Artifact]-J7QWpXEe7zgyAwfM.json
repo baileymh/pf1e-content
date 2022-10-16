@@ -3,7 +3,7 @@
   "name": "Diadem Of Nod [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Diadem of Nod is a slender, platinum headband adorned with a large, perfectly cut diamond that rests on its wearer's forehead. When the wearer sleeps, she can create a pocket dream dimension and move herself there. The qualities of the dream dimension can be chosen by the wearer, as the create demiplaneUM spell. Once inside the dream dimension, the wearer is considered awake and in control of her creation. The pocket dimension lasts for up to 7 days, whereupon it ends and the diadem must recharge for 1 week before it can be used again, regardless of the time spent inside.   There is one inherent risk in using the Diadem of Nod. The GM should roll a secret DC 20 Will save on behalf of the wearer each time the diadem is used. Failure indicates that some rogue element not of the wearer's creation or under her control has been added to the pocket dream dimension. This might be an animate dream (Bestiary 2 29) or some other outsider of any alignment that traffics the Ethereal and Astral planes. The rogue element is not necessarily hostile or unfriendly.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "headband",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264786,
+    "modifiedTime": 1665949035971,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

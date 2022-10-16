@@ -3,7 +3,7 @@
   "name": "Perfection's Key [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This platinum key can open nearly any lock or door with a mere touch. With a touch of the key, a lock of DC 40 or lower unlocks. When a creature holding the key attempts to break down a door with a break (locked) DC of 28 or lower, the door is broken and opened. In all other cases it grants the creature possessing Perfection's Key a +10 bonus on Disable Device checks to pick locks, and a +10 bonus on attempts to break down doors.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265064,
+    "modifiedTime": 1665949036280,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

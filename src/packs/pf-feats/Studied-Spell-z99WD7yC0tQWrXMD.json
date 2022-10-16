@@ -3,7 +3,7 @@
   "name": "Studied Spell",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-royal-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You use your knowledge about the target to bypass its resistances and damage reduction.</em><br/><br/><b>Benefits</b><br/>When casting a studied spell, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target's creature type as you cast the spell. The DC for this check is equal to 20 + the creature's CR based on its race and not including any class levels or template (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied spell ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the spell granted by the target's race (such as the bonus from a dwarf 's hardy ability or a halfling's halfling luck ability). Your studied spell doesn't ignore energy resistance, damage reduction, or saving throw bonuses granted by other spells and effects. If you fail the Knowledge check, the spell still has its normal effects. A studied spell uses up a spell slot 2 levels higher than the spell's actual level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358963,
+    "modifiedTime": 1665949127170,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

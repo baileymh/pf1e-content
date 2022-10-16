@@ -3,7 +3,7 @@
   "name": "Armor Of Arrow Attraction [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/weapon_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Magical analysis indicates that this armor is a normal suit of +3 full plate. The armor works normally with regard to melee attacks but actually attracts ranged weapons. The wearer takes a -15 penalty to AC against ranged weapons. The true nature of the armor does not reveal itself until the character is fired upon in earnest.<br><p><b>Base Item:</b> +3 full plate</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "lightArmor",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265059,
+    "modifiedTime": 1665949036260,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

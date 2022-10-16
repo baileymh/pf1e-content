@@ -3,7 +3,7 @@
   "name": "Pinpoint Targeting",
   "type": "feat",
   "img": "systems/pf1/icons/feats/pinpoint-targeting.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can target the weak points in your opponent's armor.</em><br /><br /><strong>Prerequisites</strong><br />Dex 19, Improved Precise Shot, Point-Blank Shot, Precise Shot, base attack bonus +16.<br /><br /><strong>Benefits</strong><br />As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its Armor Class. You do not gain the benefit of this feat if you move this round.<br /><br /><strong>Combat Trick</strong><br />When you use this feat, you can spend stamina points to retain the ability to move. If you spend 2 stamina points, you can take a 5-foot step after you make the attack. If you instead spend 5 stamina points, you can move up to half your speed as a move action.</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -105,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355121,
+    "modifiedTime": 1665949123336,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

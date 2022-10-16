@@ -3,7 +3,7 @@
   "name": "Guardian Key [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple-looking key seems to be carved crudely from stone, but is in fact a sort of skeleton key that can be used to wind all clockwork constructs swiftly and efficiently. Originally, the key allowed the carrier to command limitless numbers of clockworks simultaneously. With this key, Xin could command his entire clockwork army effortlessly, and its use was key to his power over Thassilon. But when Xin used it as an element in the clockwork reliquary's construction, the key's powers were vastly diminished. Xin accepted this as a necessity, since if all had gone according to plan, he would still be able to command his army using his new body. The diminished key can be recovered from the destroyed reliquary's remains.  The guardian key can fit into any clockwork construct's keyhole, and fully winds a clockwork with a single turn made as a move action. Clockworks wound by the guardian key are healed of 5d8+20 points of damage, remain active for 10 times longer than they normally would, and during this period gain a +2 bonus on attack rolls, damage rolls, and saving throws. The guardian key can also be used to seize control of a clockwork. To do so, a creature must attempt a touch attack against the target clockwork as a standard action. If it hits, the clockwork can attempt a DC 15 Will save to resist. If the clockwork's save fails, that clockwork regards the key's carrier as its creator, and follows that person's commands to the letter-provided the commands are spoken in Thassilonian. The guardian key can control only one construct at a time. If it is used to control a second clockwork, the previous one is released from its duties immediately.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 66",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264626,
+    "modifiedTime": 1665949035867,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

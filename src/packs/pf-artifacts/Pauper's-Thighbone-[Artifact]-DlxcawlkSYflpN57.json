@@ -3,7 +3,7 @@
   "name": "Pauper's Thighbone [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This ivory rod marked with nine special golden runes is an ornamental container for the true treasure sealed within- the broken thighbone of the unfailingly selfless Saint Argil. The rod cannot be opened except as part of the process to destroy it, as described below. When the Pauper's Thighbone is picked up, the new wielder immediately understands all of the powers and limitations of the artifact.   When held like a rod, the Pauper's Thighbone can be used to enhance a spell with a metamagic feat the wielder already knows. The wielder can apply any one of her metamagic feats to a spell she casts without increasing the spell's casting time or the spell slot required. Enhancing a spell this way expends a number of the golden runes adorning the rod equal to the level increase of the spell normally required by the metamagic feat (for example, maximizing a spell with the Maximize Spell feat expends three golden runes). Enhancing a spell does not require an action and is performed as part of the casting time of the spell. Expended runes fade from bright gold to dull silver. Silver runes cannot be used to enhance spells, but they regain their golden color, and can be used again, at dawn each day.   As the Pauper's Thighbone bears nine runes, it can be used to apply up to nine spell levels of increases daily. At the GM's discretion, if the artifact's owner intentionally ignores an opportunity to perform a selfless or generous act, one of the rod's runes flickers and permanently disappears, reflecting the paucity of the owner's soul. Inversely, if the owner of the Pauper's Thighbone performs a particularly generous act (such as giving away a large percentage of her wealth to the needy), an additional special rune might permanently appear on the rod.   When possessed by an evil creature, the Pauper's Thighbone instead burdens its owner with the weight of his sins. In this case, the Pauper's Thighbone grants none of its powers and acts as a stone of weight. The rod can only be removed from an evil owner's possession if the owner dies or if the owner willingly gives the rod to a nonevil creature, and the nonevil creature willingly accepts it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 74",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264727,
+    "modifiedTime": 1665949035934,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

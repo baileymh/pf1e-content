@@ -3,7 +3,7 @@
   "name": "Archon Bond",
   "type": "feat",
   "img": "systems/pf1/icons/spells/protect-royal-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Paladin Variant Divine Bond</strong><br/><br/><p>As a standard action, the paladin can call forth an archon spirit that bonds to her brow, causing her eyes to glow with righteous fury for 1 minute per paladin level. While this bond is active, any hostile creature within a 10-foot radius of the paladin that looks at her must succeed at a Will saving throw (DC = 10 + 1/2 her paladin level + her Charisma modifier) or take a -2 penalty on attack rolls and saving throws and to AC for 24 hours. Whether or not the saving throw is successful, a creature cannot be affected by the same paladin's archon bond again for 24 hours, and the penalties from multiple archon bonds don't stack. Creatures that don't have eyesight are not affected by this ability. For every 3 levels beyond 5th, the radius of the paladin's archon bond increases by 5 feet, up to a 35-foot radius at 20th level. The paladin can use this ability once per day at 5th level, and one additional time per day for every 4 levels beyond 5th, up to a total of four times per day at 17th level.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268700,
+    "modifiedTime": 1665949040879,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

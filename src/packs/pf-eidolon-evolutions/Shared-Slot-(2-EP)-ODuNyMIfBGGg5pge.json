@@ -3,7 +3,12 @@
   "name": "Shared Slot (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_05.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.NC8RUv0tALGqJV09"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Select a magic item slot.</p>\n<p>A magic item worn by the eidolon in that slot remains active even if the summoner is also wearing a magic item in that slot.</p>\n<p>This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new slot.<em> </em></p>\n<p><strong>Requirements</strong></p>\n<p>Twinned eidolon.</p>\n<p><strong>Usage</strong></p>\n<p>Add magic item to eidolon sheet.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.NC8RUv0tALGqJV09"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321307,
+    "modifiedTime": 1665949091466,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,12 @@
   "name": "Bonus Tricks",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/fish.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.JeFlcXImdBSF6JlI"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Tricks selected:</strong>&nbsp;</p>\n<ol>\n<li>&nbsp;</li>\n</ol>\n<hr />\n<p>Bonus Tricks Granted: [[(floor(@classes.animalCompanion.level / 3) + 1)]]</p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The value given in this column is the total number of &ldquo;bonus&rdquo; tricks that the animal knows in addition to any that the druid might choose to teach it (see the Handle Animal skill for more details on how to teach an animal tricks). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed.&nbsp;</span></p>",
       "chat": "",
@@ -20,8 +25,7 @@
       "value": 0,
       "maxFormula": "",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "max": 0
+      "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
     "effectNotes": [],
@@ -30,12 +34,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [],
     "links": {
@@ -70,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -89,83 +87,34 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
-    "conditionals": [],
+    "attack": {},
     "identifiedName": "Bonus Tricks",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-companion-features.I9aVgYTVbwwmdZYz"
-    },
-    "pf1": {},
-    "scene-packer": {
-      "sourceId": "Item.JeFlcXImdBSF6JlI"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428318258,
+    "modifiedTime": 1665949088599,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

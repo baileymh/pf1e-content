@@ -3,7 +3,7 @@
   "name": "Improvised Weapon Mastery",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/fork.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.</em><br /><br /><strong>Prerequisites</strong><br />Catch Off-Guard or Throw Anything, base attack bonus +8.<br /><br /><strong>Benefits</strong><br />You do not suffer any penalties for using an improvised weapon. Increase the amount of damage dealt by the improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19-20, with a critical multiplier of x2.<br /><br /><strong>Combat Trick</strong><br />When making an improvised weapon attack, you can spend 2 stamina points to increase the damage of the attack by an additional step (to a maximum of 1d10, or 2d8 if the improvised weapon is two-handed).</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: adjust manually Damage Formula and change Critical Threat Range to 19 for improvised weapons.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358873,
+    "modifiedTime": 1665949127030,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Smoke Trap",
   "type": "feat",
   "img": "systems/pf1/icons/items/weapons/longbow.PNG",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Ranger Trap</strong><br/><br/><p><b>Effect </b>This trap bellows out thick, choking smoke that fills the trapped square and all adjacent squares. Any breathing creature in these squares must succeed at a Fortitude saving throws or take a -4 penalty to Strength and Dexterity every round it's within the smoke and for 1d4+1 rounds after leaving the smoke. All sight, even darkvision, is ineffective in or through the smoke. The smoke lasts for 1 round per 2 ranger levels, and is dispersed by wind as fog cloud. If this is an extraordinary trap, the ranger must use an alchemical component when setting the trap, such as a smokestick.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277963,
+    "modifiedTime": 1665949050616,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

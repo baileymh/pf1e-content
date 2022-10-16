@@ -3,7 +3,7 @@
   "name": "Cannibal Ring [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple and unadorned copper ring appears slightly tarnished, but seemingly wards off the effects of hunger or other sorts of deprivation; all tests reveal it to be a ring of sustenance. However, after wearing it for 7 days, its owner instead comes to suffer from almost constant hunger and thirst, which, if not sated, ultimately drives him mad enough to become a cannibal. The wearer must eat and drink a full day's worth of food and water each hour to avoid making a starvation or thirst check. Once the wearer starts to take lethal damage instead of nonlethal damage due to failed checks, he begins to experience ever more powerful cravings for the flesh of intelligent creatures (any living creature with an Intelligence of 3 or higher).   Once the wearer feasts in such a manner, he recovers all nonlethal damage sustained from hunger and thirst, though he continues to suffer lethal damage on failed starvation and thirst checks. The next time he is in a situation in which he could eat part of an intelligent being, he must make a DC 15 Will save or dine on the forbidden meat. If the wearer succumbs to this urge again, he recovers all lethal damage from failed starvation and thirst checks, and realizes cannibalism is the key to avoiding the increased hunger and thirst-on any day he eats at least one meal of flesh from an intelligent creature, he does not have to make hourly starvation and thirst checks, and recovers any accumulated damage from failing these checks. Once its curse activates, the ring cannot be removed until the curse is broken.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265186,
+    "modifiedTime": 1665949036605,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

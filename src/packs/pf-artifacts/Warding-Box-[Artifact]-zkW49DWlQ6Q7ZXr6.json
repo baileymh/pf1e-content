@@ -3,7 +3,7 @@
   "name": "Warding Box [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A warding box is a powerful magical container built to obscure and confound any attempt to locate objects kept inside. The box can hold one object no larger than 8 inches by 8 inches by 3 inches (or up to 25 pounds) in each of its three compartments at any one time. The box's lid and additional compartments are sealed, but the box can be opened or closed as a full-round action. While the lid is closed, the warding box and all objects inside it are protected from all divination spells. In this state, no divination spell save for those employed by the gods can detect the warding box or its contents.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265265,
+    "modifiedTime": 1665949036856,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

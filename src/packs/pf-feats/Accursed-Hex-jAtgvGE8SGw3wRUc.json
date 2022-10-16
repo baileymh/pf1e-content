@@ -3,7 +3,7 @@
   "name": "Accursed Hex",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_28.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can make a second attempt at failed hexes.</em><br/><br/><b>Prerequisites</b><br/>Hex class feature.<br/><br/><b>Benefits</b><br/>When you target a creature with a hex that cannot target the same creature more than once per day, and that creature succeeds at its saving throw against the hex's effect, you can target the creature with the same hex a second time before the end of your next turn. If the second attempt fails, you can make no further attempts to target that creature with the same hex for 1 day.<br/><br/><b>Normal</b><br/>You can only target a creature with these hexes once per day.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356834,
+    "modifiedTime": 1665949125114,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

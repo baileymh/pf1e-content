@@ -3,7 +3,7 @@
   "name": "Craft Pharmaceutical",
   "type": "feat",
   "img": "icons/commodities/materials/powder-teal.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can craft pharmaceuticals.</em><br/><br/><b>Prerequisites</b><br/>Technologist, Heal 9 ranks, Knowledge (nature) 9 ranks<br/><br/><b>Benefits</b><br/>You can create any pharmaceutical or poison. Creating a pharmaceutical takes 2 hours if its base price is 250 gp or less; otherwise, the creation of the pharmaceutical takes 1 day for every 1,000 gp in its price. To create the pharmaceutical or poison, you must use up raw materials costing half of this total price. See Crafting High-Tech Items on page 16 for more information.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355606,
+    "modifiedTime": 1665949123842,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

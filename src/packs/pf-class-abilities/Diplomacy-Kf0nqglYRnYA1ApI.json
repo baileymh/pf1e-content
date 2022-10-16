@@ -3,7 +3,7 @@
   "name": "Diplomacy",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Unchained Rogue Skill Unlock</strong><br/><br/><p>With sufficient ranks in Diplomacy, you earn the following.</p><p><b>5 Ranks: </b>The time required to influence a creature's attitude or gather information is halved.</p><p><b>10 Ranks: </b>You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.</p><p><b>15 Ranks: </b>You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days, not hours. You can gather information in 10 minutes by taking a -5 penalty.</p><p><b>20 Ranks: </b>You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428270371,
+    "modifiedTime": 1665949042793,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Painful Collision",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_23.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You shove your opponents into each other, causing painful and damaging collisions.</em><br/><br/><b>Prerequisites</b><br/>Str 13, Improved Bull Rush, Power Attack.<br/><br/><b>Benefits</b><br/>When you bull rush an enemy into another creature, both creatures take 1d6 points of bludgeoning damage, plus an additional 1d6 points of bludgeoning damage for every 5 feet your original target has moved as a result of your bull rush. For instance, if you successfully bull rush a goblin 10 feet and it then collides with another goblin, both creatures would take 3d6 points of bludgeoning damage.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352542,
+    "modifiedTime": 1665949120648,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

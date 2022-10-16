@@ -3,7 +3,12 @@
   "name": "Spell Resistance (4 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/haste-fire-3.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.whwUijWS218w3t3Z"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon is protected against magic, gaining spell resistance. The eidolon's spell resistance is equal to 11 + the summoner's level. This spell resistance does not apply to spells cast by the summoner.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 9th level before selecting this evolution.</p>\n<p><strong>Usage</strong></p>\n<p>Change 0 value in Changes to be that of summoner's level.</p>",
       "chat": "",
@@ -70,7 +75,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -102,12 +106,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.whwUijWS218w3t3Z"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321346,
+    "modifiedTime": 1665949091495,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

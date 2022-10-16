@@ -3,7 +3,30 @@
   "name": "Multiattack",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_31.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.gvMEVqb2cE2ob7DY"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">An eidolon gains @Compendium[pf-content.pf-feats.RmhtvELGu73iR8yh]{Multiattack} as a bonus feat if it has three or more natural attacks and does not already have that feat. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">If it does not have the requisite three or more natural attacks, the eidolon instead gains a second attack with one of its natural weapons, albeit at a &ndash;5 penalty. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">If the eidolon later gains 3 or more natural attacks, it loses this additional attack and instead gains Multiattack.</span></p>",
       "chat": "",
@@ -64,7 +87,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,30 +119,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "scene-packer": {
-      "sourceId": "Item.gvMEVqb2cE2ob7DY"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321295,
+    "modifiedTime": 1665949091458,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

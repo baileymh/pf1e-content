@@ -3,7 +3,7 @@
   "name": "Contagious Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_20.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your spells are dangerous to dispel and likely to backfire upon those who try.</em><br/><br/><b>Benefits</b><br/>A caster level check to dispel or remove a contagious spell that fails by 5 or more causes it to spread from the original target to the creature that attempted to remove it. The spell spreads to the new target regardless of its normal range or any special targeting requirement like a melee or ranged touch attack. The spell is treated as if you had just cast it on the new target. The new target receives a saving throw or the benefit of spell resistance (if applicable) if the spell normally allows it.<br/><br/> You can apply Contagious Spell only to targeted spells that are harmful to their target and don't have a range of personal; a contagious spell never spreads to someone who would benefit from being the target of the spell. A contagious spell uses up a spell slot 2 levels higher than the spell's actual level.<br/><br/><b>Special</b><br/>A contagious spell can be identified normally as it is being cast with a successful Spellcraft check. Identifying whether a spell is contagious by its effect, however, requires the use of the analyze dweomer spell or a similar effect.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355711,
+    "modifiedTime": 1665949123930,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

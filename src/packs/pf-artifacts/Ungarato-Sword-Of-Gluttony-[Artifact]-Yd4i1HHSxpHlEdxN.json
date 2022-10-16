@@ -3,7 +3,7 @@
   "name": "Ungarato, Sword Of Gluttony [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This +5 ghost touch vicious falchion has a misty, ethereal quality that makes it appear to be spectral in nature despite being perfectly tangible to the touch. Anytime Ungarato's wielder takes damage from the weapon's vicious special ability he adds an amount equal to that damage to his next attack roll. Ungarato faintly glows a sickly, unsettling green anytime there is an undead creature within 50 feet of the wielder. Whenever the falchion strikes a foe, the target must succeed at a DC 20 Fortitude save or take an additional 1d6 points of damage, which the sword's wielder gains as bonus hit points that last for the next hour. If the sword scores a critical hit, the target must succeed at a DC 25 Fortitude save or be slain outright, with half of its remaining hit points passing to the sword's wielder as bonus hit points. Any creature slain by Ungarato-either as the effect of a critical hit or otherwise-reanimates as a juju zombie (see Bestiary 2) 1d4 rounds later under the control of the sword wielder. The sword can control up to 32 HD worth of juju zombies in this way. If this amount is exceeded, undead are released from control as per animate dead.<br><p><b>Base Item:</b> +5 ghost touch vicious falchion</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264936,
+    "modifiedTime": 1665949036088,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

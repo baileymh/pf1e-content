@@ -3,7 +3,7 @@
   "name": "Cursed Wound",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Witch Hex</strong><br/><br/><p>The witch can curse a living creature, preventing it from healing completely. For a number of days equal to 3 + the witch's Intelligence modifier (minimum 1), whenever the victim is the target of a conjuration (healing) spell or magical healing effect, the caster of the healing effect must succeed at a caster level check (DC = 11 + the witch's level) to end the hex. If the check fails, the healing effect functions as normal, except it cannot remove the last 10 points of damage the victim suffered. Similarly, natural healing, fast healing, and regeneration fail to cure the victim's last 10 points of damage. Thus, the victim's effective maximum number of hit points is 10 fewer than normal. A successful Will save reduces the duration of this hex to 1 round. At 5th level, the victim of this hex also takes a -2 penalty on Fortitude saving throws to avoid contracting a disease or poison from an injury. This is a curse effect and can be removed by remove curse.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277896,
+    "modifiedTime": 1665949050568,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

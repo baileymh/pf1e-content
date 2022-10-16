@@ -3,7 +3,7 @@
   "name": "Sasquatch Skull [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Divination reveals this large humanoid skull to be that of a gorilla or giant, although it is actually an accursed sasquatch skull. The item seems to grant its bearer a +5 bonus on Stealth checks in wooded areas.  If an individual takes possession of the sasquatch skull for more than 24 hours, it quickly begins to stink. The smell is undetectable by the skull's bearer, but companions and creatures within 30 feet find the pungent smell extremely noticeable. The smell imposes a -2 penalty on Charisma checks and Charisma-based skill checks made by the skull's owner. In addition, aggressive wild animals always target the skull's owner first during combat. The skull need not be on the owner's person for the curse to manifest, so long as ownership has not been transferred through sale, gift, or theft.  A remove curse spell suppresses the stench for 1d4 days. Transferring ownership of the skull transfers the curse to its new owner, but the curse remains on the last owner if the skull is abandoned. The only way to remove the curse permanently other than giving away the skull is to use a miracle or wish spell, or to bury the skull in a forested area and keep watch for 24 hours. The skull's owner must be part of this graveside vigil, and must howl and knock on a nearby log or rock at sunset and sundown. A PC can discover the details of this ritual with a successful DC 25 Knowledge (nature) check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mystery Monsters Revisited",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264605,
+    "modifiedTime": 1665949035852,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

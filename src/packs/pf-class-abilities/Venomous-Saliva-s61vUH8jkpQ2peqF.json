@@ -3,7 +3,7 @@
   "name": "Venomous Saliva",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>Just as certain serpents can spray poison from their fangs, as a swift action, you can spit a gout of life-stealing venom onto a weapon you are wielding. The poison lasts for 1 minute or until you make an attack with that weapon that injures a foe. Life-Stealing Venom: Injury; save Fort DC 10 + half your class level + your Wisdom modifier; frequency 1/round for 3 rounds; effect 1 Con damage; cure 1 save. You can use the venomous saliva ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428276500,
+    "modifiedTime": 1665949049282,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

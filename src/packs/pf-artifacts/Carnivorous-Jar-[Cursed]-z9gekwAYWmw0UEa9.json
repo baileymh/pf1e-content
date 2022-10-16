@@ -3,7 +3,7 @@
   "name": "Carnivorous Jar [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A wooden stopper depicting an animal or human head seals this limestone jar. Any creature that opens the jar takes 3d6 points of Constitution damage as several of its internal organs vanish from its body and appear inside the jar. If the creature survives, the resulting trauma deals 2d6 points of bleed damage every round. This bleed damage lasts until the victim receives at least 5 points of magical healing or benefits from a DC 20 Heal check. A carnivorous jar functions only once, and can be found alone or in sets of four.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 82",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265258,
+    "modifiedTime": 1665949036848,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

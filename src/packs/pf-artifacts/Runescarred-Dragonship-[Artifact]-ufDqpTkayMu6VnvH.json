@@ -3,7 +3,7 @@
   "name": "Runescarred Dragonship [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This decrepit longship seems barely seaworthy. Its boards are splintered and it is branded with a number of angular runes, each said to bind the soul of a sailor to the vessel. Due to its powerful magic, it is seaworthy and very fast (though it doesn't offer its passengers much in the way of comfort). It needs no crew. Creatures that spend a week on the boat (which is usually discovered drifting aimlessly at sea) find that they can control the boat by just speaking the name of a port or a description of a specific destination that can be reached by way of the sea the runescarred dragonship is currently sailing. The runescarred dragonship then sets sail toward that destination. It always takes the safest path, navigationally speaking, to the spoken destination. If there is more than one creature capable of giving the boat commands, the runescarred dragonship gives each order equal weight, changing its course each time a new command is given. A runescarred dragonship can carry 5 tons of cargo or 120 Medium creatures. It moves at a rate of 10 miles per hour.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265215,
+    "modifiedTime": 1665949036723,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

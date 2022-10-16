@@ -3,7 +3,7 @@
   "name": "Spirited Charge",
   "type": "feat",
   "img": "systems/pf1/icons/races/hobgoblin.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Your mounted charge attacks deal a tremendous amount of damage.</em><br /><br /><strong>Prerequisites</strong><br />Ride 1 rank, Mounted Combat, Ride-By Attack.<br /><br /><strong>Benefits</strong><br />When mounted and using the charge action, you deal double damage with a melee weapon (or triple damage with a lance).<br /><br /><strong>Combat Trick</strong><br />When making a mounted charge, you can spend a number of stamina points up to your Strength bonus. If your charge attack hits, you deal an amount of extra damage equal to the number of stamina points you spent. This additional damage is doubled by this feat (or tripled if you're using a lance).</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: create a conditional modifier to Damage as Non-critical Damage Bonus Formula. The formula is the weapon damage. If the weapon is a lance, the formula is twice the weapon damage.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351891,
+    "modifiedTime": 1665949119984,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Evasion",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_06.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.2Km8pQor1jMPba7t"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>If an eidolon is subjected to an attack that normally allows a Reflex save for half damage, it takes no damage if it makes a successful saving throw.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -173,7 +184,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -208,12 +218,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.2Km8pQor1jMPba7t"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321362,
+    "modifiedTime": 1665949091506,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

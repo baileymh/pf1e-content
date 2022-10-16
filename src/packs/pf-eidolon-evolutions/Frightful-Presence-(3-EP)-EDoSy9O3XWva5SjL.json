@@ -3,7 +3,12 @@
   "name": "Frightful Presence (3 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_03.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.vUZvKFiElrGzQQ26"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon becomes unsettling to its foes, gaining the @Compendium[pf-content.pf-universal-monster-rules.tbYOVRDBl2uywz2o]{Frightful Presence (Ex)} ability. The eidolon can activate this ability as part of an offensive action, such as a charge or attack.</p>\n<p>Opponents within 30 feet of the eidolon must make a Will save or become shaken for 3d6 rounds. The DC of this save is equal to 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier. If the eidolon has at least 4 more Hit Dice than an opponent, that opponent becomes frightened instead.</p>\n<p>Foes with more HD than the eidolon are immune to this effect.</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 11th level before selecting this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": null,
           "value": 0,
           "maxFormula": ""
@@ -103,6 +113,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -205,12 +215,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.vUZvKFiElrGzQQ26"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321272,
+    "modifiedTime": 1665949091443,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

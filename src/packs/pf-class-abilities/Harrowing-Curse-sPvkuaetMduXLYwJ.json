@@ -3,7 +3,7 @@
   "name": "Harrowing Curse",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Witch Major Hex</strong><br/><br/><p>The witch can curse a target creature by touching it with a card randomly drawn from a harrow deck she owns. The target is affected as if by the spell bestow curse using the witch's caster level, except that the witch can decrease only the ability score that corresponds to the suit of the card drawn. Whether or not the save is successful, a creature cannot be targeted by this hex more than once in 24 hours. At 15th level, this hex acts as a major curse spell (Pathfinder RPG Ultimate Magic 215). A witch with the cartomancer archetype can combine this hex with her spell deck's deliver touch spell ability.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428276526,
+    "modifiedTime": 1665949049304,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

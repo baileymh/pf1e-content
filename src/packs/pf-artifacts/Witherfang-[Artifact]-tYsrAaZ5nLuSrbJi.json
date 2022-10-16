@@ -3,7 +3,7 @@
   "name": "Witherfang [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>While in the hands of a non-mythic creature, a witherfang functions as a +3 kukri. However, over time it begins to consume the life essence of its wielder. If the wielder is non-mythic, each week he must succeed at a DC 20 Fortitude save or take 1d4 points of Constitution drain that can't be healed until 1 week after he stops wielding the weapon. The witherfang then converts the stolen life essence into mythic power. A witherfang can hold a maximum of 20 uses of mythic power.  A mythic character can use a witherfang's stolen mythic power to activate her own mythic abilities or to enhance the blade with the following abilities: bane, dancing, speed, and wounding. Each ability lasts for 24 hours, and only one can be applied to the blade within each 24-hour period. The wielder can increase the witherfang's enhancement bonus by 1 for each use of mythic power she expends. Alternately, the wielder can expend one use of mythic power to imbue the blade with the bane special ability, two uses to imbue it with the wounding special ability, three uses to imbue it with the speed special ability, or four uses to imbue it with the dancing special ability.<br><p><b>Base Item:</b> +3 kukri</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265206,
+    "modifiedTime": 1665949036687,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

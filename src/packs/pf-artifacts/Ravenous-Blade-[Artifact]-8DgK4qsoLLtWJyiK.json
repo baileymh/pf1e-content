@@ -3,7 +3,7 @@
   "name": "Ravenous Blade [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Jagged teeth stud the length of this falchion's blackened steel blade. Warped and twisted by the daemonic spirit trapped within, this former +2 merciful falchion now tears the life's essence from its victims. The Ravenous Blade acts as a +2 wounding falchion, and grants its wielder a +2 profane bonus to Charisma so long as it remains in her possession. Bleed damage dealt by the Ravenous Blade takes the form of nonlethal starvation damage, as the blade slowly consumes the fat and meat of creatures it has tasted. Anyone who takes nonlethal damage from the sword's wounding property becomes fatigued, just as if he had begun starving normally.  Whenever the wielder kills or subdues a creature in combat (whether she does so with the Ravenous Blade itself or not), she must succeed at a DC 18 Will save or she is overcome by hunger pangs, and is compelled to consume the flesh of her victim. Sating this compulsion is a full-round action that provokes attacks of opportunity.<br><p><b>Base Item:</b> +2 wounding falchion</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Feast Of Dust",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264665,
+    "modifiedTime": 1665949035893,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

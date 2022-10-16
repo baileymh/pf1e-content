@@ -3,7 +3,7 @@
   "name": "Heart's Bane [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This sword of twisted black silver has a burst of dark flames adorning the hilt and a pommel shaped like a pair of clawed hands. Its blade continually sheds an aura of shadow equivalent to the darkness spell. Heart's Bane is a mithral bastard's sting (Pathfinder RPG Ultimate Equipment 150); normally a +2 mithral longsword, it becomes a +5 unholy mithral longsword (with all of the other abilities of a bastard's sting) in the hands of an antipaladin. Heart's Bane also functions as a bane weapon against creatures that worship Iomedae.  Heart's Bane grants the following abilities when wielded by an evil creature. The wielder gains a +6 profane bonus to AC and 60 additional hit points. As a swift action up to eight times per day, the wielder can gain a profane bonus equal to the sword's enhancement bonus on a single Charisma-based skill check or Charisma ability check. As a standard action three times per day, the wielder can force a good creature to reflect on its past misdeeds and be overcome by grief, as per terrible remorse (Pathfinder RPG Ultimate Magic 243). Once per day, the wielder can swing Heart's Bane above her head as a standard action to create an incendiary cloud. Half the damage caused by the spell is fire damage and the other half results directly from unholy power and is therefore not subject to being reduced by resistance to fire-based attacks.<br><p><b>Base Item:</b> +2 mithral longsword|+5 unholy mithral longsword</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 108",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264820,
+    "modifiedTime": 1665949036002,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

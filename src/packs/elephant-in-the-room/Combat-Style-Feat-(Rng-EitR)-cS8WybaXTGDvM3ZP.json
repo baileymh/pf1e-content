@@ -3,7 +3,12 @@
   "name": "Combat Style Feat (Rng, EitR)",
   "type": "feat",
   "img": "systems/pf1/icons/feats/double-slice.jpg",
-  "data": {
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. The ranger&rsquo;s expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.</p>\n<p>If the ranger selects archery, he can choose from the following list whenever he gains a combat style feat: @Compendium[pf1.feats.HMCAM3Zyo77kG8Yg]{Far Shot}, @Compendium[world.elephant-in-the-room-feat-taxes.dJLezPVKdernFGg5]{Point-Blank Shot (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.ORVdmYMl5KV5Ixjy]{Precise Shot (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.aBTKJ5CC7MOsK7Wp]{Rapid Reload (EitR)}, and @Compendium[pf1.feats.NABgOSBRECIREaha]{Rapid Shot}. At 6th level, he adds @Compendium[pf1.feats.h1vqUG9Kh3f7oKWK]{Improved Precise Shot}, @Compendium[pf1.feats.w23dO02t0poRrno0]{Manyshot}, @Compendium[pf-content.pf-feats.3jOyHy00LpOvKz3O]{Parting Shot}, and @Compendium[pf-content.pf-feats.3oyuOhVcwraqOu9p]{Point-Blank Master} to the list. At 10th level, he adds @Compendium[pf1.feats.ztV5oURW9cFsLdXT]{Pinpoint Targeting} and @Compendium[pf1.feats.ymtj17MI4MdwB0v2]{Shot on the Run} to the list.</p>\n<p>If the ranger selects two-weapon combat, he can choose from the following list whenever he gains a combat style feat: @Compendium[pf1.feats.VK8TgwfjeomMwGjd]{Double Slice}, @Compendium[pf1.feats.qYv70Ch9RQfi1LQQ]{Improved Shield Bash}, @Compendium[pf1.feats.WKIVfdosc5SqYzmP]{Quick Draw}, @Compendium[world.elephant-in-the-room-feat-taxes.fgDYyLCLOfin167x]{Shield Focus (EitR)}, and @Compendium[world.elephant-in-the-room-feat-taxes.xWCZgYiKrCxlPqkf]{Two-Weapon Fighting (EitR)}. At 6th level, he adds @Compendium[world.elephant-in-the-room-feat-taxes.VfA6M8HxQMTOjzR0]{Greater Two-Weapon Fighting (EitR)}, @Compendium[world.elephant-in-the-room-feat-taxes.fgDYyLCLOfin167x]{Shield Focus (EitR)}, and @Compendium[pf1.feats.YDqp3yrAsuXh103W]{Two-Weapon Defense} to the list. At 10th level, he adds @Compendium[pf1.feats.GEo7nDHxddLxi66j]{Shield Slam} and @Compendium[pf1.feats.tGDNVHHZnNFPPgiY]{Two-Weapon Rend} to the list.</p>\n<p>The benefits of the ranger&rsquo;s chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.</p>",
       "chat": "",
@@ -45,6 +50,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -100,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -181,11 +192,11 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": "passive"
@@ -261,12 +272,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321847,
+    "modifiedTime": 1665949091763,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Thrushmoor Star Stelae [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Star Stelae in Thrushmoor are partially operational and provide the following benefits to any creature bearing an unholy symbol of Hastur-the Yellow Sign. Each Star Stela has a number of charges that can be replenished with an appropriate sacrifice, and activating one of the artifact's effects expends a number of charges. Each stone can hold a maximum of 50 charges. Because these artifacts are damaged and not operating at their full potential, their auras register as faint instead of strong or overwhelming.  If a creature in possession of a Yellow Sign touches a Star Stela, it immediately receives a flow of telepathic impressions that it can attempt to interpret with a DC 25 Knowledge (arcana) or Knowledge (religion) check. If the creature succeeds, it understands what the Star Stela can do, and can attempt to tap into their power.  Any creature using a Star Stela for any of these effects is bombarded with strange images and distant whispers. If the  creature makes use of the teleportation effect, it steps into one wall and emerges into what looks like an abandoned and eerily quiet city filled with swirling yellow mist before exiting to its desired location.  A creature bearing the unholy symbol of Hastur can make use of the following effects.  City Stride: By touching one of the Star Stelae, a user can create a temporary portal on a wall within 200 feet of the stone. The user can then travel to another wall within 200 feet of one of the other two Star Stelae as if via dimension door. A sooty mural of a gloomy and abandoned city appears on any wall used for this manner of travel. This use expends 2 charges.  Sinister Whispers: By touching one of Thrushmoor's Star Stelae, a user can transmit a short, whispered message to any point within 300 feet of any of the three artifacts. All creatures wearing an unholy symbol of Hastur within that area hear the whispered message and can give a short reply. This use expends 1 charge. If the user and another creature are touching different stones at the same time, one of them can expend 2 charges to communicate telepathically for 1 minute.  If a stone is depleted of all its charges, it becomes inactive and can't be used anymore. An inactive Star Stela can be activated again only through the successful completion of a specific occult ritual (the same one that Melisenn used to originally awaken the stones).  Charges can be replenished through sacrifice. If a sentient living creature is killed in the name of Hastur while in contact with one of the Star Stelae, the artifact gains a number of charges equal to 1 per Hit Die of the sacrificed victim.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 110",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264837,
+    "modifiedTime": 1665949036019,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

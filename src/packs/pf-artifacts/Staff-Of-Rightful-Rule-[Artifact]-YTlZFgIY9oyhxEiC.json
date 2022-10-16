@@ -3,7 +3,7 @@
   "name": "Staff Of Rightful Rule [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This staff is a single piece of mithral carved with lines and small dots and encrusted with blue and violet gemstones at either end. The runes marking it are a mixture of Auran and Infernal terms, intertwined. The staff delivers a shocking grasp (CL 15th) to any creature other than the staff's owner that holds it, and no chaotic creature can become its owner. Asserting ownership requires a successful DC 20 Use Magic Device or Charisma check made while holding the staff. Once a creature becomes the staff's owner, it remains so until another creature asserts ownership.  A staff of rightful rule has 10 charges when it is created. In addition to the normal method of recharging staves, spent charges from a staff of rightful rule can be restored by casting dictum into the staff. Each casting restores 1 charge, but the staff may never hold more than 10 charges at any one time.   The staff allows use of the following spells:  • Feather fall (0 charges; functions even if all charges are expended)  • Shocking grasp (1 charge)  • Chain lightning (2 charges)  • Dispel chaos (3 charges)<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 83",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264934,
+    "modifiedTime": 1665949036087,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

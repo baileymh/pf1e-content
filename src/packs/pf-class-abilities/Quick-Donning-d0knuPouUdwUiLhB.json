@@ -3,7 +3,7 @@
   "name": "Quick Donning",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_37.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Advanced Armor Training</strong><br/><br/><p>The fighter can don armor in a hurry without reducing its effectiveness, and remove it quickly when it becomes a hindrance. When the fighter dons or removes his armor or dons it hastily, the amount of time needed to do so is reduced, as noted on the table below. Other characters can still help the fighter don his armor as normal.</p><table> <tr>  <td>Armor Type</td>  <td>Don</td>  <td>Don Hastily</td>  <td>Remove</td> </tr> <tr>  <td>Light armor</td>  <td>5 rounds</td>  <td>1 round</td>  <td>5 rounds</td> </tr> <tr>  <td>Medium armor</td>  <td>1 minute</td>  <td>5 rounds</td>  <td>1 minute</td> </tr> <tr>  <td>Heavy armor</td>  <td>2 minutes</td>  <td>1 minute</td>  <td>1d4 minutes</td> </tr></table><p>Additionally, when wearing hastily donned armor, the fighter can attempt a Strength or Dexterity check as a full-round action to remove the penalties associated with wearing hastily donned armor (DC = 10 + his armor's unmodified armor bonus). If he succeeds at the check, he is treated as having properly donned his armor rather than having hastily donned it.</p><p>The fighter can also remove his armor in the same amount of time that it takes him to don his armor hastily. He can even remove sections of armor to escape grapples and similar grasping hindrances. Whenever the fighter attempts a combat maneuver check, an Escape Artist check, or a Strength check to escape from an effect that reduces or restricts his ability to move or act, he can reduce the armor bonus of any armor that he is wearing by up to half his armor's base armor bonus. If he does so, he gains a bonus on his check equal to the amount by which he reduced his armor's armor bonus. Multiple uses of this ability cannot reduce the armor's armor bonus below half its base armor bonus, and the reduction to the armor's armor bonus lasts until the fighter recovers and dons the removed pieces of armor.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428273507,
+    "modifiedTime": 1665949046106,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

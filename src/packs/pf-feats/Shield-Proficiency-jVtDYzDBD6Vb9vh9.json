@@ -3,7 +3,7 @@
   "name": "Shield Proficiency",
   "type": "feat",
   "img": "systems/pf1/icons/items/armor/shield-light-metal.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You are trained in how to properly use a shield.</em><br/><br/><b>Benefits</b><br/>When you use a shield (except a tower shield), the shield's armor check penalty only applies to Strength- and Dexterity-based skills.<br/><br/><b>Normal</b><br/>When you are using a shield with which you are not proficient, you take the shield's armor check penalty on attack rolls and on all skill checks that involve moving.<br/><br/><b>Special</b><br/>Barbarians, bards, clerics, druids, fighters, paladins, and rangers all automatically have Shield Proficiency as a bonus feat. They need not select it.",
       "chat": "",
@@ -65,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -98,8 +97,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356855,
+    "modifiedTime": 1665949125143,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

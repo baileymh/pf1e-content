@@ -3,7 +3,12 @@
   "name": "Grab (2 EP)",
   "type": "feat",
   "img": "icons/commodities/biological/hand-clawed-green.webp",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.okMR07TvkPY903ti"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon becomes adept at grappling foes, gaining the grab ability.</p>\n<p>Pick bite, claw, pincers, slam, tail slap, or tentacle attacks. Whenever the eidolon makes a successful attack of the selected type, it can attempt a free combat maneuver check.</p>\n<p>If successful, the eidolon grapples the target. This ability only works on creatures of a size one category smaller than the eidolon or smaller.</p>\n<p>Eidolons with this evolution receive a +4 bonus on CMB checks made to grapple.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +179,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -207,12 +217,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.okMR07TvkPY903ti"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321383,
+    "modifiedTime": 1665949091519,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

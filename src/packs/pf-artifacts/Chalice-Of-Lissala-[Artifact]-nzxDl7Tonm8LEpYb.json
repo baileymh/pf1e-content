@@ -3,7 +3,7 @@
   "name": "Chalice Of Lissala [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This large golden chalice glitters and sparkles alluringly whenever a creature capable of using enchantment magic is within 30 feet of it. While holding the Chalice of Lissala in hand, a spellcaster increases her caster level for spells and spell-like abilities of the enchantment school by 4 and increases the DC to resist them by 4. When the chalice's bearer casts a spell of the enchantment school against targets with spell resistance, she can roll her caster level check twice and use the better result. If a target creature is normally immune to the enchantment spell (such as a mindless or undead creature with a mind-affecting spell), the bearer can affect the creature as though it weren't immune, though in this case the spell uses her normal caster level and spell DC.  Additionally, the Chalice of Lissala grants its bearer a +5 competence bonus on Charisma-based checks.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 137",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265164,
+    "modifiedTime": 1665949036524,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Erosion Aura",
   "type": "feat",
   "img": "systems/pf1/icons/spells/leaf-jade-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Druid Domain Power</strong><br/><br/><p>At 8th level, you can project an aura of magically enhanced erosion as a standard action. Objects made primarily of metal or stone within this aura lose 10 points of hardness. Magic items retain a minimum hardness equal to twice their enhancement bonus and can attempt a Fortitude saving throw (DC = 10 + half your druid level + your Wisdom modifier) to negate this effect. A construct made primarily of metal or stone must succeed at a Fortitude save or lose all damage reduction and hardness for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269253,
+    "modifiedTime": 1665949041536,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

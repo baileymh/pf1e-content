@@ -3,7 +3,7 @@
   "name": "Divine Power",
   "type": "buff",
   "img": "systems/pf1/icons/feats/alignment-channel.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>You gain a +1 luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks for every three caster levels you have (maximum +6). You also gain 1 temporary hit point per caster level.</p>\n<p><strong>Usage:</strong> Set this buff's level and temp HP equal to the caster level of Divine Power.</p>",
       "chat": "",
@@ -71,9 +71,9 @@
     "scriptCalls": [],
     "buffType": "temp",
     "active": false,
-    "level": "1",
+    "level": 1,
     "duration": {
-      "value": null,
+      "value": "",
       "units": ""
     },
     "hideFromToken": false,
@@ -90,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265920,
+    "modifiedTime": 1665950891000,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

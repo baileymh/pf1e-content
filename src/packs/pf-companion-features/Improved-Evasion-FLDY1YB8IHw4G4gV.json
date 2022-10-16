@@ -3,7 +3,12 @@
   "name": "Improved Evasion",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_06.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.KMxHg0xuKE3doAcx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>If your effective druid level is at least 15:</p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">When subjected to an attack that allows a Reflex saving throw for half damage, an animal companion takes no damage if it makes a successful saving throw and only half damage if the saving throw fails.</span></p>",
       "chat": "",
@@ -20,8 +25,7 @@
       "value": 0,
       "maxFormula": "",
       "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "max": 0
+      "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
     "effectNotes": [],
@@ -30,12 +34,7 @@
       "loseDexToAC": false,
       "noEncumbrance": false,
       "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "noStr": false,
-      "noDex": false,
-      "oneInt": false,
-      "oneWis": false,
-      "oneCha": false
+      "heavyArmorFullSpeed": false
     },
     "contextNotes": [
       {
@@ -75,7 +74,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -94,82 +92,34 @@
       "value": null,
       "units": ""
     },
-    "target": {
-      "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
-    },
-    "attackName": "",
-    "actionType": "",
-    "attackBonus": "",
-    "critConfirmBonus": "",
-    "damage": {
-      "parts": [],
-      "critParts": [],
-      "nonCritParts": []
-    },
-    "attackParts": [],
-    "formulaicAttacks": {
-      "count": {
-        "formula": "",
-        "value": null
-      },
-      "bonus": {
-        "formula": ""
-      },
-      "label": null
-    },
-    "formula": "",
     "ability": {
-      "attack": null,
-      "damage": null,
       "damageMult": 1,
-      "critRange": 20,
       "critMult": 2
     },
-    "save": {
-      "dc": 0,
-      "type": "",
-      "description": ""
-    },
-    "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "attack": {
-      "parts": []
-    },
-    "conditionals": [],
+    "attack": {},
     "identifiedName": "Improved Evasion",
-    "size": "med"
+    "size": "med",
+    "range": {
+      "maxIncrements": 1
+    }
   },
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.KMxHg0xuKE3doAcx"
-    },
-    "core": {
-      "sourceId": "Compendium.pf-content.pf-companion-features.FLDY1YB8IHw4G4gV"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428318256,
+    "modifiedTime": 1665949088595,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

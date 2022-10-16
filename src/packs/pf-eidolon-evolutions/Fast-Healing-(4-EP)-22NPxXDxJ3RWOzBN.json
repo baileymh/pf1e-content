@@ -3,7 +3,12 @@
   "name": "Fast Healing (4 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_15.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.FNTRBGKsrfByOi1u"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon's body gains the ability to heal wounds very quickly, giving it fast healing 1. The eidolon heals 1 point of damage each round, just like natural healing. Fast healing does not restore hit points lost due to starvation, thirst, or suffocation, nor does it allow the eidolon to regrow lost body parts (or to reattach severed parts).</p>\n<p>Fast healing functions as long as the eidolon is alive. This fast healing does not function when the eidolon is not on the same plane as its summoner. This healing can be increased by 1 per round for every 2 additional evolution points spent (maximum 5).</p>\n<p><strong>Requirements</strong></p>\n<p>The summoner must be at least 11th level before selecting this evolution.</p>\n<p><strong>Usage</strong></p>\n<p>Add Fast Healing to eidolon sheet (manually apply, or use @mana's module)</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.FNTRBGKsrfByOi1u"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321243,
+    "modifiedTime": 1665949091425,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

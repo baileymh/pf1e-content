@@ -3,7 +3,7 @@
   "name": "Helm Of Governance [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This helm masks the wearer's face and functions as a helm of telepathy combined with an amulet of proof against detection and location. The wearer can cast disguise self at will and benefits from discern lies and true seeing at all times. The helm provides complete protection from all gaze attacks and all forms of mental control. The helm also interfaces with illusory effects, allowing the wearer to see and hear through certain illusions as though those illusions acted as scrying sensors. The helm is currently attuned to numerous projection pads depicting Jazradan's programmed image, scattered throughout the ruins of Azlant.  Once per day as a swift action, the wearer of the helm of governance can utter the Azlanti word for stop, which causes a time stop effect. Similarly, up to three times per day as a swift action, the wearer can say insufficient in Azlanti, which targets a creature within 300 feet with greater dispel magic.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 126",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265145,
+    "modifiedTime": 1665949036466,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

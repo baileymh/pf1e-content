@@ -3,7 +3,7 @@
   "name": "Disable Device",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Unchained Rogue Skill Unlock</strong><br/><br/><p>With sufficient ranks in Disable Device, you earn the following.</p><p><b>5 Ranks: </b>Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action.</p><p><b>10 Ranks: </b>You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a symbol). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.</p><p><b>15 Ranks: </b>When attacked by a trap, you can attempt a Disable Device check as an immediate action (adding your trap sense bonus, if any) opposed by the trap's attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC by at least 10).</p><p><b>20 Ranks: </b>You halve the penalties for performing a quick disarm as described in the 5 Ranks entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability unlocked at 15 ranks, all nearby allies gain the benef it, and you disable the trap as an immediate action before it can trigger if you exceed the DC by at least 10.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268222,
+    "modifiedTime": 1665949040276,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

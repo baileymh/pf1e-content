@@ -3,7 +3,7 @@
   "name": "Armor Of Rage [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/weapon_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This armor is similar in appearance to breastplate of command and functions as a +1 breastplate. However, when it is worn, the armor causes the character to take a -4 penalty to Charisma. All unfriendly characters within 300 feet have a +1 morale bonus on attack rolls against her. The effect is not noticeable to the wearer or those affected. In other words, the wearer does not immediately notice that donning the armor is the cause of her problems, nor do foes understand the reason for the depth of their enmity.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>PFRPG Core",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "lightArmor",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265080,
+    "modifiedTime": 1665949036294,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

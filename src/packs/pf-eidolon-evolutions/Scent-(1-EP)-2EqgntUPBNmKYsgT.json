@@ -3,7 +3,12 @@
   "name": "Scent (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_04.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.qMD5qhwe2q33hMuZ"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon's sense of smell becomes quite acute. The eidolon gains the scent special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents can be detected at twice the normal range.</p>\n<p>Scent does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction with a move action. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use scent to track creatures.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.qMD5qhwe2q33hMuZ"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321244,
+    "modifiedTime": 1665949091427,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,7 @@
   "name": "Archon Style",
   "type": "feat",
   "img": "systems/pf1/icons/skills/light_06.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You protect your allies from harm, even at the cost of your own safety.</em><br/><br/><b>Prerequisites</b><br/>Combat Expertise; Combat Reflexes; base attack bonus +2 or monk level 1st.<br/><br/><b>Benefits</b><br/>While using this style, as a move action, you can protect adjacent allies from a single opponent that you currently threaten. This grants adjacent allies a +2 dodge bonus to AC against that opponent's next melee attack (as long as that attack comes before the beginning of your next turn), but causes you to take a -2 penalty to AC against that opponent until your next turn. The dodge bonus against the designated opponent's attacks persists even if your allies move away from you.",
       "chat": "",
@@ -66,7 +66,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -98,8 +97,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351236,
+    "modifiedTime": 1665949119394,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

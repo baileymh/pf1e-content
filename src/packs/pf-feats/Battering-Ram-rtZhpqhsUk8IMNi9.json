@@ -3,7 +3,7 @@
   "name": "Battering Ram",
   "type": "feat",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Sometimes smacking your firearm against a solid surface is all that's needed to unjam it. Sometimes that solid surface is a creature.</em><br/><br/><b>Prerequisites</b><br/>Craft (alchemy) 3 ranks; grit class feature or Amateur Gunslinger; pistol-whip gunslinger deed; quick clear gunslinger deed.<br/><br/><b>Benefits</b><br/>You can ignore the broken condition of a firearm you're wielding to perform the pistol-whip deed. If you hit a creature with this deed, you can spend 1 grit point as an immediate action to remove the broken condition from the firearm, but only if the firearm gained that condition from a misfire.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358165,
+    "modifiedTime": 1665949126429,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

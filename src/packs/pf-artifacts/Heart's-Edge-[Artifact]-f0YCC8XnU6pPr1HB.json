@@ -3,7 +3,7 @@
   "name": "Heart's Edge [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This gleaming silver sword has a spray of quillons resembling a sunburst and a pommel shaped like a pair of hands clasped together. Its blade continually sheds light equivalent to the light spell. Heart's Edge is a mithral holy avenger; normally a +2 mithral longsword, it becomes a +5 holy mithral longsword (with all of the other abilities of a holy avenger) in the hands of a paladin of Iomedae. Heart's Edge also functions as a bane weapon against creatures with the shapechanger subtype. In addition, if a shapechanged creature or creature under the effects of a spell of the polymorph subschool is struck by the sword with a successful melee attack, that creature must succeed at a DC 19 Will save or immediately revert to its true form.  Lastly, Heart's Edge grants the following abilities when wielded by a good creature. The wielder gains a +6 sacred bonus to her AC and 60 additional hit points. As a swift action up to eight times per day, the wielder can gain a sacred bonus equal to the sword's enhancement bonus on a single Charisma-based skill check or Charisma ability check. As a standard action three times per day, the wielder can force an evil creature to reflect on its past misdeeds and be overcome by grief, as per forced repentance (Pathfinder RPG Advanced Player's Guide 224; Will DC 16 negates). Once per day, the wielder can swing Heart's Edge above her head as a standard action to create and launch a globe of searing radiance, as per sunburst (Reflex DC 22 partial).<br><p><b>Base Item:</b> 2 mithral longsword|+5 holy mithral longsword</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 108",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265074,
+    "modifiedTime": 1665949036290,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

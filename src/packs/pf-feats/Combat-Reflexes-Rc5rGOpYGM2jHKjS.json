@@ -3,7 +3,7 @@
   "name": "Combat Reflexes",
   "type": "feat",
   "img": "systems/pf1/icons/feats/combat-reflexes.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can make additional attacks of opportunity.</em><br /><br /><strong>Benefits</strong><br />You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.<br /><br /><strong>Normal</strong><br />A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.<br /><br /><strong>Special</strong><br />The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.<br /><br /><strong>Combat Trick</strong><br />When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack roll and costs one of your attacks of opportunity for the round.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: spend 1 charge after use.</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 1,
           "maxFormula": "1 + @abilities.dex.mod",
@@ -105,6 +110,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -171,7 +177,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -205,8 +210,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354459,
+    "modifiedTime": 1665949122621,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

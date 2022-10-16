@@ -3,7 +3,7 @@
   "name": "Armor Of Skulls [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/weapon_16.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Crafted from the skull of the dragon Kazavon, the Armor of Skulls is a Large intelligent +4 greater electricity resistance breastplate that grants its wearer a +4 enhancement bonus to Strength and Constitution. Once per day, the wearer can unleash either a bolt or burst of electricity. The bolt is a 120-foot line of electricity that deals 24d8 points of electricity damage (Reflex DC 37 for half ). The burst deals 6d8 points of electricity damage to all creatures within a 30-foot-radius burst (Reflex DC 37 for half ).<br><p><b>Base Item:</b> +4 greater electricity resistance breastplate</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "armor",
     "equipmentSubtype": "lightArmor",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265069,
+    "modifiedTime": 1665949036285,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

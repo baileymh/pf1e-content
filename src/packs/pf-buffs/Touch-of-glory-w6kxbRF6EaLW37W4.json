@@ -3,7 +3,12 @@
   "name": "Touch of glory",
   "type": "buff",
   "img": "systems/pf1/icons/feats/extra-mercy.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.wHZio5CGWn0lAHCT"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Effect</strong>: You gain a bonus equal to the caster cleric level on a single Charisma-based skill check or Charisma ability check.</p>\n<p><strong>Duration</strong>: One hour or until the creatur elects to apply the bonus to a roll.</p>\n<p><strong>Usage</strong>: Set this buff's level equal to the caster level of touch of glory.</p>\n<p>Current value: [[@item.level]]</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -62,12 +67,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.wHZio5CGWn0lAHCT"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266148,
+    "modifiedTime": 1665949037666,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

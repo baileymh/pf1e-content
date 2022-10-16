@@ -3,7 +3,7 @@
   "name": "Self-Resurrection",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/drum.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Bloodrager - Bloodline Powers</strong><br/><br/><p>From the ashes of your body springs forth new life. At 16th level, once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a breath of life spell cast upon yourself. At 20th level, this instead functions as a heal spell, except that the healing can return you to life as per breath of life, using your bloodrager level as your caster level. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as disintegrate.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266918,
+    "modifiedTime": 1665949038405,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

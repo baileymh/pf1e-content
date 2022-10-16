@@ -3,7 +3,7 @@
   "name": "Mantis Blade [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The mantis blade is an intelligent +2 axiomatic sawtooth sabreUE made of red chitin that forms a curved, serrated blade. It grants its wielder the ability to make a sneak attack that deals 1d6 points of damage. This ability functions as the rogue class feature of the same name, and the extra damage stacks with any sneak attack bonuses the wielder already has. When a creature is wounded with the blade, the wielder can activate the blade's bane weapon special ability as a swift action (granting the weapon an additional +2 enhancement bonus and causing it to do an extra 2d6 points of damage, but only against the type of creature struck). The bane ability lasts for 10 minutes and is usable once per day. Sacred to the faith of the mantis god Achaekek, a mantis blade also grants bonuses to a Red Mantis assassin who wields it. A Red Mantis assassin wielding a mantis blade gains a +2 bonus to the DC of her prayer attack and gains an additional use per day of both her red shroud and fading abilities. To date, only one mantis blade is known to exist, after it was recovered from a lost city in the Mwangi Expanse, but ancient texts suggest others remain yet to be recovered.<br><p><b>Base Item:</b> +2 axiomatic sawtooth sabre</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Adventurer's Guide",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265220,
+    "modifiedTime": 1665949036753,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

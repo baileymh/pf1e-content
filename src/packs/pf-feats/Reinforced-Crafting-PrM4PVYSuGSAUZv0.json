@@ -3,7 +3,7 @@
   "name": "Reinforced Crafting",
   "type": "feat",
   "img": "icons/commodities/metal/clasp-steel-braid.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your magical creations are hardier than most.</em><br/><br/><b>Prerequisites</b><br/>Craft Magic Arms and Armor, ability to cast make whole or mending.<br/><br/><b>Benefits</b><br/>When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item's total construction cost by 10%. If it's a weapon, when it becomes broken, the penalty to attack and damage rolls is reduced to -1 (this can never reduce a broken weapon's penalty to attack and damage to 0 or a positive number). If it's a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal. Normal<br/>A broken weapon imposes a -2 penalty on attack and damage rolls. The bonus a broken suit of armor or a broken shield grants to AC is halved.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354344,
+    "modifiedTime": 1665949122515,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

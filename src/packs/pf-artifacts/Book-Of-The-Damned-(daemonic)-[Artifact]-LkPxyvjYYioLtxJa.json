@@ -3,7 +3,7 @@
   "name": "Book Of The Damned (daemonic) [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The daemonic chapters of the Book of the Damned are bound between covers of perpetually frozen, compressed ashes that seem to suck ambient light into their material. The pages appear to be a palimpsest, with the words written over the intentionally erased words of an earlier draft, though it is unknown who redacted it and when this redaction occurred. In each case, the edited portions describe specific events related to the earliest history of the plane of Abaddon, sometimes with entire pages being censored. Scholars suspect this is akin to the magic the Horsemen use to scour their own records and history in cycles when one of the Four has been replaced.  A good-aligned creature that touches this section of the Book of the Damned gains 1 negative level. This level cannot be restored until the character has remained more than 10 feet away from this section of the book for 24 hours. A creature that is not neutral evil and attempts to read this section of the book must succeed at a DC 15 Will save or have his alignment permanently shift one step toward neutral evil.  The text is written in a mixture of Abyssal and Infernal, sometimes changing from one to the other midsentence, so readers must be fluent in both languages to fully understand the  nuances and true meaning of the text. As a reader proceeds, he becomes aware of a dull pressure on the back of his skull and a buzzing static. Eventually the text begins to speak to him, conveying telepathic impressions and images to complement the text. A telepathic creature can read the text without actually opening this volume merely by holding it and concentrating.  This portion of the Book of the Damned contains copies of every spell with the evil descriptor, as well as awaken the devoured, Charon's dispensation, sacrifice, and soul transfer (see pages 183, 185, and 186). The user gains a +4 bonus on Knowledge (planes) checks when using this portion as a resource (consulting it for at least an hour regarding a question), and its descriptions of Abaddon are so accurate that any teleportation to or within that plane always brings the caster to the desired location (no familiarity roll needed). Spells cast by the bearer that inflict negative levels inflict 1 additional negative level on affected targets.  The daemonic portion of the Book of the Damned serves as the focal point for a permanent unhallow effect and sympathy attuned to attract neutral evil creatures. As long as the book's owner is carrying it, he casts all evil spells as if he were 2 caster levels higher and gains a +2 bonus on Charisma-based skills and checks when interacting with neutral evil creatures (these bonuses are considered to be profane bonuses and do not stack with similar bonuses granted by other partial Books of the Damned). Three times per day, the tome can be used to cast one of the following spells: blasphemy, circle of death, death knell, energy drain, soul bind, or soul transfer (see page 186). It is believed that the bearer can be subject to scrying at any time, without a saving throw, by the Four Horsemen or their elite agents.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Book of the Damned",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264810,
+    "modifiedTime": 1665949035991,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

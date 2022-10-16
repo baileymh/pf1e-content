@@ -3,7 +3,7 @@
   "name": "Intercept Blow",
   "type": "feat",
   "img": "systems/pf1/icons/misc/divert.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>The animal willingly throws itself in harm's way to defend its master.</em><br/><br/><b>Prerequisites</b><br/>Base attack bonus +1, animal companion.<br/><br/><b>Benefits</b><br/>Whenever the animal companion is adjacent to its master and its master is the target of a melee attack, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt to intercept the attack. The animal companion makes an attack roll at its highest attack bonus with one of its natural attacks, as if it were making an attack of opportunity, with a -2 penalty for each size category the attacking creature is larger than the animal companion. If the result of this attack roll is greater than the attacking creature's attack roll result, the animal companion's master takes only half damage from the attack, and the other half of the damage is dealt to the animal companion. Effects that trigger on every successful hit (such as bleed or the trip special ability) affect both the animal companion and the master, as if both were hit by the attack; however, if it matters (such as for a touch spell that expires after a single hit), treat the animal companion as if it had been hit first.<br/><br/> If the animal companion knows the defend trick, the animal companion can use Intercept Blow and any feat that lists it as a prerequisite to protect any ally that it is adjacent to and defending (as per the defend trick).",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354545,
+    "modifiedTime": 1665949122714,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

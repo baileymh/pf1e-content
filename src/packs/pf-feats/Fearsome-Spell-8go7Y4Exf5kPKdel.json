@@ -3,7 +3,7 @@
   "name": "Fearsome Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_18.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your spells inspire great fear in those harmed by them.</em><br/><br/><b>Benefits</b><br/>When a creature takes damage from a fearsome spell, if that creature failed its save against the spell, it becomes shaken for a number of rounds equal to the spell's original level. If the spell doesn't allow a save, creatures harmed by it can attempt a Will save (against the same DC the spell would have if it did allow a save) to negate the shaken effect. If the spell effect already causes creatures to become shaken, on a failed save, add the duration of this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell can't cause a creature to become frightened, even if that creature is already shaken. A fearsome spell uses up a spell slot 2 levels higher than the spell's actual level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351868,
+    "modifiedTime": 1665949119961,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

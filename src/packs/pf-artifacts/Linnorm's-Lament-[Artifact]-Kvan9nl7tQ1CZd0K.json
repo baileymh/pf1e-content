@@ -3,7 +3,7 @@
   "name": "Linnorm's Lament [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This horn operates as a normal horn of Valhalla, save that it can be blown more than once per day, with the warriors from previous soundings remaining until their 1 hour has passed. When the wielder blows the horn for the third time, he becomes destined to die before the next dawn, with chance-based events turning against him in more and more improbable ways until he's slain. The manner of this curse and any potential methods of defeating it are left to the GM.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Classic Treasures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264806,
+    "modifiedTime": 1665949035988,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

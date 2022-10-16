@@ -3,7 +3,7 @@
   "name": "Suppress Blight",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can temporarily suppress afflictions brought on by blight, at a long-term cost.</em><br/><br/><b>Prerequisites</b><br/>Great Fortitude, Iron Will.<br/><br/><b>Benefits</b><br/>Once per day as a standard action, when you are suffering from a curse or disease effect, you can suppress the effects (as delay poison) for 1 hour per 3 character levels (minimum 1 hour). While the affliction is suppressed, you gain a number of temporary hit points equal to the suppressed affliction's save DC, which last as long as the affliction's effects are suppressed. At the end of this duration, the effects return and all subsequent saving throw DCs against the affliction (including the DC to permanently end the effect) are increased by 2, to a maximum increase of half your Hit Dice; you can't suppress an affliction whose save DC has already been increased to its maximum.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355555,
+    "modifiedTime": 1665949123804,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

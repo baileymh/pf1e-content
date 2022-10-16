@@ -3,7 +3,7 @@
   "name": "Crystal Control Rod [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This translucent crystalline rod is 2-1/2 feet long; its ends are jagged and its length is carved with arcane runes. In addition to functioning as a greater elemental metamagic rod (Pathfinder RPG Ultimate Equipment 188), a crystal control rod also provides the wielder with access to and control over the demiplane at the heart of the Prismatic Lantern in the following ways.  • The wielder can enter the Prismatic Lantern's demiplane as a standard action when within 100 feet of the prismatic sphere at the top of the siege tower. This deposits the wielder and up to eight creatures touched in area A1. Conversely, the wielder and up to eight creatures touched can exit the demiplane from anywhere in the realm as a standard action; they then find themselves at the top of the tower on the Material Plane.  • The wielder does not set off any of the Prismatic Lantern's defenses, and creatures within don't hinder the efforts or movement of the wielder or her allies unless attacked.  • With a mental command, the wielder can activate any of the Prismatic Lantern's defenses, and call for aid both from the protectors of the demiplane and the wielders of other crystal control rods on the Material Plane.  • The wielder can control the flow of energy into the rod's associated elemental node (see area B2).  • The wielder is alerted via a mental alarm if any of the elemental nodes come under attack or if the wielder of another crystal control rod summons help.  If a crystal control rod is destroyed, the elemental bound to the associated elemental node is freed and that elemental node becomes unstable (see area B3).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Tombs Of Golarion",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265082,
+    "modifiedTime": 1665949036295,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

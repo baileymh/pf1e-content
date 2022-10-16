@@ -3,7 +3,7 @@
   "name": "Hourglass Of Shadows [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Hourglass of Shadows is a foul artifact that allows the user to process a creature's remains into an undead shadow. The unwieldy, 5-foot-tall device rests suspended on an iron stand fitted with pivots that allow its user to rotate a central chamber of etched, smoke-colored glass. To operate the device, the user must place the ashes of a Small, Medium, or Large sentient creature into the glass chamber along with a crushed onyx worth 100 gp. After the ashes have flowed through the chamber three times-a process that takes 3 hours-the contents can be emptied. If deposited into a clay pot filled with grave dirt and brackish water, the ashes transform the mundane container into a shadow urn. A creature whose remains have been defiled in this way cannot be restored to life by any method short of a miracle or wish until the shadow urn containing its spirit has been destroyed.  A shadow urn contains an unquiet spirit befouled by the Hourglass of Shadows. These fragile urns can be thrown, have a range increment of 10 feet, and shatter on contact with any creature or solid surface. When a shadow urn is broken, the single greater shadow contained within is released. This shadow is free-willed-owing no allegiance to the owner of the Hourglass of Shadows or whoever broke its urn-and typically attacks the nearest creature, seeking to sate its hunger for life energy. A shadow urn is destroyed when it is used. If not shattered, a shadow urn contains the soul within indefinitely.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264791,
+    "modifiedTime": 1665949035975,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

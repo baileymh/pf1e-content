@@ -3,7 +3,7 @@
   "name": "Burning Flame (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Arcanist Exploit - Greater</strong><br/><br/><p>Whenever the arcanist uses the flame arc exploit, she can expend 2 points from her arcane reservoir instead of one. If she does, each target catches on fire if it fails its saving throw. Until the fire is extinguished, the target takes 3d6 points of fire damage at the start of each of its turns. The target can attempt a Reflex saving throw as a full-round action to extinguish the flames. Applying at least 1 gallon of water to the target automatically extinguishes the flames. The arcanist must have the flame arc exploit to select this exploit.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428277032,
+    "modifiedTime": 1665949049809,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,12 @@
   "name": "Bite (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blood_07.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.enzsVT5RHbvfANLx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon's maw is full of razor-sharp teeth, giving it a bite attack. This attack is a primary attack. The bite deals 1d6 points of damage (1d8 if Large, 2d6 if Huge).</p>\n<p>If the eidolon already has a bite attack, this evolution allows it to deal 1-1/2 times its Strength modifier on damage rolls made with its bite.</p>\n<p><strong>Usage</strong></p>\n<p>Add @Compendium[pf-content.pf-eidolon-evolutions.YB38Da80HxcuK3wE]{Bite (Attack)} to eidolon sheet</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -114,6 +124,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -175,7 +186,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -224,12 +234,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.enzsVT5RHbvfANLx"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321298,
+    "modifiedTime": 1665949091459,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

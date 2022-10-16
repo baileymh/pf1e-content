@@ -3,7 +3,7 @@
   "name": "Cranial Implantation",
   "type": "feat",
   "img": "icons/commodities/bones/skull-hollow-beige.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You turn the science of phrenology inward, driving needles and nails into your or another's brain to grant focus through the pathways of pain.</em><br/><br/><b>Prerequisites</b><br/>Self-Sufficient or Trepanation, Heal 7 ranks.<br/><br/><b>Benefits</b><br/>You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use phrenology one additional time per day.<br/><br/> In addition, you can insert needles into a creature's brain to help center its thoughts and emotions. Doing so requires a successful Heal check (DC = 25 + the target's Hit Dice). Creatures with implanted needles gain a +1 bonus on saving throws against spells with the emotionUM or fear descriptor (or similar effects), but take a -1 penalty on saving throws against spells with the electricity or painUM descriptors. Implanting needles deals 1d6 points of damage to the patient, which can't be healed by any means until the needles are removed (which requires a second successful Heal check at the same DC, or a restoration or regenerate spell).<br/><br/> If you have implanted needles into your own cranium, you can probe them as a swift action while casting a spell, dealing an amount of damage to yourself equal to 1 + the spell's level. The pain from this probing stimulates your powers of focus, granting you a bonus of +1d6 on any concentration check you must attempt as part of casting that spell. This damage doesn't force you to attempt a concentration check.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357627,
+    "modifiedTime": 1665949125868,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

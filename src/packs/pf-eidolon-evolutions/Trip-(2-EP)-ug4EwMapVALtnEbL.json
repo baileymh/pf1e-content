@@ -3,7 +3,12 @@
   "name": "Trip (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/feats/nimble-moves.png",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.fDkxLbFPxf7uyHog"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon becomes adept at knocking foes to the ground with its bite, granting it a trip attack. Whenever the eidolon makes a successful bite attack of the selected type, it can attempt a free combat maneuver check.</p>\n<p>If successful, the target is knocked prone. If the check fails, the eidolon is not tripped in return. This ability only works on creatures of a size equal to or smaller than the eidolon.</p>\n<p><strong>Requirements</strong></p>\n<p>The eidolon must possess the bite evolution to select this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -202,12 +212,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.fDkxLbFPxf7uyHog"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321377,
+    "modifiedTime": 1665949091514,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

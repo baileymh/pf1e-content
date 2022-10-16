@@ -3,7 +3,7 @@
   "name": "Scroll Of Blood Ink [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This scroll can seem to contain any spell. When the wielder attempts to cast the spell, the ink turns to blood and runs off the page, ruining the spell automatically. The scroll's edges turn sharp and cut the wielder's hands and wrists, dealing 4 points of Constitution bleed. A successful DC 15 Reflex save halves the bleed. The bleed can be stopped with any magical healing or a successful DC 20 Heal check.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264776,
+    "modifiedTime": 1665949035964,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

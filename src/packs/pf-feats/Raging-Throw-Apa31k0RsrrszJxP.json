@@ -3,7 +3,7 @@
   "name": "Raging Throw",
   "type": "feat",
   "img": "systems/pf1/icons/skills/fire_07.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You expend some of your rage to throw one opponent at another.</em><br/><br/><b>Prerequisites</b><br/>Str 13, Con 13, rage class feature, Improved Bull Rush, Power Attack, base attack bonus +6.<br/><br/><b>Benefits</b><br/>While raging, when you attempt a bull rush combat maneuver, you can spend 1 additional round of your rage as a swift action to add your Constitution bonus on your combat maneuver check to the bull rush. Further, if you bull rush an opponent into a square another creature occupies or into a solid object, the opponent and the creature or object take bludgeoning damage equal to your Strength modifier + your Constitution modifier.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352025,
+    "modifiedTime": 1665949120086,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

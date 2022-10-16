@@ -3,7 +3,30 @@
   "name": "STR/DEX Bonus",
   "type": "feat",
   "img": "systems/pf1/icons/feats/athletic.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.pDA7IHXF8VIRhSsr"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Add this modifier to the eidolon's Strength and Dexterity scores, as determined by its base form. </span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\">Some options available through the eidolon's evolution pool might modify these scores.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"font-size: 14px;\"><strong>Str/Dex Bonus:</strong> [[ floor((@classes.eidolon.level + 3) * 2 / 5) - 1 ]]</span></p>",
       "chat": "",
@@ -83,7 +106,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -117,30 +139,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "scene-packer": {
-      "sourceId": "Item.pDA7IHXF8VIRhSsr"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321324,
+    "modifiedTime": 1665949091480,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

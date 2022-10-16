@@ -3,7 +3,7 @@
   "name": "Creature Focus",
   "type": "feat",
   "img": "systems/pf1/icons/skills/affliction_21.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You have deadly experience with a certain type of creature, granting you an edge in fighting its kind.</em><br/><br/><b>Prerequisites</b><br/>No levels in a class that grants the favored enemy class feature.<br/><br/><b>Benefits</b><br/>Choose a creature type from the ranger favored enemies table except for humanoid or monstrous humanoid. You gain a +2 bonus on Perception checks, Survival checks, and weapon damage rolls against creatures of the selected type. You can attempt Knowledge skill checks untrained when attempting to identify such creatures.<br/><br/><b>Special</b><br/>This feat counts as the favored enemy class feature for the purpose of meeting feat prerequisites. If another ability references your favored enemy bonus for the creature type selected, you treat your favored enemy bonus as +2. If you later gain the favored enemy class feature, you can replace this feat with a different feat for which you qualify and whose prerequisites include the favored enemy class feature.<br/> You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different creature type.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351346,
+    "modifiedTime": 1665949119461,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

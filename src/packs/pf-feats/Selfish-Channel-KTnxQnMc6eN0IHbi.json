@@ -3,7 +3,7 @@
   "name": "Selfish Channel",
   "type": "feat",
   "img": "systems/pf1/icons/spells/wind-grasp-air-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can hoard channeled energy for yourself.</em><br/><br/><b>Prerequisites</b><br/>Channel energy class feature.<br/><br/><b>Benefits</b><br/>Whenever you channel positive energy to heal creatures, you regain half again as many hit points (+50%) as normal if you're the only creature healed by the channeled energy (either because there are no other living creatures within the area or because you exclude them with Selective Channeling or a similar effect).<br/><br/><b>Special</b><br/>If you are healed by negative energy, this feat applies when you channel negative energy and you're the only creature healed by the channeled energy.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428353401,
+    "modifiedTime": 1665949121461,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

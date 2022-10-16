@@ -3,7 +3,7 @@
   "name": "Elemental Chain [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This looks to be just two plain steel rings. But when a mythic creature grasping them expends one use of mythic power as a swift action, they explode into a 10-foot-long spiked fighting chain formed from of the wielder's choice of acid, cold, fire, or electricity. The wielder can dismiss this effect as a free action. The chain is a +6 spiked chain that deals 4d6 points of damage of the chosen type instead of the normal damage typically done by a spiked chain. Once activated, the chain retains it shape for 1 hour or until the wielder dismisses the weapon, whichever comes first.<br><p><b>Base Item:</b> +6 spiked chain</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264604,
+    "modifiedTime": 1665949035851,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Quake Cannon [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The cannon consists of a pivoting chair designed for a Medium creature mounted atop a tripod that splays 10 feet in diameter. Attached to the front of the chair is a 12-foot-long, hollow mithral cylinder wound with a fine braid of incredibly thin copper wire and set at a variable angle to allow it to be aimed like a siege weapon. At the cylinder's end is a small clamp designed to hold a large crystal through which the cannon's beam travels, acting as a focal lens.   Once per week, the quake cannon can be activated to create an earthquake effect (as the spell) centered on any point within 50 miles. Activating the cannon takes 10 minutes, and a diamond worth at least 10,000 gp must be used as the device's focal lens. This diamond is expended in the process of firing the weapon.  If an eidite gem worth at least 5,000 gp is instead used as a focal lens, the quake cannon does not create an earthquake at the targeted location, but instead fires an ultrasonic pulse that affects only clockworks within the same area of effect as the cannon's normal earthquake effect. Any constructs with the clockwork subtype in the affected area must succeed at a DC 25 Will save or be overwhelmed with electromagnetic impulses and ultrasonic disruptions. Clockwork creatures that fail their saving throws against this effect become confused for 1 minute. During this time and for 24 hours afterward, affected creatures are compelled to move toward the quake canon as fast as they can. This is a sonic effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Wardens Of The Reborn Forge",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264940,
+    "modifiedTime": 1665949036093,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

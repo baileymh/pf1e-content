@@ -3,7 +3,12 @@
   "name": "Abeyance",
   "type": "feat",
   "img": "systems/pf1/icons/spells/slice-sky-2.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.OYImCFSAL1kAw3tp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><em>You can disrupt your opponent's connection to its own magical power.</em><br /><br /><strong>Prerequisites</strong><br />Int 13, Spellcraft 5 ranks, Use Magic Device 1 rank.<br /><br /><strong>Benefits</strong><br />As a standard action, you can drain the innate magical ability of a creature you've dealt damage to with a metal weapon since the beginning of your last turn. That creature must succeed at a Will save or be unable to access any spell-like abilities it can use more than once per day, until it is healed of all hit point damage, or up to a maximum duration of 1 minute.</p>\n<p><strong>Special<br /></strong>If a shaman or witch uses this blood hex, the target is unable to use any of its spell-like abilities for the hex&rsquo;s duration.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +114,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +176,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -204,12 +214,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.OYImCFSAL1kAw3tp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428350589,
+    "modifiedTime": 1665949118651,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

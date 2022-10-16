@@ -3,7 +3,7 @@
   "name": "Scorpion Style",
   "type": "feat",
   "img": "icons/environment/creatures/bug-scorpion-silver.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can perform an unarmed strike that greatly hampers your target's movement.</em><br/><br/><b>Prerequisites</b><br/>Improved Unarmed Strike.<br/><br/><b>Benefits</b><br/>To use this feat, you must make a single unarmed attack as a standard action. If this unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet for a number of rounds equal to your Wisdom modifier unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier).<br/><br/><b>Combat Trick</b><br/>When you hit with an unarmed attack using this feat and the target successfully saves against the effect, you can spend 2 stamina points to reduce the target's movement speed by half for 1 round.",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -107,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -209,8 +214,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354036,
+    "modifiedTime": 1665949122126,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

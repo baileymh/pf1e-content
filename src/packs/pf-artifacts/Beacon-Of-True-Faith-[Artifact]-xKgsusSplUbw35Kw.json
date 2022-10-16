@@ -3,7 +3,7 @@
   "name": "Beacon Of True Faith [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The beacon of true faith takes the form of an ornate torch made of electrum. It holds an undying magical flame that requires no fuel or air, and in the hands of most creatures it simply functions as an everburning torch. When held by a divine spellcaster, an outsider with an alignment subtype, or a creature of strong religious faith (GM's discretion, but usually requiring a feat or trait reflecting this devotion), the beacon gains additional powers based on the bearer's alignment. For example, a lawful good paladin gains access to the lawful and good powers, but a neutral cleric gains access to no powers. All of these are command-word activated.   Chaotic (violet flame): Word of chaos once per day on command.   Good (white flame): Allies within 30 feet of the beacon gain the benefits of protection from evil and heroism.   Evil (black flame): Bearer is constantly under the effect of protection from good and may use harm twice per day.   Lawful (golden flame): Dictum once per day on command.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265242,
+    "modifiedTime": 1665949036811,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

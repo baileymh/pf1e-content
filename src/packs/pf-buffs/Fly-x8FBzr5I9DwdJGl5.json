@@ -3,7 +3,7 @@
   "name": "Fly",
   "type": "buff",
   "img": "systems/pf1/icons/feats/wind-stance.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p>You can fly at a speed of 60 feet (or 40 feet if wearing medium or heavy armor, or if you are carrying a medium or heavy load). You can ascend at half speed and descend at double speed, and your maneuverability is good.</p>\n<p>Using a <em>fly</em> spell requires only as much concentration as walking, so you can attack or cast spells normally. You can charge but not run, and cannot carry aloft more weight than your maximum load, plus any armor you wear. You gain a bonus on Fly skill checks equal to 1/2 the spell's caster level.</p>\n<p>Should the spell duration expire while you are still aloft, the magic fails slowly. You float downward 60 feet per round for 1d6 rounds. If you reach the ground in that amount of time, you land safely. If not, you fall the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, you also descends safely in this way if the <em>fly</em> spell is dispelled, but not if it is negated by an antimagic field.</p>\n<p><strong>Usage:</strong> Set this buff's level equal to the caster level of Fly. Adjust fly maneuverability to Good upon activation and revert upon deactivation.</p>",
       "chat": "",
@@ -70,8 +70,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266157,
+    "modifiedTime": 1665949037675,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

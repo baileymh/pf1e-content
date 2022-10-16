@@ -3,7 +3,7 @@
   "name": "Grisly Ornament",
   "type": "feat",
   "img": "icons/equipment/neck/choker-carved-bone.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You adorn your gear with mementos from your foes.</em><br/><br/><b>Prerequisites</b><br/>Harvest Parts.<br/><br/><b>Benefits</b><br/>You can attempt a Craft or Heal check to craft a special type of trophy called an ornament from part of a creature that's been dead for less than an hour. You take a -4 penalty on this check if you or an ally didn't slay the creature. You can craft one ornament per character level per day. Each corpse provides enough material for one ornament plus one additional ornament per size category above Medium. You can wear one ornament in each magic item slot not already occupied by another item. When you craft an ornament, you choose whether it affects Armor Class, attack rolls, CMB, CMD, saving throws, or skill checks. The ornament provides a morale bonus equal to the monster's CR divided by 4 (round down, minimum 1) to the selected statistic against creatures of the same creature type as the source of the ornament. This bonus increases by 1 against creatures of the exact same variety (so a red dragon's talon provides the increased bonus against red dragons but not all dragons). An ornament remains effective for 1 day, plus 1 additional day for every 5 by which you exceed the DC to craft it. You can give ornaments to others, but gifted ornaments have a morale bonus equal to the monster's CR divided by 6 (round down, minimum 0) and remain effective for only 24 hours.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354480,
+    "modifiedTime": 1665949122645,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

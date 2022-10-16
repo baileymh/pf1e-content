@@ -3,7 +3,7 @@
   "name": "Block Chakras",
   "type": "feat",
   "img": "systems/pf1/icons/skills/red_09.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You've learned how to block the lower chakras of your foes.</em><br /><br /><strong>Prerequisites</strong><br />Psychic Sensitivity or levels in an occult class, brawler's flurry or flurry of blows class feature, ki pool.<br /><br /><strong>Benefits</strong><br />As a standard action, you can spend 1 ki point to make a single unarmed strike that attempts to block one of the target's chakras. If you hit the target and deal damage, you can select either the root, sacral, or navel chakra, as long as you can open that chakra yourself. <br /><br />The target suffers a specific effect based on the chosen chakra (see below), though it can reduce these effects with a successful Fortitude save (DC = 10 + half your character level + the ability modifier you use to calculate your ki pool).</p>\n<hr />\n<p><strong>Root</strong><br />The target's DR is reduced by 10 for 1 minute. If the target has multiple forms of DR, you choose which DR is reduced. On a successful save, the target's DR is instead reduced by 5 for 1 round.<br /><br /><strong>Sacral</strong><br />The target can't use any of its speeds except its land speed (or swim speed for an aquatic creature) for 1 round, and it moves at half speed for 1 minute. If it was flying, the target can attempt a Fly check to fall safely. On a successful save, the target instead moves at half speed for 1 round.<br /><br /><strong>Navel</strong><br />The target takes a -2 penalty on attack rolls and damage rolls, and it reduces the DCs of its spells and abilities by 2 for 1 minute. On a successful save, the penalty and reduction is halved and lasts for 1 round.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428351576,
+    "modifiedTime": 1665949119610,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

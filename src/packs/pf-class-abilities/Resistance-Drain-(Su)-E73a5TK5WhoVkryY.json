@@ -3,7 +3,7 @@
   "name": "Resistance Drain (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Arcanist Exploit - Greater</strong><br/><br/><p>Whenever the arcanist is using the spell resistance exploit, she can end the effect as an immediate action whenever her spell resistance successfully protects her from a spell cast by a foe. If she does so, she adds a number of points to her arcane reservoir equal to 1/2 the level of the spell. These points are temporary and are lost after 1 minute unless used. Points gained in excess of her arcane reservoir's maximum are lost. The arcanist must have the greater spell resistance exploit to select this exploit.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428269216,
+    "modifiedTime": 1665949041501,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

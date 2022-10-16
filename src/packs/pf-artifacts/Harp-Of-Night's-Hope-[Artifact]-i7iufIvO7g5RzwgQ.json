@@ -3,7 +3,7 @@
   "name": "Harp Of Night's Hope [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This beautifully made concert harp features intarsia butterflies on its walnut frame and column, golden pedals, and silver strings. It produces a warm, mellow tone.  If played for a full hour during a starry night, the Harp of Night's Hope grants restful sleep and heartening, reassuring dreams to all good-aligned creatures within 1,200 feet, granting those creatures a +1 morale bonus on all saving throws and skill checks for the next 24 hours. This morale bonus does not stack with itself. Additionally, when the harp grants its morale bonus, each creature of any alignment within range that is subject to an ongoing negative effect (such as possession, a spell of the compulsion subschool, or a similar effect) can immediately attempt a new saving throw with a +1 bonus to break free of the effect. If the effect does not ordinarily allow a saving throw to resist it, the harp does not grant one.  If the harp is played for an hour in the same place on a second consecutive night (24 hours later), in addition to extending the duration of the morale bonus provided to good-aligned creatures, the harp grants a new saving throw to creatures under ongoing negative effects as described above, this time with a +3 bonus. If the harp is played for an hour in the same place on a third consecutive night, the morale bonus is again extended, and creatures suffering from ongoing negative effects receive a new saving throw to break free, this time with a +5 bonus.  After being played for 3 consecutive nights, the harp cannot be used again to grant morale bonuses or new saving throws for a month.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Nidal, Land of Shadows",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265102,
+    "modifiedTime": 1665949036332,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

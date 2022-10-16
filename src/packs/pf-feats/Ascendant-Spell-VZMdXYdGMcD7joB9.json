@@ -3,7 +3,7 @@
   "name": "Ascendant Spell",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_13.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You have learned how to emulate mythic spells using nonmythic forces.</em><br/><br/><b>Benefits</b><br/>You can modify a spell to imitate the mythic version of that spell. An ascendant spell uses the mythic version of the spell, but doesn't count as a mythic spell for the purposes of effects that interact with the spell, unless you are a mythic creature. You can't use the augmented version of the mythic spell, or use spells effects that require you to expend uses of mythic power (even if you have uses of mythic power available).<br/> An ascendant spell uses up a spell slot 5 levels higher than the spell's actual level.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354990,
+    "modifiedTime": 1665949123223,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

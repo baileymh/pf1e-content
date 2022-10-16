@@ -3,7 +3,7 @@
   "name": "Netherworld Cauldron [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This huge cauldron forged from black iron serves as a dimensional gateway to a mythic netherworld where powerful entities come seeking to barter with, commune with, or corrupt mythic mortals. To activate the cauldron, a mythic creature must spill some of its own blood into the black basin as an offering of his mythic power. If the wound deals at least 4 points of damage, the cauldron drains one use of the individual's mythic power through it. Once activated, the cauldron fills with a strange red fog that remains for 1d20+10 minutes. During this time, mythic creatures can enter the cauldron and be transported to the crossroads. Non-mythic creatures that enter the cauldron take 4d6 points of damage per round until they climb out or die.   The netherworld is small, with an overall area of 1 square half-mile. Highly mutable, the netherworld's appearance is determined by the will of whatever outsider currently waits there. Only one outsider can inhabit the netherworld at any given time. The specifics of what entity resides in the netherworld, as well as that entity's desire, change frequently and therefore are left to the discretion of the GM.   Time in the netherworld passes out of sync with time in the Material Plane, thus a mythic creature can remain in the netherworld for as long as he wishes, and reemerges from the cauldron only a few minutes after his descent. The netherworld is a crossroads, coterminous with all planes. Outsiders can enter from any plane, but mortals can't travel to other planes from the netherworld.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264917,
+    "modifiedTime": 1665949036074,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

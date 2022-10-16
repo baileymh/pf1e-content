@@ -3,7 +3,7 @@
   "name": "Primordial Symbol [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Its origin lost in the infinite expanse of time, a primordial symbol is a polished stone bearing a mystic sign that resembles a lopsided, two-barred cross. When held forth and invoked by a bearer who is able to cast psychic spells or has the Psychic Sensitivity feat, a primordial symbol flares with an invisible flash in a 100-foot-radius burst, which has the following effects on those in range.  • Creatures with 40 Hit Dice or fewer with the extraplanar subtype are returned to their home planes as though by the banishment spell, regardless of spell resistance and with no save permitted. This includes extraplanar entities possessing other creatures.  • Any non-extraplanar entities possessing other creatures or extraplanar entities with more than 40 Hit Dice possessing other creatures are driven out of their hosts.  • All eidolons, medium spirits, and phantoms are dismissed.  • All psychic spells in the area are dispelled as though by greater dispel magic, with no caster level check required.  • All abjuration effects and magic circles in the area are similarly dispelled.  • All creatures are blinded for 1 round (Reflex DC 22 negates).  Other creatures and objects within the area are otherwise unharmed. When the symbol is activated, its wielder takes 2d6 points of Intelligence, Wisdom, and Charisma damage, rolled separately for each ability. The primordial symbol then collapses in on itself and vanishes, only to reappear unharmed in a distant land or world.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Occult Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264620,
+    "modifiedTime": 1665949035861,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

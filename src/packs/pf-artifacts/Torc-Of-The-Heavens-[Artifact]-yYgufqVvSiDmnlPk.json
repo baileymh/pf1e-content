@@ -3,7 +3,7 @@
   "name": "Torc Of The Heavens [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This simple neck ring consists of a silver braid with matching ivory ends sculpted to resemble wolf's heads. The torc allows itself to be worn by only a mythic character who swears absolute service to his deity. Thereafter, the torc cannot be removed until its wearer dies. The wearer gains an enhancement bonus to his Charisma score equal to half his tier (minimum 1). Once per day, he can use the torc to cast commune for the purpose of contacting his deity. Lastly, he can expend one use of his mythic power to cast legend lore.   If the wearer violates his deity's code of ethics, the torc constricts and begins suffocating him until he dies or receives an atonement spell.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Mythic Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "neck",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265252,
+    "modifiedTime": 1665949036820,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

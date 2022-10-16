@@ -3,7 +3,7 @@
   "name": "Craft Construct",
   "type": "feat",
   "img": "systems/pf1/icons/races/creature-types/construct.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can create construct creatures like golems.</em><br/><br/><b>Prerequisites</b><br/>Caster level 5th, Craft Magic Arms and Armor, Craft Wondrous Item.<br/><br/><b>Benefits</b><br/>You can create any construct whose prerequisites you meet. The act of animating a construct takes one day for each 1,000 gp in its market price. To create a construct, you must use up raw materials costing half of its base price, plus the full cost of the basic body created for the construct. Each construct has a special section that summarizes its costs and other prerequisites. A newly created construct has average hit points for its Hit Dice.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357453,
+    "modifiedTime": 1665949125731,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Claw Wrench",
   "type": "feat",
   "img": "systems/pf1/icons/skills/beast_01.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can pry open a mighty beast's grasp or snapping jaws.</em><br/><br/><b>Prerequisites</b><br/>Dex 13, Improved Grapple, Improved Unarmed Strike.<br/><br/><b>Benefits</b><br/>As a standard action, you can attempt a grapple combat maneuver with a -5 penalty against a creature that is currently grappling another creature via its grab special ability. If you succeed, you pry open the creature's grasp, releasing any creatures it had grappled.<br/><br/> Additionally, you can ready an action to trigger if a creature attempts a bite attack against you. When the readied action triggers, you can attempt a grapple combat maneuver with a +2 bonus. If you succeed, you grapple the creature and cause the bite attack to miss. As long as you maintain the grapple, the creature can't use its bite attack.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356667,
+    "modifiedTime": 1665949124980,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Horn Of Lies [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This horn can be sounded three times per day as a swift or move action to function as a greater horn of blasting with no chance of exploding and an effect duration of 1 minute. Creatures deafened by the horn hear whispers and falsehoods echoing in their minds, twisting their perceptions; they treat all other creatures as if they had concealment and take a -4 penalty on saves against mind-affecting effects as long as they remain deaf. In addition, any competence or insight bonuses are treated as penalties instead until they regain their hearing.  The horn can be sounded three additional times per day to grant allies within 60 feet a +4 bonus on saves against divine spells, while enemies within 60 feet become unable to tell the truth (Will DC 25 negates). This includes verbal, written, and any other form of communication, but does not prevent saying things that are neither true nor untrue, such as commands, questions, and verbal components of spells. While compelled to falsehood, Geryon's enemies also become paranoid and treat no one as their ally; thus, they are unable to provide or benefit from flanking, teamwork feats, or the aid another action, and always attempt to save against harmless effects. Affected creatures are unable to cast divine spells or activate domain powers unless they worship an archdevil. This effect lasts 1 minute. This is a sonic mind-affecting curse effect.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>PFRPG Bestiary 6",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264759,
+    "modifiedTime": 1665949035952,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

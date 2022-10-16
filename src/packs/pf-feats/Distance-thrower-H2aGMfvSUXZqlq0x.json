@@ -3,7 +3,12 @@
   "name": "Distance thrower",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-two-weapon-fighting.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.CWSis9OykNJPRuUL"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are accurate with thrown weapons at longer ranges than normal.<br /><br />Prerequisites: Str 13.<br /><br />Benefit: With a thrown weapon, you reduce your penalty on ranged attack rolls due to range by 2.</p>",
       "chat": "",
@@ -56,7 +61,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -87,12 +91,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.CWSis9OykNJPRuUL"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352813,
+    "modifiedTime": 1665949120872,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

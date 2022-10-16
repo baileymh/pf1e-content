@@ -3,7 +3,7 @@
   "name": "Improved Critical",
   "type": "feat",
   "img": "systems/pf1/icons/feats/improved-critical.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Attacks made with your chosen weapon are quite deadly.</em><br /><br /><strong>Prerequisites</strong><br />Proficient with weapon, base attack bonus +8.<br /><br /><strong>Benefits</strong><br />When using the weapon you selected, your threat range is doubled.<br /><br /><strong>Special</strong><br />You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn't stack with any other effect that expands the threat range of a weapon.<br /><br /><strong>Combat Trick</strong><br />When you hit with an attack and the roll fails to threaten a critical hit by 3 or less, you can spend 5 stamina points to attempt to deal double damage anyway. Roll as if confirming a critical hit. If this confirmation roll succeeds, your attack is still not a critical hit, but it deals double damage.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: change manually Critical Threat Range in selected weapon.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356308,
+    "modifiedTime": 1665949124580,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

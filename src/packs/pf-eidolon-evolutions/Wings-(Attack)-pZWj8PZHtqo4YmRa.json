@@ -3,7 +3,12 @@
   "name": "Wings (Attack)",
   "type": "attack",
   "img": "systems/pf1/icons/items/inventory/monster-demon-wing.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.jQKJrNF1HflmvTdu"
+    }
+  },
+  "system": {
     "description": {
       "value": "",
       "chat": "",
@@ -44,6 +49,11 @@
         "uses": {
           "autoDeductCharges": false,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -116,6 +126,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -156,7 +167,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": false,
     "held": "normal",
     "showInQuickbar": true,
     "broken": false,
@@ -166,6 +176,7 @@
       "value": [],
       "custom": ""
     },
+    "primaryAttack": false,
     "activation": {
       "cost": 1,
       "type": "attack"
@@ -218,12 +229,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.jQKJrNF1HflmvTdu"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321368,
+    "modifiedTime": 1665949091509,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

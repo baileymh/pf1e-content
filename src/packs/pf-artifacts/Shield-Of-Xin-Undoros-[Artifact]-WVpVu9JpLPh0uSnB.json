@@ -3,7 +3,7 @@
   "name": "Shield Of Xin-Undoros [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Shield of Xin-Undoros is a +5 heavy steel shield that makes its bearer unnaturally strong and resilient like a rune giant, granting a +6 enhancement bonus to Constitution and Strength as long as the shield is readied. As a standard action, the bearer can increase his size by up to two size categories, to a maximum of Gargantuan. For each size category increased, the bearer gains a +2 size bonus to Constitution and Strength and takes a -2 penalty to Dexterity. The bearer can shrink back to his normal size with another standard action; the effect also ends if he loses the shield.  When readied, the Shield of Xin-Undoros also grants the bearer spell resistance 31. The bearer can ready an action to attempt to reflect a spell; if a spellcaster fails her caster level check to overcome the spell resistance granted by the shield, the shield's bearer can reflect the spell back at its caster as per spell turning.<br><p><b>Base Item:</b> +5 heavy steel shield</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 137",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264918,
+    "modifiedTime": 1665949036076,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

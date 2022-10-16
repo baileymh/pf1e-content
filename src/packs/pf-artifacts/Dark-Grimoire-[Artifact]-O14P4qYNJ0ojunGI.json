@@ -3,7 +3,7 @@
   "name": "Dark Grimoire [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This heavy grimoire is bound in leather and has wicked-looking metal clasps. The dark grimoire is a substantial text, nearly 1,000 pages long. Its pages contain some good spells and some evil spells, though most aren't tied to any alignment. It also contains an account of many of the beings of the Elder Mythos and spells intended for summoning them.  The very act of reading the text is dangerous. Every hour a reader studies the book, there is a 2% chance that the reader encounters something too much for mortal minds to absorb and goes insane (as per insanity). A successful DC 25 Will save negates the insanity, but each time a creature succeeds at this save, the DC of the next Will save against insanity from the dark grimoire increases by 5, and these increases stack. Unlike normal for the insanity spell, only a wish or miracle can reverse the insanity inflicted by the dark grimoire.  Using the dark grimoire to cast spells requires no spellcasting ability-merely time. Casting any spell requires studying the book for a number of hours equal to the spell's level (or 30 minutes for a 0-level spell). Any spell that normally involves a costly material component instead requires sacrificing humanoid creatures. Any spell that normally requires a costly focus instead requires a focus  built from the remains of sacrificed humanoid creatures. In both cases, 1 Hit Die worth of sacrifices are required for each 25 gp that the component or focus normally costs.  Summoning an entity of the Elder Mythos requires studying the book for a number of hours equal to double the creature's CR and making a number of humanoid sacrifices equal to double the creature's Hit Dice. If an attempt to summon a Great Old One is made in this manner, there is only a 25% chance that it appears. If the Great Old One appears, there is an equal chance that it attacks, ignores, or communicates with the creature that summoned it.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Horror Adventures",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264835,
+    "modifiedTime": 1665949036017,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

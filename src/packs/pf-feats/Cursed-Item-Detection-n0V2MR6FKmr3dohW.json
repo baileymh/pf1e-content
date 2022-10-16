@@ -3,7 +3,7 @@
   "name": "Cursed Item Detection",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_09.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Your arcane prowess is so great that even cursed items fail to befuddle you.</em><br/><br/><b>Prerequisites</b><br/>Spellcraft 5 ranks, ability to cast detect magic as a spell or spell-like ability.<br/><br/><b>Benefits</b><br/>You gain a +2 bonus on checks made to identify the properties of magic items. In addition, you need only exceed the DC of these checks by 5 in order to determine whether or not an item is cursed.<br/><br/><b>Normal</b><br/>Unless the check made to identify a cursed item exceeds the DC by 10 or more, the item's curse cannot be detected.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357490,
+    "modifiedTime": 1665949125760,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

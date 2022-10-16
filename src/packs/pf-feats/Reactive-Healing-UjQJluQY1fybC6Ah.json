@@ -3,7 +3,7 @@
   "name": "Reactive Healing",
   "type": "feat",
   "img": "systems/pf1/icons/spells/heal-sky-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can channel healing energy in response to an attack that would knock you unconscious.</em><br/><br/><b>Prerequisites</b><br/>Quick Channel or Quicken Spell; channel energy or lay on hands class feature.<br/><br/><b>Benefits</b><br/>When the damage from an attack or an effect would reduce you to 0 or fewer hit points, you can expend one use of channel energy (of a form that would heal you) or lay on hands as an immediate action to heal yourself. The healing affects only you, even if it would normally affect others.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354933,
+    "modifiedTime": 1665949123171,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

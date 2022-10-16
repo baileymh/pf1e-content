@@ -3,7 +3,7 @@
   "name": "Command Undead",
   "type": "feat",
   "img": "systems/pf1/icons/feats/command-undead.png",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>Using foul powers of necromancy, you can command undead creatures, making them into your servants.</em><br /><br /><strong>Prerequisites</strong><br />Channel negative energy class feature.<br /><br /><strong>Benefits</strong><br />As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of control undead. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed Charisma check whenever your orders conflict.</p>\n<p>&nbsp;</p>\n<p><strong>Usage:</strong>&nbsp;link this feat to Channel Energy charges.</p>",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "3 + @abilities.cha.mod",
@@ -107,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -168,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -213,8 +218,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428354930,
+    "modifiedTime": 1665949123168,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

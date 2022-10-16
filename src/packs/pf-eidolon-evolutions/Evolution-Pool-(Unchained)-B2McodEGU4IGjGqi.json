@@ -3,7 +3,30 @@
   "name": "Evolution Pool (Unchained)",
   "type": "feat",
   "img": "systems/pf1/icons/feats/intimidating-prowess.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.4WlcyEkZPlKfU28P"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Current Pool:&nbsp;</strong>[[(round(@classes.eidolon.level * .75))]]</p>\n<p>The value given in this column is the total number of points in the eidolon's evolution pool. Points from this pool can be spent on a wide variety of modifications and upgrades that add new abilities, attacks, and powers to the eidolon.</p>\n<p>Whenever the summoner gains a level, the number in this pool increases and the summoner can spend these points to change the abilities of the eidolon. These choices are not set.</p>\n<p>The summoner can change them whenever he gains a level (and through the transmogrify spell).</p>\n<p><strong>Usage</strong></p>\n<p>Subtract from the total when adding evolutions.</p>",
       "chat": "",
@@ -48,6 +71,11 @@
         "uses": {
           "autoDeductCharges": false,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "charges",
           "value": 0,
           "maxFormula": "floor((@classes.eidolon.level - 1) * .75) + 1 + (((((@classes.eidolon.level - 1) * .75) * 100) % 100) >= 50 ? 1 : 0)",
@@ -102,6 +130,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -167,7 +196,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -201,30 +229,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "scene-packer": {
-      "sourceId": "Item.4WlcyEkZPlKfU28P"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321264,
+    "modifiedTime": 1665949091438,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

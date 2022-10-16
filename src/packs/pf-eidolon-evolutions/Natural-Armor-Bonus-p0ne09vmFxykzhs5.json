@@ -3,7 +3,30 @@
   "name": "Natural Armor Bonus",
   "type": "feat",
   "img": "systems/pf1/icons/skills/blue_34.jpg",
-  "data": {
+  "flags": {
+    "autoanimations": {
+      "killAnim": false,
+      "override": false,
+      "animType": "t1",
+      "animName": "",
+      "hmAnim": "a1",
+      "color": "n1",
+      "dtvar": "dt1",
+      "explosion": false,
+      "explodeVariant": "ev1",
+      "explodeColor": "ec1",
+      "explodeRadius": "0",
+      "explodeLoop": "1",
+      "selfRadius": "5",
+      "animTint": "#ffffff",
+      "auraOpacity": 0.75,
+      "ctaOption": false
+    },
+    "scene-packer": {
+      "sourceId": "Item.tfYsNCDzPgfUJGdv"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The number noted here is the eidolon's base total armor bonus. This bonus may be split between an armor bonus and a natural armor bonus, as decided by the summoner. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">This number is modified by the eidolon's base form and some options available through its evolution pool. </span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">An eidolon cannot wear armor of any kind, as the armor interferes with the summoner's connection to the eidolon.<br /></span></p>",
       "chat": "",
@@ -75,7 +98,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -109,30 +131,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "autoanimations": {
-      "killAnim": false,
-      "override": false,
-      "animType": "t1",
-      "animName": "",
-      "hmAnim": "a1",
-      "color": "n1",
-      "dtvar": "dt1",
-      "explosion": false,
-      "explodeVariant": "ev1",
-      "explodeColor": "ec1",
-      "explodeRadius": "0",
-      "explodeLoop": "1",
-      "selfRadius": "5",
-      "animTint": "#ffffff",
-      "auraOpacity": 0.75,
-      "ctaOption": false
-    },
-    "scene-packer": {
-      "sourceId": "Item.tfYsNCDzPgfUJGdv"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321367,
+    "modifiedTime": 1665949091508,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

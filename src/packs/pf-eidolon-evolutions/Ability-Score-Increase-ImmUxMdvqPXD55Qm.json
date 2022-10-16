@@ -3,7 +3,12 @@
   "name": "Ability Score Increase",
   "type": "feat",
   "img": "systems/pf1/icons/skills/green_19.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.5mTQwTOwM6bU3rYG"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\">The Eidolon adds +1 to one of its ability scores at levels 5, 10, and 15.</span></p>\n<p>Current Ability Points: [[@classes.eidolon.level &gt; 14 ? 3 : @classes.eidolon.level &gt; 9 ? 2 : @classes.eidolon.level &gt; 4 ? 1 : 0]]</p>\n<p><strong>Usage</strong></p>\n<p>Add ability score increase in Changes.&nbsp;</p>",
       "chat": "",
@@ -64,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -98,12 +102,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.5mTQwTOwM6bU3rYG"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321287,
+    "modifiedTime": 1665949091452,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

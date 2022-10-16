@@ -3,7 +3,7 @@
   "name": "Align Equipment",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_22.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You gain the ability to bless equipment with abilities that make them more effective against outsiders.</em><br/><br/><b>Prerequisites</b><br/>Alignment Channel, Bless Equipment, caster level 3rd, channel energy class feature.<br/><br/><b>Benefits</b><br/>In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with Alignment Channel. For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.<br/> <table class='inner'><tr><td><b>Aligned Weapon Blessings</b></td><td><b>Uses of Channel Energy</b></td><td><b>Caster Level Required</b></td></tr> <tr><td>Anarchic (chaos)</td><td>3</td><td>6th</td></tr> <tr><td>Axiomatic (law)</td><td>3</td><td>6th</td></tr> <tr><td>Holy (good)</td><td>3</td><td>6th</td></tr> <tr><td>Unholy (evil)</td><td>3</td><td>6th</td></tr></table><br/> <table class='inner'><tr><td><b>Aligned Armor/Shield Blessings</b></td><td><b>Uses of Channel Energy</b></td><td><b>Caster Level Required</b></td></tr> <tr><td>Champion (good)</td><td>2</td><td>3rd</td></tr> <tr><td>Dastard (evil)</td><td>2</td><td>3rd</td></tr> <tr><td>Defiant (chaotic, evil, good, or lawful outsiders only)*</td><td>2</td><td>3rd</td></tr> <tr><td>Righteous (good)</td><td>6</td><td>10th</td></tr> <tr><td>Unbound (chaotic)</td><td>6</td><td>10th</td></tr> <tr><td>Unrighteous (evil)</td><td>6</td><td>10th</td></tr> <tr><td>Vigilant (lawful)</td><td>6</td><td>10th</td></tr> <tr><td colspan='3'>* You must be capable of channeling energy that heals or harms outsiders of the chosen alignment subtype.</td></tr></table><br/> <table class='inner'><tr><td><b>Weapon Blessings</b></td><td><b>Uses of Channel Energy</b></td><td><b>Caster Level Required</b></td></tr> <tr><td>Bane*</td><td>2</td><td>3rd</td></tr> <tr><td>Ghost touch</td><td>2</td><td>3rd</td></tr> <tr><td>Disruption</td><td>3</td><td>6th</td></tr> <tr><td>Lifesurge</td><td>3</td><td>6th</td></tr> <tr><td>Nullifying</td><td>4</td><td>9th</td></tr> <tr><td colspan='3'>* You must choose the creature type or subtype at the time of blessing.</td></tr></table><br/> <table class='inner'><tr><td><b>Armor/Shield Blessings</b></td><td><b>Uses of Channel Energy</b></td><td><b>Caster Level Required</b></td></tr> <tr><td>Deathless*</td><td>2</td><td>3rd</td></tr> <tr><td>Stanching*</td><td>2</td><td>3rd</td></tr> <tr><td>Ghost touch</td><td>4</td><td>9th</td></tr> <tr><td>Undead-controlling</td><td>6</td><td>13th</td></tr> <tr><td colspan='3'>* Cannot be applied to shields.</td></tr></table>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428350621,
+    "modifiedTime": 1665949118705,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Utility Shot",
   "type": "feat",
   "img": "systems/pf1/icons/skills/weapon_36.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Gunslinger Deeds</strong><br/><br/><p>The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster-for better or for worse. Once per round, when a creature casts a divine spell including you as a target, roll 1d20 and consult the table below. The effect resulting from this roll begins at the end of that enemy's turn. This effect targets only you, even if other creatures were included as targets of the triggering spell. At 5th level, you gain a +2 competence bonus on saving throws to resist divine spells. At 10th level, you become immune to the confused condition. At 15th level, you gain a +4 competence bonus on saving throws to resist mind-affecting effects.</p><h>God-Meddled Effects</h><table> <tr>  <td>d20</td>  <td>Effect</td> </tr> <tr>  <td>1</td>  <td>You provoke an attack of opportunity from one enemy adjacent to you. If no enemy is adjacent, the closest enemy can move its full movement speed in your direction as a free action. If multiple enemies qualify, the GM determines which creature attacks or moves. This movement does not trigger attacks of opportunity.</td> </tr> <tr>  <td>2-3</td>  <td>Your movement speed is halved for 1 round.</td> </tr> <tr>  <td>4-5</td>  <td>You are deafened for 1 round.</td> </tr> <tr>  <td>6-7</td>  <td>You are knocked prone.</td> </tr> <tr>  <td>8-10</td>  <td>You shrink by one size category for 1 round, as reduce person.</td> </tr> <tr>  <td>11-13</td>  <td>You grow by one size category for 1 round, as enlarge person.</td> </tr> <tr>  <td>14-15</td>  <td>Your caster level is treated as 1 higher for the purpose of spell durations for 1 round.</td> </tr> <tr>  <td>16-17</td>  <td>Creatures in squares adjacent to you are pushed 10 feet away from the space you occupy.</td> </tr> <tr>  <td>18-19</td>  <td>You are able to understand all languages for 1 round.</td> </tr> <tr>  <td>20</td>  <td>You gain the benefits of haste for 1 round.</td> </tr></table>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428276569,
+    "modifiedTime": 1665949049341,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

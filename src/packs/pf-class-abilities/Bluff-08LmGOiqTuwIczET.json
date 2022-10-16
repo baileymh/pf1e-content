@@ -3,7 +3,7 @@
   "name": "Bluff",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Unchained Rogue Skill Unlock</strong><br/><br/><p>With sufficient ranks in Bluff, you earn the following.</p><p><b>5 Ranks: </b>The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.</p><p><b>10 Ranks: </b>You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.</p><p><b>15 Ranks: </b>Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff ) or the effect reveals nothing.</p><p><b>20 Ranks: </b>As a full-round action, you can make a suggestion (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your suggestion is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mindaffecting compulsion.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428266923,
+    "modifiedTime": 1665949038408,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

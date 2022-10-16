@@ -3,7 +3,7 @@
   "name": "Disable Dweomer",
   "type": "feat",
   "img": "systems/pf1/icons/skills/mech_10.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can disable a magic item, suppressing it for a short time.</em><br/><br/><b>Prerequisites</b><br/>Disable Device 5 ranks, Use Magic Device 5 ranks, trapfinding.<br/><br/><b>Benefits</b><br/>You can use Disable Device to suppress the magic of a non-artifact magic item for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the suppression. Using Disable Device in this way takes 2d4 rounds, with a DC of 15 + the item's caster level.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428357573,
+    "modifiedTime": 1665949125826,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

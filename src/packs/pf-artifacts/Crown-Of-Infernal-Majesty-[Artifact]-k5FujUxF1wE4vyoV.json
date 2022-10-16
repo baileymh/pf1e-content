@@ -3,7 +3,7 @@
   "name": "Crown Of Infernal Majesty [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This engraved and filigreed silver diadem is fashioned with three tines rising from the front of the circlet, the central one of which bears the encircled cross emblem of Cheliax. The Crown of Infernal Majesty grants its wearer a suite of abilities. Defensively, it provides immunity to fire and poison, immunity to mind-affecting effects, immunity to mental ability score damage, acid and cold resistance 10, and spell resistance equal to the wearer's CR + 11. In addition, the wearer is immune to smite effects (including the smite evil ability of celestial creatures and paladins, and the destructive smite ability of the Destruction domain). A creature that attempts to smite the wearer of the crown gets no bonus on attack rolls against the wearer, and the crown reflects any bonus damage from the smite back against the attacker as evil-aligned damage that bypasses the corresponding damage reduction.  The wearer gains the see in darkness universal monster ability, and the ability to use discern lies, nondetection, and true seeing as constant spell-like abilities. The crown also grants its wearer a +6 enhancement bonus to her Intelligence, Wisdom, and Charisma scores (with ranks in Intimidate, Knowledge [planes], and Sense Motive, as a headband of vast intelligence, as well as the ability to speak and read Abyssal, Celestial, and Infernal). Lastly, the wearer gains a +4 profane bonus on Charisma-based checks to bargain or deal with devils (such as with planar ally or planar binding spells).<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 106",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "head",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265117,
+    "modifiedTime": 1665949036377,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

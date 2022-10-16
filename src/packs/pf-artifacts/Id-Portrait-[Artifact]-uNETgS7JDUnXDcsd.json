@@ -3,7 +3,7 @@
   "name": "Id Portrait [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This 4-foot-by-8-foot oil-on-wood masterwork painting depicts an elegant high-backed padded chair in the foreground of a gothic study with heavy curtains, polished tables supporting decorative lamps, plush rugs, and hundreds of books on shelves. The silver-and-gold frame is equally elegant and etched with faintly glowing arcane symbols.  The painting is a powerful minor artifact that can be used to create one or more duplicates of any living creature that has a Charisma score of at least 10. By touching the painting and uttering a command word, the subject creature is drawn into the painting and appears seated in the chair. The subject is under the effects of a binding spell.  Delving into the subconscious mind, the painting creates a duplicate of the subject that lasts for 1 day per Hit Die the creature possesses. If the subject creature has a positive Charisma modifier, additional duplicates equal to its Charisma modifier may be created. Each of these duplicates represents an alter ego of the subject. Some beings may have multiple alter egos. In this case, the subject creature determines exactly how many id duplicates he wants the id portrait to create, up to a maximum determined by his Charisma modifier.  An id duplicate can be of a different class from the subject creature, and it has average hit points for that class, the same number of Hit Dice as the subject creature, and the same basic knowledge and goals as the subject creature (modified by any ability score changes). It is an average member of its class, with appropriate skills and feats. Reallocate the subject creature's ability scores to make them appropriate to the new class chosen.  A duplicate can carry out whatever tasks the original creature desires. If all duplicates are destroyed, the original creature is ejected from the id portrait and permanently loses 1 point of Charisma (this cannot be replaced by any means short of a miracle or wish). In addition, he is under the effects of slow and dimensional anchor for the following 24 hours. These effects cannot be dispelled. The portrait is usually placed somewhere hidden and safe, or in the care of trusted guardians, since the subject creature is significantly weakened until he recovers from the magical effects. When a duplicate has lived out its allotted time, it simply dies. Even if the duplicate is slain or dies before its duration expires, the body remains and behaves as a normal corpse. Spells such as miracle, raise dead, and resurrection fail to affect a duplicate corpse created by the id portrait.  An id duplicate has a challenge rating equal to the base creature's CR -1.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265211,
+    "modifiedTime": 1665949036720,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

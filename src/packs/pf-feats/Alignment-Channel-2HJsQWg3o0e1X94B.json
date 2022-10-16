@@ -3,7 +3,7 @@
   "name": "Alignment Channel",
   "type": "feat",
   "img": "systems/pf1/icons/feats/alignment-channel.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>Choose chaos, evil, good, or law. You can channel divine energy to affect outsiders that possess this subtype.</em><br/><br/><b>Prerequisites</b><br/>Ability to channel energy.<br/><br/><b>Benefits</b><br/>Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of the chosen alignment subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of the chosen alignment subtype, your channel energy has no effect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.<br/><br/><b>Special</b><br/>You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new alignment subtype. Whenever you channel energy, you must choose which type to effect.",
       "chat": "",
@@ -51,6 +51,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 0,
           "maxFormula": "3 + @abilities.cha.mod",
@@ -115,6 +120,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -176,7 +182,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -236,8 +241,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428350739,
+    "modifiedTime": 1665949118815,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

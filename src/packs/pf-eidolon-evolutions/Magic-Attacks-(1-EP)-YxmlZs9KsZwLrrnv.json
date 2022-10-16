@@ -3,7 +3,12 @@
   "name": "Magic Attacks (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/enchant-blue-2.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.szns1w6ypb44nu2Y"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon is infused with magic, allowing it to treat all of its natural attacks as if they were magic for the purpose of overcoming damage reduction.</p>\n<p>If the summoner is 10th level or higher, all of the eidolon's weapons are treated as the alignment of the eidolon for the purpose of overcoming damage reduction.</p>",
       "chat": "",
@@ -60,7 +65,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -92,12 +96,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.szns1w6ypb44nu2Y"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321333,
+    "modifiedTime": 1665949091486,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

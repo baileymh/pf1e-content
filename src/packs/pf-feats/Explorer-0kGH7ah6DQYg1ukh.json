@@ -3,7 +3,7 @@
   "name": "Explorer",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/map-xmark.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You dream of discovering new vistas.</em><br /><br /><strong>Prerequisites</strong><br />You must have crossed at least 30 miles of wilderness without map or guide.<br /><br /><strong>Benefits</strong><br />You can provide twice as much food and water for other people when attempting a Survival check to get along in the wild. In addition, you gain a +2 bonus on all Knowledge (geography) checks. If you have 10 or more ranks in Knowledge (geography), increase your bonus to +4.<br /><br /><strong>Goal</strong><br />Cross through a dangerous place without a map or a guide knowledgeable about the area, stopping for no longer than 16 hours at a time, and along the way overcome an appropriate number of natural hazards, obstacles, and/or enemies, at least one of which must qualify as a challenging foe.<br /><br /><strong>Completion Benefit</strong><br />You and one ally per 3 ranks of Survival can move overland without being slowed by difficult terrain (allies must remain within 30 feet of you to be affected). Once per day, you can make a preternaturally accurate estimate regarding your path, as if you had cast find the path on yourself (caster level equals your character level). <br /><br /><strong>Suggested Traits</strong></p>\n<p>Grim Optimism, ResilientAPG, Wanderlust.</p>\n<h2>Possible Explorer Quests</h2>\n<table class=\"inner\">\n<tbody style=\"user-select: auto !important; margin-top: 0px;\">\n<tr style=\"user-select: auto !important; margin-top: 0px;\">\n<td>d8</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">Quest</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">1</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">Ulfen explorers point you toward the impossibly wild forests of distant Arcadia to sate your wanderlust (page 202).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">2</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">You&rsquo;ve resolved to dive into sunken Azlanti ruins to locate several minor artifacts, said to be scattered throughout the area according to the research of an interested faction (page 203).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">3</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">For years the mysterious Doorway to the Red Star has befuddled scholars and inspired fringe faiths among the denizens of the Mwangi. You&rsquo;ve decided to set out and discover why (page 127).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">4</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">The government of a nearby nation is interested in reopening steady trade across the Crown of the World by a route north of Icerift Castle in Mendev, and they&rsquo;ve assigned you to clear the path (page 121).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">5</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">You hire on with a band of skilled pirates in the Shackles in hopes of being able to navigate the perilous Eye of Abendego (page 170).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">6</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">Earthnavel in the Realm of the Mammoth Lords is said to lead into a time-lost underworld known as Deep Tolguth&mdash;a rumor whose veracity you&rsquo;re willing to test (page 107).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">7</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">Forgotten Iobarian ruins in the plague-emptied forests of Casmaron await a hearty explorer to plumb their darkest depths (page 205).</td>\n</tr>\n<tr style=\"user-select: auto !important;\">\n<td style=\"user-select: auto !important; margin: 0px; border: 1px solid white; padding: 1px 5px; text-align: center;\">8</td>\n<td style=\"user-select: auto !important; border: 1px solid white; padding: 1px 5px; margin: 0px; text-align: center;\">You know that many would pay grand sums for the exotic reagents of the Valashmai Jungle in Tian Xia if it were ever opened up to trade with the Inner Sea region (page 208).</td>\n</tr>\n</tbody>\n</table>",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -91,8 +90,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428350626,
+    "modifiedTime": 1665949118712,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

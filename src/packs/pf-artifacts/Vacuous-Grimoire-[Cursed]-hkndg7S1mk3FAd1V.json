@@ -3,7 +3,7 @@
   "name": "Vacuous Grimoire [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A book of this sort looks like a normal volume on some mildly interesting topic. Any character who opens the work and reads so much as a single word therein must make two DC 15 Will saves. The first is to determine if the reader takes 1 point of permanent Intelligence and Charisma drain. The second is to find out if the reader takes 2 points of permanent Wisdom drain. To destroy the book, it must be burned while remove curse is being cast. If the grimoire is placed with other books, its appearance instantly alters to conform to the look of those other works.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265100,
+    "modifiedTime": 1665949036326,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

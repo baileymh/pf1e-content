@@ -3,7 +3,7 @@
   "name": "Brazen Egg [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This Huge, egg-shaped, intelligent, plane-shifting vessel is constructed almost entirely of brass. The exterior appears to be one crafted and polished sheet of metal, but it does have a door that can be opened. The Brazen Egg's inside has enough room to transport no more than eight Medium creatures, two Large creatures, or one Huge creature (as long as the Huge creature is squeezing). The egg has two methods in which it can move itself. The first is by a method similar to the dimension door spell, but the egg and all creatures within the egg are teleported. The second method is similar to the plane shift spell, though the egg can move to any plane it desires (it needs no focus) and when the egg plane shifts so do all creatures currently within it.   The egg has its own quirky, unabashed personality and can telepathically communicate with all creatures inside it or within 100 feet, regardless of language. The Brazen Egg's chief goal is to disrupt that plans of Hell's archdevils, but it requires the help of other creatures to do so. It often trades its ability to teleport and plane shift in order to gain such aid, but in dire circumstances it has the ability to enchant creatures in order to achieve its goals-and when it is close to reaching its goals it has little compunction in doing so. Once per day, the egg can affect a single creature within it as per the spell dominate person (though it is not limited to humanoids and can affect any living creature). Additionally up to three times per day it can affect creatures within it as per the spell mass charm monster.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265140,
+    "modifiedTime": 1665949036427,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

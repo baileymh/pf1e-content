@@ -3,7 +3,7 @@
   "name": "Talisman Of The Sphere [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This small adamantine loop and handle is typically fitted with a fine adamantine chain so that it can be worn as a necklace. A talisman of the sphere is worse than useless to those unable to cast arcane spells. Characters who cannot cast arcane spells take 5d6 points of damage merely from picking up and holding a talisman of this sort. However, when held by an arcane spellcaster who is concentrating on control of a sphere of annihilation, a talisman of the sphere doubles the character's modifier on his control check (doubling both his Intelligence bonus and his character level for this purpose).   If the wielder of a talisman establishes control, he needs to check for maintaining control only every other round thereafter. If control is not established, the sphere moves toward him. Note that while many spells and effects of cancellation have no effect upon a sphere of annihilation, the talisman's power of control can be suppressed or canceled.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264782,
+    "modifiedTime": 1665949035969,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

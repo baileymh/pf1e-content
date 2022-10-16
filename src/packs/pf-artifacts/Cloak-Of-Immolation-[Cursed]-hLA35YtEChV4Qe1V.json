@@ -3,7 +3,7 @@
   "name": "Cloak Of Immolation [Cursed]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This cloak appears to be a finely made garment that radiates protective magic. The cloak can be handled or examined without harm, but when it is put on, it immediately bursts into flames that burn continuously but do not harm the cloak, only its wearer. The cloak deals 1d6 points of fire damage each round and cannot be removed unless the curse is broken. Sufficient amounts of water or other smothering materials can douse the flames temporarily, but the cloak reignites when exposed to air again. Spells like resist energy, protection from energy, and similar effects can protect the wearer against the cloak's flames while they last.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "shoulders",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265095,
+    "modifiedTime": 1665949036317,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

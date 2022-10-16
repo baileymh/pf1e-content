@@ -3,7 +3,12 @@
   "name": "Dimension Door (4 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/yellow_24.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.MzSKTZR3kCt7bYWd"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>An eidolon learns to cast @Compendium[pf1.spells.ojwg1ki98tq8xyh9]{Dimension Door} as a spell-like ability once per day. The caster level for this evolution is equal to the eidolon's Hit Dice.</p>\n<p>The save DC for this spell is 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier.</p>\n<p><strong>Requirements</strong></p>\n<p>The eidolon must have a Charisma score of at least 14 to take this evolution. The summoner must be at least 13th level before selecting this evolution.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 1,
           "maxFormula": "",
@@ -102,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
@@ -195,12 +205,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.MzSKTZR3kCt7bYWd"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321340,
+    "modifiedTime": 1665949091491,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

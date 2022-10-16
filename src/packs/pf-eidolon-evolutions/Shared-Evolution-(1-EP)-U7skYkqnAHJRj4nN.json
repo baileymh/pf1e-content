@@ -3,7 +3,12 @@
   "name": "Shared Evolution (1 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_03.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.5ChwpZ67uCYk3Cjx"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Select a 1-point or 2-point evolution the eidolon has. As a standard action, the eidolon can touch the summoner and transfer the selected evolution to him.</p>\n<p>This functions as the summoner's aspect ability, and the same limitations apply. The summoner can touch the eidolon as a standard action to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.<em> </em></p>\n<p><strong>Requirements</strong></p>\n<p>Twinned eidolon.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -102,6 +112,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -163,7 +174,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
@@ -195,12 +205,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.5ChwpZ67uCYk3Cjx"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321319,
+    "modifiedTime": 1665949091475,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

@@ -3,7 +3,12 @@
   "name": "Ability Mastery",
   "type": "feat",
   "img": "systems/pf1/icons/feats/athletic.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.P4R0eUY1XYKbwr9g"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><em>You can augment your inherent abilities with transmutation magic items.</em><br /><br /><strong>Prerequisites</strong><br />Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.<br /><br /><strong>Benefits</strong><br />Once per day, you can focus your thoughts for 10 minutes on a suit of magic armor or a wondrous item that has a transmutation spell of 2nd level or higher listed in its construction requirements and that occupies a slot on your body. At the end of the meditation, you gain a +2 enhancement bonus to one ability score of your choice. This benefit lasts for 24 hours. You must wear the item in order to gain this benefit; if the item is removed before this feat's benefit ends, the benefit is immediately lost and cannot be regained until 24 hours have passed since the feat's last activation. You can gain only one benefit from this feat at a time.</p>\n<p><br /><strong>Pathfinder Society<br /></strong>When qualifying for and calculating the benefits of an item mastery feat, a PC uses the base Fortitude save bonus from only one of his classes.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong></p>\n<p>Replace the Str selection under Changes to the Ability you are increasing.</p>",
       "chat": "",
@@ -51,6 +56,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "day",
           "value": 1,
           "maxFormula": "",
@@ -105,6 +115,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -176,7 +187,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -209,12 +219,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.P4R0eUY1XYKbwr9g"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428352689,
+    "modifiedTime": 1665949120744,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

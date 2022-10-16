@@ -3,7 +3,7 @@
   "name": "Immolation Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Bomb</strong><br/><br/><p>When the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428276417,
+    "modifiedTime": 1665949049172,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

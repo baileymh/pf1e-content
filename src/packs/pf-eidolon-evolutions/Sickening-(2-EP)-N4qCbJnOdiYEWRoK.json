@@ -3,7 +3,12 @@
   "name": "Sickening (2 EP)",
   "type": "feat",
   "img": "systems/pf1/icons/skills/violet_17.jpg",
-  "data": {
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.vxFgGfN03cIdT30V"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>The eidolon's smell or appearance is so offensive it sickens nearby creatures. Any living creature except its summoner that approaches within 20 feet or begins its turn in that area is sickened for 1 round unless it succeeds at a Fortitude save (DC = 10 + 1/2 the eidolon's HD + its Con modifier).</p>\n<p>Creatures that successfully save cannot be affected by the same eidolon's sickening effect for 24 hours.</p>",
       "chat": "",
@@ -48,6 +53,11 @@
         "uses": {
           "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
+          "self": {
+            "value": 0,
+            "maxFormula": "",
+            "per": null
+          },
           "per": "",
           "value": 0,
           "maxFormula": "",
@@ -104,6 +114,7 @@
           "critMultiplier": 1
         },
         "naturalAttack": {
+          "primaryAttack": true,
           "secondary": {
             "attackBonus": "-5",
             "damageMult": 0.5
@@ -165,7 +176,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
@@ -207,12 +217,15 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.vxFgGfN03cIdT30V"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428321302,
+    "modifiedTime": 1665949091462,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
   }
 }

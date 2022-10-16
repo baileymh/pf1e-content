@@ -3,7 +3,7 @@
   "name": "Metal Rending",
   "type": "feat",
   "img": "systems/pf1/icons/spells/beam-magenta-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Wizard School Power</strong><br/><br/><p>Whenever you cast a spell that deals hit point damage, you deal extra damage to creatures made of metal or wearing medium or heavy metal armor. Affected creatures take additional damage equal to 1/2 your wizard level. This bonus damage is not increased by Empower Spell or similar effects. This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. The damage is of the same type as the spell.</p><p>At 20th level, whenever you cast a spell on a creature made of metal or wearing medium or heavy armor, you can roll twice to penetrate the creature's spell resistance and take the better result.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268816,
+    "modifiedTime": 1665949040976,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

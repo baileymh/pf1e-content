@@ -3,7 +3,7 @@
   "name": "Slime Tendril [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A horrid, slimy whip crafted from a severed aboleth's tentacle, the slime tendril grants the wielder unpleasant transformative powers akin to those of the aboleths. The wielder of the slime tendril can breathe water as well as air, as if under a constant water breathing effect.  The slime tendril functions as a +3 quenchingUE scorpion whipUC. Three times per day as an immediate action, when the wielder damages a creature with the slime tendril, the wielder can force the creature to attempt a DC 20 Fortitude saving throw. Victims who fail this save are subjected to an aboleth's slime extraordinary ability (Pathfinder RPG Bestiary 8).  Use of the slime tendril imparts a slow, terrible transformation upon the wielder. One day after the wielder first uses the slime tendril to affect another creature with the slime ability, the wielder's skin grows rubbery, increasing her natural armor bonus by 2. One week later, the wielder gains the aquatic subtype and the amphibious special quality, and she starts to experience strange dreams of cyclopean architecture in cavernous ocean trenches and a strong desire to live in the open ocean. If the wielder subsequently refrains from using the weapon's slime ability, these changes reverse after 1d4 months. Each time the wielder uses the weapon's slime ability during this time, she must succeed at a DC 20 Fortitude saving throw or transform permanently into a skum, using the statistics on page 253 of the Bestiary in place of her own. This transformation cannot be reversed while the wielder carries the slime tendril, and a wish or a miracle is required to reverse it otherwise. A wielder transformed into a skum by the slime tendril has a soul-piercing longing for the ocean and takes 1d4 Wisdom drain each day she spends on dry land.  Aboleths within 10 miles of the slime tendril automatically become aware of the weapon's distance and direction, and they can use their dominate monster spell-like ability on the slime tendril's wielder as if the wielder were in the ability's normal range.<br><p><b>Base Item:</b> 3 quenchingUE scorpion whip</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 122",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265156,
+    "modifiedTime": 1665949036476,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

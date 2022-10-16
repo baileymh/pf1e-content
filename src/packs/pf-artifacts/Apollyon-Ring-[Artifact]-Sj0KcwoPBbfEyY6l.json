@@ -3,7 +3,7 @@
   "name": "Apollyon Ring [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Upon donning the , the wearer experiences an increased state of being, her consciousness becoming an infectious disease known as the Mark of the Prophet. The wearer is the host of this disease, but is immune to its effects. Any creature that comes into physical contact with the wearer (or with one afflicted by the disease) must make a successful Fortitude save or be infected. The disease causes 1d4 points of ability damage, with the affected ability being the wearer's highest ability score (or her choice in the case of equally high scores). The disease's other effects are detailed below. The saving throw to resist the disease is equal to 10 + the wearer's Hit Dice + her Charisma modifier. This disease can be cured as normal. Creatures immune to disease are immune to any disease created by the , but also gain none of the abilities granted by wearing the ring.  Any creature infected by the disease becomes a potential host for the ring wearer's senses. The wearer always knows how many creatures are infected and can detect any one of them as a standard action as per the status spell. Additionally, by spending a minute concentrating, the wearer can see and hear using any infected individual's senses, as per the clairaudience/clairvoyance spell. The wearer remains dimly aware of her surroundings while making use of this effect, and may end it as an immediate action. She may use this ability any number of times per day. Once per day, she may also either cure any number of individuals infected with the disease within 300 feet, or force them to make an additional save against its effects at a -5 penalty.  Removing the  or killing the wearer instantly cures all creatures afflicted by the Mark of the Prophet.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Artifacts and Legends",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "ring",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264891,
+    "modifiedTime": 1665949036058,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Dance of Mercy",
   "type": "feat",
   "img": "icons/equipment/head/hat-tricorn-brown.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Swashbuckler 19th Level Deed</strong><br/><br/><p>At 19th level, when a whirling dervish confirms a critical hit with a light or one-handed piercing melee weapon, in addition to the normal damage, she can spend 1 panache point to inflict a deadly stab. The target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the dervish's class level + her Dexterity modifier) or take an amount of nonlethal damage equal to its current hit points + 1, as well as becomes paralyzed for 1 hour. Performing this deed doesn't grant the swashbuckler a panache point.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428268181,
+    "modifiedTime": 1665949040227,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

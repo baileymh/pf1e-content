@@ -3,7 +3,7 @@
   "name": "Sigils Of The Great Cataclysm [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Sigils of the great cataclysm are collections of items designed to bring about doom and suffering, usually to a city or large town. A set of sigils consists of seven seals of stone, clay, or black iron.  The sigils' foul magic takes effect only when they are buried or hidden on the points of an imaginary seven-pointed star covering up to a 3-mile radius. Once the final sigil is set in place, the sigils create a sequence of effects, one per week, each lasting for 1 week. For the first four sigils' effects, each living creature in the area has a certain chance to be targeted each day. Each affected creature suffers the effects at a different random time during the day. The final three sigils' effects each last for a full week and target the entire area as described below.  First Sigil: Each living creature in the area has a 10% chance of being affected by feast of ashesAPG (Will DC 17 negates).  Second Sigil: Each living creature in the area has a 20% chance of being affected by rage (Will DC 18 negates).  Third Sigil: Each living creature in the area has a 30% chance of being affected by contagion with a random disease (Fortitude DC 19 negates).  Fourth Sigil: Each living creature in the area has a 40% chance of being surrounded a deadly miasma and affected as per cloudkill (Fortitude DC 20 negates).  Fifth Sigil: The area experiences severe storms as if under the effects of control weather.  Sixth Sigil: Random 40-foot-radius spaces within the area are affected as if by earthquake. The earthquake affects a single 40-foot-radius space each round, then moves to a new location.  Seventh Sigil: Fiery spheres fall from the sky. One sphere affects a 40-foot-radius area for 1d6 rounds, then vanishes; the next round another sphere affects a new location. A sphere deals 2d6 points of damage + 1d6 points of fire damage to creatures and objects each round (Reflex DC 23 half) and can ignite flammable materials.  Once the cycle of destruction begins, each sigil's effect can be stopped only by moving that sigil from its spot on the seven-pointed star. Moving a seal ends its effects immediately.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Villain Codex",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265263,
+    "modifiedTime": 1665949036854,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

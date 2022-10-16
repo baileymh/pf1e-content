@@ -3,7 +3,7 @@
   "name": "Nahyndrian Elixir [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>This thick, syrupy, deep purple elixir contains within it the ability to infuse a drinker with a tiny fragment of a dead demon lord's mythic power. So potent is this elixir that it must be stored in a magically reinforced cold iron flask capped with a mixture of lead and demon ichor-the flask itself is essentially a wondrous magic item that does nothing else and costs 8,000 gp to craft. Even then, the elixir's essence fills a 10-foot-radius area with unholy energies that sicken all living creatures (this is a poison effect with no saving throw). If the flask is opened, this radius expands to 30 feet. A thin sheet of lead, 1 inch of common metal, or 1 foot of stone blocks this effect. Once the flask is opened, the elixir must be imbibed within 1 minute; re-capping the elixir at this point doesn't reset or pause this countdown. If the elixir has not been imbibed in that time, the energy within explodes in a 30-foot-radius burst that deals 15d6 points of unholy damage (Will DC 25 half) to all creatures in the area of effect, destroying the elixir.   If a creature drinks a Nahyndrian elixir, it must succeed at a DC 25 Fortitude save or take 4d6 points of Constitution drain (demons automatically succeed). If a non-mythic chaotic evil creature succeeds, it undergoes mythic ascension-gaining either the first tier in a mythic path or a mythic rank, at the GM's discretion. A chaotic evil creature that is already mythic treats a Nahyndrian elixir as nectar of the gods (Pathfinder RPG Mythic Adventures 155).   Nahyndrian elixirs have the same strange immunity to teleportation effects as Nahyndrian crystals.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 76",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265098,
+    "modifiedTime": 1665949036319,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

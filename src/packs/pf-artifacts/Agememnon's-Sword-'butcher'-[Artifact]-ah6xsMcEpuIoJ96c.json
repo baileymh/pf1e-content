@@ -3,7 +3,7 @@
   "name": "Agememnon's Sword, 'butcher' [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>Butcher is a longsword of immense power, given to Agamemnon by the goddess of magic herself. Only a non-good person may wield Butcher. It confers a +4 enhancement bonus to attack and damage rolls, as well as a +4 luck bonus to AC and CMD. In addition, it acts as a permanent lesser globe of invulnerability for the wielder only. Finally, it is the key to escape from this level of the dungeon.<br><p><b>Base Item:</b> +4 longsword</p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Rappan Athuk",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264951,
+    "modifiedTime": 1665949036101,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

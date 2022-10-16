@@ -3,7 +3,7 @@
   "name": "Robe Of The Rifts [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>The Robe of the Rifts is crafted of what appears to be fine silk, but is in fact forged of congealed dreams siphoned from the minds of slumbering spellcasters as they were ritually murdered. It was created by Areelu Vorlesh to augment her melee prowess soon after her transformation into a half-succubus in a process that involved humiliating favors granted to 13 separate demon lords. The Robe of the Rifts grants the following enhancements when it is worn.   • The wearer's attack rolls and damage rolls with all melee weapons are modified by her Intelligence modifier, not her Strength modifier. This modifier is never halved for secondary attacks, but neither is it increased for two-handed attacks.   • The wearer applies her armor and natural armor bonuses (if any) to her touch AC.   • The wearer gains a +6 profane bonus on all saving throws.   • The robes infuse the wearer's natural attacks (if any) as if she wore an unholy amulet of mighty fists +5.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>AP 78",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "body",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428265250,
+    "modifiedTime": 1665949036818,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

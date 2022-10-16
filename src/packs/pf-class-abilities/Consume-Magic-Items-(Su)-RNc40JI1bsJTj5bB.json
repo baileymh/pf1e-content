@@ -3,7 +3,7 @@
   "name": "Consume Magic Items (Su)",
   "type": "feat",
   "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Arcanist Exploit</strong><br/><br/><p>The arcanist can consume the power of potions, scrolls, staves, and wands, using them to fill her arcane reservoir. Using this ability is a move action that provokes an attack of opportunity. When using this exploit, the arcanist adds a number of points to her arcane reservoir equal to 1/2 the level of the spell contained in the item (o-level and 1st-level spells do not recharge the arcanist's arcane reservoir). If used on a potion or scroll, the item is destroyed. If used on a wand, the wand loses 5 charges; if it has fewer than 5 charges, the wand is destroyed and the arcanist gains no benefit. If used on a staff, it loses 1 charge and the arcanist gains a number of points to his arcane reservoir equal to the level of the highest-level spell the staff can cast using only 1 charge; if the staff has no spells that require only 1 charge, the arcanist cannot consume that staff's magic. No more than 1 charge can be drawn from a staff each day in this way. Points gained in excess of the arcanist's reservoir's maximum are lost. This exploit has no effect on magic armor, weapons, rings, rods, wondrous items, or other magic items besides those noted above.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428271561,
+    "modifiedTime": 1665949044085,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

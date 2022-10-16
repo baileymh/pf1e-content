@@ -3,7 +3,7 @@
   "name": "Combat Expertise",
   "type": "feat",
   "img": "systems/pf1/icons/feats/combat-expertise.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You can increase your defense at the expense of your accuracy.</em><br /><br /><strong>Prerequisites</strong><br />Int 13.<br /><br /><strong>Benefits</strong><br />You can choose to take a -1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.<br /><br /><strong>Combat Trick</strong><br />You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits, ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.</p>\n<p>&nbsp;</p>\n<p><strong>Usage</strong>: apply Combat Expertise buff until next turn.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -97,8 +96,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428355018,
+    "modifiedTime": 1665949123244,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

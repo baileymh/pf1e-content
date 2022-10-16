@@ -3,7 +3,7 @@
   "name": "Talisman Of Reluctant Wishes [Artifact]",
   "type": "equipment",
   "img": "systems/pf1/icons/skills/yellow_30.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<h2></b>Description</b></h2></p><p>A talisman of reluctant wishes appears the same as a stone of controlling earth elementals, a rugged rock that seems to pulse with an inner power. Its powers are quite different, however, and are dependent on the Charisma of the holder. Any character touching a talisman of reluctant wishes must make a DC 15 Charisma check.   If the check fails, the talisman acts as a stone of weight (see page 351). Discarding it results in 5d6 points of damage to the character and the disappearance of the talisman.   If the check succeeds, the talisman remains with the character for 5d6 hours, or until a wish i s m ade w ith i t, whichever comes first. It then disappears.   If the check roll is a natural 20, the talisman remains for a number of months equal to the character's Charisma score, resisting any effort to get rid of it by reappearing in the character's possession, in a back pocket, at the bottom of his pack, or the like.   The artifact grants one wish for every 6 points of the character's Charisma (round down). It grows warm and throbs whenever its possessor comes within 20 feet of a mechanical or magic trap. (If the talisman is not held, its warning heat and pulses are of no avail.)   Regardless of which reaction results, a talisman of reluctant wishes disappears when its time expires, leaving behind a large diamond in its stead, valued at 1,000 gp per point of the character's Charisma.<br><p><b>Base Item:</b> </p><h3><b>Requirements</b></h3><p></p><h3><b>Source: </b></h3>Ultimate Equipment",
       "chat": "",
@@ -68,7 +68,6 @@
     "masterwork": false,
     "enh": null,
     "proficient": true,
-    "primaryAttack": true,
     "held": "normal",
     "equipmentType": "misc",
     "equipmentSubtype": "other",
@@ -81,6 +80,7 @@
     "spellFailure": 0,
     "slot": "slotless",
     "showInQuickbar": false,
+    "primaryAttack": true,
     "activation": {
       "cost": 1,
       "type": ""
@@ -108,8 +108,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428264587,
+    "modifiedTime": 1665949035835,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

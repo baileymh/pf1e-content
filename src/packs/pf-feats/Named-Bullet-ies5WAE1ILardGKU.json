@@ -3,7 +3,7 @@
   "name": "Named Bullet",
   "type": "feat",
   "img": "icons/weapons/ammunition/shot-round-lead.webp",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You can craft ammunition intended to kill specific foes.</em><br/><br/><b>Prerequisites</b><br/>Amateur Gunslinger feat or grit class feature, Gunsmithing, base attack bonus +5.<br/><br/><b>Benefits</b><br/>Whenever you craft ammunition using Gunsmithing, you may inscribe a bullet or alchemical cartridge with the name of its intended target. The ammunition gains the bane weapon special ability against the chosen creature only. If the ammunition is used to attack any other target, the attack roll is instead made with a -2 penalty. Crafting a named bullet costs 1 grit point and reduces your maximum grit points by 1 until the named bullet is fired or destroyed.",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -95,8 +94,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428356799,
+    "modifiedTime": 1665949125082,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Absorb Spirit",
   "type": "feat",
   "img": "systems/pf1/icons/spells/link-spirit-2.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<em>You absorb restless spirits into your body at the cost of your own life force and sanity.</em><br/><br/><b>Prerequisites</b><br/>Con 13, must have died at least once or been possessed by an undead creature.<br/><br/><b>Benefits</b><br/>When an incorporeal undead with the rejuvenation special ability or a haunt is reduced to 0 or fewer hit points within 30 feet of you, you can attempt to absorb its spirit into your body as an immediate action. You must attempt a Will save with a DC equal to 5 + twice the CR of the undead creature or haunt. If you are a medium with the haunt channeler class feature, you receive a +2 bonus on this saving throw. If you succeed, you harbor the undead or haunt's essence, and it cannot continue to rejuvenate or manifest until you release it. For every 24 hours that you harbor the entity, you must attempt a Constitution check (DC = 10 + the CR of the undead or haunt). <br/>If you are a medium with the haunt channeler class feature, you receive a +2 bonus on this check. If you fail the check, you take 1d4 points of Constitution and Wisdom damage. If you succeed, you take 1 point of Constitution and Wisdom damage. No effect can prevent or reduce this ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit. You can release the spirit at any time as a standard action, at which point the spirit returns to its former location and begins rejuvenating or manifesting again as normal. If you die from the Constitution damage, the spirit is released, and if you become comatose from the Wisdom damage, the spirit gains control of your body (and can release itself whenever it desires).<br/><br/><b>Special</b><br/>If you are using the sanity system (page 12) and fail your Constitution check while harboring the spirit, you take sanity damage equal to 1/2 the spirit's CR (minimum 1) instead of 1d4 points of Wisdom damage. If you succeed at the Constitution check, you take sanity damage equal to 1/4 the spirit's CR instead of 1 point of Wisdom damage. Either way, you still take the normal amount of Constitution damage. No effect can prevent or reduce the damage, nor can it be healed or suppressed by any means until you release the spirit.",
       "chat": "",
@@ -60,7 +60,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -92,8 +91,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358782,
+    "modifiedTime": 1665949126949,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

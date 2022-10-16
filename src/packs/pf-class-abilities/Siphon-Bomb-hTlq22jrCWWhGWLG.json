@@ -3,7 +3,7 @@
   "name": "Siphon Bomb",
   "type": "feat",
   "img": "systems/pf1/icons/items/potions/grand-yellow.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Alchemist Discovery - Ectoplasm Master</strong><br/><br/><p>The ectoplasm master's bombs can be modified to neutralize and crystallize the ectoplasmic energy of haunts and incorporeal undead. A siphon bomb deals full damage to incorporeal creatures as if it were a force effect, but deals only nonlethal damage to corporeal creatures. A siphon bomb also damages haunts, provided the siphon bomb explodes within a haunt's area of effect. This discovery modifies the alchemist's bombs and doesn't stack with other discoveries that modify bombs.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428274574,
+    "modifiedTime": 1665949047269,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

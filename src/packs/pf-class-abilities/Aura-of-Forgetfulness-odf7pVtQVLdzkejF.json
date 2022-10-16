@@ -3,7 +3,7 @@
   "name": "Aura of Forgetfulness",
   "type": "feat",
   "img": "systems/pf1/icons/items/inventory/badge-cross.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<strong>Cleric Domain Power</strong><br/><br/><p>At 8th level, you can emit a 30-foot aura of forgetfulness for a number of rounds per day equal to your cleric level. Creatures you target in this area must make a Will save or have no memory of any time spent inside the area. In addition, spellcasters in the area lose one prepared spell or available spell slot per round spent in the area, starting with 1st-level spells and going up through higher-level spells. Spellcasters are allowed a save each round to negate this loss (this save is separate from the memory loss save). These rounds do not need to be consecutive.</p>",
       "chat": "",
@@ -69,7 +69,6 @@
       ]
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -101,8 +100,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428275881,
+    "modifiedTime": 1665949048620,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }

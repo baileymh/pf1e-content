@@ -3,7 +3,7 @@
   "name": "Burning Spell",
   "type": "feat",
   "img": "systems/pf1/icons/spells/light-air-fire-3.jpg",
-  "data": {
+  "system": {
     "description": {
       "value": "<p><em>You cause creatures to take extra damage when you affect them with a spell that has the acid or fire descriptor.</em><br /><br /><strong>Benefits</strong><br />The acid or fire effects of the affected spell adhere to the creature, causing more damage the next round. When a creature takes acid or fire damage from the affected spell, that creature takes damage equal to 2 x the spell's actual level at the start of its next turn. The damage is acid or fire, as determined by the spell's descriptor. If a burning spell has both the fire and acid descriptor, the caster chooses what kind of damage is dealt by the burning spell effect. A burning spell uses up a slot two levels higher than the spell's actual level.</p>",
       "chat": "",
@@ -63,7 +63,6 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
@@ -94,8 +93,16 @@
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.287",
+    "createdTime": 1665428358186,
+    "modifiedTime": 1665949126443,
+    "lastModifiedBy": "IPeKQhMz2Odi77tR"
+  }
 }
