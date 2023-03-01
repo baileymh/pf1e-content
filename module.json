@@ -1,350 +1,358 @@
 {
-  "name": "pf-content",
   "title": "Pathfinder 1e Content",
   "description": "Contains magic items, non-magical items, feats, traits, class abilities, racial traits, diseases, drugs, special weapon/armor qualities, buffs/debuffs, familiars, eidolons, companions, technology items, magic item, and encounter tables. Additoinally, Includes a huge amount of Rule journals for PF, bios and info for deities, as well as rule for Kingdom Building. Along with a host of other resources. These compendiums are not perfect. Except for buffs, most of them do not contain the appropriate changes to attacks, bonuses, etc. However, the item description and most of the relevant info needed to make work them are included, and Change formulas are slowly being added.",
-  "version": "0.2.8",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "minimumSystemVersion": "0.80.6",
-  "flags": {},
-  "system": ["pf1"],
-  "dependencies": [],
-  "socket": false,
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "protected": false,
-  "coreTranslation": false,
-  "author": "Michael Bailey(fadedshadow589#8270), with major contributions (see Credits)",
-  "url":"https://github.com/baileymh/pf1e-content",
+  "version": "0.3.4",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.82.5"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "id": "pf-content",
+  "url": "https://github.com/baileymh/pf1e-content",
   "manifest": "https://github.com/baileymh/pf1e-content/releases/latest/download/module.json",
-  "download":"https://github.com/baileymh/pf1e-content/releases/download/0.2.4/pf-content.v0.2.4.zip",
-  "readme":"https://github.com/baileymh/pf1e-content/blob/main/README.md",
-  "changelog":"https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
+  "download": "https://github.com/baileymh/pf1e-content/releases/download/0.3.4/pf-content.0.3.4.zip",
+  "readme": "https://github.com/baileymh/pf1e-content/blob/main/README.md",
+  "changelog": "https://github.com/baileymh/pf1e-content/blob/main/changelog.md",
   "packs": [
-  {
-    "name": "pf-35-content",
-    "label": "PF-3.5e Content",
-    "system": "pf1",
-    "path": "packs/pf-35-content.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-artifacts",
-    "label": "PF-Artifacts",
-    "system": "pf1",
-    "path": "packs/pf-artifacts.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },
-  {
-    "name": "pf-buffs",
-    "label": "PF-Buffs",
-    "system": "pf1",
-    "path": "packs/pf-buffs.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-class-abilities",
-    "label": "PF-Class Abilities",
-    "system": "pf1",
-    "path": "packs/pf-class-abilities.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-companions",
-    "label": "PF-Animal Companions",
-    "system": "pf1",
-    "path": "packs/pf-companions.db",
-    "type": "Actor",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-companion-features",
-    "label": "PF-Animal Companion Features",
-    "system": "pf1",
-    "path": "packs/pf-companion-features.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-deities",
-    "label": "PF-Deities",
-    "system": "pf1",
-    "path": "packs/pf-deities.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-eidolon-forms",
-    "label": "PF-Eidolon Forms",
-    "system": "pf1",
-    "path": "packs/pf-eidolon-forms.db",
-    "type": "Actor",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-eidolon-evolutions",
-    "label": "PF-Eidolon Evolutions",
-    "system": "pf1",
-    "path": "packs/pf-eidolon-evolutions.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-encounter-tables",
-    "label": "PF-Encounter Tables",
-    "system": "pf1",
-    "path": "packs/pf-encounter-tables.db",
-    "type": "RollTable",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-elephant",
-    "label": "Elephant in the Room",
-    "system": "pf1",
-    "path": "packs/elephant-in-the-room.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-familiars",
-    "label": "PF-Familiars",
-    "system": "pf1",
-    "path": "packs/pf-familiars.db",
-    "type": "Actor",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-feats",
-    "label": "PF-Feats",
-    "system": "pf1",
-    "path": "packs/pf-feats.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },
-  {
-    "name": "gm-quick-reference",
-    "label": "GM Quick Reference",
-    "system": "pf1",
-    "path": "packs/gm-quick-reference.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-goods-services",
-    "label": "PF-Goods and Services",
-    "system": "pf1",
-    "path": "packs/pf-goods-services.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "harrow-deck",
-    "label": "Harrow Deck",
-    "system": "pf1",
-    "path": "packs/harrow-deck.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-items",
-    "label": "PF-Items",
-    "system": "pf1",
-    "path": "packs/pf-items.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-magicitems",
-    "label": "PF-Magic Items",
-    "system": "pf1",
-    "path": "packs/pf-magic.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },
-  {
-    "name": "pf-maladies",
-    "label": "PF-Maladies",
-    "system": "pf1",
-    "path": "packs/pf-maladies.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-merchants",
-    "label": "PF-Merchants",
-    "system": "pf1",
-    "path": "packs/pf-merchants.db",
-    "type": "Actor",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-magic-tables",
-    "label": "PF-Magic Item Tables",
-    "system": "pf1",
-    "path": "packs/pf-magic-tables.db",
-    "type": "RollTable",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-occult-rituals",
-    "label": "PF-Occult Rituals",
-    "system": "pf1",
-    "path": "packs/pf-occult-rituals.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-racial-traits",
-    "label": "PF-Racial Traits",
-    "system": "pf1",
-    "path": "packs/pf-racial-traits.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },
-  {
-    "name": "pf-rules",
-    "label": "PF-Rules",
-    "system": "pf1",
-    "path": "packs/pf-rules.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-special-qualities",
-    "label": "PF-Special Qualities",
-    "system": "pf1",
-    "path": "packs/pf-special-qualities.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-tables",
-    "label": "PF-Tables",
-    "system": "pf1",
-    "path": "packs/pf-tables.db",
-    "type": "RollTable",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-tech",
-    "label": "PF-Technology",
-    "system": "pf1",
-    "path": "packs/pf-technology.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "pf-traits",
-    "label": "PF-Traits",
-    "system": "pf1",
-    "path": "packs/pf-traits.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },
-  {
-    "name": "pf-traps-and-haunts",
-    "label": "PF-Traps and Haunts",
-    "system": "pf1",
-    "path": "packs/pf-traps-and-haunts.db",
-    "type": "Actor",
-    "module": "pf1e-journals",
-    "private": false
-  },
-  {
-    "name": "pf-universal-monster-rules",
-    "label": "PF-Universal Monster Rules",
-    "system": "pf1",
-    "path": "packs/pf-universal-monster-rules.db",
-    "type": "Item",
-    "module": "PF-Content",
-    "private": false
-  },      
-  {
-    "name": "pf-wondrous",
-    "label": "PF-Wondrous",
-    "system": "pf1",
-    "path": "packs/pf-wondrous.db",
-    "type": "Item",
-    "module": "pf-content",
-    "private": false
-  },  
-  {
-    "name": "kingdom-building-gm",
-    "label": "Kingdom Building Rules - GM",
-    "system": "pf1",
-    "path": "packs/kingdom-building-gm.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "kingdom-building-player",
-    "label": "Kingdom Building Rules - Player",
-    "system": "pf1",
-    "path": "packs/kingdom-building-player.db",
-    "type": "JournalEntry",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "kingdom-building-scenes",
-    "label": "Kingdom Building - Scenes",
-    "system": "pf1",
-    "path": "packs/kingdom-building-scenes.db",
-    "type": "Scene",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "kingdom-building-buildings",
-    "label": "Kingdom Building - Buildings",
-    "system": "pf1",
-    "path": "packs/kingdom-building-buildings.db",
-    "type": "Actor",
-    "module": "PF-Content",
-    "private": false
-  },
-  {
-    "name": "kingdom-building-tables",
-    "label": "Kingdom Building - Tables",
-    "system": "pf1",
-    "path": "packs/kingdom-building-tables.db",
-    "type": "RollTable",
-    "module": "PF-Content",
-    "private": false
-  }]
+    {
+      "name": "pf-35-content",
+      "label": "PF-3.5e Content",
+      "system": "pf1",
+      "path": "packs/pf-35-content.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-artifacts",
+      "label": "PF-Artifacts",
+      "system": "pf1",
+      "path": "packs/pf-artifacts.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-buffs",
+      "label": "PF-Buffs",
+      "system": "pf1",
+      "path": "packs/pf-buffs.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-class-abilities",
+      "label": "PF-Class Abilities",
+      "system": "pf1",
+      "path": "packs/pf-class-abilities.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-companions",
+      "label": "PF-Animal Companions",
+      "system": "pf1",
+      "path": "packs/pf-companions.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-companion-features",
+      "label": "PF-Animal Companion Features",
+      "system": "pf1",
+      "path": "packs/pf-companion-features.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-deities",
+      "label": "PF-Deities",
+      "system": "pf1",
+      "path": "packs/pf-deities.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-eidolon-forms",
+      "label": "PF-Eidolon Forms",
+      "system": "pf1",
+      "path": "packs/pf-eidolon-forms.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-eidolon-evolutions",
+      "label": "PF-Eidolon Evolutions",
+      "system": "pf1",
+      "path": "packs/pf-eidolon-evolutions.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-encounter-tables",
+      "label": "PF-Encounter Tables",
+      "system": "pf1",
+      "path": "packs/pf-encounter-tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-elephant",
+      "label": "Elephant in the Room",
+      "system": "pf1",
+      "path": "packs/elephant-in-the-room.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-familiars",
+      "label": "PF-Familiars",
+      "system": "pf1",
+      "path": "packs/pf-familiars.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-feats",
+      "label": "PF-Feats",
+      "system": "pf1",
+      "path": "packs/pf-feats.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "gm-quick-reference",
+      "label": "GM Quick Reference",
+      "system": "pf1",
+      "path": "packs/gm-quick-reference.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-goods-services",
+      "label": "PF-Goods and Services",
+      "system": "pf1",
+      "path": "packs/pf-goods-services.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "harrow-deck",
+      "label": "Harrow Deck",
+      "system": "pf1",
+      "path": "packs/harrow-deck.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-items",
+      "label": "PF-Items",
+      "system": "pf1",
+      "path": "packs/pf-items.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-magicitems",
+      "label": "PF-Magic Items",
+      "system": "pf1",
+      "path": "packs/pf-magic.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-maladies",
+      "label": "PF-Maladies",
+      "system": "pf1",
+      "path": "packs/pf-maladies.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-merchants",
+      "label": "PF-Merchants",
+      "system": "pf1",
+      "path": "packs/pf-merchants.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-magic-tables",
+      "label": "PF-Magic Item Tables",
+      "system": "pf1",
+      "path": "packs/pf-magic-tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-occult-rituals",
+      "label": "PF-Occult Rituals",
+      "system": "pf1",
+      "path": "packs/pf-occult-rituals.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-racial-traits",
+      "label": "PF-Racial Traits",
+      "system": "pf1",
+      "path": "packs/pf-racial-traits.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-rules",
+      "label": "PF-Rules",
+      "system": "pf1",
+      "path": "packs/pf-rules.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-special-qualities",
+      "label": "PF-Special Qualities",
+      "system": "pf1",
+      "path": "packs/pf-special-qualities.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-tables",
+      "label": "PF-Tables",
+      "system": "pf1",
+      "path": "packs/pf-tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-tech",
+      "label": "PF-Technology",
+      "system": "pf1",
+      "path": "packs/pf-technology.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-traits",
+      "label": "PF-Traits",
+      "system": "pf1",
+      "path": "packs/pf-traits.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-traps-and-haunts",
+      "label": "PF-Traps and Haunts",
+      "system": "pf1",
+      "path": "packs/pf-traps-and-haunts.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-universal-monster-rules",
+      "label": "PF-Universal Monster Rules",
+      "system": "pf1",
+      "path": "packs/pf-universal-monster-rules.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf-wondrous",
+      "label": "PF-Wondrous",
+      "system": "pf1",
+      "path": "packs/pf-wondrous.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kingdom-building-gm",
+      "label": "Kingdom Building Rules - GM",
+      "system": "pf1",
+      "path": "packs/kingdom-building-gm.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kingdom-building-player",
+      "label": "Kingdom Building Rules - Player",
+      "system": "pf1",
+      "path": "packs/kingdom-building-player.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kingdom-building-scenes",
+      "label": "Kingdom Building - Scenes",
+      "system": "pf1",
+      "path": "packs/kingdom-building-scenes.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kingdom-building-buildings",
+      "label": "Kingdom Building - Buildings",
+      "system": "pf1",
+      "path": "packs/kingdom-building-buildings.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kingdom-building-tables",
+      "label": "Kingdom Building - Tables",
+      "system": "pf1",
+      "path": "packs/kingdom-building-tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "Michael Bailey(fadedshadow589#8270), with major contributions (see Credits)",
+      "flags": {}
+    }
+  ]
 }
