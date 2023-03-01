@@ -36,7 +36,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -156,8 +155,7 @@
         },
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -230,8 +228,7 @@
               "minUnits": ""
             },
             "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
+              "autoDeductChargesCost": "",
               "self": {
                 "value": 0,
                 "maxFormula": "",
@@ -324,7 +321,6 @@
           "per": "",
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -449,8 +445,7 @@
         },
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -516,8 +511,7 @@
               "minUnits": ""
             },
             "uses": {
-              "autoDeductCharges": true,
-              "autoDeductChargesCost": "1",
+              "autoDeductChargesCost": "",
               "self": {
                 "value": 0,
                 "maxFormula": "",
@@ -608,7 +602,6 @@
           "per": "",
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -813,8 +806,7 @@
               "minUnits": ""
             },
             "uses": {
-              "autoDeductCharges": false,
-              "autoDeductChargesCost": "1",
+              "autoDeductChargesCost": "0",
               "self": {
                 "value": 0,
                 "maxFormula": "",
@@ -895,8 +887,7 @@
           "per": "charges",
           "value": 1,
           "maxFormula": "floor((@classes.eidolon.level - 1) * .75) + 1 + (((((@classes.eidolon.level - 1) * .75) * 100) % 100) >= 50 ? 1 : 0)",
-          "autoDeductCharges": false,
-          "autoDeductChargesCost": "1",
+          "autoDeductChargesCost": "0",
           "max": 0
         },
         "attackNotes": [],
@@ -1024,8 +1015,7 @@
         },
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -1362,7 +1352,6 @@
         "range": {
           "maxIncrements": 1
         },
-        "size": "med",
         "customHD": "round((@item.level - 1) * .75) + 1",
         "identifiedName": "Eidolon"
       },
@@ -1411,7 +1400,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -1543,8 +1531,7 @@
         },
         "conditionals": [],
         "identifiedName": "Ability Score Increase",
-        "auraStrength": 0,
-        "size": "med"
+        "auraStrength": 0
       },
       "ownership": {
         "default": 0
@@ -1591,7 +1578,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -1720,8 +1706,7 @@
         },
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -1786,7 +1771,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -1916,7 +1900,6 @@
         "attack": {
           "parts": []
         },
-        "size": "med",
         "identifiedName": "Eidolon Feats"
       },
       "ownership": {
@@ -2009,8 +1992,7 @@
               "minUnits": ""
             },
             "uses": {
-              "autoDeductCharges": false,
-              "autoDeductChargesCost": "1",
+              "autoDeductChargesCost": "0",
               "self": {
                 "value": 0,
                 "maxFormula": "",
@@ -2091,8 +2073,7 @@
           "per": "charges",
           "value": 3,
           "maxFormula": "@classes.eidolon.level + 1 + floor((@classes.eidolon.level + 6) / 5)",
-          "autoDeductCharges": false,
-          "autoDeductChargesCost": "1",
+          "autoDeductChargesCost": "0",
           "max": 3
         },
         "attackNotes": [],
@@ -2223,8 +2204,7 @@
         },
         "conditionals": [],
         "identifiedName": "Evolution Pool (Chained)",
-        "auraStrength": 0,
-        "size": "med"
+        "auraStrength": 0
       },
       "ownership": {
         "default": 0
@@ -2289,7 +2269,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -2420,8 +2399,7 @@
           "parts": []
         },
         "conditionals": [],
-        "identifiedName": "Link (Sum)",
-        "size": "med"
+        "identifiedName": "Link (Sum)"
       },
       "ownership": {
         "default": 0
@@ -2513,8 +2491,7 @@
               "minUnits": ""
             },
             "uses": {
-              "autoDeductCharges": false,
-              "autoDeductChargesCost": "1",
+              "autoDeductChargesCost": "0",
               "self": {
                 "value": 0,
                 "maxFormula": "",
@@ -2595,8 +2572,7 @@
           "per": "charges",
           "value": 1,
           "maxFormula": "3 + floor((@classes.eidolon.level + 1) / 5)",
-          "autoDeductCharges": false,
-          "autoDeductChargesCost": "1",
+          "autoDeductChargesCost": "0",
           "max": 3
         },
         "attackNotes": [],
@@ -2727,8 +2703,7 @@
         },
         "auraStrength": 0,
         "conditionals": [],
-        "identifiedName": "Maximum Attacks",
-        "size": "med"
+        "identifiedName": "Maximum Attacks"
       },
       "ownership": {
         "default": 0
@@ -2793,7 +2768,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -2936,8 +2910,7 @@
         },
         "auraStrength": 0,
         "conditionals": [],
-        "identifiedName": "Natural Armor Bonus",
-        "size": "med"
+        "identifiedName": "Natural Armor Bonus"
       },
       "ownership": {
         "default": 0
@@ -2980,7 +2953,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -3102,8 +3074,7 @@
         "identifiedName": "Requires Manual Setup",
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -3150,7 +3121,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -3279,8 +3249,7 @@
         },
         "attack": {
           "parts": []
-        },
-        "size": "med"
+        }
       },
       "ownership": {
         "default": 0
@@ -3345,7 +3314,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -3496,8 +3464,7 @@
         },
         "conditionals": [],
         "identifiedName": "STR/DEX Bonus",
-        "auraStrength": 0,
-        "size": "med"
+        "auraStrength": 0
       },
       "ownership": {
         "default": 0
@@ -3562,7 +3529,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -3694,8 +3660,7 @@
         },
         "auraStrength": 0,
         "conditionals": [],
-        "identifiedName": "Base Attack Bonus",
-        "size": "med"
+        "identifiedName": "Base Attack Bonus"
       },
       "ownership": {
         "default": 0
@@ -3760,7 +3725,6 @@
           "per": null,
           "value": 0,
           "maxFormula": "",
-          "autoDeductCharges": true,
           "autoDeductChargesCost": "1",
           "max": 0
         },
@@ -3891,8 +3855,7 @@
           "parts": []
         },
         "conditionals": [],
-        "identifiedName": "Eidolon Saves",
-        "size": "med"
+        "identifiedName": "Eidolon Saves"
       },
       "ownership": {
         "default": 0
@@ -5741,18 +5704,18 @@
     },
     "detectionModes": []
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.287",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1665428318465,
-    "modifiedTime": 1665949090232,
+    "modifiedTime": 1677435445791,
     "lastModifiedBy": "IPeKQhMz2Odi77tR"
-  }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0
 }

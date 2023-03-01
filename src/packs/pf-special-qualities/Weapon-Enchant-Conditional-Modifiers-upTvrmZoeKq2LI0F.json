@@ -47,8 +47,7 @@
           "minUnits": ""
         },
         "uses": {
-          "autoDeductCharges": true,
-          "autoDeductChargesCost": "1",
+          "autoDeductChargesCost": "",
           "self": {
             "value": 0,
             "maxFormula": "",
@@ -70,6 +69,41 @@
         "actionType": "mwak",
         "attackBonus": "",
         "critConfirmBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "critParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ],
+          "nonCritParts": [
+            [
+              "",
+              {
+                "values": [],
+                "custom": ""
+              }
+            ]
+          ]
+        },
+        "attackParts": [
+          [
+            "",
+            ""
+          ]
+        ],
         "formulaicAttacks": {
           "count": {
             "formula": ""
@@ -92,6 +126,12 @@
           "type": "fort",
           "description": ""
         },
+        "effectNotes": [
+          ""
+        ],
+        "attackNotes": [
+          ""
+        ],
         "soundEffect": "",
         "powerAttack": {
           "multiplier": "",
@@ -1829,55 +1869,13 @@
         ],
         "enh": {
           "value": null
-        },
-        "attackParts": [
-          [
-            "",
-            ""
-          ]
-        ],
-        "damage": {
-          "parts": [
-            [
-              "",
-              {
-                "values": [],
-                "custom": ""
-              }
-            ]
-          ],
-          "critParts": [
-            [
-              "",
-              {
-                "values": [],
-                "custom": ""
-              }
-            ]
-          ],
-          "nonCritParts": [
-            [
-              "",
-              {
-                "values": [],
-                "custom": ""
-              }
-            ]
-          ]
-        },
-        "attackNotes": [
-          ""
-        ],
-        "effectNotes": [
-          ""
-        ]
+        }
       }
     ],
     "uses": {
       "per": "",
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -2254,18 +2252,18 @@
     },
     "identifiedName": "*Weapon Enchant Conditional Modifiers"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.287",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1665428387060,
-    "modifiedTime": 1665951521821,
+    "modifiedTime": 1677435570918,
     "lastModifiedBy": "IPeKQhMz2Odi77tR"
-  }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0
 }

@@ -69,8 +69,7 @@
           "minUnits": ""
         },
         "uses": {
-          "autoDeductCharges": false,
-          "autoDeductChargesCost": "1",
+          "autoDeductChargesCost": "0",
           "self": {
             "value": 0,
             "maxFormula": "",
@@ -150,8 +149,7 @@
       "per": "charges",
       "value": 0,
       "maxFormula": "floor((@classes.eidolon.level - 1) * .75) + 1 + (((((@classes.eidolon.level - 1) * .75) * 100) % 100) >= 50 ? 1 : 0)",
-      "autoDeductCharges": false,
-      "autoDeductChargesCost": "1",
+      "autoDeductChargesCost": "0",
       "max": 0
     },
     "attackNotes": [],
@@ -221,23 +219,22 @@
     "attack": {},
     "identifiedName": "Evolution Pool (Unchained)",
     "auraStrength": 0,
-    "size": "med",
     "range": {
       "maxIncrements": 1
     }
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.287",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1665428321264,
-    "modifiedTime": 1665949091438,
+    "modifiedTime": 1677435447364,
     "lastModifiedBy": "IPeKQhMz2Odi77tR"
-  }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0
 }
