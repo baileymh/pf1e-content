@@ -1,5 +1,101 @@
 # Changelog
 
+## 0.3.4
+### Changelog
+* Migrate module for pf1 82.5 and foundry 10.291
+
+## 0.3.3
+### Changelog
+* Migrate module for pf1 82.2 and foundry 10.287
+* Add Buffs (with script calls) for new Senses implimentation (thanks @Folken#9051)
+* Includes: Blindsense, Blindsight, Darkvision, Low-light, Invisibility, See invisibility, tremorsense, trusight, and scent
+* Add Buffs for Fast Heal, Regen, and Bleed (requires Koboldworks - Regeneration)
+* Fix double penalty for Combat Expertise buff
+* Fix cost of Dusty Rose Cracked Ioun Stone
+
+## 0.3.2
+### Changelog
+* Migrate module for pf1 81.3 and foundry 9.269
+* Actually include updates to companions and features, eidolons, and evolutions (Thanks @websterguy#1136)
+* Create local version of PFS and 3.5e icons
+
+## 0.2.8
+### Changelog
+* Migrate module for pf 80.23 and foundry 9.269
+* Import new/fixed rolltables for various items (thanks @JustZisGuyYouKnow#3965 !)
+* Updates to companions and their features, eidolons and their evolutions (Thanks @websterguy#1136)
+
+## 0.2.7
+### Changelog
+* Fix Portable Hole
+* Updates to latest version of Foundry and PF1
+
+## 0.2.6
+### Changelog
+* Update process for Contributing
+* Add Contributing.md
+* Adjust minimum and compatible versions to be 9, rather than a more specific build
+* Migrate module for pf 80.9 and foundry 9.249
+
+## 0.2.5
+### Changelog
+* Made Handy Haversack a container with 100% weight reduction
+* Added skill modifiers and icon to Headband of Vast Intelligence
+* Added modifiers to Cloak of Resistance
+* Fixed merge script
+* Fix file naming to avoid errors
+* Added Changes to some Ioun stones
+
+## 0.2.4
+### Changelog
+- Add script that allows for merging of new items to compendiums (see github for instructions)
+- Modified update process
+
+## 0.2.3
+### Changelog
+- Migrate to latest foundry v0.9.242
+
+## 0.2.2
+### Changelog
+- Migrate to latest foundry v0.8.9
+- Add Common Weapon Enchant Conditional Modifiers to PF-Special Qualities compendium
+
+### Bugfixes
+- Fixed alchemist's fire not being a single-use consumable, and adding dex to attack
+
+## 0.2.1
+### Bugfixes
+- Evil eye AC and Skill Debuffs had incorrect Changes
+
+### Changelog
+- Finished Harrow Deck (Has custom artwork for cards and fixed broken links)
+- Merge various Let's Contribute changes.
+
+## 0.2.0
+### Changelog
+- Update to 0.8.8 and pf1 0.78.15
+- Merge Contribution changes
+- Add PF-Deities
+
+### Bugfixes
+- Fixed missing weight values on Kits
+- Fixed several broken icons
+- Fixed mismatched description for Draconic Bloodline (Sorcerer)
+
+## 0.1.72
+### Changelog
+- Migrate Mythic Adventures and Horror adventures to PF1e Rulebooks
+- Update compatibility
+
+### Bugfix
+- Fixes for Companions 
+- Additional formula fixes for eidolons (thanks websterguy for both)
+
+## 0.1.71
+### Bugfix
+- Fix formulas for Eidolons (thanks webster)
+- Merge changes through Let's Contribute
+
 ## 0.1.70
 ### Changelog
 - Added Occult Rituals
