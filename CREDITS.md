@@ -37,5 +37,24 @@ The icons used from their site can be accredited to the following artists:
 # Fair Strides (Fair Strides#2148)
 * Shared Animal Companion class and features
 
+# ChaosCowboy
+* contibuted with elephant in the room
+
+# Websterguy
+Various contributions to compendiums, formulas and class for companions and eidolons
+
+# apetina, david (aka claudekennilol), moorepants, ACorania, mana+2
+Various Contributions to the Compendiums and general help with questions and problems.
+
+# Vormav (Vormav#0464)
+* added Drug items, and other Contributions.
+
 # llneo12 
 * added images to feats, and helped with linking prestige classes
+
+# Zarek (Zarek#4201)
+* Added contribution and changes to items
+* Created Git Action to allow for fast and easy updating and release
+* Added the features to allow for compendium splitting, enabling PR for individual changes
+* Added script to unpack/repack files for release
+* Updated details regarding how to contribute now that Let's Contribute is retired
